@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "70901103",
+    "title": "昊天塔·激良",
+    "pdf_name": "70901103_昊天塔·激良.pdf",
+    "group_id": "70901000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 82,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70901103",
+    "source_date": "2018-08-23",
+    "synopsis_length": 107,
+    "notes_length": 252,
+    "marker_category_counts": {
+      "recitation": 5,
+      "spoken": 75,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 82.0,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "孟良",
+        "hangdang": "净",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 119
+      },
+      {
+        "name": "杨延昭",
+        "hangdang": "武生",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 103
+      },
+      {
+        "name": "岳胜",
+        "hangdang": "武生",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 71
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 35
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孟良",
+      "label": "孟良",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 30,
+      "text_length": 1079,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 27,
+        "other": 2
+      }
+    },
+    {
+      "id": "杨延昭",
+      "label": "杨延昭",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 27,
+      "text_length": 736,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 103,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "岳胜",
+      "label": "岳胜",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 17,
+      "text_length": 189,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 71,
+      "marker_category_counts": {
+        "spoken": 16,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 71,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孟良",
+      "target": "杨延昭",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "岳胜",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "岳胜",
+      "target": "杨延昭",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "孟良",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "杨延昭",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "岳胜",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

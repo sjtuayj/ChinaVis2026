@@ -1,0 +1,132 @@
+{
+  "play": {
+    "play_id": "03057006",
+    "title": "潇湘探病",
+    "pdf_name": "03057006_潇湘探病.pdf",
+    "group_id": "03000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 39,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/03057006",
+    "source_date": "2013-03-18",
+    "synopsis_length": 61,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 5,
+      "spoken": 33
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 44.666667,
+    "max_edge_weight": 37,
+    "top_characters": [
+      {
+        "name": "林黛玉",
+        "hangdang": "旦",
+        "speech_count": 19,
+        "degree": 2,
+        "weighted_degree": 66
+      },
+      {
+        "name": "贾宝玉",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 38
+      },
+      {
+        "name": "薛宝钗",
+        "hangdang": "旦",
+        "speech_count": 8,
+        "degree": 2,
+        "weighted_degree": 30
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "林黛玉",
+      "label": "林黛玉",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 19,
+      "text_length": 897,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 16,
+        "singing": 2
+      }
+    },
+    {
+      "id": "贾宝玉",
+      "label": "贾宝玉",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 234,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "薛宝钗",
+      "label": "薛宝钗",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 8,
+      "text_length": 286,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "林黛玉",
+      "target": "贾宝玉",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "林黛玉",
+      "target": "薛宝钗",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾宝玉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

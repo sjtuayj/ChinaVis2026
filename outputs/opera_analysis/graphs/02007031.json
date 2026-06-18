@@ -1,0 +1,226 @@
+{
+  "play": {
+    "play_id": "02007031",
+    "title": "目莲记",
+    "pdf_name": "02007031_目莲记【四本】.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 79,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/02007031",
+    "source_date": "2020-07-04",
+    "synopsis_length": 271,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 66,
+      "singing": 11,
+      "stage_action": 1,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 59.6,
+    "max_edge_weight": 47,
+    "top_characters": [
+      {
+        "name": "刘青提",
+        "hangdang": "老旦",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 95
+      },
+      {
+        "name": "大鬼",
+        "hangdang": "净",
+        "speech_count": 25,
+        "degree": 4,
+        "weighted_degree": 95
+      },
+      {
+        "name": "目莲僧",
+        "hangdang": "小生",
+        "speech_count": 21,
+        "degree": 3,
+        "weighted_degree": 87
+      },
+      {
+        "name": "众小鬼",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      },
+      {
+        "name": "小鬼",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘青提",
+      "label": "刘青提",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 29,
+      "text_length": 1326,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "singing": 10,
+        "spoken": 18,
+        "other": 1
+      }
+    },
+    {
+      "id": "大鬼",
+      "label": "大鬼",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 25,
+      "text_length": 540,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "spoken": 25
+      }
+    },
+    {
+      "id": "目莲僧",
+      "label": "目莲僧",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 21,
+      "text_length": 439,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 87,
+      "marker_category_counts": {
+        "spoken": 20,
+        "singing": 1
+      }
+    },
+    {
+      "id": "众小鬼",
+      "label": "众小鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 11,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "stage_action": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "小鬼",
+      "label": "小鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "大鬼",
+      "target": "目莲僧",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "大鬼",
+      "weight": 44,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "目莲僧",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众小鬼",
+      "target": "刘青提",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大鬼",
+      "target": "小鬼",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "小鬼",
+      "target": "目莲僧",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众小鬼",
+      "target": "大鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "小鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

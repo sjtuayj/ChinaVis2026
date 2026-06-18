@@ -1,0 +1,332 @@
+{
+  "play": {
+    "play_id": "01001019",
+    "title": "柴桑口",
+    "pdf_name": "01001019_柴桑口.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 71,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01001019",
+    "source_date": "2018-05-31",
+    "synopsis_length": 215,
+    "notes_length": 123,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 57,
+      "singing": 8,
+      "recitation": 2,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 39.142857,
+    "max_edge_weight": 45,
+    "top_characters": [
+      {
+        "name": "诸葛亮",
+        "hangdang": "老生",
+        "speech_count": 30,
+        "degree": 6,
+        "weighted_degree": 99
+      },
+      {
+        "name": "鲁肃",
+        "hangdang": "老生",
+        "speech_count": 20,
+        "degree": 6,
+        "weighted_degree": 77
+      },
+      {
+        "name": "周循",
+        "hangdang": "小生",
+        "speech_count": 11,
+        "degree": 5,
+        "weighted_degree": 49
+      },
+      {
+        "name": "庞统",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "张飞",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "诸葛亮",
+      "label": "诸葛亮",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 30,
+      "text_length": 889,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 21,
+        "singing": 5,
+        "recitation": 1,
+        "other": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 20,
+      "text_length": 349,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 18,
+        "singing": 1
+      }
+    },
+    {
+      "id": "周循",
+      "label": "周循",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 125,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    },
+    {
+      "id": "庞统",
+      "label": "庞统",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 114,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "张飞",
+      "label": "张飞",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 65,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四吴将",
+      "label": "四吴将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 25,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 62,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "诸葛亮",
+      "target": "鲁肃",
+      "weight": 45,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周循",
+      "target": "诸葛亮",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周循",
+      "target": "鲁肃",
+      "weight": 20,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "庞统",
+      "target": "诸葛亮",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四吴将",
+      "target": "鲁肃",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "诸葛亮",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "赵云",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "周循",
+      "target": "张飞",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周循",
+      "target": "庞统",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周循",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四吴将",
+      "target": "诸葛亮",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "庞统",
+      "target": "张飞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "庞统",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

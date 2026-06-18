@@ -1,0 +1,180 @@
+{
+  "play": {
+    "play_id": "02011047",
+    "title": "刺虎",
+    "pdf_name": "02011047_刺虎.pdf",
+    "group_id": "02000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 69,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02011047",
+    "source_date": "2018-08-23",
+    "synopsis_length": 116,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 8,
+      "spoken": 61
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 67.0,
+    "max_edge_weight": 87,
+    "top_characters": [
+      {
+        "name": "费贞娥",
+        "hangdang": "旦",
+        "speech_count": 31,
+        "degree": 3,
+        "weighted_degree": 111
+      },
+      {
+        "name": "李固",
+        "hangdang": "净",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 109
+      },
+      {
+        "name": "二宫女",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 41
+      },
+      {
+        "name": "四小军",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "费贞娥",
+      "label": "费贞娥",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 31,
+      "text_length": 1284,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 111,
+      "marker_category_counts": {
+        "other": 7,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "李固",
+      "label": "李固",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 27,
+      "text_length": 471,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 109,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 26
+      }
+    },
+    {
+      "id": "二宫女",
+      "label": "二宫女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 256,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "spoken": 10
+      }
+    },
+    {
+      "id": "四小军",
+      "label": "四小军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李固",
+      "target": "费贞娥",
+      "weight": 87,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "费贞娥",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "李固",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四小军",
+      "target": "李固",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "四小军",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四小军",
+      "target": "费贞娥",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7063 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02004002",
+    "title": "龙凤呈祥",
+    "aliases": [
+      "回荆州"
+    ],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02004002_龙凤呈祥【二本】.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 12,
+    "file_size_bytes": 471732,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "按《三国演义》载：刘备既从诸葛亮计，带领赵云、孙乾等，渡江赴南徐招亲。吴国太于佛寺看新郎之后，即令迁入宫馆，择吉成婚。乘龙之夕，刘备入洞房，见两廊枪刀簇簇，侍婢等皆佩剑悬刀，不胜惊疑。孙夫人知之，遂命尽行撤去。且笑谓曰：厮杀半生，尚惧兵器乎？既而孙权又用周瑜、张昭之计，修葺东府，盛设金玉锦绮玩好之物。并增女乐数十人，以子女玉帛玩丧其心志，藉以离间关、张、诸葛之情。刘备安居数月，果然为声色所迷，不想回归荆州。赖赵云开读诸葛亮第二锦囊，即依计奔入刘备室，伪作失惊状。报称曹操起精兵五十万，杀奔荆州，势甚危急，请主公即回云。刘备遂与孙夫人商议。幸孙夫人颇知大义，且已在屏后听得赵云之言，遂决计随刘备同回。先往禀明吴国太，伪称元旦日，须夫妇同往江边祭祖。刘备先命赵云，引军待于官道左。届时果得吴国太允许，夫妇遂得掩出，趱程而进，时建安十五年正月元旦也。此及孙权等知讯命将追赶，中途又连被孙夫人斥回。卒得安抵江边，为诸葛亮迎渡过江，盖皆诸葛亮之预为布置也。根据《国剧大成》第四集整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "三国、魏、吴、诸葛、刘备、曹操",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.92,
+      "evidence": [
+        "关",
+        "兵",
+        "将",
+        "枪",
+        "刀",
+        "杀"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_刘备",
+      "name": "刘备",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 36,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 9,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：刘备：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_孙尚香",
+      "name": "孙尚香",
+      "original_category": "旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 31,
+        "aria_count": 7,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 14,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙尚香：旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_赵云",
+      "name": "赵云",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 26,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "expression_count": 2,
+        "action_hint_count": 11,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：赵云：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_吴国太",
+      "name": "吴国太",
+      "original_category": "老旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 5,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：吴国太：老旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周瑜",
+      "name": "周瑜",
+      "original_category": "小生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "青年/少年",
+      "age_confidence": 0.68,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 11,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "小生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：周瑜：小生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 26,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：诸葛亮：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 10,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_黄忠",
+      "name": "黄忠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_魏延",
+      "name": "魏延",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张著",
+      "name": "张著",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_刘封",
+      "name": "刘封",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_琴童乙",
+      "name": "琴童乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "青年/少年",
+      "age_confidence": 0.68,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦",
+          "童"
+        ]
+      }
+    },
+    {
+      "role_id": "r_内侍甲",
+      "name": "内侍甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_丁奉",
+      "name": "丁奉",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_徐盛",
+      "name": "徐盛",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_蒋钦",
+      "name": "蒋钦",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周泰",
+      "name": "周泰",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_鲁肃",
+      "name": "鲁肃",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 17,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "张飞"
+      ],
+      "event_ids": [
+        "02004002_e00001",
+        "02004002_e00002",
+        "02004002_e00003",
+        "02004002_e00004",
+        "02004002_e00005",
+        "02004002_e00006"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 199
+      }
+    },
+    {
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 4,
+      "characters": [
+        "诸葛亮",
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封",
+        "张飞",
+        "琴童乙"
+      ],
+      "event_ids": [
+        "02004002_e00007",
+        "02004002_e00008",
+        "02004002_e00009",
+        "02004002_e00010",
+        "02004002_e00011",
+        "02004002_e00012",
+        "02004002_e00013",
+        "02004002_e00014",
+        "02004002_e00015",
+        "02004002_e00016",
+        "02004002_e00017",
+        "02004002_e00018",
+        "02004002_e00019",
+        "02004002_e00020",
+        "02004002_e00021",
+        "02004002_e00022",
+        "02004002_e00023",
+        "02004002_e00024",
+        "02004002_e00025",
+        "02004002_e00026",
+        "02004002_e00027",
+        "02004002_e00028",
+        "02004002_e00029",
+        "02004002_e00030",
+        "02004002_e00031",
+        "02004002_e00032",
+        "02004002_e00033",
+        "02004002_e00034",
+        "02004002_e00035",
+        "02004002_e00036",
+        "02004002_e00037",
+        "02004002_e00038",
+        "02004002_e00039",
+        "02004002_e00040",
+        "02004002_e00041",
+        "02004002_e00042",
+        "02004002_e00043",
+        "02004002_e00044",
+        "02004002_e00045",
+        "02004002_e00046",
+        "02004002_e00047",
+        "02004002_e00048",
+        "02004002_e00049",
+        "02004002_e00050",
+        "02004002_e00051",
+        "02004002_e00052",
+        "02004002_e00053",
+        "02004002_e00054",
+        "02004002_e00055",
+        "02004002_e00056",
+        "02004002_e00057",
+        "02004002_e00058",
+        "02004002_e00059",
+        "02004002_e00060",
+        "02004002_e00061",
+        "02004002_e00062",
+        "02004002_e00063",
+        "02004002_e00064",
+        "02004002_e00065",
+        "02004002_e00066",
+        "02004002_e00067"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 61,
+        "spoken_count": 37,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 8,
+        "expression_count": 0,
+        "text_length": 1151
+      }
+    },
+    {
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 4,
+      "page_end": 4,
+      "characters": [
+        "赵云"
+      ],
+      "event_ids": [
+        "02004002_e00068",
+        "02004002_e00069",
+        "02004002_e00070",
+        "02004002_e00071",
+        "02004002_e00072",
+        "02004002_e00073"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 118
+      }
+    },
+    {
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 4,
+      "page_end": 6,
+      "characters": [
+        "刘备",
+        "赵云",
+        "内侍甲",
+        "孙尚香"
+      ],
+      "event_ids": [
+        "02004002_e00074",
+        "02004002_e00075",
+        "02004002_e00076",
+        "02004002_e00077",
+        "02004002_e00078",
+        "02004002_e00079",
+        "02004002_e00080",
+        "02004002_e00081",
+        "02004002_e00082",
+        "02004002_e00083",
+        "02004002_e00084",
+        "02004002_e00085",
+        "02004002_e00086",
+        "02004002_e00087",
+        "02004002_e00088",
+        "02004002_e00089",
+        "02004002_e00090",
+        "02004002_e00091",
+        "02004002_e00092",
+        "02004002_e00093",
+        "02004002_e00094",
+        "02004002_e00095",
+        "02004002_e00096",
+        "02004002_e00097",
+        "02004002_e00098",
+        "02004002_e00099",
+        "02004002_e00100",
+        "02004002_e00101",
+        "02004002_e00102",
+        "02004002_e00103",
+        "02004002_e00104",
+        "02004002_e00105",
+        "02004002_e00106",
+        "02004002_e00107",
+        "02004002_e00108",
+        "02004002_e00109",
+        "02004002_e00110",
+        "02004002_e00111",
+        "02004002_e00112",
+        "02004002_e00113",
+        "02004002_e00114",
+        "02004002_e00115",
+        "02004002_e00116",
+        "02004002_e00117",
+        "02004002_e00118",
+        "02004002_e00119",
+        "02004002_e00120",
+        "02004002_e00121",
+        "02004002_e00122",
+        "02004002_e00123",
+        "02004002_e00124",
+        "02004002_e00125",
+        "02004002_e00126",
+        "02004002_e00127",
+        "02004002_e00128",
+        "02004002_e00129",
+        "02004002_e00130",
+        "02004002_e00131",
+        "02004002_e00132",
+        "02004002_e00133",
+        "02004002_e00134",
+        "02004002_e00135",
+        "02004002_e00136",
+        "02004002_e00137",
+        "02004002_e00138",
+        "02004002_e00139",
+        "02004002_e00140",
+        "02004002_e00141",
+        "02004002_e00142",
+        "02004002_e00143",
+        "02004002_e00144"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 71,
+        "spoken_count": 51,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 6,
+        "expression_count": 2,
+        "text_length": 1126
+      }
+    },
+    {
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 6,
+      "page_end": 7,
+      "characters": [
+        "吴国太",
+        "孙尚香"
+      ],
+      "event_ids": [
+        "02004002_e00145",
+        "02004002_e00146",
+        "02004002_e00147",
+        "02004002_e00148",
+        "02004002_e00149",
+        "02004002_e00150",
+        "02004002_e00151",
+        "02004002_e00152",
+        "02004002_e00153",
+        "02004002_e00154",
+        "02004002_e00155",
+        "02004002_e00156",
+        "02004002_e00157",
+        "02004002_e00158",
+        "02004002_e00159",
+        "02004002_e00160",
+        "02004002_e00161",
+        "02004002_e00162",
+        "02004002_e00163",
+        "02004002_e00164",
+        "02004002_e00165",
+        "02004002_e00166",
+        "02004002_e00167",
+        "02004002_e00168",
+        "02004002_e00169",
+        "02004002_e00170",
+        "02004002_e00171",
+        "02004002_e00172",
+        "02004002_e00173",
+        "02004002_e00174",
+        "02004002_e00175",
+        "02004002_e00176",
+        "02004002_e00177",
+        "02004002_e00178",
+        "02004002_e00179",
+        "02004002_e00180",
+        "02004002_e00181",
+        "02004002_e00182",
+        "02004002_e00183",
+        "02004002_e00184",
+        "02004002_e00185",
+        "02004002_e00186",
+        "02004002_e00187",
+        "02004002_e00188",
+        "02004002_e00189",
+        "02004002_e00190",
+        "02004002_e00191",
+        "02004002_e00192",
+        "02004002_e00193",
+        "02004002_e00194",
+        "02004002_e00195",
+        "02004002_e00196",
+        "02004002_e00197"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 53,
+        "spoken_count": 32,
+        "aria_count": 12,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 821
+      }
+    },
+    {
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 7,
+      "page_end": 8,
+      "characters": [
+        "刘备",
+        "孙尚香",
+        "赵云"
+      ],
+      "event_ids": [
+        "02004002_e00198",
+        "02004002_e00199",
+        "02004002_e00200",
+        "02004002_e00201",
+        "02004002_e00202",
+        "02004002_e00203",
+        "02004002_e00204",
+        "02004002_e00205",
+        "02004002_e00206",
+        "02004002_e00207",
+        "02004002_e00208",
+        "02004002_e00209",
+        "02004002_e00210",
+        "02004002_e00211",
+        "02004002_e00212",
+        "02004002_e00213",
+        "02004002_e00214",
+        "02004002_e00215"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 18,
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 256
+      }
+    },
+    {
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 8,
+      "page_end": 9,
+      "characters": [
+        "周瑜",
+        "报子",
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰",
+        "鲁肃"
+      ],
+      "event_ids": [
+        "02004002_e00216",
+        "02004002_e00217",
+        "02004002_e00218",
+        "02004002_e00219",
+        "02004002_e00220",
+        "02004002_e00221",
+        "02004002_e00222",
+        "02004002_e00223",
+        "02004002_e00224",
+        "02004002_e00225",
+        "02004002_e00226",
+        "02004002_e00227",
+        "02004002_e00228",
+        "02004002_e00229",
+        "02004002_e00230",
+        "02004002_e00231",
+        "02004002_e00232",
+        "02004002_e00233",
+        "02004002_e00234",
+        "02004002_e00235",
+        "02004002_e00236",
+        "02004002_e00237",
+        "02004002_e00238",
+        "02004002_e00239",
+        "02004002_e00240",
+        "02004002_e00241",
+        "02004002_e00242",
+        "02004002_e00243",
+        "02004002_e00244",
+        "02004002_e00245",
+        "02004002_e00246",
+        "02004002_e00247",
+        "02004002_e00248",
+        "02004002_e00249",
+        "02004002_e00250",
+        "02004002_e00251",
+        "02004002_e00252",
+        "02004002_e00253",
+        "02004002_e00254",
+        "02004002_e00255",
+        "02004002_e00256",
+        "02004002_e00257",
+        "02004002_e00258",
+        "02004002_e00259",
+        "02004002_e00260",
+        "02004002_e00261",
+        "02004002_e00262",
+        "02004002_e00263",
+        "02004002_e00264",
+        "02004002_e00265",
+        "02004002_e00266",
+        "02004002_e00267",
+        "02004002_e00268",
+        "02004002_e00269",
+        "02004002_e00270",
+        "02004002_e00271",
+        "02004002_e00272"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 57,
+        "spoken_count": 42,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 11,
+        "expression_count": 0,
+        "text_length": 962
+      }
+    },
+    {
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "title": "第八场",
+      "page_start": 9,
+      "page_end": 10,
+      "characters": [
+        "刘备",
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰",
+        "孙尚香",
+        "赵云"
+      ],
+      "event_ids": [
+        "02004002_e00273",
+        "02004002_e00274",
+        "02004002_e00275",
+        "02004002_e00276",
+        "02004002_e00277",
+        "02004002_e00278",
+        "02004002_e00279",
+        "02004002_e00280",
+        "02004002_e00281",
+        "02004002_e00282",
+        "02004002_e00283",
+        "02004002_e00284"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 12,
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 283
+      }
+    },
+    {
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "title": "第九场",
+      "page_start": 10,
+      "page_end": 11,
+      "characters": [
+        "刘备",
+        "周瑜",
+        "孙尚香",
+        "赵云"
+      ],
+      "event_ids": [
+        "02004002_e00285",
+        "02004002_e00286",
+        "02004002_e00287",
+        "02004002_e00288",
+        "02004002_e00289",
+        "02004002_e00290",
+        "02004002_e00291",
+        "02004002_e00292",
+        "02004002_e00293",
+        "02004002_e00294",
+        "02004002_e00295",
+        "02004002_e00296",
+        "02004002_e00297",
+        "02004002_e00298",
+        "02004002_e00299",
+        "02004002_e00300",
+        "02004002_e00301",
+        "02004002_e00302"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 18,
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 374
+      }
+    },
+    {
+      "scene_id": "02004002_s10",
+      "scene_no": 10,
+      "title": "第十场",
+      "page_start": 11,
+      "page_end": 11,
+      "characters": [],
+      "event_ids": [
+        "02004002_e00303"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 1,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 1,
+        "expression_count": 0,
+        "text_length": 9
+      }
+    },
+    {
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "title": "第十一场",
+      "page_start": 11,
+      "page_end": 12,
+      "characters": [
+        "刘备",
+        "赵云",
+        "诸葛亮",
+        "张飞",
+        "孙尚香"
+      ],
+      "event_ids": [
+        "02004002_e00304",
+        "02004002_e00305",
+        "02004002_e00306",
+        "02004002_e00307",
+        "02004002_e00308",
+        "02004002_e00309",
+        "02004002_e00310",
+        "02004002_e00311",
+        "02004002_e00312",
+        "02004002_e00313",
+        "02004002_e00314",
+        "02004002_e00315",
+        "02004002_e00316",
+        "02004002_e00317",
+        "02004002_e00318",
+        "02004002_e00319",
+        "02004002_e00320",
+        "02004002_e00321",
+        "02004002_e00322",
+        "02004002_e00323",
+        "02004002_e00324",
+        "02004002_e00325",
+        "02004002_e00326",
+        "02004002_e00327",
+        "02004002_e00328",
+        "02004002_e00329",
+        "02004002_e00330",
+        "02004002_e00331",
+        "02004002_e00332",
+        "02004002_e00333",
+        "02004002_e00334",
+        "02004002_e00335",
+        "02004002_e00336",
+        "02004002_e00337",
+        "02004002_e00338",
+        "02004002_e00339",
+        "02004002_e00340",
+        "02004002_e00341",
+        "02004002_e00342",
+        "02004002_e00343",
+        "02004002_e00344"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 41,
+        "spoken_count": 29,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 415
+      }
+    },
+    {
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "title": "第十二场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "张飞",
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "event_ids": [
+        "02004002_e00345",
+        "02004002_e00346",
+        "02004002_e00347",
+        "02004002_e00348",
+        "02004002_e00349",
+        "02004002_e00350"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 98
+      }
+    },
+    {
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "title": "第十三场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "周瑜"
+      ],
+      "event_ids": [
+        "02004002_e00351",
+        "02004002_e00352",
+        "02004002_e00353",
+        "02004002_e00354",
+        "02004002_e00355"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 39
+      }
+    },
+    {
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "title": "第十四场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封",
+        "张飞"
+      ],
+      "event_ids": [
+        "02004002_e00356",
+        "02004002_e00357",
+        "02004002_e00358",
+        "02004002_e00359",
+        "02004002_e00360"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 1,
+        "text_length": 97
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02004002_e00001",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂引张飞同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00002",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "异姓同胞，扶汉室，扫灭孙曹。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004002_e00003",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "英雄秉性刚，威名在当阳。汉室无敌将，一声断桥梁。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00004",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "俺、姓张名飞字翼德。弟兄桃园结义，剿灭黄巾，辅助灾汉，坐镇荆襄。只因孙权定下美人之计，诓哄大哥过江招亲，且喜婚姻已成。军师有言在先，年终大哥驾回荆州。日期已到，并无音信。不免去见军师，问过吉凶，免得俺老张挂心啊！来，打道！",
+      "text_length": 111
+    },
+    {
+      "event_id": "02004002_e00005",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "当阳独把曹贼挡，桃园结义刘关张。天下烟尘俱扫荡，炎汉基业永遐昌。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00006",
+      "play_id": "02004002",
+      "scene_id": "02004002_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、张飞同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00007",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 7,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二琴童引诸葛亮同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00008",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 8,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "桓、灵无道宠张让，董卓乱朝焚脐亡。蔡邕哭尸法场上，可怜才子一命亡。王允连环有志量，一计害死二贪狼。汉室三雄争疆场，俱想霸业独称王。https://scripts.xikao.com/play/020040022022-02-01曹得天时官拜相，孙权地利兵将强；吾主人和仁义仗，恰好似蛟龙在云雾藏。主在东吴心安享，山人岂可失阴阳。",
+      "text_length": 164
+    },
+    {
+      "event_id": "02004002_e00009",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 9,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "山人诸葛亮。吾主东吴招亲，看看将近年终，必须安排兵将，迎接主公。来，拿我令箭，传黄忠、魏延、张著、刘封前来听令。",
+      "text_length": 56
+    },
+    {
+      "event_id": "02004002_e00010",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "琴童甲下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00011",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "周郎吓周郎，任你千方百计，至此枉用心机也！",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004002_e00012",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "管教你损兵又折将，羞愧难以回柴桑。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00013",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠、魏延、张著、刘封同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004002_e00014",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "text": "参见师爷！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00015",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众将少礼。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00016",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "text": "先生有何差遣？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00017",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "主公东吴招亲，喜得龙凤相配。山人已许年终接驾转回荆州。我已安排大船，你等各带大兵一千，沿江埋伏，截杀周郎，听我令下！",
+      "text_length": 58
+    },
+    {
+      "event_id": "02004002_e00018",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "战船我已安排停当，各带人马下长江。程途休搭军营帐，悄悄埋伏在船舱。追杀来兵休卤莽，我自有妙计退周郎。",
+      "text_length": 50
+    },
+    {
+      "event_id": "02004002_e00019",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00020",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠、魏延、张著、刘封同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004002_e00021",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "只为荆州兵截挡，千方百计枉思量。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00022",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00023",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "梦寐忧思我兄长，年终不见回荆襄。先生阴阳皆虚谎，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00024",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮抚琴。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00025",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "琴声激怒某心肠。未曾通报不敢闯，",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00026",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童乙"
+      ],
+      "text": "三千岁到！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00027",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00028",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00029",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你快活逍遥乐安康！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00030",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "托三千岁之福。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00031",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "兄长之事他不讲，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00032",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "罢！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004002_e00033",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "暂将恶气抛一旁。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00034",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁驾临必有所为。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 59
+    },
+    {
+      "event_id": "02004002_e00035",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你说俺大哥几时回来？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00036",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "年终驾回。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00037",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "今是什么日期了？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00038",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "腊月之中。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00039",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 33,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "某大哥呢？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00040",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 34,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "东吴招亲。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00041",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "怎么还不回来？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00042",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "日期未到。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00043",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00044",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三雄鼎力刀兵攘，天下黎民俱凄凉。徐庶道你如子房，顾请先生出龙冈。头次火攻烧博望，曹兵一半受灾殃。江东六郡孙权掌，美人之计将兄诓。看看年终无影响，龙驾为何不还乡？",
+      "text_length": 80
+    },
+    {
+      "event_id": "02004002_e00045",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00046",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "古今良缘月老掌，主公跨凤已呈祥。夫行自有妻同往，古言好事哪在忙！",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00047",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生算定我嫂嫂一同回来？",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00048",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "一同回来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00049",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "只为荆州屡不让，计诓龙虎落平阳。主回荆州龙出网，镇江之间路途长。周郎帐下人马广，未必善放我兄王。",
+      "text_length": 48
+    },
+    {
+      "event_id": "02004002_e00050",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你道周郎能调将，我笑他无知小儿郎。他命现在我手中掌，临死方知我阴阳。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02004002_e00051",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生，我大哥平安无事而归？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00052",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "平安无事而归。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00053",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "无兵阻拦？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00054",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "虽有兵将，难阻龙驾。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00055",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "既有先见之明，就该调遣兵将，沿江接驾。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02004002_e00056",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我已遣了黄忠、魏延等，带领人马，早备战船，沿江接驾去了。军务已毕，三千岁请出帐去罢！",
+      "text_length": 42
+    },
+    {
+      "event_id": "02004002_e00057",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "既是俺大哥龙驾回銮，也该差俺老张一差。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02004002_e00058",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁要去？",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00059",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "要去！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00060",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "如此三千岁也并舟同往，山人随后。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00061",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "着着着，好先生吓！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00062",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "跨甲并舟兵雄壮，钢鞭蛇矛带身旁。吴兵若追某大兄长，",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004002_e00063",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "马来！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00064",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "俺杀他个搅海与翻江。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 59
+    },
+    {
+      "event_id": "02004002_e00065",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 59,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00066",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 60,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "临行我扮渔父样，算定吴兵不提防。非是我诸葛自夸奖，周郎设计枉思量。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004002_e00067",
+      "play_id": "02004002",
+      "scene_id": "02004002_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 61,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮、琴童乙同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00068",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 68,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云上，起霸。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00069",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 69,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "虎威常山将，英名非自狂。保主奇险地，赤胆扶刘王。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00070",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 70,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "俺、姓赵名云字子龙。奉军师之命，保主过江招亲。先生言道：请主公驾返荆州。正是：",
+      "text_length": 39
+    },
+    {
+      "event_id": "02004002_e00071",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 71,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "洛阳景虽美，不是久居家。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00072",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 72,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "昔在袁绍军帐下，后归北壁掌生杀。八门金锁人惊怕，横胆将军谁不夸。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00073",
+      "play_id": "02004002",
+      "scene_id": "02004002_s03",
+      "scene_no": 3,
+      "seq_global": 73,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00074",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 74,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二内侍引刘备同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00075",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 75,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "深宫无处不飞花，年老也配女娇娃。深感太后恩义大，多蒙乔公美意佳。朝欢暮乐无牵挂，闷听笙歌闹喧哗。",
+      "text_length": 48
+    },
+    {
+      "event_id": "02004002_e00076",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 76,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00077",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 77,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "宫庭不敢跨战马，君臣之礼岂能差。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00078",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 78,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "宫门有人么？",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00079",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 79,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "什么人？原来是四将军。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00080",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 80,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "烦劳通禀。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00081",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 81,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "四将军到。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00082",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 82,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "命他进宫。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00083",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 83,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "四将军进宫。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00084",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 84,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "是。主公千岁！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00085",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 85,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "四弟少礼。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00086",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 86,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "谢主公。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00087",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 87,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "四弟还未曾去么？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00088",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 88,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主公不曾吩咐，臣往哪里去？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00089",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 89,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你往荆州去吓！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00090",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 90,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "特来请驾同行。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00091",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 91,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你回去对先生与我二弟、三弟言道：太后待我恩重，那郡主十分贤德，孤在此好、好、好，不回去了。",
+      "text_length": 45
+    },
+    {
+      "event_id": "02004002_e00092",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 92,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主公不回，荆州大事，何人料理？",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00093",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 93,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "有先生料理，何须忧虑？孤好快乐也！",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00094",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 94,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "还是回荆州的是。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00095",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 95,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "再要劝我，孤就不耐烦了！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00096",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 96,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "咳！https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 51
+    },
+    {
+      "event_id": "02004002_e00097",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 97,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哦是了，你一人孤栖冷淡，我这里宫娥们多会弹唱，叫他们唱一出解解闷罢。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02004002_e00098",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 98,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主公吓！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00099",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 99,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "特来进宫请龙驾，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00100",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 100,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "不必絮烦了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00101",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 101,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "迷恋不肯回长沙。此地奇险无害怕，祸到临头方知差。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00102",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 102,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "出宫去罢！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00103",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 103,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "是。哎呀！主公不想回转荆州，这便怎么处？哦有了，先生送驾过江，暗赠俺锦囊三道，到吴开拆了一道。也罢，待我将这第二道再拆开看来！",
+      "text_length": 63
+    },
+    {
+      "event_id": "02004002_e00104",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 104,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主到东吴地，迷恋不还乡。进宫报一信，曹操夺荆襄。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00105",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 105,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "吓哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00106",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 106,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "待我进宫。哎呀主公，大事不好了！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00107",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 107,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香暗上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00108",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 108,
+      "seq_in_scene": 35,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "何事惊慌？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00109",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 109,
+      "seq_in_scene": 36,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "先生差人前来报道：曹操不服前输，要报赤壁之仇，起动五路大兵，攻夺荆州。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02004002_e00110",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 110,
+      "seq_in_scene": 37,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "怎么，曹操人马攻夺荆州？",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00111",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 111,
+      "seq_in_scene": 38,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "正是！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00112",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 112,
+      "seq_in_scene": 39,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哎呀不好了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00113",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 113,
+      "seq_in_scene": 40,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "曹操许昌兴人马，攻破荆州把孤拿。子龙之言必非假，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00114",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 114,
+      "seq_in_scene": 41,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "四弟吓！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00115",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 42,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "桃园弟兄怎安插？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00116",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 43,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "事到如今，速回荆州，再作定夺。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00117",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 44,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "只是难舍郡主。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00118",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 45,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "郡主若是知道，就走不成了。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00119",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 46,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "如此你准备起行，我自有道理。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004002_e00120",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 47,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00121",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 48,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00122",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 122,
+      "seq_in_scene": 49,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "吓郡主，我刘备要逃走了吓！",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00123",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 123,
+      "seq_in_scene": 50,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "本当在此闲潇洒，失去荆州哪是家？潜逃我心常牵挂，难舍郡主女娇娃。舍不得太后恩情大，舍不得乔公美意佳。见郡主难说分离话，",
+      "text_length": 59
+    },
+    {
+      "event_id": "02004002_e00124",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 124,
+      "seq_in_scene": 51,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "哭头",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哎呀妻吓！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00125",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 125,
+      "seq_in_scene": 52,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "千语万语瞒过她。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00126",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 126,
+      "seq_in_scene": 53,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "吓贵人！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00127",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 127,
+      "seq_in_scene": 54,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "郡主来了，请坐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00128",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 128,
+      "seq_in_scene": 55,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "贵人为何落泪？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00129",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 129,
+      "seq_in_scene": 56,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "这……哎呀郡主吓，孤虽在此安乐，奈今已年终，祖先坟墓未曾祭扫，故而落泪。",
+      "text_length": 36
+    },
+    {
+      "event_id": "02004002_e00130",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 130,
+      "seq_in_scene": 57,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "方才赵云进宫何事？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00131",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 131,
+      "seq_in_scene": 58,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "无非问安而已。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00132",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 132,
+      "seq_in_scene": 59,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "哪里是问安！分明是军师差人来报，曹操兴兵攻夺荆州，可是？",
+      "text_length": 28
+    },
+    {
+      "event_id": "02004002_e00133",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 133,
+      "seq_in_scene": 60,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "郡主吓，既然被你听见，备也不能隐瞒。那曹操若攻荆州，我桃园弟兄就无安身之处了。本当悄悄逃回荆州，我实是难舍郡主的美意吓！",
+      "text_length": 60
+    },
+    {
+      "event_id": "02004002_e00134",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 134,
+      "seq_in_scene": 61,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "吓贵人，我虽女流，亦知大义。嫁夫随夫，乃人之大礼。你既是归心似箭，待https://scripts.xikao.com/play/020040022022-02-01奴进宫辞别母后，与你同行就是。",
+      "text_length": 98
+    },
+    {
+      "event_id": "02004002_e00135",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 135,
+      "seq_in_scene": 62,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "郡主可是真心？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00136",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 136,
+      "seq_in_scene": 63,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "焉有假意。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00137",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 137,
+      "seq_in_scene": 64,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "好，请上受我一拜！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00138",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 138,
+      "seq_in_scene": 65,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "贵人请起。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00139",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 139,
+      "seq_in_scene": 66,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "令兄若是行强霸，还要好言回复他。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00140",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 140,
+      "seq_in_scene": 67,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "贵人哪！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00141",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 141,
+      "seq_in_scene": 68,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "男已完婚女已嫁，兄有言来奴有答。且将愁眉暂放下，登山涉水走天涯。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00142",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 142,
+      "seq_in_scene": 69,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00143",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 143,
+      "seq_in_scene": 70,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "他进宫去别母后的驾，我准备起行等候她。根深哪怕狂风大，树正何惧月影斜！",
+      "text_length": 35
+    },
+    {
+      "event_id": "02004002_e00144",
+      "play_id": "02004002",
+      "scene_id": "02004002_s04",
+      "scene_no": 4,
+      "seq_global": 144,
+      "seq_in_scene": 71,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00145",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 145,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "堪叹光阴去不转，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00146",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 146,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "太监引吴国太同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00147",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 147,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "渡过春秋数十年。夫君为玺遭大难，长子孙策短寿延。孙权六郡独掌管，马放南山将安眠。尚香女招婿无挂念，养老宫中乐安然。",
+      "text_length": 57
+    },
+    {
+      "event_id": "02004002_e00148",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 148,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "摆驾！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00149",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 149,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00150",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 150,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "腮边有泪眉难展，低头见母话难言。跌跪尘埃袖遮面，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00151",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 151,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "平身！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00152",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 152,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "我婿玄德可安然？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00153",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 153,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "贵人问母后金安。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00154",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 154,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "我儿进宫何事？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00155",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 155,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "今已年终，贵人要到江边，望祭刘氏先祖，女儿同行。特来辞别母后。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004002_e00156",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 156,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "江边祭祖，不过一时就要回来，何须辞我？去罢！",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004002_e00157",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 157,
+      "seq_in_scene": 13,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "谢母后！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00158",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 158,
+      "seq_in_scene": 14,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香哭。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00159",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 159,
+      "seq_in_scene": 15,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "转来，既是去到江边一祭刘氏祖先，儿为何两眼落泪？",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00160",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 160,
+      "seq_in_scene": 16,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "女儿不曾吓！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00161",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 161,
+      "seq_in_scene": 17,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "儿呀，有何心事？就该禀明为娘，何故相瞒吓！",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004002_e00162",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 162,
+      "seq_in_scene": 18,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "哎呀母亲吓！适才赵云报道：曹贼兴动人马，攻夺荆州。为此女儿辞别母亲，要同贵人同往荆州。",
+      "text_length": 43
+    },
+    {
+      "event_id": "02004002_e00163",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 163,
+      "seq_in_scene": 19,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "哦原来为此！好吓，男儿四海为家，女子从夫为本。又道是在家从父母，出嫁从丈夫。儿既要同贵人回转荆州，也是从夫之大礼，你、你、你就去罢！",
+      "text_length": 66
+    },
+    {
+      "event_id": "02004002_e00164",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 164,
+      "seq_in_scene": 20,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "女儿难舍母亲吓！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00165",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 165,
+      "seq_in_scene": 21,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "虽是母女难以割舍，无奈儿是出嫁之女，为娘也不能强留。儿同贵人可即速起程，莫待你兄得知，你夫妻就走不成了！https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 101
+    },
+    {
+      "event_id": "02004002_e00166",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 166,
+      "seq_in_scene": 22,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "可要贵人见母一面？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00167",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 167,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "哎呀，他的归心似箭，要他来见娘则甚？你、你、你就快快去罢！",
+      "text_length": 29
+    },
+    {
+      "event_id": "02004002_e00168",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 168,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "母后，亲娘，哎呀！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00169",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 169,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "儿行百步娘挂念，孩儿见母各一天。终身奉戴娘恩典，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00170",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 170,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "expression",
+      "mode_label": "哭头",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "哎呀儿的娘吓！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00171",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 171,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "生离死别最可怜。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00172",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 172,
+      "seq_in_scene": 28,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "儿吓！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00173",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 173,
+      "seq_in_scene": 29,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "只为荆州结仇怨，诓哄刘备配良缘。儿婚本是娘择选，媒妁江东老乔玄。当今皇叔配姻眷，这是美玉归蓝田。去心犹如弦上箭，",
+      "text_length": 56
+    },
+    {
+      "event_id": "02004002_e00174",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 174,
+      "seq_in_scene": 30,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "难舍母后一老年。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00175",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 175,
+      "seq_in_scene": 31,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "为娘年老身康健，寿命二字终由天。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00176",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 176,
+      "seq_in_scene": 32,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "儿吓！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00177",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 177,
+      "seq_in_scene": 33,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "你兄闻知事有变，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00178",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 178,
+      "seq_in_scene": 34,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "不顾祸福随夫还。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00179",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 179,
+      "seq_in_scene": 35,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "哎呀，罢！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00180",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 180,
+      "seq_in_scene": 36,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "含悲别母出宫院，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00181",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 181,
+      "seq_in_scene": 37,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "儿转来！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00182",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 182,
+      "seq_in_scene": 38,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "哦！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004002_e00183",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 183,
+      "seq_in_scene": 39,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "母后叫儿有何言？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00184",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 184,
+      "seq_in_scene": 40,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "儿此去柴桑关乃是周瑜镇守，岂肯放你夫妻过去？",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004002_e00185",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 185,
+      "seq_in_scene": 41,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "这个……",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00186",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 186,
+      "seq_in_scene": 42,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "不妨，为娘赐儿宝剑一口，路上有人阻拦，便斩他首级，为娘作主。",
+      "text_length": 30
+    },
+    {
+      "event_id": "02004002_e00187",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 187,
+      "seq_in_scene": 43,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "谢母后！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00188",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 188,
+      "seq_in_scene": 44,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "军令不胜三尺剑，兄命哪有母命严！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00189",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 189,
+      "seq_in_scene": 45,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "母后！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00190",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 190,
+      "seq_in_scene": 46,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "吾儿！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00191",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 191,
+      "seq_in_scene": 47,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "女儿去了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00192",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 192,
+      "seq_in_scene": 48,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "去吧！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00193",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 193,
+      "seq_in_scene": 49,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "罢！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004002_e00194",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 194,
+      "seq_in_scene": 50,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00195",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 195,
+      "seq_in_scene": 51,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "尚香，我儿，儿啦！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00196",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 196,
+      "seq_in_scene": 52,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "吴国太"
+      ],
+      "text": "瞬目之间儿不见，一旦娇女离膝前。只求苍天相怜鉴，愿他夫妻永安然，",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00197",
+      "play_id": "02004002",
+      "scene_id": "02004002_s05",
+      "scene_no": 5,
+      "seq_global": 197,
+      "seq_in_scene": 53,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "吴国太下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00198",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 198,
+      "seq_in_scene": 1,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、赵云同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00199",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 199,
+      "seq_in_scene": 2,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "郡主进宫辞太后，为何许久不回头？四弟备马宫门候，顷刻鳌鱼脱金钩。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 81
+    },
+    {
+      "event_id": "02004002_e00200",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 200,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00201",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 201,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "龙离沙滩凤随走，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00202",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 202,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "参见郡主！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00203",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 203,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "平身。哎呀贵人吓！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00204",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 204,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "展开愁眉且免忧。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00205",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 205,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "吓郡主，太后有何金言？",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00206",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 206,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "母后赠有宝剑一口，若是柴桑关有人拦挡，任凭你我夫妻取斩。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02004002_e00207",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 207,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "太后如此恩德，就请郡主改妆。四弟快快备马！",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004002_e00208",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 208,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00209",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 209,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "深感国太恩德厚，逃走只怕孙仲谋。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00210",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 210,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙尚香上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00211",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 211,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "柴桑阻拦有剑一口，大海蛟龙任遨游。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00212",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 212,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "四弟带过马走兽，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00213",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 213,
+      "seq_in_scene": 16,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00214",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 214,
+      "seq_in_scene": 17,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "先生锦囊亏我留。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00215",
+      "play_id": "02004002",
+      "scene_id": "02004002_s06",
+      "scene_no": 6,
+      "seq_global": 215,
+      "seq_in_scene": 18,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00216",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 216,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四白龙套、中军引周瑜同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00217",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 217,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "点绛唇",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "手握兵符，关当要路，仗英武，威镇东吴，令出谁敢阻！",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004002_e00218",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 218,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "黄金印可宝，为将须英豪。休笑青年貌，势压刘与曹！",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00219",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 219,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "本帅，姓周名瑜字公瑾。吴侯驾前为臣，官拜大都督，统领水军，威镇柴桑。可恨刘备，久借荆州不还。我与吴侯，定下一美人之计，诓哄刘备过江招亲。谁知太后弄假成真，由太后作主，将郡主招赘。是我又生一计，宫中广种花木，教妓歌舞，使刘备失志，不思回转荆州，老死东吴。荆襄一带，岂不是唾手而得？刘备吓刘备，你中我之计也！",
+      "text_length": 152
+    },
+    {
+      "event_id": "02004002_e00220",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 220,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00221",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 221,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启都督：刘备带领郡主，逃回荆州去了！",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004002_e00222",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 222,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00223",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 223,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子应，下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00224",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 224,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "来，传丁奉、徐盛等进帐。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00225",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 225,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "中军下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00226",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 226,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "刘备吓刘备，你就是雀鸟，也难飞过柴桑去也！",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004002_e00227",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 227,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "中军、丁奉、徐盛、蒋钦、周泰同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00228",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 228,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰"
+      ],
+      "text": "都督有何将令？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00229",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 229,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "今有刘备带领郡主逃回荆州。命你等扎住山冈要路，阻挡刘备，不得有误！",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004002_e00230",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 230,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00231",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 231,
+      "seq_in_scene": 16,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "丁奉、徐盛、蒋钦、周泰同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004002_e00232",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 232,
+      "seq_in_scene": 17,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "众将官，追赶刘备去者！",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00233",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 233,
+      "seq_in_scene": 18,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "慢、慢、慢着！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00234",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 234,
+      "seq_in_scene": 19,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00235",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 235,
+      "seq_in_scene": 20,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "明明知道刘备走，https://scripts.xikao.com/play/020040022022-02-01都督苦苦作对头。凡事若不早料就，过后方知失计谋。",
+      "text_length": 81
+    },
+    {
+      "event_id": "02004002_e00236",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 236,
+      "seq_in_scene": 21,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "哎呀都督吓！刘备同郡主回转荆州，乃是正理，为何反要阻挡，是何意也？",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004002_e00237",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 237,
+      "seq_in_scene": 22,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "要将他囚死东吴！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00238",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 238,
+      "seq_in_scene": 23,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "使不得！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00239",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 239,
+      "seq_in_scene": 24,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "怎么使不得？",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00240",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 240,
+      "seq_in_scene": 25,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "他是娇客吓！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00241",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 241,
+      "seq_in_scene": 26,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "什么娇客？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00242",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 242,
+      "seq_in_scene": 27,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "难为你吓，献这美人之计，诓刘备过江招亲。谁知以假成真，太后作主，将郡主招赘了刘备。想刘备乃太后的门婿，他岂不是娇客么？",
+      "text_length": 59
+    },
+    {
+      "event_id": "02004002_e00243",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 243,
+      "seq_in_scene": 28,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吓大夫，我好容易将他诓过江来，难道轻轻的放他回去不成？",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004002_e00244",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 244,
+      "seq_in_scene": 29,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "不难不难，只要都督多预备几个美人，慢说诓哄刘备，就是那张飞他也是愿意来的吓！",
+      "text_length": 38
+    },
+    {
+      "event_id": "02004002_e00245",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 245,
+      "seq_in_scene": 30,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004002_e00246",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 246,
+      "seq_in_scene": 31,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜洒。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00247",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 247,
+      "seq_in_scene": 32,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "我一定将他囚死东吴！",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00248",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 248,
+      "seq_in_scene": 33,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "太后未必肯依。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00249",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 249,
+      "seq_in_scene": 34,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吴侯作主。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00250",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 250,
+      "seq_in_scene": 35,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "荆州兴兵前来？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00251",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 251,
+      "seq_in_scene": 36,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "本督抵挡。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00252",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 252,
+      "seq_in_scene": 37,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "那孔明的诡计是厉害的吓！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00253",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 253,
+      "seq_in_scene": 38,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "鲁大夫你也忒怕孔明了！",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00254",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 254,
+      "seq_in_scene": 39,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "怎么？",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00255",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 255,
+      "seq_in_scene": 40,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "他主刘备，现被我困住，那孔明他还有什么计？",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004002_e00256",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 256,
+      "seq_in_scene": 41,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "都督不记得赤壁鏖兵，火烧战船，你命那孔明在南屏山祭借东风，差了丁奉、徐盛，刺杀于他，他尚且逃走，几乎将你气死。难道那不是孔明的计么？",
+      "text_length": 66
+    },
+    {
+      "event_id": "02004002_e00257",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 257,
+      "seq_in_scene": 42,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜气。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00258",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 258,
+      "seq_in_scene": 43,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "都督不要动气，这生气的日子，还在后头呢！",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004002_e00259",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 259,
+      "seq_in_scene": 44,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吓大夫！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00260",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 260,
+      "seq_in_scene": 45,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "都督！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00261",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 261,
+      "seq_in_scene": 46,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "你不要管我的闲事！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00262",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 262,
+      "seq_in_scene": 47,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "哪个管你的闲事！作朋友的热心，我不过是劝你几句！",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004002_e00263",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 263,
+      "seq_in_scene": 48,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吓老兄！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00264",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 264,
+      "seq_in_scene": 49,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "不敢，少弟！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00265",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 265,
+      "seq_in_scene": 50,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "你是老实人哪！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00266",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 266,
+      "seq_in_scene": 51,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "唔，我是老实人，说得老实话吓！",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00267",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 267,
+      "seq_in_scene": 52,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "哎呀，鲁大夫吃醉了酒了。中军，送他出去，",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004002_e00268",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 268,
+      "seq_in_scene": 53,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "哈哈，反说我吃醉了！哎！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00269",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 269,
+      "seq_in_scene": 54,
+      "page_no": 9,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "此时不听我言语，中计败阵后悔迟！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00270",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 270,
+      "seq_in_scene": 55,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00271",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 271,
+      "seq_in_scene": 56,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "众将官，追赶刘备去者！",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00272",
+      "play_id": "02004002",
+      "scene_id": "02004002_s07",
+      "scene_no": 7,
+      "seq_global": 272,
+      "seq_in_scene": 57,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00273",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 273,
+      "seq_in_scene": 1,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香、赵云同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00274",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 274,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "加鞭催马休迟慢，怕的吴兵追赶还。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00275",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 275,
+      "seq_in_scene": 3,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "丁奉、徐盛、蒋钦、周泰同上。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 63
+    },
+    {
+      "event_id": "02004002_e00276",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 276,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰"
+      ],
+      "text": "呔，刘备哪里走！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00277",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 277,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "吓，你等前来则甚？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00278",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 278,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰"
+      ],
+      "text": "奉都督之命，请皇叔、郡主回去。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00279",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 279,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "奴奉母命同贵人回转荆州，你等追来，莫非要抢劫我等行装不成？赵云与我斩了！",
+      "text_length": 36
+    },
+    {
+      "event_id": "02004002_e00280",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 280,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "呀呔！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00281",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 281,
+      "seq_in_scene": 9,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "赵云铁胆英雄汉，猛虎何惧犬遮拦！主公龙驾慢催趱，独退吴兵有何难！",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004002_e00282",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 282,
+      "seq_in_scene": 10,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香、赵云同下。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00283",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 283,
+      "seq_in_scene": 11,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "丁奉",
+        "徐盛",
+        "蒋钦",
+        "周泰"
+      ],
+      "text": "列位将军，郡主与主公乃是兄妹，伤了她有些不便。又有赵云保护，难以下手，你我回复都督便了！",
+      "text_length": 44
+    },
+    {
+      "event_id": "02004002_e00284",
+      "play_id": "02004002",
+      "scene_id": "02004002_s08",
+      "scene_no": 8,
+      "seq_global": 284,
+      "seq_in_scene": 12,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "丁奉、徐盛、蒋钦、周泰同下。四白龙套、中军、周瑜同上，过场，同下。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004002_e00285",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 285,
+      "seq_in_scene": 1,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香、赵云同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00286",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 286,
+      "seq_in_scene": 2,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宫中欢乐尘途惨，懒观绿水与青山。耳旁又听人马喊，怕的是吴兵追赶还！",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004002_e00287",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 287,
+      "seq_in_scene": 3,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四白龙套、中军、丁奉、徐盛、蒋钦、周泰、周瑜同上。",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004002_e00288",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 288,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "呔！刘备哪里走！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00289",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 289,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "周瑜你赶来则甚？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00290",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 290,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "奉了主公之命，请皇叔、郡主回去。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00291",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 291,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "我奉母命，同贵人回去，你敢阻拦于我？赵云捧太后宝剑，与我斩之！",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004002_e00292",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 292,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "遵命哪！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00293",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 293,
+      "seq_in_scene": 9,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "子龙将军浑身胆，英雄祖籍在常山。昔日也曾除国患，浩气凌云义心丹。北壁曾扶公孙瓒，八门金锁破曹瞒。长坂坡独挡兵百万，血流成河江水翻。七进曹营兵遭难，手中长枪血不干。转旗歇鼓收兵转，老爷留你活命还！不惜性命强争战，俺学关公过五关。",
+      "text_length": 113
+    },
+    {
+      "event_id": "02004002_e00294",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 294,
+      "seq_in_scene": 10,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "捧我宝剑将他斩！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00295",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 295,
+      "seq_in_scene": 11,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "周瑜！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00296",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 296,
+      "seq_in_scene": 12,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你姑老爷要走，你们谁敢拦！https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 62
+    },
+    {
+      "event_id": "02004002_e00297",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 297,
+      "seq_in_scene": 13,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "看剑！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00298",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 298,
+      "seq_in_scene": 14,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00299",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 299,
+      "seq_in_scene": 15,
+      "page_no": 11,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00300",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 300,
+      "seq_in_scene": 16,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。周瑜气。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00301",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 301,
+      "seq_in_scene": 17,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "刘备逃走，吴侯闻知，岂不归罪于我？众将官追！",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004002_e00302",
+      "play_id": "02004002",
+      "scene_id": "02004002_s09",
+      "scene_no": 9,
+      "seq_global": 302,
+      "seq_in_scene": 18,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00303",
+      "play_id": "02004002",
+      "scene_id": "02004002_s10",
+      "scene_no": 10,
+      "seq_global": 303,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上，过场，下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00304",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 304,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、孙尚香、赵云同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00305",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 305,
+      "seq_in_scene": 2,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "紧紧追来好蜂涌，插翅难飞到九重。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00306",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 306,
+      "seq_in_scene": 3,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "吓四弟，前是大江，后来追兵，这便怎么处？",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004002_e00307",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 307,
+      "seq_in_scene": 4,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主公不必惊慌，待臣看来！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004002_e00308",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 308,
+      "seq_in_scene": 5,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "打鱼！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00309",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 309,
+      "seq_in_scene": 6,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "主公，现有渔船在此。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00310",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 310,
+      "seq_in_scene": 7,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "快叫他过来！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00311",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 311,
+      "seq_in_scene": 8,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "呔，渔船摇过来！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00312",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 312,
+      "seq_in_scene": 9,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "来了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00313",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 313,
+      "seq_in_scene": 10,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00314",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 314,
+      "seq_in_scene": 11,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三雄斗志刀兵动，引出南阳一卧龙。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00315",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 315,
+      "seq_in_scene": 12,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮下船。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00316",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 316,
+      "seq_in_scene": 13,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "诸葛亮接驾！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00317",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 317,
+      "seq_in_scene": 14,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哎呀先生，你弄得好险事吓！",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004002_e00318",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 318,
+      "seq_in_scene": 15,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "险中有喜。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00319",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 319,
+      "seq_in_scene": 16,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "快快搭了扶手。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00320",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 320,
+      "seq_in_scene": 17,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "催舟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00321",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 321,
+      "seq_in_scene": 18,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00322",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 322,
+      "seq_in_scene": 19,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "吓大哥，龙驾安好？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004002_e00323",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 323,
+      "seq_in_scene": 20,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "三弟可好？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00324",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 324,
+      "seq_in_scene": 21,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "咱皇嫂呢？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00325",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 325,
+      "seq_in_scene": 22,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "一同回来了。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00326",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 326,
+      "seq_in_scene": 23,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "待小弟见过。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00327",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 327,
+      "seq_in_scene": 24,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "这是三弟。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00328",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 328,
+      "seq_in_scene": 25,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "小弟张飞参拜。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00329",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 329,
+      "seq_in_scene": 26,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙尚香"
+      ],
+      "text": "三叔万福。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00330",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 330,
+      "seq_in_scene": 27,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00331",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 331,
+      "seq_in_scene": 28,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生也来了？好先生！",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00332",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 332,
+      "seq_in_scene": 29,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖内喊声〗。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00333",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 333,
+      "seq_in_scene": 30,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "追兵来了，如何是好？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00334",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 334,
+      "seq_in_scene": 31,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "大哥不要惊慌，待小弟杀他娘的回去！",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00335",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 335,
+      "seq_in_scene": 32,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "且慢！吩咐下去，众将站在高坡之上，高声喊叫：周郎妙计安天下，赔了夫人又折兵。周郎到此，只可惊走，不可捉拿，记下了！",
+      "text_length": 57
+    },
+    {
+      "event_id": "02004002_e00336",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 336,
+      "seq_in_scene": 33,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "喳喳喳！催舟！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004002_e00337",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 337,
+      "seq_in_scene": 34,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00338",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 338,
+      "seq_in_scene": 35,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "请吾主驾转荆州。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 57
+    },
+    {
+      "event_id": "02004002_e00339",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 339,
+      "seq_in_scene": 36,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "正是：",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00340",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 340,
+      "seq_in_scene": 37,
+      "page_no": 12,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "堪笑周郎心枉想，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00341",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 341,
+      "seq_in_scene": 38,
+      "page_no": 12,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "诓哄我主配鸾凰。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00342",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 342,
+      "seq_in_scene": 39,
+      "page_no": 12,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "龙凤呈祥驾回转，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00343",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 343,
+      "seq_in_scene": 40,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "诸葛亮",
+        "赵云"
+      ],
+      "text": "羞杀无知小周郎！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004002_e00344",
+      "play_id": "02004002",
+      "scene_id": "02004002_s11",
+      "scene_no": 11,
+      "seq_global": 344,
+      "seq_in_scene": 41,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00345",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 345,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、黄忠、魏延、张著、刘封同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00346",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 346,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哈哈哈！众位将军，人马埋伏，待俺在此说几句大话，气死这囚囊的！",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004002_e00347",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 347,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00348",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 348,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "text": "周郎妙计安天下，赔了夫人又折兵！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004002_e00349",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 349,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "周郎，咱大哥多谢你的美人之计！",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00350",
+      "play_id": "02004002",
+      "scene_id": "02004002_s12",
+      "scene_no": 12,
+      "seq_global": 350,
+      "seq_in_scene": 6,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜气，会阵，败下。张飞追下。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004002_e00351",
+      "play_id": "02004002",
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "seq_global": 351,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00352",
+      "play_id": "02004002",
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "seq_global": 352,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "苍天哪苍天，想俺屡次中计，岂不活活气死我也！",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004002_e00353",
+      "play_id": "02004002",
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "seq_global": 353,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜气，吐。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004002_e00354",
+      "play_id": "02004002",
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "seq_global": 354,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "收兵！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004002_e00355",
+      "play_id": "02004002",
+      "scene_id": "02004002_s13",
+      "scene_no": 13,
+      "seq_global": 355,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周瑜下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004002_e00356",
+      "play_id": "02004002",
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "seq_global": 356,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、黄忠、魏延、张著、刘封同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004002_e00357",
+      "play_id": "02004002",
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "seq_global": 357,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延",
+        "张著",
+        "刘封"
+      ],
+      "text": "周瑜败走，",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004002_e00358",
+      "play_id": "02004002",
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "seq_global": 358,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "败兵不可追赶，收兵！",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004002_e00359",
+      "play_id": "02004002",
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "seq_global": 359,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "expression",
+      "mode_label": "三笑",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哈哈，哈哈，吓哈哈哈！",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004002_e00360",
+      "play_id": "02004002",
+      "scene_id": "02004002_s14",
+      "scene_no": 14,
+      "seq_global": 360,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。https://scripts.xikao.com/play/020040022022-02-01",
+      "text_length": 54
+    }
+  ],
+  "roles_inferred": true
+}

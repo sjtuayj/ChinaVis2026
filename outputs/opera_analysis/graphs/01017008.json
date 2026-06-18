@@ -1,0 +1,182 @@
+{
+  "play": {
+    "play_id": "01017008",
+    "title": "斩貂蝉",
+    "pdf_name": "01017008_斩貂蝉.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 65,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01017008",
+    "source_date": "2013-03-18",
+    "synopsis_length": 191,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 52,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 66.0,
+    "max_edge_weight": 115,
+    "top_characters": [
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 32,
+        "degree": 3,
+        "weighted_degree": 127
+      },
+      {
+        "name": "貂蝉",
+        "hangdang": "旦",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 119
+      },
+      {
+        "name": "马童",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 32,
+      "text_length": 781,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 127,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 28,
+        "singing": 3
+      }
+    },
+    {
+      "id": "貂蝉",
+      "label": "貂蝉",
+      "raw_role": "小旦",
+      "hangdang": "旦",
+      "speech_count": 30,
+      "text_length": 663,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "spoken": 21,
+        "singing": 9
+      }
+    },
+    {
+      "id": "马童",
+      "label": "马童",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 11,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "貂蝉",
+      "weight": 115,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 57,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "马童",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "关羽",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "貂蝉",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "马童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "貂蝉",
+      "target": "马童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

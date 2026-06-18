@@ -1,0 +1,270 @@
+{
+  "play": {
+    "play_id": "05024008",
+    "title": "曹营见母",
+    "pdf_name": "05024008_曹营见母.pdf",
+    "group_id": "05000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 52,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/05024008",
+    "source_date": "2013-03-15",
+    "synopsis_length": 52,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 6,
+      "spoken": 44,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 11,
+    "density": 0.733333,
+    "avg_degree": 3.666667,
+    "avg_weighted_degree": 35.333333,
+    "max_edge_weight": 22,
+    "top_characters": [
+      {
+        "name": "徐庶",
+        "hangdang": "老生",
+        "speech_count": 18,
+        "degree": 5,
+        "weighted_degree": 66
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 5,
+        "weighted_degree": 46
+      },
+      {
+        "name": "曹操",
+        "hangdang": "净",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 37
+      },
+      {
+        "name": "程昱",
+        "hangdang": "老生",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "徐母",
+        "hangdang": "老旦",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 25
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "徐庶",
+      "label": "徐庶",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 18,
+      "text_length": 775,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "spoken": 16,
+        "singing": 2
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 84,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 46,
+      "marker_category_counts": {
+        "spoken": 10
+      }
+    },
+    {
+      "id": "曹操",
+      "label": "曹操",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 9,
+      "text_length": 168,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6,
+        "singing": 2
+      }
+    },
+    {
+      "id": "程昱",
+      "label": "程昱",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 7,
+      "text_length": 103,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "徐母",
+      "label": "徐母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 6,
+      "text_length": 390,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 27,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "徐庶",
+      "target": "院子",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "曹操",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "徐母",
+      "target": "院子",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹操",
+      "target": "程昱",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "徐庶",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "徐母",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "程昱",
+      "target": "院子",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "程昱",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "徐母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹操",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

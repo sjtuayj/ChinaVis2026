@@ -1,0 +1,332 @@
+{
+  "play": {
+    "play_id": "03060004",
+    "title": "花亭射妖",
+    "pdf_name": "03060004_花亭射妖.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 4,
+    "speech_count": 105,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/03060004",
+    "source_date": "2018-10-25",
+    "synopsis_length": 90,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 75,
+      "recitation": 7,
+      "stage_action": 1,
+      "singing": 20
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 61.428571,
+    "max_edge_weight": 117,
+    "top_characters": [
+      {
+        "name": "柴荣",
+        "hangdang": "老生",
+        "speech_count": 42,
+        "degree": 6,
+        "weighted_degree": 167
+      },
+      {
+        "name": "赵匡胤",
+        "hangdang": "红生",
+        "speech_count": 40,
+        "degree": 6,
+        "weighted_degree": 157
+      },
+      {
+        "name": "郭威",
+        "hangdang": "未知",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 53
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 4,
+        "weighted_degree": 26
+      },
+      {
+        "name": "旗牌",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "柴荣",
+      "label": "柴荣",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 42,
+      "text_length": 630,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 167,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 30,
+        "recitation": 3,
+        "singing": 8
+      }
+    },
+    {
+      "id": "赵匡胤",
+      "label": "赵匡胤",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 40,
+      "text_length": 540,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "spoken": 24,
+        "stage_action": 1,
+        "recitation": 3,
+        "singing": 12
+      }
+    },
+    {
+      "id": "郭威",
+      "label": "郭威",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 14,
+      "text_length": 335,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 53,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 14,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 51,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四文堂",
+      "label": "四文堂",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "柴荣",
+      "target": "赵匡胤",
+      "weight": 117,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 57,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "柴荣",
+      "target": "郭威",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "赵匡胤",
+      "target": "郭威",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "柴荣",
+      "target": "院子",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "赵匡胤",
+      "target": "院子",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "柴荣",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四文堂",
+      "target": "旗牌",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四文堂",
+      "target": "柴荣",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "柴荣",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "郭威",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "赵匡胤",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四文堂",
+      "target": "赵匡胤",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四文堂",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "赵匡胤",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

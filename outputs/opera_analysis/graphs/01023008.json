@@ -1,0 +1,187 @@
+{
+  "play": {
+    "play_id": "01023008",
+    "title": "乔醋",
+    "pdf_name": "01023008_乔醋.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 141,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01023008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 247,
+    "notes_length": 144,
+    "marker_category_counts": {
+      "other": 10,
+      "recitation": 3,
+      "spoken": 120,
+      "singing": 8
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 141.0,
+    "max_edge_weight": 211,
+    "top_characters": [
+      {
+        "name": "潘安仁",
+        "hangdang": "小生",
+        "speech_count": 67,
+        "degree": 3,
+        "weighted_degree": 265
+      },
+      {
+        "name": "井文鸾",
+        "hangdang": "旦",
+        "speech_count": 57,
+        "degree": 3,
+        "weighted_degree": 227
+      },
+      {
+        "name": "瑶琴",
+        "hangdang": "丑",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 57
+      },
+      {
+        "name": "彩鹤",
+        "hangdang": "旦",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "潘安仁",
+      "label": "潘安仁",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 67,
+      "text_length": 1408,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 265,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 62,
+        "singing": 2
+      }
+    },
+    {
+      "id": "井文鸾",
+      "label": "井文鸾",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 57,
+      "text_length": 809,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 227,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 44,
+        "recitation": 1,
+        "other": 7
+      }
+    },
+    {
+      "id": "瑶琴",
+      "label": "瑶琴",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 14,
+      "text_length": 267,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 57,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "彩鹤",
+      "label": "彩鹤",
+      "raw_role": "丑旦",
+      "hangdang": "旦",
+      "speech_count": 3,
+      "text_length": 15,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 2,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "井文鸾",
+      "target": "潘安仁",
+      "weight": 211,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 105,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "潘安仁",
+      "target": "瑶琴",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "井文鸾",
+      "target": "瑶琴",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "井文鸾",
+      "target": "彩鹤",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "彩鹤",
+      "target": "潘安仁",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "彩鹤",
+      "target": "瑶琴",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "play": {
+    "play_id": "01006002",
+    "title": "战长沙",
+    "pdf_name": "01006002_战长沙.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 11,
+    "speech_count": 124,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01006002",
+    "source_date": "2018-08-23",
+    "synopsis_length": 677,
+    "notes_length": 87,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 33,
+      "recitation": 7,
+      "spoken": 83
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 13,
+    "density": 0.866667,
+    "avg_degree": 4.333333,
+    "avg_weighted_degree": 76.333333,
+    "max_edge_weight": 85,
+    "top_characters": [
+      {
+        "name": "黄忠",
+        "hangdang": "老生",
+        "speech_count": 44,
+        "degree": 5,
+        "weighted_degree": 168
+      },
+      {
+        "name": "魏延",
+        "hangdang": "净",
+        "speech_count": 37,
+        "degree": 4,
+        "weighted_degree": 135
+      },
+      {
+        "name": "韩玄",
+        "hangdang": "老生",
+        "speech_count": 23,
+        "degree": 5,
+        "weighted_degree": 91
+      },
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 42
+      },
+      {
+        "name": "报子",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 5,
+        "weighted_degree": 14
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "黄忠",
+      "label": "黄忠",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 44,
+      "text_length": 1123,
+      "scene_count": 8,
+      "degree": 5,
+      "weighted_degree": 168,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 27,
+        "singing": 15
+      }
+    },
+    {
+      "id": "魏延",
+      "label": "魏延",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 37,
+      "text_length": 663,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 135,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 24,
+        "singing": 10
+      }
+    },
+    {
+      "id": "韩玄",
+      "label": "韩玄",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 23,
+      "text_length": 664,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 91,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 16,
+        "singing": 5
+      }
+    },
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 17,
+      "text_length": 648,
+      "scene_count": 6,
+      "degree": 3,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 3,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "报子",
+      "label": "报子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 13,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "手下",
+      "label": "手下",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 11,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "魏延",
+      "target": "黄忠",
+      "weight": 85,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 41,
+      "scenes": [
+        "scene_002",
+        "scene_010",
+        "scene_011"
+      ]
+    },
+    {
+      "source": "韩玄",
+      "target": "黄忠",
+      "weight": 44,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_002",
+        "scene_005",
+        "scene_007",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "韩玄",
+      "target": "魏延",
+      "weight": 42,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_002",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "黄忠",
+      "weight": 36,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_003",
+        "scene_004",
+        "scene_006",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "报子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "魏延",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "韩玄",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "魏延",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "黄忠",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "韩玄",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "黄忠",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "韩玄",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

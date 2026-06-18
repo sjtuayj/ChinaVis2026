@@ -1,0 +1,3454 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "70901136",
+    "title": "升平宝筏·激猴",
+    "aliases": [],
+    "collection_id": "70901000",
+    "collection_name": "侯玉山剧本选",
+    "collection_remark": "《侯玉山昆曲谱》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/70901000/70901136_升平宝筏·激猴.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 6,
+    "file_size_bytes": 404040,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "孙悟空重回花果山后，猪八戒和沙僧保护唐三藏继续往西天取经，路经碗子山波月洞，遇黄袍妖，三人被难。力战不过，猪八戒逃出，直奔花果山，以诓言激怒孙悟空，并引孙悟空赶到碗子山波月洞，搭救师父唐三藏。",
+    "notes": [
+      "《激猴》亦称《请猴》，即《升平宝筏》第九十八出。原题：“美猴王激怒下山”。",
+      "《升平宝筏》清张照撰。全十本，共二百四十出。据《西游记》唐三藏西天取经故事改编而成。为清宫承应",
+      "传奇巨制之一。",
+      "根据《侯玉山昆曲谱》整理"
+    ],
+    "story_period": {
+      "label": "神话传说",
+      "evidence": "天宫、仙、妖",
+      "confidence": 0.83
+    },
+    "play_genre": {
+      "label": "家庭戏",
+      "confidence": 0.58,
+      "evidence": [
+        "父",
+        "子"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_孙悟空",
+      "name": "孙悟空",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 48,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙悟空：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_猪八戒",
+      "name": "猪八戒",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 58,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：猪八戒：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_通臂猿",
+      "name": "通臂猿",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众猴",
+      "name": "众猴",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 15,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "通臂猿",
+        "猪八戒"
+      ],
+      "event_ids": [
+        "70901136_e00001",
+        "70901136_e00002",
+        "70901136_e00003",
+        "70901136_e00004",
+        "70901136_e00005",
+        "70901136_e00006",
+        "70901136_e00007",
+        "70901136_e00008",
+        "70901136_e00009",
+        "70901136_e00010",
+        "70901136_e00011",
+        "70901136_e00012",
+        "70901136_e00013",
+        "70901136_e00014",
+        "70901136_e00015",
+        "70901136_e00016",
+        "70901136_e00017",
+        "70901136_e00018",
+        "70901136_e00019",
+        "70901136_e00020",
+        "70901136_e00021",
+        "70901136_e00022",
+        "70901136_e00023",
+        "70901136_e00024",
+        "70901136_e00025",
+        "70901136_e00026",
+        "70901136_e00027",
+        "70901136_e00028",
+        "70901136_e00029",
+        "70901136_e00030",
+        "70901136_e00031",
+        "70901136_e00032"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 25,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 560
+      }
+    },
+    {
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 5,
+      "characters": [
+        "孙悟空",
+        "通臂猿",
+        "众猴",
+        "猪八戒"
+      ],
+      "event_ids": [
+        "70901136_e00033",
+        "70901136_e00034",
+        "70901136_e00035",
+        "70901136_e00036",
+        "70901136_e00037",
+        "70901136_e00038",
+        "70901136_e00039",
+        "70901136_e00040",
+        "70901136_e00041",
+        "70901136_e00042",
+        "70901136_e00043",
+        "70901136_e00044",
+        "70901136_e00045",
+        "70901136_e00046",
+        "70901136_e00047",
+        "70901136_e00048",
+        "70901136_e00049",
+        "70901136_e00050",
+        "70901136_e00051",
+        "70901136_e00052",
+        "70901136_e00053",
+        "70901136_e00054",
+        "70901136_e00055",
+        "70901136_e00056",
+        "70901136_e00057",
+        "70901136_e00058",
+        "70901136_e00059",
+        "70901136_e00060",
+        "70901136_e00061",
+        "70901136_e00062",
+        "70901136_e00063",
+        "70901136_e00064",
+        "70901136_e00065",
+        "70901136_e00066",
+        "70901136_e00067",
+        "70901136_e00068",
+        "70901136_e00069",
+        "70901136_e00070",
+        "70901136_e00071",
+        "70901136_e00072",
+        "70901136_e00073",
+        "70901136_e00074",
+        "70901136_e00075",
+        "70901136_e00076",
+        "70901136_e00077",
+        "70901136_e00078",
+        "70901136_e00079",
+        "70901136_e00080",
+        "70901136_e00081",
+        "70901136_e00082",
+        "70901136_e00083",
+        "70901136_e00084",
+        "70901136_e00085",
+        "70901136_e00086",
+        "70901136_e00087",
+        "70901136_e00088",
+        "70901136_e00089",
+        "70901136_e00090",
+        "70901136_e00091",
+        "70901136_e00092",
+        "70901136_e00093",
+        "70901136_e00094",
+        "70901136_e00095",
+        "70901136_e00096",
+        "70901136_e00097",
+        "70901136_e00098",
+        "70901136_e00099",
+        "70901136_e00100",
+        "70901136_e00101",
+        "70901136_e00102",
+        "70901136_e00103",
+        "70901136_e00104",
+        "70901136_e00105",
+        "70901136_e00106",
+        "70901136_e00107",
+        "70901136_e00108",
+        "70901136_e00109",
+        "70901136_e00110",
+        "70901136_e00111",
+        "70901136_e00112",
+        "70901136_e00113",
+        "70901136_e00114",
+        "70901136_e00115",
+        "70901136_e00116",
+        "70901136_e00117",
+        "70901136_e00118",
+        "70901136_e00119",
+        "70901136_e00120",
+        "70901136_e00121",
+        "70901136_e00122",
+        "70901136_e00123",
+        "70901136_e00124",
+        "70901136_e00125",
+        "70901136_e00126",
+        "70901136_e00127",
+        "70901136_e00128",
+        "70901136_e00129",
+        "70901136_e00130",
+        "70901136_e00131",
+        "70901136_e00132",
+        "70901136_e00133",
+        "70901136_e00134",
+        "70901136_e00135",
+        "70901136_e00136",
+        "70901136_e00137",
+        "70901136_e00138",
+        "70901136_e00139",
+        "70901136_e00140",
+        "70901136_e00141",
+        "70901136_e00142",
+        "70901136_e00143",
+        "70901136_e00144",
+        "70901136_e00145",
+        "70901136_e00146",
+        "70901136_e00147",
+        "70901136_e00148",
+        "70901136_e00149",
+        "70901136_e00150",
+        "70901136_e00151",
+        "70901136_e00152",
+        "70901136_e00153",
+        "70901136_e00154",
+        "70901136_e00155",
+        "70901136_e00156",
+        "70901136_e00157",
+        "70901136_e00158",
+        "70901136_e00159",
+        "70901136_e00160",
+        "70901136_e00161",
+        "70901136_e00162",
+        "70901136_e00163",
+        "70901136_e00164",
+        "70901136_e00165",
+        "70901136_e00166",
+        "70901136_e00167",
+        "70901136_e00168",
+        "70901136_e00169",
+        "70901136_e00170",
+        "70901136_e00171",
+        "70901136_e00172",
+        "70901136_e00173",
+        "70901136_e00174",
+        "70901136_e00175",
+        "70901136_e00176",
+        "70901136_e00177",
+        "70901136_e00178",
+        "70901136_e00179",
+        "70901136_e00180",
+        "70901136_e00181",
+        "70901136_e00182",
+        "70901136_e00183",
+        "70901136_e00184",
+        "70901136_e00185",
+        "70901136_e00186",
+        "70901136_e00187",
+        "70901136_e00188",
+        "70901136_e00189",
+        "70901136_e00190",
+        "70901136_e00191",
+        "70901136_e00192"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 160,
+        "spoken_count": 112,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 13,
+        "expression_count": 0,
+        "text_length": 3030
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "70901136_e00001",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "通臂猿上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00002",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "人说仙家日月迟，仙家日月快如斯。遥遥百岁人间事，只换山中一局棋。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70901136_e00003",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "俺，齐天大圣总部先锋通臂猿。俺主自从大闹天宫，至今五百馀年，今日重整花果山，复兴水帘洞。你看花果山，峭壁萦青，猿啼鹤唳。正是：",
+      "text_length": 63
+    },
+    {
+      "event_id": "70901136_e00004",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "洞天福地人间有，金阙银宫世上稀。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70901136_e00005",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "俺在此伺候。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00006",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00007",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "时辰三两个，肚里有点饿。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00008",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "走了多少山，也不知哪是花果山，走了多少洞，也不知哪是水帘洞。来此，哎呀！那边有个小猴儿，待我逗逗他。",
+      "text_length": 50
+    },
+    {
+      "event_id": "70901136_e00009",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "啊，你是哪来的野人？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00010",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你睁眼吧，我是家人哪。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00011",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "你敢是奸细？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00012",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我还是团细哪，我说小猴儿，这是花果山吗？",
+      "text_length": 20
+    },
+    {
+      "event_id": "70901136_e00013",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "正是花果山。你是什么人？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00014",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我告诉你说，我是你们大王的兄弟，二大王猪八爷。",
+      "text_length": 23
+    },
+    {
+      "event_id": "70901136_e00015",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "哦，你就是那猪八戒吗？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00016",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猪八爷！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00017",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "猪八戒！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00018",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "就算是猪八戒。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00019",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "我们大王时常想你。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00020",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "哥儿们有交情嘛。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00021",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "恨入其骨！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00022",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "方才说常常思念，怎么又恨入其骨哪？哎，思念也罢，恨入其骨也罢，小猴，你怎样带我见见你们大王啊？",
+      "text_length": 47
+    },
+    {
+      "event_id": "70901136_e00023",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "要见大王不难，就让你混进阵去，将你拿住，岂不就见了我们大王吗？",
+      "text_length": 31
+    },
+    {
+      "event_id": "70901136_e00024",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "好，就这么办吧。小猴儿，我没有来过这儿，你先领我逛逛山景。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70901136_e00025",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "随我来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00026",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "这儿树真不少，这是什么树？",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00027",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "桃树、杏树、梨树、枣树、核桃树、栗子树……",
+      "text_length": 21
+    },
+    {
+      "event_id": "70901136_e00028",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "什么树都有？有鸡蛋树吗？https://scripts.xikao.com/play/709011362024-02-08",
+      "text_length": 61
+    },
+    {
+      "event_id": "70901136_e00029",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "没有鸡蛋树，是白果树。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00030",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖鼓声〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00031",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "大王升帐，随我来。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00032",
+      "play_id": "70901136",
+      "scene_id": "70901136_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒、通臂猿同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00033",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖唢呐吹打工尺上〗。跳猴。猴朝官领孙悟空同上。〖吹打住〗。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70901136_e00034",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "新水令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "花果山，重建旧基开。水帘洞，近在东洋大海。杏黄旗，高飘在云霄外。半山麓，建一座九亭台。明朝儿，演武升台。",
+      "text_length": 52
+    },
+    {
+      "event_id": "70901136_e00035",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "好男儿。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00036",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "新水令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "到此地方为快。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00037",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖唢呐吹打工尺上〗。孙悟空上高台。〖吹打住〗。",
+      "text_length": 23
+    },
+    {
+      "event_id": "70901136_e00038",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "云高四起莽寒烟，举目苍翠海山连。东海若似平铺地，一轮明月照垂天。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70901136_e00039",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺悟空。自从师父逐回，重整花果山，复兴水帘洞，好不洒乐俺也。",
+      "text_length": 30
+    },
+    {
+      "event_id": "70901136_e00040",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "牙将分排，牙将分排。大圣齐天，威名在。抓耳挠腮，抓耳挠腮。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70901136_e00041",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "咦……",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00042",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "一个个，躜山跳涧奔驰快。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00043",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "通臂猿，将猴兵操演一番。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00044",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00045",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "操演者。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00046",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖击鼓三通〗。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00047",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "三通战鼓震云开，一声炮响惊天外。胜韩侯，拜将登台。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70901136_e00048",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒溜上偷望。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00049",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "咦！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00050",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "却原来是一个替屠狗的猪八戒。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70901136_e00051",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒下。摆阵。通臂猿擒猪八戒。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70901136_e00052",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "拿住奸细了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00053",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "擒住奸细！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00054",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "绑来面向外跪。唗！你是什么人，乱了俺的军纪阵法？",
+      "text_length": 24
+    },
+    {
+      "event_id": "70901136_e00055",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "为什么乱了军纪阵法？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00056",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "什么叫军纪呀？什么叫阵法呀！得啦，我看你们是吃饱了耍猴儿玩呢！",
+      "text_length": 31
+    },
+    {
+      "event_id": "70901136_e00057",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00058",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "折桂令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "也是你时衰运乖，营伍内恁自招灾。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70901136_e00059",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "掌嘴！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00060",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "折桂令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺今日操兵练卒，谁似你冒充宾客，不由俺，怒满胸怀。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70901136_e00061",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "与我打一百二十个背花。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00062",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "慢着，慢着，为什么打我？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00063",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "你走错了阵法。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00064",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我走错了就打一百二十个背花，你们大王唱的荒腔走板该怎么办哪？",
+      "text_length": 30
+    },
+    {
+      "event_id": "70901136_e00065",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00066",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "折桂令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "谁叫你戏耍军情，你便惹祸灾。https://scripts.xikao.com/play/709011362024-02-08丑痴呆！怎提防，风波也那不测。",
+      "text_length": 78
+    },
+    {
+      "event_id": "70901136_e00067",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "与我杀！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00068",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "慢着，瞧我大老远的来看你，也不问我吃饭了没有，喝水了没有，不是打就是杀，这算什么师兄弟呐？",
+      "text_length": 45
+    },
+    {
+      "event_id": "70901136_e00069",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "他与大王称兄弟？",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00070",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你是什么东西，敢与俺称兄道弟！",
+      "text_length": 15
+    },
+    {
+      "event_id": "70901136_e00071",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你瞧瞧啊，你现在穿着黄袍子，戴着翎帽子，坐在高台上，你才唱呗！你还不认得我这大乖乖吗？",
+      "text_length": 43
+    },
+    {
+      "event_id": "70901136_e00072",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "原来是八戒贤弟到了，松绑、松绑，受惊了。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70901136_e00073",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空下高台。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00074",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "哎呀贤弟。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00075",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "甚风儿吹送你此地来？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00076",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "特来拜望你。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00077",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "说什么特地将咱拜，莫不是中途路上惹祸灾，",
+      "text_length": 20
+    },
+    {
+      "event_id": "70901136_e00078",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我是忠厚老实人，岂敢惹祸。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00079",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "莫不是老和尚将你怪。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00080",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呀你与我从头说明白，",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00081",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "自古朋友面前莫说假，又岂敢欺侮哉。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70901136_e00082",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你休得之乎者也矣焉哉。提起那老和尚心太狠，",
+      "text_length": 21
+    },
+    {
+      "event_id": "70901136_e00083",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "沙兄弟多多致意你。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00084",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "堪笑那沙兄弟他会卖乖。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00085",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "什么是沙兄弟会卖乖，他自幼儿就是那么个赖怠脾气，自从师父将你逐回，我们一路西行，师父也不知是渴了，还是饿了，他就叫徒弟、徒弟，连叫了几声。猴哥啊，你知道我的耳朵是背的。沙兄弟听见了，他故意装听不见。咱师父可就恼了，说：我把你们这两个呆子……要有你们大师兄在此，问一答十，多释而广记。猴哥，你还是回去保护师父求取真经吧，我的猴哥呀。",
+      "text_length": 165
+    },
+    {
+      "event_id": "70901136_e00086",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 86,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "贤弟，俺在此逍遥自在，取什么经，成什么果？！",
+      "text_length": 22
+    },
+    {
+      "event_id": "70901136_e00087",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 87,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺真个舒怀，风不吹日不晒实实的逍遥哉，",
+      "text_length": 19
+    },
+    {
+      "event_id": "70901136_e00088",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 88,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "好是好，到底有些妖气。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00089",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 89,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "天不遣，地不差，天不遣，地不差。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70901136_e00090",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 90,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你坐在这逍遥自在，风不吹，日不晒，一事无成两鬓白了，我的猴哥！",
+      "text_length": 31
+    },
+    {
+      "event_id": "70901136_e00091",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 91,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "哎呀贤弟呀……",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00092",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 92,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "恁道俺一事无成两鬓白，闹哄哄在此，俺可也为将帅。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70901136_e00093",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 93,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你今来此我晓得了。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00094",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 94,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "晓得什么？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00095",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 95,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "哼！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00096",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 96,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "莫不是老和尚遭惊骇？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00097",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 97,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "没相干。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00098",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 98,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "既不为此来，因甚么临吾寨？",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00099",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 99,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "什么临寨不临寨呀，你随我保护师父要紧。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70901136_e00100",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 100,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "哎呀贤弟呀！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00101",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 101,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "恁叫俺保护师父，除非是三岁的婴孩。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70901136_e00102",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 102,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "什么三岁婴孩呀！你跟我嘎起典来啦。猴哥，师父想你啦！",
+      "text_length": 26
+    },
+    {
+      "event_id": "70901136_e00103",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 103,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "八戒，你告诉那唐僧，他既逐俺，就不要想俺了。",
+      "text_length": 22
+    },
+    {
+      "event_id": "70901136_e00104",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 104,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "看你的意思是不回去了？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00105",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 105,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "不去！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00106",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 106,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我岂不是白来一趟？告辞了。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00107",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 107,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "不去的了。https://scripts.xikao.com/play/709011362024-02-08小的们，送客。",
+      "text_length": 61
+    },
+    {
+      "event_id": "70901136_e00108",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 108,
+      "seq_in_scene": 76,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "好家伙，说声不去，街坊的鸡轰出来啦，交谁也别交猴，它最没有良心。我得骂他几句出出气。你是死猴，懒猴，猴崽子。猴拉稀坏肠子……",
+      "text_length": 62
+    },
+    {
+      "event_id": "70901136_e00109",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 109,
+      "seq_in_scene": 77,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "他背地里骂大王呢！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00110",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 110,
+      "seq_in_scene": 78,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "抓回来！我好意放你回去，为何背地里骂俺？！",
+      "text_length": 21
+    },
+    {
+      "event_id": "70901136_e00111",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 111,
+      "seq_in_scene": 79,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我没敢骂，我哪敢骂师兄啊，我要骂你，叫小猴嘴上长痔疮。",
+      "text_length": 27
+    },
+    {
+      "event_id": "70901136_e00112",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 112,
+      "seq_in_scene": 80,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00113",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 113,
+      "seq_in_scene": 81,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "骂猪呆，你比古人坏，你比庞涓心还歹。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70901136_e00114",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 114,
+      "seq_in_scene": 82,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "小的们！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00115",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 115,
+      "seq_in_scene": 83,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你与我先打猪乖后割双腮，",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00116",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 116,
+      "seq_in_scene": 84,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "割了腮我怎么吃饭呀？还是打吧。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70901136_e00117",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 117,
+      "seq_in_scene": 85,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "小的们！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00118",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 118,
+      "seq_in_scene": 86,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "快快的烧起水来，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00119",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 119,
+      "seq_in_scene": 87,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同夹白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "大王烧水何用？",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00120",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 120,
+      "seq_in_scene": 88,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺今日要开斋将他宰！",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00121",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 121,
+      "seq_in_scene": 89,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "杀猪！杀猪！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00122",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 122,
+      "seq_in_scene": 90,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猴哥，饶了我吧，看师父的面上，饶了我吧。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70901136_e00123",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 123,
+      "seq_in_scene": 91,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "不饶！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00124",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 124,
+      "seq_in_scene": 92,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不看僧面看佛面哪。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00125",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 125,
+      "seq_in_scene": 93,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你是个老浅⑴前来卖乖，犹兀自乱胡柴。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70901136_e00126",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 126,
+      "seq_in_scene": 94,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "囊糠⑵。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00127",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 127,
+      "seq_in_scene": 95,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺念你同门兄弟高看待，你怎肯把俺杂念歪。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70901136_e00128",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 128,
+      "seq_in_scene": 96,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猴哥饶了我吧。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00129",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 129,
+      "seq_in_scene": 97,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "咦，哈……叫我饶你，这也不难。吓呵……",
+      "text_length": 19
+    },
+    {
+      "event_id": "70901136_e00130",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 130,
+      "seq_in_scene": 98,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "快说出师尊马匹今何在。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70901136_e00131",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 131,
+      "seq_in_scene": 99,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猴哥，你叫我说实话，就捆着说吗？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70901136_e00132",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 132,
+      "seq_in_scene": 100,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "与他松绑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00133",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 133,
+      "seq_in_scene": 101,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒乱跑。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00134",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 134,
+      "seq_in_scene": 102,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我把你这个呆子！我好意将你松绑，你要往哪儿跑？",
+      "text_length": 23
+    },
+    {
+      "event_id": "70901136_e00135",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 135,
+      "seq_in_scene": 103,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我看阵势厉害，想寻个洞钻进去，好跑。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70901136_e00136",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 136,
+      "seq_in_scene": 104,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呆子，你走三天三夜，俺老孙也抓你回来！",
+      "text_length": 19
+    },
+    {
+      "event_id": "70901136_e00137",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 137,
+      "seq_in_scene": 105,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我忘了，猴哥会筋斗云，我跑到哪儿去，他一个筋斗云，就把我抓回来了。我不走了，就在这混吧。",
+      "text_length": 44
+    },
+    {
+      "event_id": "70901136_e00138",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 138,
+      "seq_in_scene": 106,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "快说实话！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00139",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 139,
+      "seq_in_scene": 107,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你就叫我跪着说呀？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00140",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 140,
+      "seq_in_scene": 108,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "起去。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00141",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 141,
+      "seq_in_scene": 109,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你就叫我站着说嘛？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00142",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 142,
+      "seq_in_scene": 110,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "与他看座。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00143",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 143,
+      "seq_in_scene": 111,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "捆着、跪着、站着、坐着，这真不错。猴哥，从你走后，我师徒三人往西行，碰见一个妖怪，叫什么白眼狼啊。",
+      "text_length": 49
+    },
+    {
+      "event_id": "70901136_e00144",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 144,
+      "seq_in_scene": 112,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "想是那魁目狼！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00145",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 145,
+      "seq_in_scene": 113,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "他遇见师父，一口邪气将师父擒住。沙兄弟上前解救，也被妖怪擒去了，我不服气，整整帽子，提提靴子，手持九齿耙，一扒就爬到这儿来了。",
+      "text_length": 63
+    },
+    {
+      "event_id": "70901136_e00146",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 146,
+      "seq_in_scene": 114,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你提起俺，那妖怪就不敢了。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00147",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 147,
+      "seq_in_scene": 115,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我告个便。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00148",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 148,
+      "seq_in_scene": 116,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒背语。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00149",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 149,
+      "seq_in_scene": 117,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我说出他的名字，妖怪就不敢了。有了，遣将不如激将能，我来智激美猴王呗，好哩，我就假说妖怪骂他来着，他一生气，就跟我下山了。",
+      "text_length": 61
+    },
+    {
+      "event_id": "70901136_e00150",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 150,
+      "seq_in_scene": 118,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒转身。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00151",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 151,
+      "seq_in_scene": 119,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猴哥，我提了您了。我说：妖怪你欺侮我们师徒三人不打紧，要有我们大师兄在此，你惹得起他吗？https://scripts.xikao.com/play/709011362024-02-08",
+      "text_length": 93
+    },
+    {
+      "event_id": "70901136_e00152",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 152,
+      "seq_in_scene": 120,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "讲得好！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00153",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 153,
+      "seq_in_scene": 121,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我讲得好，妖怪讲得更好。妖怪大肚一腆，大刀一戳，说我把你这个猪的八个的。动不动就提你们大师兄，他是谁呀？我说，我师兄五百年前大闹天官，齐天大圣，谁人不知，哪个不晓哇？",
+      "text_length": 83
+    },
+    {
+      "event_id": "70901136_e00154",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 154,
+      "seq_in_scene": 122,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "讲得好。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00155",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 155,
+      "seq_in_scene": 123,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "那妖怪讲都更好。说猪的六个的，给我减了两点。妖怪说，他是什么出身呐？我说，你说他是什么出身呐？",
+      "text_length": 47
+    },
+    {
+      "event_id": "70901136_e00156",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 156,
+      "seq_in_scene": 124,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呀，呀……",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00157",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 157,
+      "seq_in_scene": 125,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你说他是什么出身呐？妖怪说，把你这猪的四个的。又抽了两点。你那猴哥，他是我手心里的一个死猴，懒猴，猴崽子……他算什么东西！",
+      "text_length": 61
+    },
+    {
+      "event_id": "70901136_e00158",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 158,
+      "seq_in_scene": 126,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呀！我本不愿去，那妖怪欺人太甚。八戒，你稍等，我去去就来。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70901136_e00159",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 159,
+      "seq_in_scene": 127,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00160",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 160,
+      "seq_in_scene": 128,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "二大王给说个笑话吧。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70901136_e00161",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 161,
+      "seq_in_scene": 129,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "别说笑话啦，说说我们取经的事吧。我师徒三人走着、走着，忽然一阵旋风，从东边刮来，你们猜什么风？",
+      "text_length": 47
+    },
+    {
+      "event_id": "70901136_e00162",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 162,
+      "seq_in_scene": 130,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众猴同猜不着。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00163",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 163,
+      "seq_in_scene": 131,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "红风。又从西边来一阵风，你们猜什么风？",
+      "text_length": 19
+    },
+    {
+      "event_id": "70901136_e00164",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 164,
+      "seq_in_scene": 132,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "红风，红风。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00165",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 165,
+      "seq_in_scene": 133,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不对，是白风。又从南边来一阵风，你们猜什么风？",
+      "text_length": 23
+    },
+    {
+      "event_id": "70901136_e00166",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 166,
+      "seq_in_scene": 134,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "白风。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00167",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 167,
+      "seq_in_scene": 135,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不对，是黑风，又从北边来一阵风，你们猜是什么风？",
+      "text_length": 24
+    },
+    {
+      "event_id": "70901136_e00168",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 168,
+      "seq_in_scene": 136,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "黑风。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00169",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 169,
+      "seq_in_scene": 137,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不对，是蓝风。又从天上来了一阵风，你们猜是什么风？",
+      "text_length": 25
+    },
+    {
+      "event_id": "70901136_e00170",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 170,
+      "seq_in_scene": 138,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "黑风，红风，白风，蓝风。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00171",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 171,
+      "seq_in_scene": 139,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不对，不对。是黄风。这五阵风凝在一块，变了个妖怪，顶天立地，胳膊像房梁那么粗，手像磨盘那么大。你们猜那脑袋有多大？",
+      "text_length": 57
+    },
+    {
+      "event_id": "70901136_e00172",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 172,
+      "seq_in_scene": 140,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "有芭斗那么大。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00173",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 173,
+      "seq_in_scene": 141,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "不对，那脑袋就像鸡蛋那么大。这是个小脑袋妖怪。他跟我大战，我用大耙扒不过他，我就跑，他就追，我反头来一耙，你们猜谁胜了？",
+      "text_length": 60
+    },
+    {
+      "event_id": "70901136_e00174",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 174,
+      "seq_in_scene": 142,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "二大王胜了。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70901136_e00175",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 175,
+      "seq_in_scene": 143,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我倒搂一耙，这有个名堂。叫猪八戒败阵倒打一耙么，我就爬到这儿来了。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70901136_e00176",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 176,
+      "seq_in_scene": 144,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空上，众猴同不舍，同央求。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70901136_e00177",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 177,
+      "seq_in_scene": 145,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "小的们！好生看守山寨，唤尔等即来。俺就此降妖去者！",
+      "text_length": 25
+    },
+    {
+      "event_id": "70901136_e00178",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 178,
+      "seq_in_scene": 146,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众猴"
+      ],
+      "text": "送大王！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00179",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 179,
+      "seq_in_scene": 147,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "免！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70901136_e00180",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 180,
+      "seq_in_scene": 148,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "令人堪笑猪八戒，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00181",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 181,
+      "seq_in_scene": 149,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "要吾行，那妖怪神通广大。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70901136_e00182",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 182,
+      "seq_in_scene": 150,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "也是师尊命活该，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70901136_e00183",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 183,
+      "seq_in_scene": 151,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "堪笑猪呆，",
+      "text_length": 5
+    },
+    {
+      "event_id": "70901136_e00184",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 184,
+      "seq_in_scene": 152,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我也不呆，一事无成两鬓白，",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00185",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 185,
+      "seq_in_scene": 153,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你激吾行把家业卖，猛回头，家乡何在！",
+      "text_length": 18
+    },
+    {
+      "event_id": "70901136_e00186",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 186,
+      "seq_in_scene": 154,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "望见云山霭霭。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70901136_e00187",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 187,
+      "seq_in_scene": 155,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "猴哥，不要走了，来到洞门口了。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70901136_e00188",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 188,
+      "seq_in_scene": 156,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "贤弟，先把守洞门。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70901136_e00189",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 189,
+      "seq_in_scene": 157,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你呢？",
+      "text_length": 3
+    },
+    {
+      "event_id": "70901136_e00190",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 190,
+      "seq_in_scene": 158,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "吖呵喏！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70901136_e00191",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 191,
+      "seq_in_scene": 159,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺把那紫袈裟扶上了九莲台。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70901136_e00192",
+      "play_id": "70901136",
+      "scene_id": "70901136_s02",
+      "scene_no": 2,
+      "seq_global": 192,
+      "seq_in_scene": 160,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "开打。孙悟空、猪八戒同下。——————————https://scripts.xikao.com/play/709011362024-02-08⑴方言俗语，呆傻的意思。⑵方言俗语，废物的意思。https://scripts.xikao.com/play/709011362024-02-08",
+      "text_length": 145
+    }
+  ],
+  "roles_inferred": true
+}

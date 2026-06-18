@@ -1,0 +1,409 @@
+{
+  "play": {
+    "play_id": "01006019",
+    "title": "三疑计",
+    "pdf_name": "01006019_三疑计.pdf",
+    "group_id": "01000000",
+    "page_count": 9,
+    "scene_count": 5,
+    "speech_count": 193,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01006019",
+    "source_date": "2018-08-23",
+    "synopsis_length": 357,
+    "notes_length": 109,
+    "marker_category_counts": {
+      "spoken": 137,
+      "recitation": 2,
+      "singing": 44,
+      "other": 10
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 20,
+    "density": 0.714286,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 98.25,
+    "max_edge_weight": 84,
+    "top_characters": [
+      {
+        "name": "唐寅",
+        "hangdang": "老生",
+        "speech_count": 61,
+        "degree": 7,
+        "weighted_degree": 234
+      },
+      {
+        "name": "李月英",
+        "hangdang": "旦",
+        "speech_count": 39,
+        "degree": 5,
+        "weighted_degree": 147
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 31,
+        "degree": 7,
+        "weighted_degree": 138
+      },
+      {
+        "name": "唐子其",
+        "hangdang": "小生",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 105
+      },
+      {
+        "name": "王标",
+        "hangdang": "未知",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 92
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "唐寅",
+      "label": "唐寅",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 61,
+      "text_length": 1851,
+      "scene_count": 5,
+      "degree": 7,
+      "weighted_degree": 234,
+      "marker_category_counts": {
+        "spoken": 47,
+        "recitation": 1,
+        "singing": 12,
+        "other": 1
+      }
+    },
+    {
+      "id": "李月英",
+      "label": "李月英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 39,
+      "text_length": 1050,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 147,
+      "marker_category_counts": {
+        "spoken": 15,
+        "other": 7,
+        "singing": 16,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 31,
+      "text_length": 341,
+      "scene_count": 4,
+      "degree": 7,
+      "weighted_degree": 138,
+      "marker_category_counts": {
+        "spoken": 26,
+        "singing": 5
+      }
+    },
+    {
+      "id": "唐子其",
+      "label": "唐子其",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 24,
+      "text_length": 311,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 105,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 21,
+        "other": 1
+      }
+    },
+    {
+      "id": "王标",
+      "label": "王标",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 24,
+      "text_length": 764,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "singing": 9,
+        "spoken": 14,
+        "other": 1
+      }
+    },
+    {
+      "id": "书童",
+      "label": "书童",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 12,
+      "text_length": 257,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 56,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "丫鬟",
+      "target": "唐寅",
+      "weight": 84,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "唐寅",
+      "target": "李月英",
+      "weight": 77,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "唐子其",
+      "target": "唐寅",
+      "weight": 49,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "唐子其",
+      "target": "李月英",
+      "weight": 34,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王标",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "李月英",
+      "target": "王标",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "王标",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "书童",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "唐子其",
+      "target": "王标",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "李月英",
+      "weight": 9,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "唐子其",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "唐寅",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "唐寅",
+      "target": "王标",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "唐寅",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "家院",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "唐寅",
+      "target": "家院",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "唐子其",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "李月英",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "中军",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

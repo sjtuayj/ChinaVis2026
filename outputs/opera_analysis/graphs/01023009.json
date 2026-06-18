@@ -1,0 +1,228 @@
+{
+  "play": {
+    "play_id": "01023009",
+    "title": "双锁山",
+    "pdf_name": "01023009_双锁山.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 7,
+    "speech_count": 57,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01023009",
+    "source_date": "2018-05-04",
+    "synopsis_length": 199,
+    "notes_length": 36,
+    "marker_category_counts": {
+      "singing": 27,
+      "other": 1,
+      "recitation": 2,
+      "spoken": 27
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 35.2,
+    "max_edge_weight": 30,
+    "top_characters": [
+      {
+        "name": "高俊保",
+        "hangdang": "小生",
+        "speech_count": 20,
+        "degree": 4,
+        "weighted_degree": 74
+      },
+      {
+        "name": "刘金定",
+        "hangdang": "旦",
+        "speech_count": 22,
+        "degree": 4,
+        "weighted_degree": 43
+      },
+      {
+        "name": "樵夫",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 31
+      },
+      {
+        "name": "刘能",
+        "hangdang": "丑",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 17
+      },
+      {
+        "name": "土地",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "高俊保",
+      "label": "高俊保",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 20,
+      "text_length": 594,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "刘金定",
+      "label": "刘金定",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 22,
+      "text_length": 539,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 43,
+      "marker_category_counts": {
+        "singing": 16,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "樵夫",
+      "label": "樵夫",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 141,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "刘能",
+      "label": "刘能",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 5,
+      "text_length": 299,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 17,
+      "marker_category_counts": {
+        "singing": 3,
+        "other": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "土地",
+      "label": "土地",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 64,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘金定",
+      "target": "高俊保",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_006",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "樵夫",
+      "target": "高俊保",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "刘能",
+      "target": "高俊保",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_005",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "刘金定",
+      "target": "土地",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "刘能",
+      "target": "刘金定",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "土地",
+      "target": "高俊保",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "刘金定",
+      "target": "樵夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "土地",
+      "target": "樵夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    }
+  ]
+}

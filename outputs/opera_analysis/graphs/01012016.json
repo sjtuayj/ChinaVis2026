@@ -1,0 +1,131 @@
+{
+  "play": {
+    "play_id": "01012016",
+    "title": "双观星",
+    "pdf_name": "01012016_双观星.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 14,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01012016",
+    "source_date": "2013-03-19",
+    "synopsis_length": 207,
+    "notes_length": 176,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 9,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 15.333333,
+    "max_edge_weight": 17,
+    "top_characters": [
+      {
+        "name": "高行周",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 2,
+        "weighted_degree": 22
+      },
+      {
+        "name": "石敬塘",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 18
+      },
+      {
+        "name": "二家将",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "高行周",
+      "label": "高行周",
+      "raw_role": "童",
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 772,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 22,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 5,
+        "singing": 1
+      }
+    },
+    {
+      "id": "石敬塘",
+      "label": "石敬塘",
+      "raw_role": "童",
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 93,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "二家将",
+      "label": "二家将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "石敬塘",
+      "target": "高行周",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二家将",
+      "target": "高行周",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二家将",
+      "target": "石敬塘",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

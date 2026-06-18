@@ -1,0 +1,189 @@
+{
+  "play": {
+    "play_id": "01005009",
+    "title": "孝感天",
+    "pdf_name": "01005009_孝感天.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 2,
+    "speech_count": 25,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01005009",
+    "source_date": "2018-05-07",
+    "synopsis_length": 101,
+    "notes_length": 160,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 8,
+      "other": 1,
+      "singing": 12,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 21.5,
+    "max_edge_weight": 20,
+    "top_characters": [
+      {
+        "name": "魏氏",
+        "hangdang": "旦",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 34
+      },
+      {
+        "name": "共叔段",
+        "hangdang": "小生",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 26
+      },
+      {
+        "name": "武姜",
+        "hangdang": "老旦",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 19
+      },
+      {
+        "name": "二宫女",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "魏氏",
+      "label": "魏氏",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 10,
+      "text_length": 170,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 34,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 4,
+        "singing": 3,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "共叔段",
+      "label": "共叔段",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 6,
+      "text_length": 187,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2,
+        "singing": 3
+      }
+    },
+    {
+      "id": "武姜",
+      "label": "武姜",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 8,
+      "text_length": 442,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 1,
+        "singing": 6
+      }
+    },
+    {
+      "id": "二宫女",
+      "label": "二宫女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "共叔段",
+      "target": "魏氏",
+      "weight": 20,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "武姜",
+      "target": "魏氏",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "共叔段",
+      "target": "武姜",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "武姜",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "魏氏",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "共叔段",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

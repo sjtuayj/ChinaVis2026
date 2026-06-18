@@ -1,0 +1,134 @@
+{
+  "play": {
+    "play_id": "01013019",
+    "title": "黛玉葬花",
+    "pdf_name": "01013019_黛玉葬花.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 45,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01013019",
+    "source_date": "2015-04-22",
+    "synopsis_length": 88,
+    "notes_length": 270,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 3,
+      "recitation": 2,
+      "spoken": 38
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 52.0,
+    "max_edge_weight": 49,
+    "top_characters": [
+      {
+        "name": "林黛玉",
+        "hangdang": "旦",
+        "speech_count": 24,
+        "degree": 2,
+        "weighted_degree": 77
+      },
+      {
+        "name": "贾宝玉",
+        "hangdang": "小生",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "紫娟",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 2,
+        "weighted_degree": 29
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "林黛玉",
+      "label": "林黛玉",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 24,
+      "text_length": 1202,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "other": 2,
+        "singing": 2,
+        "recitation": 2,
+        "spoken": 18
+      }
+    },
+    {
+      "id": "贾宝玉",
+      "label": "贾宝玉",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 14,
+      "text_length": 805,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "紫娟",
+      "label": "紫娟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 242,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "林黛玉",
+      "target": "贾宝玉",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "林黛玉",
+      "target": "紫娟",
+      "weight": 28,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "紫娟",
+      "target": "贾宝玉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

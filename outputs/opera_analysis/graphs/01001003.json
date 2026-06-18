@@ -1,0 +1,132 @@
+{
+  "play": {
+    "play_id": "01001003",
+    "title": "三娘教子",
+    "pdf_name": "01001003_三娘教子.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 120,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01001003",
+    "source_date": "2013-08-22",
+    "synopsis_length": 249,
+    "notes_length": 67,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 92,
+      "singing": 24
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 156.666667,
+    "max_edge_weight": 85,
+    "top_characters": [
+      {
+        "name": "王春娥",
+        "hangdang": "旦",
+        "speech_count": 43,
+        "degree": 2,
+        "weighted_degree": 170
+      },
+      {
+        "name": "薛倚哥",
+        "hangdang": "小生",
+        "speech_count": 39,
+        "degree": 2,
+        "weighted_degree": 150
+      },
+      {
+        "name": "薛保",
+        "hangdang": "未知",
+        "speech_count": 38,
+        "degree": 2,
+        "weighted_degree": 150
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王春娥",
+      "label": "王春娥",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 43,
+      "text_length": 1181,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 170,
+      "marker_category_counts": {
+        "other": 4,
+        "spoken": 25,
+        "singing": 14
+      }
+    },
+    {
+      "id": "薛倚哥",
+      "label": "薛倚哥",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 39,
+      "text_length": 580,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 150,
+      "marker_category_counts": {
+        "spoken": 35,
+        "singing": 4
+      }
+    },
+    {
+      "id": "薛保",
+      "label": "薛保",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 38,
+      "text_length": 985,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 150,
+      "marker_category_counts": {
+        "spoken": 32,
+        "singing": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王春娥",
+      "target": "薛保",
+      "weight": 85,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 42,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王春娥",
+      "target": "薛倚哥",
+      "weight": 85,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 42,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "薛保",
+      "target": "薛倚哥",
+      "weight": 65,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

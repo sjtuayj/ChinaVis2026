@@ -1,0 +1,938 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "01005009",
+    "title": "孝感天",
+    "aliases": [],
+    "collection_id": "01000000",
+    "collection_name": "《戏考》",
+    "collection_remark": "《戏考》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/01000000/01005009_孝感天.pdf",
+    "source_url": "http://scripts.xikao.com/play/01005009",
+    "source_date": "2018-05-07",
+    "page_count": 2,
+    "file_size_bytes": 325099,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "武姜自幽居城颍，终日悲啼，哀怜少子甚切。共叔段夫妻死后，以己之怙恶不悛，及母之溺爱，皆寤生阴谋故纵所致。故冤魂不散，于夜半托梦武姜，聊一相见，以慰老母舔犊之情，并恺切劝解，谓不久当与寤生有重聚之望。",
+    "notes": [
+      "此剧即演春秋时郑庄公杀弟共叔段，并迁其母武姜于城颍之后，立誓不及黄泉母子不见之故事。",
+      "全剧俱系反二黄，演时一种幽怨愁惨之声，颇令人酸鼻不忍闻。近时善此剧者颇少。",
+      "剧名《孝感天》，殊不可解。或谓剧中共叔段鬼魂，为相沿之误，实则系演郑庄公掘地见母一节，而稍变动",
+      "其情节者。故托于魂梦相见云，此说似稍近似。",
+      "寤生，郑庄公名也。",
+      "根据《戏考》第五册整理"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "魏",
+      "confidence": 0.51
+    },
+    "play_genre": {
+      "label": "家庭戏",
+      "confidence": 0.78,
+      "evidence": [
+        "母",
+        "子",
+        "妻",
+        "夫"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_武姜",
+      "name": "武姜",
+      "original_category": "老旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "柔情",
+        "孝亲",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 8,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：武姜：老旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_共叔段",
+      "name": "共叔段",
+      "original_category": "小生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "柔情",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 3,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "小生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：共叔段：小生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_魏氏",
+      "name": "魏氏",
+      "original_category": "正旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "柔情",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 3,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "正旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：魏氏：正旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二宫女",
+      "name": "二宫女",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "智谋",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "共叔段",
+        "魏氏"
+      ],
+      "event_ids": [
+        "01005009_e00001",
+        "01005009_e00002",
+        "01005009_e00003",
+        "01005009_e00004",
+        "01005009_e00005",
+        "01005009_e00006",
+        "01005009_e00007",
+        "01005009_e00008",
+        "01005009_e00009",
+        "01005009_e00010"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 10,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 161
+      }
+    },
+    {
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "武姜",
+        "共叔段",
+        "魏氏",
+        "二宫女"
+      ],
+      "event_ids": [
+        "01005009_e00011",
+        "01005009_e00012",
+        "01005009_e00013",
+        "01005009_e00014",
+        "01005009_e00015",
+        "01005009_e00016",
+        "01005009_e00017",
+        "01005009_e00018",
+        "01005009_e00019",
+        "01005009_e00020",
+        "01005009_e00021",
+        "01005009_e00022",
+        "01005009_e00023",
+        "01005009_e00024",
+        "01005009_e00025",
+        "01005009_e00026",
+        "01005009_e00027",
+        "01005009_e00028",
+        "01005009_e00029",
+        "01005009_e00030",
+        "01005009_e00031",
+        "01005009_e00032",
+        "01005009_e00033",
+        "01005009_e00034",
+        "01005009_e00035",
+        "01005009_e00036",
+        "01005009_e00037",
+        "01005009_e00038",
+        "01005009_e00039",
+        "01005009_e00040",
+        "01005009_e00041",
+        "01005009_e00042"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 5,
+        "aria_count": 14,
+        "recitation_count": 2,
+        "stage_direction_count": 8,
+        "expression_count": 1,
+        "text_length": 621
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "01005009_e00001",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套同上，共叔段、魏氏同上。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01005009_e00002",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "丹心天地惨，黄泉路途远。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01005009_e00003",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "溺爱反遭害，恩情一线牵。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01005009_e00004",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "共叔段",
+        "魏氏"
+      ],
+      "text": "我乃（共叔段）（魏氏）鬼魂是也。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01005009_e00005",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "只为母后姜夫人，爱子爱媳；不想你我夫妻，反遭毒害。可叹母后在颍燕城中，思儿心切，啼哭悲声。你我夫妻，不免去至梦中，劝解一番。如此夫人请。",
+      "text_length": 68
+    },
+    {
+      "event_id": "01005009_e00006",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "夫君请。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01005009_e00007",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "正是：",
+      "text_length": 3
+    },
+    {
+      "event_id": "01005009_e00008",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "说破啼惨三月雨，",
+      "text_length": 8
+    },
+    {
+      "event_id": "01005009_e00009",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "梦魂惊断五更风。",
+      "text_length": 8
+    },
+    {
+      "event_id": "01005009_e00010",
+      "play_id": "01005009",
+      "scene_id": "01005009_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套、共叔段、魏氏同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01005009_e00011",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "武姜上，二宫女同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01005009_e00012",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "离别宫闱，空使我，老眼含泪。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01005009_e00013",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "生离最是苦，死别何伤乎！试看姜国母，有子不如无。",
+      "text_length": 24
+    },
+    {
+      "event_id": "01005009_e00014",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "老身姜氏。只因溺爱次子共叔段，反致他夫妇身亡。可恨寤生不孝，将老身迁居颍地居住。思想起来，好不凄凉人也。",
+      "text_length": 52
+    },
+    {
+      "event_id": "01005009_e00015",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "凄风苦雨多悲惨，冷落离居泪不干。有子如无发长叹，老死此地几时还？",
+      "text_length": 32
+    },
+    {
+      "event_id": "01005009_e00016",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "小过门。武姜进帐子，脱帔。",
+      "text_length": 13
+    },
+    {
+      "event_id": "01005009_e00017",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "你们退下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01005009_e00018",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二宫女同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "01005009_e00019",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "居异乡恨寂寞红日易晚，思娇儿不觉得月上栏杆。对银灯眼昏花自悲自惨，有何人定晨昏心腹细谈。",
+      "text_length": 44
+    },
+    {
+      "event_id": "01005009_e00020",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "共叔段、魏氏同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01005009_e00021",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄慢板",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "风飘飘冷飕飕黄昏惨淡，曾记得在生前荣带正冠。",
+      "text_length": 22
+    },
+    {
+      "event_id": "01005009_e00022",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄慢板",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "此时间也难说分诉情由，进寝门见国母心内痛酸。",
+      "text_length": 22
+    },
+    {
+      "event_id": "01005009_e00023",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "共叔段",
+        "魏氏"
+      ],
+      "text": "母后醒来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "01005009_e00024",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄导板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "梦儿里只听得有人呼唤，",
+      "text_length": 11
+    },
+    {
+      "event_id": "01005009_e00025",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "共叔段",
+        "魏氏"
+      ],
+      "text": "母后醒来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "01005009_e00026",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "又只见灯光下双影闪连。看不明擦一擦昏花老眼，你是我次子段儿媳元环。曾记得寿筵前金杯酒满，母子们共聚首一处同欢。忆自你封京邑便不回转，",
+      "text_length": 66
+    },
+    {
+      "event_id": "01005009_e00027",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "同回龙",
+      "speakers": [
+        "共叔段",
+        "魏氏"
+      ],
+      "text": "虽是儿丧黄泉难以心甘。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01005009_e00028",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "反二黄慢板",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "悲切切尊国母飞魂魄散，悔不该妒兄位自惹神灾。连累了我母后无依无伴，儿死在九泉下心中难甘。",
+      "text_length": 44
+    },
+    {
+      "event_id": "01005009_e00029",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "反二黄慢板",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "这也是天命定数有修短，劝国母切莫要终日泪涟。为报恩来世里重亲慈范，千古人有哪个百岁同餐。",
+      "text_length": 44
+    },
+    {
+      "event_id": "01005009_e00030",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "反二黄慢板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "听儿言不觉得珠泪悲惨，纵然是鬼与魂娘也心甘。怎能够同聚首襟怀坦坦，随为娘在此地同把身安。",
+      "text_length": 44
+    },
+    {
+      "event_id": "01005009_e00031",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "反二黄摇板",
+      "speakers": [
+        "共叔段"
+      ],
+      "text": "儿在阴母在阳两厢隔断，母子们要相逢今生实难。",
+      "text_length": 22
+    },
+    {
+      "event_id": "01005009_e00032",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "反二黄摇板",
+      "speakers": [
+        "魏氏"
+      ],
+      "text": "天将明儿要归不尽感叹，",
+      "text_length": 11
+    },
+    {
+      "event_id": "01005009_e00033",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "共叔段下。魏氏郑君侯指日里迎接凤鸾。",
+      "text_length": 18
+    },
+    {
+      "event_id": "01005009_e00034",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏氏下。二宫女同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01005009_e00035",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二宫女"
+      ],
+      "text": "国母醒来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "01005009_e00036",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄导板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "贤儿媳一同去抛娘不管，",
+      "text_length": 11
+    },
+    {
+      "event_id": "01005009_e00037",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "三叫头",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "叔段！元环！哎，儿吓……",
+      "text_length": 12
+    },
+    {
+      "event_id": "01005009_e00038",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "梦儿里重相见好不心酸，嘱咐的言和语令人悲惨。",
+      "text_length": 22
+    },
+    {
+      "event_id": "01005009_e00039",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二宫女同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "01005009_e00040",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "但不知何日里再见一番。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01005009_e00041",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "武姜"
+      ],
+      "text": "哎，儿吓……",
+      "text_length": 6
+    },
+    {
+      "event_id": "01005009_e00042",
+      "play_id": "01005009",
+      "scene_id": "01005009_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "武姜下。",
+      "text_length": 4
+    }
+  ],
+  "roles_inferred": true
+}

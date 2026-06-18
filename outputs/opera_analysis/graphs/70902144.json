@@ -1,0 +1,188 @@
+{
+  "play": {
+    "play_id": "70902144",
+    "title": "荆钗记·上路",
+    "pdf_name": "70902144_荆钗记·上路.pdf",
+    "group_id": "70902000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 26,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70902144",
+    "source_date": "2018-08-23",
+    "synopsis_length": 33,
+    "notes_length": 84,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 13,
+      "other": 4,
+      "stage_action": 5
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 25.0,
+    "max_edge_weight": 15,
+    "top_characters": [
+      {
+        "name": "姚氏",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "李成",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 31
+      },
+      {
+        "name": "钱流行",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 29
+      },
+      {
+        "name": "姚氏、",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "姚氏",
+      "label": "姚氏",
+      "raw_role": "副",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 275,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 5,
+        "other": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "李成",
+      "label": "李成",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 227,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "spoken": 3,
+        "stage_action": 3
+      }
+    },
+    {
+      "id": "钱流行",
+      "label": "钱流行",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 263,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "姚氏、",
+      "label": "姚氏、",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "stage_action": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "姚氏",
+      "target": "李成",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姚氏",
+      "target": "钱流行",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李成",
+      "target": "钱流行",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姚氏",
+      "target": "姚氏、",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姚氏、",
+      "target": "李成",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姚氏、",
+      "target": "钱流行",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

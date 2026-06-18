@@ -1,0 +1,224 @@
+{
+  "play": {
+    "play_id": "01003010",
+    "title": "战蒲关",
+    "pdf_name": "01003010_战蒲关.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 4,
+    "speech_count": 121,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01003010",
+    "source_date": "2018-08-23",
+    "synopsis_length": 254,
+    "notes_length": 24,
+    "marker_category_counts": {
+      "singing": 16,
+      "spoken": 105
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 91.2,
+    "max_edge_weight": 103,
+    "top_characters": [
+      {
+        "name": "刘忠",
+        "hangdang": "老生",
+        "speech_count": 50,
+        "degree": 4,
+        "weighted_degree": 206
+      },
+      {
+        "name": "王霸",
+        "hangdang": "老生",
+        "speech_count": 36,
+        "degree": 4,
+        "weighted_degree": 124
+      },
+      {
+        "name": "徐艳贞",
+        "hangdang": "旦",
+        "speech_count": 32,
+        "degree": 3,
+        "weighted_degree": 109
+      },
+      {
+        "name": "众百姓",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      },
+      {
+        "name": "旗牌",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘忠",
+      "label": "刘忠",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 50,
+      "text_length": 982,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 206,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 47
+      }
+    },
+    {
+      "id": "王霸",
+      "label": "王霸",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 36,
+      "text_length": 1278,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 124,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 32
+      }
+    },
+    {
+      "id": "徐艳贞",
+      "label": "徐艳贞",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 32,
+      "text_length": 666,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 109,
+      "marker_category_counts": {
+        "singing": 9,
+        "spoken": 23
+      }
+    },
+    {
+      "id": "众百姓",
+      "label": "众百姓",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘忠",
+      "target": "王霸",
+      "weight": 103,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘忠",
+      "target": "徐艳贞",
+      "weight": 101,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "王霸",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐艳贞",
+      "target": "王霸",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "王霸",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "刘忠",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘忠",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "徐艳贞",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "play": {
+    "play_id": "80000007",
+    "title": "李陵碑",
+    "pdf_name": "80000007_李陵碑.pdf",
+    "group_id": "80000000",
+    "page_count": 4,
+    "scene_count": 5,
+    "speech_count": 61,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/80000007",
+    "source_date": "2013-09-05",
+    "synopsis_length": 109,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 15,
+      "other": 3,
+      "spoken": 41,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 8,
+    "density": 0.380952,
+    "avg_degree": 2.285714,
+    "avg_weighted_degree": 28.0,
+    "max_edge_weight": 33,
+    "top_characters": [
+      {
+        "name": "杨继业",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 82
+      },
+      {
+        "name": "杨延昭",
+        "hangdang": "老生",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 41
+      },
+      {
+        "name": "苏隐士",
+        "hangdang": "老生",
+        "speech_count": 7,
+        "degree": 1,
+        "weighted_degree": 27
+      },
+      {
+        "name": "四老军",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 18
+      },
+      {
+        "name": "韩延寿",
+        "hangdang": "净",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杨继业",
+      "label": "杨继业",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 1212,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 82,
+      "marker_category_counts": {
+        "singing": 11,
+        "other": 2,
+        "spoken": 16
+      }
+    },
+    {
+      "id": "杨延昭",
+      "label": "杨延昭",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 14,
+      "text_length": 248,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "苏隐士",
+      "label": "苏隐士",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 7,
+      "text_length": 337,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 5,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "四老军",
+      "label": "四老军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 14,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "韩延寿",
+      "label": "韩延寿",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 3,
+      "text_length": 58,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "四番兵",
+      "label": "四番兵",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "探子",
+      "label": "探子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 11,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "杨延昭",
+      "target": "杨继业",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨继业",
+      "target": "苏隐士",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "四老军",
+      "target": "杨继业",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四番兵",
+      "target": "韩延寿",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "探子",
+      "target": "杨继业",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "杨延昭",
+      "target": "韩延寿",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四番兵",
+      "target": "杨延昭",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四老军",
+      "target": "探子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

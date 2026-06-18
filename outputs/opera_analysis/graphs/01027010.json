@@ -1,0 +1,319 @@
+{
+  "play": {
+    "play_id": "01027010",
+    "title": "晋阳宫",
+    "pdf_name": "01027010_晋阳宫.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 7,
+    "speech_count": 153,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01027010",
+    "source_date": "2018-08-23",
+    "synopsis_length": 209,
+    "notes_length": 216,
+    "marker_category_counts": {
+      "singing": 45,
+      "spoken": 102,
+      "recitation": 3,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 97.333333,
+    "max_edge_weight": 73,
+    "top_characters": [
+      {
+        "name": "尹妃",
+        "hangdang": "旦",
+        "speech_count": 46,
+        "degree": 5,
+        "weighted_degree": 173
+      },
+      {
+        "name": "李渊",
+        "hangdang": "老生",
+        "speech_count": 42,
+        "degree": 5,
+        "weighted_degree": 146
+      },
+      {
+        "name": "张妃",
+        "hangdang": "旦",
+        "speech_count": 26,
+        "degree": 5,
+        "weighted_degree": 111
+      },
+      {
+        "name": "裴寂",
+        "hangdang": "丑",
+        "speech_count": 29,
+        "degree": 5,
+        "weighted_degree": 106
+      },
+      {
+        "name": "二小太监",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 5,
+        "weighted_degree": 33
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "尹妃",
+      "label": "尹妃",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 46,
+      "text_length": 611,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 173,
+      "marker_category_counts": {
+        "singing": 20,
+        "spoken": 24,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "李渊",
+      "label": "李渊",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 42,
+      "text_length": 996,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 146,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 26,
+        "singing": 13
+      }
+    },
+    {
+      "id": "张妃",
+      "label": "张妃",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 26,
+      "text_length": 263,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 111,
+      "marker_category_counts": {
+        "singing": 9,
+        "spoken": 17
+      }
+    },
+    {
+      "id": "裴寂",
+      "label": "裴寂",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 29,
+      "text_length": 654,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 106,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 26
+      }
+    },
+    {
+      "id": "二小太监",
+      "label": "二小太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 53,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "二大将",
+      "label": "二大将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "尹妃",
+      "target": "张妃",
+      "weight": 73,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_002",
+        "scene_004",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "尹妃",
+      "target": "李渊",
+      "weight": 68,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 33,
+      "scenes": [
+        "scene_004",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "李渊",
+      "target": "裴寂",
+      "weight": 44,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "尹妃",
+      "target": "裴寂",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "张妃",
+      "target": "李渊",
+      "weight": 28,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "二小太监",
+      "target": "裴寂",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "张妃",
+      "target": "裴寂",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二大将",
+      "target": "二小太监",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二大将",
+      "target": "李渊",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二大将",
+      "target": "尹妃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二大将",
+      "target": "张妃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二大将",
+      "target": "裴寂",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二小太监",
+      "target": "尹妃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二小太监",
+      "target": "张妃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二小太监",
+      "target": "李渊",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

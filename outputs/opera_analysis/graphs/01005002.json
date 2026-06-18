@@ -1,0 +1,121 @@
+{
+  "play": {
+    "play_id": "01005002",
+    "title": "浣纱记",
+    "pdf_name": "01005002_浣纱记.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 53,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01005002",
+    "source_date": "2018-08-23",
+    "synopsis_length": 401,
+    "notes_length": 121,
+    "marker_category_counts": {
+      "spoken": 42,
+      "singing": 10,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 2,
+    "density": 0.666667,
+    "avg_degree": 1.333333,
+    "avg_weighted_degree": 64.0,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "伍员",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 2,
+        "weighted_degree": 96
+      },
+      {
+        "name": "渔父",
+        "hangdang": "丑",
+        "speech_count": 15,
+        "degree": 1,
+        "weighted_degree": 61
+      },
+      {
+        "name": "浣纱女",
+        "hangdang": "旦",
+        "speech_count": 9,
+        "degree": 1,
+        "weighted_degree": 35
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "伍员",
+      "label": "伍员",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 772,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "spoken": 21,
+        "singing": 7,
+        "other": 1
+      }
+    },
+    {
+      "id": "渔父",
+      "label": "渔父",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 15,
+      "text_length": 271,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 61,
+      "marker_category_counts": {
+        "spoken": 15
+      }
+    },
+    {
+      "id": "浣纱女",
+      "label": "浣纱女",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 9,
+      "text_length": 344,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "伍员",
+      "target": "渔父",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "浣纱女",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "01031011",
+    "title": "借茶活捉",
+    "pdf_name": "01031011_借茶活捉.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 2,
+    "speech_count": 157,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01031011",
+    "source_date": "2018-08-08",
+    "synopsis_length": 305,
+    "notes_length": 63,
+    "marker_category_counts": {
+      "singing": 26,
+      "spoken": 123,
+      "other": 7,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 155.5,
+    "max_edge_weight": 292,
+    "top_characters": [
+      {
+        "name": "张文远",
+        "hangdang": "丑",
+        "speech_count": 76,
+        "degree": 3,
+        "weighted_degree": 296
+      },
+      {
+        "name": "阎婆惜",
+        "hangdang": "花旦",
+        "speech_count": 75,
+        "degree": 3,
+        "weighted_degree": 296
+      },
+      {
+        "name": "书童乙",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      },
+      {
+        "name": "书童甲",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张文远",
+      "label": "张文远",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 76,
+      "text_length": 3631,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 296,
+      "marker_category_counts": {
+        "singing": 10,
+        "spoken": 63,
+        "other": 3
+      }
+    },
+    {
+      "id": "阎婆惜",
+      "label": "阎婆惜",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 75,
+      "text_length": 1088,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 296,
+      "marker_category_counts": {
+        "singing": 16,
+        "spoken": 55,
+        "other": 4
+      }
+    },
+    {
+      "id": "书童乙",
+      "label": "书童乙",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 52,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "书童甲",
+      "label": "书童甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 32,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "stage_action": 1,
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张文远",
+      "target": "阎婆惜",
+      "weight": 292,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 145,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "书童甲",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "阎婆惜",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "张文远",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "张文远",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "阎婆惜",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

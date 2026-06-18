@@ -1,0 +1,90 @@
+{
+  "play": {
+    "play_id": "02008026",
+    "title": "洒金桥",
+    "pdf_name": "02008026_洒金桥.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 16,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/02008026",
+    "source_date": "2016-08-23",
+    "synopsis_length": 112,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 8,
+      "spoken": 7
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 29.0,
+    "max_edge_weight": 29,
+    "top_characters": [
+      {
+        "name": "苗训",
+        "hangdang": "老生",
+        "speech_count": 8,
+        "degree": 1,
+        "weighted_degree": 29
+      },
+      {
+        "name": "赵匡胤",
+        "hangdang": "红生",
+        "speech_count": 8,
+        "degree": 1,
+        "weighted_degree": 29
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "苗训",
+      "label": "苗训",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 8,
+      "text_length": 500,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "赵匡胤",
+      "label": "赵匡胤",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 8,
+      "text_length": 527,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 5,
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "苗训",
+      "target": "赵匡胤",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2791 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02006035",
+    "title": "花魔寨",
+    "aliases": [
+      "义激猴王"
+    ],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02006035_花魔寨.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 5,
+    "file_size_bytes": 402127,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "唐僧被黄袍郎使用妖法，变成猛虎后，猪悟能无计可施，正想重回高老庄，不再作和尚。忽遇一人，言系驮经之白马，曾变作歌女，营救唐僧，被妖怪看破，被砍一剑而逃。猪悟能听后，谓白马如此义气，岂可不如白马。遂决定至花果山邀请孙悟空，营救师父。但至花果山后，守门猿猴，不敢通报。最后乘孙悟空练兵之时，混入队中，始得与孙悟空见面。猪悟能请孙悟空重回，营救唐僧。孙悟空初不允从，最后经猪悟能婉劝，始随猪悟能，一同往救唐僧云。",
+    "notes": [
+      "按此剧即《西游记》第三十一回“猪八戒义激猴王”之一段故事。",
+      "根据《国剧大成》第六集整理"
+    ],
+    "story_period": {
+      "label": "神话传说",
+      "evidence": "天宫、仙、妖",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "家庭戏",
+      "confidence": 0.58,
+      "evidence": [
+        "父",
+        "女"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_孙悟空",
+      "name": "孙悟空",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "神怪/宗教"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 37,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙悟空：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_猪悟能",
+      "name": "猪悟能",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "神怪/宗教",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 46,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：猪悟能：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_通臂猿",
+      "name": "通臂猿",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "神怪/宗教",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众小猴",
+      "name": "众小猴",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "神怪/宗教"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "通臂猿",
+        "猪悟能"
+      ],
+      "event_ids": [
+        "02006035_e00001",
+        "02006035_e00002",
+        "02006035_e00003",
+        "02006035_e00004",
+        "02006035_e00005",
+        "02006035_e00006",
+        "02006035_e00007",
+        "02006035_e00008",
+        "02006035_e00009",
+        "02006035_e00010",
+        "02006035_e00011",
+        "02006035_e00012",
+        "02006035_e00013",
+        "02006035_e00014",
+        "02006035_e00015",
+        "02006035_e00016",
+        "02006035_e00017",
+        "02006035_e00018"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 18,
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 743
+      }
+    },
+    {
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 5,
+      "characters": [
+        "孙悟空",
+        "通臂猿",
+        "众小猴",
+        "猪悟能"
+      ],
+      "event_ids": [
+        "02006035_e00019",
+        "02006035_e00020",
+        "02006035_e00021",
+        "02006035_e00022",
+        "02006035_e00023",
+        "02006035_e00024",
+        "02006035_e00025",
+        "02006035_e00026",
+        "02006035_e00027",
+        "02006035_e00028",
+        "02006035_e00029",
+        "02006035_e00030",
+        "02006035_e00031",
+        "02006035_e00032",
+        "02006035_e00033",
+        "02006035_e00034",
+        "02006035_e00035",
+        "02006035_e00036",
+        "02006035_e00037",
+        "02006035_e00038",
+        "02006035_e00039",
+        "02006035_e00040",
+        "02006035_e00041",
+        "02006035_e00042",
+        "02006035_e00043",
+        "02006035_e00044",
+        "02006035_e00045",
+        "02006035_e00046",
+        "02006035_e00047",
+        "02006035_e00048",
+        "02006035_e00049",
+        "02006035_e00050",
+        "02006035_e00051",
+        "02006035_e00052",
+        "02006035_e00053",
+        "02006035_e00054",
+        "02006035_e00055",
+        "02006035_e00056",
+        "02006035_e00057",
+        "02006035_e00058",
+        "02006035_e00059",
+        "02006035_e00060",
+        "02006035_e00061",
+        "02006035_e00062",
+        "02006035_e00063",
+        "02006035_e00064",
+        "02006035_e00065",
+        "02006035_e00066",
+        "02006035_e00067",
+        "02006035_e00068",
+        "02006035_e00069",
+        "02006035_e00070",
+        "02006035_e00071",
+        "02006035_e00072",
+        "02006035_e00073",
+        "02006035_e00074",
+        "02006035_e00075",
+        "02006035_e00076",
+        "02006035_e00077",
+        "02006035_e00078",
+        "02006035_e00079",
+        "02006035_e00080",
+        "02006035_e00081",
+        "02006035_e00082",
+        "02006035_e00083",
+        "02006035_e00084",
+        "02006035_e00085",
+        "02006035_e00086",
+        "02006035_e00087",
+        "02006035_e00088",
+        "02006035_e00089",
+        "02006035_e00090",
+        "02006035_e00091",
+        "02006035_e00092",
+        "02006035_e00093",
+        "02006035_e00094",
+        "02006035_e00095",
+        "02006035_e00096",
+        "02006035_e00097",
+        "02006035_e00098",
+        "02006035_e00099",
+        "02006035_e00100",
+        "02006035_e00101",
+        "02006035_e00102",
+        "02006035_e00103",
+        "02006035_e00104",
+        "02006035_e00105",
+        "02006035_e00106",
+        "02006035_e00107",
+        "02006035_e00108",
+        "02006035_e00109",
+        "02006035_e00110",
+        "02006035_e00111",
+        "02006035_e00112",
+        "02006035_e00113",
+        "02006035_e00114",
+        "02006035_e00115",
+        "02006035_e00116",
+        "02006035_e00117",
+        "02006035_e00118",
+        "02006035_e00119",
+        "02006035_e00120",
+        "02006035_e00121",
+        "02006035_e00122",
+        "02006035_e00123",
+        "02006035_e00124",
+        "02006035_e00125",
+        "02006035_e00126",
+        "02006035_e00127",
+        "02006035_e00128",
+        "02006035_e00129",
+        "02006035_e00130",
+        "02006035_e00131",
+        "02006035_e00132",
+        "02006035_e00133",
+        "02006035_e00134",
+        "02006035_e00135",
+        "02006035_e00136",
+        "02006035_e00137",
+        "02006035_e00138",
+        "02006035_e00139",
+        "02006035_e00140",
+        "02006035_e00141",
+        "02006035_e00142",
+        "02006035_e00143",
+        "02006035_e00144",
+        "02006035_e00145",
+        "02006035_e00146",
+        "02006035_e00147",
+        "02006035_e00148",
+        "02006035_e00149",
+        "02006035_e00150",
+        "02006035_e00151",
+        "02006035_e00152",
+        "02006035_e00153"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 135,
+        "spoken_count": 83,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 17,
+        "expression_count": 0,
+        "text_length": 2464
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02006035_e00001",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "通臂猿执令旗上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00002",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "人说仙家日月迟，仙家日月快似驹。遥遥千万人间事，只换山中一局棋。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006035_e00003",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "自家，齐天大圣部下总先锋、通臂猿猴是也。俺主自从大闹天宫之后，一去五百馀年。今日回归，重整花果山，复兴水帘洞，招聚党羽，操练人马。你看花果山，好一番新气象也。正是：",
+      "text_length": 82
+    },
+    {
+      "event_id": "02006035_e00004",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "洞天福地人间有，金阙良宫世上稀。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00005",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "今日是操练日期，恐大王升帐。须要在此伺候。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02006035_e00006",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪悟能上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00007",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "时辰两三个，行过几千程。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006035_e00008",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "咳，这是什么晦气。我家老和尚，被妖怪喷了一口水。就变成一只猛虎。沙僧上前急救。被妖怪一下，打倒在地，也被他擒了。我欲上前相救，到底单丝不能成线，孤掌却又难鸣。想起来作和尚有什么好处，不如回到高老庄，看看厂房。正想之间，忽然来了一个人，叫我是二师兄。我就问来你是谁？他说我就是师父骑的那匹白马。我说你既是白马，怎么变起人来呢？他说师兄，我是西海龙王之子，奉菩萨之命，着我变作白马，驮师父取经。因师父被妖精陷害。我就变了宫女进去，到他筵前歌舞，意欲乘便刺他。谁想被他看破，反被他砍了一剑。又说，二师兄你可到花果山请大师兄去。我想那白马是个畜牲，尚且有如此义气。我老猪难道不如他么？为此特地前来，已是花果山了。果然好境界。怪不得不肯作和尚，只要作猴王。好受吓！",
+      "text_length": 327
+    },
+    {
+      "event_id": "02006035_e00009",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "什么人在此伸头探脑，敢是奸细么？",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00010",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "孽障才是奸细。我乃猪八戒，是你大王的兄弟。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02006035_e00011",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "你就是猪八戒么？请回。我大王恼得你太很，时常道及你，恨如刺骨。你又来作什么？",
+      "text_length": 38
+    },
+    {
+      "event_id": "02006035_e00012",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "自古人有见面之情。烦你通报。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006035_e00013",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "通报是不敢的。大王少刻升帐，操练人马。你只好混在中间，大王或者喜欢，你就相机而行。免你的罪，也未可知。",
+      "text_length": 51
+    },
+    {
+      "event_id": "02006035_e00014",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "有理。我且跟你顽耍顽耍。有何不可。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00015",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖内鼓声〗。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00016",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "妙，妙，有趣。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00017",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "三通鼓了。大王升帐也。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00018",
+      "play_id": "02006035",
+      "scene_id": "02006035_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪悟能、通臂猿同下。https://scripts.xikao.com/play/020060352021-06-21",
+      "text_length": 59
+    },
+    {
+      "event_id": "02006035_e00019",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同上，孙悟空戴王帽、穿蟒上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00020",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "新水令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "花果山重把旧基开，杏黄旗扯在半天云外。风云随叱吒，兵甲听宣差。朝朝见演武升台。",
+      "text_length": 39
+    },
+    {
+      "event_id": "02006035_e00021",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空笑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00022",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "新水令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "做人儿到此方称快。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00023",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "通臂猿上。〖吹打〗。设高台。孙悟空坐。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006035_e00024",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "枪风剑雨洒寒烟，兵气腾腾海气连。空外落霞平布地，波间明月倒垂天。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006035_e00025",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺，孙悟空。自被师父逐回，重建花果山，复整水帘洞。自由自在，好不美哉。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02006035_e00026",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "牙将分排，牙将分排，大圣儿齐天官职在，金貂玉带。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02006035_e00027",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "通臂猿，吩咐各整器械，操练一回。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00028",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "通臂猿"
+      ],
+      "text": "各整器械，操练一回。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00029",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同排演。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00030",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "莽威风运筹决胜岂庸才。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00031",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖鼓声〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00032",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "驻马听",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "三通战鼓阵云开。一声号砲刀锋快，胜韩信登将台。虽无英雄来，却来个替屠狗的猪八戒。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02006035_e00033",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同排演，同走阵。猪悟能上。混乱。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006035_e00034",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "那乱我阵法者是什么人？",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00035",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众小猴"
+      ],
+      "text": "不知哪里混来的野和尚。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00036",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "与我拿过来。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00037",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同绑猪悟能，猪悟能跪。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006035_e00038",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众小猴"
+      ],
+      "text": "野人拿到。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00039",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "不是野人是家人。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00040",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "谁叫你入我营寨，乱我军法？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006035_e00041",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "我只说是耍猴儿，从不曾走过这牢阵。弄得磕头撞脑的，为什么就把我拿来？",
+      "text_length": 34
+    },
+    {
+      "event_id": "02006035_e00042",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "沉醉东风",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "也是你时该应该，营伍内兀自招摇。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00043",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "又莫有旗帜，不过这几根牢棒子。什么营伍！",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006035_e00044",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "掌嘴！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006035_e00045",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同打猪悟能。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00046",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "不要打。我有些旧相识。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00047",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "沉醉东风",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺今日操兵卒，休认作延宾客，不觉的怒气满腔怀。",
+      "text_length": 23
+    },
+    {
+      "event_id": "02006035_e00048",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "拿去砍了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00049",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同应。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00050",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "杀不得。有主儿的。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00051",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "沉醉东风",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "谁叫你戏耍军前该打哉。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00052",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "既有主儿，杀不得。打三十背花。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006035_e00053",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "遭了瘟了。走错了阵，就该打三十。若唱错了，不知要打多少？",
+      "text_length": 28
+    },
+    {
+      "event_id": "02006035_e00054",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "沉醉东风",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "臭歪呆，怎隄防风波也那不该。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006035_e00055",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "拿，立打！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00056",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "住了，住了。有话讲。我和你作了几年弟兄，就推不认得了？",
+      "text_length": 27
+    },
+    {
+      "event_id": "02006035_e00057",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你是什么人，称呼兄弟？https://scripts.xikao.com/play/020060352021-06-21",
+      "text_length": 60
+    },
+    {
+      "event_id": "02006035_e00058",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "人不认得，嘴也不认得么。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006035_e00059",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "原来八戒兄弟。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00060",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "着吓！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006035_e00061",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴放绑。孙悟空下高台，坐椅。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00062",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "愚兄得罪了。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00063",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "不敢。哥哥拜揖。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00064",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "贤弟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006035_e00065",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "甚风儿吹送伊家到此来？",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00066",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "特来拜望你。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00067",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "说什么特地儿将咱拜，",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00068",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我晓得！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00069",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "雁儿落",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "莫不是中途里惹祸灾？便猜得老师行逢妖怪，",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006035_e00070",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "你晓得我是忠厚老实人，岂敢惹祸？",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00071",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呀，好与俺从此说明白。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00072",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "自古朋友面前莫说假，又岂敢欺乎哉？",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00073",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "休卖弄之乎者也矣焉哉。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00074",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "老实对你说：老和尚想你，着我看你的。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006035_e00075",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "提起那老和尚心偏爱，",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00076",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "沙贤弟，多多致意你。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00077",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "可笑那沙兄弟卖乖。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00078",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "师父着我来请你，同去西天取经，共成正果。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006035_e00079",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺在此好不受用，取什么真经，成什么正果。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006035_e00080",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺正过的舒怀，雨不洒，日不晒，",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006035_e00081",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "好是好，到底有些妖气。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00082",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "得胜令",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你何劳着分腮，天不遣，地不差。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006035_e00083",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "你说在此受用，据我看起来，一事无成。不如还去作和尚的好。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02006035_e00084",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你道俺一事无成两鬓衰，闹轰轰居南面为元帅。俺可也独逞英名遍九埃，",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006035_e00085",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺想你此来，愚兄知道了。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006035_e00086",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 86,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "你知道什么？",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00087",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 87,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "莫不是老和尚遭惊骇？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00088",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 88,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "莫相干。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00089",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 89,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "既不为此来，因什么临吾寨？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006035_e00090",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 90,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "师父在马上正行着，叫道徒弟。我不曾听见，沙僧又推耳聋。说我们不济，说你伶俐之人，常时叫声应声，问一答十。是这等，叫我特地前来请你的。万望去走走。",
+      "text_length": 72
+    },
+    {
+      "event_id": "02006035_e00091",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 91,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "贤弟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006035_e00092",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 92,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "挂玉钩",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你要我重下山来，除非是三岁婴孩。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006035_e00093",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 93,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "这等说，你果真不去？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00094",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 94,
+      "seq_in_scene": 76,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我在此自由自在，好不洒乐。作什么和尚。你自去罢。便上复老和尚，既赶出去了，再不要想我。",
+      "text_length": 43
+    },
+    {
+      "event_id": "02006035_e00095",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 95,
+      "seq_in_scene": 77,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "这等说我回去罢。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00096",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 96,
+      "seq_in_scene": 78,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "不送了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00097",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 97,
+      "seq_in_scene": 79,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "这瘟猴子，和尚不作，倒作妖怪。我好意来请你，你却不去。看你怎么结果！",
+      "text_length": 34
+    },
+    {
+      "event_id": "02006035_e00098",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 98,
+      "seq_in_scene": 80,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众小猴"
+      ],
+      "text": "启大王：那人骂大王。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00099",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 99,
+      "seq_in_scene": 81,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "拿过来！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00100",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 100,
+      "seq_in_scene": 82,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同拿猪悟能。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00101",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 101,
+      "seq_in_scene": 83,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我想你这劣货，你去了便罢，怎么骂我？",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006035_e00102",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 102,
+      "seq_in_scene": 84,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "我怎敢骂哥。若骂了你，就烂了舌头！",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00103",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 103,
+      "seq_in_scene": 85,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "待俺学恋绨袍，把故人怀。https://scripts.xikao.com/play/020060352021-06-21你堪比庞涓心忒歹，",
+      "text_length": 70
+    },
+    {
+      "event_id": "02006035_e00104",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 104,
+      "seq_in_scene": 86,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "小的们！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00105",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 105,
+      "seq_in_scene": 87,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同应。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00106",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 106,
+      "seq_in_scene": 88,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "先打骨拐，",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00107",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 107,
+      "seq_in_scene": 89,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "要走路的，打断了怎么走路？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006035_e00108",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 108,
+      "seq_in_scene": 90,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "再割双腮，",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00109",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 109,
+      "seq_in_scene": 91,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "割了腮，吃不得饭了，还是打罢。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006035_e00110",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 110,
+      "seq_in_scene": 92,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "小的们！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006035_e00111",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 111,
+      "seq_in_scene": 93,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "快快去烧起水来，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00112",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 112,
+      "seq_in_scene": 94,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众小猴"
+      ],
+      "text": "大王烧水何用？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00113",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 113,
+      "seq_in_scene": 95,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "川拨棹",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "俺今日开斋，将他宰。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00114",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 114,
+      "seq_in_scene": 96,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "千万看师父面上，饶了罢！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006035_e00115",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 115,
+      "seq_in_scene": 97,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我想师父好仁义儿哩！",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006035_e00116",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 116,
+      "seq_in_scene": 98,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "不看你师父之面，请看上菩萨之面饶了罢。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006035_e00117",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 117,
+      "seq_in_scene": 99,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你本是卖呆，反前来掉歪。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006035_e00118",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 118,
+      "seq_in_scene": 100,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "哥哥，你晓得我是呆子，反说我弄乖。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00119",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 119,
+      "seq_in_scene": 101,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "犹兀自乱胡猜。俺念你同门兄弟高着待，怎把个疑团暗里叫咱猜？",
+      "text_length": 29
+    },
+    {
+      "event_id": "02006035_e00120",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 120,
+      "seq_in_scene": 102,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "要俺饶你——",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00121",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 121,
+      "seq_in_scene": 103,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "七弟兄",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "快说起师尊匹马今何在？",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006035_e00122",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 122,
+      "seq_in_scene": 104,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪悟能看孙悟空。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00123",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 123,
+      "seq_in_scene": 105,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你看什么？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00124",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 124,
+      "seq_in_scene": 106,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "看哪条路好溜。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00125",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 125,
+      "seq_in_scene": 107,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你走到哪里去？我让你走三日，老孙一刻就赶你转来。你快快实说。若再恼我性子，可就断送你了。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02006035_e00126",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 126,
+      "seq_in_scene": 108,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "实不瞒你说：自你回来之后，不期有个妖精，名唤黄袍郎。将我与沙僧杀败。把师父卷进洞去。亏了一个救星，是宝象国柏宪之女，名曰百花羞。被他卷来，已成亲事。那小姐修书一封，托师父寄去。因此放了师父逃走。寻见我二人，到了宝象国中。谁不想那妖怪在那里，变了书生模样。大将军把他就认了女婿。奏上国王，封了个官职。见了师父。向面下喷了一口水，师父登时变了一只猛虎。我便逃走到此。特来请你去降妖救师父。都是实情，并无隐讳。",
+      "text_length": 202
+    },
+    {
+      "event_id": "02006035_e00127",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 127,
+      "seq_in_scene": 109,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你这个呆子。那妖魔既捉住师父，你就该说老孙是他大徒弟。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02006035_e00128",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 128,
+      "seq_in_scene": 110,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪悟能背笑。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00129",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 129,
+      "seq_in_scene": 111,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "请将不如激将。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006035_e00130",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 130,
+      "seq_in_scene": 112,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪悟能向孙悟空。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00131",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 131,
+      "seq_in_scene": 113,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "哥吓！不说你犹可，说了你，越发无状。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006035_e00132",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 132,
+      "seq_in_scene": 114,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "怎么无状？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00133",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 133,
+      "seq_in_scene": 115,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "说来恐哥哥恼。我说妖精，你不要无状，我还有个大师兄孙悟空，他神通广大，善能降妖。他若来时，叫你死无葬身之地！",
+      "text_length": 54
+    },
+    {
+      "event_id": "02006035_e00134",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 134,
+      "seq_in_scene": 116,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "好！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006035_e00135",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 135,
+      "seq_in_scene": 117,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "好吓？那妖怪说出来的话，不但你恼燥，我也都没有体面。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006035_e00136",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 136,
+      "seq_in_scene": 118,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你讲。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006035_e00137",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 137,
+      "seq_in_scene": 119,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "他说的不好得很。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00138",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 138,
+      "seq_in_scene": 120,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "道我手段不如他？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006035_e00139",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 139,
+      "seq_in_scene": 121,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "手段不如他算什么？他说：可是那孙猴儿么？他冷笑一声。你说这一笑，可要气么。我说呔，妖怪，难道我哥哥不如你么？他就说：那猴儿才作了几日人，也要提他？他若在此，像你师父，立现原身！",
+      "text_length": 88
+    },
+    {
+      "event_id": "02006035_e00140",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 140,
+      "seq_in_scene": 122,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我有什么原身可现？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006035_e00141",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 141,
+      "seq_in_scene": 123,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "我说我哥哥顶天立地的好汉子，什么立现原身。他说八戒你不知道，他原是我养的一个顽耍兔儿。他说你是个兔子，可恼呵可恼！",
+      "text_length": 57
+    },
+    {
+      "event_id": "02006035_e00142",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 142,
+      "seq_in_scene": 124,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "听一言，不由人七孔生火，大骂声黄袍郎胆大妖魔。https://scripts.xikao.com/play/020060352021-06-21",
+      "text_length": 72
+    },
+    {
+      "event_id": "02006035_e00143",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 143,
+      "seq_in_scene": 125,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "有始有终，我去保护师父，取了经。成功之后，与你们共乐天真。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02006035_e00144",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 144,
+      "seq_in_scene": 126,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众小猴同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006035_e00145",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 145,
+      "seq_in_scene": 127,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "兄弟，我们先到妖魔洞中，见机而行便了。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006035_e00146",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 146,
+      "seq_in_scene": 128,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "堪羞堪恼猪八戒，挑唆促俺将乖卖。撞着个邪魔外道，急得个抓耳挠腮。弄得你涉水登山，踏破鞋，堪笑猪呆。",
+      "text_length": 49
+    },
+    {
+      "event_id": "02006035_e00147",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 147,
+      "seq_in_scene": 129,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "我呆，近来也学得几个乖巧在肚里了。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006035_e00148",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 148,
+      "seq_in_scene": 130,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "我知道了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00149",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 149,
+      "seq_in_scene": 131,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你激吾行把家弃开。一霎里气冲天外，誓此去擒将魔怪。",
+      "text_length": 25
+    },
+    {
+      "event_id": "02006035_e00150",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 150,
+      "seq_in_scene": 132,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪悟能"
+      ],
+      "text": "快些走罢。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006035_e00151",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 151,
+      "seq_in_scene": 133,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "不必多言，俺孙悟空有个主意也！",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006035_e00152",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 152,
+      "seq_in_scene": 134,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "鸳鸯煞",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "稳情把紫袈裟，扶上了九莲台。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006035_e00153",
+      "play_id": "02006035",
+      "scene_id": "02006035_s02",
+      "scene_no": 2,
+      "seq_global": 153,
+      "seq_in_scene": 135,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪悟能同下。https://scripts.xikao.com/play/020060352021-06-21",
+      "text_length": 59
+    }
+  ],
+  "roles_inferred": true
+}

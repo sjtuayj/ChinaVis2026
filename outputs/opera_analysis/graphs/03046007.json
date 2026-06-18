@@ -1,0 +1,167 @@
+{
+  "play": {
+    "play_id": "03046007",
+    "title": "龙虎斗",
+    "pdf_name": "03046007_龙虎斗.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 7,
+    "speech_count": 64,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/03046007",
+    "source_date": "2022-04-11",
+    "synopsis_length": 112,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 19,
+      "recitation": 1,
+      "singing": 40
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 55.0,
+    "max_edge_weight": 87,
+    "top_characters": [
+      {
+        "name": "赵匡胤",
+        "hangdang": "红生",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 109
+      },
+      {
+        "name": "呼延赞",
+        "hangdang": "净",
+        "speech_count": 27,
+        "degree": 1,
+        "weighted_degree": 87
+      },
+      {
+        "name": "黄信",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 2,
+        "weighted_degree": 18
+      },
+      {
+        "name": "四大铠",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵匡胤",
+      "label": "赵匡胤",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 30,
+      "text_length": 1115,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 109,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 6,
+        "singing": 23
+      }
+    },
+    {
+      "id": "呼延赞",
+      "label": "呼延赞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 27,
+      "text_length": 494,
+      "scene_count": 4,
+      "degree": 1,
+      "weighted_degree": 87,
+      "marker_category_counts": {
+        "other": 3,
+        "singing": 17,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "黄信",
+      "label": "黄信",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 81,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 5,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "四大铠",
+      "label": "四大铠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 3,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "呼延赞",
+      "target": "赵匡胤",
+      "weight": 87,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 42,
+      "scenes": [
+        "scene_003",
+        "scene_005",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "赵匡胤",
+      "target": "黄信",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "赵匡胤",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "黄信",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

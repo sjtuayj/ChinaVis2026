@@ -1,0 +1,92 @@
+{
+  "play": {
+    "play_id": "01027007",
+    "title": "戏牡丹",
+    "pdf_name": "01027007_戏牡丹.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 56,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01027007",
+    "source_date": "2018-08-23",
+    "synopsis_length": 200,
+    "notes_length": 94,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 29,
+      "recitation": 1,
+      "singing": 25
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 95.0,
+    "max_edge_weight": 95,
+    "top_characters": [
+      {
+        "name": "牡丹",
+        "hangdang": "旦",
+        "speech_count": 29,
+        "degree": 1,
+        "weighted_degree": 95
+      },
+      {
+        "name": "吕洞宾",
+        "hangdang": "未知",
+        "speech_count": 27,
+        "degree": 1,
+        "weighted_degree": 95
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "牡丹",
+      "label": "牡丹",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 29,
+      "text_length": 1137,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 16,
+        "recitation": 1,
+        "singing": 11
+      }
+    },
+    {
+      "id": "吕洞宾",
+      "label": "吕洞宾",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 27,
+      "text_length": 651,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "singing": 14,
+        "spoken": 13
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "吕洞宾",
+      "target": "牡丹",
+      "weight": 95,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 47,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

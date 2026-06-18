@@ -1,0 +1,132 @@
+{
+  "play": {
+    "play_id": "70006106",
+    "title": "武家坡",
+    "pdf_name": "70006106_武家坡.pdf",
+    "group_id": "70006000",
+    "page_count": 9,
+    "scene_count": 1,
+    "speech_count": 246,
+    "character_count": 3,
+    "source_url": "https://scripts.xikao.com/play/70006106",
+    "source_date": "2021-02-06",
+    "synopsis_length": 74,
+    "notes_length": 68,
+    "marker_category_counts": {
+      "singing": 46,
+      "spoken": 198,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 320.666667,
+    "max_edge_weight": 443,
+    "top_characters": [
+      {
+        "name": "薛平贵",
+        "hangdang": "老生",
+        "speech_count": 121,
+        "degree": 2,
+        "weighted_degree": 474
+      },
+      {
+        "name": "王宝钏",
+        "hangdang": "旦",
+        "speech_count": 116,
+        "degree": 2,
+        "weighted_degree": 450
+      },
+      {
+        "name": "大嫂",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 2,
+        "weighted_degree": 38
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "薛平贵",
+      "label": "薛平贵",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 121,
+      "text_length": 2436,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 474,
+      "marker_category_counts": {
+        "singing": 24,
+        "spoken": 96,
+        "other": 1
+      }
+    },
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 116,
+      "text_length": 1626,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 450,
+      "marker_category_counts": {
+        "spoken": 93,
+        "singing": 22,
+        "other": 1
+      }
+    },
+    {
+      "id": "大嫂",
+      "label": "大嫂",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 82,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "spoken": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王宝钏",
+      "target": "薛平贵",
+      "weight": 443,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 221,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大嫂",
+      "target": "薛平贵",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大嫂",
+      "target": "王宝钏",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

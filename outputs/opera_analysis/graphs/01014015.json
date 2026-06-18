@@ -1,0 +1,180 @@
+{
+  "play": {
+    "play_id": "01014015",
+    "title": "挡亮",
+    "pdf_name": "01014015_挡亮.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 17,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01014015",
+    "source_date": "2013-03-19",
+    "synopsis_length": 140,
+    "notes_length": 350,
+    "marker_category_counts": {
+      "singing": 9,
+      "spoken": 8
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 17.0,
+    "max_edge_weight": 13,
+    "top_characters": [
+      {
+        "name": "陈友谅",
+        "hangdang": "净",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "康茂才",
+        "hangdang": "老生",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 19
+      },
+      {
+        "name": "小校",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "陈友杰",
+        "hangdang": "副净",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "陈友谅",
+      "label": "陈友谅",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 7,
+      "text_length": 405,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "康茂才",
+      "label": "康茂才",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 6,
+      "text_length": 665,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "小校",
+      "label": "小校",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 17,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "陈友杰",
+      "label": "陈友杰",
+      "raw_role": "副净",
+      "hangdang": "副净",
+      "speech_count": 2,
+      "text_length": 32,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "康茂才",
+      "target": "陈友谅",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "陈友杰",
+      "target": "陈友谅",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小校",
+      "target": "康茂才",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小校",
+      "target": "陈友谅",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小校",
+      "target": "陈友杰",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "康茂才",
+      "target": "陈友杰",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "play": {
+    "play_id": "03021007",
+    "title": "探寒窑",
+    "pdf_name": "03021007_探寒窑.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 92,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/03021007",
+    "source_date": "2016-03-31",
+    "synopsis_length": 70,
+    "notes_length": 109,
+    "marker_category_counts": {
+      "other": 3,
+      "recitation": 2,
+      "spoken": 62,
+      "singing": 24,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 69.6,
+    "max_edge_weight": 121,
+    "top_characters": [
+      {
+        "name": "王夫人",
+        "hangdang": "老旦",
+        "speech_count": 46,
+        "degree": 4,
+        "weighted_degree": 160
+      },
+      {
+        "name": "王宝钏",
+        "hangdang": "旦",
+        "speech_count": 35,
+        "degree": 4,
+        "weighted_degree": 132
+      },
+      {
+        "name": "家院",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "丫鬟参",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王夫人",
+      "label": "王夫人",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 46,
+      "text_length": 1122,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 160,
+      "marker_category_counts": {
+        "other": 2,
+        "recitation": 1,
+        "spoken": 29,
+        "singing": 13,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 35,
+      "text_length": 882,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 132,
+      "marker_category_counts": {
+        "spoken": 23,
+        "singing": 11,
+        "other": 1
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 103,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "丫鬟参",
+      "label": "丫鬟参",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王夫人",
+      "target": "王宝钏",
+      "weight": 121,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 60,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王夫人",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王夫人",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王宝钏",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟参",
+      "target": "王夫人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟参",
+      "target": "王宝钏",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "丫鬟参",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王宝钏",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟参",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "play": {
+    "play_id": "02003001",
+    "title": "斩熊虎",
+    "pdf_name": "02003001_斩熊虎.pdf",
+    "group_id": "02000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 45,
+    "character_count": 5,
+    "source_url": "https://scripts.xikao.com/play/02003001",
+    "source_date": "2021-11-09",
+    "synopsis_length": 99,
+    "notes_length": 46,
+    "marker_category_counts": {
+      "recitation": 2,
+      "other": 9,
+      "spoken": 33,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 35.6,
+    "max_edge_weight": 38,
+    "top_characters": [
+      {
+        "name": "冯显",
+        "hangdang": "净",
+        "speech_count": 19,
+        "degree": 4,
+        "weighted_degree": 59
+      },
+      {
+        "name": "韩守义",
+        "hangdang": "未知",
+        "speech_count": 11,
+        "degree": 4,
+        "weighted_degree": 49
+      },
+      {
+        "name": "熊虎",
+        "hangdang": "丑",
+        "speech_count": 9,
+        "degree": 4,
+        "weighted_degree": 38
+      },
+      {
+        "name": "四丑院子",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "丑院子甲",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "冯显",
+      "label": "冯显",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 19,
+      "text_length": 1331,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 59,
+      "marker_category_counts": {
+        "recitation": 2,
+        "other": 8,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "韩守义",
+      "label": "韩守义",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 134,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "spoken": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "熊虎",
+      "label": "熊虎",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 9,
+      "text_length": 240,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "stage_action": 1,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "四丑院子",
+      "label": "四丑院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 17,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "丑院子甲",
+      "label": "丑院子甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 20,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "冯显",
+      "target": "韩守义",
+      "weight": 38,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "冯显",
+      "target": "熊虎",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四丑院子",
+      "target": "熊虎",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丑院子甲",
+      "target": "韩守义",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丑院子甲",
+      "target": "熊虎",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "冯显",
+      "target": "四丑院子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "熊虎",
+      "target": "韩守义",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丑院子甲",
+      "target": "冯显",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丑院子甲",
+      "target": "四丑院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四丑院子",
+      "target": "韩守义",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

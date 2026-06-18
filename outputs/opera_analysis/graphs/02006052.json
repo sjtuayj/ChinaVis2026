@@ -1,0 +1,359 @@
+{
+  "play": {
+    "play_id": "02006052",
+    "title": "黄草山",
+    "pdf_name": "02006052_黄草山.pdf",
+    "group_id": "02000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 83,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/02006052",
+    "source_date": "2019-02-06",
+    "synopsis_length": 62,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 77,
+      "other": 1,
+      "recitation": 2,
+      "stage_action": 1,
+      "singing": 2
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 18,
+    "density": 0.857143,
+    "avg_degree": 5.142857,
+    "avg_weighted_degree": 47.428571,
+    "max_edge_weight": 30,
+    "top_characters": [
+      {
+        "name": "马赞",
+        "hangdang": "未知",
+        "speech_count": 22,
+        "degree": 6,
+        "weighted_degree": 92
+      },
+      {
+        "name": "薛刚",
+        "hangdang": "净",
+        "speech_count": 21,
+        "degree": 5,
+        "weighted_degree": 75
+      },
+      {
+        "name": "吴奇",
+        "hangdang": "未知",
+        "speech_count": 16,
+        "degree": 6,
+        "weighted_degree": 70
+      },
+      {
+        "name": "薛义",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 5,
+        "weighted_degree": 34
+      },
+      {
+        "name": "四马甲",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 6,
+        "weighted_degree": 34
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "马赞",
+      "label": "马赞",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 22,
+      "text_length": 288,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 20,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "薛刚",
+      "label": "薛刚",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 21,
+      "text_length": 678,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 75,
+      "marker_category_counts": {
+        "spoken": 19,
+        "singing": 2
+      }
+    },
+    {
+      "id": "吴奇",
+      "label": "吴奇",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 16,
+      "text_length": 313,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 70,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 15
+      }
+    },
+    {
+      "id": "薛义",
+      "label": "薛义",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 273,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 34,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "四马甲",
+      "label": "四马甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 31,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 34,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "四将官",
+      "label": "四将官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 52,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "报子",
+      "label": "报子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 36,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "吴奇",
+      "target": "马赞",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "薛刚",
+      "target": "马赞",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吴奇",
+      "target": "薛刚",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "薛义",
+      "target": "马赞",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四马甲",
+      "target": "薛刚",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四将官",
+      "target": "薛义",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吴奇",
+      "target": "四马甲",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "马赞",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四马甲",
+      "target": "马赞",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "薛义",
+      "target": "薛刚",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吴奇",
+      "target": "四将官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吴奇",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "吴奇",
+      "target": "薛义",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四将官",
+      "target": "四马甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四将官",
+      "target": "薛刚",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四将官",
+      "target": "马赞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四马甲",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四马甲",
+      "target": "薛义",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

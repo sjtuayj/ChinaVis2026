@@ -1,0 +1,229 @@
+{
+  "play": {
+    "play_id": "01027008",
+    "title": "打沙锅",
+    "pdf_name": "01027008_打沙锅.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 96,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01027008",
+    "source_date": "2013-08-30",
+    "synopsis_length": 222,
+    "notes_length": 88,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 88,
+      "other": 2,
+      "singing": 3
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 71.2,
+    "max_edge_weight": 51,
+    "top_characters": [
+      {
+        "name": "山西人",
+        "hangdang": "丑",
+        "speech_count": 23,
+        "degree": 4,
+        "weighted_degree": 92
+      },
+      {
+        "name": "县官",
+        "hangdang": "丑",
+        "speech_count": 28,
+        "degree": 3,
+        "weighted_degree": 82
+      },
+      {
+        "name": "胡子林",
+        "hangdang": "未知",
+        "speech_count": 21,
+        "degree": 4,
+        "weighted_degree": 79
+      },
+      {
+        "name": "青袍甲",
+        "hangdang": "未知",
+        "speech_count": 15,
+        "degree": 3,
+        "weighted_degree": 64
+      },
+      {
+        "name": "胡抡",
+        "hangdang": "丑",
+        "speech_count": 9,
+        "degree": 2,
+        "weighted_degree": 39
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "山西人",
+      "label": "山西人",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 23,
+      "text_length": 646,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 21,
+        "other": 1
+      }
+    },
+    {
+      "id": "县官",
+      "label": "县官",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 28,
+      "text_length": 920,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 82,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 23,
+        "recitation": 1,
+        "singing": 3
+      }
+    },
+    {
+      "id": "胡子林",
+      "label": "胡子林",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 21,
+      "text_length": 623,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 20
+      }
+    },
+    {
+      "id": "青袍甲",
+      "label": "青袍甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 15,
+      "text_length": 229,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 64,
+      "marker_category_counts": {
+        "spoken": 15
+      }
+    },
+    {
+      "id": "胡抡",
+      "label": "胡抡",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 9,
+      "text_length": 366,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "spoken": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "县官",
+      "target": "山西人",
+      "weight": 51,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "胡子林",
+      "target": "胡抡",
+      "weight": 36,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "县官",
+      "target": "青袍甲",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "山西人",
+      "target": "胡子林",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "胡子林",
+      "target": "青袍甲",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "山西人",
+      "target": "青袍甲",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "山西人",
+      "target": "胡抡",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "县官",
+      "target": "胡子林",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

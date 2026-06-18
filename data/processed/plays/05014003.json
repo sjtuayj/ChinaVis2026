@@ -1,0 +1,2722 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "05014003",
+    "title": "荆襄府",
+    "aliases": [],
+    "collection_id": "05000000",
+    "collection_name": "《传统剧目汇编》",
+    "collection_remark": "《传统剧目汇编》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/05000000/05014003_荆襄府.pdf",
+    "source_url": "http://scripts.xikao.com/play/05014003",
+    "source_date": "2013-03-19",
+    "page_count": 6,
+    "file_size_bytes": 379498,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "刘备、庞统引兵入川，七夕诸葛亮与关羽、张飞在荆州饮宴，诸葛亮见红星陨落，知庞统身故，告众，张飞不信。关平持告急书至，果然，众人大惊。诸葛亮乃使张飞先行，并将荆州印交关羽代管，自与赵云引军入川，接应刘备。根据《传统剧目汇编》第十四集：范叔年藏本整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "蜀、诸葛、刘备、关羽、张飞、赵云",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.68,
+      "evidence": [
+        "关",
+        "兵",
+        "将"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": "红生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 24,
+        "aria_count": 2,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "红生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关羽：红生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 43,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 2,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：张飞：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_赵云",
+      "name": "赵云",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：赵云：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "滑稽",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 40,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：诸葛亮：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_关平",
+      "name": "关平",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "父"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 6,
+      "characters": [
+        "关羽",
+        "张飞",
+        "赵云",
+        "诸葛亮",
+        "报子",
+        "关平"
+      ],
+      "event_ids": [
+        "05014003_e00001",
+        "05014003_e00002",
+        "05014003_e00003",
+        "05014003_e00004",
+        "05014003_e00005",
+        "05014003_e00006",
+        "05014003_e00007",
+        "05014003_e00008",
+        "05014003_e00009",
+        "05014003_e00010",
+        "05014003_e00011",
+        "05014003_e00012",
+        "05014003_e00013",
+        "05014003_e00014",
+        "05014003_e00015",
+        "05014003_e00016",
+        "05014003_e00017",
+        "05014003_e00018",
+        "05014003_e00019",
+        "05014003_e00020",
+        "05014003_e00021",
+        "05014003_e00022",
+        "05014003_e00023",
+        "05014003_e00024",
+        "05014003_e00025",
+        "05014003_e00026",
+        "05014003_e00027",
+        "05014003_e00028",
+        "05014003_e00029",
+        "05014003_e00030",
+        "05014003_e00031",
+        "05014003_e00032",
+        "05014003_e00033",
+        "05014003_e00034",
+        "05014003_e00035",
+        "05014003_e00036",
+        "05014003_e00037",
+        "05014003_e00038",
+        "05014003_e00039",
+        "05014003_e00040",
+        "05014003_e00041",
+        "05014003_e00042",
+        "05014003_e00043",
+        "05014003_e00044",
+        "05014003_e00045",
+        "05014003_e00046",
+        "05014003_e00047",
+        "05014003_e00048",
+        "05014003_e00049",
+        "05014003_e00050",
+        "05014003_e00051",
+        "05014003_e00052",
+        "05014003_e00053",
+        "05014003_e00054",
+        "05014003_e00055",
+        "05014003_e00056",
+        "05014003_e00057",
+        "05014003_e00058",
+        "05014003_e00059",
+        "05014003_e00060",
+        "05014003_e00061",
+        "05014003_e00062",
+        "05014003_e00063",
+        "05014003_e00064",
+        "05014003_e00065",
+        "05014003_e00066",
+        "05014003_e00067",
+        "05014003_e00068",
+        "05014003_e00069",
+        "05014003_e00070",
+        "05014003_e00071",
+        "05014003_e00072",
+        "05014003_e00073",
+        "05014003_e00074",
+        "05014003_e00075",
+        "05014003_e00076",
+        "05014003_e00077",
+        "05014003_e00078",
+        "05014003_e00079",
+        "05014003_e00080",
+        "05014003_e00081",
+        "05014003_e00082",
+        "05014003_e00083",
+        "05014003_e00084",
+        "05014003_e00085",
+        "05014003_e00086",
+        "05014003_e00087",
+        "05014003_e00088",
+        "05014003_e00089",
+        "05014003_e00090",
+        "05014003_e00091",
+        "05014003_e00092",
+        "05014003_e00093",
+        "05014003_e00094",
+        "05014003_e00095",
+        "05014003_e00096",
+        "05014003_e00097",
+        "05014003_e00098",
+        "05014003_e00099",
+        "05014003_e00100",
+        "05014003_e00101",
+        "05014003_e00102",
+        "05014003_e00103",
+        "05014003_e00104",
+        "05014003_e00105",
+        "05014003_e00106",
+        "05014003_e00107",
+        "05014003_e00108",
+        "05014003_e00109",
+        "05014003_e00110",
+        "05014003_e00111",
+        "05014003_e00112",
+        "05014003_e00113",
+        "05014003_e00114",
+        "05014003_e00115",
+        "05014003_e00116",
+        "05014003_e00117",
+        "05014003_e00118",
+        "05014003_e00119",
+        "05014003_e00120",
+        "05014003_e00121",
+        "05014003_e00122",
+        "05014003_e00123",
+        "05014003_e00124",
+        "05014003_e00125",
+        "05014003_e00126",
+        "05014003_e00127",
+        "05014003_e00128",
+        "05014003_e00129",
+        "05014003_e00130",
+        "05014003_e00131",
+        "05014003_e00132",
+        "05014003_e00133",
+        "05014003_e00134",
+        "05014003_e00135",
+        "05014003_e00136",
+        "05014003_e00137",
+        "05014003_e00138",
+        "05014003_e00139",
+        "05014003_e00140",
+        "05014003_e00141",
+        "05014003_e00142",
+        "05014003_e00143",
+        "05014003_e00144",
+        "05014003_e00145"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 145,
+        "spoken_count": 102,
+        "aria_count": 2,
+        "recitation_count": 5,
+        "stage_direction_count": 13,
+        "expression_count": 2,
+        "text_length": 2786
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "05014003_e00001",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00002",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "蚕眉凤目世无双，",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00003",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "豹头环眼气轩昂。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00004",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "弟兄勇战千员将，",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00005",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "扶保大哥锦家邦。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00006",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某，汉室关。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00007",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "翼德张！",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00008",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三弟请坐。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00009",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "请坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00010",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三弟，我也曾命四弟过江去请先生，至今未见回报。",
+      "text_length": 23
+    },
+    {
+      "event_id": "05014003_e00011",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "想必来也。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00012",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云上。赵云关羽、",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00013",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "少礼，请坐。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00014",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "命你去到江夏去请先生，可曾到来？",
+      "text_length": 16
+    },
+    {
+      "event_id": "05014003_e00015",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "现在帐外。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00016",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "有请。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00017",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00018",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二位千岁在哪里？",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00019",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "先生在哪里？",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00020",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "诸葛亮",
+        "关羽",
+        "张飞"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00021",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "请坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00022",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "请坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00023",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "不知先生驾到，俺弟兄未曾远迎，先生恕罪！",
+      "text_length": 20
+    },
+    {
+      "event_id": "05014003_e00024",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "岂敢！亮少来问安，千岁恕罪！",
+      "text_length": 14
+    },
+    {
+      "event_id": "05014003_e00025",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "好说了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00026",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "贵帖相招有何见谕？",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00027",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "先生有所不知，今当七月七日，众将炼甲之日，请先生前来饮宴，二来请问大哥之事如何？",
+      "text_length": 40
+    },
+    {
+      "event_id": "05014003_e00028",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "主公么？凶多吉少。",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00029",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "怎见得？",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00030",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "山人算来确是凶多吉少。",
+      "text_length": 11
+    },
+    {
+      "event_id": "05014003_e00031",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "且慢。俺弟兄备得有酒，与先生同饮。",
+      "text_length": 17
+    },
+    {
+      "event_id": "05014003_e00032",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "到此就要叨扰！",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00033",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "看酒，待俺弟兄把盏。",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00034",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "不敢，摆下就是。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00035",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "诸葛亮",
+        "关羽",
+        "张飞"
+      ],
+      "text": "将宴摆下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00036",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "荆襄府内摆酒宴，",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00037",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 37,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "回龙",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "俺与先生饮一番。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00038",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 38,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "兄王攻打西川县，有劳先生算根源。",
+      "text_length": 16
+    },
+    {
+      "event_id": "05014003_e00039",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 39,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生吓！",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00040",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 40,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "俺弟兄结拜在桃园，乌牛祭地白马祭天。俺兄王攻打西川县，仗先生韬略定中原。",
+      "text_length": 36
+    },
+    {
+      "event_id": "05014003_e00041",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 41,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "赵云归降卧牛山，尊一声先生听根源：长坂坡前威风显，保定主公锦江山。",
+      "text_length": 33
+    },
+    {
+      "event_id": "05014003_e00042",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 42,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "多蒙千岁摆酒宴，猛然想起事从前。我算他落凤坡前身带箭，他算我拜北斗五丈原命丧黄泉。猛然提起头来看，",
+      "text_length": 49
+    },
+    {
+      "event_id": "05014003_e00043",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 43,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮出位，看星落。",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00044",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 44,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "斗大红星殒西南。袖内八卦暗排算，庞统先生丧黄泉。明知假装佯不管：",
+      "text_length": 32
+    },
+    {
+      "event_id": "05014003_e00045",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 45,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮进座。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00046",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 46,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "停杯不饮卧席前。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00047",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 47,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "想先生往日有百杯之量，今为何倒卧席前？",
+      "text_length": 19
+    },
+    {
+      "event_id": "05014003_e00048",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 48,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "二哥，待小弟将他唤醒。",
+      "text_length": 11
+    },
+    {
+      "event_id": "05014003_e00049",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 49,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三弟将他唤醒。",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00050",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 50,
+      "seq_in_scene": 50,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "师爷醒来。呔！先生醒来！",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00051",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 51,
+      "seq_in_scene": 51,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁，这是为何？",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00052",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 52,
+      "seq_in_scene": 52,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生平日有百杯之量，今日酒未过三巡，菜未过五味，为何倒卧席前？",
+      "text_length": 31
+    },
+    {
+      "event_id": "05014003_e00053",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 53,
+      "seq_in_scene": 53,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "山人看见将星殒落，只恐庞统先生已在落凤坡前带箭身亡了。",
+      "text_length": 27
+    },
+    {
+      "event_id": "05014003_e00054",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 54,
+      "seq_in_scene": 54,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生，你与庞统有仇？",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00055",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 55,
+      "seq_in_scene": 55,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "无仇。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00056",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 56,
+      "seq_in_scene": 56,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "有恨?",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00057",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 57,
+      "seq_in_scene": 57,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "无恨。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00058",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 58,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "却又来，既无仇恨，为何咒骂与他？",
+      "text_length": 16
+    },
+    {
+      "event_id": "05014003_e00059",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 59,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁如若不信，传令下去，人马休撤，酒宴休散，我与千岁饮个落花流水之间。西川必有人前来报信。",
+      "text_length": 46
+    },
+    {
+      "event_id": "05014003_e00060",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 60,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "待俺传令。呔！三军听者：人马休撤，酒宴休散，我与先生饮个落花流水，听杯等候，看西川有无人来。",
+      "text_length": 46
+    },
+    {
+      "event_id": "05014003_e00061",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 61,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00062",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 62,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "蜀中关平到。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00063",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 63,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "再探。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00064",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 64,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下，关平上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00065",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 65,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "待俺老张向前。关平儿在哪里？",
+      "text_length": 14
+    },
+    {
+      "event_id": "05014003_e00066",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 66,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "三叔父在哪里？",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00067",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 67,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "关平儿，不在西川侍奉你皇伯，来在荆襄做甚？",
+      "text_length": 21
+    },
+    {
+      "event_id": "05014003_e00068",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 68,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "奉了皇伯之命，前来下书。",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00069",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 69,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "书信在哪里？",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00070",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 70,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "书信在这里。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00071",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 71,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "拿过来。随我进来。见过师爷，见过你父，见过你叔。儿吓，一路之上费了多少辛苦，下面歇息去吧！",
+      "text_length": 45
+    },
+    {
+      "event_id": "05014003_e00072",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 72,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关平下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00073",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 73,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00074",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 74,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁为何发笑？",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00075",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 75,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生吓，俺家兄王得了西川，命关平前来下书。接俺弟兄去到西川，同享荣华富贵，岂不叫俺老张好喜。",
+      "text_length": 46
+    },
+    {
+      "event_id": "05014003_e00076",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 76,
+      "seq_in_scene": 76,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "可曾看过书信？",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00077",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 77,
+      "seq_in_scene": 77,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "一定得了西川，看这何来？",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00078",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 78,
+      "seq_in_scene": 78,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "还要看过，香案伺候。",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00079",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 79,
+      "seq_in_scene": 79,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同拜。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00080",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 80,
+      "seq_in_scene": 80,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "先生请看。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00081",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 81,
+      "seq_in_scene": 81,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二千岁请。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00082",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 82,
+      "seq_in_scene": 82,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三弟、四弟请看。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00083",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 83,
+      "seq_in_scene": 83,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张飞",
+        "赵云"
+      ],
+      "text": "二哥请看。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00084",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 84,
+      "seq_in_scene": 84,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "还是二千岁请看。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00085",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 85,
+      "seq_in_scene": 85,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "兄王恕弟不跪之罪了。",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00086",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 86,
+      "seq_in_scene": 86,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "斩蛇起义汉室传，",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00087",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 87,
+      "seq_in_scene": 87,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "关平下书到席前。俺弟兄分手有年半，今日才得书信还。对西川施一礼忙拆书笺，一一从头往下观：上写拜上多拜上，拜上师爷虎位前。拜上三弟和四弟，再拜二弟关美髯。愚兄带兵攻西川，两地交界安营盘。庞统先生帅印管，黄忠、魏延先锋官。凤雏先生带了箭，",
+      "text_length": 117
+    },
+    {
+      "event_id": "05014003_e00088",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 88,
+      "seq_in_scene": 88,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "倒叫俺老张痛心间。",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00089",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 89,
+      "seq_in_scene": 89,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁为何大放悲声？",
+      "text_length": 10
+    },
+    {
+      "event_id": "05014003_e00090",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 90,
+      "seq_in_scene": 90,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生有所不知，想庞统先生随俺兄王攻打西川，一日荣华未享，丧命落凤坡，怎地不叫俺老张好痛、痛、痛吓！",
+      "text_length": 49
+    },
+    {
+      "event_id": "05014003_e00091",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 91,
+      "seq_in_scene": 91,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "他有何好处？",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00092",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 92,
+      "seq_in_scene": 92,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "他的好处甚多。",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00093",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 93,
+      "seq_in_scene": 93,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "书信未曾看完，你且讲来。",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00094",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 94,
+      "seq_in_scene": 94,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生不嫌，听俺老张道来。",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00095",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 95,
+      "seq_in_scene": 95,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁请讲。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00096",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 96,
+      "seq_in_scene": 96,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生听道：",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00097",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 97,
+      "seq_in_scene": 97,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "张松献地理，庞统献连环。黄盖献苦肉，先生烧战船。",
+      "text_length": 24
+    },
+    {
+      "event_id": "05014003_e00098",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 98,
+      "seq_in_scene": 98,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "想那庞统先生投汉营以来，俺兄王看他面黄须短，无有什么大才，封他为耒阳县正堂。想那庞统先生到任以来，每日好酒贪杯不理民事。耒阳县的百姓，做下了申冤状，告在俺家兄王台前，俺兄王冲冲大怒，就命俺老张同了孙乾，带领三千人马来到耒阳，查看此事。是俺来到十里接官亭，不见庞统先生迎接于俺。是俺一马闯到衙前，谁想那庞统先生饮酒未眠和衣而出，俺老张一见，怒从心头起，恶向胆边生，举鞭就打；不料想庞统先生也是行伍出身，双手抱住鞭头说：三千岁，因何怒发冲冠？俺老张才将俺兄王旨意取出，庞统先生接旨看罢，言道：原来一桩小事。三千岁不嫌耳烦，与卑职同审同问，大堂之上设下两副公案，顷刻击鼓升堂，将那九十九名人犯，一齐带上堂来审问。那庞统先生果有先见之明，真正是眼观十行字，耳听乱人言，不用茶盏功夫，将那九十九名人犯，打的打了，罚的罚了。俺老张只当拿来的银钱，买来的百姓。那时老张回到馆驿，黄昏时候，换了青衣小帽，出离驿馆，查看他虚实。耒阳县的百姓，三个一群，五个一伙，他们言道，列位吓，列位吓，咱这耒阳县来一个庞青天庞老爷，断案如神。正是：国正天心顺，官清民自安。俺老张一闻此言，哈哈哈，大笑而归。回到京都，奏明俺大哥，俺兄王吃惊非小，才知将庞统先生大材小用了。即刻将他召回京来，封为西台御史，随定俺家兄王攻打西川。如今命丧落凤坡前，怎不叫俺老张好哭吓！",
+      "text_length": 565
+    },
+    {
+      "event_id": "05014003_e00099",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 99,
+      "seq_in_scene": 99,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "这书信可曾看完？",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00100",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 100,
+      "seq_in_scene": 100,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "一个人死了，还看它则甚？",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00101",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 101,
+      "seq_in_scene": 101,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "好做准备。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00102",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 102,
+      "seq_in_scene": 102,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "好，看他的结果。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00103",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 103,
+      "seq_in_scene": 103,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "吓先生哪！",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00104",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 104,
+      "seq_in_scene": 104,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "适才观罢书和柬，不由关某泪涟涟。抖起绿袍把泪沾，一一从头往下观：庞统先生身带箭，落凤坡前丧黄泉。愚兄带兵去会战，不胜张任败回还。万般出在无计奈，才命关平把兵搬。早来三日还相见，迟来三日见兄难。看书信哭坏了某的丹凤眼，",
+      "text_length": 108
+    },
+    {
+      "event_id": "05014003_e00105",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 105,
+      "seq_in_scene": 105,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "倒叫俺老张泪不干。",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00106",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 106,
+      "seq_in_scene": 106,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁，主公西川有难，你还是发兵不发兵吓？",
+      "text_length": 21
+    },
+    {
+      "event_id": "05014003_e00107",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 107,
+      "seq_in_scene": 107,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生，想俺兄王被困西川，俺老张恨不能身生双翅，飞到西川，焉有不发兵之理？",
+      "text_length": 36
+    },
+    {
+      "event_id": "05014003_e00108",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 108,
+      "seq_in_scene": 108,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁带兵走哪路？",
+      "text_length": 9
+    },
+    {
+      "event_id": "05014003_e00109",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 109,
+      "seq_in_scene": 109,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "师爷走哪路？",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00110",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 110,
+      "seq_in_scene": 110,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "山人走南路。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00111",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 111,
+      "seq_in_scene": 111,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "被俺老张占了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00112",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 112,
+      "seq_in_scene": 112,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "山人走北路。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00113",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 113,
+      "seq_in_scene": 113,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "又被俺老张占了。",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00114",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 114,
+      "seq_in_scene": 114,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "两条路径，俱被三千岁占去，难道说不叫山人发兵不成！",
+      "text_length": 25
+    },
+    {
+      "event_id": "05014003_e00115",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 115,
+      "seq_in_scene": 115,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生哪，想你看过西川地理，路径熟知，还望先生指教一二。",
+      "text_length": 27
+    },
+    {
+      "event_id": "05014003_e00116",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 116,
+      "seq_in_scene": 116,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "告便。且住，此去西川有七十二座连关大寨，离了此人不能收服，山人自有道理。三千岁来看，南接江边，北接五岭南水北山中间，有条小路，一人一骑方可过去。",
+      "text_length": 72
+    },
+    {
+      "event_id": "05014003_e00117",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 117,
+      "seq_in_scene": 117,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生，俺老张性情暴躁，水路有些颠三倒四，旱路被俺老张占了。",
+      "text_length": 29
+    },
+    {
+      "event_id": "05014003_e00118",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 118,
+      "seq_in_scene": 118,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "如此听山人一令：",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00119",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 119,
+      "seq_in_scene": 119,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "一支将令往下传，三千岁近前听我言：山人赐你一令箭，命你带兵攻西川。",
+      "text_length": 33
+    },
+    {
+      "event_id": "05014003_e00120",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 120,
+      "seq_in_scene": 120,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "大帐领了师爷令，兄王西川等救兵。三军带过马能行，",
+      "text_length": 24
+    },
+    {
+      "event_id": "05014003_e00121",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 121,
+      "seq_in_scene": 121,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三千岁请转。",
+      "text_length": 6
+    },
+    {
+      "event_id": "05014003_e00122",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 122,
+      "seq_in_scene": 122,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "师爷呼唤为何情？",
+      "text_length": 8
+    },
+    {
+      "event_id": "05014003_e00123",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 123,
+      "seq_in_scene": 123,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "此去西川，枪不许挑上将，鞭不准打老军。山人有锦囊一封，带在身旁，为难之时，打开观看，自有应验。上马去吧，上马去吧。",
+      "text_length": 57
+    },
+    {
+      "event_id": "05014003_e00124",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 124,
+      "seq_in_scene": 124,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "拿过来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00125",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 125,
+      "seq_in_scene": 125,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "先生说话真奇巧，倒叫俺老张解不了。翻身上了呼雷豹，乌骓马不住四蹄飘。",
+      "text_length": 34
+    },
+    {
+      "event_id": "05014003_e00126",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 126,
+      "seq_in_scene": 126,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00127",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 127,
+      "seq_in_scene": 127,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二枝将令往下传，四将军近前听我言：山人与你一令箭，命你江下备战船。",
+      "text_length": 33
+    },
+    {
+      "event_id": "05014003_e00128",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 128,
+      "seq_in_scene": 128,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "帐中领了一令箭，命我江下备战船，",
+      "text_length": 16
+    },
+    {
+      "event_id": "05014003_e00129",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 129,
+      "seq_in_scene": 129,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00130",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 130,
+      "seq_in_scene": 130,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二位将军出宝帐，再与君侯做商量。",
+      "text_length": 16
+    },
+    {
+      "event_id": "05014003_e00131",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 131,
+      "seq_in_scene": 131,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二千岁，主公西川有难，你还是发兵不发兵？",
+      "text_length": 20
+    },
+    {
+      "event_id": "05014003_e00132",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 132,
+      "seq_in_scene": 132,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "先生，兄王被困西川，焉有不发兵之理？但是这荆州无人保守。",
+      "text_length": 28
+    },
+    {
+      "event_id": "05014003_e00133",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 133,
+      "seq_in_scene": 133,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二千岁还该在此镇守荆州，倘若东吴兴兵？",
+      "text_length": 19
+    },
+    {
+      "event_id": "05014003_e00134",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 134,
+      "seq_in_scene": 134,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "冲锋。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00135",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 135,
+      "seq_in_scene": 135,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "曹操兴兵？",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00136",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 136,
+      "seq_in_scene": 136,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "对敌。",
+      "text_length": 3
+    },
+    {
+      "event_id": "05014003_e00137",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 137,
+      "seq_in_scene": 137,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "两个一齐夹攻？",
+      "text_length": 7
+    },
+    {
+      "event_id": "05014003_e00138",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 138,
+      "seq_in_scene": 138,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "这个……大丈夫除死方休！",
+      "text_length": 12
+    },
+    {
+      "event_id": "05014003_e00139",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 139,
+      "seq_in_scene": 139,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "不好了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "05014003_e00140",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 140,
+      "seq_in_scene": 140,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二千岁出言太不祥，不由山人吃一惊。联孙拒曹方称我心，保得荆州如长城。",
+      "text_length": 34
+    },
+    {
+      "event_id": "05014003_e00141",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 141,
+      "seq_in_scene": 141,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二千岁镇守荆襄，山人有八个字，牢牢记下：“东和孙权，北敌曹操”。告辞了。",
+      "text_length": 36
+    },
+    {
+      "event_id": "05014003_e00142",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 142,
+      "seq_in_scene": 142,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "在宝帐和君侯拱拱手，要相逢除非是海水倒流。",
+      "text_length": 21
+    },
+    {
+      "event_id": "05014003_e00143",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 143,
+      "seq_in_scene": 143,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "05014003_e00144",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 144,
+      "seq_in_scene": 144,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "一见师爷出宝帐，不由关某两泪汪。某兄王西川打败仗，并无能将救兄王。关某有心亲自往，实实难离这荆襄。闷恹恹且退连环帐，但听探马报端详。",
+      "text_length": 66
+    },
+    {
+      "event_id": "05014003_e00145",
+      "play_id": "05014003",
+      "scene_id": "05014003_s01",
+      "scene_no": 1,
+      "seq_global": 145,
+      "seq_in_scene": 145,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。",
+      "text_length": 4
+    }
+  ],
+  "roles_inferred": true
+}

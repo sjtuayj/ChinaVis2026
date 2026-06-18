@@ -1,0 +1,313 @@
+{
+  "play": {
+    "play_id": "01002014",
+    "title": "宇宙锋",
+    "pdf_name": "01002014_宇宙锋.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 101,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01002014",
+    "source_date": "2013-08-23",
+    "synopsis_length": 197,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 90,
+      "recitation": 4,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 70.666667,
+    "max_edge_weight": 92,
+    "top_characters": [
+      {
+        "name": "赵高",
+        "hangdang": "净",
+        "speech_count": 39,
+        "degree": 5,
+        "weighted_degree": 157
+      },
+      {
+        "name": "赵艳容",
+        "hangdang": "旦",
+        "speech_count": 32,
+        "degree": 5,
+        "weighted_degree": 127
+      },
+      {
+        "name": "秦王",
+        "hangdang": "小生",
+        "speech_count": 23,
+        "degree": 5,
+        "weighted_degree": 97
+      },
+      {
+        "name": "门官",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 5,
+        "weighted_degree": 25
+      },
+      {
+        "name": "丫头",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 5,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵高",
+      "label": "赵高",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 39,
+      "text_length": 496,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 37,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "赵艳容",
+      "label": "赵艳容",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 32,
+      "text_length": 1108,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 127,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 24,
+        "singing": 6
+      }
+    },
+    {
+      "id": "秦王",
+      "label": "秦王",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 23,
+      "text_length": 326,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 97,
+      "marker_category_counts": {
+        "spoken": 22,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "门官",
+      "label": "门官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 30,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "丫头",
+      "label": "丫头",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "赵艳容",
+      "target": "赵高",
+      "weight": 92,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 45,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵高",
+      "weight": 52,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵艳容",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "门官",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵高",
+      "target": "门官",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "赵高",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "赵艳容",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "门官",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "丫鬟",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "秦王",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "赵艳容",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "门官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "秦王",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "赵高",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵艳容",
+      "target": "门官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

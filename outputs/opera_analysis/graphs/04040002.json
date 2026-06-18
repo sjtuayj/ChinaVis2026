@@ -1,0 +1,342 @@
+{
+  "play": {
+    "play_id": "04040002",
+    "title": "打侄上坟",
+    "pdf_name": "04040002_打侄上坟.pdf",
+    "group_id": "04000000",
+    "page_count": 14,
+    "scene_count": 3,
+    "speech_count": 473,
+    "character_count": 7,
+    "source_url": "https://scripts.xikao.com/play/04040002",
+    "source_date": "2021-05-23",
+    "synopsis_length": 186,
+    "notes_length": 86,
+    "marker_category_counts": {
+      "spoken": 428,
+      "recitation": 17,
+      "stage_action": 3,
+      "other": 7,
+      "singing": 18
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 249.142857,
+    "max_edge_weight": 207,
+    "top_characters": [
+      {
+        "name": "陈伯愚",
+        "hangdang": "老生",
+        "speech_count": 124,
+        "degree": 6,
+        "weighted_degree": 450
+      },
+      {
+        "name": "陈大官",
+        "hangdang": "小生",
+        "speech_count": 107,
+        "degree": 4,
+        "weighted_degree": 379
+      },
+      {
+        "name": "朱参",
+        "hangdang": "丑",
+        "speech_count": 70,
+        "degree": 4,
+        "weighted_degree": 260
+      },
+      {
+        "name": "陈志",
+        "hangdang": "未知",
+        "speech_count": 65,
+        "degree": 6,
+        "weighted_degree": 260
+      },
+      {
+        "name": "安人",
+        "hangdang": "老旦",
+        "speech_count": 48,
+        "degree": 4,
+        "weighted_degree": 187
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "陈伯愚",
+      "label": "陈伯愚",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 124,
+      "text_length": 1854,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 450,
+      "marker_category_counts": {
+        "spoken": 110,
+        "recitation": 3,
+        "other": 3,
+        "singing": 8
+      }
+    },
+    {
+      "id": "陈大官",
+      "label": "陈大官",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 107,
+      "text_length": 2114,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 379,
+      "marker_category_counts": {
+        "recitation": 4,
+        "spoken": 99,
+        "singing": 4
+      }
+    },
+    {
+      "id": "朱参",
+      "label": "朱参",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 70,
+      "text_length": 893,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 260,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 68
+      }
+    },
+    {
+      "id": "陈志",
+      "label": "陈志",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 65,
+      "text_length": 424,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 260,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 63,
+        "other": 1
+      }
+    },
+    {
+      "id": "安人",
+      "label": "安人",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 48,
+      "text_length": 508,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 187,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 36,
+        "other": 3,
+        "stage_action": 2,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "张公道",
+      "label": "张公道",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 49,
+      "text_length": 668,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 169,
+      "marker_category_counts": {
+        "spoken": 45,
+        "recitation": 3,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "六小孩",
+      "label": "六小孩",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 77,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "spoken": 7,
+        "recitation": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "朱参",
+      "target": "陈大官",
+      "weight": 207,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 103,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "安人",
+      "target": "陈伯愚",
+      "weight": 154,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 76,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈伯愚",
+      "target": "陈志",
+      "weight": 99,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 48,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈伯愚",
+      "target": "陈大官",
+      "weight": 78,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 38,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈大官",
+      "target": "陈志",
+      "weight": 78,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 38,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "陈伯愚",
+      "weight": 73,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 36,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "陈志",
+      "weight": 63,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 31,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱参",
+      "target": "陈伯愚",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "六小孩",
+      "target": "张公道",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "安人",
+      "target": "陈大官",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "安人",
+      "target": "陈志",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "朱参",
+      "target": "陈志",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "六小孩",
+      "target": "陈伯愚",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "安人",
+      "target": "朱参",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "六小孩",
+      "target": "陈志",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

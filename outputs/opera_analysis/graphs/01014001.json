@@ -1,0 +1,162 @@
+{
+  "play": {
+    "play_id": "01014001",
+    "title": "鲁肃求计",
+    "pdf_name": "01014001_鲁肃求计.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 2,
+    "speech_count": 86,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01014001",
+    "source_date": "2013-03-16",
+    "synopsis_length": 244,
+    "notes_length": 46,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 75,
+      "singing": 10
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 81.0,
+    "max_edge_weight": 135,
+    "top_characters": [
+      {
+        "name": "鲁肃",
+        "hangdang": "老生",
+        "speech_count": 44,
+        "degree": 3,
+        "weighted_degree": 157
+      },
+      {
+        "name": "乔玄",
+        "hangdang": "未知",
+        "speech_count": 36,
+        "degree": 2,
+        "weighted_degree": 140
+      },
+      {
+        "name": "院子",
+        "hangdang": "丑",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 22
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 44,
+      "text_length": 1201,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 38,
+        "singing": 5
+      }
+    },
+    {
+      "id": "乔玄",
+      "label": "乔玄",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 36,
+      "text_length": 1789,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 140,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 31
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 5,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 22,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "乔玄",
+      "target": "鲁肃",
+      "weight": 135,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 67,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "院子",
+      "target": "鲁肃",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "鲁肃",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "05014002",
+    "title": "破石兆",
+    "pdf_name": "05014002_破石兆.pdf",
+    "group_id": "05000000",
+    "page_count": 2,
+    "scene_count": 3,
+    "speech_count": 45,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/05014002",
+    "source_date": "2018-08-24",
+    "synopsis_length": 112,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 38,
+      "singing": 5,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 44.0,
+    "max_edge_weight": 48,
+    "top_characters": [
+      {
+        "name": "刘备",
+        "hangdang": "老生",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 64
+      },
+      {
+        "name": "孙权",
+        "hangdang": "净",
+        "speech_count": 13,
+        "degree": 3,
+        "weighted_degree": 52
+      },
+      {
+        "name": "赵云",
+        "hangdang": "武生",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 36
+      },
+      {
+        "name": "四下手",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 24
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘备",
+      "label": "刘备",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 17,
+      "text_length": 354,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 64,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 13,
+        "other": 1
+      }
+    },
+    {
+      "id": "孙权",
+      "label": "孙权",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 13,
+      "text_length": 159,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 52,
+      "marker_category_counts": {
+        "spoken": 11,
+        "singing": 2
+      }
+    },
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 9,
+      "text_length": 196,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "四下手",
+      "label": "四下手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 44,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘备",
+      "target": "孙权",
+      "weight": 48,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四下手",
+      "target": "赵云",
+      "weight": 20,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "赵云",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "四下手",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孙权",
+      "target": "赵云",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四下手",
+      "target": "孙权",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

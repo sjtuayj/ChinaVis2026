@@ -1,0 +1,165 @@
+{
+  "play": {
+    "play_id": "70005111",
+    "title": "马嵬驿",
+    "pdf_name": "70005111_马嵬驿.pdf",
+    "group_id": "70005000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 28,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70005111",
+    "source_date": "2018-08-23",
+    "synopsis_length": 20,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 18,
+      "other": 2,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 24.5,
+    "max_edge_weight": 38,
+    "top_characters": [
+      {
+        "name": "天宝帝",
+        "hangdang": "老生",
+        "speech_count": 13,
+        "degree": 2,
+        "weighted_degree": 41
+      },
+      {
+        "name": "高力士",
+        "hangdang": "未知",
+        "speech_count": 11,
+        "degree": 2,
+        "weighted_degree": 41
+      },
+      {
+        "name": "四大铠",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "陈元礼",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "天宝帝",
+      "label": "天宝帝",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 13,
+      "text_length": 1037,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "other": 2,
+        "singing": 6,
+        "recitation": 1,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "高力士",
+      "label": "高力士",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 130,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    },
+    {
+      "id": "四大铠",
+      "label": "四大铠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 14,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "陈元礼",
+      "label": "陈元礼",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 96,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "天宝帝",
+      "target": "高力士",
+      "weight": 38,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "陈元礼",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "天宝帝",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "高力士",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

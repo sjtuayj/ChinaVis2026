@@ -1,0 +1,187 @@
+{
+  "play": {
+    "play_id": "70006102",
+    "title": "捉放曹",
+    "pdf_name": "70006102_捉放曹.pdf",
+    "group_id": "70006000",
+    "page_count": 8,
+    "scene_count": 3,
+    "speech_count": 93,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/70006102",
+    "source_date": "2021-01-19",
+    "synopsis_length": 98,
+    "notes_length": 84,
+    "marker_category_counts": {
+      "singing": 23,
+      "spoken": 69,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 88.0,
+    "max_edge_weight": 121,
+    "top_characters": [
+      {
+        "name": "曹操",
+        "hangdang": "净",
+        "speech_count": 40,
+        "degree": 3,
+        "weighted_degree": 160
+      },
+      {
+        "name": "陈宫",
+        "hangdang": "老生",
+        "speech_count": 39,
+        "degree": 3,
+        "weighted_degree": 136
+      },
+      {
+        "name": "吕伯奢",
+        "hangdang": "老生",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "店家",
+        "hangdang": "丑",
+        "speech_count": 5,
+        "degree": 3,
+        "weighted_degree": 23
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "曹操",
+      "label": "曹操",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 40,
+      "text_length": 721,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 160,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 31,
+        "other": 1
+      }
+    },
+    {
+      "id": "陈宫",
+      "label": "陈宫",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 39,
+      "text_length": 1264,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 136,
+      "marker_category_counts": {
+        "singing": 12,
+        "spoken": 27
+      }
+    },
+    {
+      "id": "吕伯奢",
+      "label": "吕伯奢",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 9,
+      "text_length": 224,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "店家",
+      "label": "店家",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 5,
+      "text_length": 80,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "曹操",
+      "target": "陈宫",
+      "weight": 121,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 59,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吕伯奢",
+      "target": "曹操",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "店家",
+      "target": "曹操",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吕伯奢",
+      "target": "陈宫",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "店家",
+      "target": "陈宫",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吕伯奢",
+      "target": "店家",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

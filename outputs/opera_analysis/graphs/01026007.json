@@ -1,0 +1,248 @@
+{
+  "play": {
+    "play_id": "01026007",
+    "title": "滚鼓山",
+    "pdf_name": "01026007_滚鼓山.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 90,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01026007",
+    "source_date": "2018-08-24",
+    "synopsis_length": 135,
+    "notes_length": 133,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 86,
+      "singing": 1,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 9,
+    "density": 0.6,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 57.666667,
+    "max_edge_weight": 107,
+    "top_characters": [
+      {
+        "name": "张飞",
+        "hangdang": "净",
+        "speech_count": 46,
+        "degree": 5,
+        "weighted_degree": 163
+      },
+      {
+        "name": "刘封",
+        "hangdang": "丑",
+        "speech_count": 29,
+        "degree": 3,
+        "weighted_degree": 113
+      },
+      {
+        "name": "廖化",
+        "hangdang": "老生",
+        "speech_count": 11,
+        "degree": 2,
+        "weighted_degree": 46
+      },
+      {
+        "name": "探子",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      },
+      {
+        "name": "四上手",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张飞",
+      "label": "张飞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 46,
+      "text_length": 1140,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 163,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 43,
+        "singing": 1
+      }
+    },
+    {
+      "id": "刘封",
+      "label": "刘封",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 29,
+      "text_length": 362,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 113,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 28
+      }
+    },
+    {
+      "id": "廖化",
+      "label": "廖化",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 11,
+      "text_length": 247,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 46,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    },
+    {
+      "id": "探子",
+      "label": "探子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 14,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "四上手",
+      "label": "四上手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 9,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘封",
+      "target": "张飞",
+      "weight": 107,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "廖化",
+      "target": "张飞",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "探子",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘封",
+      "target": "旗牌",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四上手",
+      "target": "张飞",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "廖化",
+      "target": "探子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘封",
+      "target": "四上手",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四上手",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "play": {
+    "play_id": "02006069",
+    "title": "祥梅寺",
+    "pdf_name": "02006069_祥梅寺.pdf",
+    "group_id": "02000000",
+    "page_count": 4,
+    "scene_count": 4,
+    "speech_count": 59,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/02006069",
+    "source_date": "2018-08-23",
+    "synopsis_length": 168,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 12,
+      "recitation": 1,
+      "spoken": 46
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 45.2,
+    "max_edge_weight": 76,
+    "top_characters": [
+      {
+        "name": "变律",
+        "hangdang": "丑",
+        "speech_count": 27,
+        "degree": 4,
+        "weighted_degree": 97
+      },
+      {
+        "name": "黄巢",
+        "hangdang": "净",
+        "speech_count": 23,
+        "degree": 2,
+        "weighted_degree": 89
+      },
+      {
+        "name": "二鬼",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 20
+      },
+      {
+        "name": "军士",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      },
+      {
+        "name": "鬼甲",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "变律",
+      "label": "变律",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 27,
+      "text_length": 1237,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 97,
+      "marker_category_counts": {
+        "other": 7,
+        "spoken": 20
+      }
+    },
+    {
+      "id": "黄巢",
+      "label": "黄巢",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 23,
+      "text_length": 835,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 89,
+      "marker_category_counts": {
+        "other": 5,
+        "spoken": 18
+      }
+    },
+    {
+      "id": "二鬼",
+      "label": "二鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 110,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "军士",
+      "label": "军士",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 38,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "鬼甲",
+      "label": "鬼甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 36,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "变律",
+      "target": "黄巢",
+      "weight": 76,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二鬼",
+      "target": "变律",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "军士",
+      "target": "黄巢",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二鬼",
+      "target": "鬼甲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "变律",
+      "target": "鬼甲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "军士",
+      "target": "变律",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

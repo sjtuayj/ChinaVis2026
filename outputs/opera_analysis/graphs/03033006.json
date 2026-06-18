@@ -1,0 +1,236 @@
+{
+  "play": {
+    "play_id": "03033006",
+    "title": "枣阳山",
+    "pdf_name": "03033006_枣阳山.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 4,
+    "speech_count": 43,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/03033006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 100,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 17,
+      "spoken": 26
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 9,
+    "density": 0.9,
+    "avg_degree": 3.6,
+    "avg_weighted_degree": 34.8,
+    "max_edge_weight": 51,
+    "top_characters": [
+      {
+        "name": "单雄信",
+        "hangdang": "净",
+        "speech_count": 18,
+        "degree": 4,
+        "weighted_degree": 73
+      },
+      {
+        "name": "秦琼",
+        "hangdang": "老生",
+        "speech_count": 15,
+        "degree": 4,
+        "weighted_degree": 61
+      },
+      {
+        "name": "黄大人",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 26
+      },
+      {
+        "name": "四青袍",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 9
+      },
+      {
+        "name": "四喽兵",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "单雄信",
+      "label": "单雄信",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 18,
+      "text_length": 595,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 73,
+      "marker_category_counts": {
+        "spoken": 14,
+        "singing": 4
+      }
+    },
+    {
+      "id": "秦琼",
+      "label": "秦琼",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 15,
+      "text_length": 427,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 61,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "黄大人",
+      "label": "黄大人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 456,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "四青袍",
+      "label": "四青袍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "四喽兵",
+      "label": "四喽兵",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 34,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "单雄信",
+      "target": "秦琼",
+      "weight": 51,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "黄大人",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "秦琼",
+      "target": "黄大人",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "四喽兵",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "四青袍",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "秦琼",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "黄大人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四喽兵",
+      "target": "秦琼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四喽兵",
+      "target": "黄大人",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

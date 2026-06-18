@@ -1,0 +1,312 @@
+{
+  "play": {
+    "play_id": "04037003",
+    "title": "钟馗嫁妹",
+    "pdf_name": "04037003_钟馗嫁妹.pdf",
+    "group_id": "04000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 66,
+    "character_count": 6,
+    "source_url": "https://scripts.xikao.com/play/04037003",
+    "source_date": "2024-02-08",
+    "synopsis_length": 89,
+    "notes_length": 85,
+    "marker_category_counts": {
+      "other": 8,
+      "recitation": 1,
+      "spoken": 55,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 14,
+    "density": 0.933333,
+    "avg_degree": 4.666667,
+    "avg_weighted_degree": 45.0,
+    "max_edge_weight": 40,
+    "top_characters": [
+      {
+        "name": "钟馗",
+        "hangdang": "净",
+        "speech_count": 23,
+        "degree": 5,
+        "weighted_degree": 92
+      },
+      {
+        "name": "钟妹",
+        "hangdang": "旦",
+        "speech_count": 15,
+        "degree": 5,
+        "weighted_degree": 56
+      },
+      {
+        "name": "四小鬼",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 5,
+        "weighted_degree": 38
+      },
+      {
+        "name": "杜平",
+        "hangdang": "小生",
+        "speech_count": 11,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "梅香",
+        "hangdang": "旦",
+        "speech_count": 8,
+        "degree": 5,
+        "weighted_degree": 36
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "钟馗",
+      "label": "钟馗",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 23,
+      "text_length": 1246,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 20,
+        "other": 2
+      }
+    },
+    {
+      "id": "钟妹",
+      "label": "钟妹",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 15,
+      "text_length": 270,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 56,
+      "marker_category_counts": {
+        "spoken": 11,
+        "other": 3,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "四小鬼",
+      "label": "四小鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 66,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    },
+    {
+      "id": "杜平",
+      "label": "杜平",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 434,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "other": 1,
+        "stage_action": 1,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "梅香",
+      "label": "梅香",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 8,
+      "text_length": 91,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "大鬼卒",
+      "label": "大鬼卒",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 2,
+      "text_length": 128,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "钟妹",
+      "target": "钟馗",
+      "weight": 40,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四小鬼",
+      "target": "钟馗",
+      "weight": 29,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "杜平",
+      "target": "梅香",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "杜平",
+      "target": "钟馗",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "梅香",
+      "target": "钟妹",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大鬼卒",
+      "target": "钟馗",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "梅香",
+      "target": "钟馗",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四小鬼",
+      "target": "杜平",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "杜平",
+      "target": "钟妹",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四小鬼",
+      "target": "大鬼卒",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四小鬼",
+      "target": "梅香",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四小鬼",
+      "target": "钟妹",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大鬼卒",
+      "target": "梅香",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "大鬼卒",
+      "target": "钟妹",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

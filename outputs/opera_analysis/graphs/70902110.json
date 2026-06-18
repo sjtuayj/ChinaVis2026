@@ -1,0 +1,245 @@
+{
+  "play": {
+    "play_id": "70902110",
+    "title": "牡丹亭·惊梦",
+    "pdf_name": "70902110_牡丹亭·惊梦.pdf",
+    "group_id": "70902000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 35,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/70902110",
+    "source_date": "2018-08-23",
+    "synopsis_length": 35,
+    "notes_length": 236,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 23,
+      "stage_action": 6,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 28.8,
+    "max_edge_weight": 31,
+    "top_characters": [
+      {
+        "name": "杜丽娘",
+        "hangdang": "旦",
+        "speech_count": 15,
+        "degree": 4,
+        "weighted_degree": 62
+      },
+      {
+        "name": "杜母",
+        "hangdang": "老旦",
+        "speech_count": 8,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "柳梦梅",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 30
+      },
+      {
+        "name": "众花神",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 8
+      },
+      {
+        "name": "春香",
+        "hangdang": "旦",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杜丽娘",
+      "label": "杜丽娘",
+      "raw_role": "五旦",
+      "hangdang": "旦",
+      "speech_count": 15,
+      "text_length": 510,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 62,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 12,
+        "stage_action": 2
+      }
+    },
+    {
+      "id": "杜母",
+      "label": "杜母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 8,
+      "text_length": 155,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "柳梦梅",
+      "label": "柳梦梅",
+      "raw_role": "巾生",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 541,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "spoken": 4,
+        "other": 3
+      }
+    },
+    {
+      "id": "众花神",
+      "label": "众花神",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 240,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "stage_action": 4
+      }
+    },
+    {
+      "id": "春香",
+      "label": "春香",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 1,
+      "text_length": 37,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "杜丽娘",
+      "target": "杜母",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杜丽娘",
+      "target": "柳梦梅",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "春香",
+      "target": "杜丽娘",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众花神",
+      "target": "杜丽娘",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众花神",
+      "target": "柳梦梅",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杜母",
+      "target": "柳梦梅",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众花神",
+      "target": "春香",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众花神",
+      "target": "杜母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "春香",
+      "target": "杜母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "春香",
+      "target": "柳梦梅",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

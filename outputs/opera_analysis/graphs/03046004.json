@@ -1,0 +1,190 @@
+{
+  "play": {
+    "play_id": "03046004",
+    "title": "置田装疯",
+    "pdf_name": "03046004_置田装疯.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 124,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/03046004",
+    "source_date": "2017-08-24",
+    "synopsis_length": 92,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 116,
+      "recitation": 5,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 118.5,
+    "max_edge_weight": 84,
+    "top_characters": [
+      {
+        "name": "尉迟恭",
+        "hangdang": "净",
+        "speech_count": 43,
+        "degree": 3,
+        "weighted_degree": 167
+      },
+      {
+        "name": "黑氏",
+        "hangdang": "老旦",
+        "speech_count": 34,
+        "degree": 3,
+        "weighted_degree": 125
+      },
+      {
+        "name": "徐茂公",
+        "hangdang": "老生",
+        "speech_count": 32,
+        "degree": 3,
+        "weighted_degree": 121
+      },
+      {
+        "name": "四龙套",
+        "hangdang": "未知",
+        "speech_count": 15,
+        "degree": 3,
+        "weighted_degree": 61
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "尉迟恭",
+      "label": "尉迟恭",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 43,
+      "text_length": 1253,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 167,
+      "marker_category_counts": {
+        "spoken": 42,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "黑氏",
+      "label": "黑氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 34,
+      "text_length": 417,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 125,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 33
+      }
+    },
+    {
+      "id": "徐茂公",
+      "label": "徐茂公",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 32,
+      "text_length": 617,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 121,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 27,
+        "recitation": 4
+      }
+    },
+    {
+      "id": "四龙套",
+      "label": "四龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 15,
+      "text_length": 207,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 61,
+      "marker_category_counts": {
+        "spoken": 14,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "尉迟恭",
+      "target": "黑氏",
+      "weight": 84,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 41,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "尉迟恭",
+      "target": "徐茂公",
+      "weight": 58,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "徐茂公",
+      "target": "黑氏",
+      "weight": 34,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "徐茂公",
+      "weight": 29,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "尉迟恭",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "黑氏",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "play": {
+    "play_id": "04022003",
+    "title": "扫松下书",
+    "pdf_name": "04022003_扫松下书.pdf",
+    "group_id": "04000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 134,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/04022003",
+    "source_date": "2018-08-23",
+    "synopsis_length": 169,
+    "notes_length": 3,
+    "marker_category_counts": {
+      "recitation": 5,
+      "spoken": 125,
+      "other": 2,
+      "singing": 2
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 243.0,
+    "max_edge_weight": 243,
+    "top_characters": [
+      {
+        "name": "张广才",
+        "hangdang": "老生",
+        "speech_count": 69,
+        "degree": 1,
+        "weighted_degree": 243
+      },
+      {
+        "name": "李旺",
+        "hangdang": "丑",
+        "speech_count": 65,
+        "degree": 1,
+        "weighted_degree": 243
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张广才",
+      "label": "张广才",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 69,
+      "text_length": 1529,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 243,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 64,
+        "singing": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "李旺",
+      "label": "李旺",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 65,
+      "text_length": 1007,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 243,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 61,
+        "other": 1,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张广才",
+      "target": "李旺",
+      "weight": 243,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 121,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

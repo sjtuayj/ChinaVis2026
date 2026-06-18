@@ -1,0 +1,185 @@
+{
+  "play": {
+    "play_id": "13003008",
+    "title": "画兰",
+    "pdf_name": "13003008_画兰.pdf",
+    "group_id": "13000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 70,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/13003008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 21,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 6,
+      "spoken": 61,
+      "stage_action": 2,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 69.0,
+    "max_edge_weight": 81,
+    "top_characters": [
+      {
+        "name": "王伯谷",
+        "hangdang": "小生",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 117
+      },
+      {
+        "name": "马湘兰",
+        "hangdang": "旦",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 101
+      },
+      {
+        "name": "众妓女",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 31
+      },
+      {
+        "name": "小环",
+        "hangdang": "丑",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 27
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王伯谷",
+      "label": "王伯谷",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 30,
+      "text_length": 1060,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 117,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 27
+      }
+    },
+    {
+      "id": "马湘兰",
+      "label": "马湘兰",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 27,
+      "text_length": 356,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 101,
+      "marker_category_counts": {
+        "spoken": 22,
+        "other": 3,
+        "recitation": 1,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "众妓女",
+      "label": "众妓女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 0,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "stage_action": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "小环",
+      "label": "小环",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 6,
+      "text_length": 87,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王伯谷",
+      "target": "马湘兰",
+      "weight": 81,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众妓女",
+      "target": "王伯谷",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小环",
+      "target": "王伯谷",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小环",
+      "target": "马湘兰",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众妓女",
+      "target": "马湘兰",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众妓女",
+      "target": "小环",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

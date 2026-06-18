@@ -1,0 +1,266 @@
+{
+  "play": {
+    "play_id": "02012008",
+    "title": "九龙杯",
+    "pdf_name": "02012008_九龙杯【三本】.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 6,
+    "speech_count": 75,
+    "character_count": 6,
+    "source_url": "https://scripts.xikao.com/play/02012008",
+    "source_date": "2020-11-13",
+    "synopsis_length": 631,
+    "notes_length": 86,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 66,
+      "other": 5
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 10,
+    "density": 0.666667,
+    "avg_degree": 3.333333,
+    "avg_weighted_degree": 49.0,
+    "max_edge_weight": 80,
+    "top_characters": [
+      {
+        "name": "杨香武",
+        "hangdang": "武丑",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 121
+      },
+      {
+        "name": "薛应宗",
+        "hangdang": "未知",
+        "speech_count": 23,
+        "degree": 4,
+        "weighted_degree": 89
+      },
+      {
+        "name": "元通",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 48
+      },
+      {
+        "name": "法徒",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 28
+      },
+      {
+        "name": "法星",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杨香武",
+      "label": "杨香武",
+      "raw_role": "武丑",
+      "hangdang": "武丑",
+      "speech_count": 29,
+      "text_length": 987,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 121,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 27
+      }
+    },
+    {
+      "id": "薛应宗",
+      "label": "薛应宗",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 23,
+      "text_length": 771,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 89,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 21
+      }
+    },
+    {
+      "id": "元通",
+      "label": "元通",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 518,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "法徒",
+      "label": "法徒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 79,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "spoken": 5,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "法星",
+      "label": "法星",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 19,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "王伯燕",
+      "label": "王伯燕",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 160,
+      "scene_count": 2,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "杨香武",
+      "target": "薛应宗",
+      "weight": 80,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 39,
+      "scenes": [
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "元通",
+      "target": "杨香武",
+      "weight": 28,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "元通",
+      "target": "法徒",
+      "weight": 13,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001",
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "杨香武",
+      "target": "法徒",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "元通",
+      "target": "薛应宗",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "法徒",
+      "target": "薛应宗",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "元通",
+      "target": "法星",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "杨香武",
+      "target": "法星",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "法徒",
+      "target": "法星",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "法星",
+      "target": "薛应宗",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    }
+  ]
+}

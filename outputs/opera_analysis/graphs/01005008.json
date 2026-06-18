@@ -1,0 +1,562 @@
+{
+  "play": {
+    "play_id": "01005008",
+    "title": "玉堂春",
+    "pdf_name": "01005008_玉堂春.pdf",
+    "group_id": "01000000",
+    "page_count": 9,
+    "scene_count": 1,
+    "speech_count": 243,
+    "character_count": 9,
+    "source_url": "http://scripts.xikao.com/play/01005008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 403,
+    "notes_length": 200,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 194,
+      "singing": 43,
+      "stage_action": 4
+    }
+  },
+  "metrics": {
+    "node_count": 9,
+    "edge_count": 36,
+    "density": 1.0,
+    "avg_degree": 8.0,
+    "avg_weighted_degree": 111.111111,
+    "max_edge_weight": 155,
+    "top_characters": [
+      {
+        "name": "臬台",
+        "hangdang": "老生",
+        "speech_count": 84,
+        "degree": 8,
+        "weighted_degree": 330
+      },
+      {
+        "name": "苏三",
+        "hangdang": "旦",
+        "speech_count": 63,
+        "degree": 8,
+        "weighted_degree": 252
+      },
+      {
+        "name": "王金龙",
+        "hangdang": "小生",
+        "speech_count": 52,
+        "degree": 8,
+        "weighted_degree": 198
+      },
+      {
+        "name": "藩台",
+        "hangdang": "老生",
+        "speech_count": 14,
+        "degree": 8,
+        "weighted_degree": 64
+      },
+      {
+        "name": "张公道",
+        "hangdang": "丑",
+        "speech_count": 10,
+        "degree": 8,
+        "weighted_degree": 48
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "臬台",
+      "label": "臬台",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 84,
+      "text_length": 1018,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 330,
+      "marker_category_counts": {
+        "spoken": 79,
+        "stage_action": 4,
+        "other": 1
+      }
+    },
+    {
+      "id": "苏三",
+      "label": "苏三",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 63,
+      "text_length": 1287,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 252,
+      "marker_category_counts": {
+        "spoken": 23,
+        "singing": 40
+      }
+    },
+    {
+      "id": "王金龙",
+      "label": "王金龙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 52,
+      "text_length": 908,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 198,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 48,
+        "singing": 3
+      }
+    },
+    {
+      "id": "藩台",
+      "label": "藩台",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 14,
+      "text_length": 261,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 64,
+      "marker_category_counts": {
+        "spoken": 14
+      }
+    },
+    {
+      "id": "张公道",
+      "label": "张公道",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 10,
+      "text_length": 100,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "spoken": 10
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 58,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "门子甲",
+      "label": "门子甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 59,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 32,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "先生",
+      "label": "先生",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 49,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "门子",
+      "label": "门子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 8,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "臬台",
+      "target": "苏三",
+      "weight": 155,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 77,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王金龙",
+      "target": "臬台",
+      "weight": 113,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 56,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王金龙",
+      "target": "苏三",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "臬台",
+      "target": "藩台",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "先生",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "臬台",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "苏三",
+      "target": "藩台",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "苏三",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王金龙",
+      "target": "藩台",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王金龙",
+      "target": "门子甲",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "臬台",
+      "target": "门子甲",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "苏三",
+      "target": "门子甲",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "王金龙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "臬台",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "王金龙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "门子甲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王金龙",
+      "target": "门子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "苏三",
+      "target": "门子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "张公道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "苏三",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "藩台",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "门子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "门子甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "张公道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "王金龙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "臬台",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "苏三",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "藩台",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "门子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "先生",
+      "target": "门子甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "藩台",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "门子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "臬台",
+      "target": "门子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "藩台",
+      "target": "门子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "藩台",
+      "target": "门子甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "门子",
+      "target": "门子甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

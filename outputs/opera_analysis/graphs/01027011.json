@@ -1,0 +1,237 @@
+{
+  "play": {
+    "play_id": "01027011",
+    "title": "战潼台",
+    "pdf_name": "01027011_战潼台.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 9,
+    "speech_count": 78,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01027011",
+    "source_date": "2018-08-23",
+    "synopsis_length": 169,
+    "notes_length": 178,
+    "marker_category_counts": {
+      "singing": 10,
+      "recitation": 4,
+      "spoken": 64
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 7,
+    "density": 0.466667,
+    "avg_degree": 2.333333,
+    "avg_weighted_degree": 43.333333,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "岳彦真",
+        "hangdang": "未知",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 101
+      },
+      {
+        "name": "刘智远",
+        "hangdang": "武生",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 82
+      },
+      {
+        "name": "岳存训",
+        "hangdang": "小生",
+        "speech_count": 13,
+        "degree": 3,
+        "weighted_degree": 56
+      },
+      {
+        "name": "探子",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 4,
+        "weighted_degree": 16
+      },
+      {
+        "name": "朱温",
+        "hangdang": "净",
+        "speech_count": 4,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "岳彦真",
+      "label": "岳彦真",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 30,
+      "text_length": 547,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 101,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 23,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "刘智远",
+      "label": "刘智远",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 27,
+      "text_length": 581,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 82,
+      "marker_category_counts": {
+        "spoken": 23,
+        "recitation": 1,
+        "singing": 3
+      }
+    },
+    {
+      "id": "岳存训",
+      "label": "岳存训",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 13,
+      "text_length": 230,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 56,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "探子",
+      "label": "探子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 35,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "朱温",
+      "label": "朱温",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 4,
+      "text_length": 37,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "朱文杰",
+      "label": "朱文杰",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 1,
+      "text_length": 294,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘智远",
+      "target": "岳彦真",
+      "weight": 61,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_001",
+        "scene_005",
+        "scene_009"
+      ]
+    },
+    {
+      "source": "岳存训",
+      "target": "岳彦真",
+      "weight": 34,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "刘智远",
+      "target": "岳存训",
+      "weight": 19,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "岳彦真",
+      "target": "探子",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_005",
+        "scene_009"
+      ]
+    },
+    {
+      "source": "探子",
+      "target": "朱温",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "岳存训",
+      "target": "探子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "刘智远",
+      "target": "探子",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_005",
+        "scene_009"
+      ]
+    }
+  ]
+}

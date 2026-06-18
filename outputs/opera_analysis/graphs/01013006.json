@@ -1,0 +1,206 @@
+{
+  "play": {
+    "play_id": "01013006",
+    "title": "奇冤报",
+    "pdf_name": "01013006_奇冤报.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 5,
+    "speech_count": 55,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01013006",
+    "source_date": "2018-05-17",
+    "synopsis_length": 153,
+    "notes_length": 157,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 47,
+      "singing": 5
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 42.8,
+    "max_edge_weight": 45,
+    "top_characters": [
+      {
+        "name": "赵大",
+        "hangdang": "丑",
+        "speech_count": 26,
+        "degree": 3,
+        "weighted_degree": 98
+      },
+      {
+        "name": "刘世昌",
+        "hangdang": "老生",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 53
+      },
+      {
+        "name": "赵妻",
+        "hangdang": "彩旦",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 44
+      },
+      {
+        "name": "刘升",
+        "hangdang": "丑",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 19
+      },
+      {
+        "name": "判官",
+        "hangdang": "净",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵大",
+      "label": "赵大",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 26,
+      "text_length": 756,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 98,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 24,
+        "singing": 1
+      }
+    },
+    {
+      "id": "刘世昌",
+      "label": "刘世昌",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 14,
+      "text_length": 479,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 53,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "赵妻",
+      "label": "赵妻",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 10,
+      "text_length": 148,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 44,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "刘升",
+      "label": "刘升",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 4,
+      "text_length": 100,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "spoken": 3,
+        "singing": 1
+      }
+    },
+    {
+      "id": "判官",
+      "label": "判官",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 1,
+      "text_length": 113,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘世昌",
+      "target": "赵大",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "赵大",
+      "target": "赵妻",
+      "weight": 42,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘升",
+      "target": "赵大",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘世昌",
+      "target": "刘升",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘世昌",
+      "target": "赵妻",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘升",
+      "target": "赵妻",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

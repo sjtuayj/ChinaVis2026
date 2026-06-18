@@ -1,0 +1,240 @@
+{
+  "play": {
+    "play_id": "70902157",
+    "title": "焚香记·阳告",
+    "pdf_name": "70902157_焚香记·阳告.pdf",
+    "group_id": "70902000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 13,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/70902157",
+    "source_date": "2018-08-23",
+    "synopsis_length": 38,
+    "notes_length": 27,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 11
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 12.0,
+    "max_edge_weight": 9,
+    "top_characters": [
+      {
+        "name": "海神",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 4,
+        "weighted_degree": 22
+      },
+      {
+        "name": "小鬼",
+        "hangdang": "丑",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "敫桂英",
+        "hangdang": "旦",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 10
+      },
+      {
+        "name": "判官",
+        "hangdang": "净",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      },
+      {
+        "name": "鬼判",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "海神",
+      "label": "海神",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 110,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 22,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "小鬼",
+      "label": "小鬼",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "敫桂英",
+      "label": "敫桂英",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 4,
+      "text_length": 1781,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "判官",
+      "label": "判官",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "鬼判",
+      "label": "鬼判",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 0,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "小鬼",
+      "target": "海神",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "判官",
+      "target": "海神",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "敫桂英",
+      "target": "海神",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "敫桂英",
+      "target": "鬼判",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "海神",
+      "target": "鬼判",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "判官",
+      "target": "小鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "判官",
+      "target": "敫桂英",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "判官",
+      "target": "鬼判",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小鬼",
+      "target": "敫桂英",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小鬼",
+      "target": "鬼判",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

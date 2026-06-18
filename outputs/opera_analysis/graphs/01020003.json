@@ -1,0 +1,178 @@
+{
+  "play": {
+    "play_id": "01020003",
+    "title": "汾河湾",
+    "pdf_name": "01020003_汾河湾.pdf",
+    "group_id": "01000000",
+    "page_count": 9,
+    "scene_count": 5,
+    "speech_count": 220,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01020003",
+    "source_date": "2018-08-08",
+    "synopsis_length": 192,
+    "notes_length": 375,
+    "marker_category_counts": {
+      "recitation": 3,
+      "other": 3,
+      "spoken": 194,
+      "singing": 20
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 3,
+    "density": 0.3,
+    "avg_degree": 1.2,
+    "avg_weighted_degree": 162.0,
+    "max_edge_weight": 357,
+    "top_characters": [
+      {
+        "name": "薛仁贵",
+        "hangdang": "老生",
+        "speech_count": 105,
+        "degree": 2,
+        "weighted_degree": 384
+      },
+      {
+        "name": "柳迎春",
+        "hangdang": "旦",
+        "speech_count": 101,
+        "degree": 2,
+        "weighted_degree": 378
+      },
+      {
+        "name": "薛丁山",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 48
+      },
+      {
+        "name": "王禅老祖",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      },
+      {
+        "name": "盖苏文",
+        "hangdang": "净",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "薛仁贵",
+      "label": "薛仁贵",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 105,
+      "text_length": 1947,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 384,
+      "marker_category_counts": {
+        "spoken": 96,
+        "singing": 8,
+        "other": 1
+      }
+    },
+    {
+      "id": "柳迎春",
+      "label": "柳迎春",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 101,
+      "text_length": 1951,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 378,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 88,
+        "singing": 10,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "薛丁山",
+      "label": "薛丁山",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 209,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 9,
+        "singing": 2
+      }
+    },
+    {
+      "id": "王禅老祖",
+      "label": "王禅老祖",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 47,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "盖苏文",
+      "label": "盖苏文",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 1,
+      "text_length": 196,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "柳迎春",
+      "target": "薛仁贵",
+      "weight": 357,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 178,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "薛丁山",
+      "target": "薛仁贵",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "柳迎春",
+      "target": "薛丁山",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

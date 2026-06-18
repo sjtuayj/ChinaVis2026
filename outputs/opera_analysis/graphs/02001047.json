@@ -1,0 +1,197 @@
+{
+  "play": {
+    "play_id": "02001047",
+    "title": "五雷阵",
+    "pdf_name": "02001047_五雷阵【头本】.pdf",
+    "group_id": "02000000",
+    "page_count": 2,
+    "scene_count": 2,
+    "speech_count": 25,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/02001047",
+    "source_date": "2018-05-31",
+    "synopsis_length": 119,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 21,
+      "other": 1,
+      "recitation": 1,
+      "singing": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 4,
+    "density": 0.266667,
+    "avg_degree": 1.333333,
+    "avg_weighted_degree": 15.333333,
+    "max_edge_weight": 23,
+    "top_characters": [
+      {
+        "name": "海潮",
+        "hangdang": "未知",
+        "speech_count": 11,
+        "degree": 2,
+        "weighted_degree": 38
+      },
+      {
+        "name": "毛蕡",
+        "hangdang": "净",
+        "speech_count": 6,
+        "degree": 2,
+        "weighted_degree": 26
+      },
+      {
+        "name": "明月",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 18
+      },
+      {
+        "name": "王翦",
+        "hangdang": "净",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 5
+      },
+      {
+        "name": "四卒子",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "海潮",
+      "label": "海潮",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 622,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 9,
+        "singing": 1
+      }
+    },
+    {
+      "id": "毛蕡",
+      "label": "毛蕡",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 6,
+      "text_length": 130,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 1
+      }
+    },
+    {
+      "id": "明月",
+      "label": "明月",
+      "raw_role": "童",
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 32,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "王翦",
+      "label": "王翦",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 2,
+      "text_length": 208,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "四卒子",
+      "label": "四卒子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "清风",
+      "label": "清风",
+      "raw_role": "童",
+      "hangdang": "未知",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "毛蕡",
+      "target": "海潮",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "明月",
+      "target": "海潮",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四卒子",
+      "target": "王翦",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "明月",
+      "target": "毛蕡",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "play": {
+    "play_id": "01003018",
+    "title": "丑表功",
+    "pdf_name": "01003018_丑表功.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 120,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01003018",
+    "source_date": "2013-03-20",
+    "synopsis_length": 103,
+    "notes_length": 65,
+    "marker_category_counts": {
+      "spoken": 114,
+      "recitation": 1,
+      "other": 5
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 151.333333,
+    "max_edge_weight": 131,
+    "top_characters": [
+      {
+        "name": "保儿",
+        "hangdang": "丑",
+        "speech_count": 57,
+        "degree": 2,
+        "weighted_degree": 202
+      },
+      {
+        "name": "万人迷",
+        "hangdang": "花旦",
+        "speech_count": 39,
+        "degree": 2,
+        "weighted_degree": 156
+      },
+      {
+        "name": "顶先生",
+        "hangdang": "老生",
+        "speech_count": 24,
+        "degree": 2,
+        "weighted_degree": 96
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "保儿",
+      "label": "保儿",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 57,
+      "text_length": 1289,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 202,
+      "marker_category_counts": {
+        "spoken": 51,
+        "recitation": 1,
+        "other": 5
+      }
+    },
+    {
+      "id": "万人迷",
+      "label": "万人迷",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 39,
+      "text_length": 883,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 156,
+      "marker_category_counts": {
+        "spoken": 39
+      }
+    },
+    {
+      "id": "顶先生",
+      "label": "顶先生",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 24,
+      "text_length": 444,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "spoken": 24
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "万人迷",
+      "target": "保儿",
+      "weight": 131,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 65,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "保儿",
+      "target": "顶先生",
+      "weight": 71,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "万人迷",
+      "target": "顶先生",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

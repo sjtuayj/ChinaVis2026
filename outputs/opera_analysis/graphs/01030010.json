@@ -1,0 +1,228 @@
+{
+  "play": {
+    "play_id": "01030010",
+    "title": "十二红",
+    "pdf_name": "01030010_十二红【头本】.pdf",
+    "group_id": "01000000",
+    "page_count": 10,
+    "scene_count": 4,
+    "speech_count": 411,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01030010",
+    "source_date": "2013-03-19",
+    "synopsis_length": 309,
+    "notes_length": 52,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 401,
+      "singing": 7,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 323.6,
+    "max_edge_weight": 592,
+    "top_characters": [
+      {
+        "name": "毕朋",
+        "hangdang": "丑",
+        "speech_count": 186,
+        "degree": 4,
+        "weighted_degree": 733
+      },
+      {
+        "name": "周妻",
+        "hangdang": "旦",
+        "speech_count": 160,
+        "degree": 3,
+        "weighted_degree": 622
+      },
+      {
+        "name": "周屠",
+        "hangdang": "未知",
+        "speech_count": 46,
+        "degree": 4,
+        "weighted_degree": 182
+      },
+      {
+        "name": "酒保",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 51
+      },
+      {
+        "name": "老板",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 2,
+        "weighted_degree": 30
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "毕朋",
+      "label": "毕朋",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 186,
+      "text_length": 2654,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 733,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 181,
+        "other": 1
+      }
+    },
+    {
+      "id": "周妻",
+      "label": "周妻",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 160,
+      "text_length": 1976,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 622,
+      "marker_category_counts": {
+        "spoken": 158,
+        "singing": 2
+      }
+    },
+    {
+      "id": "周屠",
+      "label": "周屠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 46,
+      "text_length": 804,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 182,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 44,
+        "singing": 1
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 139,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "老板",
+      "label": "老板",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 52,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "周妻",
+      "target": "毕朋",
+      "weight": 592,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 295,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "周屠",
+      "target": "毕朋",
+      "weight": 107,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周屠",
+      "target": "酒保",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周妻",
+      "target": "周屠",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "毕朋",
+      "target": "老板",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "毕朋",
+      "target": "酒保",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周屠",
+      "target": "老板",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周妻",
+      "target": "酒保",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

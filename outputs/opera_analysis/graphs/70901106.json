@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "70901106",
+    "title": "一种情·冥勘",
+    "pdf_name": "70901106_一种情·冥勘.pdf",
+    "group_id": "70901000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 71,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70901106",
+    "source_date": "2018-08-23",
+    "synopsis_length": 99,
+    "notes_length": 621,
+    "marker_category_counts": {
+      "other": 13,
+      "spoken": 56,
+      "recitation": 1,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 71.0,
+    "max_edge_weight": 87,
+    "top_characters": [
+      {
+        "name": "炳灵公",
+        "hangdang": "净",
+        "speech_count": 33,
+        "degree": 3,
+        "weighted_degree": 127
+      },
+      {
+        "name": "何兴娘",
+        "hangdang": "旦",
+        "speech_count": 25,
+        "degree": 3,
+        "weighted_degree": 99
+      },
+      {
+        "name": "鬼判",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 43
+      },
+      {
+        "name": "土司",
+        "hangdang": "老生",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "炳灵公",
+      "label": "炳灵公",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 33,
+      "text_length": 791,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 127,
+      "marker_category_counts": {
+        "other": 13,
+        "spoken": 19,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "何兴娘",
+      "label": "何兴娘",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 25,
+      "text_length": 262,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 24,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "鬼判",
+      "label": "鬼判",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 61,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 43,
+      "marker_category_counts": {
+        "spoken": 10
+      }
+    },
+    {
+      "id": "土司",
+      "label": "土司",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 3,
+      "text_length": 19,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "何兴娘",
+      "target": "炳灵公",
+      "weight": 87,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "炳灵公",
+      "target": "鬼判",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "何兴娘",
+      "target": "鬼判",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "土司",
+      "target": "炳灵公",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "土司",
+      "target": "鬼判",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "何兴娘",
+      "target": "土司",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

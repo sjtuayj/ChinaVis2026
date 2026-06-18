@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "01014016",
+    "title": "董家山",
+    "pdf_name": "01014016_董家山.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 128,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01014016",
+    "source_date": "2018-08-23",
+    "synopsis_length": 291,
+    "notes_length": 44,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 117,
+      "singing": 9
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 125.5,
+    "max_edge_weight": 200,
+    "top_characters": [
+      {
+        "name": "周鼎",
+        "hangdang": "丑",
+        "speech_count": 58,
+        "degree": 3,
+        "weighted_degree": 235
+      },
+      {
+        "name": "董金莲",
+        "hangdang": "旦",
+        "speech_count": 59,
+        "degree": 3,
+        "weighted_degree": 215
+      },
+      {
+        "name": "尉迟宝林",
+        "hangdang": "小生",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 45
+      },
+      {
+        "name": "四下手",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "周鼎",
+      "label": "周鼎",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 58,
+      "text_length": 830,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 235,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 57
+      }
+    },
+    {
+      "id": "董金莲",
+      "label": "董金莲",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 59,
+      "text_length": 894,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 215,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 51,
+        "singing": 7
+      }
+    },
+    {
+      "id": "尉迟宝林",
+      "label": "尉迟宝林",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 10,
+      "text_length": 140,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 45,
+      "marker_category_counts": {
+        "spoken": 8,
+        "singing": 2
+      }
+    },
+    {
+      "id": "四下手",
+      "label": "四下手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "周鼎",
+      "target": "董金莲",
+      "weight": 200,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 99,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "周鼎",
+      "target": "尉迟宝林",
+      "weight": 32,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "尉迟宝林",
+      "target": "董金莲",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "周鼎",
+      "target": "四下手",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四下手",
+      "target": "董金莲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四下手",
+      "target": "尉迟宝林",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

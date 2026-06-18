@@ -1,0 +1,191 @@
+{
+  "play": {
+    "play_id": "01023012",
+    "title": "焰火棍",
+    "pdf_name": "01023012_焰火棍.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 102,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01023012",
+    "source_date": "2017-07-21",
+    "synopsis_length": 303,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 4,
+      "recitation": 3,
+      "spoken": 95
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 100.0,
+    "max_edge_weight": 64,
+    "top_characters": [
+      {
+        "name": "焦赞",
+        "hangdang": "净",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 120
+      },
+      {
+        "name": "孟良",
+        "hangdang": "净",
+        "speech_count": 28,
+        "degree": 3,
+        "weighted_degree": 118
+      },
+      {
+        "name": "杨延昭",
+        "hangdang": "老生",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 88
+      },
+      {
+        "name": "杨排凤",
+        "hangdang": "旦",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 74
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "焦赞",
+      "label": "焦赞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 30,
+      "text_length": 540,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 120,
+      "marker_category_counts": {
+        "spoken": 28,
+        "recitation": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "孟良",
+      "label": "孟良",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 28,
+      "text_length": 392,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 118,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 27
+      }
+    },
+    {
+      "id": "杨延昭",
+      "label": "杨延昭",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 22,
+      "text_length": 444,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 88,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 20
+      }
+    },
+    {
+      "id": "杨排凤",
+      "label": "杨排凤",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 22,
+      "text_length": 487,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "spoken": 20,
+        "recitation": 1,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孟良",
+      "target": "焦赞",
+      "weight": 64,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 31,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "杨延昭",
+      "weight": 36,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "杨排凤",
+      "target": "焦赞",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "杨延昭",
+      "target": "杨排凤",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "杨延昭",
+      "target": "焦赞",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "杨排凤",
+      "weight": 18,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    }
+  ]
+}

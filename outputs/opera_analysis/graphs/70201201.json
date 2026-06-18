@@ -1,0 +1,226 @@
+{
+  "play": {
+    "play_id": "70201201",
+    "title": "女起解",
+    "pdf_name": "70201201_女起解.pdf",
+    "group_id": "70201000",
+    "page_count": 6,
+    "scene_count": 2,
+    "speech_count": 160,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/70201201",
+    "source_date": "2013-09-12",
+    "synopsis_length": 129,
+    "notes_length": 16,
+    "marker_category_counts": {
+      "spoken": 140,
+      "recitation": 1,
+      "singing": 18,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 126.8,
+    "max_edge_weight": 186,
+    "top_characters": [
+      {
+        "name": "崇公道",
+        "hangdang": "丑",
+        "speech_count": 80,
+        "degree": 4,
+        "weighted_degree": 307
+      },
+      {
+        "name": "苏三",
+        "hangdang": "旦",
+        "speech_count": 49,
+        "degree": 4,
+        "weighted_degree": 195
+      },
+      {
+        "name": "狱官",
+        "hangdang": "未知",
+        "speech_count": 16,
+        "degree": 3,
+        "weighted_degree": 67
+      },
+      {
+        "name": "禁卒",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 51
+      },
+      {
+        "name": "掌柜",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "崇公道",
+      "label": "崇公道",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 80,
+      "text_length": 3137,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 307,
+      "marker_category_counts": {
+        "spoken": 77,
+        "recitation": 1,
+        "other": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "苏三",
+      "label": "苏三",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 49,
+      "text_length": 975,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 195,
+      "marker_category_counts": {
+        "spoken": 32,
+        "singing": 17
+      }
+    },
+    {
+      "id": "狱官",
+      "label": "狱官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 16,
+      "text_length": 125,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "spoken": 16
+      }
+    },
+    {
+      "id": "禁卒",
+      "label": "禁卒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 92,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "掌柜",
+      "label": "掌柜",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 34,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "崇公道",
+      "target": "苏三",
+      "weight": 186,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 92,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "崇公道",
+      "target": "狱官",
+      "weight": 65,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崇公道",
+      "target": "禁卒",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崇公道",
+      "target": "掌柜",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "禁卒",
+      "target": "苏三",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "掌柜",
+      "target": "苏三",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "狱官",
+      "target": "禁卒",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "狱官",
+      "target": "苏三",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

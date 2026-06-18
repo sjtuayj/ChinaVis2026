@@ -1,0 +1,311 @@
+{
+  "play": {
+    "play_id": "70006111",
+    "title": "二进宫",
+    "pdf_name": "70006111_二进宫.pdf",
+    "group_id": "70006000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 103,
+    "character_count": 6,
+    "source_url": "https://scripts.xikao.com/play/70006111",
+    "source_date": "2021-04-05",
+    "synopsis_length": 68,
+    "notes_length": 68,
+    "marker_category_counts": {
+      "spoken": 25,
+      "singing": 76,
+      "other": 1,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 71.0,
+    "max_edge_weight": 115,
+    "top_characters": [
+      {
+        "name": "杨波",
+        "hangdang": "老生",
+        "speech_count": 38,
+        "degree": 5,
+        "weighted_degree": 157
+      },
+      {
+        "name": "徐彦昭",
+        "hangdang": "净",
+        "speech_count": 40,
+        "degree": 5,
+        "weighted_degree": 155
+      },
+      {
+        "name": "李艳妃",
+        "hangdang": "旦",
+        "speech_count": 17,
+        "degree": 5,
+        "weighted_degree": 67
+      },
+      {
+        "name": "徐小姐",
+        "hangdang": "旦",
+        "speech_count": 5,
+        "degree": 5,
+        "weighted_degree": 25
+      },
+      {
+        "name": "杨公子",
+        "hangdang": "小生",
+        "speech_count": 2,
+        "degree": 5,
+        "weighted_degree": 13
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杨波",
+      "label": "杨波",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 38,
+      "text_length": 755,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "spoken": 8,
+        "singing": 29,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "徐彦昭",
+      "label": "徐彦昭",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 40,
+      "text_length": 577,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 155,
+      "marker_category_counts": {
+        "singing": 34,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "李艳妃",
+      "label": "李艳妃",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 17,
+      "text_length": 547,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "spoken": 5,
+        "singing": 11,
+        "other": 1
+      }
+    },
+    {
+      "id": "徐小姐",
+      "label": "徐小姐",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 5,
+      "text_length": 60,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "杨公子",
+      "label": "杨公子",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 2,
+      "text_length": 40,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "徐延昭",
+      "label": "徐延昭",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "徐彦昭",
+      "target": "杨波",
+      "weight": 115,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 57,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐彦昭",
+      "target": "李艳妃",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李艳妃",
+      "target": "杨波",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐小姐",
+      "target": "徐彦昭",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐小姐",
+      "target": "李艳妃",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐小姐",
+      "target": "杨公子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐小姐",
+      "target": "杨波",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨公子",
+      "target": "杨波",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐延昭",
+      "target": "徐彦昭",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐延昭",
+      "target": "杨波",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐小姐",
+      "target": "徐延昭",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐延昭",
+      "target": "李艳妃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐延昭",
+      "target": "杨公子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐彦昭",
+      "target": "杨公子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李艳妃",
+      "target": "杨公子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

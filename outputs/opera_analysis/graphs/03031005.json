@@ -1,0 +1,295 @@
+{
+  "play": {
+    "play_id": "03031005",
+    "title": "双摇会",
+    "pdf_name": "03031005_双摇会.pdf",
+    "group_id": "03000000",
+    "page_count": 10,
+    "scene_count": 2,
+    "speech_count": 344,
+    "character_count": 6,
+    "source_url": "https://scripts.xikao.com/play/03031005",
+    "source_date": "2024-08-23",
+    "synopsis_length": 78,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 329,
+      "recitation": 2,
+      "singing": 12,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 13,
+    "density": 0.866667,
+    "avg_degree": 4.333333,
+    "avg_weighted_degree": 228.0,
+    "max_edge_weight": 174,
+    "top_characters": [
+      {
+        "name": "大奶奶",
+        "hangdang": "旦",
+        "speech_count": 89,
+        "degree": 5,
+        "weighted_degree": 349
+      },
+      {
+        "name": "二奶奶",
+        "hangdang": "旦",
+        "speech_count": 84,
+        "degree": 5,
+        "weighted_degree": 329
+      },
+      {
+        "name": "邻居甲",
+        "hangdang": "丑",
+        "speech_count": 82,
+        "degree": 4,
+        "weighted_degree": 328
+      },
+      {
+        "name": "邻居乙",
+        "hangdang": "丑",
+        "speech_count": 56,
+        "degree": 4,
+        "weighted_degree": 224
+      },
+      {
+        "name": "李相公",
+        "hangdang": "小生",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 99
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "大奶奶",
+      "label": "大奶奶",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 89,
+      "text_length": 1773,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 349,
+      "marker_category_counts": {
+        "spoken": 83,
+        "recitation": 1,
+        "singing": 4,
+        "other": 1
+      }
+    },
+    {
+      "id": "二奶奶",
+      "label": "二奶奶",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 84,
+      "text_length": 1049,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 329,
+      "marker_category_counts": {
+        "spoken": 79,
+        "recitation": 1,
+        "singing": 4
+      }
+    },
+    {
+      "id": "邻居甲",
+      "label": "邻居甲",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 82,
+      "text_length": 825,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 328,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 80
+      }
+    },
+    {
+      "id": "邻居乙",
+      "label": "邻居乙",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 56,
+      "text_length": 627,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 224,
+      "marker_category_counts": {
+        "spoken": 54,
+        "singing": 2
+      }
+    },
+    {
+      "id": "李相公",
+      "label": "李相公",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 24,
+      "text_length": 325,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 24
+      }
+    },
+    {
+      "id": "书童",
+      "label": "书童",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 9,
+      "text_length": 127,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "spoken": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "二奶奶",
+      "target": "大奶奶",
+      "weight": 174,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 86,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "邻居乙",
+      "target": "邻居甲",
+      "weight": 121,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 60,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大奶奶",
+      "target": "邻居甲",
+      "weight": 113,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 56,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二奶奶",
+      "target": "邻居甲",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大奶奶",
+      "target": "邻居乙",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二奶奶",
+      "target": "邻居乙",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二奶奶",
+      "target": "李相公",
+      "weight": 34,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "李相公",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李相公",
+      "target": "邻居甲",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李相公",
+      "target": "邻居乙",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大奶奶",
+      "target": "李相公",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "二奶奶",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "大奶奶",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

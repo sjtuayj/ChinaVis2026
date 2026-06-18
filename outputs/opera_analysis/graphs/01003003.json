@@ -1,0 +1,143 @@
+{
+  "play": {
+    "play_id": "01003003",
+    "title": "桑园会",
+    "pdf_name": "01003003_桑园会.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 4,
+    "speech_count": 134,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01003003",
+    "source_date": "2013-06-30",
+    "synopsis_length": 369,
+    "notes_length": 41,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 100,
+      "singing": 27,
+      "recitation": 4
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 175.333333,
+    "max_edge_weight": 107,
+    "top_characters": [
+      {
+        "name": "秋胡",
+        "hangdang": "老生",
+        "speech_count": 52,
+        "degree": 2,
+        "weighted_degree": 196
+      },
+      {
+        "name": "罗氏",
+        "hangdang": "旦",
+        "speech_count": 44,
+        "degree": 2,
+        "weighted_degree": 174
+      },
+      {
+        "name": "秋母",
+        "hangdang": "老旦",
+        "speech_count": 38,
+        "degree": 2,
+        "weighted_degree": 156
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "秋胡",
+      "label": "秋胡",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 52,
+      "text_length": 1745,
+      "scene_count": 4,
+      "degree": 2,
+      "weighted_degree": 196,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 35,
+        "singing": 13,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "罗氏",
+      "label": "罗氏",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 44,
+      "text_length": 1570,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 174,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 34,
+        "singing": 8,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "秋母",
+      "label": "秋母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 38,
+      "text_length": 702,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 156,
+      "marker_category_counts": {
+        "spoken": 31,
+        "singing": 6,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "秋胡",
+      "target": "罗氏",
+      "weight": 107,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 52,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "秋母",
+      "target": "秋胡",
+      "weight": 89,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "秋母",
+      "target": "罗氏",
+      "weight": 67,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    }
+  ]
+}

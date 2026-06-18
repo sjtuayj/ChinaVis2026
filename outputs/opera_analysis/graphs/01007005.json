@@ -1,0 +1,302 @@
+{
+  "play": {
+    "play_id": "01007005",
+    "title": "凤鸣关",
+    "pdf_name": "01007005_凤鸣关.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 11,
+    "speech_count": 55,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01007005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 122,
+    "notes_length": 392,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 27,
+      "singing": 25,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 11,
+    "density": 0.392857,
+    "avg_degree": 2.75,
+    "avg_weighted_degree": 22.25,
+    "max_edge_weight": 29,
+    "top_characters": [
+      {
+        "name": "赵云",
+        "hangdang": "老生",
+        "speech_count": 25,
+        "degree": 5,
+        "weighted_degree": 63
+      },
+      {
+        "name": "诸葛亮",
+        "hangdang": "老生",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 44
+      },
+      {
+        "name": "邓芝",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "韩德",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "魏延",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 25,
+      "text_length": 734,
+      "scene_count": 9,
+      "degree": 5,
+      "weighted_degree": 63,
+      "marker_category_counts": {
+        "spoken": 8,
+        "recitation": 1,
+        "singing": 15,
+        "other": 1
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "label": "诸葛亮",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 13,
+      "text_length": 406,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 44,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 8,
+        "singing": 4
+      }
+    },
+    {
+      "id": "邓芝",
+      "label": "邓芝",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 84,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "spoken": 4,
+        "singing": 3
+      }
+    },
+    {
+      "id": "韩德",
+      "label": "韩德",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 43,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "魏延",
+      "label": "魏延",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 47,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "韩琼",
+      "label": "韩琼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 48,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "singing": 2
+      }
+    },
+    {
+      "id": "马岱",
+      "label": "马岱",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 27,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "报子",
+      "label": "报子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 4,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "诸葛亮",
+      "target": "赵云",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "邓芝",
+      "weight": 23,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001",
+        "scene_005",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "魏延",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "韩琼",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "邓芝",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "邓芝",
+      "target": "韩德",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "韩德",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "马岱",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "韩德",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    {
+      "source": "马岱",
+      "target": "魏延",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_010"
+      ]
+    }
+  ]
+}

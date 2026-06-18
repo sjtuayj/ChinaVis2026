@@ -1,0 +1,329 @@
+{
+  "play": {
+    "play_id": "01007001",
+    "title": "卖马",
+    "pdf_name": "01007001_卖马.pdf",
+    "group_id": "01000000",
+    "page_count": 10,
+    "scene_count": 4,
+    "speech_count": 328,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01007001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 472,
+    "notes_length": 140,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 309,
+      "singing": 13,
+      "recitation": 2,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 178.571429,
+    "max_edge_weight": 311,
+    "top_characters": [
+      {
+        "name": "秦琼",
+        "hangdang": "老生",
+        "speech_count": 138,
+        "degree": 6,
+        "weighted_degree": 536
+      },
+      {
+        "name": "王老好",
+        "hangdang": "丑",
+        "speech_count": 90,
+        "degree": 6,
+        "weighted_degree": 344
+      },
+      {
+        "name": "单雄信",
+        "hangdang": "净",
+        "speech_count": 37,
+        "degree": 3,
+        "weighted_degree": 119
+      },
+      {
+        "name": "谢映登",
+        "hangdang": "小生",
+        "speech_count": 30,
+        "degree": 4,
+        "weighted_degree": 118
+      },
+      {
+        "name": "酒保",
+        "hangdang": "丑",
+        "speech_count": 19,
+        "degree": 4,
+        "weighted_degree": 76
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "秦琼",
+      "label": "秦琼",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 138,
+      "text_length": 1919,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 536,
+      "marker_category_counts": {
+        "spoken": 127,
+        "other": 1,
+        "singing": 10
+      }
+    },
+    {
+      "id": "王老好",
+      "label": "王老好",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 90,
+      "text_length": 1459,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 344,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 89
+      }
+    },
+    {
+      "id": "单雄信",
+      "label": "单雄信",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 37,
+      "text_length": 434,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "singing": 3,
+        "recitation": 1,
+        "spoken": 31,
+        "stage_action": 2
+      }
+    },
+    {
+      "id": "谢映登",
+      "label": "谢映登",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 30,
+      "text_length": 310,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 118,
+      "marker_category_counts": {
+        "spoken": 30
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 19,
+      "text_length": 173,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 76,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 18
+      }
+    },
+    {
+      "id": "王伯当",
+      "label": "王伯当",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 124,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 33,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王老好",
+      "target": "秦琼",
+      "weight": 311,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 154,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "秦琼",
+      "weight": 107,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "秦琼",
+      "target": "谢映登",
+      "weight": 91,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 45,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "王老好",
+      "target": "酒保",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "王伯当",
+      "target": "酒保",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "谢映登",
+      "target": "酒保",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "秦琼",
+      "target": "酒保",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "家院",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "王伯当",
+      "target": "秦琼",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "王伯当",
+      "target": "谢映登",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "秦琼",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "单雄信",
+      "target": "王老好",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王老好",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "王伯当",
+      "target": "王老好",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "王老好",
+      "target": "谢映登",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

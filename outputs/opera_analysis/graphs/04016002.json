@@ -1,0 +1,136 @@
+{
+  "play": {
+    "play_id": "04016002",
+    "title": "拾玉镯",
+    "pdf_name": "04016002_拾玉镯.pdf",
+    "group_id": "04000000",
+    "page_count": 7,
+    "scene_count": 1,
+    "speech_count": 191,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/04016002",
+    "source_date": "2013-06-30",
+    "synopsis_length": 95,
+    "notes_length": 123,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 6,
+      "spoken": 180,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 211.333333,
+    "max_edge_weight": 275,
+    "top_characters": [
+      {
+        "name": "孙玉姣",
+        "hangdang": "花旦",
+        "speech_count": 85,
+        "degree": 2,
+        "weighted_degree": 316
+      },
+      {
+        "name": "刘婆",
+        "hangdang": "彩旦",
+        "speech_count": 90,
+        "degree": 2,
+        "weighted_degree": 276
+      },
+      {
+        "name": "傅朋",
+        "hangdang": "小生",
+        "speech_count": 16,
+        "degree": 2,
+        "weighted_degree": 42
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙玉姣",
+      "label": "孙玉姣",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 85,
+      "text_length": 767,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 316,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 2,
+        "spoken": 81,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "刘婆",
+      "label": "刘婆",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 90,
+      "text_length": 2150,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 276,
+      "marker_category_counts": {
+        "spoken": 87,
+        "singing": 1,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "傅朋",
+      "label": "傅朋",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 16,
+      "text_length": 402,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 12,
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘婆",
+      "target": "孙玉姣",
+      "weight": 275,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 137,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "傅朋",
+      "target": "孙玉姣",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "傅朋",
+      "target": "刘婆",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

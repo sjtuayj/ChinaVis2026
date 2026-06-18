@@ -1,0 +1,227 @@
+{
+  "play": {
+    "play_id": "05011001",
+    "title": "游武庙",
+    "pdf_name": "05011001_游武庙.pdf",
+    "group_id": "05000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 62,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/05011001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 83,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 12,
+      "singing": 47,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 49.2,
+    "max_edge_weight": 108,
+    "top_characters": [
+      {
+        "name": "洪武帝",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 115
+      },
+      {
+        "name": "刘基",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 113
+      },
+      {
+        "name": "四大铠",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      },
+      {
+        "name": "老道",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "洪武帝",
+      "label": "洪武帝",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 1291,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 115,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 4,
+        "singing": 24
+      }
+    },
+    {
+      "id": "刘基",
+      "label": "刘基",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 768,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 113,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 5,
+        "singing": 23
+      }
+    },
+    {
+      "id": "四大铠",
+      "label": "四大铠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 3,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "老道",
+      "label": "老道",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 52,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘基",
+      "target": "洪武帝",
+      "weight": 108,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "刘基",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "洪武帝",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "洪武帝",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "老道",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘基",
+      "target": "四大铠",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘基",
+      "target": "老道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "洪武帝",
+      "target": "老道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

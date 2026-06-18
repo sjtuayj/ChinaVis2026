@@ -1,0 +1,248 @@
+{
+  "play": {
+    "play_id": "02008008",
+    "title": "双尽忠",
+    "pdf_name": "02008008_双尽忠【二本】.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 128,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/02008008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 549,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 113,
+      "singing": 13,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 9,
+    "density": 0.6,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 80.333333,
+    "max_edge_weight": 175,
+    "top_characters": [
+      {
+        "name": "李广",
+        "hangdang": "老生",
+        "speech_count": 60,
+        "degree": 5,
+        "weighted_degree": 219
+      },
+      {
+        "name": "石彦龙",
+        "hangdang": "丑",
+        "speech_count": 48,
+        "degree": 2,
+        "weighted_degree": 180
+      },
+      {
+        "name": "李福",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "杨国贞",
+        "hangdang": "旦",
+        "speech_count": 8,
+        "degree": 2,
+        "weighted_degree": 28
+      },
+      {
+        "name": "城官",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李广",
+      "label": "李广",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 60,
+      "text_length": 1301,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 219,
+      "marker_category_counts": {
+        "spoken": 52,
+        "singing": 6,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "石彦龙",
+      "label": "石彦龙",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 48,
+      "text_length": 770,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 180,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 47
+      }
+    },
+    {
+      "id": "李福",
+      "label": "李福",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 174,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "杨国贞",
+      "label": "杨国贞",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 8,
+      "text_length": 218,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "城官",
+      "label": "城官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 49,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "四大铠",
+      "label": "四大铠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李广",
+      "target": "石彦龙",
+      "weight": 175,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 87,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李广",
+      "target": "杨国贞",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李广",
+      "target": "李福",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "城官",
+      "target": "李福",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "李福",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨国贞",
+      "target": "石彦龙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "城官",
+      "target": "李广",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "城官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四大铠",
+      "target": "李广",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

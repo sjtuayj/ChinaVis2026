@@ -1,0 +1,376 @@
+{
+  "play": {
+    "play_id": "01040003",
+    "title": "馒头庵",
+    "pdf_name": "01040003_馒头庵.pdf",
+    "group_id": "01000000",
+    "page_count": 15,
+    "scene_count": 8,
+    "speech_count": 387,
+    "character_count": 8,
+    "source_url": "https://scripts.xikao.com/play/01040003",
+    "source_date": "2022-05-20",
+    "synopsis_length": 775,
+    "notes_length": 239,
+    "marker_category_counts": {
+      "singing": 14,
+      "recitation": 3,
+      "spoken": 366,
+      "stage_action": 1,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 17,
+    "density": 0.607143,
+    "avg_degree": 4.25,
+    "avg_weighted_degree": 179.5,
+    "max_edge_weight": 129,
+    "top_characters": [
+      {
+        "name": "智能",
+        "hangdang": "旦",
+        "speech_count": 106,
+        "degree": 6,
+        "weighted_degree": 383
+      },
+      {
+        "name": "书童",
+        "hangdang": "丑",
+        "speech_count": 88,
+        "degree": 6,
+        "weighted_degree": 313
+      },
+      {
+        "name": "秦钟",
+        "hangdang": "小生",
+        "speech_count": 75,
+        "degree": 6,
+        "weighted_degree": 286
+      },
+      {
+        "name": "秦邦业",
+        "hangdang": "老生",
+        "speech_count": 55,
+        "degree": 4,
+        "weighted_degree": 210
+      },
+      {
+        "name": "贾宝玉",
+        "hangdang": "小生",
+        "speech_count": 54,
+        "degree": 4,
+        "weighted_degree": 204
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "智能",
+      "label": "智能",
+      "raw_role": "旦，道装",
+      "hangdang": "旦",
+      "speech_count": 106,
+      "text_length": 2849,
+      "scene_count": 6,
+      "degree": 6,
+      "weighted_degree": 383,
+      "marker_category_counts": {
+        "singing": 6,
+        "recitation": 1,
+        "spoken": 99
+      }
+    },
+    {
+      "id": "书童",
+      "label": "书童",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 88,
+      "text_length": 2680,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 313,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 85,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "秦钟",
+      "label": "秦钟",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 75,
+      "text_length": 1818,
+      "scene_count": 6,
+      "degree": 6,
+      "weighted_degree": 286,
+      "marker_category_counts": {
+        "spoken": 68,
+        "stage_action": 1,
+        "singing": 5,
+        "other": 1
+      }
+    },
+    {
+      "id": "秦邦业",
+      "label": "秦邦业",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 55,
+      "text_length": 1358,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 210,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 54
+      }
+    },
+    {
+      "id": "贾宝玉",
+      "label": "贾宝玉",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 54,
+      "text_length": 827,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 204,
+      "marker_category_counts": {
+        "spoken": 51,
+        "singing": 3
+      }
+    },
+    {
+      "id": "茗烟",
+      "label": "茗烟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 47,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "四差人",
+      "label": "四差人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "差人甲",
+      "label": "差人甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 30,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "智能",
+      "target": "秦钟",
+      "weight": 129,
+      "scene_cooccurrence": 5,
+      "dialogue_turns": 62,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_005",
+        "scene_007",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "智能",
+      "weight": 125,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 61,
+      "scenes": [
+        "scene_006",
+        "scene_007",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "秦邦业",
+      "weight": 123,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 61,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "秦钟",
+      "target": "贾宝玉",
+      "weight": 96,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 46,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_005",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "智能",
+      "target": "贾宝玉",
+      "weight": 84,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_005",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "智能",
+      "target": "秦邦业",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "秦邦业",
+      "target": "秦钟",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "秦钟",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_007",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "贾宝玉",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "茗烟",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "source": "四差人",
+      "target": "秦邦业",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "茗烟",
+      "target": "贾宝玉",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "四差人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "四差人",
+      "target": "智能",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "四差人",
+      "target": "秦钟",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "智能",
+      "target": "茗烟",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "source": "秦钟",
+      "target": "茗烟",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "play": {
+    "play_id": "02006037",
+    "title": "法场明冤",
+    "pdf_name": "02006037_法场明冤.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 40,
+    "character_count": 6,
+    "source_url": "https://scripts.xikao.com/play/02006037",
+    "source_date": "2021-08-21",
+    "synopsis_length": 84,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 1,
+      "other": 8,
+      "spoken": 31
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 10,
+    "density": 0.666667,
+    "avg_degree": 3.333333,
+    "avg_weighted_degree": 24.666667,
+    "max_edge_weight": 45,
+    "top_characters": [
+      {
+        "name": "孙悟空",
+        "hangdang": "武生",
+        "speech_count": 17,
+        "degree": 4,
+        "weighted_degree": 58
+      },
+      {
+        "name": "柏宪",
+        "hangdang": "未知",
+        "speech_count": 16,
+        "degree": 4,
+        "weighted_degree": 54
+      },
+      {
+        "name": "唐僧",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "猪悟能",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "百花羞",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙悟空",
+      "label": "孙悟空",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 17,
+      "text_length": 703,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 58,
+      "marker_category_counts": {
+        "other": 8,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "柏宪",
+      "label": "柏宪",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 16,
+      "text_length": 260,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "spoken": 16
+      }
+    },
+    {
+      "id": "唐僧",
+      "label": "唐僧",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "猪悟能",
+      "label": "猪悟能",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "百花羞",
+      "label": "百花羞",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 9,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "地方",
+      "label": "地方",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 147,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孙悟空",
+      "target": "柏宪",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "唐僧",
+      "target": "孙悟空",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孙悟空",
+      "target": "猪悟能",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "柏宪",
+      "target": "百花羞",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "猪悟能",
+      "target": "百花羞",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "唐僧",
+      "target": "柏宪",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "唐僧",
+      "target": "猪悟能",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "唐僧",
+      "target": "百花羞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孙悟空",
+      "target": "百花羞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "柏宪",
+      "target": "猪悟能",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

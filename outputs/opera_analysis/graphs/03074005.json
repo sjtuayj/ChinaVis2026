@@ -1,0 +1,285 @@
+{
+  "play": {
+    "play_id": "03074005",
+    "title": "马鞍山",
+    "pdf_name": "03074005_马鞍山.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 90,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/03074005",
+    "source_date": "2013-03-19",
+    "synopsis_length": 55,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 65,
+      "singing": 18,
+      "recitation": 3,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 12,
+    "density": 0.8,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 58.333333,
+    "max_edge_weight": 119,
+    "top_characters": [
+      {
+        "name": "俞伯牙",
+        "hangdang": "老生",
+        "speech_count": 43,
+        "degree": 5,
+        "weighted_degree": 152
+      },
+      {
+        "name": "钟元圃",
+        "hangdang": "老生",
+        "speech_count": 34,
+        "degree": 4,
+        "weighted_degree": 130
+      },
+      {
+        "name": "琴童",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 5,
+        "weighted_degree": 30
+      },
+      {
+        "name": "樵夫",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "渔夫",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "俞伯牙",
+      "label": "俞伯牙",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 43,
+      "text_length": 1152,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 152,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 30,
+        "singing": 10,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "钟元圃",
+      "label": "钟元圃",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 34,
+      "text_length": 835,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 130,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 25,
+        "other": 1
+      }
+    },
+    {
+      "id": "琴童",
+      "label": "琴童",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 21,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "樵夫",
+      "label": "樵夫",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 28,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "渔夫",
+      "label": "渔夫",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 14,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "二旗牌",
+      "label": "二旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "俞伯牙",
+      "target": "钟元圃",
+      "weight": 119,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 59,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "俞伯牙",
+      "target": "琴童",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "俞伯牙",
+      "target": "樵夫",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "琴童",
+      "target": "钟元圃",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "樵夫",
+      "target": "渔夫",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二旗牌",
+      "target": "俞伯牙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "俞伯牙",
+      "target": "渔夫",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "樵夫",
+      "target": "琴童",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二旗牌",
+      "target": "琴童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "樵夫",
+      "target": "钟元圃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "渔夫",
+      "target": "琴童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "渔夫",
+      "target": "钟元圃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

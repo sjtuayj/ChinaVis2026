@@ -1,0 +1,250 @@
+{
+  "play": {
+    "play_id": "01038004",
+    "title": "珍珠衫",
+    "pdf_name": "01038004_珍珠衫.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 3,
+    "speech_count": 168,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01038004",
+    "source_date": "2013-03-20",
+    "synopsis_length": 41,
+    "notes_length": 250,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 10,
+      "spoken": 155,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 131.6,
+    "max_edge_weight": 196,
+    "top_characters": [
+      {
+        "name": "薛妈妈",
+        "hangdang": "彩旦",
+        "speech_count": 70,
+        "degree": 4,
+        "weighted_degree": 280
+      },
+      {
+        "name": "陈商",
+        "hangdang": "小生",
+        "speech_count": 53,
+        "degree": 4,
+        "weighted_degree": 206
+      },
+      {
+        "name": "周兰英",
+        "hangdang": "花旦",
+        "speech_count": 31,
+        "degree": 4,
+        "weighted_degree": 108
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 4,
+        "weighted_degree": 28
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "薛妈妈",
+      "label": "薛妈妈",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 70,
+      "text_length": 1858,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 280,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 67,
+        "singing": 2
+      }
+    },
+    {
+      "id": "陈商",
+      "label": "陈商",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 53,
+      "text_length": 1105,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 206,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 2,
+        "spoken": 50
+      }
+    },
+    {
+      "id": "周兰英",
+      "label": "周兰英",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 31,
+      "text_length": 1136,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 108,
+      "marker_category_counts": {
+        "singing": 6,
+        "recitation": 1,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 65,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 63,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "薛妈妈",
+      "target": "陈商",
+      "weight": 196,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 97,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周兰英",
+      "target": "薛妈妈",
+      "weight": 70,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 34,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周兰英",
+      "target": "院子",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "周兰英",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "薛妈妈",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "院子",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周兰英",
+      "target": "陈商",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "陈商",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "薛妈妈",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈商",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

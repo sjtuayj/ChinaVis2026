@@ -1,0 +1,164 @@
+{
+  "play": {
+    "play_id": "02009029",
+    "title": "灵官殿",
+    "pdf_name": "02009029_灵官殿.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 3,
+    "speech_count": 129,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02009029",
+    "source_date": "2018-08-23",
+    "synopsis_length": 137,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 121,
+      "recitation": 7,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 127.5,
+    "max_edge_weight": 165,
+    "top_characters": [
+      {
+        "name": "刘唐",
+        "hangdang": "净",
+        "speech_count": 55,
+        "degree": 3,
+        "weighted_degree": 213
+      },
+      {
+        "name": "酒保",
+        "hangdang": "丑",
+        "speech_count": 41,
+        "degree": 1,
+        "weighted_degree": 165
+      },
+      {
+        "name": "雷横",
+        "hangdang": "未知",
+        "speech_count": 21,
+        "degree": 2,
+        "weighted_degree": 81
+      },
+      {
+        "name": "朱仝",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 51
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘唐",
+      "label": "刘唐",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 55,
+      "text_length": 1463,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 213,
+      "marker_category_counts": {
+        "spoken": 52,
+        "recitation": 2,
+        "other": 1
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 41,
+      "text_length": 553,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 165,
+      "marker_category_counts": {
+        "spoken": 41
+      }
+    },
+    {
+      "id": "雷横",
+      "label": "雷横",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 21,
+      "text_length": 176,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 81,
+      "marker_category_counts": {
+        "spoken": 18,
+        "recitation": 3
+      }
+    },
+    {
+      "id": "朱仝",
+      "label": "朱仝",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 114,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 10
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘唐",
+      "target": "酒保",
+      "weight": 165,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 82,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱仝",
+      "target": "雷横",
+      "weight": 42,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐",
+      "target": "雷横",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐",
+      "target": "朱仝",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

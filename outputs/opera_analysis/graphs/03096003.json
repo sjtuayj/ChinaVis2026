@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "03096003",
+    "title": "华容道",
+    "pdf_name": "03096003_华容道.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 56,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/03096003",
+    "source_date": "2022-10-07",
+    "synopsis_length": 53,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 33,
+      "singing": 22
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 49.0,
+    "max_edge_weight": 33,
+    "top_characters": [
+      {
+        "name": "曹操",
+        "hangdang": "净",
+        "speech_count": 18,
+        "degree": 3,
+        "weighted_degree": 67
+      },
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 20,
+        "degree": 3,
+        "weighted_degree": 63
+      },
+      {
+        "name": "周仓",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 39
+      },
+      {
+        "name": "许褚",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 27
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "曹操",
+      "label": "曹操",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 18,
+      "text_length": 693,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 10
+      }
+    },
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 20,
+      "text_length": 806,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 63,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 6,
+        "singing": 13
+      }
+    },
+    {
+      "id": "周仓",
+      "label": "周仓",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 56,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "spoken": 10
+      }
+    },
+    {
+      "id": "许褚",
+      "label": "许褚",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 53,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "曹操",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "周仓",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹操",
+      "target": "许褚",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "曹操",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "许褚",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "许褚",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

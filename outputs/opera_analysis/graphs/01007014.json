@@ -1,0 +1,192 @@
+{
+  "play": {
+    "play_id": "01007014",
+    "title": "五雷阵",
+    "pdf_name": "01007014_五雷阵.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 5,
+    "speech_count": 65,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01007014",
+    "source_date": "2018-05-07",
+    "synopsis_length": 102,
+    "notes_length": 73,
+    "marker_category_counts": {
+      "singing": 6,
+      "spoken": 52,
+      "other": 5,
+      "recitation": 1,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 4,
+    "density": 0.4,
+    "avg_degree": 1.6,
+    "avg_weighted_degree": 45.6,
+    "max_edge_weight": 46,
+    "top_characters": [
+      {
+        "name": "孙膑",
+        "hangdang": "老生",
+        "speech_count": 25,
+        "degree": 2,
+        "weighted_degree": 86
+      },
+      {
+        "name": "毛蕡",
+        "hangdang": "净",
+        "speech_count": 20,
+        "degree": 3,
+        "weighted_degree": 74
+      },
+      {
+        "name": "孙燕",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 41
+      },
+      {
+        "name": "王翦",
+        "hangdang": "净",
+        "speech_count": 7,
+        "degree": 1,
+        "weighted_degree": 27
+      },
+      {
+        "name": "毛遂",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙膑",
+      "label": "孙膑",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 25,
+      "text_length": 961,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 86,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 20,
+        "other": 1
+      }
+    },
+    {
+      "id": "毛蕡",
+      "label": "毛蕡",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 20,
+      "text_length": 331,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "spoken": 17,
+        "other": 2,
+        "singing": 1
+      }
+    },
+    {
+      "id": "孙燕",
+      "label": "孙燕",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 190,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 8,
+        "other": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "王翦",
+      "label": "王翦",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 7,
+      "text_length": 59,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "毛遂",
+      "label": "毛遂",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 24,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孙膑",
+      "target": "毛蕡",
+      "weight": 46,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "孙燕",
+      "target": "孙膑",
+      "weight": 40,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "毛蕡",
+      "target": "王翦",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孙燕",
+      "target": "毛蕡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

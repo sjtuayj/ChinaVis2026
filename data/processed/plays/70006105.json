@@ -1,0 +1,4166 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "70006105",
+    "title": "失街亭·空城计·斩马谡",
+    "aliases": [],
+    "collection_id": "70006000",
+    "collection_name": "孟小冬剧本选",
+    "collection_remark": "《余派戏词钱氏辑粹》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/70006000/70006105_失街亭·空城计·斩马谡.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 8,
+    "file_size_bytes": 411465,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "诸葛亮闻魏又起用司马懿为帅，因街亭为汉中咽喉要地，拟派将驻守。马谡请令，诸葛亮再三叮嘱须靠山近水扎营，并令王平辅之。马谡刚愎自用，违令，又不听王平谏言，竟在山顶扎营，因而被魏将张郃所败，街亭失守。诸葛亮驻西城，得街亭失守之讯，又知司马懿乘胜来攻，所部精锐已俱被遣出，西城空虚；在危急中，定空城之计，令将城门大开，自坐城头，抚琴饮酒以待。司马懿兵至城下，见状大疑，又素知诸葛亮谨慎，不进而退；及至探明回军，诸葛亮已调来赵云，惊退司马懿。马谡与王平回营请罪，诸葛亮虽惜马谡之才，但以军法无私，挥泪斩之；并因己用人失当，上表自贬。",
+    "notes": [
+      "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬说戏录音进行校核，并",
+      "请范石人对配角的唱念进行修订，最终订稿。因原稿只含主角唱念的场次，故《失街亭》第二至九场、《空",
+      "城计》第三至四场从略。",
+      "根据《余派戏词钱氏辑粹》：孟小冬授课钱培荣本整理",
+      "《失街亭》"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "魏、诸葛、司马懿、赵云",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "历史戏",
+      "confidence": 0.88,
+      "evidence": [
+        "汉",
+        "明",
+        "魏",
+        "兵",
+        "城"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 54,
+        "aria_count": 22,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：诸葛亮：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_司马懿",
+      "name": "司马懿",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 6,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：司马懿：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马谡",
+      "name": "马谡",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 18,
+        "aria_count": 4,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：马谡：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_王平",
+      "name": "王平",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 3,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：王平：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_赵云",
+      "name": "赵云",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马岱",
+      "name": "马岱",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_旗牌",
+      "name": "旗牌",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_琴童甲",
+      "name": "琴童甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "仆从/差役",
+          "老军"
+        ]
+      }
+    },
+    {
+      "role_id": "r_探子",
+      "name": "探子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_老军甲",
+      "name": "老军甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "官员/谋臣",
+          "老军"
+        ]
+      }
+    },
+    {
+      "role_id": "r_老军乙",
+      "name": "老军乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "老军"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二老军",
+      "name": "二老军",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四龙套",
+      "name": "四龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_司马昭",
+      "name": "司马昭",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_司马师",
+      "name": "司马师",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "诸葛亮",
+        "赵云",
+        "王平",
+        "马岱",
+        "马谡"
+      ],
+      "event_ids": [
+        "70006105_e00001",
+        "70006105_e00002",
+        "70006105_e00003",
+        "70006105_e00004",
+        "70006105_e00005",
+        "70006105_e00006",
+        "70006105_e00007",
+        "70006105_e00008",
+        "70006105_e00009",
+        "70006105_e00010",
+        "70006105_e00011",
+        "70006105_e00012",
+        "70006105_e00013",
+        "70006105_e00014",
+        "70006105_e00015",
+        "70006105_e00016",
+        "70006105_e00017",
+        "70006105_e00018",
+        "70006105_e00019",
+        "70006105_e00020",
+        "70006105_e00021",
+        "70006105_e00022",
+        "70006105_e00023",
+        "70006105_e00024",
+        "70006105_e00025",
+        "70006105_e00026",
+        "70006105_e00027",
+        "70006105_e00028",
+        "70006105_e00029",
+        "70006105_e00030",
+        "70006105_e00031",
+        "70006105_e00032",
+        "70006105_e00033",
+        "70006105_e00034",
+        "70006105_e00035",
+        "70006105_e00036",
+        "70006105_e00037",
+        "70006105_e00038",
+        "70006105_e00039",
+        "70006105_e00040",
+        "70006105_e00041",
+        "70006105_e00042",
+        "70006105_e00043",
+        "70006105_e00044",
+        "70006105_e00045",
+        "70006105_e00046",
+        "70006105_e00047",
+        "70006105_e00048",
+        "70006105_e00049"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 49,
+        "spoken_count": 35,
+        "aria_count": 3,
+        "recitation_count": 1,
+        "stage_direction_count": 9,
+        "expression_count": 0,
+        "text_length": 787
+      }
+    },
+    {
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "title": "第一场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "诸葛亮",
+        "旗牌",
+        "琴童甲",
+        "探子",
+        "老军甲",
+        "老军乙",
+        "二老军"
+      ],
+      "event_ids": [
+        "70006105_e00050",
+        "70006105_e00051",
+        "70006105_e00052",
+        "70006105_e00053",
+        "70006105_e00054",
+        "70006105_e00055",
+        "70006105_e00056",
+        "70006105_e00057",
+        "70006105_e00058",
+        "70006105_e00059",
+        "70006105_e00060",
+        "70006105_e00061",
+        "70006105_e00062",
+        "70006105_e00063",
+        "70006105_e00064",
+        "70006105_e00065",
+        "70006105_e00066",
+        "70006105_e00067",
+        "70006105_e00068",
+        "70006105_e00069",
+        "70006105_e00070",
+        "70006105_e00071",
+        "70006105_e00072",
+        "70006105_e00073",
+        "70006105_e00074",
+        "70006105_e00075",
+        "70006105_e00076",
+        "70006105_e00077",
+        "70006105_e00078",
+        "70006105_e00079",
+        "70006105_e00080",
+        "70006105_e00081",
+        "70006105_e00082",
+        "70006105_e00083",
+        "70006105_e00084",
+        "70006105_e00085",
+        "70006105_e00086",
+        "70006105_e00087",
+        "70006105_e00088",
+        "70006105_e00089",
+        "70006105_e00090",
+        "70006105_e00091",
+        "70006105_e00092",
+        "70006105_e00093",
+        "70006105_e00094",
+        "70006105_e00095",
+        "70006105_e00096",
+        "70006105_e00097",
+        "70006105_e00098",
+        "70006105_e00099",
+        "70006105_e00100",
+        "70006105_e00101"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 52,
+        "spoken_count": 31,
+        "aria_count": 1,
+        "recitation_count": 8,
+        "stage_direction_count": 12,
+        "expression_count": 0,
+        "text_length": 748
+      }
+    },
+    {
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "title": "第二场",
+      "page_start": 4,
+      "page_end": 8,
+      "characters": [
+        "二老军",
+        "诸葛亮",
+        "老军甲",
+        "老军乙",
+        "司马懿",
+        "四龙套",
+        "司马昭",
+        "司马师",
+        "赵云",
+        "探子",
+        "王平",
+        "马谡"
+      ],
+      "event_ids": [
+        "70006105_e00102",
+        "70006105_e00103",
+        "70006105_e00104",
+        "70006105_e00105",
+        "70006105_e00106",
+        "70006105_e00107",
+        "70006105_e00108",
+        "70006105_e00109",
+        "70006105_e00110",
+        "70006105_e00111",
+        "70006105_e00112",
+        "70006105_e00113",
+        "70006105_e00114",
+        "70006105_e00115",
+        "70006105_e00116",
+        "70006105_e00117",
+        "70006105_e00118",
+        "70006105_e00119",
+        "70006105_e00120",
+        "70006105_e00121",
+        "70006105_e00122",
+        "70006105_e00123",
+        "70006105_e00124",
+        "70006105_e00125",
+        "70006105_e00126",
+        "70006105_e00127",
+        "70006105_e00128",
+        "70006105_e00129",
+        "70006105_e00130",
+        "70006105_e00131",
+        "70006105_e00132",
+        "70006105_e00133",
+        "70006105_e00134",
+        "70006105_e00135",
+        "70006105_e00136",
+        "70006105_e00137",
+        "70006105_e00138",
+        "70006105_e00139",
+        "70006105_e00140",
+        "70006105_e00141",
+        "70006105_e00142",
+        "70006105_e00143",
+        "70006105_e00144",
+        "70006105_e00145",
+        "70006105_e00146",
+        "70006105_e00147",
+        "70006105_e00148",
+        "70006105_e00149",
+        "70006105_e00150",
+        "70006105_e00151",
+        "70006105_e00152",
+        "70006105_e00153",
+        "70006105_e00154",
+        "70006105_e00155",
+        "70006105_e00156",
+        "70006105_e00157",
+        "70006105_e00158",
+        "70006105_e00159",
+        "70006105_e00160",
+        "70006105_e00161",
+        "70006105_e00162",
+        "70006105_e00163",
+        "70006105_e00164",
+        "70006105_e00165",
+        "70006105_e00166",
+        "70006105_e00167",
+        "70006105_e00168",
+        "70006105_e00169",
+        "70006105_e00170",
+        "70006105_e00171",
+        "70006105_e00172",
+        "70006105_e00173",
+        "70006105_e00174",
+        "70006105_e00175",
+        "70006105_e00176",
+        "70006105_e00177",
+        "70006105_e00178",
+        "70006105_e00179",
+        "70006105_e00180",
+        "70006105_e00181",
+        "70006105_e00182",
+        "70006105_e00183",
+        "70006105_e00184",
+        "70006105_e00185",
+        "70006105_e00186",
+        "70006105_e00187",
+        "70006105_e00188",
+        "70006105_e00189",
+        "70006105_e00190",
+        "70006105_e00191",
+        "70006105_e00192",
+        "70006105_e00193",
+        "70006105_e00194",
+        "70006105_e00195",
+        "70006105_e00196",
+        "70006105_e00197",
+        "70006105_e00198",
+        "70006105_e00199",
+        "70006105_e00200",
+        "70006105_e00201",
+        "70006105_e00202",
+        "70006105_e00203",
+        "70006105_e00204",
+        "70006105_e00205",
+        "70006105_e00206",
+        "70006105_e00207",
+        "70006105_e00208",
+        "70006105_e00209",
+        "70006105_e00210",
+        "70006105_e00211"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 110,
+        "spoken_count": 57,
+        "aria_count": 31,
+        "recitation_count": 1,
+        "stage_direction_count": 20,
+        "expression_count": 1,
+        "text_length": 2494
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "70006105_e00001",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套同上，诸葛亮上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00002",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "羽扇纶巾，四轮车，快似风云。阴阳反掌定乾坤，保汉家，两代贤臣。",
+      "text_length": 31
+    },
+    {
+      "event_id": "70006105_e00003",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云、王平、马岱、马谡同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006105_e00004",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "赵云",
+        "王平",
+        "马岱",
+        "马谡"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00005",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众位将军少礼！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006105_e00006",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "赵云",
+        "王平",
+        "马岱",
+        "马谡"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00007",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "忆昔当年居卧龙，万里乾坤掌握中。扫尽狼烟复汉统，人曰男儿大英雄。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00008",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "老夫、复姓诸葛名亮、字孔明、道号卧龙。蒙先帝爷在白帝城托孤以来，要扫荡中原、扭转汉室。闻得司马懿兵至祁山，必然夺取街亭。想街亭乃汉中咽喉之地，必须派一能将，前去防守。列位将军！",
+      "text_length": 88
+    },
+    {
+      "event_id": "70006105_e00009",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "赵云",
+        "王平",
+        "马岱",
+        "马谡"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00010",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哪位将军愿带领人马，镇守街亭敢当此任？",
+      "text_length": 19
+    },
+    {
+      "event_id": "70006105_e00011",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相传下将令并无一人应声，待俺马谡进帐讨令。启禀丞相：马谡愿往。https://scripts.xikao.com/play/700061052021-02-06",
+      "text_length": 81
+    },
+    {
+      "event_id": "70006105_e00012",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "唔！马将军愿往么？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00013",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "当报国恩。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00014",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "那司马懿虽然年迈，用兵如神，将军不可轻敌。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70006105_e00015",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相！俺马谡跟随丞相以来，攻无不取，战无不胜。何况那小小的街亭？",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00016",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "街亭虽小，干系甚重啊。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00017",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "愿当军令。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00018",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "军无戏言。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00019",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "愿立军状。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00020",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "当帐立来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00021",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "马谡乎！丞相请看。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00022",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "候令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00023",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00024",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "列位将军！哪位将军愿带领人马、协同马谡镇守街亭，当帐请令。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70006105_e00025",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王平"
+      ],
+      "text": "王平愿往。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00026",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "王将军愿往么？",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006105_e00027",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王平"
+      ],
+      "text": "当报国恩。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00028",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "此番到了街亭，靠山近水安营扎寨。安营之后，画一图形，速报我知。",
+      "text_length": 31
+    },
+    {
+      "event_id": "70006105_e00029",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王平"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00030",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王平下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00031",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "赵老将军听令！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006105_e00032",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00033",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "镇守列柳城。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00034",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00035",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00036",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马岱听令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00037",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 37,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00038",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 38,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "解押粮草，军中听用，不得迟误。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70006105_e00039",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 39,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00040",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 40,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马岱下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00041",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 41,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马谡进帐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00042",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 42,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00043",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 43,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "末将正在点动人马，丞相呼唤，有何军事密令？",
+      "text_length": 21
+    },
+    {
+      "event_id": "70006105_e00044",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 44,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "今逢大敌，非比寻常，我有一言，将军听了！",
+      "text_length": 20
+    },
+    {
+      "event_id": "70006105_e00045",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 45,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "两国交锋龙虎斗，各为其主统貔貅。管带三军要宽厚，赏罚中公平莫要自由。此一番领兵去镇守，靠山近水把营收。",
+      "text_length": 51
+    },
+    {
+      "event_id": "70006105_e00046",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 46,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "我主本是汉家后，南征北战不停留。辞别丞相出帐口，好似顺水送轻舟。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00047",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 47,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00048",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 48,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "先帝爷白帝城叮咛就，汉诸葛扶幼主岂能无忧？但愿得此一去扫平贼寇，免得我亲自去把贼收。",
+      "text_length": 42
+    },
+    {
+      "event_id": "70006105_e00049",
+      "play_id": "70006105",
+      "scene_id": "70006105_s01",
+      "scene_no": 1,
+      "seq_global": 49,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套、诸葛亮同下。《空城计》https://scripts.xikao.com/play/700061052021-02-06",
+      "text_length": 65
+    },
+    {
+      "event_id": "70006105_e00050",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮偕二琴童同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00051",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "兵扎祁山地，要擒司马懿。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00052",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "旗牌上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00053",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "人行千里路，马过万重山。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00054",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "门上哪位在？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00055",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童甲"
+      ],
+      "text": "什么人？",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00056",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "献图人求见。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00057",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童甲"
+      ],
+      "text": "候着。启禀丞相：献图人求见。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006105_e00058",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "传。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00059",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童甲"
+      ],
+      "text": "丞相传你，随我进来。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00060",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "是。参见丞相。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006105_e00061",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "罢了，你奉何人所差？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00062",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "奉王将军所差，地理图呈上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70006105_e00063",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "展开！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00064",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮看图。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00065",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "命你去到列柳城，速将赵老将军调回营来，快去、快去。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70006105_e00066",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00067",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "旗牌下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00068",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "啊！好一个大胆的马谡哇！临行之时，怎样的嘱咐与你，叫你靠山近水安营扎寨，怎么你偏偏在山上扎营？哎呀，只恐街亭难保。",
+      "text_length": 57
+    },
+    {
+      "event_id": "70006105_e00069",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00070",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "报！王平、马谡失守街亭。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00071",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00072",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00073",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "如何？果然把街亭失守了。王平、马谡失守街亭，乃诸葛之罪也！",
+      "text_length": 29
+    },
+    {
+      "event_id": "70006105_e00074",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00075",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "报！司马懿领兵，往西城而来。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006105_e00076",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00077",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00078",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "唔呼呀！那司马懿居然带兵夺取西城来了。咳！曾记得先帝爷在白帝城托孤之时，说道马谡言过其实，终无大用。悔不听先皇之言，错差马谡，失守街亭，如今我是悔之晚矣呀！",
+      "text_length": 78
+    },
+    {
+      "event_id": "70006105_e00079",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00080",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "报！司马懿大兵，离西城不远。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006105_e00081",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再、再、再、再探！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00082",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 33,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00083",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 34,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "啊！司马懿的大兵，来得好快呀！唔！人言司马，用兵如神，今日一见，令人可敬、令人可服！哎呀且住！我将西城的兵将，俱已调遣在外。所剩下的都是些个老弱残兵。司马懿兵临城下，难道叫我束手被擒？这、这、这束手？被擒！来，老军们进见。",
+      "text_length": 111
+    },
+    {
+      "event_id": "70006105_e00084",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童甲"
+      ],
+      "text": "老军们进见。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00085",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00086",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 86,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "司马兵到，",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00087",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 87,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "心惊肉跳。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00088",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 88,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "见了丞相，",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00089",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 89,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "急忙跪倒。https://scripts.xikao.com/play/700061052021-02-06",
+      "text_length": 54
+    },
+    {
+      "event_id": "70006105_e00090",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 90,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "参见丞相。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00091",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 91,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你们是西城的老军么？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00092",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 92,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00093",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 93,
+      "seq_in_scene": 44,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "命尔等将四门大开，每门二十名打扫街道，那司马懿兵临城下，尔等不可惊慌浮躁，违令者斩！",
+      "text_length": 42
+    },
+    {
+      "event_id": "70006105_e00094",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 94,
+      "seq_in_scene": 45,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00095",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 95,
+      "seq_in_scene": 46,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "丞相吩咐我，",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00096",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 96,
+      "seq_in_scene": 47,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "准死不能活。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00097",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 97,
+      "seq_in_scene": 48,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "来。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00098",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 98,
+      "seq_in_scene": 49,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "琴童甲"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00099",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 99,
+      "seq_in_scene": 50,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "带了瑶琴，城楼去者。天哪，天！国家兴败，就在这空城一计了！",
+      "text_length": 29
+    },
+    {
+      "event_id": "70006105_e00100",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 100,
+      "seq_in_scene": 51,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我用兵数十年从来谨慎，错用了小马谡无用之人。无奈何定空城计我的心神不定，望空中求先帝大显威灵。",
+      "text_length": 47
+    },
+    {
+      "event_id": "70006105_e00101",
+      "play_id": "70006105",
+      "scene_id": "70006105_s02",
+      "scene_no": 2,
+      "seq_global": 101,
+      "seq_in_scene": 52,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮、二琴童同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00102",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 102,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同上，同打扫街道。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00103",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 103,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "有请丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00104",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 104,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二琴童、诸葛亮同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00105",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 105,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "恨马谡失街亭令人可恨，这时候倒叫我难以调停。",
+      "text_length": 22
+    },
+    {
+      "event_id": "70006105_e00106",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 106,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "我说咱们丞相大概是老糊涂了吧？司马懿的大兵到此，不把四门紧闭，反将四门大开，这不是越老越糊涂了吗？",
+      "text_length": 49
+    },
+    {
+      "event_id": "70006105_e00107",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 107,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "可说的是啊！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00108",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 108,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "嗯！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00109",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 109,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "问老军因何故纷纷议论？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00110",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 110,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "非是小人纷纷议论，司马懿兵临城下，叫小人们胆惊害怕呀！",
+      "text_length": 27
+    },
+    {
+      "event_id": "70006105_e00111",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 111,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "国家事用不着尔等劳心。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00112",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 112,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "虽然说国家事用不着小人们劳心，可是这西城乃是通汉中咽喉要路，须得拿个准主意才好啊！",
+      "text_length": 41
+    },
+    {
+      "event_id": "70006105_e00113",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 113,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "这西城地原本是咽喉路径，我城内早埋伏有十万神兵。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70006105_e00114",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 114,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "怪不得丞相不慌不忙的，原来城里头埋伏有十万神兵呢！伙计，你瞧瞧去。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70006105_e00115",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 115,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "我去瞧瞧。哎，伙计，这里三层外三层，我一个也没看见。",
+      "text_length": 26
+    },
+    {
+      "event_id": "70006105_e00116",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 116,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "你肉眼凡胎，怎么能看得见哪！",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006105_e00117",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 117,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "叫老军扫街道、把宽心放稳，",
+      "text_length": 13
+    },
+    {
+      "event_id": "70006105_e00118",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 118,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "咋。扫喽扫喽！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006105_e00119",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 119,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮、二琴童同上城。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00120",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 120,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "退司马保空城全仗此琴。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00121",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 121,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "大队人马往西城，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006105_e00122",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 122,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、司马懿、司马师、司马昭同上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70006105_e00123",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 123,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00124",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 124,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "为何大开两扇门？",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006105_e00125",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 125,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "且住！适才探马报道！西城乃是空城。老夫兴兵至此，为何四门大开？唔呼呀！想是诸葛亮又在那里弄鬼，不要中了他人之计。众将官，听我一令！",
+      "text_length": 65
+    },
+    {
+      "event_id": "70006105_e00126",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 126,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "坐在马上传将令，大小儿郎听分明：https://scripts.xikao.com/play/700061052021-02-06哪一个胆大把西城进，定斩人头不容情。",
+      "text_length": 83
+    },
+    {
+      "event_id": "70006105_e00127",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 127,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮慢板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我本是卧龙岗散淡的人，评阴阳如反掌保定乾坤。先帝爷下南阳御驾三请，算就了汉家的业鼎足三分。官封到武乡侯执掌帅印，东西战南北剿博古通今。周文王访姜尚周室大振，汉诸葛怎比得前辈的先生。闲无事在敌楼我亮一亮琴音，",
+      "text_length": 103
+    },
+    {
+      "event_id": "70006105_e00128",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 128,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00129",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 129,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我面前缺少个知音的人。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00130",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 130,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "有本督在马上观动静，诸葛亮在城楼饮酒抚琴。左右琴童人两个，打扫街道俱都是那老弱残兵。我本当传将令杀进城，",
+      "text_length": 52
+    },
+    {
+      "event_id": "70006105_e00131",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 131,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "杀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00132",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 132,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "夹白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "杀不得！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00133",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 133,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "又恐怕中了巧计行。勒住丝缰把话论，尊一声诸葛听分明：你我在渭南会一阵，棋逢对手一般平。",
+      "text_length": 43
+    },
+    {
+      "event_id": "70006105_e00134",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 134,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我正在城楼观山景，耳听得城外乱纷纷。旌旗招展空翻影，却原来是司马发来的兵。我也曾差人去打听，打听得司马领兵往西行。一来是马谡无谋少才能，二来是将帅不和失街亭。你连夺我三城多侥幸，贪而无厌又夺我的西城。诸葛亮在敌楼把驾等，等候你到此谈、谈、谈谈心。西城的街道打扫净，预备着司马好屯兵。诸葛亮无有别的敬，早备下羊羔美酒犒赏你的三军。既到此就该把城进，为甚么犹疑不定，进退两难为的是何情？我只有琴童人两个，我是既无有埋伏又无有兵。你不要胡思乱想心不定，你就来、来、来，请上城来听我抚琴。",
+      "text_length": 240
+    },
+    {
+      "event_id": "70006105_e00135",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 135,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "呀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00136",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 136,
+      "seq_in_scene": 35,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "左思右想心不定，城内必有埋伏兵。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006105_e00137",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 137,
+      "seq_in_scene": 36,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "司马昭",
+        "司马师"
+      ],
+      "text": "爹爹！趁此机会杀进城去、活捉那孔明。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70006105_e00138",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 138,
+      "seq_in_scene": 37,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "呸！小小年纪知道什么？诸葛亮一生谨慎，从不弄险。我若杀进西城，岂不正https://scripts.xikao.com/play/700061052021-02-06中其计？众将官！",
+      "text_length": 91
+    },
+    {
+      "event_id": "70006105_e00139",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 139,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00140",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 140,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "将前队改为后队，人马倒退四十里。待我说破与他。诸葛亮呃孔明！你实城也罢、空城也罢，老夫拿定主意不进城，请了！请了！",
+      "text_length": 57
+    },
+    {
+      "event_id": "70006105_e00141",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 141,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、司马懿、司马师、司马昭同下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70006105_e00142",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 142,
+      "seq_in_scene": 41,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "司马大兵倒退四十里呀！",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00143",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 143,
+      "seq_in_scene": 42,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮下城。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00144",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 144,
+      "seq_in_scene": 43,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "人言司马善用兵，到此不敢进空城。诸葛从来不弄险，险中有险显才能。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00145",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 145,
+      "seq_in_scene": 44,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、赵云同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00146",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 146,
+      "seq_in_scene": 45,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00147",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 147,
+      "seq_in_scene": 46,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "老将军回来了。适才司马带领人马夺取西城，被我空城之计将他惊走，他必然复夺西城，老将军要速速的抵挡一阵。",
+      "text_length": 51
+    },
+    {
+      "event_id": "70006105_e00148",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 148,
+      "seq_in_scene": 47,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "得令。带马！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00149",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 149,
+      "seq_in_scene": 48,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云、四上手同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00150",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 150,
+      "seq_in_scene": 49,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "正是：",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00151",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 151,
+      "seq_in_scene": 50,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "虎豹在山群兽远，蛟龙得水又复还。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006105_e00152",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 152,
+      "seq_in_scene": 51,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "险哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00153",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 153,
+      "seq_in_scene": 52,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮下。《斩马谡》",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00154",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 154,
+      "seq_in_scene": 53,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套引诸葛亮同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006105_e00155",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 155,
+      "seq_in_scene": 54,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "算就汉家三分鼎，险些一且化灰尘。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006105_e00156",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 156,
+      "seq_in_scene": 55,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00157",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 157,
+      "seq_in_scene": 56,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "报！马谡、王平回营请罪。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006105_e00158",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 158,
+      "seq_in_scene": 57,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00159",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 159,
+      "seq_in_scene": 58,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "击鼓升帐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00160",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 160,
+      "seq_in_scene": 59,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00161",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 161,
+      "seq_in_scene": 60,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "报！赵老将军得胜回营。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00162",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 162,
+      "seq_in_scene": 61,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00163",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 163,
+      "seq_in_scene": 62,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "有请！（探子下。赵云上。诸葛亮向赵云敬酒表示祝贺，赵云拟向诸葛亮讲话，诸葛亮阻止，并摇头请赵云离去，赵云下。）",
+      "text_length": 55
+    },
+    {
+      "event_id": "70006105_e00164",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 164,
+      "seq_in_scene": 63,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "带王平！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00165",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 165,
+      "seq_in_scene": 64,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王平上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00166",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 166,
+      "seq_in_scene": 65,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王平"
+      ],
+      "text": "忽听丞相传将令，不由王平心内惊。迈步且把宝帐进，",
+      "text_length": 24
+    },
+    {
+      "event_id": "70006105_e00167",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 167,
+      "seq_in_scene": 66,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "王平"
+      ],
+      "text": "丞相台前请罪名。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006105_e00168",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 168,
+      "seq_in_scene": 67,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "火上心头难消恨，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006105_e00169",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 169,
+      "seq_in_scene": 68,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "帐下跪的小王平。我也曾吩咐你，靠山近水扎大营。大胆不听我的令，失守街亭你的罪不轻。",
+      "text_length": 41
+    },
+    {
+      "event_id": "70006105_e00170",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 170,
+      "seq_in_scene": 69,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王平"
+      ],
+      "text": "丞相不必怒气生，https://scripts.xikao.com/play/700061052021-02-06王平言来听分明：马谡不听王平论，先有画图作证凭。",
+      "text_length": 81
+    },
+    {
+      "event_id": "70006105_e00171",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 171,
+      "seq_in_scene": 70,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "呸！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00172",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 172,
+      "seq_in_scene": 71,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "若不是画图来得紧，定与马谡同罪名。将王平责打四十棍，",
+      "text_length": 26
+    },
+    {
+      "event_id": "70006105_e00173",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 173,
+      "seq_in_scene": 72,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "打！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00174",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 174,
+      "seq_in_scene": 73,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二龙套押王平同下，二龙套同上。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70006105_e00175",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 175,
+      "seq_in_scene": 74,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再带马谡无用的人。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006105_e00176",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 176,
+      "seq_in_scene": 75,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00177",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 177,
+      "seq_in_scene": 76,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相宝帐令传下，马谡心中乱如麻。悔不该不听王平话，不该山上把营扎。自古军令无戏耍，等候丞相将令发。",
+      "text_length": 49
+    },
+    {
+      "event_id": "70006105_e00178",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 178,
+      "seq_in_scene": 77,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "见马谡跪帐下，不由山人咬龈牙。大胆不听我的话，失守街亭你差不差？",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00179",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 179,
+      "seq_in_scene": 78,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "马谡无谋作事差，犯罪理当正军法。当年跟随先帝驾，还望丞相厚恩加。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006105_e00180",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 180,
+      "seq_in_scene": 79,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吩咐两旁的刀斧手，快将马谡正军法。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006105_e00181",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 181,
+      "seq_in_scene": 80,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相宝帐传令下，赏罚公平果不差。二次进帐忙跪下，末将言来听根芽：我今一死倒也罢，家中还有白发的妈。",
+      "text_length": 49
+    },
+    {
+      "event_id": "70006105_e00182",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 182,
+      "seq_in_scene": 81,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相！马谡失守街亭，理当斩首，死而无怨。但家中尚有八旬老母，无人侍奉。我死之后，望求丞相另眼看待。马谡纵死九泉，也感丞相的大恩大德。",
+      "text_length": 66
+    },
+    {
+      "event_id": "70006105_e00183",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 183,
+      "seq_in_scene": 82,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "见马谡只哭得珠泪洒，我心中好一似乱刀扎。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70006105_e00184",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 184,
+      "seq_in_scene": 83,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马谡！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00185",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 185,
+      "seq_in_scene": 84,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00186",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 186,
+      "seq_in_scene": 85,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "幼常！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00187",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 187,
+      "seq_in_scene": 86,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "武乡侯！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00188",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 188,
+      "seq_in_scene": 87,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哎！只因你未曾出兵，当着满营的将官，先立下军令状。临行之时，何等的嘱咐与你，叫你靠山近水安营扎寨，谁知你到了街亭，偏偏在山上扎营。如今失守街亭，若不将你正法、我是何以服众？马谡！幼常！咳！",
+      "text_length": 94
+    },
+    {
+      "event_id": "70006105_e00189",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 189,
+      "seq_in_scene": 88,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "哦！哦！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00190",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 190,
+      "seq_in_scene": 89,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "斩！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006105_e00191",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 191,
+      "seq_in_scene": 90,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "娘啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00192",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 192,
+      "seq_in_scene": 91,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "招回来！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00193",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 193,
+      "seq_in_scene": 92,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡回场，向诸葛亮跪。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00194",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 194,
+      "seq_in_scene": 93,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马谡，你方才言道，家有八旬老母，无人奉养。你但放宽心，你死之后，将你的兵马钱粮，拨与你母以为养老之费。",
+      "text_length": 51
+    },
+    {
+      "event_id": "70006105_e00195",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 195,
+      "seq_in_scene": 94,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "多谢丞相！https://scripts.xikao.com/play/700061052021-02-06",
+      "text_length": 54
+    },
+    {
+      "event_id": "70006105_e00196",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 196,
+      "seq_in_scene": 95,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马谡！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00197",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 197,
+      "seq_in_scene": 96,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00198",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 198,
+      "seq_in_scene": 97,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "幼常！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006105_e00199",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 199,
+      "seq_in_scene": 98,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "武乡侯！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00200",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 200,
+      "seq_in_scene": 99,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "咳！将军哪！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006105_e00201",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 201,
+      "seq_in_scene": 100,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "哦！哦！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00202",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 202,
+      "seq_in_scene": 101,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "斩、斩、斩、斩！",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006105_e00203",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 203,
+      "seq_in_scene": 102,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马谡"
+      ],
+      "text": "该斩哪！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00204",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 204,
+      "seq_in_scene": 103,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马谡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00205",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 205,
+      "seq_in_scene": 104,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我哭、哭一声马将军，我叫、叫一声马幼常。未出兵先立军令状，可叹你为国家刀下身亡。马谡哇！参谋哇！啊……马幼常！",
+      "text_length": 55
+    },
+    {
+      "event_id": "70006105_e00206",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 206,
+      "seq_in_scene": 105,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "赵云上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006105_e00207",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 207,
+      "seq_in_scene": 106,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "丞相斩了马谡为何落泪？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006105_e00208",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 208,
+      "seq_in_scene": 107,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "老将军那里知道！先帝爷在白帝城托孤之时说道，马谡言过其实、终无大用。是我不听先皇之言、错差马谡、失守三城，我哪里哭的是马谡！哭只哭先帝爷托孤之言哪！",
+      "text_length": 74
+    },
+    {
+      "event_id": "70006105_e00209",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 209,
+      "seq_in_scene": 108,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "原来如此。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006105_e00210",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 210,
+      "seq_in_scene": 109,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "也罢！就烦老将军拜本进京，奏明幼主，自贬武乡侯之职。歇兵三日，再与司马决一死战。后帐摆宴，与老将军贺功！",
+      "text_length": 52
+    },
+    {
+      "event_id": "70006105_e00211",
+      "play_id": "70006105",
+      "scene_id": "70006105_s03",
+      "scene_no": 3,
+      "seq_global": 211,
+      "seq_in_scene": 110,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮、赵云同下。https://scripts.xikao.com/play/700061052021-02-06",
+      "text_length": 58
+    }
+  ],
+  "roles_inferred": true
+}

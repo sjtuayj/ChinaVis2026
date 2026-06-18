@@ -1,0 +1,185 @@
+{
+  "play": {
+    "play_id": "01002018",
+    "title": "目莲救母",
+    "pdf_name": "01002018_目莲救母.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 55,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01002018",
+    "source_date": "2018-05-17",
+    "synopsis_length": 284,
+    "notes_length": 28,
+    "marker_category_counts": {
+      "spoken": 46,
+      "other": 2,
+      "recitation": 3,
+      "singing": 4
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 52.0,
+    "max_edge_weight": 47,
+    "top_characters": [
+      {
+        "name": "目莲",
+        "hangdang": "小生",
+        "speech_count": 21,
+        "degree": 3,
+        "weighted_degree": 87
+      },
+      {
+        "name": "大鬼",
+        "hangdang": "净",
+        "speech_count": 19,
+        "degree": 3,
+        "weighted_degree": 63
+      },
+      {
+        "name": "刘清提",
+        "hangdang": "老旦",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 51
+      },
+      {
+        "name": "小鬼",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "目莲",
+      "label": "目莲",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 21,
+      "text_length": 434,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 87,
+      "marker_category_counts": {
+        "spoken": 17,
+        "recitation": 3,
+        "singing": 1
+      }
+    },
+    {
+      "id": "大鬼",
+      "label": "大鬼",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 19,
+      "text_length": 386,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 63,
+      "marker_category_counts": {
+        "spoken": 18,
+        "other": 1
+      }
+    },
+    {
+      "id": "刘清提",
+      "label": "刘清提",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 14,
+      "text_length": 655,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "spoken": 10,
+        "singing": 3,
+        "other": 1
+      }
+    },
+    {
+      "id": "小鬼",
+      "label": "小鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 9,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "大鬼",
+      "target": "目莲",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘清提",
+      "target": "目莲",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘清提",
+      "target": "大鬼",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大鬼",
+      "target": "小鬼",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小鬼",
+      "target": "目莲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘清提",
+      "target": "小鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "play": {
+    "play_id": "01032005",
+    "title": "新四十八扯",
+    "pdf_name": "01032005_新四十八扯.pdf",
+    "group_id": "01000000",
+    "page_count": 12,
+    "scene_count": 1,
+    "speech_count": 123,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01032005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 0,
+    "notes_length": 150,
+    "marker_category_counts": {
+      "other": 8,
+      "spoken": 78,
+      "recitation": 11,
+      "singing": 26
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 189.0,
+    "max_edge_weight": 189,
+    "top_characters": [
+      {
+        "name": "赵瑶颜",
+        "hangdang": "旦",
+        "speech_count": 66,
+        "degree": 1,
+        "weighted_degree": 189
+      },
+      {
+        "name": "赵晃",
+        "hangdang": "丑",
+        "speech_count": 57,
+        "degree": 1,
+        "weighted_degree": 189
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵瑶颜",
+      "label": "赵瑶颜",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 66,
+      "text_length": 4188,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 189,
+      "marker_category_counts": {
+        "recitation": 7,
+        "spoken": 40,
+        "singing": 17,
+        "other": 2
+      }
+    },
+    {
+      "id": "赵晃",
+      "label": "赵晃",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 57,
+      "text_length": 3135,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 189,
+      "marker_category_counts": {
+        "other": 6,
+        "spoken": 38,
+        "singing": 9,
+        "recitation": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "赵晃",
+      "target": "赵瑶颜",
+      "weight": 189,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 94,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

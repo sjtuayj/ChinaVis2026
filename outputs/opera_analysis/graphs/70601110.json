@@ -1,0 +1,254 @@
+{
+  "play": {
+    "play_id": "70601110",
+    "title": "变羊记",
+    "pdf_name": "70601110_变羊记.pdf",
+    "group_id": "70601000",
+    "page_count": 16,
+    "scene_count": 2,
+    "speech_count": 562,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/70601110",
+    "source_date": "2018-08-24",
+    "synopsis_length": 96,
+    "notes_length": 26,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 540,
+      "recitation": 9,
+      "singing": 9
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 423.6,
+    "max_edge_weight": 337,
+    "top_characters": [
+      {
+        "name": "苍头",
+        "hangdang": "丑",
+        "speech_count": 151,
+        "degree": 4,
+        "weighted_degree": 570
+      },
+      {
+        "name": "贾妈",
+        "hangdang": "彩旦",
+        "speech_count": 150,
+        "degree": 4,
+        "weighted_degree": 556
+      },
+      {
+        "name": "柳氏",
+        "hangdang": "旦",
+        "speech_count": 137,
+        "degree": 4,
+        "weighted_degree": 534
+      },
+      {
+        "name": "陈慥",
+        "hangdang": "小生",
+        "speech_count": 103,
+        "degree": 4,
+        "weighted_degree": 386
+      },
+      {
+        "name": "苏东坡",
+        "hangdang": "老生",
+        "speech_count": 21,
+        "degree": 4,
+        "weighted_degree": 72
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "苍头",
+      "label": "苍头",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 151,
+      "text_length": 1715,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 570,
+      "marker_category_counts": {
+        "spoken": 147,
+        "recitation": 4
+      }
+    },
+    {
+      "id": "贾妈",
+      "label": "贾妈",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 150,
+      "text_length": 2891,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 556,
+      "marker_category_counts": {
+        "spoken": 145,
+        "recitation": 1,
+        "singing": 2,
+        "other": 2
+      }
+    },
+    {
+      "id": "柳氏",
+      "label": "柳氏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 137,
+      "text_length": 1880,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 534,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 131,
+        "singing": 5
+      }
+    },
+    {
+      "id": "陈慥",
+      "label": "陈慥",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 103,
+      "text_length": 1309,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 386,
+      "marker_category_counts": {
+        "spoken": 98,
+        "recitation": 2,
+        "other": 1,
+        "singing": 2
+      }
+    },
+    {
+      "id": "苏东坡",
+      "label": "苏东坡",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 21,
+      "text_length": 227,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 72,
+      "marker_category_counts": {
+        "spoken": 19,
+        "recitation": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "苍头",
+      "target": "贾妈",
+      "weight": 337,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 168,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "柳氏",
+      "target": "陈慥",
+      "weight": 210,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 104,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "柳氏",
+      "target": "贾妈",
+      "weight": 163,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 81,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "柳氏",
+      "target": "苍头",
+      "weight": 160,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 79,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "苍头",
+      "target": "陈慥",
+      "weight": 62,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "苏东坡",
+      "target": "陈慥",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "贾妈",
+      "target": "陈慥",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "苍头",
+      "target": "苏东坡",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "柳氏",
+      "target": "苏东坡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "苏东坡",
+      "target": "贾妈",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

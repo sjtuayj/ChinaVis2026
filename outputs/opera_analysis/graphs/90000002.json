@@ -1,0 +1,313 @@
+{
+  "play": {
+    "play_id": "90000002",
+    "title": "麻姑拜寿",
+    "pdf_name": "90000002_麻姑拜寿.pdf",
+    "group_id": "90000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 34,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/90000002",
+    "source_date": "2018-08-23",
+    "synopsis_length": 75,
+    "notes_length": 20,
+    "marker_category_counts": {
+      "singing": 3,
+      "recitation": 7,
+      "spoken": 23,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 25.666667,
+    "max_edge_weight": 23,
+    "top_characters": [
+      {
+        "name": "圣母",
+        "hangdang": "老旦",
+        "speech_count": 14,
+        "degree": 5,
+        "weighted_degree": 55
+      },
+      {
+        "name": "张果老",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 5,
+        "weighted_degree": 35
+      },
+      {
+        "name": "麻姑",
+        "hangdang": "旦",
+        "speech_count": 6,
+        "degree": 5,
+        "weighted_degree": 29
+      },
+      {
+        "name": "吕洞宾",
+        "hangdang": "老生",
+        "speech_count": 2,
+        "degree": 5,
+        "weighted_degree": 13
+      },
+      {
+        "name": "四仙女",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 5,
+        "weighted_degree": 13
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "圣母",
+      "label": "圣母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 14,
+      "text_length": 487,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "singing": 1,
+        "recitation": 3,
+        "spoken": 10
+      }
+    },
+    {
+      "id": "张果老",
+      "label": "张果老",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 157,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 6,
+        "recitation": 1,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "麻姑",
+      "label": "麻姑",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 6,
+      "text_length": 402,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "吕洞宾",
+      "label": "吕洞宾",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 2,
+      "text_length": 84,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四仙女",
+      "label": "四仙女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 40,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "李铁拐",
+      "label": "李铁拐",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 1,
+      "text_length": 25,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "圣母",
+      "target": "张果老",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "圣母",
+      "target": "麻姑",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四仙女",
+      "target": "圣母",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕洞宾",
+      "target": "张果老",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "圣母",
+      "target": "李铁拐",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张果老",
+      "target": "麻姑",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕洞宾",
+      "target": "四仙女",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕洞宾",
+      "target": "麻姑",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕洞宾",
+      "target": "圣母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕洞宾",
+      "target": "李铁拐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四仙女",
+      "target": "张果老",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四仙女",
+      "target": "李铁拐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四仙女",
+      "target": "麻姑",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张果老",
+      "target": "李铁拐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李铁拐",
+      "target": "麻姑",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

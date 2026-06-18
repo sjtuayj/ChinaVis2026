@@ -1,0 +1,90 @@
+{
+  "play": {
+    "play_id": "01040004",
+    "title": "倒厅门",
+    "pdf_name": "01040004_倒厅门.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 69,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01040004",
+    "source_date": "2013-03-19",
+    "synopsis_length": 495,
+    "notes_length": 28,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 26,
+      "spoken": 41
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 137.0,
+    "max_edge_weight": 137,
+    "top_characters": [
+      {
+        "name": "满堂娇",
+        "hangdang": "旦",
+        "speech_count": 35,
+        "degree": 1,
+        "weighted_degree": 137
+      },
+      {
+        "name": "张善",
+        "hangdang": "老生",
+        "speech_count": 34,
+        "degree": 1,
+        "weighted_degree": 137
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "满堂娇",
+      "label": "满堂娇",
+      "raw_role": "小旦",
+      "hangdang": "旦",
+      "speech_count": 35,
+      "text_length": 1170,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 137,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 20,
+        "singing": 13
+      }
+    },
+    {
+      "id": "张善",
+      "label": "张善",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 34,
+      "text_length": 1405,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 137,
+      "marker_category_counts": {
+        "singing": 13,
+        "spoken": 21
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张善",
+      "target": "满堂娇",
+      "weight": 137,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 68,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

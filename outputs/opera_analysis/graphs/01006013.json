@@ -1,0 +1,276 @@
+{
+  "play": {
+    "play_id": "01006013",
+    "title": "孝义节",
+    "pdf_name": "01006013_孝义节.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 4,
+    "speech_count": 51,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01006013",
+    "source_date": "2018-08-23",
+    "synopsis_length": 91,
+    "notes_length": 86,
+    "marker_category_counts": {
+      "other": 3,
+      "recitation": 3,
+      "spoken": 27,
+      "singing": 18
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 10,
+    "density": 0.47619,
+    "avg_degree": 2.857143,
+    "avg_weighted_degree": 25.142857,
+    "max_edge_weight": 35,
+    "top_characters": [
+      {
+        "name": "吴国太",
+        "hangdang": "老旦",
+        "speech_count": 19,
+        "degree": 3,
+        "weighted_degree": 63
+      },
+      {
+        "name": "孙尚香",
+        "hangdang": "旦",
+        "speech_count": 19,
+        "degree": 5,
+        "weighted_degree": 51
+      },
+      {
+        "name": "大太监",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 1,
+        "weighted_degree": 21
+      },
+      {
+        "name": "二门神",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "门神乙",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "吴国太",
+      "label": "吴国太",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 19,
+      "text_length": 767,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 63,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "孙尚香",
+      "label": "孙尚香",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 19,
+      "text_length": 613,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "other": 2,
+        "recitation": 1,
+        "spoken": 6,
+        "singing": 10
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 30,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 21,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "二门神",
+      "label": "二门神",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 20,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "门神乙",
+      "label": "门神乙",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 41,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "二宫女",
+      "label": "二宫女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 8,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "门神甲",
+      "label": "门神甲",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 2,
+      "text_length": 9,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "吴国太",
+      "target": "孙尚香",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "吴国太",
+      "target": "大太监",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二门神",
+      "target": "孙尚香",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "吴国太",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "门神乙",
+      "target": "门神甲",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二宫女",
+      "target": "孙尚香",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "孙尚香",
+      "target": "门神乙",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二门神",
+      "target": "门神乙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二门神",
+      "target": "门神甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孙尚香",
+      "target": "门神甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

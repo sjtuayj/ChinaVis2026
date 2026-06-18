@@ -1,0 +1,136 @@
+{
+  "play": {
+    "play_id": "01010006",
+    "title": "忠孝图",
+    "pdf_name": "01010006_忠孝图.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 1,
+    "speech_count": 217,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01010006",
+    "source_date": "2013-08-26",
+    "synopsis_length": 293,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 200,
+      "recitation": 3,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 280.666667,
+    "max_edge_weight": 161,
+    "top_characters": [
+      {
+        "name": "焦氏",
+        "hangdang": "花旦",
+        "speech_count": 83,
+        "degree": 2,
+        "weighted_degree": 314
+      },
+      {
+        "name": "曹庄",
+        "hangdang": "小生",
+        "speech_count": 69,
+        "degree": 2,
+        "weighted_degree": 268
+      },
+      {
+        "name": "曹母",
+        "hangdang": "老旦",
+        "speech_count": 65,
+        "degree": 2,
+        "weighted_degree": 260
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "焦氏",
+      "label": "焦氏",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 83,
+      "text_length": 1552,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 314,
+      "marker_category_counts": {
+        "spoken": 75,
+        "recitation": 2,
+        "singing": 5,
+        "other": 1
+      }
+    },
+    {
+      "id": "曹庄",
+      "label": "曹庄",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 69,
+      "text_length": 1261,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 268,
+      "marker_category_counts": {
+        "spoken": 66,
+        "singing": 2,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "曹母",
+      "label": "曹母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 65,
+      "text_length": 1092,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 260,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 59,
+        "singing": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "曹庄",
+      "target": "焦氏",
+      "weight": 161,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 80,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹母",
+      "target": "焦氏",
+      "weight": 153,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 76,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹庄",
+      "target": "曹母",
+      "weight": 107,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "play": {
+    "play_id": "01017010",
+    "title": "张良辞朝",
+    "pdf_name": "01017010_张良辞朝.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 21,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01017010",
+    "source_date": "2013-03-19",
+    "synopsis_length": 205,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 12,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 41.0,
+    "max_edge_weight": 41,
+    "top_characters": [
+      {
+        "name": "刘邦",
+        "hangdang": "老生",
+        "speech_count": 11,
+        "degree": 1,
+        "weighted_degree": 41
+      },
+      {
+        "name": "张良",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 1,
+        "weighted_degree": 41
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘邦",
+      "label": "刘邦",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 11,
+      "text_length": 360,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 8,
+        "singing": 1
+      }
+    },
+    {
+      "id": "张良",
+      "label": "张良",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 560,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘邦",
+      "target": "张良",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "play": {
+    "play_id": "01013005",
+    "title": "御林郡",
+    "pdf_name": "01013005_御林郡.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 53,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01013005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 407,
+    "notes_length": 154,
+    "marker_category_counts": {
+      "other": 1,
+      "recitation": 4,
+      "spoken": 31,
+      "singing": 17
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 14,
+    "density": 0.5,
+    "avg_degree": 3.5,
+    "avg_weighted_degree": 23.5,
+    "max_edge_weight": 21,
+    "top_characters": [
+      {
+        "name": "马芳",
+        "hangdang": "老生",
+        "speech_count": 21,
+        "degree": 7,
+        "weighted_degree": 55
+      },
+      {
+        "name": "万历",
+        "hangdang": "小生",
+        "speech_count": 11,
+        "degree": 4,
+        "weighted_degree": 42
+      },
+      {
+        "name": "国太",
+        "hangdang": "老旦",
+        "speech_count": 9,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "杨波",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "夫人",
+        "hangdang": "旦",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "马芳",
+      "label": "马芳",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 21,
+      "text_length": 853,
+      "scene_count": 3,
+      "degree": 7,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 2,
+        "spoken": 11,
+        "singing": 7
+      }
+    },
+    {
+      "id": "万历",
+      "label": "万历",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 167,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "国太",
+      "label": "国太",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 9,
+      "text_length": 157,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "杨波",
+      "label": "杨波",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 181,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "夫人",
+      "label": "夫人",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 4,
+      "text_length": 90,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2,
+        "recitation": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "探子",
+      "label": "探子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 30,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "内侍",
+      "label": "内侍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "马玉",
+      "label": "马玉",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "万历",
+      "target": "马芳",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "万历",
+      "target": "国太",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "国太",
+      "target": "杨波",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "夫人",
+      "target": "马芳",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "探子",
+      "target": "马芳",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "国太",
+      "target": "马芳",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "马玉",
+      "target": "马芳",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "万历",
+      "target": "内侍",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "万历",
+      "target": "杨波",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "杨波",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "国太",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "马芳",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "夫人",
+      "target": "探子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨波",
+      "target": "马芳",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

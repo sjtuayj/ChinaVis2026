@@ -1,0 +1,4001 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "70006103",
+    "title": "击鼓骂曹",
+    "aliases": [
+      "群臣宴"
+    ],
+    "collection_id": "70006000",
+    "collection_name": "孟小冬剧本选",
+    "collection_remark": "《余派戏词钱氏辑粹》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/70006000/70006103_击鼓骂曹.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 8,
+    "file_size_bytes": 429333,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "孔融荐处士祢衡于曹操，曹操不加礼，祢衡反唇诮骂。曹操故命祢衡在元旦大宴时为鼓吏以辱之，祢衡乃复击鼓骂曹，曹操又遣其往说刘表，借刘表之手以杀祢衡。",
+    "notes": [
+      "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬吊嗓录音进行校核，并",
+      "请范石人对配角的唱念进行修订，最终订稿。",
+      "根据《余派戏词钱氏辑粹》：孟小冬授课钱培荣本整理"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "曹操",
+      "confidence": 0.75
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.48,
+      "evidence": [
+        "杀"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_祢衡",
+      "name": "祢衡",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 29,
+        "aria_count": 33,
+        "recitation_count": 4,
+        "expression_count": 3,
+        "action_hint_count": 13,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：祢衡：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹操",
+      "name": "曹操",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 42,
+        "aria_count": 6,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：曹操：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张辽",
+      "name": "张辽",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 4,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_孔融",
+      "name": "孔融",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 3,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_朝官甲",
+      "name": "朝官甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_朝官乙",
+      "name": "朝官乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_朝官丙",
+      "name": "朝官丙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_朝官丁",
+      "name": "朝官丁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_三朝官",
+      "name": "三朝官",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四朝官",
+      "name": "四朝官",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 15,
+        "aria_count": 3,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_旗牌甲",
+      "name": "旗牌甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二旗牌",
+      "name": "二旗牌",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "滑稽",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "祢衡"
+      ],
+      "event_ids": [
+        "70006103_e00001",
+        "70006103_e00002",
+        "70006103_e00003",
+        "70006103_e00004",
+        "70006103_e00005",
+        "70006103_e00006",
+        "70006103_e00007",
+        "70006103_e00008"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 8,
+        "spoken_count": 1,
+        "aria_count": 2,
+        "recitation_count": 2,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 191
+      }
+    },
+    {
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 4,
+      "characters": [
+        "曹操",
+        "张辽",
+        "孔融",
+        "祢衡"
+      ],
+      "event_ids": [
+        "70006103_e00009",
+        "70006103_e00010",
+        "70006103_e00011",
+        "70006103_e00012",
+        "70006103_e00013",
+        "70006103_e00014",
+        "70006103_e00015",
+        "70006103_e00016",
+        "70006103_e00017",
+        "70006103_e00018",
+        "70006103_e00019",
+        "70006103_e00020",
+        "70006103_e00021",
+        "70006103_e00022",
+        "70006103_e00023",
+        "70006103_e00024",
+        "70006103_e00025",
+        "70006103_e00026",
+        "70006103_e00027",
+        "70006103_e00028",
+        "70006103_e00029",
+        "70006103_e00030",
+        "70006103_e00031",
+        "70006103_e00032",
+        "70006103_e00033",
+        "70006103_e00034",
+        "70006103_e00035",
+        "70006103_e00036",
+        "70006103_e00037",
+        "70006103_e00038",
+        "70006103_e00039",
+        "70006103_e00040",
+        "70006103_e00041",
+        "70006103_e00042",
+        "70006103_e00043",
+        "70006103_e00044",
+        "70006103_e00045",
+        "70006103_e00046",
+        "70006103_e00047",
+        "70006103_e00048",
+        "70006103_e00049",
+        "70006103_e00050",
+        "70006103_e00051",
+        "70006103_e00052",
+        "70006103_e00053",
+        "70006103_e00054",
+        "70006103_e00055",
+        "70006103_e00056",
+        "70006103_e00057",
+        "70006103_e00058",
+        "70006103_e00059",
+        "70006103_e00060",
+        "70006103_e00061",
+        "70006103_e00062",
+        "70006103_e00063",
+        "70006103_e00064",
+        "70006103_e00065",
+        "70006103_e00066",
+        "70006103_e00067",
+        "70006103_e00068",
+        "70006103_e00069",
+        "70006103_e00070",
+        "70006103_e00071",
+        "70006103_e00072",
+        "70006103_e00073",
+        "70006103_e00074",
+        "70006103_e00075",
+        "70006103_e00076",
+        "70006103_e00077",
+        "70006103_e00078",
+        "70006103_e00079",
+        "70006103_e00080",
+        "70006103_e00081",
+        "70006103_e00082",
+        "70006103_e00083",
+        "70006103_e00084",
+        "70006103_e00085"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 77,
+        "spoken_count": 45,
+        "aria_count": 16,
+        "recitation_count": 2,
+        "stage_direction_count": 11,
+        "expression_count": 3,
+        "text_length": 1468
+      }
+    },
+    {
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 4,
+      "page_end": 8,
+      "characters": [
+        "朝官甲",
+        "朝官乙",
+        "朝官丙",
+        "朝官丁",
+        "三朝官",
+        "张辽",
+        "四朝官",
+        "曹操",
+        "旗牌甲",
+        "祢衡",
+        "二旗牌"
+      ],
+      "event_ids": [
+        "70006103_e00086",
+        "70006103_e00087",
+        "70006103_e00088",
+        "70006103_e00089",
+        "70006103_e00090",
+        "70006103_e00091",
+        "70006103_e00092",
+        "70006103_e00093",
+        "70006103_e00094",
+        "70006103_e00095",
+        "70006103_e00096",
+        "70006103_e00097",
+        "70006103_e00098",
+        "70006103_e00099",
+        "70006103_e00100",
+        "70006103_e00101",
+        "70006103_e00102",
+        "70006103_e00103",
+        "70006103_e00104",
+        "70006103_e00105",
+        "70006103_e00106",
+        "70006103_e00107",
+        "70006103_e00108",
+        "70006103_e00109",
+        "70006103_e00110",
+        "70006103_e00111",
+        "70006103_e00112",
+        "70006103_e00113",
+        "70006103_e00114",
+        "70006103_e00115",
+        "70006103_e00116",
+        "70006103_e00117",
+        "70006103_e00118",
+        "70006103_e00119",
+        "70006103_e00120",
+        "70006103_e00121",
+        "70006103_e00122",
+        "70006103_e00123",
+        "70006103_e00124",
+        "70006103_e00125",
+        "70006103_e00126",
+        "70006103_e00127",
+        "70006103_e00128",
+        "70006103_e00129",
+        "70006103_e00130",
+        "70006103_e00131",
+        "70006103_e00132",
+        "70006103_e00133",
+        "70006103_e00134",
+        "70006103_e00135",
+        "70006103_e00136",
+        "70006103_e00137",
+        "70006103_e00138",
+        "70006103_e00139",
+        "70006103_e00140",
+        "70006103_e00141",
+        "70006103_e00142",
+        "70006103_e00143",
+        "70006103_e00144",
+        "70006103_e00145",
+        "70006103_e00146",
+        "70006103_e00147",
+        "70006103_e00148",
+        "70006103_e00149",
+        "70006103_e00150",
+        "70006103_e00151",
+        "70006103_e00152",
+        "70006103_e00153",
+        "70006103_e00154",
+        "70006103_e00155",
+        "70006103_e00156",
+        "70006103_e00157",
+        "70006103_e00158",
+        "70006103_e00159",
+        "70006103_e00160",
+        "70006103_e00161",
+        "70006103_e00162",
+        "70006103_e00163",
+        "70006103_e00164",
+        "70006103_e00165",
+        "70006103_e00166",
+        "70006103_e00167",
+        "70006103_e00168",
+        "70006103_e00169",
+        "70006103_e00170",
+        "70006103_e00171",
+        "70006103_e00172",
+        "70006103_e00173",
+        "70006103_e00174",
+        "70006103_e00175",
+        "70006103_e00176",
+        "70006103_e00177",
+        "70006103_e00178",
+        "70006103_e00179",
+        "70006103_e00180",
+        "70006103_e00181",
+        "70006103_e00182",
+        "70006103_e00183",
+        "70006103_e00184",
+        "70006103_e00185",
+        "70006103_e00186",
+        "70006103_e00187",
+        "70006103_e00188",
+        "70006103_e00189",
+        "70006103_e00190",
+        "70006103_e00191",
+        "70006103_e00192",
+        "70006103_e00193",
+        "70006103_e00194",
+        "70006103_e00195",
+        "70006103_e00196",
+        "70006103_e00197",
+        "70006103_e00198",
+        "70006103_e00199",
+        "70006103_e00200",
+        "70006103_e00201",
+        "70006103_e00202",
+        "70006103_e00203",
+        "70006103_e00204",
+        "70006103_e00205",
+        "70006103_e00206",
+        "70006103_e00207"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 122,
+        "spoken_count": 75,
+        "aria_count": 31,
+        "recitation_count": 5,
+        "stage_direction_count": 9,
+        "expression_count": 2,
+        "text_length": 2138
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "70006103_e00001",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00002",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "天宽地阔，论机谋，智广才多。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00003",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "口似悬河语似流，全凭舌战运计谋。男儿若得擎天手，自然谈笑觅封侯。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00004",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "卑人，姓祢名衡，字正平，乃平原孝义村人氏。幼读经论，深通战策。少游北海，偶遇孔融，将我荐与曹府作幕。我想曹操，名为汉相，实乃汉贼，未必有敬贤礼士之心。此番进得相府，须要见机而行，正是：",
+      "text_length": 92
+    },
+    {
+      "event_id": "70006103_e00005",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "未逢真明主，有愧栋梁才！",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006103_e00006",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮快三眼",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "平生志气运未通，似蛟龙困在浅水中。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006103_e00007",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "有朝一日春雷动，得会风云上九重。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00008",
+      "play_id": "70006103",
+      "scene_id": "70006103_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00009",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 9,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00010",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "战事纷纷刀兵闹，昼夜思想计千条。但愿狼烟一齐扫，四海升平乐唐尧。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00011",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张辽上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00012",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "一封书信忙修好，见了丞相把令交。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00013",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "参见丞相。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00014",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "一旁坐下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00015",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "谢坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00016",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "命你修书，可曾修齐？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00017",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "书已修齐，但不知命何人前往？",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00018",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "我命孔融呼唤祢衡，因何不见到来？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00019",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "想必来也。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00020",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孔融上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00021",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "祢衡先生我请到，见了丞相说根苗。https://scripts.xikao.com/play/700061032021-01-28",
+      "text_length": 65
+    },
+    {
+      "event_id": "70006103_e00022",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "参见丞相。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00023",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "一旁坐下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00024",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "谢坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00025",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "呼唤祢衡，可曾唤到？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00026",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "现在帐下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00027",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "唤他进来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00028",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "遵命！有请祢先生。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00029",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00030",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "相府门前杀气高，层层密密摆枪刀。画阁雕梁龙凤绕，亚赛天子九龙朝。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00031",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "祢先生，这就是丞相。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00032",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "丞相在上，卑人礼到。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00033",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "下站何人？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00034",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "卑人姓祢名衡字正平，乃平原孝义村人氏。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70006103_e00035",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "丞相，这就是祢先生。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00036",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "嗯！难道老夫不知他叫祢衡，进得相府，只行常礼，令人可恼！",
+      "text_length": 28
+    },
+    {
+      "event_id": "70006103_e00037",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "唔呵呀！人言曹操轻贤慢士，今日一见，果然话不虚传。孔大夫你把我错荐了！",
+      "text_length": 35
+    },
+    {
+      "event_id": "70006103_e00038",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "人言曹操多奸巧，果然亚赛秦赵高。欺君误国非正道，全凭势力压当朝。站立在阶前微微笑，哪怕虎穴与笼牢。",
+      "text_length": 49
+    },
+    {
+      "event_id": "70006103_e00039",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "哈哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00040",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "为何发笑？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00041",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "我笑只笑天地虽阔，并无一人。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00042",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫帐下，文能安邦，武能定国，何言无人？",
+      "text_length": 20
+    },
+    {
+      "event_id": "70006103_e00043",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "请问丞相，你帐下文有谁能，武有谁高？请道其详，卑某愿闻。",
+      "text_length": 28
+    },
+    {
+      "event_id": "70006103_e00044",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "听道！文有荀或、荀攸、郭嘉、程昱；武有许褚、张辽、李典、乐进；夏侯敦可称无敌将军，我儿曹子孝盖世奇才。老夫兴兵以来，攻无不取，战无不胜，何言无人？",
+      "text_length": 73
+    },
+    {
+      "event_id": "70006103_e00045",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "哈哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00046",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你道你帐下都是英雄，依卑某看来，尽都是些个无用之辈！",
+      "text_length": 26
+    },
+    {
+      "event_id": "70006103_e00047",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "怎见得？",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00048",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "听道！荀或、荀攸只可以吊丧问疾。郭嘉、程昱只可以看墓守坟。乐进、李典只可以牧羊放马。许褚、张辽，哼，也只好击鼓鸣金。曹子孝可称要钱太守，夏侯敦可称完体将军。其余者尽都是些个衣架饭囊酒桶肉袋、碌碌之辈，何足道哉？",
+      "text_length": 105
+    },
+    {
+      "event_id": "70006103_e00049",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "出口狂言，有何德能？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00050",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "区区不才，幼读诗书，深通战策。天下之书，无书不读；三教九流之事，无事不晓。上可以致君于尧舜，下可以德配于孔颜。我乃天下名士，岂与你这奸贼同党？孔大夫，你把我错荐了！",
+      "text_length": 82
+    },
+    {
+      "event_id": "70006103_e00051",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "平生志气与天高，不愿金钱结富豪。我本堂堂青史表，岂与奸贼共同朝？",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00052",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00053",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "祢衡说话真可恼，https://scripts.xikao.com/play/700061032021-01-28辱骂丞相为哪条？三尺龙泉出了鞘，",
+      "text_length": 73
+    },
+    {
+      "event_id": "70006103_e00054",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "将军息怒将他饶。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00055",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "来、来、来！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00056",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "张将军，休要污了老夫的宝剑。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00057",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "哼！便宜了这厮。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00058",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "量你也不敢。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00059",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "祢衡，明日老夫大宴群臣，帐下缺少一名鼓吏，你可愿当否？",
+      "text_length": 27
+    },
+    {
+      "event_id": "70006103_e00060",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "这个……",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00061",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "祢先生，忍耐了吧！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00062",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "愿当鼓吏。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00063",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "明日来早便罢，倘若来迟，依军法从事。张将军！",
+      "text_length": 22
+    },
+    {
+      "event_id": "70006103_e00064",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "丞相。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00065",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "将他搀出帐去。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00066",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "出去！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00067",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡冷笑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00068",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "嘿嘿嘿嘿！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00069",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "丞相委用恩非小，用为鼓吏怎敢辞劳。出得帐来微微笑，孔融作事也不高。明知道曹贼多奸巧，全凭势力压当朝。",
+      "text_length": 50
+    },
+    {
+      "event_id": "70006103_e00070",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "我越思越想心头恼，安排巧计骂奸曹。罢罢罢暂且忍下了，明天自有我的巧妙高。",
+      "text_length": 36
+    },
+    {
+      "event_id": "70006103_e00071",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00072",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "祢衡先生心太傲，险些一命赴阴曹。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00073",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孔融下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00074",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "祢衡小儿真可恼，丞相不杀为哪条？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00075",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张辽下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00076",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "袖内机关他怎晓，杀鸡何用宰牛刀？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00077",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00078",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "适才与贼一席话，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00079",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00080",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "气得我心中乱如麻。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00081",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "酒逢知己千杯少，话不投机半句多。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00082",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "适才进得相府，与曹操深施一礼，他坐在上面，是昂然不动，倒还罢了，反道我的礼貌不周。明日大宴群臣，他将我用为鼓吏，分明是羞辱于我呀！等到明天当着众位大人将奸贼辱骂一场，纵然将我斩首，也落得个青史名标。正是：",
+      "text_length": 102
+    },
+    {
+      "event_id": "70006103_e00083",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "明知山有虎，偏向虎山行。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006103_e00084",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 76,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "昔日里韩信受跨下，英雄落魄走天涯。到后来登台把帅挂，扶保汉室锦邦家。明日里进帐把贼骂，拚得一死染黄沙。纵然将我头割下，https://scripts.xikao.com/play/700061032021-01-28落一个骂贼的名儿扬天涯。",
+      "text_length": 120
+    },
+    {
+      "event_id": "70006103_e00085",
+      "play_id": "70006103",
+      "scene_id": "70006103_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 77,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00086",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四朝官同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00087",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "日观战国策，",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00088",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 88,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朝官乙"
+      ],
+      "text": "夜读国风诗。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00089",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 89,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朝官丙"
+      ],
+      "text": "要知今古事，",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00090",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 90,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朝官丁"
+      ],
+      "text": "还诵五车书。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00091",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 91,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00092",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 92,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三朝官"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00093",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 93,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "丞相相邀我等，不知为了何事，你我一同前往。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70006103_e00094",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 94,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三朝官"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00095",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 95,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "正是：",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00096",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 96,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "五凤楼前朝金阙，相府门前拜元戎。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00097",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 97,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "来此已是。门上哪位将军在？",
+      "text_length": 13
+    },
+    {
+      "event_id": "70006103_e00098",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 98,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张辽上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00099",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 99,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "啊，列位大人。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00100",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 100,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "张将军，丞相邀我等到此，烦劳通禀。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006103_e00101",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 101,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "候着。有请丞相。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00102",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 102,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00103",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 103,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "何事？",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00104",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 104,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "列位大人到。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00105",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 105,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "奏乐相迎！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00106",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 106,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相在上，我等大礼参拜。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006103_e00107",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 107,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫也有一拜。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00108",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 108,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相宠召我等，不知有何见谕？",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00109",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 109,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "今日元旦佳节，老夫特摆盛宴，与列公畅饮几杯。",
+      "text_length": 22
+    },
+    {
+      "event_id": "70006103_e00110",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 110,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "到此就要叨扰。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00111",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 111,
+      "seq_in_scene": 26,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "将宴摆下！列位大人。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00112",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 112,
+      "seq_in_scene": 27,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00113",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 113,
+      "seq_in_scene": 28,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫帐下新收一名鼓吏。命他廊下擂鼓，你我畅饮几杯。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70006103_e00114",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 114,
+      "seq_in_scene": 29,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "我等愿闻。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00115",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 115,
+      "seq_in_scene": 30,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "来。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00116",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 116,
+      "seq_in_scene": 31,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌甲"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00117",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 117,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "传鼓吏进帐。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00118",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 118,
+      "seq_in_scene": 33,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌甲"
+      ],
+      "text": "鼓吏进帐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00119",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 119,
+      "seq_in_scene": 34,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00120",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 120,
+      "seq_in_scene": 35,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00121",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 121,
+      "seq_in_scene": 36,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "谗臣当道谋汉朝，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00122",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 122,
+      "seq_in_scene": 37,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "楚汉相争动枪刀。高祖爷咸阳登大宝，一统山河乐唐尧。到如今出了个奸曹操，上欺天子下压群僚。我有心替主爷把贼扫，手中缺少杀人的刀。主席坐定——",
+      "text_length": 69
+    },
+    {
+      "event_id": "70006103_e00123",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 123,
+      "seq_in_scene": 38,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "奸曹操，https://scripts.xikao.com/play/700061032021-01-28左右文武众群僚。元旦节与贼个不祥兆，假装疯魔骂奸曹。我把这褴衫来脱掉，",
+      "text_length": 88
+    },
+    {
+      "event_id": "70006103_e00124",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 124,
+      "seq_in_scene": 39,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "破衣褴衫摆摆摇。大摇大摆上中道，",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00125",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 125,
+      "seq_in_scene": 40,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "呔！你这鼓吏，丞相大宴群臣，这样破衣褴衫成何体统？",
+      "text_length": 25
+    },
+    {
+      "event_id": "70006103_e00126",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 126,
+      "seq_in_scene": 41,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "帐下的儿郎闹吵吵。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00127",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 127,
+      "seq_in_scene": 42,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "好笑啊。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00128",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 128,
+      "seq_in_scene": 43,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "哈哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00129",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 129,
+      "seq_in_scene": 44,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你二人休要呵呵笑，有辈古人听根苗：昔日太公曾垂钓，张良拾履在圮桥。为人受得苦中苦，脱却了褴衫换紫袍。",
+      "text_length": 50
+    },
+    {
+      "event_id": "70006103_e00130",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 130,
+      "seq_in_scene": 45,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "你怎比得前朝的古人？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70006103_e00131",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 131,
+      "seq_in_scene": 46,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你二人把话讲差了，休把虎子当狸猫。有朝一日时运到，拔剑要斩海底蛟。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70006103_e00132",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 132,
+      "seq_in_scene": 47,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "青天白日，说梦话。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00133",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 133,
+      "seq_in_scene": 48,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "呀呸！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00134",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 134,
+      "seq_in_scene": 49,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "休道我白日梦颠倒，倾刻就要上青霄。我把破衣也脱掉，赤身露体逞英豪。耀武扬威往上跑，",
+      "text_length": 41
+    },
+    {
+      "event_id": "70006103_e00135",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 135,
+      "seq_in_scene": 50,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "呔！你这样赤身露体，丞相降罪哪个担代？",
+      "text_length": 19
+    },
+    {
+      "event_id": "70006103_e00136",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 136,
+      "seq_in_scene": 51,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你丞相降罪我承招。将身来在东廊道，",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006103_e00137",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 137,
+      "seq_in_scene": 52,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "看奸贼把我怎开销。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00138",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 138,
+      "seq_in_scene": 53,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "鼓吏带到。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00139",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 139,
+      "seq_in_scene": 54,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "命他擂鼓三通。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00140",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 140,
+      "seq_in_scene": 55,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二旗牌"
+      ],
+      "text": "命你擂鼓三通。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00141",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 141,
+      "seq_in_scene": 56,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡打鼓三通。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00142",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 142,
+      "seq_in_scene": 57,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "列位大人，看鼓吏擂鼓，有如金声玉振一般，我等畅饮三杯，庆贺丞相。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00143",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 143,
+      "seq_in_scene": 58,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "擂鼓三通响如雷，文武百官饮三杯。张辽一旁牙咬碎，孔融带愧转回归。老夫近前观鼓吏，",
+      "text_length": 40
+    },
+    {
+      "event_id": "70006103_e00144",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 144,
+      "seq_in_scene": 59,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡打〖夜深沉〗、〖节节高〗。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70006103_e00145",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 145,
+      "seq_in_scene": 60,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "赤体露身廊下擂。老夫暂忍心头气，再与祢衡说端的。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70006103_e00146",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 146,
+      "seq_in_scene": 61,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "祢衡。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00147",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 147,
+      "seq_in_scene": 62,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "曹操。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00148",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 148,
+      "seq_in_scene": 63,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "你为何叫老夫曹操？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00149",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 149,
+      "seq_in_scene": 64,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你叫得我祢衡，我就叫得你曹操。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70006103_e00150",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 150,
+      "seq_in_scene": 65,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫也不计较于你，今天大宴群臣，你是这样赤身露体，成何体统？",
+      "text_length": 30
+    },
+    {
+      "event_id": "70006103_e00151",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 151,
+      "seq_in_scene": 66,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "我赤身露体，露我父母之遗体，显得我是清洁君子。",
+      "text_length": 23
+    },
+    {
+      "event_id": "70006103_e00152",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 152,
+      "seq_in_scene": 67,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "你是清洁君子，哪个是混浊的小人？https://scripts.xikao.com/play/700061032021-01-28",
+      "text_length": 65
+    },
+    {
+      "event_id": "70006103_e00153",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 153,
+      "seq_in_scene": 68,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你就是混浊小人！",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00154",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 154,
+      "seq_in_scene": 69,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "嗯！老夫乃当朝首相，何言混浊二字？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006103_e00155",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 155,
+      "seq_in_scene": 70,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "听道！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00156",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 156,
+      "seq_in_scene": 71,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "讲！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00157",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 157,
+      "seq_in_scene": 72,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "你不识贤愚，眼浊也。不讷忠言，耳浊也。不读诗书，口浊也。常怀篡逆，心浊也。我乃天下名士，将我用为鼓吏，有如藏仓毁孟子，阳货轻仲尼。曹操啊、贼！真乃匹夫之辈也！",
+      "text_length": 79
+    },
+    {
+      "event_id": "70006103_e00158",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 158,
+      "seq_in_scene": 73,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "昔日里文王访姜尚，亲临渭水得栋梁。臣坐君辇联辔往，为国求贤理所当。我本堂堂奇男子，把我当作小儿郎。枉在朝中为首相，狗奸贼不知臭和香。",
+      "text_length": 66
+    },
+    {
+      "event_id": "70006103_e00159",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 159,
+      "seq_in_scene": 74,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫兴兵谁敢挡，赫赫威名天下扬。论机谋亚赛姜吕望，你是无知小儿郎。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70006103_e00160",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 160,
+      "seq_in_scene": 75,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "呸！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00161",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 161,
+      "seq_in_scene": 76,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "曹操把话错来讲，祢衡言来听端详：鼓打一通天地响，鼓打二通国安康。鼓打三通灭奸党，鼓打四通振朝纲。鼓发一阵连声响，管叫你狗奸贼死无下场。",
+      "text_length": 67
+    },
+    {
+      "event_id": "70006103_e00162",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 162,
+      "seq_in_scene": 77,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "同西皮散板",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "下得位来把话讲，丞相为何怒一旁？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00163",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 163,
+      "seq_in_scene": 78,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相为何怒坐一旁？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00164",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 164,
+      "seq_in_scene": 79,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "适才与鼓吏争论儿句，故而闷坐在此。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70006103_e00165",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 165,
+      "seq_in_scene": 80,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相息怒，我等上前问来。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70006103_e00166",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 166,
+      "seq_in_scene": 81,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "有劳了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00167",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 167,
+      "seq_in_scene": 82,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "你这鼓吏家在那里？姓甚名谁？慢慢讲来。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70006103_e00168",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 168,
+      "seq_in_scene": 83,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "列公啊！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00169",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 169,
+      "seq_in_scene": 84,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "未曾开言我的心头恨，尊一声列位大人听详情。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70006103_e00170",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 170,
+      "seq_in_scene": 85,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "家住哪里？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00171",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 171,
+      "seq_in_scene": 86,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "家住在平原孝义村，",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00172",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 172,
+      "seq_in_scene": 87,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "姓甚名谁！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00173",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 173,
+      "seq_in_scene": 88,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "姓祢名衡字表正平。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00174",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 174,
+      "seq_in_scene": 89,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "原来是称先生。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00175",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 175,
+      "seq_in_scene": 90,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "我胸中颇有安邦论，曾与孔融当过了幕宾。他把我荐与曹奸佞，贼有眼不识宝和珍。我宁作忠良门下客，不愿你奸贼帐下的人。",
+      "text_length": 56
+    },
+    {
+      "event_id": "70006103_e00176",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 176,
+      "seq_in_scene": 91,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "真乃舌辩之徒。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00177",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 177,
+      "seq_in_scene": 92,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "呸！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00178",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 178,
+      "seq_in_scene": 93,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "贼道我舌辩徒，舌辩之徒有张苏。https://scripts.xikao.com/play/700061032021-01-28有朝大展昆仑手，要把奸贼一笔勾。",
+      "text_length": 80
+    },
+    {
+      "event_id": "70006103_e00179",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 179,
+      "seq_in_scene": 94,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "井底之蛙能起多大风浪。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70006103_e00180",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 180,
+      "seq_in_scene": 95,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "呸！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00181",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 181,
+      "seq_in_scene": 96,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "贼道我井底蛙，井底之蛙也不差。有朝一日风云驾，要把奸贼一朝拿。",
+      "text_length": 31
+    },
+    {
+      "event_id": "70006103_e00182",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 182,
+      "seq_in_scene": 97,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "列位大人，他骂老夫奸，老夫奸在哪里？",
+      "text_length": 18
+    },
+    {
+      "event_id": "70006103_e00183",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 183,
+      "seq_in_scene": 98,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "是呵！奸在哪里？",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00184",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 184,
+      "seq_in_scene": 99,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "列公啊！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00185",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 185,
+      "seq_in_scene": 100,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "狗奸贼出巧言故意问道，尊一声列公卿细听根苗：他自幼儿举孝廉官卑职小，他乃是夏侯子过继姓曹。到如今做高官忘了宗考，全不怕骂名儿万古留标。",
+      "text_length": 67
+    },
+    {
+      "event_id": "70006103_e00186",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 186,
+      "seq_in_scene": 101,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "听他言来心头恼，辱骂丞相为哪条？三尺龙泉出了鞘，",
+      "text_length": 24
+    },
+    {
+      "event_id": "70006103_e00187",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 187,
+      "seq_in_scene": 102,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "同西皮散板",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "将军息怒把他饶。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70006103_e00188",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 188,
+      "seq_in_scene": 103,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "张将军，休要污了老夫的宝剑。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70006103_e00189",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 189,
+      "seq_in_scene": 104,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "便宜了你。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70006103_e00190",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 190,
+      "seq_in_scene": 105,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "哼！狗仗人势，甚么东西，量你也不敢哪！",
+      "text_length": 19
+    },
+    {
+      "event_id": "70006103_e00191",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 191,
+      "seq_in_scene": 106,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "祢衡，老夫有书信一封，命你去往荆州，顺说刘表来降，保你官职不小。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70006103_e00192",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 192,
+      "seq_in_scene": 107,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "要往荆州不能够，岂与奸贼作马牛。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00193",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 193,
+      "seq_in_scene": 108,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "同西皮散板",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相暂息雷霆怒，顺说祢衡往荆州。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00194",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 194,
+      "seq_in_scene": 109,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "有劳列位大人。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70006103_e00195",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 195,
+      "seq_in_scene": 110,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朝官甲"
+      ],
+      "text": "祢先生，丞相有书信一封，命你去往荆州，顺说刘表来降。你若不去，将你斩首，你家中还有妻儿老小，所靠何人？你要再思再想。",
+      "text_length": 58
+    },
+    {
+      "event_id": "70006103_e00196",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 196,
+      "seq_in_scene": 111,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "哦！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70006103_e00197",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 197,
+      "seq_in_scene": 112,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "列公下位齐来劝我，犹如惊醒梦南柯。自古道未曾责人先责己的过，手摸胸膛我自揣摩。罢罢罢暂息我的心头火，",
+      "text_length": 50
+    },
+    {
+      "event_id": "70006103_e00198",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 198,
+      "seq_in_scene": 113,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00199",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 199,
+      "seq_in_scene": 114,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "他骂老夫奸，老夫奸在哪里？",
+      "text_length": 13
+    },
+    {
+      "event_id": "70006103_e00200",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 200,
+      "seq_in_scene": 115,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四朝官"
+      ],
+      "text": "丞相是大大的忠臣？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70006103_e00201",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 201,
+      "seq_in_scene": 116,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "忠臣！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70006103_e00202",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 202,
+      "seq_in_scene": 117,
+      "page_no": 7,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "哈哈哈哈……",
+      "text_length": 6
+    },
+    {
+      "event_id": "70006103_e00203",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 203,
+      "seq_in_scene": 118,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70006103_e00204",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 204,
+      "seq_in_scene": 119,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "学一个陆贾与随何。走上前忙告错，顺说刘表再定夺。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70006103_e00205",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 205,
+      "seq_in_scene": 120,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "顺说刘表归降我，老夫保你在朝歌。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70006103_e00206",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 206,
+      "seq_in_scene": 121,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "祢衡"
+      ],
+      "text": "丞相宽心安闲坐，披星戴月渡江河。顺说的事儿若不妥，愿死在他乡作鬼魔。https://scripts.xikao.com/play/700061032021-01-28",
+      "text_length": 83
+    },
+    {
+      "event_id": "70006103_e00207",
+      "play_id": "70006103",
+      "scene_id": "70006103_s03",
+      "scene_no": 3,
+      "seq_global": 207,
+      "seq_in_scene": 122,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "祢衡下。https://scripts.xikao.com/play/700061032021-01-28",
+      "text_length": 53
+    }
+  ],
+  "roles_inferred": true
+}

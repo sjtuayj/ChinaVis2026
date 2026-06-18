@@ -1,0 +1,176 @@
+{
+  "play": {
+    "play_id": "03013002",
+    "title": "查关",
+    "pdf_name": "03013002_查关.pdf",
+    "group_id": "03000000",
+    "page_count": 7,
+    "scene_count": 3,
+    "speech_count": 205,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/03013002",
+    "source_date": "2022-09-02",
+    "synopsis_length": 108,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 191,
+      "recitation": 1,
+      "other": 1,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 5,
+    "density": 0.833333,
+    "avg_degree": 2.5,
+    "avg_weighted_degree": 198.0,
+    "max_edge_weight": 294,
+    "top_characters": [
+      {
+        "name": "苏利燕",
+        "hangdang": "丑",
+        "speech_count": 97,
+        "degree": 3,
+        "weighted_degree": 368
+      },
+      {
+        "name": "尤春风",
+        "hangdang": "旦",
+        "speech_count": 82,
+        "degree": 3,
+        "weighted_degree": 322
+      },
+      {
+        "name": "刘唐建",
+        "hangdang": "小生",
+        "speech_count": 24,
+        "degree": 2,
+        "weighted_degree": 92
+      },
+      {
+        "name": "丑丫头",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "苏利燕",
+      "label": "苏利燕",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 97,
+      "text_length": 1245,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 368,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 93,
+        "singing": 3
+      }
+    },
+    {
+      "id": "尤春风",
+      "label": "尤春风",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 82,
+      "text_length": 1071,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 322,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 77,
+        "singing": 4
+      }
+    },
+    {
+      "id": "刘唐建",
+      "label": "刘唐建",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 24,
+      "text_length": 465,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "spoken": 19,
+        "singing": 5
+      }
+    },
+    {
+      "id": "丑丫头",
+      "label": "丑丫头",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "尤春风",
+      "target": "苏利燕",
+      "weight": 294,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 146,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐建",
+      "target": "苏利燕",
+      "weight": 71,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐建",
+      "target": "尤春风",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丑丫头",
+      "target": "尤春风",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丑丫头",
+      "target": "苏利燕",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

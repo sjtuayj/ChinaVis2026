@@ -1,0 +1,135 @@
+{
+  "play": {
+    "play_id": "01002010",
+    "title": "钓金龟",
+    "pdf_name": "01002010_钓金龟.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 118,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01002010",
+    "source_date": "2013-08-23",
+    "synopsis_length": 250,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "recitation": 1,
+      "spoken": 105,
+      "singing": 9,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 158.0,
+    "max_edge_weight": 223,
+    "top_characters": [
+      {
+        "name": "张义",
+        "hangdang": "丑",
+        "speech_count": 58,
+        "degree": 2,
+        "weighted_degree": 234
+      },
+      {
+        "name": "康氏",
+        "hangdang": "老旦",
+        "speech_count": 57,
+        "degree": 2,
+        "weighted_degree": 226
+      },
+      {
+        "name": "周家伯伯",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张义",
+      "label": "张义",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 58,
+      "text_length": 941,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 234,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 52,
+        "singing": 5
+      }
+    },
+    {
+      "id": "康氏",
+      "label": "康氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 57,
+      "text_length": 1344,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 226,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 50,
+        "singing": 4,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "周家伯伯",
+      "label": "周家伯伯",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 80,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "康氏",
+      "target": "张义",
+      "weight": 223,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 111,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周家伯伯",
+      "target": "张义",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周家伯伯",
+      "target": "康氏",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "play": {
+    "play_id": "01002020",
+    "title": "白状元祭塔",
+    "pdf_name": "01002020_白状元祭塔.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 31,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01002020",
+    "source_date": "2013-08-23",
+    "synopsis_length": 118,
+    "notes_length": 16,
+    "marker_category_counts": {
+      "other": 7,
+      "recitation": 2,
+      "spoken": 16,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 36.666667,
+    "max_edge_weight": 35,
+    "top_characters": [
+      {
+        "name": "白素贞",
+        "hangdang": "旦",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "许仕林",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 40
+      },
+      {
+        "name": "塔神",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 20
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "白素贞",
+      "label": "白素贞",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 14,
+      "text_length": 623,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 8,
+        "other": 2
+      }
+    },
+    {
+      "id": "许仕林",
+      "label": "许仕林",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 355,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 40,
+      "marker_category_counts": {
+        "other": 5,
+        "recitation": 1,
+        "singing": 2,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "塔神",
+      "label": "塔神",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 100,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "白素贞",
+      "target": "许仕林",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "塔神",
+      "target": "白素贞",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "塔神",
+      "target": "许仕林",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

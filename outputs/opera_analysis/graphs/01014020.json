@@ -1,0 +1,211 @@
+{
+  "play": {
+    "play_id": "01014020",
+    "title": "红梅阁",
+    "pdf_name": "01014020_红梅阁.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 9,
+    "speech_count": 70,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01014020",
+    "source_date": "2013-06-30",
+    "synopsis_length": 331,
+    "notes_length": 64,
+    "marker_category_counts": {
+      "singing": 21,
+      "spoken": 47,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 47.2,
+    "max_edge_weight": 97,
+    "top_characters": [
+      {
+        "name": "李慧娘",
+        "hangdang": "旦",
+        "speech_count": 31,
+        "degree": 2,
+        "weighted_degree": 103
+      },
+      {
+        "name": "裴稚卿",
+        "hangdang": "小生",
+        "speech_count": 28,
+        "degree": 2,
+        "weighted_degree": 99
+      },
+      {
+        "name": "廖应忠",
+        "hangdang": "副净",
+        "speech_count": 6,
+        "degree": 4,
+        "weighted_degree": 18
+      },
+      {
+        "name": "贾似道",
+        "hangdang": "净",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 10
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李慧娘",
+      "label": "李慧娘",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 31,
+      "text_length": 979,
+      "scene_count": 7,
+      "degree": 2,
+      "weighted_degree": 103,
+      "marker_category_counts": {
+        "singing": 12,
+        "spoken": 18,
+        "other": 1
+      }
+    },
+    {
+      "id": "裴稚卿",
+      "label": "裴稚卿",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 28,
+      "text_length": 501,
+      "scene_count": 5,
+      "degree": 2,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 19,
+        "other": 1
+      }
+    },
+    {
+      "id": "廖应忠",
+      "label": "廖应忠",
+      "raw_role": "副净",
+      "hangdang": "副净",
+      "speech_count": 6,
+      "text_length": 79,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "贾似道",
+      "label": "贾似道",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 4,
+      "text_length": 125,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李慧娘",
+      "target": "裴稚卿",
+      "weight": 97,
+      "scene_cooccurrence": 5,
+      "dialogue_turns": 46,
+      "scenes": [
+        "scene_002",
+        "scene_005",
+        "scene_007",
+        "scene_008",
+        "scene_009"
+      ]
+    },
+    {
+      "source": "廖应忠",
+      "target": "贾似道",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "廖应忠",
+      "target": "李慧娘",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_007",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "廖应忠",
+      "target": "院子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "贾似道",
+      "target": "院子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "廖应忠",
+      "target": "裴稚卿",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007",
+        "scene_008"
+      ]
+    }
+  ]
+}

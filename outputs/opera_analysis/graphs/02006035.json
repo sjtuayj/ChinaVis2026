@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "02006035",
+    "title": "花魔寨",
+    "pdf_name": "02006035_花魔寨.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 108,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/02006035",
+    "source_date": "2021-06-21",
+    "synopsis_length": 207,
+    "notes_length": 29,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 81,
+      "other": 23,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 99.5,
+    "max_edge_weight": 157,
+    "top_characters": [
+      {
+        "name": "猪悟能",
+        "hangdang": "净",
+        "speech_count": 46,
+        "degree": 3,
+        "weighted_degree": 180
+      },
+      {
+        "name": "孙悟空",
+        "hangdang": "武生",
+        "speech_count": 52,
+        "degree": 3,
+        "weighted_degree": 175
+      },
+      {
+        "name": "通臂猿",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 24
+      },
+      {
+        "name": "众小猴",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 19
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "猪悟能",
+      "label": "猪悟能",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 46,
+      "text_length": 1408,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 180,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 45
+      }
+    },
+    {
+      "id": "孙悟空",
+      "label": "孙悟空",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 52,
+      "text_length": 1245,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 175,
+      "marker_category_counts": {
+        "other": 23,
+        "recitation": 1,
+        "spoken": 27,
+        "singing": 1
+      }
+    },
+    {
+      "id": "通臂猿",
+      "label": "通臂猿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 301,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "众小猴",
+      "label": "众小猴",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 33,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孙悟空",
+      "target": "猪悟能",
+      "weight": 157,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 78,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "猪悟能",
+      "target": "通臂猿",
+      "weight": 18,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众小猴",
+      "target": "孙悟空",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众小猴",
+      "target": "猪悟能",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "孙悟空",
+      "target": "通臂猿",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众小猴",
+      "target": "通臂猿",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

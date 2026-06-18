@@ -1,0 +1,247 @@
+{
+  "play": {
+    "play_id": "01034006",
+    "title": "镔铁剑",
+    "pdf_name": "01034006_镔铁剑.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 138,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01034006",
+    "source_date": "2013-03-17",
+    "synopsis_length": 198,
+    "notes_length": 115,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 120,
+      "singing": 15,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 108.0,
+    "max_edge_weight": 167,
+    "top_characters": [
+      {
+        "name": "妹妹",
+        "hangdang": "花旦",
+        "speech_count": 61,
+        "degree": 4,
+        "weighted_degree": 230
+      },
+      {
+        "name": "公子",
+        "hangdang": "小生",
+        "speech_count": 46,
+        "degree": 4,
+        "weighted_degree": 184
+      },
+      {
+        "name": "丑公子",
+        "hangdang": "丑",
+        "speech_count": 20,
+        "degree": 4,
+        "weighted_degree": 82
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 4,
+        "weighted_degree": 32
+      },
+      {
+        "name": "院子",
+        "hangdang": "丑",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "妹妹",
+      "label": "妹妹",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 61,
+      "text_length": 1194,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 230,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 50,
+        "singing": 9,
+        "other": 1
+      }
+    },
+    {
+      "id": "公子",
+      "label": "公子",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 46,
+      "text_length": 681,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 184,
+      "marker_category_counts": {
+        "spoken": 43,
+        "singing": 3
+      }
+    },
+    {
+      "id": "丑公子",
+      "label": "丑公子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 20,
+      "text_length": 541,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 82,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 16,
+        "singing": 3
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 112,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 32,
+      "marker_category_counts": {
+        "spoken": 9
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 2,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "公子",
+      "target": "妹妹",
+      "weight": 167,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 83,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丑公子",
+      "target": "妹妹",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丑公子",
+      "target": "丫鬟",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丑公子",
+      "target": "公子",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "妹妹",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丑公子",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "妹妹",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "公子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "公子",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

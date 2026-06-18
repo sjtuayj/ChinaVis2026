@@ -1,0 +1,203 @@
+{
+  "play": {
+    "play_id": "02006044",
+    "title": "五凤楼",
+    "pdf_name": "02006044_五凤楼【头本】.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 80,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/02006044",
+    "source_date": "2018-08-23",
+    "synopsis_length": 138,
+    "notes_length": 67,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 73,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 64.8,
+    "max_edge_weight": 55,
+    "top_characters": [
+      {
+        "name": "纪申",
+        "hangdang": "未知",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 109
+      },
+      {
+        "name": "纪鸾英",
+        "hangdang": "旦",
+        "speech_count": 26,
+        "degree": 3,
+        "weighted_degree": 105
+      },
+      {
+        "name": "薛刚",
+        "hangdang": "净",
+        "speech_count": 24,
+        "degree": 3,
+        "weighted_degree": 99
+      },
+      {
+        "name": "四喽兵",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "马登",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "纪申",
+      "label": "纪申",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 27,
+      "text_length": 480,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 109,
+      "marker_category_counts": {
+        "spoken": 26,
+        "singing": 1
+      }
+    },
+    {
+      "id": "纪鸾英",
+      "label": "纪鸾英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 26,
+      "text_length": 435,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 105,
+      "marker_category_counts": {
+        "spoken": 23,
+        "singing": 3
+      }
+    },
+    {
+      "id": "薛刚",
+      "label": "薛刚",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 24,
+      "text_length": 437,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 22,
+        "singing": 2
+      }
+    },
+    {
+      "id": "四喽兵",
+      "label": "四喽兵",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 9,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "马登",
+      "label": "马登",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 131,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "纪申",
+      "target": "纪鸾英",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "纪鸾英",
+      "target": "薛刚",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "纪申",
+      "target": "薛刚",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四喽兵",
+      "target": "纪申",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四喽兵",
+      "target": "薛刚",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四喽兵",
+      "target": "纪鸾英",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

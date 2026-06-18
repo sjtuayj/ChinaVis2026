@@ -1,0 +1,351 @@
+{
+  "play": {
+    "play_id": "70005102",
+    "title": "洗耳记",
+    "pdf_name": "70005102_洗耳记.pdf",
+    "group_id": "70005000",
+    "page_count": 5,
+    "scene_count": 5,
+    "speech_count": 50,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/70005102",
+    "source_date": "2013-03-18",
+    "synopsis_length": 78,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 29,
+      "other": 1,
+      "singing": 16
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 16,
+    "density": 0.571429,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 26.0,
+    "max_edge_weight": 30,
+    "top_characters": [
+      {
+        "name": "尧帝",
+        "hangdang": "老生",
+        "speech_count": 15,
+        "degree": 6,
+        "weighted_degree": 62
+      },
+      {
+        "name": "许由",
+        "hangdang": "未知",
+        "speech_count": 15,
+        "degree": 4,
+        "weighted_degree": 57
+      },
+      {
+        "name": "丁岳",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 6,
+        "weighted_degree": 31
+      },
+      {
+        "name": "巢父",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 1,
+        "weighted_degree": 25
+      },
+      {
+        "name": "甲岳",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "尧帝",
+      "label": "尧帝",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 15,
+      "text_length": 942,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 62,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 7,
+        "singing": 7
+      }
+    },
+    {
+      "id": "许由",
+      "label": "许由",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 15,
+      "text_length": 1036,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 57,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "丁岳",
+      "label": "丁岳",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 168,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "巢父",
+      "label": "巢父",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 366,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "甲岳",
+      "label": "甲岳",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 21,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "丙岳",
+      "label": "丙岳",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    },
+    {
+      "id": "乙岳",
+      "label": "乙岳",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    },
+    {
+      "id": "卫士",
+      "label": "卫士",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 8,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "尧帝",
+      "target": "许由",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "巢父",
+      "target": "许由",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "尧帝",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "卫士",
+      "target": "尧帝",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "丙岳",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "甲岳",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丙岳",
+      "target": "乙岳",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乙岳",
+      "target": "甲岳",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "尧帝",
+      "target": "甲岳",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "乙岳",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "卫士",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丁岳",
+      "target": "许由",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "丙岳",
+      "target": "尧帝",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丙岳",
+      "target": "甲岳",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乙岳",
+      "target": "尧帝",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "卫士",
+      "target": "许由",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

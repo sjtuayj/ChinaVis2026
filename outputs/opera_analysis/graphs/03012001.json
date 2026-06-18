@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "03012001",
+    "title": "望儿楼",
+    "pdf_name": "03012001_望儿楼.pdf",
+    "group_id": "03000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 28,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/03012001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 44,
+    "notes_length": 28,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 14,
+      "spoken": 13
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 19.5,
+    "max_edge_weight": 14,
+    "top_characters": [
+      {
+        "name": "窦太真",
+        "hangdang": "老旦",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 36
+      },
+      {
+        "name": "李渊",
+        "hangdang": "老生",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 16
+      },
+      {
+        "name": "四宫娥",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      },
+      {
+        "name": "内侍",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "窦太真",
+      "label": "窦太真",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 17,
+      "text_length": 722,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 7,
+        "singing": 9
+      }
+    },
+    {
+      "id": "李渊",
+      "label": "李渊",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 6,
+      "text_length": 239,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四宫娥",
+      "label": "四宫娥",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "内侍",
+      "label": "内侍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 18,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李渊",
+      "target": "窦太真",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四宫娥",
+      "target": "窦太真",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "窦太真",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "四宫娥",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "内侍",
+      "target": "李渊",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四宫娥",
+      "target": "李渊",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

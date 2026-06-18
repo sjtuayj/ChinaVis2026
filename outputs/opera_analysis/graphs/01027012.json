@@ -1,0 +1,192 @@
+{
+  "play": {
+    "play_id": "01027012",
+    "title": "看香头",
+    "pdf_name": "01027012_看香头.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 3,
+    "speech_count": 130,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01027012",
+    "source_date": "2016-11-25",
+    "synopsis_length": 182,
+    "notes_length": 211,
+    "marker_category_counts": {
+      "recitation": 3,
+      "other": 3,
+      "spoken": 120,
+      "singing": 4
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 128.5,
+    "max_edge_weight": 101,
+    "top_characters": [
+      {
+        "name": "严氏",
+        "hangdang": "旦",
+        "speech_count": 51,
+        "degree": 3,
+        "weighted_degree": 191
+      },
+      {
+        "name": "跟役",
+        "hangdang": "未知",
+        "speech_count": 35,
+        "degree": 3,
+        "weighted_degree": 141
+      },
+      {
+        "name": "倪员外",
+        "hangdang": "未知",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 91
+      },
+      {
+        "name": "倪安人",
+        "hangdang": "老旦",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 91
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "严氏",
+      "label": "严氏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 51,
+      "text_length": 1367,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 191,
+      "marker_category_counts": {
+        "recitation": 1,
+        "singing": 2,
+        "spoken": 47,
+        "other": 1
+      }
+    },
+    {
+      "id": "跟役",
+      "label": "跟役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 35,
+      "text_length": 533,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 141,
+      "marker_category_counts": {
+        "spoken": 35
+      }
+    },
+    {
+      "id": "倪员外",
+      "label": "倪员外",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 22,
+      "text_length": 259,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 91,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 19,
+        "recitation": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "倪安人",
+      "label": "倪安人",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 22,
+      "text_length": 256,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 91,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 19,
+        "recitation": 1,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "严氏",
+      "target": "跟役",
+      "weight": 101,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "严氏",
+      "target": "倪安人",
+      "weight": 53,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 26,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "严氏",
+      "target": "倪员外",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "倪员外",
+      "target": "跟役",
+      "weight": 28,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "倪员外",
+      "target": "倪安人",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "倪安人",
+      "target": "跟役",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    }
+  ]
+}

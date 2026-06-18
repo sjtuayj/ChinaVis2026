@@ -1,0 +1,1402 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02002005",
+    "title": "大十面",
+    "aliases": [],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02002005_大十面.pdf",
+    "source_url": "http://scripts.xikao.com/play/02002005",
+    "source_date": "2018-08-23",
+    "page_count": 3,
+    "file_size_bytes": 338894,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "本剧系韩信在九里山，调兵遣将，摆十面埋伏大阵，捉拿项羽。项羽陷入重围，虽经魏豹掩护，相偕逃走，终至垓下自刎身亡。根据《国剧大成》第二集整理",
+    "notes": [],
+    "story_period": {
+      "label": "秦汉",
+      "evidence": "汉高祖、刘邦、项羽、韩信",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.68,
+      "evidence": [
+        "阵",
+        "兵",
+        "将"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_韩信",
+      "name": "韩信",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：韩信：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_项羽",
+      "name": "项羽",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：项羽：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_魏豹",
+      "name": "魏豹",
+      "original_category": "丑",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "丑",
+        "fine": "丑",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：魏豹：丑"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹参",
+      "name": "曹参",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众将",
+      "name": "众将",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "青年/少年",
+      "age_confidence": 0.68,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众人",
+      "name": "众人",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "title": "全剧",
+      "page_start": 1,
+      "page_end": 3,
+      "characters": [
+        "韩信",
+        "曹参",
+        "众将",
+        "众人",
+        "项羽",
+        "魏豹"
+      ],
+      "event_ids": [
+        "02002005_e00001",
+        "02002005_e00002",
+        "02002005_e00003",
+        "02002005_e00004",
+        "02002005_e00005",
+        "02002005_e00006",
+        "02002005_e00007",
+        "02002005_e00008",
+        "02002005_e00009",
+        "02002005_e00010",
+        "02002005_e00011",
+        "02002005_e00012",
+        "02002005_e00013",
+        "02002005_e00014",
+        "02002005_e00015",
+        "02002005_e00016",
+        "02002005_e00017",
+        "02002005_e00018",
+        "02002005_e00019",
+        "02002005_e00020",
+        "02002005_e00021",
+        "02002005_e00022",
+        "02002005_e00023",
+        "02002005_e00024",
+        "02002005_e00025",
+        "02002005_e00026",
+        "02002005_e00027",
+        "02002005_e00028",
+        "02002005_e00029",
+        "02002005_e00030",
+        "02002005_e00031",
+        "02002005_e00032",
+        "02002005_e00033",
+        "02002005_e00034",
+        "02002005_e00035",
+        "02002005_e00036",
+        "02002005_e00037",
+        "02002005_e00038",
+        "02002005_e00039",
+        "02002005_e00040",
+        "02002005_e00041",
+        "02002005_e00042",
+        "02002005_e00043",
+        "02002005_e00044",
+        "02002005_e00045",
+        "02002005_e00046",
+        "02002005_e00047",
+        "02002005_e00048",
+        "02002005_e00049",
+        "02002005_e00050",
+        "02002005_e00051",
+        "02002005_e00052",
+        "02002005_e00053",
+        "02002005_e00054",
+        "02002005_e00055",
+        "02002005_e00056",
+        "02002005_e00057",
+        "02002005_e00058",
+        "02002005_e00059",
+        "02002005_e00060",
+        "02002005_e00061",
+        "02002005_e00062",
+        "02002005_e00063",
+        "02002005_e00064",
+        "02002005_e00065",
+        "02002005_e00066",
+        "02002005_e00067",
+        "02002005_e00068",
+        "02002005_e00069"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 69,
+        "spoken_count": 28,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "stage_direction_count": 21,
+        "expression_count": 0,
+        "text_length": 1263
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02002005_e00001",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "龙套引韩信同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02002005_e00002",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "点绛唇",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "天澹云孤，怨云愁雾，施威武，镇征夫，取胜如神助。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02002005_e00003",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "韩信上高台，坐。曹参上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02002005_e00004",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹参"
+      ],
+      "text": "曹参打躬。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00005",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "一旁侍立。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00006",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹参允。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00007",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "暗列兵机神鬼欺，胸藏奥妙少人知。不施万丈深潭计，怎得骊龙项下珠？",
+      "text_length": 32
+    },
+    {
+      "event_id": "02002005_e00008",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "俺，韩信。今在九里山下，摆下一座十面阵式，要擒拿项羽。曹参听令。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02002005_e00009",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹参允。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00010",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "命众将披挂整齐，上帐听令。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02002005_e00011",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹参"
+      ],
+      "text": "得令。呔，众将官！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02002005_e00012",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "众将"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02002005_e00013",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹参"
+      ],
+      "text": "元帅有令：披挂整齐，上帐听令。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02002005_e00014",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹参下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00015",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "全按着九天之术，九宫八卦列昆吾。俺怎肯差误了旗号，错配了军卒，安排下走龙飞龙图社稷，准备着钓鳌网锁困江湖。",
+      "text_length": 53
+    },
+    {
+      "event_id": "02002005_e00016",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹参、众将同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02002005_e00017",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "众将打躬。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00018",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "众将官。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00019",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02002005_e00020",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "本帅今在九里山下，摆下一座十面阵式，要擒拿项羽。你等听令。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02002005_e00021",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同允，侍立。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02002005_e00022",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "曹参，",
+      "text_length": 3
+    },
+    {
+      "event_id": "02002005_e00023",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹参"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02002005_e00024",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第一阵，",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00025",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "乾为天，天门引战，",
+      "text_length": 9
+    },
+    {
+      "event_id": "02002005_e00026",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹参下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00027",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第二阵坎为水，水底同谋。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02002005_e00028",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官甲下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00029",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第三阵艮为山，深伏隘口，第四阵震为雷，实若玄虚。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02002005_e00030",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官乙、将官丙同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02002005_e00031",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第五阵巽为风，烟尘浩荡，第六阵离为火，火耗成墟。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02002005_e00032",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官丁、将官戊同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02002005_e00033",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第七阵坤为地，要移花接木，第八阵兑为泽，潜在那踪迹。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02002005_e00034",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官己、将官庚同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02002005_e00035",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "混江龙",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "第九阵安营下寨，第十阵傲荡凶徒，傲荡凶徒。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02002005_e00036",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官辛、魏豹同下。八将同上，四角列阵，二将引项羽同上，入阵，开打，众人同下。",
+      "text_length": 38
+    },
+    {
+      "event_id": "02002005_e00037",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 37,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "油葫芦",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "上接着九天纷纷之数，下镇着九天泉以似荒芜。量你有万夫之勇，难逃俺十面埋伏。天之理，天之数，张良用黄公三略法，俺韩信有吕望六韬书，吕望六韬书。",
+      "text_length": 70
+    },
+    {
+      "event_id": "02002005_e00038",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 38,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众将、项羽同上，开打，同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02002005_e00039",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 39,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "好一场鏖战也！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02002005_e00040",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 40,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "油葫芦",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "只听得呐喊摇旗齐操鼓，纵征驼，亲去取，今番一战定输赢。为君的开基创业，齐天福，为臣的要安邦定国，上功劳簿。平地上起一座战场高埠处，高埠处，列着帅府。更有那张司徒、萧丞相，和那刘高祖，俺韩信在山顶上运计谋，山顶上运计谋。",
+      "text_length": 109
+    },
+    {
+      "event_id": "02002005_e00041",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 41,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众将、项羽同上，开打，同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02002005_e00042",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 42,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "天下乐",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "又听得动一派萧韵品奏曲，见霸王，见霸王高也么呼，骂韩信是一恶夫。俺只待立刘邦觑伊行如粪土，山顶上常则是活捉拿，纵征驼，亲去取。不提防，列千枝脚登弩，列千枝脚登弩，",
+      "text_length": 81
+    },
+    {
+      "event_id": "02002005_e00043",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 43,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众将同上，同耍刀。马童上，开打，同下。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02002005_e00044",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 44,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "天下乐",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "一个逞着雄图，九里山摆着阵图。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02002005_e00045",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 45,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "俺这里！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00046",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 46,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "哪吒令",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "望上射似飞蝗骤雨，望下看，大刀和那巨斧。密匝匝队伍，要擒拿项羽，见樊哙旗在手，便麾在垓心内，点起着百万军卒。",
+      "text_length": 54
+    },
+    {
+      "event_id": "02002005_e00047",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 47,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "鹊踏枝",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "汉高祖洪福大，俺韩信思扶助，九里山施展六韬书。大会合，亲摆布，托赖着圣天子百灵扶。张子房在高埠处，悲歌声能散楚。楚歌儿吹散了八千子弟归何处？不提防先有埋伏。",
+      "text_length": 78
+    },
+    {
+      "event_id": "02002005_e00048",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 48,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众将、项羽同上，开打，同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02002005_e00049",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 49,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "胜葫芦",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "中军帐里梦回初，原来是霸王要登途。那虞姬亲把离情诉，腰下借昆吾，血溅了美人图，血溅了美人图。",
+      "text_length": 46
+    },
+    {
+      "event_id": "02002005_e00050",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 50,
+      "seq_in_scene": 50,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人、项羽同上，开打，同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02002005_e00051",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 51,
+      "seq_in_scene": 51,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "么篇",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "正撞着九江王英布，难逃俺十面埋伏。这的是乌江，不是无船渡，错走阴灵路，耻向东吴，耻向东吴。",
+      "text_length": 45
+    },
+    {
+      "event_id": "02002005_e00052",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 52,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众将同上，项羽上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02002005_e00053",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 53,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "项羽"
+      ],
+      "text": "杀了半天，并无问个名儿。呔！尔叫何名？",
+      "text_length": 19
+    },
+    {
+      "event_id": "02002005_e00054",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 54,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "魏豹"
+      ],
+      "text": "魏豹大将军，何须通姓名？闻俺须下马，饶恕你残生！",
+      "text_length": 24
+    },
+    {
+      "event_id": "02002005_e00055",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 55,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "项羽"
+      ],
+      "text": "魏豹，孤在彭城救你一十八口家眷，今日为何挡孤的去路？看枪！",
+      "text_length": 29
+    },
+    {
+      "event_id": "02002005_e00056",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 56,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏豹"
+      ],
+      "text": "大王，我岂不知“报恩”二字？奈韩元帅在山顶上瞭战。我与大王假战三合，引大王出阵便了。",
+      "text_length": 42
+    },
+    {
+      "event_id": "02002005_e00057",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 57,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "项羽"
+      ],
+      "text": "魏豹！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02002005_e00058",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 58,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏豹"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02002005_e00059",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 59,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "项羽"
+      ],
+      "text": "我的儿！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02002005_e00060",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 60,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏豹"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02002005_e00061",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 61,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "项羽"
+      ],
+      "text": "孤家枪尖下无眼，要你仔细！",
+      "text_length": 13
+    },
+    {
+      "event_id": "02002005_e00062",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 62,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏豹引项羽同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02002005_e00063",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 63,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众将"
+      ],
+      "text": "项羽逃生！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00064",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 64,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "何人放走？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00065",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 65,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众将"
+      ],
+      "text": "魏豹放走。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02002005_e00066",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 66,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "将魏豹斩首。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02002005_e00067",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 67,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众将"
+      ],
+      "text": "魏豹也逃走！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02002005_e00068",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 68,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩信"
+      ],
+      "text": "带马追至乌江！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02002005_e00069",
+      "play_id": "02002005",
+      "scene_id": "02002005_s01",
+      "scene_no": 1,
+      "seq_global": 69,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖尾声〗。众人同下。",
+      "text_length": 10
+    }
+  ],
+  "roles_inferred": true
+}

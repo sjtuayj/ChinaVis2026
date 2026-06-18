@@ -1,0 +1,243 @@
+{
+  "play": {
+    "play_id": "03048005",
+    "title": "瞎子逛灯",
+    "pdf_name": "03048005_瞎子逛灯.pdf",
+    "group_id": "03000000",
+    "page_count": 6,
+    "scene_count": 2,
+    "speech_count": 197,
+    "character_count": 5,
+    "source_url": "https://scripts.xikao.com/play/03048005",
+    "source_date": "2022-02-15",
+    "synopsis_length": 34,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 2,
+      "singing": 1,
+      "spoken": 194
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 158.0,
+    "max_edge_weight": 340,
+    "top_characters": [
+      {
+        "name": "跛和尚",
+        "hangdang": "丑",
+        "speech_count": 96,
+        "degree": 4,
+        "weighted_degree": 375
+      },
+      {
+        "name": "白瞎子",
+        "hangdang": "丑",
+        "speech_count": 88,
+        "degree": 4,
+        "weighted_degree": 353
+      },
+      {
+        "name": "妇人乙",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 4,
+        "weighted_degree": 36
+      },
+      {
+        "name": "妇人甲",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 18
+      },
+      {
+        "name": "起这儿",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "跛和尚",
+      "label": "跛和尚",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 96,
+      "text_length": 1485,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 375,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 94
+      }
+    },
+    {
+      "id": "白瞎子",
+      "label": "白瞎子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 88,
+      "text_length": 1512,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 353,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 87
+      }
+    },
+    {
+      "id": "妇人乙",
+      "label": "妇人乙",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 106,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 36,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "妇人甲",
+      "label": "妇人甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 39,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "起这儿",
+      "label": "起这儿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 19,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "白瞎子",
+      "target": "跛和尚",
+      "weight": 340,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 169,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人乙",
+      "target": "跛和尚",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人甲",
+      "target": "跛和尚",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人乙",
+      "target": "白瞎子",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人乙",
+      "target": "妇人甲",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "白瞎子",
+      "target": "起这儿",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "起这儿",
+      "target": "跛和尚",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人乙",
+      "target": "起这儿",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人甲",
+      "target": "白瞎子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "妇人甲",
+      "target": "起这儿",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

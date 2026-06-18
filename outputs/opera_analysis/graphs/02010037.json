@@ -1,0 +1,182 @@
+{
+  "play": {
+    "play_id": "02010037",
+    "title": "鬼辩",
+    "pdf_name": "02010037_鬼辩.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 22,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02010037",
+    "source_date": "2018-08-23",
+    "synopsis_length": 92,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 16,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 21.0,
+    "max_edge_weight": 19,
+    "top_characters": [
+      {
+        "name": "贾似道",
+        "hangdang": "净",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 35
+      },
+      {
+        "name": "二院子",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 3,
+        "weighted_degree": 23
+      },
+      {
+        "name": "李慧娘",
+        "hangdang": "旦",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 19
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "贾似道",
+      "label": "贾似道",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 10,
+      "text_length": 320,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 2,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "二院子",
+      "label": "二院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 46,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "李慧娘",
+      "label": "李慧娘",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 6,
+      "text_length": 958,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 3,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "二院子",
+      "target": "贾似道",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李慧娘",
+      "target": "贾似道",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二院子",
+      "target": "众人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "李慧娘",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二院子",
+      "target": "李慧娘",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "贾似道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

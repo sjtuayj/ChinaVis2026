@@ -1,0 +1,184 @@
+{
+  "play": {
+    "play_id": "01015008",
+    "title": "疯僧扫秦",
+    "pdf_name": "01015008_疯僧扫秦.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 185,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01015008",
+    "source_date": "2018-08-24",
+    "synopsis_length": 274,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 4,
+      "other": 13,
+      "spoken": 168
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 180.0,
+    "max_edge_weight": 221,
+    "top_characters": [
+      {
+        "name": "疯僧",
+        "hangdang": "丑",
+        "speech_count": 76,
+        "degree": 3,
+        "weighted_degree": 303
+      },
+      {
+        "name": "秦桧",
+        "hangdang": "净",
+        "speech_count": 73,
+        "degree": 3,
+        "weighted_degree": 277
+      },
+      {
+        "name": "住持",
+        "hangdang": "未知",
+        "speech_count": 35,
+        "degree": 3,
+        "weighted_degree": 133
+      },
+      {
+        "name": "青袍",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "疯僧",
+      "label": "疯僧",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 76,
+      "text_length": 1703,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 303,
+      "marker_category_counts": {
+        "spoken": 64,
+        "other": 11,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "秦桧",
+      "label": "秦桧",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 73,
+      "text_length": 927,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 277,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 69,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "住持",
+      "label": "住持",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 35,
+      "text_length": 284,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 133,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 34
+      }
+    },
+    {
+      "id": "青袍",
+      "label": "青袍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "疯僧",
+      "target": "秦桧",
+      "weight": 221,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 110,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "住持",
+      "target": "疯僧",
+      "weight": 81,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "住持",
+      "target": "秦桧",
+      "weight": 51,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "秦桧",
+      "target": "青袍",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "住持",
+      "target": "青袍",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "疯僧",
+      "target": "青袍",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

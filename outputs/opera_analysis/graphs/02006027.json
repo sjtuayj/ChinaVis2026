@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "02006027",
+    "title": "黑风山",
+    "pdf_name": "02006027_黑风山.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 43,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/02006027",
+    "source_date": "2018-08-23",
+    "synopsis_length": 89,
+    "notes_length": 32,
+    "marker_category_counts": {
+      "recitation": 7,
+      "spoken": 32,
+      "other": 4
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 4,
+    "density": 0.4,
+    "avg_degree": 1.6,
+    "avg_weighted_degree": 32.0,
+    "max_edge_weight": 43,
+    "top_characters": [
+      {
+        "name": "孙悟空",
+        "hangdang": "武生",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 58
+      },
+      {
+        "name": "唐僧",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "众僧",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 37
+      },
+      {
+        "name": "了然",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 1,
+        "weighted_degree": 15
+      },
+      {
+        "name": "熊精",
+        "hangdang": "净",
+        "speech_count": 1,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙悟空",
+      "label": "孙悟空",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 14,
+      "text_length": 377,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 58,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 9,
+        "other": 2
+      }
+    },
+    {
+      "id": "唐僧",
+      "label": "唐僧",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 330,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 10,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "众僧",
+      "label": "众僧",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 302,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "spoken": 8,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "了然",
+      "label": "了然",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 129,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 5,
+        "other": 1
+      }
+    },
+    {
+      "id": "熊精",
+      "label": "熊精",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 1,
+      "text_length": 154,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "唐僧",
+      "target": "孙悟空",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "了然",
+      "target": "众僧",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众僧",
+      "target": "孙悟空",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众僧",
+      "target": "唐僧",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

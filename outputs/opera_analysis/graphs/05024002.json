@@ -1,0 +1,294 @@
+{
+  "play": {
+    "play_id": "05024002",
+    "title": "虎牢关",
+    "pdf_name": "05024002_虎牢关.pdf",
+    "group_id": "05000000",
+    "page_count": 4,
+    "scene_count": 6,
+    "speech_count": 90,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/05024002",
+    "source_date": "2018-08-24",
+    "synopsis_length": 95,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 81,
+      "singing": 4,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 11,
+    "density": 0.52381,
+    "avg_degree": 3.142857,
+    "avg_weighted_degree": 48.857143,
+    "max_edge_weight": 73,
+    "top_characters": [
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 29,
+        "degree": 5,
+        "weighted_degree": 124
+      },
+      {
+        "name": "张飞",
+        "hangdang": "净",
+        "speech_count": 33,
+        "degree": 5,
+        "weighted_degree": 115
+      },
+      {
+        "name": "刘备",
+        "hangdang": "老生",
+        "speech_count": 15,
+        "degree": 3,
+        "weighted_degree": 57
+      },
+      {
+        "name": "吕布",
+        "hangdang": "小生",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 34
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 29,
+      "text_length": 287,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 124,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 26,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "张飞",
+      "label": "张飞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 33,
+      "text_length": 699,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 115,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 31,
+        "other": 1
+      }
+    },
+    {
+      "id": "刘备",
+      "label": "刘备",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 15,
+      "text_length": 330,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 57,
+      "marker_category_counts": {
+        "spoken": 12,
+        "singing": 2,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "吕布",
+      "label": "吕布",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 10,
+      "text_length": 294,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 34,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 20,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "李肃",
+      "label": "李肃",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 49,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "公孙瓒",
+      "label": "公孙瓒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 41,
+      "scene_count": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "张飞",
+      "weight": 73,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_003",
+        "scene_004",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "刘备",
+      "weight": 45,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "吕布",
+      "target": "张飞",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "张飞",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "张飞",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "吕布",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "吕布",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "李肃",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "关羽",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "李肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "李肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    }
+  ]
+}

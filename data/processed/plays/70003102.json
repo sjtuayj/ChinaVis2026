@@ -1,0 +1,3506 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "70003102",
+    "title": "桃园结义",
+    "aliases": [
+      "三结义",
+      "刘关张"
+    ],
+    "collection_id": "70003000",
+    "collection_name": "李洪春剧本选",
+    "collection_remark": "《关羽戏集：李洪春演出本》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/70003000/70003102_桃园结义.pdf",
+    "source_url": "http://scripts.xikao.com/play/70003102",
+    "source_date": "2018-08-23",
+    "page_count": 6,
+    "file_size_bytes": 369294,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "关羽翦除恶霸后，逃到范阳涿州，在三好酒楼与刘备、张飞相遇，三人志趣相投，在桃园结拜。根据《关羽戏集：李洪春演出本》整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "刘备、关羽、张飞",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.48,
+      "evidence": [
+        "关"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_刘备",
+      "name": "刘备",
+      "original_category": "生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "帝王/皇族"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 43,
+        "aria_count": 2,
+        "recitation_count": 4,
+        "expression_count": 1,
+        "action_hint_count": 16,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：刘备：生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": "红生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "滑稽",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 34,
+        "aria_count": 2,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 13,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "红生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关羽：红生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 40,
+        "aria_count": 3,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 15,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：张飞：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_酒保",
+      "name": "酒保",
+      "original_category": "丑",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义",
+        "滑稽",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "丑",
+        "fine": "丑",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：酒保：丑"
+        ]
+      }
+    },
+    {
+      "role_id": "r_苏双",
+      "name": "苏双",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张世平",
+      "name": "张世平",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_吕常",
+      "name": "吕常",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_方雄",
+      "name": "方雄",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众人",
+      "name": "众人",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_百姓甲",
+      "name": "百姓甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_院子",
+      "name": "院子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "未知",
+      "gender_confidence": 0.2,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "官员/谋臣"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "张飞"
+      ],
+      "event_ids": [
+        "70003102_e00001",
+        "70003102_e00002",
+        "70003102_e00003",
+        "70003102_e00004",
+        "70003102_e00005",
+        "70003102_e00006"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 1,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 114
+      }
+    },
+    {
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "苏双",
+        "张世平",
+        "吕常",
+        "方雄",
+        "众人"
+      ],
+      "event_ids": [
+        "70003102_e00007",
+        "70003102_e00008",
+        "70003102_e00009",
+        "70003102_e00010",
+        "70003102_e00011",
+        "70003102_e00012",
+        "70003102_e00013",
+        "70003102_e00014",
+        "70003102_e00015",
+        "70003102_e00016"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 10,
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 92
+      }
+    },
+    {
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 1,
+      "page_end": 5,
+      "characters": [
+        "刘备",
+        "百姓甲",
+        "关羽",
+        "张飞",
+        "酒保"
+      ],
+      "event_ids": [
+        "70003102_e00017",
+        "70003102_e00018",
+        "70003102_e00019",
+        "70003102_e00020",
+        "70003102_e00021",
+        "70003102_e00022",
+        "70003102_e00023",
+        "70003102_e00024",
+        "70003102_e00025",
+        "70003102_e00026",
+        "70003102_e00027",
+        "70003102_e00028",
+        "70003102_e00029",
+        "70003102_e00030",
+        "70003102_e00031",
+        "70003102_e00032",
+        "70003102_e00033",
+        "70003102_e00034",
+        "70003102_e00035",
+        "70003102_e00036",
+        "70003102_e00037",
+        "70003102_e00038",
+        "70003102_e00039",
+        "70003102_e00040",
+        "70003102_e00041",
+        "70003102_e00042",
+        "70003102_e00043",
+        "70003102_e00044",
+        "70003102_e00045",
+        "70003102_e00046",
+        "70003102_e00047",
+        "70003102_e00048",
+        "70003102_e00049",
+        "70003102_e00050",
+        "70003102_e00051",
+        "70003102_e00052",
+        "70003102_e00053",
+        "70003102_e00054",
+        "70003102_e00055",
+        "70003102_e00056",
+        "70003102_e00057",
+        "70003102_e00058",
+        "70003102_e00059",
+        "70003102_e00060",
+        "70003102_e00061",
+        "70003102_e00062",
+        "70003102_e00063",
+        "70003102_e00064",
+        "70003102_e00065",
+        "70003102_e00066",
+        "70003102_e00067",
+        "70003102_e00068",
+        "70003102_e00069",
+        "70003102_e00070",
+        "70003102_e00071",
+        "70003102_e00072",
+        "70003102_e00073",
+        "70003102_e00074",
+        "70003102_e00075",
+        "70003102_e00076",
+        "70003102_e00077",
+        "70003102_e00078",
+        "70003102_e00079",
+        "70003102_e00080",
+        "70003102_e00081",
+        "70003102_e00082",
+        "70003102_e00083",
+        "70003102_e00084",
+        "70003102_e00085",
+        "70003102_e00086",
+        "70003102_e00087",
+        "70003102_e00088",
+        "70003102_e00089",
+        "70003102_e00090",
+        "70003102_e00091",
+        "70003102_e00092",
+        "70003102_e00093",
+        "70003102_e00094",
+        "70003102_e00095",
+        "70003102_e00096",
+        "70003102_e00097",
+        "70003102_e00098",
+        "70003102_e00099",
+        "70003102_e00100",
+        "70003102_e00101",
+        "70003102_e00102",
+        "70003102_e00103",
+        "70003102_e00104",
+        "70003102_e00105",
+        "70003102_e00106",
+        "70003102_e00107",
+        "70003102_e00108",
+        "70003102_e00109",
+        "70003102_e00110",
+        "70003102_e00111",
+        "70003102_e00112",
+        "70003102_e00113",
+        "70003102_e00114",
+        "70003102_e00115",
+        "70003102_e00116",
+        "70003102_e00117",
+        "70003102_e00118",
+        "70003102_e00119",
+        "70003102_e00120",
+        "70003102_e00121",
+        "70003102_e00122",
+        "70003102_e00123",
+        "70003102_e00124",
+        "70003102_e00125",
+        "70003102_e00126",
+        "70003102_e00127",
+        "70003102_e00128",
+        "70003102_e00129",
+        "70003102_e00130",
+        "70003102_e00131",
+        "70003102_e00132",
+        "70003102_e00133",
+        "70003102_e00134",
+        "70003102_e00135",
+        "70003102_e00136",
+        "70003102_e00137",
+        "70003102_e00138",
+        "70003102_e00139",
+        "70003102_e00140",
+        "70003102_e00141",
+        "70003102_e00142",
+        "70003102_e00143",
+        "70003102_e00144",
+        "70003102_e00145",
+        "70003102_e00146",
+        "70003102_e00147",
+        "70003102_e00148",
+        "70003102_e00149"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 133,
+        "spoken_count": 100,
+        "aria_count": 4,
+        "recitation_count": 3,
+        "stage_direction_count": 25,
+        "expression_count": 1,
+        "text_length": 1762
+      }
+    },
+    {
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "院子",
+        "刘备",
+        "关羽",
+        "张飞",
+        "苏双",
+        "张世平",
+        "吕常",
+        "方雄"
+      ],
+      "event_ids": [
+        "70003102_e00150",
+        "70003102_e00151",
+        "70003102_e00152",
+        "70003102_e00153",
+        "70003102_e00154",
+        "70003102_e00155",
+        "70003102_e00156",
+        "70003102_e00157",
+        "70003102_e00158",
+        "70003102_e00159",
+        "70003102_e00160",
+        "70003102_e00161",
+        "70003102_e00162",
+        "70003102_e00163",
+        "70003102_e00164",
+        "70003102_e00165",
+        "70003102_e00166",
+        "70003102_e00167",
+        "70003102_e00168",
+        "70003102_e00169",
+        "70003102_e00170",
+        "70003102_e00171",
+        "70003102_e00172",
+        "70003102_e00173",
+        "70003102_e00174",
+        "70003102_e00175",
+        "70003102_e00176",
+        "70003102_e00177",
+        "70003102_e00178"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 29,
+        "spoken_count": 18,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 422
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "70003102_e00001",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00002",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "臂力过人，性鲁莽，惯打不平。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003102_e00003",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "自幼生来胆气豪，爱习兵法与枪刀。惯打人间不平事，以强压弱命难逃。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003102_e00004",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "俺，姓张名飞家翼德。涿州人氏。自幼爱习拳棒武艺，今日心中烦闷，不免去到城外闲游一番便了。",
+      "text_length": 44
+    },
+    {
+      "event_id": "70003102_e00005",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "闷坐家中心焦躁，出郊游玩走一遭。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00006",
+      "play_id": "70003102",
+      "scene_id": "70003102_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00007",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 7,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫、苏双、张世平、吕常、方雄同上。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003102_e00008",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 8,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "苏双",
+        "张世平",
+        "吕常",
+        "方雄"
+      ],
+      "text": "俺——",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00009",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 9,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "苏双"
+      ],
+      "text": "苏双。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00010",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张世平"
+      ],
+      "text": "张世平。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00011",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吕常"
+      ],
+      "text": "吕常。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00012",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "方雄"
+      ],
+      "text": "方雄。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00013",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "苏双"
+      ],
+      "text": "众位兄弟请了。如今群雄四起，道路难行。前面已是涿郡，大家赶到那里投店便了。",
+      "text_length": 37
+    },
+    {
+      "event_id": "70003102_e00014",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "大哥言之有理。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00015",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "苏双"
+      ],
+      "text": "弟兄们，趱行者。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00016",
+      "play_id": "70003102",
+      "scene_id": "70003102_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00017",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 17,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00018",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 18,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "头戴方巾乌角，鹑衣百结褴破。足踏草鞋跟踢拖，堪叹英雄落魄。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70003102_e00019",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 19,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我，刘备字玄德，乃大汉中山靖王之后，孝景皇帝玄孙。不幸家道冷落，父母早丧，一贫如洗，只落得织履为生，人人将我叫做刘穷。因此，我也就隐其真名不露。看天下荒荒，刀兵四起，黎民涂炭，欲想出世做一番事业，扶持社稷，匡救朝廷。怎奈无有进身引荐之人，以至英雄落魄，流落天涯。苍天危困英雄，良可叹也！",
+      "text_length": 143
+    },
+    {
+      "event_id": "70003102_e00020",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 20,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "刘备家贫甚惨凄，每日里卖草鞋去东转西。破衣褴衫难遮体，饥寒困苦无食无衣。何日里才得转时机，大鹏展翅冲天飞。",
+      "text_length": 53
+    },
+    {
+      "event_id": "70003102_e00021",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 21,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "卖鞋，卖草鞋。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00022",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 22,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备下。四百姓同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00023",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 23,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "百姓甲"
+      ],
+      "text": "列位请了。朝廷出了告条，招募军兵。我们前去看上一看。请。",
+      "text_length": 28
+    },
+    {
+      "event_id": "70003102_e00024",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 24,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四百姓同走圆场，同看告示。刘备上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003102_e00025",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 25,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "卖了半日，一只草鞋，也未曾卖得。他们在这里讲些什么，待我向前问过。列位请了，你们在此看的是什么啊？",
+      "text_length": 49
+    },
+    {
+      "event_id": "70003102_e00026",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 26,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "百姓甲"
+      ],
+      "text": "刘穷来了，不要沾了我们一身穷气，我们快些走吧。",
+      "text_length": 23
+    },
+    {
+      "event_id": "70003102_e00027",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 27,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四百姓同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00028",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 28,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "咳！这伙小人，真是气煞人也！正是：",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003102_e00029",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 29,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "燕雀安知鸿鹄志，怎识风尘一丈夫。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00030",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 30,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备上前看告示。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00031",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 31,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "闲人闪开，车来了。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00032",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 32,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽推车上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00033",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 33,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "唉，可惜我刘备呀！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00034",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 34,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "看那旁有一汉子，在那里自言自语，待我向前问来。那一汉子你在此作甚？",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003102_e00035",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 35,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我呀，看榜。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00036",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 36,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "粘贴榜文，为了何事？",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00037",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 37,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "烟尘四起，朝廷招募新兵，保卫疆土。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003102_e00038",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 38,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "你便怎么样？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00039",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 39,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "有道是国家兴亡，匹夫有责。意欲前去投军，与国家做些惊天动地之事呀！",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003102_e00040",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 40,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "唔呼呀！原来是个狂生。待我走去。闲人闪开，车过来了。",
+      "text_length": 26
+    },
+    {
+      "event_id": "70003102_e00041",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 41,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽推车下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00042",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 42,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哎呀呀，这个红脸大汉，他也看不起我啊！",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003102_e00043",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 43,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "走哇！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00044",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 44,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00045",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 45,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "街巷人人来谈论，处处百姓不安宁。花开美景无人问，又见城门贴榜文。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003102_e00046",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 46,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、张飞对看，同背供。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00047",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 47,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "张飞"
+      ],
+      "text": "此人仪表倒也不凡！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00048",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 48,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "那一汉子在此作甚？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00049",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 49,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我在此观榜。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00050",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 50,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "可是招募新军之事？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00051",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 51,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "正是。唉，可惜呀，可惜。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00052",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 52,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你可惜何来？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00053",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 53,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我有心投军报效，怎奈落得这样贫穷，衣衫褴褛，被人薄眼相看。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70003102_e00054",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 54,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "听兄台之言，你我倒也志趣相同。此地不好细讲，请到三好酒楼一叙。",
+      "text_length": 31
+    },
+    {
+      "event_id": "70003102_e00055",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 55,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备为难。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00056",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 56,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "这个……",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00057",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 57,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "我来作东道，走，走，走！",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00058",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 58,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、张飞同走圆场。刘备看招牌。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00059",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 59,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "三好。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00060",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 60,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "酒保上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00061",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "肆外高挂三尺布，飘来飘去招主顾。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00062",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 62,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "哪位？",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00063",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我呀。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00064",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "刘穷，你又来赊账来啦？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00065",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 65,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "今日有人请我来的。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00066",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 66,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "谁请您？",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00067",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 67,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你看，这是我的朋友哇。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00068",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 68,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "好，你今天又算有准饭碗啦。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00069",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 69,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三好，你这是怎样讲话！",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00070",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 70,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "张大爷，我和他也是好朋友，常常说笑话。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003102_e00071",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 71,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "嗯，带路！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00072",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 72,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "是。您二位请吧。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00073",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 73,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、刘备同进门，同坐。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00074",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 74,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "您吃什么酒？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00075",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 75,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "好酒取来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00076",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 76,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "伙计们，好酒一壶。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00077",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 77,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "酒保下，上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00078",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 78,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "酒到，您请吃吧。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00079",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 79,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003102_e00080",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 80,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003102_e00081",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 81,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "请问兄长大名？",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00082",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我姓刘名备，大树楼桑人氏。请问兄台尊姓大名？",
+      "text_length": 22
+    },
+    {
+      "event_id": "70003102_e00083",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "在下姓张名飞字翼德，涿州人氏。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70003102_e00084",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 84,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哦张仁兄。失敬了，失敬了。请酒，请酒。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003102_e00085",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 85,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00086",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "闷坐店中神不定，沽饮几杯解烦心。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00087",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽看。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00088",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 88,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三好酒楼。酒保。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00089",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 89,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "来啦，您吃酒请进吧。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00090",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 90,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "前面带路。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00091",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 91,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽进门。刘备、关羽、张飞互看，同背供。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70003102_e00092",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 92,
+      "seq_in_scene": 76,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "此人仪表不凡，倒有些英雄气概。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70003102_e00093",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 93,
+      "seq_in_scene": 77,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "快将好酒取来。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00094",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 94,
+      "seq_in_scene": 78,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你快些取酒来。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00095",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 95,
+      "seq_in_scene": 79,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "是啦，是啦。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00096",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 96,
+      "seq_in_scene": 80,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "酒保取酒送给张飞。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00097",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 97,
+      "seq_in_scene": 81,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "呔！酒保，俺要酒在先，你倒与他们先送上，莫非你这酒馆欺人不成！",
+      "text_length": 31
+    },
+    {
+      "event_id": "70003102_e00098",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 98,
+      "seq_in_scene": 82,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞怒。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00099",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 99,
+      "seq_in_scene": 83,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "住了！你这人好无道理，俺在这里吃酒，你在一旁大惊小怪，是何理也？",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003102_e00100",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 100,
+      "seq_in_scene": 84,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "住了！俺与酒保讲话，你在一旁答言，莫非你心中不服？",
+      "text_length": 25
+    },
+    {
+      "event_id": "70003102_e00101",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 101,
+      "seq_in_scene": 85,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "俺本来不服。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00102",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 102,
+      "seq_in_scene": 86,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "我劝你少管。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00103",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 103,
+      "seq_in_scene": 87,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "我一定要管。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00104",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 104,
+      "seq_in_scene": 88,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "呸！着打！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00105",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 105,
+      "seq_in_scene": 89,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "着打！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00106",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 106,
+      "seq_in_scene": 90,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞对打。刘备劝解。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00107",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 107,
+      "seq_in_scene": 91,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "不要打，不要打。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00108",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 108,
+      "seq_in_scene": 92,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、刘备对看。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00109",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 109,
+      "seq_in_scene": 93,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "刘备"
+      ],
+      "text": "此人在哪里见过……",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00110",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 110,
+      "seq_in_scene": 94,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、关羽同想。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00111",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 111,
+      "seq_in_scene": 95,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "刘备"
+      ],
+      "text": "哦……",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00112",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 112,
+      "seq_in_scene": 96,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你可是那推车的那个汉子？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00113",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 113,
+      "seq_in_scene": 97,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "你可是那观榜的那个汉子？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00114",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 114,
+      "seq_in_scene": 98,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "不错。你吃酒来了？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00115",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 115,
+      "seq_in_scene": 99,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00116",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 116,
+      "seq_in_scene": 100,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "既是朋友，恕咱老张莽撞了。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00117",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 117,
+      "seq_in_scene": 101,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "不敢。是我错了。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00118",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 118,
+      "seq_in_scene": 102,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "笑话了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00119",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 119,
+      "seq_in_scene": 103,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00120",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 120,
+      "seq_in_scene": 104,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "请坐，请坐。我们一处来饮。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00121",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 121,
+      "seq_in_scene": 105,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "请，我的东道。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00122",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 122,
+      "seq_in_scene": 106,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哎，我的东道。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00123",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 123,
+      "seq_in_scene": 107,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我的东道吧。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003102_e00124",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 124,
+      "seq_in_scene": 108,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "说大话哪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00125",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 125,
+      "seq_in_scene": 109,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三好，快取好酒来。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00126",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 126,
+      "seq_in_scene": 110,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "是啦。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00127",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 127,
+      "seq_in_scene": 111,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "酒保取酒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00128",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 128,
+      "seq_in_scene": 112,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "酒到，我与你们三位斟上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00129",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 129,
+      "seq_in_scene": 113,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "请，干。哈哈哈……",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003102_e00130",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 130,
+      "seq_in_scene": 114,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "请问二位兄台尊姓大名？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00131",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 131,
+      "seq_in_scene": 115,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我姓刘名备字玄德，大树楼桑人氏。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00132",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 132,
+      "seq_in_scene": 116,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "在下张飞字翼德，涿州人氏。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00133",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 133,
+      "seq_in_scene": 117,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "刘、张二兄，失敬了。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00134",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 134,
+      "seq_in_scene": 118,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "张飞"
+      ],
+      "text": "不敢。尊兄大名？贵乡何处？",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003102_e00135",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 135,
+      "seq_in_scene": 119,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "小弟姓关名羽字云长，乃蒲州解良人氏。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003102_e00136",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 136,
+      "seq_in_scene": 120,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "张飞"
+      ],
+      "text": "关仁兄，失敬了。请问兄到此何事？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00137",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 137,
+      "seq_in_scene": 121,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "前来贸易未遂，俺意欲前去投军，与国家出力报效。",
+      "text_length": 23
+    },
+    {
+      "event_id": "70003102_e00138",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 138,
+      "seq_in_scene": 122,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我们志气相同。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00139",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 139,
+      "seq_in_scene": 123,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "不错，我三人志气相同，真是三生有缘。俺有意与二位兄台结为生死弟兄，不知二位意下如何？",
+      "text_length": 42
+    },
+    {
+      "event_id": "70003102_e00140",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 140,
+      "seq_in_scene": 124,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "我也正有此心。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00141",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 141,
+      "seq_in_scene": 125,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "正合我意。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00142",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 142,
+      "seq_in_scene": 126,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "真巧，三人走一条路啦。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00143",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 143,
+      "seq_in_scene": 127,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "今天正是黄道吉日，二位兄台请到舍下。我家有一桃园，花开茂盛。我三人就在桃园结拜，倒也吉利。",
+      "text_length": 45
+    },
+    {
+      "event_id": "70003102_e00144",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 144,
+      "seq_in_scene": 128,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "刘备"
+      ],
+      "text": "正要拜府。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00145",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 145,
+      "seq_in_scene": 129,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "岂敢。三好，命你准备乌牛白马，香烛果品，多多备些美酒佳肴，送到我家桃园，快去准备。",
+      "text_length": 41
+    },
+    {
+      "event_id": "70003102_e00146",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 146,
+      "seq_in_scene": 130,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "酒保"
+      ],
+      "text": "是啦。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003102_e00147",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 147,
+      "seq_in_scene": 131,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "酒保下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00148",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 148,
+      "seq_in_scene": 132,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "同西皮散板",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "弟兄巧遇在三好，结拜生死患难交。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003102_e00149",
+      "play_id": "70003102",
+      "scene_id": "70003102_s03",
+      "scene_no": 3,
+      "seq_global": 149,
+      "seq_in_scene": 133,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、关羽、张飞同笑，同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003102_e00150",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 150,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子上，摆香案、果品。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00151",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 151,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "有请三位老爷。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00152",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 152,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备、关羽、张飞同上，同焚香。院子暗下。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70003102_e00153",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 153,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "祝告：皇天后土、过往神灵，弟子刘备、关羽、张飞虽为异姓，今结金兰之好祸福共之。不求同年同月同日生，愿求同年同月同日死。一在三在，一死三亡。上报国家，下安黎庶，誓扶汉室基业。若有二意者，天神共鉴。",
+      "text_length": 97
+    },
+    {
+      "event_id": "70003102_e00154",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 154,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。刘备、关羽、张飞同焚香，同叩首。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003102_e00155",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 155,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "大哥请上，受小弟一拜。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00156",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 156,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞同拜刘备。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00157",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 157,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "二哥请上，受小弟一拜。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003102_e00158",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 158,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞拜关羽。院子上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00159",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 159,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "来了四位义士，拜访三位老爷。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003102_e00160",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 160,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "请到桃园一叙。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00161",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 161,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "有请列位义士。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003102_e00162",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 162,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。苏双、张世平、吕常、方雄同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "70003102_e00163",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 163,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "诸位义士。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00164",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 164,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "苏双",
+        "张世平",
+        "吕常",
+        "方雄"
+      ],
+      "text": "不敢，三位义士。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00165",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 165,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "诸位义士驾到，有何见教？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00166",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 166,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "苏双"
+      ],
+      "text": "闻听人言，三位义士，武艺精通，何不与国家出力报效？",
+      "text_length": 25
+    },
+    {
+      "event_id": "70003102_e00167",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 167,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "虽有此心，但缺良马兵器。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00168",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 168,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张世平"
+      ],
+      "text": "我愿赠良马五十匹，折铁两千斤。但不知三位使何兵器？",
+      "text_length": 25
+    },
+    {
+      "event_id": "70003102_e00169",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 169,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "双股宝剑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00170",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 170,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "冷艳锯。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003102_e00171",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 171,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "丈八蛇矛。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003102_e00172",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 172,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "苏双"
+      ],
+      "text": "待等择一吉日，打造兵器。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003102_e00173",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 173,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "多谢众位义士美意，桃园设宴，大家痛饮。请！正是：",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003102_e00174",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 174,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "群雄巧遇在范阳，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00175",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 175,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "桃园结义刘、关、张。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003102_e00176",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 176,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "苏双",
+        "张世平",
+        "吕常",
+        "方雄"
+      ],
+      "text": "赠送折铁与良骥，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00177",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 177,
+      "seq_in_scene": 28,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞"
+      ],
+      "text": "誓扶汉室锦家邦。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003102_e00178",
+      "play_id": "70003102",
+      "scene_id": "70003102_s04",
+      "scene_no": 4,
+      "seq_global": 178,
+      "seq_in_scene": 29,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    }
+  ],
+  "roles_inferred": true
+}

@@ -1,0 +1,125 @@
+{
+  "play": {
+    "play_id": "08005006",
+    "title": "双蛇斗",
+    "pdf_name": "08005006_双蛇斗.pdf",
+    "group_id": "08000000",
+    "page_count": 3,
+    "scene_count": 5,
+    "speech_count": 38,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/08005006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 70,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 8,
+      "other": 2,
+      "spoken": 27,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 2,
+    "density": 0.666667,
+    "avg_degree": 1.333333,
+    "avg_weighted_degree": 43.333333,
+    "max_edge_weight": 62,
+    "top_characters": [
+      {
+        "name": "青蛇",
+        "hangdang": "武旦",
+        "speech_count": 19,
+        "degree": 2,
+        "weighted_degree": 65
+      },
+      {
+        "name": "白素贞",
+        "hangdang": "武旦",
+        "speech_count": 18,
+        "degree": 1,
+        "weighted_degree": 62
+      },
+      {
+        "name": "四风旗",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 1,
+        "weighted_degree": 3
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "青蛇",
+      "label": "青蛇",
+      "raw_role": "（前）净，（后）武旦",
+      "hangdang": "武旦",
+      "speech_count": 19,
+      "text_length": 650,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 13,
+        "singing": 4,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "白素贞",
+      "label": "白素贞",
+      "raw_role": "武旦",
+      "hangdang": "武旦",
+      "speech_count": 18,
+      "text_length": 847,
+      "scene_count": 3,
+      "degree": 1,
+      "weighted_degree": 62,
+      "marker_category_counts": {
+        "singing": 4,
+        "other": 1,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "四风旗",
+      "label": "四风旗",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 3,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "白素贞",
+      "target": "青蛇",
+      "weight": 62,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "四风旗",
+      "target": "青蛇",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

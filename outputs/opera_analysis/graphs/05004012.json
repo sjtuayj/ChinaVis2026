@@ -1,0 +1,189 @@
+{
+  "play": {
+    "play_id": "05004012",
+    "title": "花子骂相",
+    "pdf_name": "05004012_花子骂相.pdf",
+    "group_id": "05000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 181,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/05004012",
+    "source_date": "2013-03-18",
+    "synopsis_length": 181,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 7,
+      "recitation": 3,
+      "spoken": 169,
+      "singing": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 182.0,
+    "max_edge_weight": 137,
+    "top_characters": [
+      {
+        "name": "孙降",
+        "hangdang": "丑",
+        "speech_count": 74,
+        "degree": 3,
+        "weighted_degree": 291
+      },
+      {
+        "name": "吕蒙正",
+        "hangdang": "小生",
+        "speech_count": 42,
+        "degree": 3,
+        "weighted_degree": 171
+      },
+      {
+        "name": "范太师",
+        "hangdang": "未知",
+        "speech_count": 41,
+        "degree": 3,
+        "weighted_degree": 167
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 24,
+        "degree": 3,
+        "weighted_degree": 99
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙降",
+      "label": "孙降",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 74,
+      "text_length": 3484,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 291,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 71,
+        "singing": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "吕蒙正",
+      "label": "吕蒙正",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 42,
+      "text_length": 634,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 171,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 39,
+        "other": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "范太师",
+      "label": "范太师",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 41,
+      "text_length": 505,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 167,
+      "marker_category_counts": {
+        "other": 4,
+        "spoken": 37
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 24,
+      "text_length": 277,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 22,
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "吕蒙正",
+      "target": "孙降",
+      "weight": 137,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 68,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "孙降",
+      "target": "范太师",
+      "weight": 117,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 58,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "范太师",
+      "target": "院子",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "孙降",
+      "target": "院子",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕蒙正",
+      "target": "院子",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "吕蒙正",
+      "target": "范太师",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "play": {
+    "play_id": "02002017",
+    "title": "昭君出塞",
+    "pdf_name": "02002017_昭君出塞.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 87,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/02002017",
+    "source_date": "2018-08-23",
+    "synopsis_length": 89,
+    "notes_length": 27,
+    "marker_category_counts": {
+      "other": 11,
+      "spoken": 61,
+      "singing": 12,
+      "stage_action": 1,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "avg_weighted_degree": 51.142857,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "王龙",
+        "hangdang": "丑",
+        "speech_count": 37,
+        "degree": 6,
+        "weighted_degree": 136
+      },
+      {
+        "name": "王昭君",
+        "hangdang": "旦",
+        "speech_count": 24,
+        "degree": 6,
+        "weighted_degree": 92
+      },
+      {
+        "name": "马夫",
+        "hangdang": "武生",
+        "speech_count": 13,
+        "degree": 6,
+        "weighted_degree": 58
+      },
+      {
+        "name": "兵卒",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 6,
+        "weighted_degree": 30
+      },
+      {
+        "name": "小番甲",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 6,
+        "weighted_degree": 18
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王龙",
+      "label": "王龙",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 37,
+      "text_length": 651,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 136,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 31,
+        "singing": 5
+      }
+    },
+    {
+      "id": "王昭君",
+      "label": "王昭君",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 24,
+      "text_length": 961,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "other": 10,
+        "spoken": 11,
+        "recitation": 1,
+        "singing": 2
+      }
+    },
+    {
+      "id": "马夫",
+      "label": "马夫",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 13,
+      "text_length": 121,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 58,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "兵卒",
+      "label": "兵卒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 55,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "spoken": 2,
+        "singing": 4
+      }
+    },
+    {
+      "id": "小番甲",
+      "label": "小番甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 77,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "二小番",
+      "label": "二小番",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 70,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 45,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "stage_action": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王昭君",
+      "target": "王龙",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王龙",
+      "target": "马夫",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "王龙",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王昭君",
+      "target": "马夫",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小番甲",
+      "target": "王龙",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "王龙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "王昭君",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "小番甲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "王昭君",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "众人",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "兵卒",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二小番",
+      "target": "马夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "兵卒",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "小番甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "王龙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "马夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "小番甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "王昭君",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "马夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小番甲",
+      "target": "王昭君",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小番甲",
+      "target": "马夫",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

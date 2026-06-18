@@ -1,0 +1,166 @@
+{
+  "play": {
+    "play_id": "01010016",
+    "title": "风云会",
+    "pdf_name": "01010016_风云会.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 4,
+    "speech_count": 53,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01010016",
+    "source_date": "2018-08-23",
+    "synopsis_length": 213,
+    "notes_length": 11,
+    "marker_category_counts": {
+      "other": 2,
+      "recitation": 1,
+      "spoken": 11,
+      "singing": 39
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 48.5,
+    "max_edge_weight": 78,
+    "top_characters": [
+      {
+        "name": "赵匡胤",
+        "hangdang": "红生",
+        "speech_count": 28,
+        "degree": 3,
+        "weighted_degree": 96
+      },
+      {
+        "name": "呼延赞",
+        "hangdang": "净",
+        "speech_count": 21,
+        "degree": 1,
+        "weighted_degree": 78
+      },
+      {
+        "name": "黄兴",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      },
+      {
+        "name": "马童",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵匡胤",
+      "label": "赵匡胤",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 28,
+      "text_length": 995,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 4,
+        "singing": 23
+      }
+    },
+    {
+      "id": "呼延赞",
+      "label": "呼延赞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 21,
+      "text_length": 407,
+      "scene_count": 3,
+      "degree": 1,
+      "weighted_degree": 78,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 16,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "黄兴",
+      "label": "黄兴",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 70,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "马童",
+      "label": "马童",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "呼延赞",
+      "target": "赵匡胤",
+      "weight": 78,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 38,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "赵匡胤",
+      "target": "黄兴",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵匡胤",
+      "target": "马童",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "马童",
+      "target": "黄兴",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

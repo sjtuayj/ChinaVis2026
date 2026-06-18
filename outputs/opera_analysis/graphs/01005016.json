@@ -1,0 +1,321 @@
+{
+  "play": {
+    "play_id": "01005016",
+    "title": "大劈棺",
+    "pdf_name": "01005016_大劈棺.pdf",
+    "group_id": "01000000",
+    "page_count": 10,
+    "scene_count": 3,
+    "speech_count": 291,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01005016",
+    "source_date": "2018-08-23",
+    "synopsis_length": 438,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 7,
+      "spoken": 256,
+      "singing": 26,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 195.333333,
+    "max_edge_weight": 150,
+    "top_characters": [
+      {
+        "name": "童儿",
+        "hangdang": "未知",
+        "speech_count": 88,
+        "degree": 5,
+        "weighted_degree": 360
+      },
+      {
+        "name": "田氏",
+        "hangdang": "花旦",
+        "speech_count": 84,
+        "degree": 5,
+        "weighted_degree": 325
+      },
+      {
+        "name": "庄周",
+        "hangdang": "老生",
+        "speech_count": 53,
+        "degree": 5,
+        "weighted_degree": 204
+      },
+      {
+        "name": "童男",
+        "hangdang": "未知",
+        "speech_count": 28,
+        "degree": 5,
+        "weighted_degree": 120
+      },
+      {
+        "name": "老板",
+        "hangdang": "未知",
+        "speech_count": 20,
+        "degree": 5,
+        "weighted_degree": 85
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "童儿",
+      "label": "童儿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 88,
+      "text_length": 1098,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 360,
+      "marker_category_counts": {
+        "spoken": 87,
+        "other": 1
+      }
+    },
+    {
+      "id": "田氏",
+      "label": "田氏",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 84,
+      "text_length": 1793,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 325,
+      "marker_category_counts": {
+        "singing": 15,
+        "spoken": 65,
+        "other": 3,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "庄周",
+      "label": "庄周",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 53,
+      "text_length": 1337,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 204,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 45,
+        "singing": 5,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "童男",
+      "label": "童男",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 28,
+      "text_length": 258,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 120,
+      "marker_category_counts": {
+        "spoken": 27,
+        "other": 1
+      }
+    },
+    {
+      "id": "老板",
+      "label": "老板",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 20,
+      "text_length": 101,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 85,
+      "marker_category_counts": {
+        "spoken": 20
+      }
+    },
+    {
+      "id": "王孙",
+      "label": "王孙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 18,
+      "text_length": 309,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 78,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 12
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "庄周",
+      "target": "田氏",
+      "weight": 150,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 74,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "田氏",
+      "target": "童儿",
+      "weight": 146,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 72,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "童儿",
+      "target": "老板",
+      "weight": 81,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "童儿",
+      "target": "童男",
+      "weight": 74,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 36,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "王孙",
+      "target": "童儿",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "庄周",
+      "target": "童儿",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王孙",
+      "target": "田氏",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "庄周",
+      "target": "童男",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王孙",
+      "target": "童男",
+      "weight": 20,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "田氏",
+      "target": "童男",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "庄周",
+      "target": "王孙",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "庄周",
+      "target": "老板",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王孙",
+      "target": "老板",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "田氏",
+      "target": "老板",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "童男",
+      "target": "老板",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

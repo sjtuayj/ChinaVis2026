@@ -1,0 +1,181 @@
+{
+  "play": {
+    "play_id": "01020012",
+    "title": "拷红",
+    "pdf_name": "01020012_拷红.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 82,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01020012",
+    "source_date": "2018-08-23",
+    "synopsis_length": 108,
+    "notes_length": 326,
+    "marker_category_counts": {
+      "other": 6,
+      "spoken": 76
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 84.0,
+    "max_edge_weight": 131,
+    "top_characters": [
+      {
+        "name": "红娘",
+        "hangdang": "旦",
+        "speech_count": 39,
+        "degree": 3,
+        "weighted_degree": 157
+      },
+      {
+        "name": "崔母",
+        "hangdang": "老旦",
+        "speech_count": 35,
+        "degree": 3,
+        "weighted_degree": 141
+      },
+      {
+        "name": "张珙",
+        "hangdang": "小生",
+        "speech_count": 5,
+        "degree": 3,
+        "weighted_degree": 23
+      },
+      {
+        "name": "崔莺莺",
+        "hangdang": "旦",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "红娘",
+      "label": "红娘",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 39,
+      "text_length": 896,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "spoken": 35,
+        "other": 4
+      }
+    },
+    {
+      "id": "崔母",
+      "label": "崔母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 35,
+      "text_length": 595,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 141,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 34
+      }
+    },
+    {
+      "id": "张珙",
+      "label": "张珙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 5,
+      "text_length": 87,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 4,
+        "other": 1
+      }
+    },
+    {
+      "id": "崔莺莺",
+      "label": "崔莺莺",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 3,
+      "text_length": 17,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "崔母",
+      "target": "红娘",
+      "weight": 131,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 65,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张珙",
+      "target": "红娘",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崔莺莺",
+      "target": "红娘",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崔母",
+      "target": "张珙",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崔母",
+      "target": "崔莺莺",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "崔莺莺",
+      "target": "张珙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

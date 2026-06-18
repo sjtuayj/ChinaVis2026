@@ -1,0 +1,309 @@
+{
+  "play": {
+    "play_id": "02002005",
+    "title": "大十面",
+    "pdf_name": "02002005_大十面.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 42,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/02002005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 57,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 10,
+      "spoken": 27,
+      "recitation": 3,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 23.0,
+    "max_edge_weight": 17,
+    "top_characters": [
+      {
+        "name": "韩信",
+        "hangdang": "老生",
+        "speech_count": 23,
+        "degree": 5,
+        "weighted_degree": 37
+      },
+      {
+        "name": "项羽",
+        "hangdang": "净",
+        "speech_count": 5,
+        "degree": 5,
+        "weighted_degree": 25
+      },
+      {
+        "name": "众将",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 5,
+        "weighted_degree": 21
+      },
+      {
+        "name": "曹参",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 5,
+        "weighted_degree": 21
+      },
+      {
+        "name": "魏豹",
+        "hangdang": "丑",
+        "speech_count": 4,
+        "degree": 5,
+        "weighted_degree": 21
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "韩信",
+      "label": "韩信",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 23,
+      "text_length": 922,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "other": 10,
+        "spoken": 9,
+        "recitation": 2,
+        "stage_action": 2
+      }
+    },
+    {
+      "id": "项羽",
+      "label": "项羽",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 5,
+      "text_length": 68,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "众将",
+      "label": "众将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 18,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 21,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "曹参",
+      "label": "曹参",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 21,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "魏豹",
+      "label": "魏豹",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 4,
+      "text_length": 70,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 21,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "项羽",
+      "target": "魏豹",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹参",
+      "target": "韩信",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众将",
+      "target": "韩信",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "韩信",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众将",
+      "target": "曹参",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众将",
+      "target": "项羽",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "韩信",
+      "target": "项羽",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "众将",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "曹参",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "项羽",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "魏豹",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众将",
+      "target": "魏豹",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹参",
+      "target": "项羽",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹参",
+      "target": "魏豹",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "韩信",
+      "target": "魏豹",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

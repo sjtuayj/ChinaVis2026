@@ -1,0 +1,132 @@
+{
+  "play": {
+    "play_id": "70904208",
+    "title": "西游记·胖姑学舌",
+    "pdf_name": "70904208_西游记·胖姑学舌.pdf",
+    "group_id": "70904000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 50,
+    "character_count": 3,
+    "source_url": "https://scripts.xikao.com/play/70904208",
+    "source_date": "2021-07-21",
+    "synopsis_length": 53,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 45,
+      "other": 3,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 64.666667,
+    "max_edge_weight": 59,
+    "top_characters": [
+      {
+        "name": "王留",
+        "hangdang": "未知",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 78
+      },
+      {
+        "name": "胡老头",
+        "hangdang": "未知",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 78
+      },
+      {
+        "name": "胖姑",
+        "hangdang": "旦",
+        "speech_count": 10,
+        "degree": 2,
+        "weighted_degree": 38
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王留",
+      "label": "王留",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 20,
+      "text_length": 733,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 78,
+      "marker_category_counts": {
+        "spoken": 19,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "胡老头",
+      "label": "胡老头",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 20,
+      "text_length": 515,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 78,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "胖姑",
+      "label": "胖姑",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 10,
+      "text_length": 234,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "spoken": 7,
+        "other": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王留",
+      "target": "胡老头",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王留",
+      "target": "胖姑",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "胖姑",
+      "target": "胡老头",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

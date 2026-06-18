@@ -1,0 +1,290 @@
+{
+  "play": {
+    "play_id": "70005103",
+    "title": "将相和",
+    "pdf_name": "70005103_将相和.pdf",
+    "group_id": "70005000",
+    "page_count": 5,
+    "scene_count": 8,
+    "speech_count": 83,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/70005103",
+    "source_date": "2018-08-23",
+    "synopsis_length": 76,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 67,
+      "singing": 13,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 11,
+    "density": 0.52381,
+    "avg_degree": 3.142857,
+    "avg_weighted_degree": 45.428571,
+    "max_edge_weight": 44,
+    "top_characters": [
+      {
+        "name": "李贤",
+        "hangdang": "未知",
+        "speech_count": 23,
+        "degree": 3,
+        "weighted_degree": 95
+      },
+      {
+        "name": "廉颇",
+        "hangdang": "净",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 87
+      },
+      {
+        "name": "蔺相如",
+        "hangdang": "未知",
+        "speech_count": 25,
+        "degree": 5,
+        "weighted_degree": 86
+      },
+      {
+        "name": "侍卫",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 16
+      },
+      {
+        "name": "二侍卫",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 1,
+        "weighted_degree": 13
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李贤",
+      "label": "李贤",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 23,
+      "text_length": 539,
+      "scene_count": 5,
+      "degree": 3,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "spoken": 19,
+        "singing": 3,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "廉颇",
+      "label": "廉颇",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 24,
+      "text_length": 1056,
+      "scene_count": 6,
+      "degree": 5,
+      "weighted_degree": 87,
+      "marker_category_counts": {
+        "spoken": 19,
+        "singing": 4,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "蔺相如",
+      "label": "蔺相如",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 25,
+      "text_length": 1262,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 86,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "侍卫",
+      "label": "侍卫",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 64,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "二侍卫",
+      "label": "二侍卫",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 40,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "校尉",
+      "label": "校尉",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 14,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "兵卒",
+      "label": "兵卒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 19,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "廉颇",
+      "target": "李贤",
+      "weight": 44,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001",
+        "scene_004",
+        "scene_006",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "李贤",
+      "target": "蔺相如",
+      "weight": 44,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_005",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "廉颇",
+      "target": "蔺相如",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003",
+        "scene_008"
+      ]
+    },
+    {
+      "source": "侍卫",
+      "target": "蔺相如",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二侍卫",
+      "target": "廉颇",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "李贤",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "廉颇",
+      "target": "校尉",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "兵卒",
+      "target": "蔺相如",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "校尉",
+      "target": "蔺相如",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "侍卫",
+      "target": "廉颇",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "侍卫",
+      "target": "校尉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

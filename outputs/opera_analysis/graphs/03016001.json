@@ -1,0 +1,282 @@
+{
+  "play": {
+    "play_id": "03016001",
+    "title": "大回朝",
+    "pdf_name": "03016001_大回朝.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 78,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/03016001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 117,
+    "notes_length": 10,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 66,
+      "recitation": 5,
+      "singing": 3
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 12,
+    "density": 0.8,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 53.666667,
+    "max_edge_weight": 69,
+    "top_characters": [
+      {
+        "name": "闻仲",
+        "hangdang": "净",
+        "speech_count": 31,
+        "degree": 5,
+        "weighted_degree": 118
+      },
+      {
+        "name": "纣王",
+        "hangdang": "未知",
+        "speech_count": 21,
+        "degree": 4,
+        "weighted_degree": 88
+      },
+      {
+        "name": "尤浑",
+        "hangdang": "未知",
+        "speech_count": 11,
+        "degree": 4,
+        "weighted_degree": 48
+      },
+      {
+        "name": "费仲",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 30
+      },
+      {
+        "name": "八龙套",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 5,
+        "weighted_degree": 20
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "闻仲",
+      "label": "闻仲",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 31,
+      "text_length": 912,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 118,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 25,
+        "singing": 3
+      }
+    },
+    {
+      "id": "纣王",
+      "label": "纣王",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 21,
+      "text_length": 511,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 88,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 19,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "尤浑",
+      "label": "尤浑",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 63,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "费仲",
+      "label": "费仲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 62,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "八龙套",
+      "label": "八龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 8,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 41,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "纣王",
+      "target": "闻仲",
+      "weight": 69,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 34,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "尤浑",
+      "target": "纣王",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "尤浑",
+      "target": "费仲",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "尤浑",
+      "target": "闻仲",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "费仲",
+      "target": "闻仲",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "闻仲",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "八龙套",
+      "target": "闻仲",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "八龙套",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "八龙套",
+      "target": "尤浑",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "八龙套",
+      "target": "纣王",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "八龙套",
+      "target": "费仲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "纣王",
+      "target": "费仲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

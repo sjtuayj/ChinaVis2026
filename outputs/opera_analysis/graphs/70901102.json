@@ -1,0 +1,182 @@
+{
+  "play": {
+    "play_id": "70901102",
+    "title": "单刀会·刀会",
+    "pdf_name": "70901102_单刀会·刀会.pdf",
+    "group_id": "70901000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 164,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70901102",
+    "source_date": "2018-08-24",
+    "synopsis_length": 78,
+    "notes_length": 19,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 155,
+      "other": 7
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 162.0,
+    "max_edge_weight": 249,
+    "top_characters": [
+      {
+        "name": "关羽",
+        "hangdang": "净",
+        "speech_count": 77,
+        "degree": 3,
+        "weighted_degree": 301
+      },
+      {
+        "name": "鲁肃",
+        "hangdang": "未知",
+        "speech_count": 68,
+        "degree": 3,
+        "weighted_degree": 271
+      },
+      {
+        "name": "周仓",
+        "hangdang": "副净",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 65
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红净",
+      "hangdang": "净",
+      "speech_count": 77,
+      "text_length": 1979,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 301,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 69,
+        "other": 7
+      }
+    },
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 68,
+      "text_length": 1018,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 271,
+      "marker_category_counts": {
+        "spoken": 68
+      }
+    },
+    {
+      "id": "周仓",
+      "label": "周仓",
+      "raw_role": "副净",
+      "hangdang": "副净",
+      "speech_count": 17,
+      "text_length": 165,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 16
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 8,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "鲁肃",
+      "weight": 249,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 124,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "周仓",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "鲁肃",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "鲁肃",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "关羽",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "周仓",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

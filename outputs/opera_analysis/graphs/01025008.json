@@ -1,0 +1,232 @@
+{
+  "play": {
+    "play_id": "01025008",
+    "title": "刘秀走国",
+    "pdf_name": "01025008_刘秀走国.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 4,
+    "speech_count": 102,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01025008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 396,
+    "notes_length": 94,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 12,
+      "spoken": 88,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 77.2,
+    "max_edge_weight": 79,
+    "top_characters": [
+      {
+        "name": "姚期",
+        "hangdang": "净",
+        "speech_count": 34,
+        "degree": 3,
+        "weighted_degree": 120
+      },
+      {
+        "name": "邓禹",
+        "hangdang": "老生",
+        "speech_count": 25,
+        "degree": 4,
+        "weighted_degree": 99
+      },
+      {
+        "name": "项氏",
+        "hangdang": "老旦",
+        "speech_count": 23,
+        "degree": 3,
+        "weighted_degree": 84
+      },
+      {
+        "name": "刘秀",
+        "hangdang": "小生",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 55
+      },
+      {
+        "name": "差官甲",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 2,
+        "weighted_degree": 28
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "姚期",
+      "label": "姚期",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 34,
+      "text_length": 722,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 120,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 30,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "邓禹",
+      "label": "邓禹",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 25,
+      "text_length": 594,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 21
+      }
+    },
+    {
+      "id": "项氏",
+      "label": "项氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 23,
+      "text_length": 1647,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 84,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 20,
+        "singing": 2
+      }
+    },
+    {
+      "id": "刘秀",
+      "label": "刘秀",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 13,
+      "text_length": 215,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 10
+      }
+    },
+    {
+      "id": "差官甲",
+      "label": "差官甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 151,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "姚期",
+      "target": "项氏",
+      "weight": 79,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 38,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘秀",
+      "target": "邓禹",
+      "weight": 40,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "姚期",
+      "target": "邓禹",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "差官甲",
+      "target": "邓禹",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘秀",
+      "target": "姚期",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘秀",
+      "target": "项氏",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "邓禹",
+      "target": "项氏",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘秀",
+      "target": "差官甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "play": {
+    "play_id": "01001020",
+    "title": "宋江闹院",
+    "pdf_name": "01001020_宋江闹院.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 2,
+    "speech_count": 275,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01001020",
+    "source_date": "2013-08-23",
+    "synopsis_length": 478,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 6,
+      "spoken": 254,
+      "singing": 15
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 270.5,
+    "max_edge_weight": 401,
+    "top_characters": [
+      {
+        "name": "阎惜姣",
+        "hangdang": "花旦",
+        "speech_count": 134,
+        "degree": 3,
+        "weighted_degree": 530
+      },
+      {
+        "name": "宋江",
+        "hangdang": "老生",
+        "speech_count": 106,
+        "degree": 3,
+        "weighted_degree": 411
+      },
+      {
+        "name": "张文远",
+        "hangdang": "丑",
+        "speech_count": 33,
+        "degree": 3,
+        "weighted_degree": 132
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "阎惜姣",
+      "label": "阎惜姣",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 134,
+      "text_length": 1841,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 530,
+      "marker_category_counts": {
+        "spoken": 127,
+        "singing": 5,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "宋江",
+      "label": "宋江",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 106,
+      "text_length": 2484,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 411,
+      "marker_category_counts": {
+        "spoken": 100,
+        "singing": 6
+      }
+    },
+    {
+      "id": "张文远",
+      "label": "张文远",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 33,
+      "text_length": 463,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 132,
+      "marker_category_counts": {
+        "recitation": 4,
+        "spoken": 25,
+        "singing": 4
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 49,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "宋江",
+      "target": "阎惜姣",
+      "weight": 401,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 200,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "张文远",
+      "target": "阎惜姣",
+      "weight": 128,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 63,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "宋江",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "宋江",
+      "target": "张文远",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "张文远",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "阎惜姣",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

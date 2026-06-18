@@ -1,0 +1,2391 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "04010002",
+    "title": "三击掌",
+    "aliases": [],
+    "collection_id": "04000000",
+    "collection_name": "《京剧丛刊》",
+    "collection_remark": "《京剧丛刊》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/04000000/04010002_三击掌.pdf",
+    "source_url": "http://scripts.xikao.com/play/04010002",
+    "source_date": "2013-06-30",
+    "page_count": 4,
+    "file_size_bytes": 366183,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "王宝钏与薛平贵的婚姻遭到王允的坚决反对。王宝钏指责父亲嫌贫爱富，不守信义。最后，她毅然地脱下“日月龙凤袄”、“山河地理裙”，同父亲三击掌，离开相府，到寒窑和薛平贵结婚。",
+    "notes": [
+      "这个剧本是根据王瑶卿先生的演出本，由北京戏曲实验学校于玉蘅、常少亭与本院（中国戏曲研究院）编辑",
+      "处田淞、吕瑞明共同整理的。因原本就很完整，整理时，仅对个别词句略加修正。",
+      "根据《京剧丛刊》第十集整理"
+    ],
+    "story_period": {
+      "label": "隋唐",
+      "evidence": "唐、薛",
+      "confidence": 0.83
+    },
+    "play_genre": {
+      "label": "爱情婚姻戏",
+      "confidence": 0.58,
+      "evidence": [
+        "姻",
+        "婚"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_王宝钏",
+      "name": "王宝钏",
+      "original_category": "旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣",
+        "帝王/皇族"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 25,
+        "recitation_count": 1,
+        "expression_count": 5,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：王宝钏：旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_王允",
+      "name": "王允",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣",
+        "帝王/皇族"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 31,
+        "aria_count": 16,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：王允：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二家院",
+      "name": "二家院",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_家院甲",
+      "name": "家院甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_家院乙",
+      "name": "家院乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众丫鬟",
+      "name": "众丫鬟",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "忠义",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "父"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "title": "全剧",
+      "page_start": 1,
+      "page_end": 4,
+      "characters": [
+        "王允",
+        "二家院",
+        "王宝钏",
+        "家院甲",
+        "家院乙",
+        "众丫鬟"
+      ],
+      "event_ids": [
+        "04010002_e00001",
+        "04010002_e00002",
+        "04010002_e00003",
+        "04010002_e00004",
+        "04010002_e00005",
+        "04010002_e00006",
+        "04010002_e00007",
+        "04010002_e00008",
+        "04010002_e00009",
+        "04010002_e00010",
+        "04010002_e00011",
+        "04010002_e00012",
+        "04010002_e00013",
+        "04010002_e00014",
+        "04010002_e00015",
+        "04010002_e00016",
+        "04010002_e00017",
+        "04010002_e00018",
+        "04010002_e00019",
+        "04010002_e00020",
+        "04010002_e00021",
+        "04010002_e00022",
+        "04010002_e00023",
+        "04010002_e00024",
+        "04010002_e00025",
+        "04010002_e00026",
+        "04010002_e00027",
+        "04010002_e00028",
+        "04010002_e00029",
+        "04010002_e00030",
+        "04010002_e00031",
+        "04010002_e00032",
+        "04010002_e00033",
+        "04010002_e00034",
+        "04010002_e00035",
+        "04010002_e00036",
+        "04010002_e00037",
+        "04010002_e00038",
+        "04010002_e00039",
+        "04010002_e00040",
+        "04010002_e00041",
+        "04010002_e00042",
+        "04010002_e00043",
+        "04010002_e00044",
+        "04010002_e00045",
+        "04010002_e00046",
+        "04010002_e00047",
+        "04010002_e00048",
+        "04010002_e00049",
+        "04010002_e00050",
+        "04010002_e00051",
+        "04010002_e00052",
+        "04010002_e00053",
+        "04010002_e00054",
+        "04010002_e00055",
+        "04010002_e00056",
+        "04010002_e00057",
+        "04010002_e00058",
+        "04010002_e00059",
+        "04010002_e00060",
+        "04010002_e00061",
+        "04010002_e00062",
+        "04010002_e00063",
+        "04010002_e00064",
+        "04010002_e00065",
+        "04010002_e00066",
+        "04010002_e00067",
+        "04010002_e00068",
+        "04010002_e00069",
+        "04010002_e00070",
+        "04010002_e00071",
+        "04010002_e00072",
+        "04010002_e00073",
+        "04010002_e00074",
+        "04010002_e00075",
+        "04010002_e00076",
+        "04010002_e00077",
+        "04010002_e00078",
+        "04010002_e00079",
+        "04010002_e00080",
+        "04010002_e00081",
+        "04010002_e00082",
+        "04010002_e00083",
+        "04010002_e00084",
+        "04010002_e00085",
+        "04010002_e00086",
+        "04010002_e00087",
+        "04010002_e00088",
+        "04010002_e00089",
+        "04010002_e00090",
+        "04010002_e00091",
+        "04010002_e00092",
+        "04010002_e00093",
+        "04010002_e00094",
+        "04010002_e00095",
+        "04010002_e00096",
+        "04010002_e00097",
+        "04010002_e00098",
+        "04010002_e00099",
+        "04010002_e00100",
+        "04010002_e00101",
+        "04010002_e00102",
+        "04010002_e00103",
+        "04010002_e00104",
+        "04010002_e00105",
+        "04010002_e00106",
+        "04010002_e00107",
+        "04010002_e00108",
+        "04010002_e00109",
+        "04010002_e00110",
+        "04010002_e00111",
+        "04010002_e00112",
+        "04010002_e00113",
+        "04010002_e00114",
+        "04010002_e00115",
+        "04010002_e00116",
+        "04010002_e00117",
+        "04010002_e00118",
+        "04010002_e00119",
+        "04010002_e00120",
+        "04010002_e00121",
+        "04010002_e00122",
+        "04010002_e00123",
+        "04010002_e00124",
+        "04010002_e00125"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 125,
+        "spoken_count": 65,
+        "aria_count": 41,
+        "recitation_count": 2,
+        "stage_direction_count": 10,
+        "expression_count": 5,
+        "text_length": 2228
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "04010002_e00001",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王允上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "04010002_e00002",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "王允"
+      ],
+      "text": "调和鼎鼐，位列三台。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00003",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二家院同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00004",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "王允"
+      ],
+      "text": "金殿伴至尊，文武献殷勤。膝下无有子，富贵等浮云。",
+      "text_length": 24
+    },
+    {
+      "event_id": "04010002_e00005",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "老夫，王允。在唐室驾前为臣，官居首相。膝下无儿，所生三女：长女金钏，许配苏龙；次女银钏，许配魏虎；惟有三女宝钏尚未婚配。只因夫人染病在床，宝钏侍奉不离左右，且喜夫人病愈。是老夫奏明圣上，圣上见喜，赐我儿日月龙凤袄，山河地理裙；后宫娘娘闻知，又赐我儿五色绒线，绣成彩球；择定二月二日在十字街前，高搭彩楼，抛球招赘。唉！不想我儿打中花郎平贵。想老夫乃当朝首相，岂肯与花郎结亲；今日下朝观见新科状元才貌双全。我意欲将这门亲事打退，将我儿许配状元为妻，不知我儿心意如何？家院！",
+      "text_length": 234
+    },
+    {
+      "event_id": "04010002_e00006",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二家院"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "04010002_e00007",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "后堂传话，三姑娘出堂。",
+      "text_length": 11
+    },
+    {
+      "event_id": "04010002_e00008",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二家院"
+      ],
+      "text": "后堂传话，请三姑娘出堂。",
+      "text_length": 12
+    },
+    {
+      "event_id": "04010002_e00009",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四丫鬟、王宝钏同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00010",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "正宫赐绒线，抛球配良缘。",
+      "text_length": 12
+    },
+    {
+      "event_id": "04010002_e00011",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "爹爹万福。",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00012",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "罢了，一旁坐下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00013",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "告坐。唤女儿出堂，有何训教？",
+      "text_length": 14
+    },
+    {
+      "event_id": "04010002_e00014",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "恭喜我儿，贺喜我儿！",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00015",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿喜从何来呢？",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00016",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "我儿抛球招赘，可知打中哪家王孙公子？",
+      "text_length": 18
+    },
+    {
+      "event_id": "04010002_e00017",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿不知打中哪家王孙公子。",
+      "text_length": 13
+    },
+    {
+      "event_id": "04010002_e00018",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "什么王孙公子，就是那花郎平贵。",
+      "text_length": 15
+    },
+    {
+      "event_id": "04010002_e00019",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "花郎平贵！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00020",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "04010002_e00021",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿命该如此。",
+      "text_length": 7
+    },
+    {
+      "event_id": "04010002_e00022",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "儿啊，为父今日早朝，观见新科状元才貌双全，我意欲将这门亲事打退，将我儿许配状元为妻，不知我儿意下如何？",
+      "text_length": 51
+    },
+    {
+      "event_id": "04010002_e00023",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "爹爹在上，女儿先告不孝之罪。",
+      "text_length": 14
+    },
+    {
+      "event_id": "04010002_e00024",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "有话坐下讲。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00025",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "启禀爹爹：只因那年母亲染病，女儿每日在床前侍奉汤药，直到三载，母亲病体痊愈。后宫娘娘见喜，赐儿五色绒线，绣成彩球，择定二月二日，在十字街前，高搭彩楼，抛球招赘。打贫随贫，打富随富；慢说是打着花郎平贵，就是打着一块顽石，女儿也要抱……",
+      "text_length": 116
+    },
+    {
+      "event_id": "04010002_e00026",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "抱什么？",
+      "text_length": 4
+    },
+    {
+      "event_id": "04010002_e00027",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "抱它三载，以表温暖之情。",
+      "text_length": 12
+    },
+    {
+      "event_id": "04010002_e00028",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "嗳！想那彩球乃是玩物，抛球招赘，犹如儿戏一般，难道说把我儿的亲事就定死在花郎身上不成？",
+      "text_length": 43
+    },
+    {
+      "event_id": "04010002_e00029",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "啊爹爹，昔日孔夫子，绝粮陈蔡间；太公避纣乱，磻溪垂钓竿。二大古人尚且如此，何况那平贵乎？女儿一言既出驷马难追。打坐向前！",
+      "text_length": 60
+    },
+    {
+      "event_id": "04010002_e00030",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "啊？为父与你讲话，为何背过脸去，敢是与为父致气不成？",
+      "text_length": 26
+    },
+    {
+      "event_id": "04010002_e00031",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿怎敢与爹爹致气，怎奈婚姻已定，是万难更改！",
+      "text_length": 23
+    },
+    {
+      "event_id": "04010002_e00032",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "你待怎讲？",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00033",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "万难更改！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00034",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "儿就该掌嘴！",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00035",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "喂呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "04010002_e00036",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "小奴才说此话全不思想，只气得年迈人怒满胸膛。儿大姐配苏龙户部执掌，你二姐配魏虎兵部侍郎。惟有儿失训教性情倔强，千金体配花郎怎度时光。",
+      "text_length": 66
+    },
+    {
+      "event_id": "04010002_e00037",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 37,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮慢板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "老爹爹请息怒容儿细讲：儿命苦怎配得状元才郎。父道那薛平贵是花郎模样，落魄人得了志比父还强。",
+      "text_length": 45
+    },
+    {
+      "event_id": "04010002_e00038",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 38,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "薛平贵生来命不济，每日里在街头讨饭充饥。破衣褴衫遮不住体，遮住了肩头就露出了髁膝。",
+      "text_length": 41
+    },
+    {
+      "event_id": "04010002_e00039",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 39,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "昔日里有一个孟姜女，曾与那范郎送寒衣。哭倒了长城有数万里，至今留名万古题。",
+      "text_length": 37
+    },
+    {
+      "event_id": "04010002_e00040",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 40,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "我的儿本是丞相女，",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00041",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 41,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "就该配济世安邦定国臣。",
+      "text_length": 11
+    },
+    {
+      "event_id": "04010002_e00042",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 42,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "张良、韩信与苏秦，俱都是安邦定国臣；韩信乞食于漂母，登台拜帅第一人；商鞅不中苏季子，在六国封相人上人。",
+      "text_length": 51
+    },
+    {
+      "event_id": "04010002_e00043",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 43,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "登台拜帅是韩信，未央宫斩的是什么人？",
+      "text_length": 18
+    },
+    {
+      "event_id": "04010002_e00044",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 44,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "未央宫斩的是韩信，难道说文官就不丧身？",
+      "text_length": 19
+    },
+    {
+      "event_id": "04010002_e00045",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 45,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "小奴才真个不孝顺，仙姬女配的什么人？",
+      "text_length": 18
+    },
+    {
+      "event_id": "04010002_e00046",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 46,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "仙姬女配的是董永，大孝之人也受贫。",
+      "text_length": 17
+    },
+    {
+      "event_id": "04010002_e00047",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 47,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "奴才说话言语拧，句句顶得父心疼。",
+      "text_length": 16
+    },
+    {
+      "event_id": "04010002_e00048",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 48,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "非是孩儿言语拧，爹爹为何你要退婚？",
+      "text_length": 17
+    },
+    {
+      "event_id": "04010002_e00049",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 49,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "要退要退偏要退！",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00050",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 50,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "不能不能万不能！",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00051",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 51,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "你若不把亲事退，两件宝衣脱下身。",
+      "text_length": 16
+    },
+    {
+      "event_id": "04010002_e00052",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 52,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "请问爹爹，这两件宝衣是从何而来的？",
+      "text_length": 17
+    },
+    {
+      "event_id": "04010002_e00053",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 53,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "乃是圣上赐与为父的。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00054",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 54,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "圣上赐与爹爹所为何用？",
+      "text_length": 11
+    },
+    {
+      "event_id": "04010002_e00055",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 55,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "不过是念在君臣之义。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00056",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 56,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "却又来！圣上倒有君臣之义，难道爹爹你……就无有父女之情了么？",
+      "text_length": 30
+    },
+    {
+      "event_id": "04010002_e00057",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 57,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "只要我儿将这门亲事打退，慢说这两件宝衣，就是府下的金银也任儿搬取。",
+      "text_length": 33
+    },
+    {
+      "event_id": "04010002_e00058",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 58,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "儿不要了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00059",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 59,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "哼！",
+      "text_length": 2
+    },
+    {
+      "event_id": "04010002_e00060",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 60,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "先脱日月龙凤袄，后解山河地理裙。两件宝衣齐脱下，",
+      "text_length": 24
+    },
+    {
+      "event_id": "04010002_e00061",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 61,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王宝钏脱衣。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00062",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 62,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "家院甲"
+      ],
+      "text": "啊相爷，保重身体要紧，不要与三姑娘致气了。",
+      "text_length": 21
+    },
+    {
+      "event_id": "04010002_e00063",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 63,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "哼！不用你管。",
+      "text_length": 7
+    },
+    {
+      "event_id": "04010002_e00064",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 64,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "家院乙"
+      ],
+      "text": "啊相爷，不要与三姑娘致气了。",
+      "text_length": 14
+    },
+    {
+      "event_id": "04010002_e00065",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 65,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "哼！不用你管。",
+      "text_length": 7
+    },
+    {
+      "event_id": "04010002_e00066",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 66,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "喂呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "04010002_e00067",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 67,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "交与了嫌贫爱富的人。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00068",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 68,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王宝钏扔衣与王允，王允扔回。王宝钏扔与丫鬟。",
+      "text_length": 22
+    },
+    {
+      "event_id": "04010002_e00069",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 69,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "前堂不与父争论。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00070",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 70,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "哪里去？",
+      "text_length": 4
+    },
+    {
+      "event_id": "04010002_e00071",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 71,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "后堂去见儿的老娘亲。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00072",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 72,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "住了！前堂无有儿的父，后堂焉有儿的母。家院，丫鬟，哪个带你三姑娘去往后堂，打断尔的狗腿！",
+      "text_length": 44
+    },
+    {
+      "event_id": "04010002_e00073",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 73,
+      "seq_in_scene": 73,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "儿不去了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00074",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 74,
+      "seq_in_scene": 74,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "老爹爹你把心死了！",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00075",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 75,
+      "seq_in_scene": 75,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "怎见得为父把心死了？",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00076",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 76,
+      "seq_in_scene": 76,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "想大姐出嫁也有奁妆，二姐出嫁也有陪房，女儿今日出嫁，这两件宝衣都不叫儿穿去，又不叫儿拜别母亲，岂不是把心死了么？",
+      "text_length": 56
+    },
+    {
+      "event_id": "04010002_e00077",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 77,
+      "seq_in_scene": 77,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "为父方才言过，只要我儿将这门亲事打退，慢说是两件宝衣，就是府下的金银，任儿搬取，为父决不心疼。",
+      "text_length": 47
+    },
+    {
+      "event_id": "04010002_e00078",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 78,
+      "seq_in_scene": 78,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "儿不要了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00079",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 79,
+      "seq_in_scene": 79,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "全不怕笑你无信人。",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00080",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 80,
+      "seq_in_scene": 80,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "嗳！笑女不笑父。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00081",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 81,
+      "seq_in_scene": 81,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "笑父不笑女。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00082",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 82,
+      "seq_in_scene": 82,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "笑为父何来？",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00083",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 83,
+      "seq_in_scene": 83,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "笑爹爹嫌贫爱富。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00084",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 84,
+      "seq_in_scene": 84,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "为父嫌贫爱富，我为的是哪一个？",
+      "text_length": 15
+    },
+    {
+      "event_id": "04010002_e00085",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 85,
+      "seq_in_scene": 85,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿不知。",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00086",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 86,
+      "seq_in_scene": 86,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "就为的是你这小奴才。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00087",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 87,
+      "seq_in_scene": 87,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女儿之事，何劳爹爹挂念，你……与我坐定了！",
+      "text_length": 21
+    },
+    {
+      "event_id": "04010002_e00088",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 88,
+      "seq_in_scene": 88,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "手摸着胸膛想一想，膝下还有什么人？",
+      "text_length": 17
+    },
+    {
+      "event_id": "04010002_e00089",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 89,
+      "seq_in_scene": 89,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "膝下无儿怨我的命，女儿家养不得老来也送不得终。",
+      "text_length": 23
+    },
+    {
+      "event_id": "04010002_e00090",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 90,
+      "seq_in_scene": 90,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "若是母亲百年后，女儿是披麻带孝人。",
+      "text_length": 17
+    },
+    {
+      "event_id": "04010002_e00091",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 91,
+      "seq_in_scene": 91,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "倘若为父下世去，不用宝钏哭半声。",
+      "text_length": 16
+    },
+    {
+      "event_id": "04010002_e00092",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 92,
+      "seq_in_scene": 92,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "倘若爹爹身亡故，宝钏不来哭半声。",
+      "text_length": 16
+    },
+    {
+      "event_id": "04010002_e00093",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 93,
+      "seq_in_scene": 93,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "父死不把三女见，",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00094",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 94,
+      "seq_in_scene": 94,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "女死不见老爹尊。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00095",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 95,
+      "seq_in_scene": 95,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "日后谁把谁来见，",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00096",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 96,
+      "seq_in_scene": 96,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "用手挖去儿双睛。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00097",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 97,
+      "seq_in_scene": 97,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "为父不信哪！",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00098",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 98,
+      "seq_in_scene": 98,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "父不信与儿三击掌，",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00099",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 99,
+      "seq_in_scene": 99,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "活活气坏年迈人。无奈何与儿三击掌，（王宝钏、王允欲击掌，家院、丫鬟相拦。王宝钏、王允欲击掌，家院、丫鬟相拦。王宝钏、王允同三击掌，王允踹王宝钏跌地。）",
+      "text_length": 75
+    },
+    {
+      "event_id": "04010002_e00100",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 100,
+      "seq_in_scene": 100,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "哼！轰了出去！",
+      "text_length": 7
+    },
+    {
+      "event_id": "04010002_e00101",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 101,
+      "seq_in_scene": 101,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "喂呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "04010002_e00102",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 102,
+      "seq_in_scene": 102,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "一霎时失了父女情。",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00103",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 103,
+      "seq_in_scene": 103,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "实可恨爹爹做事心太狠，竟将我亲女赶出了府门。可叹老娘疼儿甚，现在后堂无所闻。眼望后堂深施礼，",
+      "text_length": 46
+    },
+    {
+      "event_id": "04010002_e00104",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 104,
+      "seq_in_scene": 104,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "哭头",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "喂呀，儿的娘啊！",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00105",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 105,
+      "seq_in_scene": 105,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "一朝断肠两离分。悲悲切切出府门，",
+      "text_length": 16
+    },
+    {
+      "event_id": "04010002_e00106",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 106,
+      "seq_in_scene": 106,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众丫鬟"
+      ],
+      "text": "三姑娘！",
+      "text_length": 4
+    },
+    {
+      "event_id": "04010002_e00107",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 107,
+      "seq_in_scene": 107,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "呀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "04010002_e00108",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 108,
+      "seq_in_scene": 108,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "又听丫鬟唤一声。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00109",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 109,
+      "seq_in_scene": 109,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "你们前来作甚？",
+      "text_length": 7
+    },
+    {
+      "event_id": "04010002_e00110",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 110,
+      "seq_in_scene": 110,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众丫鬟"
+      ],
+      "text": "我们舍不得三姑娘啊……",
+      "text_length": 11
+    },
+    {
+      "event_id": "04010002_e00111",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 111,
+      "seq_in_scene": 111,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众丫鬟同哭。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00112",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 112,
+      "seq_in_scene": 112,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "噢！你们舍不得三姑娘，三姑娘焉能舍得你们。去到后堂，禀知我那贤德的母亲，就说你三姑娘往寒窑去了！",
+      "text_length": 48
+    },
+    {
+      "event_id": "04010002_e00113",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 113,
+      "seq_in_scene": 113,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "去到后堂忙禀告，禀知贤德的老娘亲。嘱咐你的言语要牢牢记紧！",
+      "text_length": 29
+    },
+    {
+      "event_id": "04010002_e00114",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 114,
+      "seq_in_scene": 114,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众丫鬟同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00115",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 115,
+      "seq_in_scene": 115,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "此一去不回相府的门。",
+      "text_length": 10
+    },
+    {
+      "event_id": "04010002_e00116",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 116,
+      "seq_in_scene": 116,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "叫头",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "母亲！亲娘！",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00117",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 117,
+      "seq_in_scene": 117,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "喂呀！母亲哪……",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00118",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 118,
+      "seq_in_scene": 118,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王宝钏"
+      ],
+      "text": "罢！",
+      "text_length": 2
+    },
+    {
+      "event_id": "04010002_e00119",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 119,
+      "seq_in_scene": 119,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王宝钏下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00120",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 120,
+      "seq_in_scene": 120,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "家院甲"
+      ],
+      "text": "三姑娘往寒窑去了。",
+      "text_length": 9
+    },
+    {
+      "event_id": "04010002_e00121",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 121,
+      "seq_in_scene": 121,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王允"
+      ],
+      "text": "不要赶她！",
+      "text_length": 5
+    },
+    {
+      "event_id": "04010002_e00122",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 122,
+      "seq_in_scene": 122,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "宝钏生来性倔强，气坏老夫痛断肠。这样奴才难教养，",
+      "text_length": 24
+    },
+    {
+      "event_id": "04010002_e00123",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 123,
+      "seq_in_scene": 123,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二家院同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "04010002_e00124",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 124,
+      "seq_in_scene": 124,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "王允"
+      ],
+      "text": "一旦无情奔他乡。",
+      "text_length": 8
+    },
+    {
+      "event_id": "04010002_e00125",
+      "play_id": "04010002",
+      "scene_id": "04010002_s01",
+      "scene_no": 1,
+      "seq_global": 125,
+      "seq_in_scene": 125,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "王允下。",
+      "text_length": 4
+    }
+  ],
+  "roles_inferred": true
+}

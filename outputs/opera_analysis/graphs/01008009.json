@@ -1,0 +1,408 @@
+{
+  "play": {
+    "play_id": "01008009",
+    "title": "遇龙封官",
+    "pdf_name": "01008009_遇龙封官.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 5,
+    "speech_count": 194,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01008009",
+    "source_date": "2015-04-20",
+    "synopsis_length": 480,
+    "notes_length": 27,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 169,
+      "singing": 8,
+      "recitation": 12,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 21,
+    "density": 0.75,
+    "avg_degree": 5.25,
+    "avg_weighted_degree": 96.25,
+    "max_edge_weight": 114,
+    "top_characters": [
+      {
+        "name": "朱棣",
+        "hangdang": "老生",
+        "speech_count": 55,
+        "degree": 6,
+        "weighted_degree": 218
+      },
+      {
+        "name": "白简",
+        "hangdang": "小生",
+        "speech_count": 56,
+        "degree": 7,
+        "weighted_degree": 208
+      },
+      {
+        "name": "林江",
+        "hangdang": "丑",
+        "speech_count": 42,
+        "degree": 7,
+        "weighted_degree": 158
+      },
+      {
+        "name": "内监",
+        "hangdang": "未知",
+        "speech_count": 23,
+        "degree": 4,
+        "weighted_degree": 95
+      },
+      {
+        "name": "大太监",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 5,
+        "weighted_degree": 54
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "朱棣",
+      "label": "朱棣",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 55,
+      "text_length": 1516,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 218,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 48,
+        "singing": 4,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "白简",
+      "label": "白简",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 56,
+      "text_length": 1161,
+      "scene_count": 4,
+      "degree": 7,
+      "weighted_degree": 208,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 46,
+        "recitation": 5,
+        "singing": 4
+      }
+    },
+    {
+      "id": "林江",
+      "label": "林江",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 42,
+      "text_length": 802,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 158,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 38,
+        "recitation": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "内监",
+      "label": "内监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 23,
+      "text_length": 382,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 95,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 21
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 121,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "四小太监",
+      "label": "四小太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 17,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "众百姓",
+      "label": "众百姓",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 32,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "recitation": 2
+      }
+    },
+    {
+      "id": "龙套甲",
+      "label": "龙套甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "朱棣",
+      "target": "白简",
+      "weight": 114,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 56,
+      "scenes": [
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "林江",
+      "target": "白简",
+      "weight": 62,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "朱棣",
+      "target": "林江",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内监",
+      "target": "林江",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "朱棣",
+      "weight": 36,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内监",
+      "target": "白简",
+      "weight": 28,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "内监",
+      "target": "朱棣",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "大太监",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "内监",
+      "target": "四小太监",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四小太监",
+      "target": "林江",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "龙套甲",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "林江",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "朱棣",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "林江",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "白简",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四小太监",
+      "target": "白简",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "白简",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "朱棣",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "林江",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "白简",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

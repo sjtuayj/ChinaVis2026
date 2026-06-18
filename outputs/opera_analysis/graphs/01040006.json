@@ -1,0 +1,274 @@
+{
+  "play": {
+    "play_id": "01040006",
+    "title": "金光阵",
+    "pdf_name": "01040006_金光阵.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 54,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01040006",
+    "source_date": "2013-03-18",
+    "synopsis_length": 120,
+    "notes_length": 69,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 23,
+      "singing": 14,
+      "other": 14,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 11,
+    "density": 0.733333,
+    "avg_degree": 3.666667,
+    "avg_weighted_degree": 37.333333,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "樊梨花",
+        "hangdang": "旦",
+        "speech_count": 20,
+        "degree": 3,
+        "weighted_degree": 75
+      },
+      {
+        "name": "薛丁山",
+        "hangdang": "老生",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 67
+      },
+      {
+        "name": "秦汉",
+        "hangdang": "净",
+        "speech_count": 5,
+        "degree": 5,
+        "weighted_degree": 26
+      },
+      {
+        "name": "窦一虎",
+        "hangdang": "净",
+        "speech_count": 5,
+        "degree": 5,
+        "weighted_degree": 26
+      },
+      {
+        "name": "薛应龙",
+        "hangdang": "小生",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 17
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "樊梨花",
+      "label": "樊梨花",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 20,
+      "text_length": 282,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 75,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 7,
+        "other": 7,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "薛丁山",
+      "label": "薛丁山",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 17,
+      "text_length": 259,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 3,
+        "other": 7
+      }
+    },
+    {
+      "id": "秦汉",
+      "label": "秦汉",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 5,
+      "text_length": 33,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "窦一虎",
+      "label": "窦一虎",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 5,
+      "text_length": 43,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "薛应龙",
+      "label": "薛应龙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 4,
+      "text_length": 104,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 17,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3
+      }
+    },
+    {
+      "id": "乌礼黑",
+      "label": "乌礼黑",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 27,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "樊梨花",
+      "target": "薛丁山",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "樊梨花",
+      "target": "秦汉",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦汉",
+      "target": "薛应龙",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乌礼黑",
+      "target": "窦一虎",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "窦一虎",
+      "target": "薛应龙",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乌礼黑",
+      "target": "秦汉",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "樊梨花",
+      "target": "窦一虎",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "窦一虎",
+      "target": "薛丁山",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦汉",
+      "target": "窦一虎",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "乌礼黑",
+      "target": "薛应龙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "秦汉",
+      "target": "薛丁山",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

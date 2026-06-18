@@ -1,0 +1,247 @@
+{
+  "play": {
+    "play_id": "70001203",
+    "title": "金殿求计",
+    "pdf_name": "70001203_金殿求计.pdf",
+    "group_id": "70001000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 70,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/70001203",
+    "source_date": "2013-06-30",
+    "synopsis_length": 93,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 55,
+      "recitation": 1,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 56.8,
+    "max_edge_weight": 51,
+    "top_characters": [
+      {
+        "name": "孙权",
+        "hangdang": "净",
+        "speech_count": 28,
+        "degree": 4,
+        "weighted_degree": 114
+      },
+      {
+        "name": "鲁肃",
+        "hangdang": "老生",
+        "speech_count": 19,
+        "degree": 4,
+        "weighted_degree": 74
+      },
+      {
+        "name": "乔玄",
+        "hangdang": "老生",
+        "speech_count": 19,
+        "degree": 4,
+        "weighted_degree": 72
+      },
+      {
+        "name": "大太监",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "小太监",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙权",
+      "label": "孙权",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 28,
+      "text_length": 840,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 114,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 24,
+        "singing": 3
+      }
+    },
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 19,
+      "text_length": 619,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "spoken": 17,
+        "recitation": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "乔玄",
+      "label": "乔玄",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 19,
+      "text_length": 1121,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 72,
+      "marker_category_counts": {
+        "spoken": 10,
+        "singing": 8,
+        "other": 1
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 22,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "小太监",
+      "label": "小太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 24,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孙权",
+      "target": "鲁肃",
+      "weight": 51,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "孙权",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "鲁肃",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "孙权",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "孙权",
+      "target": "小太监",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "小太监",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "鲁肃",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "大太监",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "小太监",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小太监",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

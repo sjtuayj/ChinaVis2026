@@ -1,0 +1,382 @@
+{
+  "play": {
+    "play_id": "01009002",
+    "title": "斩马谡",
+    "pdf_name": "01009002_斩马谡.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 40,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01009002",
+    "source_date": "2018-08-23",
+    "synopsis_length": 346,
+    "notes_length": 164,
+    "marker_category_counts": {
+      "singing": 14,
+      "spoken": 20,
+      "other": 6
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "avg_weighted_degree": 24.857143,
+    "max_edge_weight": 41,
+    "top_characters": [
+      {
+        "name": "诸葛亮",
+        "hangdang": "老生",
+        "speech_count": 20,
+        "degree": 6,
+        "weighted_degree": 70
+      },
+      {
+        "name": "马谡",
+        "hangdang": "净",
+        "speech_count": 12,
+        "degree": 6,
+        "weighted_degree": 46
+      },
+      {
+        "name": "报子",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 6,
+        "weighted_degree": 14
+      },
+      {
+        "name": "王平",
+        "hangdang": "老生",
+        "speech_count": 2,
+        "degree": 6,
+        "weighted_degree": 14
+      },
+      {
+        "name": "手下",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 6,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "诸葛亮",
+      "label": "诸葛亮",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 20,
+      "text_length": 610,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 70,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 8,
+        "other": 4
+      }
+    },
+    {
+      "id": "马谡",
+      "label": "马谡",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 12,
+      "text_length": 268,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 46,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 7,
+        "other": 2
+      }
+    },
+    {
+      "id": "报子",
+      "label": "报子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 24,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "王平",
+      "label": "王平",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 2,
+      "text_length": 64,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "singing": 2
+      }
+    },
+    {
+      "id": "手下",
+      "label": "手下",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "singing": 1
+      }
+    },
+    {
+      "id": "龙套",
+      "label": "龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "诸葛亮",
+      "target": "马谡",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "诸葛亮",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王平",
+      "target": "诸葛亮",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "赵云",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "龙套",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "王平",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "诸葛亮",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "马谡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "手下",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "王平",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "马谡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王平",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王平",
+      "target": "马谡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王平",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "马谡",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "马谡",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

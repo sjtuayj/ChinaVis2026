@@ -1,0 +1,239 @@
+{
+  "play": {
+    "play_id": "02001013",
+    "title": "文王卜卦",
+    "pdf_name": "02001013_文王卜卦.pdf",
+    "group_id": "02000000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 14,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/02001013",
+    "source_date": "2016-08-29",
+    "synopsis_length": 159,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 13
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 13.6,
+    "max_edge_weight": 17,
+    "top_characters": [
+      {
+        "name": "姬昌",
+        "hangdang": "老生",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 26
+      },
+      {
+        "name": "天使",
+        "hangdang": "老生",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "伯邑考",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      },
+      {
+        "name": "狱官",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      },
+      {
+        "name": "梦神",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "姬昌",
+      "label": "姬昌",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 7,
+      "text_length": 1093,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    },
+    {
+      "id": "天使",
+      "label": "天使",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 4,
+      "text_length": 87,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "伯邑考",
+      "label": "伯邑考",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "狱官",
+      "label": "狱官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "梦神",
+      "label": "梦神",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 51,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "天使",
+      "target": "姬昌",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姬昌",
+      "target": "狱官",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "伯邑考",
+      "target": "姬昌",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "伯邑考",
+      "target": "梦神",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "伯邑考",
+      "target": "天使",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "伯邑考",
+      "target": "狱官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天使",
+      "target": "梦神",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天使",
+      "target": "狱官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姬昌",
+      "target": "梦神",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "梦神",
+      "target": "狱官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

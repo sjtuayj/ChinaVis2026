@@ -1,0 +1,150 @@
+{
+  "play": {
+    "play_id": "01013018",
+    "title": "老黄请医",
+    "pdf_name": "01013018_老黄请医.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 212,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01013018",
+    "source_date": "2013-06-30",
+    "synopsis_length": 124,
+    "notes_length": 156,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 207,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 3,
+    "density": 0.5,
+    "avg_degree": 1.5,
+    "avg_weighted_degree": 200.5,
+    "max_edge_weight": 351,
+    "top_characters": [
+      {
+        "name": "刘高手",
+        "hangdang": "丑",
+        "speech_count": 108,
+        "degree": 2,
+        "weighted_degree": 388
+      },
+      {
+        "name": "老黄",
+        "hangdang": "丑",
+        "speech_count": 92,
+        "degree": 2,
+        "weighted_degree": 364
+      },
+      {
+        "name": "女客",
+        "hangdang": "旦",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "男客",
+        "hangdang": "老生",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘高手",
+      "label": "刘高手",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 108,
+      "text_length": 2085,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 388,
+      "marker_category_counts": {
+        "spoken": 105,
+        "recitation": 3
+      }
+    },
+    {
+      "id": "老黄",
+      "label": "老黄",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 92,
+      "text_length": 868,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 364,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 91
+      }
+    },
+    {
+      "id": "女客",
+      "label": "女客",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 12,
+      "text_length": 89,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "spoken": 11,
+        "other": 1
+      }
+    },
+    {
+      "id": "男客",
+      "label": "男客",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘高手",
+      "target": "老黄",
+      "weight": 351,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 175,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘高手",
+      "target": "女客",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "女客",
+      "target": "老黄",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

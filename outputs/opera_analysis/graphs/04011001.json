@@ -1,0 +1,304 @@
+{
+  "play": {
+    "play_id": "04011001",
+    "title": "宇宙锋",
+    "pdf_name": "04011001_宇宙锋.pdf",
+    "group_id": "04000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 132,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/04011001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 215,
+    "notes_length": 42,
+    "marker_category_counts": {
+      "other": 9,
+      "spoken": 113,
+      "singing": 10
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 13,
+    "density": 0.619048,
+    "avg_degree": 3.714286,
+    "avg_weighted_degree": 74.285714,
+    "max_edge_weight": 116,
+    "top_characters": [
+      {
+        "name": "赵高",
+        "hangdang": "净",
+        "speech_count": 50,
+        "degree": 5,
+        "weighted_degree": 195
+      },
+      {
+        "name": "赵女",
+        "hangdang": "旦",
+        "speech_count": 41,
+        "degree": 5,
+        "weighted_degree": 155
+      },
+      {
+        "name": "秦二世",
+        "hangdang": "小生",
+        "speech_count": 31,
+        "degree": 5,
+        "weighted_degree": 123
+      },
+      {
+        "name": "门官",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 3,
+        "weighted_degree": 23
+      },
+      {
+        "name": "四朝臣",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 4,
+        "weighted_degree": 16
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵高",
+      "label": "赵高",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 50,
+      "text_length": 624,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 195,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 49
+      }
+    },
+    {
+      "id": "赵女",
+      "label": "赵女",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 41,
+      "text_length": 1160,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 155,
+      "marker_category_counts": {
+        "other": 7,
+        "spoken": 25,
+        "singing": 9
+      }
+    },
+    {
+      "id": "秦二世",
+      "label": "秦二世",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 31,
+      "text_length": 415,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 123,
+      "marker_category_counts": {
+        "spoken": 29,
+        "singing": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "门官",
+      "label": "门官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 37,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "四朝臣",
+      "label": "四朝臣",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 22,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "哑丫鬟",
+      "label": "哑丫鬟",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "赵女",
+      "target": "赵高",
+      "weight": 116,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 57,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦二世",
+      "target": "赵高",
+      "weight": 68,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 33,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦二世",
+      "target": "赵女",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦二世",
+      "target": "门官",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "秦二世",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "赵高",
+      "target": "门官",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "赵女",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "赵高",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "秦二世",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "赵女",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "赵女",
+      "target": "门官",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "大太监",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "赵高",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

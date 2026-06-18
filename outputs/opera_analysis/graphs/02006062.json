@@ -1,0 +1,189 @@
+{
+  "play": {
+    "play_id": "02006062",
+    "title": "渡银河",
+    "pdf_name": "02006062_渡银河.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 2,
+    "speech_count": 43,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02006062",
+    "source_date": "2020-08-02",
+    "synopsis_length": 85,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 8,
+      "spoken": 28,
+      "stage_action": 3,
+      "recitation": 4
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 37.5,
+    "max_edge_weight": 45,
+    "top_characters": [
+      {
+        "name": "杨玉环",
+        "hangdang": "旦",
+        "speech_count": 16,
+        "degree": 3,
+        "weighted_degree": 49
+      },
+      {
+        "name": "李隆基",
+        "hangdang": "老生",
+        "speech_count": 11,
+        "degree": 3,
+        "weighted_degree": 47
+      },
+      {
+        "name": "牛郎",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 28
+      },
+      {
+        "name": "织女",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 26
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杨玉环",
+      "label": "杨玉环",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 16,
+      "text_length": 425,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 11,
+        "stage_action": 1,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "李隆基",
+      "label": "李隆基",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 11,
+      "text_length": 106,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 47,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 7,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "牛郎",
+      "label": "牛郎",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 258,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "织女",
+      "label": "织女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 394,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 6,
+        "stage_action": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李隆基",
+      "target": "杨玉环",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "牛郎",
+      "target": "织女",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "杨玉环",
+      "target": "牛郎",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李隆基",
+      "target": "牛郎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李隆基",
+      "target": "织女",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "杨玉环",
+      "target": "织女",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

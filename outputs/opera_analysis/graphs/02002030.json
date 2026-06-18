@@ -1,0 +1,137 @@
+{
+  "play": {
+    "play_id": "02002030",
+    "title": "太行山",
+    "pdf_name": "02002030_太行山.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 86,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/02002030",
+    "source_date": "2018-08-23",
+    "synopsis_length": 108,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 71,
+      "recitation": 3,
+      "stage_action": 2,
+      "singing": 7
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 107.333333,
+    "max_edge_weight": 65,
+    "top_characters": [
+      {
+        "name": "姚刚",
+        "hangdang": "净",
+        "speech_count": 30,
+        "degree": 2,
+        "weighted_degree": 116
+      },
+      {
+        "name": "王英",
+        "hangdang": "老生",
+        "speech_count": 30,
+        "degree": 2,
+        "weighted_degree": 110
+      },
+      {
+        "name": "喽啰",
+        "hangdang": "未知",
+        "speech_count": 26,
+        "degree": 2,
+        "weighted_degree": 96
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "姚刚",
+      "label": "姚刚",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 30,
+      "text_length": 1065,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 116,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "spoken": 26,
+        "singing": 2
+      }
+    },
+    {
+      "id": "王英",
+      "label": "王英",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 30,
+      "text_length": 970,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 110,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 19,
+        "stage_action": 2,
+        "singing": 5,
+        "other": 2
+      }
+    },
+    {
+      "id": "喽啰",
+      "label": "喽啰",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 26,
+      "text_length": 225,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "spoken": 26
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "姚刚",
+      "target": "王英",
+      "weight": 65,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "喽啰",
+      "target": "姚刚",
+      "weight": 51,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "喽啰",
+      "target": "王英",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

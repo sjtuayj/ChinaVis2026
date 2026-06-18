@@ -1,0 +1,157 @@
+{
+  "play": {
+    "play_id": "03041005",
+    "title": "战山",
+    "pdf_name": "03041005_战山.pdf",
+    "group_id": "03000000",
+    "page_count": 6,
+    "scene_count": 4,
+    "speech_count": 118,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/03041005",
+    "source_date": "2013-03-19",
+    "synopsis_length": 214,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 88,
+      "singing": 24,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 3,
+    "density": 0.5,
+    "avg_degree": 1.5,
+    "avg_weighted_degree": 114.0,
+    "max_edge_weight": 214,
+    "top_characters": [
+      {
+        "name": "罗成",
+        "hangdang": "小生",
+        "speech_count": 60,
+        "degree": 3,
+        "weighted_degree": 228
+      },
+      {
+        "name": "秦琼",
+        "hangdang": "老生",
+        "speech_count": 55,
+        "degree": 1,
+        "weighted_degree": 214
+      },
+      {
+        "name": "四下手",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 9
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "罗成",
+      "label": "罗成",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 60,
+      "text_length": 1015,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 228,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 46,
+        "singing": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "秦琼",
+      "label": "秦琼",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 55,
+      "text_length": 2131,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 214,
+      "marker_category_counts": {
+        "singing": 14,
+        "spoken": 39,
+        "recitation": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "四下手",
+      "label": "四下手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 18,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "秦琼",
+      "target": "罗成",
+      "weight": 214,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 106,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四下手",
+      "target": "罗成",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "罗成",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

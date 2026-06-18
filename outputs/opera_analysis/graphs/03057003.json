@@ -1,0 +1,252 @@
+{
+  "play": {
+    "play_id": "03057003",
+    "title": "黛玉葬花",
+    "pdf_name": "03057003_黛玉葬花.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 93,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/03057003",
+    "source_date": "2013-09-12",
+    "synopsis_length": 72,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 11,
+      "spoken": 79,
+      "recitation": 2,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 64.0,
+    "max_edge_weight": 47,
+    "top_characters": [
+      {
+        "name": "林黛玉",
+        "hangdang": "旦",
+        "speech_count": 35,
+        "degree": 4,
+        "weighted_degree": 103
+      },
+      {
+        "name": "贾宝玉",
+        "hangdang": "小生",
+        "speech_count": 28,
+        "degree": 4,
+        "weighted_degree": 96
+      },
+      {
+        "name": "紫鹃",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 57
+      },
+      {
+        "name": "薛宝钗",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 44
+      },
+      {
+        "name": "晴雯",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "林黛玉",
+      "label": "林黛玉",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 35,
+      "text_length": 1140,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 103,
+      "marker_category_counts": {
+        "spoken": 28,
+        "singing": 5,
+        "other": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "贾宝玉",
+      "label": "贾宝玉",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 28,
+      "text_length": 969,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 24,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "紫鹃",
+      "label": "紫鹃",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 292,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 57,
+      "marker_category_counts": {
+        "spoken": 12,
+        "singing": 1
+      }
+    },
+    {
+      "id": "薛宝钗",
+      "label": "薛宝钗",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 237,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 44,
+      "marker_category_counts": {
+        "spoken": 11,
+        "singing": 2
+      }
+    },
+    {
+      "id": "晴雯",
+      "label": "晴雯",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 47,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "林黛玉",
+      "target": "紫鹃",
+      "weight": 47,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾宝玉",
+      "weight": 44,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾宝玉",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "晴雯",
+      "target": "林黛玉",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾宝玉",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "晴雯",
+      "target": "贾宝玉",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "晴雯",
+      "target": "薛宝钗",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "林黛玉",
+      "target": "薛宝钗",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "晴雯",
+      "target": "紫鹃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "紫鹃",
+      "target": "薛宝钗",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

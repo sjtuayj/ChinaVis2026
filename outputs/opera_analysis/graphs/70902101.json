@@ -1,0 +1,268 @@
+{
+  "play": {
+    "play_id": "70902101",
+    "title": "单刀会·刀会",
+    "pdf_name": "70902101_单刀会·刀会.pdf",
+    "group_id": "70902000",
+    "page_count": 7,
+    "scene_count": 2,
+    "speech_count": 189,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/70902101",
+    "source_date": "2018-08-23",
+    "synopsis_length": 95,
+    "notes_length": 187,
+    "marker_category_counts": {
+      "other": 10,
+      "spoken": 177,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 11,
+    "density": 0.733333,
+    "avg_degree": 3.666667,
+    "avg_weighted_degree": 123.0,
+    "max_edge_weight": 273,
+    "top_characters": [
+      {
+        "name": "关羽",
+        "hangdang": "净",
+        "speech_count": 84,
+        "degree": 4,
+        "weighted_degree": 326
+      },
+      {
+        "name": "鲁肃",
+        "hangdang": "未知",
+        "speech_count": 80,
+        "degree": 5,
+        "weighted_degree": 305
+      },
+      {
+        "name": "周仓",
+        "hangdang": "丑",
+        "speech_count": 20,
+        "degree": 4,
+        "weighted_degree": 78
+      },
+      {
+        "name": "哨手",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 12
+      },
+      {
+        "name": "二旗牌",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 84,
+      "text_length": 1980,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 326,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 74,
+        "other": 9
+      }
+    },
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 80,
+      "text_length": 1266,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 305,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 79
+      }
+    },
+    {
+      "id": "周仓",
+      "label": "周仓",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 20,
+      "text_length": 174,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 78,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "哨手",
+      "label": "哨手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 12,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "二旗牌",
+      "label": "二旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "鲁肃",
+      "weight": 273,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 136,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "周仓",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "鲁肃",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二旗牌",
+      "target": "鲁肃",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "哨手",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "哨手",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "周仓",
+      "target": "旗牌",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "鲁肃",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "哨手",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "哨手",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "play": {
+    "play_id": "90000021",
+    "title": "困曹府",
+    "pdf_name": "90000021_困曹府.pdf",
+    "group_id": "90000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 64,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/90000021",
+    "source_date": "2018-08-23",
+    "synopsis_length": 177,
+    "notes_length": 24,
+    "marker_category_counts": {
+      "spoken": 51,
+      "recitation": 5,
+      "singing": 6,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 49.6,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "赵匡胤",
+        "hangdang": "红生",
+        "speech_count": 29,
+        "degree": 4,
+        "weighted_degree": 102
+      },
+      {
+        "name": "曹彬",
+        "hangdang": "小生",
+        "speech_count": 19,
+        "degree": 4,
+        "weighted_degree": 74
+      },
+      {
+        "name": "张氏",
+        "hangdang": "旦",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 32
+      },
+      {
+        "name": "华佗",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 4,
+        "weighted_degree": 24
+      },
+      {
+        "name": "曹小姐",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 16
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵匡胤",
+      "label": "赵匡胤",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 29,
+      "text_length": 1067,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 102,
+      "marker_category_counts": {
+        "spoken": 25,
+        "recitation": 1,
+        "singing": 3
+      }
+    },
+    {
+      "id": "曹彬",
+      "label": "曹彬",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 19,
+      "text_length": 209,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "spoken": 16,
+        "recitation": 1,
+        "singing": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "张氏",
+      "label": "张氏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 7,
+      "text_length": 228,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 32,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 4,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "华佗",
+      "label": "华佗",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 152,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "曹小姐",
+      "label": "曹小姐",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 45,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 2,
+        "recitation": 1,
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "曹彬",
+      "target": "赵匡胤",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张氏",
+      "target": "赵匡胤",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华佗",
+      "target": "赵匡胤",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹小姐",
+      "target": "曹彬",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华佗",
+      "target": "张氏",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张氏",
+      "target": "曹小姐",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华佗",
+      "target": "曹小姐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华佗",
+      "target": "曹彬",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张氏",
+      "target": "曹彬",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "曹小姐",
+      "target": "赵匡胤",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

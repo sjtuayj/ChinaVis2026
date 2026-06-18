@@ -1,0 +1,8330 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "03090006",
+    "title": "割麦装神",
+    "aliases": [],
+    "collection_id": "03000000",
+    "collection_name": "《京剧汇编》",
+    "collection_remark": "《京剧汇编》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/03000000/03090006_割麦装神.pdf",
+    "source_url": "http://scripts.xikao.com/play/03090006",
+    "source_date": "2018-08-23",
+    "page_count": 14,
+    "file_size_bytes": 459461,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "诸葛亮与司马懿会战于祁山，诸葛亮军缺粮，欲抢割陇上之麦以充军用，不料司马懿早有防备，遂使部下兵将伪扮天兵天将，并在军中觅与与己面貌相似者，乔装坐车上以惑魏军。司马懿果中计，不敢交战。陇上之小麦尽为蜀军抢割。根据《京剧汇编》第九十集：孙盛文藏本整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "蜀、魏、吴、诸葛、司马懿",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.78,
+      "evidence": [
+        "战",
+        "兵",
+        "将",
+        "马"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 54,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 2,
+        "action_hint_count": 18,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：诸葛亮：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_司马懿",
+      "name": "司马懿",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 56,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：司马懿：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_姜维",
+      "name": "姜维",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_魏延",
+      "name": "魏延",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 22,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马岱",
+      "name": "马岱",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 22,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_关兴",
+      "name": "关兴",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 23,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_王平",
+      "name": "王平",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_刘禅",
+      "name": "刘禅",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_蒋琬",
+      "name": "蒋琬",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_费袆",
+      "name": "费袆",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马忠",
+      "name": "马忠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 19,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四龙套",
+      "name": "四龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "谨慎",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 28,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四下手",
+      "name": "四下手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "谨慎",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 28,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_龙套甲",
+      "name": "龙套甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张郃",
+      "name": "张郃",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_郭淮",
+      "name": "郭淮",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四文堂",
+      "name": "四文堂",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四大铠",
+      "name": "四大铠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四上手",
+      "name": "四上手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_上手甲",
+      "name": "上手甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四兵士",
+      "name": "四兵士",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵士甲",
+      "name": "兵士甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵士乙",
+      "name": "兵士乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵士丙",
+      "name": "兵士丙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵士丁",
+      "name": "兵士丁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_假诸葛亮",
+      "name": "假诸葛亮",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 2,
+        "action_hint_count": 7,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_假法师",
+      "name": "假法师",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 11,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_乐綝",
+      "name": "乐綝",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张虎",
+      "name": "张虎",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "诸葛亮",
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "event_ids": [
+        "03090006_e00001",
+        "03090006_e00002",
+        "03090006_e00003",
+        "03090006_e00004",
+        "03090006_e00005",
+        "03090006_e00006",
+        "03090006_e00007",
+        "03090006_e00008",
+        "03090006_e00009",
+        "03090006_e00010",
+        "03090006_e00011",
+        "03090006_e00012",
+        "03090006_e00013",
+        "03090006_e00014",
+        "03090006_e00015",
+        "03090006_e00016",
+        "03090006_e00017"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 17,
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 194
+      }
+    },
+    {
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 4,
+      "characters": [
+        "刘禅",
+        "蒋琬",
+        "费袆",
+        "诸葛亮"
+      ],
+      "event_ids": [
+        "03090006_e00018",
+        "03090006_e00019",
+        "03090006_e00020",
+        "03090006_e00021",
+        "03090006_e00022",
+        "03090006_e00023",
+        "03090006_e00024",
+        "03090006_e00025",
+        "03090006_e00026",
+        "03090006_e00027",
+        "03090006_e00028",
+        "03090006_e00029",
+        "03090006_e00030",
+        "03090006_e00031",
+        "03090006_e00032",
+        "03090006_e00033",
+        "03090006_e00034",
+        "03090006_e00035",
+        "03090006_e00036",
+        "03090006_e00037",
+        "03090006_e00038",
+        "03090006_e00039",
+        "03090006_e00040",
+        "03090006_e00041",
+        "03090006_e00042",
+        "03090006_e00043",
+        "03090006_e00044",
+        "03090006_e00045",
+        "03090006_e00046",
+        "03090006_e00047",
+        "03090006_e00048",
+        "03090006_e00049",
+        "03090006_e00050",
+        "03090006_e00051",
+        "03090006_e00052",
+        "03090006_e00053",
+        "03090006_e00054",
+        "03090006_e00055",
+        "03090006_e00056",
+        "03090006_e00057",
+        "03090006_e00058",
+        "03090006_e00059",
+        "03090006_e00060",
+        "03090006_e00061",
+        "03090006_e00062",
+        "03090006_e00063",
+        "03090006_e00064",
+        "03090006_e00065",
+        "03090006_e00066",
+        "03090006_e00067",
+        "03090006_e00068",
+        "03090006_e00069",
+        "03090006_e00070",
+        "03090006_e00071",
+        "03090006_e00072",
+        "03090006_e00073",
+        "03090006_e00074",
+        "03090006_e00075",
+        "03090006_e00076",
+        "03090006_e00077",
+        "03090006_e00078",
+        "03090006_e00079",
+        "03090006_e00080",
+        "03090006_e00081"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 64,
+        "spoken_count": 43,
+        "aria_count": 0,
+        "recitation_count": 5,
+        "stage_direction_count": 9,
+        "expression_count": 0,
+        "text_length": 1069
+      }
+    },
+    {
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 4,
+      "page_end": 4,
+      "characters": [
+        "诸葛亮",
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平",
+        "马忠"
+      ],
+      "event_ids": [
+        "03090006_e00082",
+        "03090006_e00083",
+        "03090006_e00084",
+        "03090006_e00085",
+        "03090006_e00086",
+        "03090006_e00087"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 64
+      }
+    },
+    {
+      "scene_id": "03090006_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 4,
+      "page_end": 4,
+      "characters": [
+        "报子"
+      ],
+      "event_ids": [
+        "03090006_e00088",
+        "03090006_e00089",
+        "03090006_e00090",
+        "03090006_e00091"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 4,
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 76
+      }
+    },
+    {
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 4,
+      "page_end": 5,
+      "characters": [
+        "司马懿",
+        "报子",
+        "四龙套",
+        "四下手",
+        "龙套甲",
+        "张郃",
+        "郭淮"
+      ],
+      "event_ids": [
+        "03090006_e00092",
+        "03090006_e00093",
+        "03090006_e00094",
+        "03090006_e00095",
+        "03090006_e00096",
+        "03090006_e00097",
+        "03090006_e00098",
+        "03090006_e00099",
+        "03090006_e00100",
+        "03090006_e00101",
+        "03090006_e00102",
+        "03090006_e00103",
+        "03090006_e00104",
+        "03090006_e00105",
+        "03090006_e00106",
+        "03090006_e00107",
+        "03090006_e00108",
+        "03090006_e00109",
+        "03090006_e00110",
+        "03090006_e00111",
+        "03090006_e00112",
+        "03090006_e00113",
+        "03090006_e00114",
+        "03090006_e00115",
+        "03090006_e00116",
+        "03090006_e00117",
+        "03090006_e00118",
+        "03090006_e00119",
+        "03090006_e00120",
+        "03090006_e00121",
+        "03090006_e00122",
+        "03090006_e00123",
+        "03090006_e00124",
+        "03090006_e00125",
+        "03090006_e00126",
+        "03090006_e00127",
+        "03090006_e00128",
+        "03090006_e00129",
+        "03090006_e00130",
+        "03090006_e00131",
+        "03090006_e00132",
+        "03090006_e00133"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 42,
+        "spoken_count": 32,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 551
+      }
+    },
+    {
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 5,
+      "page_end": 7,
+      "characters": [
+        "诸葛亮",
+        "四文堂",
+        "四大铠",
+        "报子",
+        "四上手",
+        "上手甲",
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "event_ids": [
+        "03090006_e00134",
+        "03090006_e00135",
+        "03090006_e00136",
+        "03090006_e00137",
+        "03090006_e00138",
+        "03090006_e00139",
+        "03090006_e00140",
+        "03090006_e00141",
+        "03090006_e00142",
+        "03090006_e00143",
+        "03090006_e00144",
+        "03090006_e00145",
+        "03090006_e00146",
+        "03090006_e00147",
+        "03090006_e00148",
+        "03090006_e00149",
+        "03090006_e00150",
+        "03090006_e00151",
+        "03090006_e00152",
+        "03090006_e00153",
+        "03090006_e00154",
+        "03090006_e00155",
+        "03090006_e00156",
+        "03090006_e00157",
+        "03090006_e00158",
+        "03090006_e00159",
+        "03090006_e00160",
+        "03090006_e00161",
+        "03090006_e00162",
+        "03090006_e00163",
+        "03090006_e00164",
+        "03090006_e00165",
+        "03090006_e00166",
+        "03090006_e00167",
+        "03090006_e00168",
+        "03090006_e00169",
+        "03090006_e00170",
+        "03090006_e00171",
+        "03090006_e00172",
+        "03090006_e00173",
+        "03090006_e00174",
+        "03090006_e00175",
+        "03090006_e00176",
+        "03090006_e00177",
+        "03090006_e00178",
+        "03090006_e00179",
+        "03090006_e00180",
+        "03090006_e00181",
+        "03090006_e00182",
+        "03090006_e00183",
+        "03090006_e00184",
+        "03090006_e00185",
+        "03090006_e00186",
+        "03090006_e00187",
+        "03090006_e00188",
+        "03090006_e00189",
+        "03090006_e00190",
+        "03090006_e00191",
+        "03090006_e00192",
+        "03090006_e00193",
+        "03090006_e00194",
+        "03090006_e00195"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 62,
+        "spoken_count": 46,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 9,
+        "expression_count": 0,
+        "text_length": 861
+      }
+    },
+    {
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 7,
+      "page_end": 8,
+      "characters": [
+        "司马懿",
+        "报子",
+        "四龙套",
+        "四下手"
+      ],
+      "event_ids": [
+        "03090006_e00196",
+        "03090006_e00197",
+        "03090006_e00198",
+        "03090006_e00199",
+        "03090006_e00200",
+        "03090006_e00201",
+        "03090006_e00202",
+        "03090006_e00203",
+        "03090006_e00204",
+        "03090006_e00205",
+        "03090006_e00206",
+        "03090006_e00207",
+        "03090006_e00208",
+        "03090006_e00209",
+        "03090006_e00210",
+        "03090006_e00211",
+        "03090006_e00212",
+        "03090006_e00213",
+        "03090006_e00214",
+        "03090006_e00215",
+        "03090006_e00216"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 15,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 307
+      }
+    },
+    {
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "title": "第八场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "诸葛亮",
+        "司马懿",
+        "四龙套",
+        "四下手"
+      ],
+      "event_ids": [
+        "03090006_e00217",
+        "03090006_e00218",
+        "03090006_e00219",
+        "03090006_e00220",
+        "03090006_e00221",
+        "03090006_e00222",
+        "03090006_e00223",
+        "03090006_e00224",
+        "03090006_e00225",
+        "03090006_e00226",
+        "03090006_e00227",
+        "03090006_e00228",
+        "03090006_e00229",
+        "03090006_e00230",
+        "03090006_e00231"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 15,
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 260
+      }
+    },
+    {
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "title": "第九场",
+      "page_start": 8,
+      "page_end": 9,
+      "characters": [
+        "四兵士",
+        "兵士甲",
+        "兵士乙",
+        "兵士丙",
+        "兵士丁"
+      ],
+      "event_ids": [
+        "03090006_e00232",
+        "03090006_e00233",
+        "03090006_e00234",
+        "03090006_e00235",
+        "03090006_e00236",
+        "03090006_e00237",
+        "03090006_e00238"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 7,
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 111
+      }
+    },
+    {
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "title": "第十场",
+      "page_start": 9,
+      "page_end": 10,
+      "characters": [
+        "诸葛亮",
+        "司马懿",
+        "四龙套",
+        "四下手"
+      ],
+      "event_ids": [
+        "03090006_e00239",
+        "03090006_e00240",
+        "03090006_e00241",
+        "03090006_e00242",
+        "03090006_e00243",
+        "03090006_e00244",
+        "03090006_e00245",
+        "03090006_e00246",
+        "03090006_e00247",
+        "03090006_e00248",
+        "03090006_e00249",
+        "03090006_e00250",
+        "03090006_e00251",
+        "03090006_e00252",
+        "03090006_e00253",
+        "03090006_e00254",
+        "03090006_e00255",
+        "03090006_e00256",
+        "03090006_e00257",
+        "03090006_e00258",
+        "03090006_e00259",
+        "03090006_e00260",
+        "03090006_e00261",
+        "03090006_e00262",
+        "03090006_e00263",
+        "03090006_e00264",
+        "03090006_e00265"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 27,
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 340
+      }
+    },
+    {
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "title": "第十一场",
+      "page_start": 10,
+      "page_end": 11,
+      "characters": [
+        "假诸葛亮",
+        "假法师",
+        "司马懿",
+        "四龙套",
+        "四下手",
+        "乐綝",
+        "张虎"
+      ],
+      "event_ids": [
+        "03090006_e00266",
+        "03090006_e00267",
+        "03090006_e00268",
+        "03090006_e00269",
+        "03090006_e00270",
+        "03090006_e00271",
+        "03090006_e00272",
+        "03090006_e00273",
+        "03090006_e00274",
+        "03090006_e00275",
+        "03090006_e00276",
+        "03090006_e00277",
+        "03090006_e00278",
+        "03090006_e00279",
+        "03090006_e00280",
+        "03090006_e00281",
+        "03090006_e00282",
+        "03090006_e00283",
+        "03090006_e00284",
+        "03090006_e00285",
+        "03090006_e00286",
+        "03090006_e00287",
+        "03090006_e00288",
+        "03090006_e00289",
+        "03090006_e00290",
+        "03090006_e00291",
+        "03090006_e00292",
+        "03090006_e00293",
+        "03090006_e00294",
+        "03090006_e00295",
+        "03090006_e00296",
+        "03090006_e00297"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 19,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 6,
+        "expression_count": 1,
+        "text_length": 452
+      }
+    },
+    {
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "title": "第十二场",
+      "page_start": 11,
+      "page_end": 11,
+      "characters": [
+        "假诸葛亮",
+        "假法师",
+        "司马懿",
+        "乐綝",
+        "张虎",
+        "四龙套",
+        "四下手"
+      ],
+      "event_ids": [
+        "03090006_e00298",
+        "03090006_e00299",
+        "03090006_e00300",
+        "03090006_e00301",
+        "03090006_e00302",
+        "03090006_e00303",
+        "03090006_e00304",
+        "03090006_e00305",
+        "03090006_e00306",
+        "03090006_e00307",
+        "03090006_e00308",
+        "03090006_e00309",
+        "03090006_e00310",
+        "03090006_e00311",
+        "03090006_e00312",
+        "03090006_e00313",
+        "03090006_e00314",
+        "03090006_e00315",
+        "03090006_e00316",
+        "03090006_e00317",
+        "03090006_e00318",
+        "03090006_e00319",
+        "03090006_e00320",
+        "03090006_e00321",
+        "03090006_e00322",
+        "03090006_e00323",
+        "03090006_e00324",
+        "03090006_e00325",
+        "03090006_e00326",
+        "03090006_e00327"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 30,
+        "spoken_count": 18,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 406
+      }
+    },
+    {
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "title": "第十三场",
+      "page_start": 11,
+      "page_end": 12,
+      "characters": [
+        "假诸葛亮",
+        "假法师",
+        "司马懿"
+      ],
+      "event_ids": [
+        "03090006_e00328",
+        "03090006_e00329",
+        "03090006_e00330",
+        "03090006_e00331",
+        "03090006_e00332",
+        "03090006_e00333",
+        "03090006_e00334",
+        "03090006_e00335",
+        "03090006_e00336",
+        "03090006_e00337",
+        "03090006_e00338"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 11,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 1,
+        "text_length": 182
+      }
+    },
+    {
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "title": "第十四场",
+      "page_start": 12,
+      "page_end": 13,
+      "characters": [
+        "诸葛亮",
+        "假法师",
+        "司马懿",
+        "关兴",
+        "姜维",
+        "魏延",
+        "马岱",
+        "报子"
+      ],
+      "event_ids": [
+        "03090006_e00339",
+        "03090006_e00340",
+        "03090006_e00341",
+        "03090006_e00342",
+        "03090006_e00343",
+        "03090006_e00344",
+        "03090006_e00345",
+        "03090006_e00346",
+        "03090006_e00347",
+        "03090006_e00348",
+        "03090006_e00349",
+        "03090006_e00350",
+        "03090006_e00351",
+        "03090006_e00352",
+        "03090006_e00353",
+        "03090006_e00354",
+        "03090006_e00355",
+        "03090006_e00356",
+        "03090006_e00357",
+        "03090006_e00358",
+        "03090006_e00359",
+        "03090006_e00360",
+        "03090006_e00361",
+        "03090006_e00362",
+        "03090006_e00363",
+        "03090006_e00364",
+        "03090006_e00365",
+        "03090006_e00366",
+        "03090006_e00367",
+        "03090006_e00368"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 30,
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 6,
+        "expression_count": 2,
+        "text_length": 407
+      }
+    },
+    {
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "title": "第十五场",
+      "page_start": 13,
+      "page_end": 13,
+      "characters": [
+        "司马懿",
+        "报子",
+        "四龙套",
+        "四下手"
+      ],
+      "event_ids": [
+        "03090006_e00369",
+        "03090006_e00370",
+        "03090006_e00371",
+        "03090006_e00372",
+        "03090006_e00373",
+        "03090006_e00374",
+        "03090006_e00375",
+        "03090006_e00376",
+        "03090006_e00377",
+        "03090006_e00378",
+        "03090006_e00379",
+        "03090006_e00380",
+        "03090006_e00381",
+        "03090006_e00382",
+        "03090006_e00383"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 15,
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 150
+      }
+    },
+    {
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "title": "第十六场",
+      "page_start": 13,
+      "page_end": 14,
+      "characters": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "event_ids": [
+        "03090006_e00384",
+        "03090006_e00385",
+        "03090006_e00386",
+        "03090006_e00387",
+        "03090006_e00388",
+        "03090006_e00389",
+        "03090006_e00390",
+        "03090006_e00391"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 8,
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 387
+      }
+    },
+    {
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "title": "第十七场",
+      "page_start": 14,
+      "page_end": 14,
+      "characters": [
+        "司马懿",
+        "四龙套",
+        "四下手",
+        "四文堂",
+        "四上手",
+        "姜维"
+      ],
+      "event_ids": [
+        "03090006_e00392",
+        "03090006_e00393",
+        "03090006_e00394",
+        "03090006_e00395",
+        "03090006_e00396",
+        "03090006_e00397",
+        "03090006_e00398",
+        "03090006_e00399",
+        "03090006_e00400",
+        "03090006_e00401"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 10,
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 125
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "03090006_e00001",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四大铠、诸葛亮同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00002",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "撤兵增灶，败司马，乘胜还朝。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00003",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "奉命伐曹魏，钦承御诏回。天若遂人愿，汉室一统归。",
+      "text_length": 24
+    },
+    {
+      "event_id": "03090006_e00004",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "老夫，诸葛亮。北伐中原，奉命还朝。兵撤祁山，增灶而退。可恨司马懿带兵随后追赶。曾命姜维等前去截杀，料可获胜。且候回令。",
+      "text_length": 59
+    },
+    {
+      "event_id": "03090006_e00005",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、魏延、马岱、关兴、王平、姜维同上。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03090006_e00006",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "末将等交令。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00007",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "站立两厢！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00008",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00009",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "胜负如何？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00010",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "司马懿败走。特来交令。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00011",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "记上功劳簿。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00012",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "谢丞相！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00013",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00014",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00015",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "兵回成都！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00016",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00017",
+      "play_id": "03090006",
+      "scene_id": "03090006_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00018",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、刘禅同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03090006_e00019",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "鼎峙三雄，灭吴魏，方成一统。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00020",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "蜀中立帝称王号，地利天时孙与曹。先君深得仁和义，南征北战半世劳。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03090006_e00021",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "孤，刘禅。立帝成都。父王晏驾白帝城，众卿辅孤继位。只因诸葛丞相兵出祁山，征伐中原。前者群臣奏道：“相父兵屯箕谷，有称帝之意。”曾下旨召他全军回朝，未见交旨。",
+      "text_length": 78
+    },
+    {
+      "event_id": "03090006_e00022",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蒋琬、费袆同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00023",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "蒋琬"
+      ],
+      "text": "丞相秉忠征曹魏，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00024",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "费袆"
+      ],
+      "text": "主听谗言反召归。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00025",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "启主公：诸葛丞相全军回朝，已在午门候旨。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00026",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "传朕旨意：宣丞相上殿。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00027",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "领旨！主公有旨：“宣诸葛丞相上殿。”",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00028",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "领旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00029",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00030",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "陛下万岁！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00031",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "老相父平身。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00032",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "万万岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00033",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "赐坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00034",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "谢坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00035",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮向蒋琬、费袆。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00036",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "啊二公！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00037",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00038",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "启陛下：老臣兵出祁山，欲取长安。陛下忽然降诏，不知有何大事？",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00039",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "这……啊，孤久不见相父之面，心甚思念，故召相父回朝。别无他事。",
+      "text_length": 31
+    },
+    {
+      "event_id": "03090006_e00040",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "此非陛下之心。必有奸臣谗陷，言臣有异志也！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03090006_e00041",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "这、这、这……",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00042",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "唉！老臣受先帝厚恩，誓以死报。今若内有奸邪，老臣安能讨贼乎！",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00043",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "这……嗐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00044",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "相父言如金石星明月朗，问得孤自沉吟满面惭惶。父晏驾军国事全仗丞相，平南蛮又扫北扶保孤王。久不见老相父朝思暮想，食同餐行相伴国事相商。今回朝享清福富贵安享，朕不舍年迈人亲临战场，力竭神伤！",
+      "text_length": 93
+    },
+    {
+      "event_id": "03090006_e00045",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "陛下！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00046",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "三顾恩铭肺腑时刻难忘，臣怎能怀异志辜负先王！用火攻烧藤甲兵亡马丧，东西战南北剿保定家邦。这几件些小功可对主上，又请旨伐中原报答先王。秉忠心尽劳瘁曹魏扫荡，王降旨召臣回所为哪桩？臣不是前朝的篡位王莽，这一片竭诚心，兴王霸业定国安邦，可对上苍！",
+      "text_length": 120
+    },
+    {
+      "event_id": "03090006_e00047",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "呀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00048",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "孤自恨听谗言无有度量，错疑了老相父为国忠良！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00049",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "咳，朕因误听宦官之言，一时召回相父。今日茅塞顿开，悔不及矣！",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00050",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 33,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "龙心宽放。蒋、费二公！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00051",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 34,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00052",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "二公在朝，何以不能觉察奸邪，规谏天子？",
+      "text_length": 19
+    },
+    {
+      "event_id": "03090006_e00053",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮稍停。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00054",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "速去将奸佞查明，待我发落。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03090006_e00055",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00056",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蒋琬、费祎同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00057",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "老相父，魏国兵势如何？",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00058",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "陛下！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00059",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "魏曹睿虽然是兵多将广，我国兵破数关虎赶群羊。指日里取长安陛下执掌，扫烟尘归一统国祚无疆。倚仗着得胜兵臣要复往，错过了此机会枉费心肠。臣回朝司马懿必起风浪，不收服空费了数载风霜，请我主仔细参详！",
+      "text_length": 96
+    },
+    {
+      "event_id": "03090006_e00060",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "奏之有理。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00061",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蒋琬、费袆同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00062",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "蒋琬"
+      ],
+      "text": "奸佞险误国，",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00063",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "费袆"
+      ],
+      "text": "主幼听谗言。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00064",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "启丞相：此等流言，乃是李严部将苟安回朝散布。今已查明。",
+      "text_length": 27
+    },
+    {
+      "event_id": "03090006_e00065",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "噢！是苟安散布的么？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00066",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00067",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "只为押粮误期，责打八十军棍，以致如此！苟安何在？",
+      "text_length": 24
+    },
+    {
+      "event_id": "03090006_e00068",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "投魏去了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00069",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "便宜了他！启陛下：请将妄奏的宦官诛戮，其余废出宫外。",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00070",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "丞相替孤代劳。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00071",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "领旨！蒋、费二公！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03090006_e00072",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "丞相！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00073",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "将妄奏的奸佞查明正法！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00074",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蒋琬",
+        "费袆"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00075",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蒋琬、费祎同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00076",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 59,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "启陛下：臣请以得胜之兵，复出祁山。不敢久停，就此辞别陛下。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03090006_e00077",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 60,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "咳，相父哇！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00078",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 61,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "出祁山取中原多感丞相，为社稷不辞劳饱受风霜。狼烟尽奏凯归富贵同享，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00079",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 62,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "老臣不敢。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00080",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 63,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘禅"
+      ],
+      "text": "孤赐你得胜酒即入陈仓。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00081",
+      "play_id": "03090006",
+      "scene_id": "03090006_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 64,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00082",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四文堂、四大铠、四上手、姜维、魏延、马岱、关兴、王平、马忠、诸葛亮同上。",
+      "text_length": 41
+    },
+    {
+      "event_id": "03090006_e00083",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00084",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 84,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平",
+        "马忠"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00085",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 85,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "兵发祁山！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00086",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平",
+        "马忠"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00087",
+      "play_id": "03090006",
+      "scene_id": "03090006_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00088",
+      "play_id": "03090006",
+      "scene_id": "03090006_s04",
+      "scene_no": 4,
+      "seq_global": 88,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00089",
+      "play_id": "03090006",
+      "scene_id": "03090006_s04",
+      "scene_no": 4,
+      "seq_global": 89,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "报子"
+      ],
+      "text": "日行千里走西川，披星戴月哪得闲。魏蜀几番争社稷，孔明五次伐中原。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03090006_e00090",
+      "play_id": "03090006",
+      "scene_id": "03090006_s04",
+      "scene_no": 4,
+      "seq_global": 90,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "俺，司马都督帐下能行探子是也。打听那孔明又出祁山，马上飞报都督得知便了！",
+      "text_length": 36
+    },
+    {
+      "event_id": "03090006_e00091",
+      "play_id": "03090006",
+      "scene_id": "03090006_s04",
+      "scene_no": 4,
+      "seq_global": 91,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00092",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 92,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、四下手、司马懿同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00093",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 93,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "点绛唇",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "魏蜀争强，统领兵将。大权掌，拓土开疆，韬略胸中藏。",
+      "text_length": 25
+    },
+    {
+      "event_id": "03090006_e00094",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 94,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "运筹帷幄制敌军，又承君恩领雄兵。诸葛逞强扶汉鼎，人力岂能扭天心！",
+      "text_length": 32
+    },
+    {
+      "event_id": "03090006_e00095",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 95,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "本督，司马懿。多亏苟安散布流言，孔明全军撤回成都。我料他必然再出祁山。主公命我领兵御敌。为此大会各路兵将，共议破蜀之策。曾命探子打探，未见回报！",
+      "text_length": 72
+    },
+    {
+      "event_id": "03090006_e00096",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 96,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00097",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 97,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00098",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 98,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启都督：孔明人马又出祁山！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03090006_e00099",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 99,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "噢！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00100",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 100,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "前部王平、张嶷径出陈仓，过剑阁，由散关往斜谷而来。特来报知。",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00101",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 101,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00102",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 102,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00103",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 103,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00104",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 104,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "左右！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00105",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 105,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00106",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 106,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "传张郃、郭淮进帐！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03090006_e00107",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 107,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "龙套甲"
+      ],
+      "text": "张郃、郭淮进帐！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00108",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 108,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "张郃",
+        "郭淮"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00109",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 109,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张郃、郭淮同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00110",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 110,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张郃"
+      ],
+      "text": "豪杰冲锋无人当，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00111",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 111,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "郭淮"
+      ],
+      "text": "文韬武略腹内藏。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00112",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 112,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张郃",
+        "郭淮"
+      ],
+      "text": "某——",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00113",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 113,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张郃"
+      ],
+      "text": "张郃。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00114",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 114,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "郭淮"
+      ],
+      "text": "郭淮。都督有令，一同进帐。参见都督！",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00115",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 115,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "将军少礼。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00116",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 116,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张郃",
+        "郭淮"
+      ],
+      "text": "唤末将进帐，有何差遣？",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00117",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 117,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "适才探子报道：孔明人马从斜谷而来。特与二位将军商议破蜀之计。",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00118",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 118,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张郃"
+      ],
+      "text": "某愿亲领兵将，去守雍、郿，以拒蜀兵。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00119",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 119,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "郭淮"
+      ],
+      "text": "某愿听指挥。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00120",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 120,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "我前军既不能独挡孔明之众，分兵前后，亦非胜算。不如留下兵将以守上邽，余众悉往祁山。张将军可为先锋否？",
+      "text_length": 50
+    },
+    {
+      "event_id": "03090006_e00121",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 121,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张郃"
+      ],
+      "text": "某素怀忠义，尽心报国，只是未遇知己。都督肯委重任，万死不辞。",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00122",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 122,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "好。就命将军以为先锋，总督大军。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03090006_e00123",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 123,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张郃"
+      ],
+      "text": "谢都督！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00124",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 124,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "孔明长驱大进，必割陇上小麦，以资军粮。张将军领兵四万去守祁山，郭将军巡瞭天水诸郡。本督亲领大兵，保守陇上，以防贼兵割麦。",
+      "text_length": 60
+    },
+    {
+      "event_id": "03090006_e00125",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 125,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张郃",
+        "郭淮"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00126",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 126,
+      "seq_in_scene": 35,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "就此分兵而行！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00127",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 127,
+      "seq_in_scene": 36,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张郃",
+        "郭淮"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00128",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 128,
+      "seq_in_scene": 37,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张郃、郭淮同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00129",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 129,
+      "seq_in_scene": 38,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00130",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 130,
+      "seq_in_scene": 39,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00131",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 131,
+      "seq_in_scene": 40,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "陇上去者！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00132",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 132,
+      "seq_in_scene": 41,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00133",
+      "play_id": "03090006",
+      "scene_id": "03090006_s05",
+      "scene_no": 5,
+      "seq_global": 133,
+      "seq_in_scene": 42,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00134",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 134,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四大铠、四上手、诸葛亮同上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00135",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 135,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "五伐中原，神妙策，辅汉顺天。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00136",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 136,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我到卤城日久。屡遣军人催粮，只是一去不见回音。据当地太守言道，陇上麦熟。我不免带领兵丁，前往陇上割麦，以充军粮。众将官！陇上去者！",
+      "text_length": 65
+    },
+    {
+      "event_id": "03090006_e00137",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 137,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四大铠"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00138",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 138,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我五次伐中原一呼百应，自古道兵未动粮草先行。今割麦助我军绝他军命，军无粮必自散如鸟失林。",
+      "text_length": 44
+    },
+    {
+      "event_id": "03090006_e00139",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 139,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00140",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 140,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00141",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 141,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启丞相：司马懿已在陇上扎营。特来报知。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03090006_e00142",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 142,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00143",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 143,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00144",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 144,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00145",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 145,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "唔呼呀，司马懿已知我前来割麦！这、这、这……",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00146",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 146,
+      "seq_in_scene": 13,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮想。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00147",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 147,
+      "seq_in_scene": 14,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哦、哦，我自有道理。众将官！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00148",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 148,
+      "seq_in_scene": 15,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四大铠"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00149",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 149,
+      "seq_in_scene": 16,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "撤兵回营！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00150",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 150,
+      "seq_in_scene": 17,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四大铠"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00151",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 151,
+      "seq_in_scene": 18,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "司马懿是将才甚是聪敏，猜透我诸葛亮肺腑之情。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00152",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 152,
+      "seq_in_scene": 19,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "左右！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00153",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 153,
+      "seq_in_scene": 20,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四上手",
+        "四大铠"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00154",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 154,
+      "seq_in_scene": 21,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "传我将令：命王平、张嶷、吴班、吴懿四将，去守祁山营寨！",
+      "text_length": 27
+    },
+    {
+      "event_id": "03090006_e00155",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 155,
+      "seq_in_scene": 22,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四大铠"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00156",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 156,
+      "seq_in_scene": 23,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四大铠同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00157",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 157,
+      "seq_in_scene": 24,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再推三辆车来，皆要与我乘坐的车一样装设。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00158",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 158,
+      "seq_in_scene": 25,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四上手"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00159",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 159,
+      "seq_in_scene": 26,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "传姜维、魏延、马岱、关兴进帐！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03090006_e00160",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 160,
+      "seq_in_scene": 27,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "上手甲"
+      ],
+      "text": "姜维、魏延、马岱、关兴进帐！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00161",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 161,
+      "seq_in_scene": 28,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00162",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 162,
+      "seq_in_scene": 29,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "姜维、魏延、马岱、关兴同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00163",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 163,
+      "seq_in_scene": 30,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00164",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 164,
+      "seq_in_scene": 31,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "列位将军少礼。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00165",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 165,
+      "seq_in_scene": 32,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "谢丞相！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00166",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 166,
+      "seq_in_scene": 33,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "姜维！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00167",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 167,
+      "seq_in_scene": 34,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00168",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 168,
+      "seq_in_scene": 35,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "命你带领一千雄兵，保护车辆。五百人擂鼓，埋伏在上邽之后。",
+      "text_length": 28
+    },
+    {
+      "event_id": "03090006_e00169",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 169,
+      "seq_in_scene": 36,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00170",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 170,
+      "seq_in_scene": 37,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马岱在左，魏延在右，各带领雄兵一千，保护车辆。五百人擂鼓。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03090006_e00171",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 171,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "魏延",
+        "马岱"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00172",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 172,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "每辆车上要二十四人，身穿皂衣，披发仗剑。手执七星幡，左右护车。",
+      "text_length": 31
+    },
+    {
+      "event_id": "03090006_e00173",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 173,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00174",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 174,
+      "seq_in_scene": 41,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吩咐三万精兵，各执镰刀，拿了绳索，准备割麦。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00175",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 175,
+      "seq_in_scene": 42,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00176",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 176,
+      "seq_in_scene": 43,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "再选二十四个精壮军士，各穿皂衣，披发仗剑，护拥车之前后，以为推车使者。",
+      "text_length": 35
+    },
+    {
+      "event_id": "03090006_e00177",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 177,
+      "seq_in_scene": 44,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00178",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 178,
+      "seq_in_scene": 45,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "关兴！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00179",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 179,
+      "seq_in_scene": 46,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关兴"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00180",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 180,
+      "seq_in_scene": 47,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你可扮做天篷星模样，手执七星皂幡，步行于吾车之前。",
+      "text_length": 25
+    },
+    {
+      "event_id": "03090006_e00181",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 181,
+      "seq_in_scene": 48,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00182",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 182,
+      "seq_in_scene": 49,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "查看营内将士，与山人相貌相似者，挑选三人。须要与我一般装束，坐在四轮车上，吓退魏军。我军兵丁好在陇上割麦。",
+      "text_length": 53
+    },
+    {
+      "event_id": "03090006_e00183",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 183,
+      "seq_in_scene": 50,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00184",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 184,
+      "seq_in_scene": 51,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "丞相精通奇门遁甲之法，何须要营中军人扮做丞相？",
+      "text_length": 23
+    },
+    {
+      "event_id": "03090006_e00185",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 185,
+      "seq_in_scene": 52,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "今日之计，所用者虽是奇门遁甲之术，但与司马懿交兵之时，扮我之人须要对阵讲话，方好哄那司马懿出营。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03090006_e00186",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 186,
+      "seq_in_scene": 53,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "原来如此。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00187",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 187,
+      "seq_in_scene": 54,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我今日吩咐之事，众将速速安排停当。听我令下！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00188",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 188,
+      "seq_in_scene": 55,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "军无粮兵无将怎能临阵，我安排神妙计吩咐众军。各扮做天神将须要谨慎，吓退了司马懿大功告成。",
+      "text_length": 44
+    },
+    {
+      "event_id": "03090006_e00189",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 189,
+      "seq_in_scene": 56,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "姜维",
+        "魏延",
+        "马岱",
+        "关兴"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00190",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 190,
+      "seq_in_scene": 57,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "马岱",
+        "关兴"
+      ],
+      "text": "奉将令将军务安顿齐整，",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00191",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 191,
+      "seq_in_scene": 58,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马岱、关兴同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00192",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 192,
+      "seq_in_scene": 59,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "姜维",
+        "魏延"
+      ],
+      "text": "要割麦教你我扮鬼装神。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00193",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 193,
+      "seq_in_scene": 60,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "姜维、魏延同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00194",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 194,
+      "seq_in_scene": 61,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "出祁山取关口收复数郡，骂王朗死阵前吓坏曹真。四辆车四孔明谅他难认，要惊吓司马懿割麦装神。",
+      "text_length": 44
+    },
+    {
+      "event_id": "03090006_e00195",
+      "play_id": "03090006",
+      "scene_id": "03090006_s06",
+      "scene_no": 6,
+      "seq_global": 195,
+      "seq_in_scene": 62,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00196",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 196,
+      "seq_in_scene": 1,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、四下手、乐綝、张虎引司马懿同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00197",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 197,
+      "seq_in_scene": 2,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "在陇上扎大营差人打听，此一战我要擒诸葛孔明。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00198",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 198,
+      "seq_in_scene": 3,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00199",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 199,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00200",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 200,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启都督：四轮车上端坐孔明。前后多少天兵天将，披发仗剑，杀到我营来了！请令定夺！",
+      "text_length": 39
+    },
+    {
+      "event_id": "03090006_e00201",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 201,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊！俱是天兵天将，披发仗剑，护着孔明，杀进我营来了？",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00202",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 202,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00203",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 203,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "嗯！这是孔明兴妖作怪。岂有天兵天将下界之理！众将官！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00204",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 204,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00205",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 205,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "一齐出营，连人带马与我抢回。不要放走孔明！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03090006_e00206",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 206,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00207",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 207,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "哎呀元帅呀！那些护车天将，形容古怪。慢说兵丁前去，就是都督出营，也要吓得失魂。快快逃走，可保性命！",
+      "text_length": 49
+    },
+    {
+      "event_id": "03090006_e00208",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 208,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "胡说！下去！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00209",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 209,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "喳！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00210",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 210,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00211",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 211,
+      "seq_in_scene": 16,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "焉有此事！待本督亲自出马。众将官！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03090006_e00212",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 212,
+      "seq_in_scene": 17,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00213",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 213,
+      "seq_in_scene": 18,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "捉拿孔明去者！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00214",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 214,
+      "seq_in_scene": 19,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00215",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 215,
+      "seq_in_scene": 20,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "魏、蜀、吴英雄们俱争汉鼎，我前番中了计失了小心。今日里我定要孔明性命，司马懿非夸口能说能行。",
+      "text_length": 46
+    },
+    {
+      "event_id": "03090006_e00216",
+      "play_id": "03090006",
+      "scene_id": "03090006_s07",
+      "scene_no": 7,
+      "seq_global": 216,
+      "seq_in_scene": 21,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00217",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 217,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小军穿皂衣、持皂旗、戴鬼脸、执短刀，假法师仗剑持碗，关兴披发仗剑引诸葛亮同上，车夫随上。",
+      "text_length": 45
+    },
+    {
+      "event_id": "03090006_e00218",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 218,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "要割麦调虎计安排已定，特诓哄司马懿早出大营。天篷星护车辆急向前进，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00219",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 219,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内喊声。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00220",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 220,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "呀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00221",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 221,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众将士休惊怕缓缓而行。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00222",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 222,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00223",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 223,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "拿住了诸葛亮凌烟标名，为武将须竭力好建功勋。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00224",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 224,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、诸葛亮照面。诸葛亮、关兴、车夫、假法师、四小军同下。",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00225",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 225,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00226",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 226,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00227",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 227,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "车上坐的乃是孔明。与我追赶！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00228",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 228,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀都督，孔明有天神保护，我们不敢追拿。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00229",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 229,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "什么天神！分明是诸葛亮装神扮鬼。何必信他！快快追赶！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00230",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 230,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "他纵有吕望韬黄石本领，有本督壮着胆只管找寻。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00231",
+      "play_id": "03090006",
+      "scene_id": "03090006_s08",
+      "scene_no": 8,
+      "seq_global": 231,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00232",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 232,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "四兵士"
+      ],
+      "text": "走啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00233",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 233,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四兵士扮百姓拿镰刀、绳索同上。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03090006_e00234",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 234,
+      "seq_in_scene": 3,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵士甲"
+      ],
+      "text": "列位请了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00235",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 235,
+      "seq_in_scene": 4,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵士乙",
+        "兵士丙",
+        "兵士丁"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00236",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 236,
+      "seq_in_scene": 5,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵士甲"
+      ],
+      "text": "且喜丞相将司马懿诓出营来。乘此机会，前往陇上割麦。",
+      "text_length": 25
+    },
+    {
+      "event_id": "03090006_e00237",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 237,
+      "seq_in_scene": 6,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵士乙",
+        "兵士丙",
+        "兵士丁"
+      ],
+      "text": "走啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00238",
+      "play_id": "03090006",
+      "scene_id": "03090006_s09",
+      "scene_no": 9,
+      "seq_global": 238,
+      "seq_in_scene": 7,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四兵士同下。（四小军穿皂衣、持皂旗、戴鬼脸、执短刀，假法师仗剑持碗，关兴披发仗剑引诸葛亮同上，车夫随上，同挖门。）",
+      "text_length": 57
+    },
+    {
+      "event_id": "03090006_e00239",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 239,
+      "seq_in_scene": 1,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "司马懿中我计追兵甚紧，让我军去割麦大胆宽心。众将士休害怕慢慢行进，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00240",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 240,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内喊声。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00241",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 241,
+      "seq_in_scene": 3,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "天哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00242",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 242,
+      "seq_in_scene": 4,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "赐一阵大云雾遮掩前行。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00243",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 243,
+      "seq_in_scene": 5,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮、关兴、车夫、假法师、四小军同下。司马懿、四龙套、四下手、乐綝、张虎同上。",
+      "text_length": 40
+    },
+    {
+      "event_id": "03090006_e00244",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 244,
+      "seq_in_scene": 6,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "诸葛亮包天胆今日方信，巧装扮蒙哄我瞽目无睛。众将官拿孔明官封极品，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00245",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 245,
+      "seq_in_scene": 7,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "放烟雾。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00246",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 246,
+      "seq_in_scene": 8,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀，看不见了！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00247",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 247,
+      "seq_in_scene": 9,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00248",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 248,
+      "seq_in_scene": 10,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "一霎时满天雾所为何情？",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00249",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 249,
+      "seq_in_scene": 11,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！为何满天大雾，二目难睁？众将官，你们在哪里呀？",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00250",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 250,
+      "seq_in_scene": 12,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "我们在这里！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00251",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 251,
+      "seq_in_scene": 13,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "收烟雾。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00252",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 252,
+      "seq_in_scene": 14,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，满天大雾散去，霎时红光现出！众将官，可曾得见孔明？",
+      "text_length": 28
+    },
+    {
+      "event_id": "03090006_e00253",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 253,
+      "seq_in_scene": 15,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "不曾看见。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00254",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 254,
+      "seq_in_scene": 16,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "孔明精通奇门遁甲，能驱六丁六甲之神。此乃六甲天书内缩地之法也，焉能瞒得过司马！众将官！",
+      "text_length": 43
+    },
+    {
+      "event_id": "03090006_e00255",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 255,
+      "seq_in_scene": 17,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00256",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 256,
+      "seq_in_scene": 18,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "紧紧追赶！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00257",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 257,
+      "seq_in_scene": 19,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00258",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 258,
+      "seq_in_scene": 20,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内喊声。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00259",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 259,
+      "seq_in_scene": 21,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀都督！后面又是孔明来了！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00260",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 260,
+      "seq_in_scene": 22,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，果然是孔明来了！众将官！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03090006_e00261",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 261,
+      "seq_in_scene": 23,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00262",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 262,
+      "seq_in_scene": 24,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "快快转去！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00263",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 263,
+      "seq_in_scene": 25,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00264",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 264,
+      "seq_in_scene": 26,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "按奇门遁甲书某也读尽，诸葛亮有何能扭转天心！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00265",
+      "play_id": "03090006",
+      "scene_id": "03090006_s10",
+      "scene_no": 10,
+      "seq_global": 265,
+      "seq_in_scene": 27,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00266",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 266,
+      "seq_in_scene": 1,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四皂旗、鼓夫、锣夫、假法师、姜维引假诸葛亮披发仗剑拿七星旗同上，车夫随上。",
+      "text_length": 37
+    },
+    {
+      "event_id": "03090006_e00267",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 267,
+      "seq_in_scene": 2,
+      "page_no": 10,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00268",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 268,
+      "seq_in_scene": 3,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "我本是打草军一时侥幸，奉军令巧装扮诸葛孔明。众神将驾祥云前把道引，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00269",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 269,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "哎，不要说大话。你看魏兵杀来了！",
+      "text_length": 16
+    },
+    {
+      "event_id": "03090006_e00270",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 270,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00271",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 271,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "叫法师必须要大显威灵！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00272",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 272,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00273",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 273,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "又一班天兵将威风凛凛，众将官将妖道掠抢回营！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00274",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 274,
+      "seq_in_scene": 9,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "山人在此。还不投降！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00275",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 275,
+      "seq_in_scene": 10,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "将孔明拿下！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00276",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 276,
+      "seq_in_scene": 11,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、四下手同怕。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00277",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 277,
+      "seq_in_scene": 12,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "法师作法！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00278",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 278,
+      "seq_in_scene": 13,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "吾奉太上老君急急如律令勅！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03090006_e00279",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 279,
+      "seq_in_scene": 14,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "假诸葛亮、假法师、姜维、鼓夫、锣夫、四皂旗、车夫同下。",
+      "text_length": 27
+    },
+    {
+      "event_id": "03090006_e00280",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 280,
+      "seq_in_scene": 15,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀，孔明走了！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03090006_e00281",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 281,
+      "seq_in_scene": 16,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00282",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 282,
+      "seq_in_scene": 17,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "众将官大不该惜身重命，现成的诸葛亮怎不生擒？",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00283",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 283,
+      "seq_in_scene": 18,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "现成的孔明，坐在车上，怎不捉拿？",
+      "text_length": 16
+    },
+    {
+      "event_id": "03090006_e00284",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 284,
+      "seq_in_scene": 19,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "乐綝",
+        "张虎"
+      ],
+      "text": "都督，那车前车后，俱是天兵天将保护孔明。末将等不敢近前！",
+      "text_length": 28
+    },
+    {
+      "event_id": "03090006_e00285",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 285,
+      "seq_in_scene": 20,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊，你们不敢近前？",
+      "text_length": 9
+    },
+    {
+      "event_id": "03090006_e00286",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 286,
+      "seq_in_scene": 21,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "乐綝",
+        "张虎"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00287",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 287,
+      "seq_in_scene": 22,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀且住！方才那个车上坐的孔明赶之不上，为何这里又有个孔明？真乃奇怪也！",
+      "text_length": 36
+    },
+    {
+      "event_id": "03090006_e00288",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 288,
+      "seq_in_scene": 23,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "某枉在大魏国统帅三军，现成的诸葛亮我不能擒！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00289",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 289,
+      "seq_in_scene": 24,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊，难道遁甲兵就如此地异变？真令人难解也！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03090006_e00290",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 290,
+      "seq_in_scene": 25,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内喊声。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00291",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 291,
+      "seq_in_scene": 26,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀，都督！那厢又有孔明来了！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03090006_e00292",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 292,
+      "seq_in_scene": 27,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，果然又是孔明！众将官！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00293",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 293,
+      "seq_in_scene": 28,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00294",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 294,
+      "seq_in_scene": 29,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "追杀前去！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00295",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 295,
+      "seq_in_scene": 30,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00296",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 296,
+      "seq_in_scene": 31,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "似这等巧机关我难悟省，拿住了诸葛亮可保太平。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00297",
+      "play_id": "03090006",
+      "scene_id": "03090006_s11",
+      "scene_no": 11,
+      "seq_global": 297,
+      "seq_in_scene": 32,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00298",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 298,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四皂旗、鼓夫、锣夫、假法师、魏延引假诸葛亮同上，车夫随上。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03090006_e00299",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 299,
+      "seq_in_scene": 2,
+      "page_no": 11,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00300",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 300,
+      "seq_in_scene": 3,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "不想我打更汉也是好命，戴簪冠穿鹤氅羽扇纶巾。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00301",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 301,
+      "seq_in_scene": 4,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "法师！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00302",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 302,
+      "seq_in_scene": 5,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00303",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 303,
+      "seq_in_scene": 6,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "须谨记李老君急急勅令，",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00304",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 304,
+      "seq_in_scene": 7,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "勅！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00305",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 305,
+      "seq_in_scene": 8,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "哎，还早！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00306",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 306,
+      "seq_in_scene": 9,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "领法旨！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00307",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 307,
+      "seq_in_scene": 10,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "遇魏兵你挡住让我先行。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00308",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 308,
+      "seq_in_scene": 11,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00309",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 309,
+      "seq_in_scene": 12,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "齐奋勇建奇功舍命相拼，享功名当竭力报效朝廷。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00310",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 310,
+      "seq_in_scene": 13,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "快拿孔明！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00311",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 311,
+      "seq_in_scene": 14,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "勅，勅，勅！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00312",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 312,
+      "seq_in_scene": 15,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "假诸葛亮、假法师、魏延、鼓夫、锣夫、四皂旗、车夫同下。",
+      "text_length": 27
+    },
+    {
+      "event_id": "03090006_e00313",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 313,
+      "seq_in_scene": 16,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "呸！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00314",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 314,
+      "seq_in_scene": 17,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "两军阵又不是龙潭陷阱，遇敌人为什么胆战心惊？",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00315",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 315,
+      "seq_in_scene": 18,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊，你们为何又未拿住孔明？",
+      "text_length": 13
+    },
+    {
+      "event_id": "03090006_e00316",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 316,
+      "seq_in_scene": 19,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "乐綝",
+        "张虎"
+      ],
+      "text": "都督，孔明真有天神保护。不可追赶！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03090006_e00317",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 317,
+      "seq_in_scene": 20,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "是呀，就是奇门遁甲之法，哪有许多变化？此必神兵也！",
+      "text_length": 25
+    },
+    {
+      "event_id": "03090006_e00318",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 318,
+      "seq_in_scene": 21,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内喊声。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00319",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 319,
+      "seq_in_scene": 22,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "哎呀都督，北面又有孔明来了！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00320",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 320,
+      "seq_in_scene": 23,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "啊，今日哪里来的这许多孔明？众将官！",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00321",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 321,
+      "seq_in_scene": 24,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00322",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 322,
+      "seq_in_scene": 25,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "追杀前去！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00323",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 323,
+      "seq_in_scene": 26,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "乐綝",
+        "张虎"
+      ],
+      "text": "哎呀都督！再若追赶恐中他计！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00324",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 324,
+      "seq_in_scene": 27,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "乱军之中，料想孔明无计。我兵紧紧追赶。他纵有计，一时也难措手。你们害怕，可压后队。本督独骑追赶。若是拿住孔明，你们一拥而上。休违吾令！",
+      "text_length": 67
+    },
+    {
+      "event_id": "03090006_e00325",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 325,
+      "seq_in_scene": 28,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00326",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 326,
+      "seq_in_scene": 29,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "他纵有埋伏计我兵不进，众将官放大胆抢劫蜀营。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00327",
+      "play_id": "03090006",
+      "scene_id": "03090006_s12",
+      "scene_no": 12,
+      "seq_global": 327,
+      "seq_in_scene": 30,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00328",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 328,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四皂旗、锣夫、鼓夫、假法师、马岱引假诸葛亮同上，车夫随上。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03090006_e00329",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 329,
+      "seq_in_scene": 2,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "数十年从未见如此光景，假扮做诸葛亮诓诱魏兵。念一声无量佛慢慢前进，",
+      "text_length": 33
+    },
+    {
+      "event_id": "03090006_e00330",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 330,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "有法师在此！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00331",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 331,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "假诸葛亮"
+      ],
+      "text": "全仗你大法力我便放心。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03090006_e00332",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 332,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00333",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 333,
+      "seq_in_scene": 6,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "呔！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00334",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 334,
+      "seq_in_scene": 7,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "我拿你凌烟阁留名标姓，似飞蛾扑灯火自把身焚。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00335",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 335,
+      "seq_in_scene": 8,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "假诸葛亮、假法师、马岱、锣夫、鼓夫、四皂旗、车夫同下。",
+      "text_length": 27
+    },
+    {
+      "event_id": "03090006_e00336",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 336,
+      "seq_in_scene": 9,
+      "page_no": 12,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00337",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 337,
+      "seq_in_scene": 10,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "众将官催战鼓休违我令，此一战功成就答报君恩。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00338",
+      "play_id": "03090006",
+      "scene_id": "03090006_s13",
+      "scene_no": 13,
+      "seq_global": 338,
+      "seq_in_scene": 11,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00339",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 339,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "中场摆山。诸葛亮、三假诸葛亮、关兴、姜维、魏延、马岱、假法师同上，同挖门。",
+      "text_length": 37
+    },
+    {
+      "event_id": "03090006_e00340",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 340,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00341",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 341,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "四下里人和马安排已定，诓哄那司马懿离了大营。将魏兵紧围困难退难进，只笑那司马懿无智无能。（司马懿、四龙套、四下手、乐綝、张虎同上。诸葛亮、三假诸葛亮、关兴、姜维、魏延、马岱、假法师同归原位。）",
+      "text_length": 96
+    },
+    {
+      "event_id": "03090006_e00342",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 342,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "勅，勅，勅！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03090006_e00343",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 343,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00344",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 344,
+      "seq_in_scene": 6,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "果然是天神将来辅汉鼎，今日里何处来许多孔明！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00345",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 345,
+      "seq_in_scene": 7,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "吾神饶你不死。去吧！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00346",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 346,
+      "seq_in_scene": 8,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00347",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 347,
+      "seq_in_scene": 9,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "众神将围住我又不前进，却不知是天将还是妖精！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00348",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 348,
+      "seq_in_scene": 10,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "假法师"
+      ],
+      "text": "吾等俱是天神。还不快走！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03090006_e00349",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 349,
+      "seq_in_scene": 11,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00350",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 350,
+      "seq_in_scene": 12,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "倒不如跨马走以保性命，回营去再计较抵挡蜀兵。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00351",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 351,
+      "seq_in_scene": 13,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00352",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 352,
+      "seq_in_scene": 14,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同下。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03090006_e00353",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 353,
+      "seq_in_scene": 15,
+      "page_no": 12,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00354",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 354,
+      "seq_in_scene": 16,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "放走了司马懿心存怜悯，众将官休装鬼各现本身！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00355",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 355,
+      "seq_in_scene": 17,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关兴",
+        "姜维",
+        "魏延",
+        "马岱"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00356",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 356,
+      "seq_in_scene": 18,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00357",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 357,
+      "seq_in_scene": 19,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00358",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 358,
+      "seq_in_scene": 20,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启丞相：我兵割完陇上小麦。特来报知。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03090006_e00359",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 359,
+      "seq_in_scene": 21,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "起过。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00360",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 360,
+      "seq_in_scene": 22,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00361",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 361,
+      "seq_in_scene": 23,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00362",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 362,
+      "seq_in_scene": 24,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "我军割完陇上小麦，司马懿必定领兵麦田征杀。众将官！",
+      "text_length": 25
+    },
+    {
+      "event_id": "03090006_e00363",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 363,
+      "seq_in_scene": 25,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关兴",
+        "姜维",
+        "魏延",
+        "马岱"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00364",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 364,
+      "seq_in_scene": 26,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "埋伏麦田，抵挡魏兵！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03090006_e00365",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 365,
+      "seq_in_scene": 27,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关兴",
+        "姜维",
+        "魏延",
+        "马岱"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00366",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 366,
+      "seq_in_scene": 28,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关兴、姜维、魏延、马岱同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03090006_e00367",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 367,
+      "seq_in_scene": 29,
+      "page_no": 13,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "出祁山遇司马几次临阵，今日里管叫他丧胆失魂。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00368",
+      "play_id": "03090006",
+      "scene_id": "03090006_s14",
+      "scene_no": 14,
+      "seq_global": 368,
+      "seq_in_scene": 30,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00369",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 369,
+      "seq_in_scene": 1,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同上，同挖门。",
+      "text_length": 24
+    },
+    {
+      "event_id": "03090006_e00370",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 370,
+      "seq_in_scene": 2,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00371",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 371,
+      "seq_in_scene": 3,
+      "page_no": 13,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "大英雄失计较险遭不幸，诸葛亮真果是仙人降临。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03090006_e00372",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 372,
+      "seq_in_scene": 4,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，某今日被孔明作弄一场。且喜未中他计，还算万幸！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03090006_e00373",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 373,
+      "seq_in_scene": 5,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00374",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 374,
+      "seq_in_scene": 6,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00375",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 375,
+      "seq_in_scene": 7,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启都督：孔明兵丁俱在陇上割麦！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03090006_e00376",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 376,
+      "seq_in_scene": 8,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00377",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 377,
+      "seq_in_scene": 9,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00378",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 378,
+      "seq_in_scene": 10,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03090006_e00379",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 379,
+      "seq_in_scene": 11,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，我中孔明之计也！他诓我调兵追赶，好割我陇上小麦！众将官！",
+      "text_length": 31
+    },
+    {
+      "event_id": "03090006_e00380",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 380,
+      "seq_in_scene": 12,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00381",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 381,
+      "seq_in_scene": 13,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "兵撤麦田！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00382",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 382,
+      "seq_in_scene": 14,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00383",
+      "play_id": "03090006",
+      "scene_id": "03090006_s15",
+      "scene_no": 15,
+      "seq_global": 383,
+      "seq_in_scene": 15,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00384",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 384,
+      "seq_in_scene": 1,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四上手、魏延、马岱、关兴、王平、姜维同上，同挖门。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03090006_e00385",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 385,
+      "seq_in_scene": 2,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "众位将军请了！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03090006_e00386",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 386,
+      "seq_in_scene": 3,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00387",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 387,
+      "seq_in_scene": 4,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "你我奉丞相将令，埋伏麦田以挡魏兵。就此埋伏去者！",
+      "text_length": 24
+    },
+    {
+      "event_id": "03090006_e00388",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 388,
+      "seq_in_scene": 5,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00389",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 389,
+      "seq_in_scene": 6,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内呐喊声。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00390",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 390,
+      "seq_in_scene": 7,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "司马懿带兵来了，迎上前去。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03090006_e00391",
+      "play_id": "03090006",
+      "scene_id": "03090006_s16",
+      "scene_no": 16,
+      "seq_global": 391,
+      "seq_in_scene": 8,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "魏延",
+        "马岱",
+        "关兴",
+        "王平"
+      ],
+      "text": "啊！（四龙套、四下手、张虎、乐綝、司马懿同上，姜维、魏延、马岱、关兴、王平、四文堂、四上手钥匙头会阵。四龙套、四下手、张虎、乐綝、魏延、马岱、关兴、王平、四文堂、四上手同钻烟筒下。姜维、司马懿同起打，双收下。四上手、四下手同上，连环起打，同下。司马懿上，姜维跟上，同起打。司马懿败下，姜维追下。张虎、乐綝同上，马岱、王平同跟上，同起打。魏延、关兴同续上，打六股档。张虎、乐綝同败下，魏延、马岱、关兴、王平同追下。四龙套、四下手、张虎、乐綝、司马懿、四文堂、四上手、魏延、马岱、关兴、王平、姜维同上，打总攒。四龙套、四下手、张虎、乐綝、司马懿同败下，魏延、马岱、关兴、王平、四文堂、四上手同下。姜维耍下场下。）",
+      "text_length": 304
+    },
+    {
+      "event_id": "03090006_e00392",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 392,
+      "seq_in_scene": 1,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同败上。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03090006_e00393",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 393,
+      "seq_in_scene": 2,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "哎呀，陇上之麦，俱被孔明兵丁割去。本督今又遭此大败！众将官！",
+      "text_length": 30
+    },
+    {
+      "event_id": "03090006_e00394",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 394,
+      "seq_in_scene": 3,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00395",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 395,
+      "seq_in_scene": 4,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "司马懿"
+      ],
+      "text": "收兵！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03090006_e00396",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 396,
+      "seq_in_scene": 5,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套",
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00397",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 397,
+      "seq_in_scene": 6,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "司马懿、四龙套、四下手、乐綝、张虎同下。四文堂、四上手、魏延、马岱、关兴、王平、姜维同上。",
+      "text_length": 45
+    },
+    {
+      "event_id": "03090006_e00398",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 398,
+      "seq_in_scene": 7,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "魏军败走！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00399",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 399,
+      "seq_in_scene": 8,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "姜维"
+      ],
+      "text": "回营交令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03090006_e00400",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 400,
+      "seq_in_scene": 9,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03090006_e00401",
+      "play_id": "03090006",
+      "scene_id": "03090006_s17",
+      "scene_no": 17,
+      "seq_global": 401,
+      "seq_in_scene": 10,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖尾声〗。众人同下。",
+      "text_length": 10
+    }
+  ],
+  "roles_inferred": true
+}

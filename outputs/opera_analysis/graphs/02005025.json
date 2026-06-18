@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "02005025",
+    "title": "三家店",
+    "pdf_name": "02005025_三家店.pdf",
+    "group_id": "02000000",
+    "page_count": 7,
+    "scene_count": 2,
+    "speech_count": 165,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02005025",
+    "source_date": "2016-08-27",
+    "synopsis_length": 121,
+    "notes_length": 18,
+    "marker_category_counts": {
+      "singing": 19,
+      "recitation": 2,
+      "spoken": 144
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 163.0,
+    "max_edge_weight": 87,
+    "top_characters": [
+      {
+        "name": "史大奈",
+        "hangdang": "净",
+        "speech_count": 54,
+        "degree": 3,
+        "weighted_degree": 211
+      },
+      {
+        "name": "店家",
+        "hangdang": "未知",
+        "speech_count": 42,
+        "degree": 3,
+        "weighted_degree": 167
+      },
+      {
+        "name": "罗周",
+        "hangdang": "小生",
+        "speech_count": 39,
+        "degree": 3,
+        "weighted_degree": 155
+      },
+      {
+        "name": "秦琼",
+        "hangdang": "老生",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 119
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "史大奈",
+      "label": "史大奈",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 54,
+      "text_length": 999,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 211,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 47
+      }
+    },
+    {
+      "id": "店家",
+      "label": "店家",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 42,
+      "text_length": 702,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 167,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 40
+      }
+    },
+    {
+      "id": "罗周",
+      "label": "罗周",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 39,
+      "text_length": 431,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 155,
+      "marker_category_counts": {
+        "spoken": 34,
+        "singing": 5
+      }
+    },
+    {
+      "id": "秦琼",
+      "label": "秦琼",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 30,
+      "text_length": 963,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 23
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "史大奈",
+      "target": "店家",
+      "weight": 87,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "史大奈",
+      "target": "秦琼",
+      "weight": 79,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 39,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "店家",
+      "target": "罗周",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "史大奈",
+      "target": "罗周",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦琼",
+      "target": "罗周",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "店家",
+      "target": "秦琼",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

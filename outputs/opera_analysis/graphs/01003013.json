@@ -1,0 +1,181 @@
+{
+  "play": {
+    "play_id": "01003013",
+    "title": "滑油山",
+    "pdf_name": "01003013_滑油山.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 28,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01003013",
+    "source_date": "2018-05-17",
+    "synopsis_length": 69,
+    "notes_length": 156,
+    "marker_category_counts": {
+      "spoken": 19,
+      "singing": 8,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 24.0,
+    "max_edge_weight": 31,
+    "top_characters": [
+      {
+        "name": "刘青提",
+        "hangdang": "老旦",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 45
+      },
+      {
+        "name": "大鬼",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "众鬼卒",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      },
+      {
+        "name": "小鬼",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘青提",
+      "label": "刘青提",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 17,
+      "text_length": 697,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 45,
+      "marker_category_counts": {
+        "singing": 8,
+        "other": 1,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "大鬼",
+      "label": "大鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 154,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "众鬼卒",
+      "label": "众鬼卒",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "小鬼",
+      "label": "小鬼",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘青提",
+      "target": "大鬼",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众鬼卒",
+      "target": "刘青提",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "小鬼",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众鬼卒",
+      "target": "大鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众鬼卒",
+      "target": "小鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大鬼",
+      "target": "小鬼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

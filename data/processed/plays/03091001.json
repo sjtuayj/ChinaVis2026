@@ -1,0 +1,3693 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "03091001",
+    "title": "功臣泪",
+    "aliases": [],
+    "collection_id": "03000000",
+    "collection_name": "《京剧汇编》",
+    "collection_remark": "《京剧汇编》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/03000000/03091001_功臣泪.pdf",
+    "source_url": "http://scripts.xikao.com/play/03091001",
+    "source_date": "2018-08-23",
+    "page_count": 6,
+    "file_size_bytes": 395631,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "越王勾践灭吴后，范蠡引退，并致书文种，劝其亦辞官他去。文种不听，并劝勾践封赏灭吴功臣，被勾践当殿指责。文种托病不朝。勾践探文种之病，以剑遗府内，意令其自裁，文种遂自刎死。根据《京剧汇编》第九十一集：北京图书馆藏本整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "吴",
+      "confidence": 0.75
+    },
+    "play_genre": {
+      "label": "公案戏",
+      "confidence": 0.48,
+      "evidence": [
+        "府"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_文种",
+      "name": "文种",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 40,
+        "aria_count": 13,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 21,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：文种：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_勾践",
+      "name": "勾践",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 1,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 8,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：勾践：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_差人",
+      "name": "差人",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "仆从/差役"
+        ]
+      }
+    },
+    {
+      "role_id": "r_院子",
+      "name": "院子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 15,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 12,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_计倪",
+      "name": "计倪",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_诸稽郢",
+      "name": "诸稽郢",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_曳庸",
+      "name": "曳庸",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋",
+        "忠义",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_王妃",
+      "name": "王妃",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_大太",
+      "name": "大太",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_大太监",
+      "name": "大太监",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_勾践哼",
+      "name": "勾践哼",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_庞须弥",
+      "name": "庞须弥",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷",
+        "帝王/皇族"
+      ],
+      "personality_traits": [
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "文种",
+        "差人",
+        "院子"
+      ],
+      "event_ids": [
+        "03091001_e00001",
+        "03091001_e00002",
+        "03091001_e00003",
+        "03091001_e00004",
+        "03091001_e00005",
+        "03091001_e00006",
+        "03091001_e00007",
+        "03091001_e00008",
+        "03091001_e00009",
+        "03091001_e00010",
+        "03091001_e00011",
+        "03091001_e00012",
+        "03091001_e00013",
+        "03091001_e00014",
+        "03091001_e00015",
+        "03091001_e00016",
+        "03091001_e00017",
+        "03091001_e00018",
+        "03091001_e00019",
+        "03091001_e00020",
+        "03091001_e00021",
+        "03091001_e00022",
+        "03091001_e00023",
+        "03091001_e00024",
+        "03091001_e00025",
+        "03091001_e00026",
+        "03091001_e00027",
+        "03091001_e00028",
+        "03091001_e00029",
+        "03091001_e00030",
+        "03091001_e00031",
+        "03091001_e00032"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 18,
+        "aria_count": 2,
+        "recitation_count": 0,
+        "stage_direction_count": 11,
+        "expression_count": 0,
+        "text_length": 502
+      }
+    },
+    {
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 3,
+      "characters": [
+        "文种",
+        "计倪",
+        "诸稽郢",
+        "曳庸",
+        "勾践"
+      ],
+      "event_ids": [
+        "03091001_e00033",
+        "03091001_e00034",
+        "03091001_e00035",
+        "03091001_e00036",
+        "03091001_e00037",
+        "03091001_e00038",
+        "03091001_e00039",
+        "03091001_e00040",
+        "03091001_e00041",
+        "03091001_e00042",
+        "03091001_e00043",
+        "03091001_e00044",
+        "03091001_e00045",
+        "03091001_e00046",
+        "03091001_e00047",
+        "03091001_e00048",
+        "03091001_e00049",
+        "03091001_e00050",
+        "03091001_e00051",
+        "03091001_e00052",
+        "03091001_e00053",
+        "03091001_e00054",
+        "03091001_e00055",
+        "03091001_e00056",
+        "03091001_e00057",
+        "03091001_e00058",
+        "03091001_e00059",
+        "03091001_e00060",
+        "03091001_e00061",
+        "03091001_e00062"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 30,
+        "spoken_count": 20,
+        "aria_count": 1,
+        "recitation_count": 5,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 688
+      }
+    },
+    {
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [
+        "文种",
+        "院子",
+        "计倪",
+        "诸稽郢",
+        "曳庸"
+      ],
+      "event_ids": [
+        "03091001_e00063",
+        "03091001_e00064",
+        "03091001_e00065",
+        "03091001_e00066",
+        "03091001_e00067",
+        "03091001_e00068",
+        "03091001_e00069",
+        "03091001_e00070",
+        "03091001_e00071",
+        "03091001_e00072",
+        "03091001_e00073",
+        "03091001_e00074",
+        "03091001_e00075",
+        "03091001_e00076",
+        "03091001_e00077",
+        "03091001_e00078",
+        "03091001_e00079",
+        "03091001_e00080",
+        "03091001_e00081",
+        "03091001_e00082",
+        "03091001_e00083",
+        "03091001_e00084",
+        "03091001_e00085",
+        "03091001_e00086",
+        "03091001_e00087",
+        "03091001_e00088",
+        "03091001_e00089",
+        "03091001_e00090"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 28,
+        "spoken_count": 18,
+        "aria_count": 5,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 481
+      }
+    },
+    {
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "勾践",
+        "王妃",
+        "大太",
+        "大太监",
+        "院子",
+        "勾践哼",
+        "庞须弥"
+      ],
+      "event_ids": [
+        "03091001_e00091",
+        "03091001_e00092",
+        "03091001_e00093",
+        "03091001_e00094",
+        "03091001_e00095",
+        "03091001_e00096",
+        "03091001_e00097",
+        "03091001_e00098",
+        "03091001_e00099",
+        "03091001_e00100",
+        "03091001_e00101",
+        "03091001_e00102",
+        "03091001_e00103",
+        "03091001_e00104",
+        "03091001_e00105",
+        "03091001_e00106",
+        "03091001_e00107",
+        "03091001_e00108",
+        "03091001_e00109",
+        "03091001_e00110",
+        "03091001_e00111",
+        "03091001_e00112",
+        "03091001_e00113",
+        "03091001_e00114",
+        "03091001_e00115",
+        "03091001_e00116",
+        "03091001_e00117",
+        "03091001_e00118",
+        "03091001_e00119",
+        "03091001_e00120",
+        "03091001_e00121",
+        "03091001_e00122"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 21,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 527
+      }
+    },
+    {
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 4,
+      "page_end": 6,
+      "characters": [
+        "文种",
+        "院子",
+        "勾践"
+      ],
+      "event_ids": [
+        "03091001_e00123",
+        "03091001_e00124",
+        "03091001_e00125",
+        "03091001_e00126",
+        "03091001_e00127",
+        "03091001_e00128",
+        "03091001_e00129",
+        "03091001_e00130",
+        "03091001_e00131",
+        "03091001_e00132",
+        "03091001_e00133",
+        "03091001_e00134",
+        "03091001_e00135",
+        "03091001_e00136",
+        "03091001_e00137",
+        "03091001_e00138",
+        "03091001_e00139",
+        "03091001_e00140",
+        "03091001_e00141",
+        "03091001_e00142",
+        "03091001_e00143",
+        "03091001_e00144",
+        "03091001_e00145",
+        "03091001_e00146",
+        "03091001_e00147",
+        "03091001_e00148",
+        "03091001_e00149",
+        "03091001_e00150",
+        "03091001_e00151",
+        "03091001_e00152",
+        "03091001_e00153",
+        "03091001_e00154",
+        "03091001_e00155",
+        "03091001_e00156",
+        "03091001_e00157",
+        "03091001_e00158",
+        "03091001_e00159",
+        "03091001_e00160",
+        "03091001_e00161",
+        "03091001_e00162",
+        "03091001_e00163",
+        "03091001_e00164",
+        "03091001_e00165",
+        "03091001_e00166",
+        "03091001_e00167",
+        "03091001_e00168",
+        "03091001_e00169",
+        "03091001_e00170",
+        "03091001_e00171",
+        "03091001_e00172",
+        "03091001_e00173",
+        "03091001_e00174",
+        "03091001_e00175",
+        "03091001_e00176",
+        "03091001_e00177",
+        "03091001_e00178",
+        "03091001_e00179",
+        "03091001_e00180",
+        "03091001_e00181",
+        "03091001_e00182",
+        "03091001_e00183",
+        "03091001_e00184",
+        "03091001_e00185",
+        "03091001_e00186",
+        "03091001_e00187",
+        "03091001_e00188",
+        "03091001_e00189",
+        "03091001_e00190"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 68,
+        "spoken_count": 35,
+        "aria_count": 9,
+        "recitation_count": 1,
+        "stage_direction_count": 18,
+        "expression_count": 3,
+        "text_length": 1172
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "03091001_e00001",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00002",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "文种"
+      ],
+      "text": "相国怀去志，教人费愁思。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00003",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子暗上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00004",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "老夫、上大夫文种。我与相国范蠡，共扶越王，报仇复国。实想回朝以后，同享安乐，不料他起意告老，大王再三挽留，执意不从，究竟是何居心，好教我莫名其故。",
+      "text_length": 73
+    },
+    {
+      "event_id": "03091001_e00005",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "差人持书上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00006",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "门上哪位在？",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00007",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子出门。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00008",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "何事？",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00009",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "范相国有书信到来。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03091001_e00010",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "少候。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00011",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子进门。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00012",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "禀爷：范相国差人送书到来。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03091001_e00013",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "叫他里边来见！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00014",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子出门。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00015",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "叫你里边去见。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00016",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "如此，有劳了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00017",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "差人随院子同进门。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03091001_e00018",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "参见上大夫！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00019",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "免了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00020",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "我家相爷送来书札一封，请上大夫收阅。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03091001_e00021",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种接书。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00022",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "你家相爷，可曾在府？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00023",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "我家相爷，出外未归，不知现到何处。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03091001_e00024",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "书信收下，你且回去。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00025",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "差人"
+      ],
+      "text": "是。小人告退。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00026",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "差人下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00027",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "范相国有书到来，待我拆书一观。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03091001_e00028",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种拆书看。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00029",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "打开了书札用目望，字字行行看端详：上写着大王回国不行赏，昧功忌贤毒暗藏。长颈鸟喙奸雄样，安乐患难两分张。劝兄及早脱罗网，自古道飞鸟尽良弓藏，敌国破谋臣亡，再莫留恋身受祸殃。我今一去五湖上，还要兄台你仔细思量！",
+      "text_length": 104
+    },
+    {
+      "event_id": "03091001_e00030",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "哦，我当是所为何事，原来是相国挂冠出走，劝我及早脱离大王，以免后患。我想大王，乃是英明仁义之主，万万做不出这等负义背恩之事。我不免明日早朝，奏与大王便了！",
+      "text_length": 77
+    },
+    {
+      "event_id": "03091001_e00031",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "说什么行赏不行赏，为臣表功理不当。但等明早金殿上，见了大王奏端详。",
+      "text_length": 33
+    },
+    {
+      "event_id": "03091001_e00032",
+      "play_id": "03091001",
+      "scene_id": "03091001_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种、院子同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00033",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种、计倪、诸稽郢、曳庸同上。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03091001_e00034",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "文种"
+      ],
+      "text": "脱去戎装换锦袍，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00035",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "计倪"
+      ],
+      "text": "心机费尽枉徒劳。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00036",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸稽郢"
+      ],
+      "text": "二十年前大仇报，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00037",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曳庸"
+      ],
+      "text": "汗马功劳一旦抛。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00038",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "老夫、上大夫文种。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03091001_e00039",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "计倪"
+      ],
+      "text": "大将军计倪。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00040",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸稽郢"
+      ],
+      "text": "中大夫诸稽郢。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00041",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曳庸"
+      ],
+      "text": "下大夫曳庸。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00042",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "众位请了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00043",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "计倪",
+        "诸稽郢",
+        "曳庸"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00044",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "今日乃是大王得胜回国早朝吉日，你我在此恭候！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03091001_e00045",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "计倪",
+        "诸稽郢",
+        "曳庸"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03091001_e00046",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、大太监、勾践同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03091001_e00047",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "独霸东方，展雄威，拓土开疆。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03091001_e00048",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "孤王生来志气高，对头冤家是吴朝。十年生聚十年教，今日才得把恨消。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03091001_e00049",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "孤、越王勾践。带领人马，伐吴复仇，幸喜吴国灭亡，夫差身死，周天子封孤为东方之伯。今乃班师回朝升殿吉日。众卿，有事出班启奏！",
+      "text_length": 61
+    },
+    {
+      "event_id": "03091001_e00050",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "启奏大王：相国范蠡，弃家远离，不知去向。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03091001_e00051",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "呜呼呀！孤王灭吴报仇，全赖相国，幸喜得有今日，孤王正想报他的大功，不料他执意引退。文大夫，快请将他追回！",
+      "text_length": 52
+    },
+    {
+      "event_id": "03091001_e00052",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "启奏大王：相国既然不知去向，想是去志已决，况且相国平日有鬼神不测的机算，老臣纵然去追，只怕寻他不得。依臣所见，不如让他去了就是。",
+      "text_length": 64
+    },
+    {
+      "event_id": "03091001_e00053",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "咳，文大夫！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00054",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "范相国保孤二十秋，苦心焦虑报吴仇。今日执意离朝走，怎不教孤挂心头！",
+      "text_length": 33
+    },
+    {
+      "event_id": "03091001_e00055",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "相国既然决心去了，就依上大夫所奏，不必追寻。唤取巧匠，照范相国模样，铸个金人，香灯供养，表孤记念之意罢了！",
+      "text_length": 53
+    },
+    {
+      "event_id": "03091001_e00056",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "启奏大王：臣闻治国大计，首在赏罚分明。伐吴起兵时节，大王曾降谕旨，得胜还朝，不论文武大小官员，一齐论功行赏。现在吴国已灭，百官朝贺，大王就该实践前旨，一律颁赏才是。",
+      "text_length": 82
+    },
+    {
+      "event_id": "03091001_e00057",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "呔，大夫说话，好生冒昧！孤王二十年来，卧薪尝胆，受尽千辛万苦，报仇复国，得有今日。慢说满朝大小群臣，就是孤王，也不过是应尽职分，却论的什么功劳！你今金殿争功，莫非想要平分孤王的国土不成？",
+      "text_length": 93
+    },
+    {
+      "event_id": "03091001_e00058",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "老臣不敢。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00059",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "哼……打量你也不敢！要你说与文武群臣，从今以后，再不要争论功劳，孤王自有发落！",
+      "text_length": 39
+    },
+    {
+      "event_id": "03091001_e00060",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "遵旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00061",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "内侍，退朝！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00062",
+      "play_id": "03091001",
+      "scene_id": "03091001_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00063",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00064",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "回府来不由我心中纳闷，大王爷果然是忌妒贤能。金殿上悔不该出言失忖，众文武他到来再把话云。",
+      "text_length": 44
+    },
+    {
+      "event_id": "03091001_e00065",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 65,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00066",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 66,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "众位大人到！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00067",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 67,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00068",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 68,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "有请众位大人！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00069",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 69,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "计倪、诸稽郢、曳庸同上，文种岀迎。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03091001_e00070",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 70,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "众位大人到来，老夫未能远迎，多多得罪。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03091001_e00071",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 71,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "计倪",
+        "诸稽郢",
+        "曳庸"
+      ],
+      "text": "岂敢！上大夫，适才金殿以上，观大王面带骄横，欺侮群臣，把这灭吴的功劳，全归他一人之手，这便怎处？",
+      "text_length": 48
+    },
+    {
+      "event_id": "03091001_e00072",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 72,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "众位大人高见？",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00073",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 73,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曳庸"
+      ],
+      "text": "像这忘恩负义的君王，保他做甚！依下官看来，不如反了就是！",
+      "text_length": 28
+    },
+    {
+      "event_id": "03091001_e00074",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 74,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "且慢！大王纵然忘恩负义，但你我身为臣子，宁使他不仁，莫教我不义。此事万万做不得！",
+      "text_length": 40
+    },
+    {
+      "event_id": "03091001_e00075",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 75,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸稽郢"
+      ],
+      "text": "依末将之见，到了明天，众大臣一齐上殿，请大王查明功劳大小，即刻行赏如何？",
+      "text_length": 36
+    },
+    {
+      "event_id": "03091001_e00076",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 76,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大人，你看金殿以上，那大王早露出不肯行赏之意，倘若大家再去奏求，惹恼大王，如何是好？",
+      "text_length": 42
+    },
+    {
+      "event_id": "03091001_e00077",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 77,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "计倪"
+      ],
+      "text": "众位大人！既然大王妒忌群臣，不如挂冠封印，各自四散去吧！",
+      "text_length": 28
+    },
+    {
+      "event_id": "03091001_e00078",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 78,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大人之言，倒还有理。众大人以为如何？",
+      "text_length": 18
+    },
+    {
+      "event_id": "03091001_e00079",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 79,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "计倪",
+        "诸稽郢",
+        "曳庸"
+      ],
+      "text": "就依大夫所言，各自四散了吧！我们就此告辞！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03091001_e00080",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 80,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "奉送！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00081",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 81,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "计倪"
+      ],
+      "text": "大王做事理不周，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00082",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "诸稽郢"
+      ],
+      "text": "挂冠封印莫停留。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00083",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "曳庸"
+      ],
+      "text": "辞别大夫出府走，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00084",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 84,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "计倪、诸稽郢、曳庸同下，文种揖送。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03091001_e00085",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 85,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "回转身来自思筹。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00086",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "他们既然四散，老夫只有闭门谢客，称病不朝了！家院！",
+      "text_length": 25
+    },
+    {
+      "event_id": "03091001_e00087",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03091001_e00088",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 88,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "有人问我，就说老夫有病在身，不能出门。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03091001_e00089",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 89,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "晓得。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00090",
+      "play_id": "03091001",
+      "scene_id": "03091001_s03",
+      "scene_no": 3,
+      "seq_global": 90,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种、院子同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00091",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 91,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、勾践、王妃同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00092",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 92,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "二十年来仇恨消，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00093",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 93,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "王妃"
+      ],
+      "text": "民安国泰在今朝。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00094",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 94,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "勾践、王妃同坐，大太监上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03091001_e00095",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 95,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太"
+      ],
+      "text": "监启奏大王：大将计倪、曳庸等，连同许多文武大臣，疯魔的疯魔，离朝的离朝，大半挂冠封印，不知去向！",
+      "text_length": 48
+    },
+    {
+      "event_id": "03091001_e00096",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 96,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王妃"
+      ],
+      "text": "大王，他们这是为何？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00097",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 97,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "他们一般逆臣，仗凭各人的功劳，想要平分孤的国土，未如他们的心意，他们便一同去了。难道说无有他们，孤王的江山就保不住了么！且宣文大夫进宫，再作计较。内侍，宣文大夫进宫！",
+      "text_length": 83
+    },
+    {
+      "event_id": "03091001_e00098",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 98,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "领旨！上大夫文种进宫朝驾！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03091001_e00099",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 99,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "文大夫身得重病，不能进宫。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03091001_e00100",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 100,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "启奏大王：文大夫身得重病，不能朝驾。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03091001_e00101",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 101,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践哼"
+      ],
+      "text": "哼！他也病了！宣掌殿官庞须弥进宫！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03091001_e00102",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 102,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "领旨！掌殿官庞须弥进宫！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00103",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 103,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞须弥上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00104",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 104,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "忽听得大王宣召，进宫去细问分晓。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03091001_e00105",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 105,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞须弥进见。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00106",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 106,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "臣、掌殿官庞须弥见驾，大王万岁！娘娘千岁！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03091001_e00107",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 107,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "平身。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00108",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 108,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "谢大王！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00109",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 109,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞须弥起。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00110",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 110,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "掌殿官，上大夫文种，身有何病，不能入宫，你可知晓？",
+      "text_length": 25
+    },
+    {
+      "event_id": "03091001_e00111",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 111,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "启奏大王：文大夫并无疾病，那是他自以功大无赏，心怀怨愤，所以不肯入宫。",
+      "text_length": 35
+    },
+    {
+      "event_id": "03091001_e00112",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 112,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "这事当真？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00113",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 113,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "臣焉敢欺君！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00114",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 114,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "这就是了。你且退出！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00115",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞须弥"
+      ],
+      "text": "遵旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00116",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 26,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞须弥下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00117",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 27,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王妃"
+      ],
+      "text": "大王，我想文种，才智过人，他今心怀怨愤，若不将他早除，日后发生不测，何人是他敌手！",
+      "text_length": 41
+    },
+    {
+      "event_id": "03091001_e00118",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 28,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "这便怎处？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00119",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 29,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "王妃"
+      ],
+      "text": "以臣妾之见，大王亲去他府，假意探病，将属镂宝剑带去，暗地遗在他府，看他如何行事，再作定夺。",
+      "text_length": 45
+    },
+    {
+      "event_id": "03091001_e00120",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 30,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "就依王妃所奏，就此前去。正是：",
+      "text_length": 15
+    },
+    {
+      "event_id": "03091001_e00121",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 31,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "宫中定巧计，宫外安得知。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00122",
+      "play_id": "03091001",
+      "scene_id": "03091001_s04",
+      "scene_no": 4,
+      "seq_global": 122,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00123",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 123,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "内二黄导板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "两国不和起斗争，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00124",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 124,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种病装上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00125",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 125,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "回龙",
+      "speakers": [
+        "文种"
+      ],
+      "text": "为国家秉忠心、同困苦、共艰辛、到如今恩怨不分、功过不论、好不伤情！",
+      "text_length": 33
+    },
+    {
+      "event_id": "03091001_e00126",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 126,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "范相国挂冠去送我一信，他言道狡兔死走狗必烹。看起来范相国早识退进，我文种到底是见事不明。众朝臣各离心俱怀不忿，一个个挂冠去四散纷纷。我无奈居家中假装染病，且等那昧心王渐生悔心。",
+      "text_length": 88
+    },
+    {
+      "event_id": "03091001_e00127",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 127,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种坐。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00128",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 128,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "正是：",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00129",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 129,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "文种"
+      ],
+      "text": "闭门家中坐，无事小神仙。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00130",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 130,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00131",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 131,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "禀爷：大王驾到！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00132",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 132,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种惊。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00133",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 133,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "啊，大王为何到此！准备接驾！搀我来！",
+      "text_length": 18
+    },
+    {
+      "event_id": "03091001_e00134",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 134,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "闻说九重圣驾临，不由文种吃一惊！家院将我搀扶定，",
+      "text_length": 24
+    },
+    {
+      "event_id": "03091001_e00135",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 135,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子搀文种。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03091001_e00136",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 136,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大王驾前礼相迎。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00137",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 137,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、大太监、勾践同上，文种揖接、迎进，勾践坐。",
+      "text_length": 25
+    },
+    {
+      "event_id": "03091001_e00138",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 138,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大王驾到，文种有病在身，不能全礼，望乞恕罪。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03091001_e00139",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 139,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "半礼何妨，坐了叙话。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00140",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 140,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "谢大王！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00141",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 141,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "文大夫，你的病体如何？",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00142",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 142,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大王，臣的病日加沉重！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00143",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 143,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "你到底是真病还是假病？",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00144",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 144,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "老臣原是真病，怎敢欺君！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03091001_e00145",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 145,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "恐怕未必！我且问你，当日你教孤王平吴的计策共是几条？",
+      "text_length": 26
+    },
+    {
+      "event_id": "03091001_e00146",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 146,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "共有七条。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00147",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 147,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "用过几条？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00148",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 148,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "用过三条。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00149",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 149,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "孤用你三条计策，把吴平灭，其余四条用于何处？",
+      "text_length": 22
+    },
+    {
+      "event_id": "03091001_e00150",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 150,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "为臣不知。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00151",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 151,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "其余四条么！孤要叫你带到阴曹，谋灭那吴国先人的鬼魂！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03091001_e00152",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 152,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种惊极，颤抖。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03091001_e00153",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 153,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "你可愿去？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00154",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 154,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "这个！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00155",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 155,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种低头。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00156",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 156,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "这个的什么！愿去也在你，不愿去也在你，孤王改日再来探病！",
+      "text_length": 28
+    },
+    {
+      "event_id": "03091001_e00157",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 157,
+      "seq_in_scene": 35,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "勾践冷笑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00158",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 158,
+      "seq_in_scene": 36,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "嘿嘿嘿……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00159",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 159,
+      "seq_in_scene": 37,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "勾践遗宝剑在地，四太监、大太监引勾践同下，文种送勾践，转身视剑惊。",
+      "text_length": 33
+    },
+    {
+      "event_id": "03091001_e00160",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 160,
+      "seq_in_scene": 38,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "何人将宝剑遗失在地？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00161",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 161,
+      "seq_in_scene": 39,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "大王临行时节，将此剑遗在地下！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03091001_e00162",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 162,
+      "seq_in_scene": 40,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "拾来我看！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00163",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 163,
+      "seq_in_scene": 41,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03091001_e00164",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 164,
+      "seq_in_scene": 42,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子拾剑递交文种，文种接剑看。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03091001_e00165",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 165,
+      "seq_in_scene": 43,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "属镂剑！属镂剑！哎呀不好！我想属镂宝剑，乃是当年吴王夫差赐伍子胥自刎之剑，大王如今将此剑遗留地下，分明逼我自尽，好不吓……吓死我也！",
+      "text_length": 66
+    },
+    {
+      "event_id": "03091001_e00166",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 166,
+      "seq_in_scene": 44,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种晕倒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00167",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 167,
+      "seq_in_scene": 45,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "老爷醒来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00168",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 168,
+      "seq_in_scene": 46,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "二黄导板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "见属镂吓得我魂飞魄散，",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00169",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 169,
+      "seq_in_scene": 47,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "回龙",
+      "speakers": [
+        "文种"
+      ],
+      "text": "又好似狼牙箭把我胸穿！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00170",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 170,
+      "seq_in_scene": 48,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "反二黄三眼板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "想当年我的主会稽被难，君与后在吴国同受心酸。那时节我文种费尽血汗，一心心要扶起越国江山。我定下七条计未曾用半，馆娃宫姑苏台一鼓推翻。实指望报吴仇天随人愿，君臣们如鱼水快乐安然。",
+      "text_length": 88
+    },
+    {
+      "event_id": "03091001_e00171",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 171,
+      "seq_in_scene": 49,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "反二黄原板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "不料想回朝来大王变脸，不念恩反记恨自把功贪。满朝中文共武星流云散，一个个走的走、亡的亡、五湖岸上、百花洲前、逍遥自在、自在逍遥、脱离这虎穴龙潭。俺文种只生得铜心铁胆，为国事涂肝脑倒也心甘。又谁知贼昏王把我暗算，借探病施毒手不肯容宽。战兢兢提起了属镂宝剑，",
+      "text_length": 127
+    },
+    {
+      "event_id": "03091001_e00172",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 172,
+      "seq_in_scene": 50,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "属镂宝剑！伍大夫哇！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03091001_e00173",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 173,
+      "seq_in_scene": 51,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "反二黄原板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "你同我与此剑结下孽冤！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03091001_e00174",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 174,
+      "seq_in_scene": 52,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "哎呀天哪！古语说得却好：这大德不望报！悔不听范蠡之言，竟做了越王剑下之鬼，岂不愚哉！岂不痛哉！",
+      "text_length": 47
+    },
+    {
+      "event_id": "03091001_e00175",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 175,
+      "seq_in_scene": 53,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种哭，复笑。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03091001_e00176",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 176,
+      "seq_in_scene": 54,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "文种"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00177",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 177,
+      "seq_in_scene": 55,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "文种"
+      ],
+      "text": "想我文种无罪而死，天下后世，必要把我与那伍子胥并比，纵然一死，又有何恨！也罢！",
+      "text_length": 39
+    },
+    {
+      "event_id": "03091001_e00178",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 178,
+      "seq_in_scene": 56,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "反二黄摇板",
+      "speakers": [
+        "文种"
+      ],
+      "text": "大丈夫杀身成仁死无憾，留一个青史名标万古传。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03091001_e00179",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 179,
+      "seq_in_scene": 57,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "文种自刎。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00180",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 180,
+      "seq_in_scene": 58,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "院子"
+      ],
+      "text": "老爷呀！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00181",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 181,
+      "seq_in_scene": 59,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四校尉、四太监、大太监、勾践同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03091001_e00182",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 182,
+      "seq_in_scene": 60,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "打进府去！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03091001_e00183",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 183,
+      "seq_in_scene": 61,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四校尉、四太监、大太监、勾践同进府，勾践见尸。",
+      "text_length": 23
+    },
+    {
+      "event_id": "03091001_e00184",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 184,
+      "seq_in_scene": 62,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "啊哈！孤王一步来迟，文大夫已经自尽！文种啊，文种！你今一死，孤王再无可怕之人了！家院！",
+      "text_length": 43
+    },
+    {
+      "event_id": "03091001_e00185",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 185,
+      "seq_in_scene": 63,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03091001_e00186",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 186,
+      "seq_in_scene": 64,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "要你将文大夫尸首，用上等棺木盛殓，抬在卧龙山，以礼埋葬。",
+      "text_length": 28
+    },
+    {
+      "event_id": "03091001_e00187",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 187,
+      "seq_in_scene": 65,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "院子"
+      ],
+      "text": "领旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03091001_e00188",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 188,
+      "seq_in_scene": 66,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "院子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03091001_e00189",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 189,
+      "seq_in_scene": 67,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "勾践"
+      ],
+      "text": "御林军，摆驾回宫！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03091001_e00190",
+      "play_id": "03091001",
+      "scene_id": "03091001_s05",
+      "scene_no": 5,
+      "seq_global": 190,
+      "seq_in_scene": 68,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖尾声〗。众人同下。",
+      "text_length": 10
+    }
+  ],
+  "roles_inferred": true
+}

@@ -1,0 +1,193 @@
+{
+  "play": {
+    "play_id": "01038005",
+    "title": "三世修",
+    "pdf_name": "01038005_三世修.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 3,
+    "speech_count": 161,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01038005",
+    "source_date": "2013-05-22",
+    "synopsis_length": 58,
+    "notes_length": 436,
+    "marker_category_counts": {
+      "other": 5,
+      "recitation": 3,
+      "spoken": 145,
+      "singing": 8
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 161.0,
+    "max_edge_weight": 143,
+    "top_characters": [
+      {
+        "name": "马氏",
+        "hangdang": "彩旦",
+        "speech_count": 62,
+        "degree": 3,
+        "weighted_degree": 245
+      },
+      {
+        "name": "黄桂香",
+        "hangdang": "旦",
+        "speech_count": 53,
+        "degree": 3,
+        "weighted_degree": 213
+      },
+      {
+        "name": "侯七",
+        "hangdang": "丑",
+        "speech_count": 32,
+        "degree": 3,
+        "weighted_degree": 129
+      },
+      {
+        "name": "黄天路",
+        "hangdang": "老生",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 57
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "马氏",
+      "label": "马氏",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 62,
+      "text_length": 1182,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 245,
+      "marker_category_counts": {
+        "spoken": 56,
+        "singing": 4,
+        "other": 2
+      }
+    },
+    {
+      "id": "黄桂香",
+      "label": "黄桂香",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 53,
+      "text_length": 1290,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 213,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 45,
+        "other": 2,
+        "singing": 4
+      }
+    },
+    {
+      "id": "侯七",
+      "label": "侯七",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 32,
+      "text_length": 728,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 129,
+      "marker_category_counts": {
+        "spoken": 31,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "黄天路",
+      "label": "黄天路",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 14,
+      "text_length": 312,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 57,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 13
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "马氏",
+      "target": "黄桂香",
+      "weight": 143,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 70,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "侯七",
+      "target": "马氏",
+      "weight": 69,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 33,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "侯七",
+      "target": "黄桂香",
+      "weight": 53,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "马氏",
+      "target": "黄天路",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "黄天路",
+      "target": "黄桂香",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "侯七",
+      "target": "黄天路",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

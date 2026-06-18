@@ -1,0 +1,133 @@
+{
+  "play": {
+    "play_id": "03031001",
+    "title": "扫地挂画",
+    "pdf_name": "03031001_扫地挂画.pdf",
+    "group_id": "03000000",
+    "page_count": 8,
+    "scene_count": 1,
+    "speech_count": 273,
+    "character_count": 3,
+    "source_url": "https://scripts.xikao.com/play/03031001",
+    "source_date": "2020-09-21",
+    "synopsis_length": 109,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 259,
+      "recitation": 2,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 339.333333,
+    "max_edge_weight": 315,
+    "top_characters": [
+      {
+        "name": "马忠",
+        "hangdang": "丑",
+        "speech_count": 131,
+        "degree": 2,
+        "weighted_degree": 474
+      },
+      {
+        "name": "马赛花",
+        "hangdang": "花旦",
+        "speech_count": 93,
+        "degree": 2,
+        "weighted_degree": 350
+      },
+      {
+        "name": "朱元龙",
+        "hangdang": "小生",
+        "speech_count": 49,
+        "degree": 2,
+        "weighted_degree": 194
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "马忠",
+      "label": "马忠",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 131,
+      "text_length": 2326,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 474,
+      "marker_category_counts": {
+        "spoken": 129,
+        "recitation": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "马赛花",
+      "label": "马赛花",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 93,
+      "text_length": 1237,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 350,
+      "marker_category_counts": {
+        "spoken": 87,
+        "singing": 6
+      }
+    },
+    {
+      "id": "朱元龙",
+      "label": "朱元龙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 49,
+      "text_length": 489,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 194,
+      "marker_category_counts": {
+        "spoken": 43,
+        "recitation": 1,
+        "singing": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "马忠",
+      "target": "马赛花",
+      "weight": 315,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 157,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱元龙",
+      "target": "马忠",
+      "weight": 159,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 79,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱元龙",
+      "target": "马赛花",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

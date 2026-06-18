@@ -1,0 +1,346 @@
+{
+  "play": {
+    "play_id": "01034008",
+    "title": "醋中醋",
+    "pdf_name": "01034008_醋中醋.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 5,
+    "speech_count": 251,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01034008",
+    "source_date": "2016-12-16",
+    "synopsis_length": 426,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 2,
+      "singing": 13,
+      "spoken": 233,
+      "other": 2,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 15,
+    "density": 0.535714,
+    "avg_degree": 3.75,
+    "avg_weighted_degree": 123.5,
+    "max_edge_weight": 199,
+    "top_characters": [
+      {
+        "name": "张和尚",
+        "hangdang": "丑",
+        "speech_count": 92,
+        "degree": 3,
+        "weighted_degree": 362
+      },
+      {
+        "name": "闵子千",
+        "hangdang": "小生",
+        "speech_count": 62,
+        "degree": 4,
+        "weighted_degree": 244
+      },
+      {
+        "name": "钱素娟",
+        "hangdang": "旦",
+        "speech_count": 59,
+        "degree": 6,
+        "weighted_degree": 225
+      },
+      {
+        "name": "钱舅",
+        "hangdang": "丑",
+        "speech_count": 16,
+        "degree": 4,
+        "weighted_degree": 66
+      },
+      {
+        "name": "酒保",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 40
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张和尚",
+      "label": "张和尚",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 92,
+      "text_length": 1972,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 362,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 88,
+        "other": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "闵子千",
+      "label": "闵子千",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 62,
+      "text_length": 642,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 244,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 59
+      }
+    },
+    {
+      "id": "钱素娟",
+      "label": "钱素娟",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 59,
+      "text_length": 713,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 225,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 52
+      }
+    },
+    {
+      "id": "钱舅",
+      "label": "钱舅",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 16,
+      "text_length": 261,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "spoken": 15,
+        "singing": 1
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 87,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 40,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "钱母",
+      "label": "钱母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 7,
+      "text_length": 180,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 6
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 29,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "钱父",
+      "label": "钱父",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 45,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张和尚",
+      "target": "钱素娟",
+      "weight": 199,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 99,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张和尚",
+      "target": "闵子千",
+      "weight": 154,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 76,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "钱舅",
+      "target": "闵子千",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "酒保",
+      "target": "闵子千",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "钱母",
+      "target": "钱素娟",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_003",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "张和尚",
+      "target": "酒保",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "钱母",
+      "target": "钱舅",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "钱父",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "钱素娟",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "钱素娟",
+      "target": "闵子千",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "钱母",
+      "target": "钱父",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "钱母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "酒保",
+      "target": "钱舅",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "钱父",
+      "target": "钱素娟",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "钱素娟",
+      "target": "钱舅",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

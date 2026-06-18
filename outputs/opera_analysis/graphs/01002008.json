@@ -1,0 +1,292 @@
+{
+  "play": {
+    "play_id": "01002008",
+    "title": "八义图",
+    "pdf_name": "01002008_八义图.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 4,
+    "speech_count": 168,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01002008",
+    "source_date": "2018-05-07",
+    "synopsis_length": 310,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 125,
+      "singing": 38,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 12,
+    "density": 0.8,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 112.0,
+    "max_edge_weight": 92,
+    "top_characters": [
+      {
+        "name": "程婴",
+        "hangdang": "老生",
+        "speech_count": 63,
+        "degree": 5,
+        "weighted_degree": 246
+      },
+      {
+        "name": "屠岸贾",
+        "hangdang": "净",
+        "speech_count": 39,
+        "degree": 4,
+        "weighted_degree": 153
+      },
+      {
+        "name": "公孙杵臼",
+        "hangdang": "未知",
+        "speech_count": 34,
+        "degree": 5,
+        "weighted_degree": 136
+      },
+      {
+        "name": "程妻",
+        "hangdang": "旦",
+        "speech_count": 25,
+        "degree": 2,
+        "weighted_degree": 98
+      },
+      {
+        "name": "四龙套",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 4,
+        "weighted_degree": 31
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "程婴",
+      "label": "程婴",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 63,
+      "text_length": 1389,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 246,
+      "marker_category_counts": {
+        "spoken": 46,
+        "singing": 15,
+        "recitation": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "屠岸贾",
+      "label": "屠岸贾",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 39,
+      "text_length": 623,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 153,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 33,
+        "singing": 5
+      }
+    },
+    {
+      "id": "公孙杵臼",
+      "label": "公孙杵臼",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 34,
+      "text_length": 779,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 136,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 25,
+        "singing": 8
+      }
+    },
+    {
+      "id": "程妻",
+      "label": "程妻",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 25,
+      "text_length": 402,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 98,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 14,
+        "singing": 10
+      }
+    },
+    {
+      "id": "四龙套",
+      "label": "四龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 26,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "二龙套",
+      "label": "二龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 3,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "屠岸贾",
+      "target": "程婴",
+      "weight": 92,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 45,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "程妻",
+      "target": "程婴",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "公孙杵臼",
+      "target": "程婴",
+      "weight": 74,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "公孙杵臼",
+      "target": "屠岸贾",
+      "weight": 34,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "公孙杵臼",
+      "target": "程妻",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "屠岸贾",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二龙套",
+      "target": "屠岸贾",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "公孙杵臼",
+      "target": "四龙套",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "程婴",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "二龙套",
+      "target": "公孙杵臼",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二龙套",
+      "target": "四龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二龙套",
+      "target": "程婴",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

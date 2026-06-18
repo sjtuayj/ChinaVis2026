@@ -1,0 +1,341 @@
+{
+  "play": {
+    "play_id": "01006005",
+    "title": "状元谱",
+    "pdf_name": "01006005_状元谱.pdf",
+    "group_id": "01000000",
+    "page_count": 9,
+    "scene_count": 3,
+    "speech_count": 279,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01006005",
+    "source_date": "2013-06-30",
+    "synopsis_length": 524,
+    "notes_length": 23,
+    "marker_category_counts": {
+      "recitation": 15,
+      "spoken": 236,
+      "singing": 22,
+      "other": 5,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 156.571429,
+    "max_edge_weight": 136,
+    "top_characters": [
+      {
+        "name": "陈伯愚",
+        "hangdang": "老生",
+        "speech_count": 95,
+        "degree": 6,
+        "weighted_degree": 356
+      },
+      {
+        "name": "陈大官",
+        "hangdang": "小生",
+        "speech_count": 42,
+        "degree": 4,
+        "weighted_degree": 169
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 41,
+        "degree": 6,
+        "weighted_degree": 166
+      },
+      {
+        "name": "陈夫人",
+        "hangdang": "老旦",
+        "speech_count": 40,
+        "degree": 4,
+        "weighted_degree": 161
+      },
+      {
+        "name": "张公道",
+        "hangdang": "丑",
+        "speech_count": 33,
+        "degree": 3,
+        "weighted_degree": 129
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "陈伯愚",
+      "label": "陈伯愚",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 95,
+      "text_length": 1632,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 356,
+      "marker_category_counts": {
+        "recitation": 4,
+        "spoken": 80,
+        "singing": 10,
+        "other": 1
+      }
+    },
+    {
+      "id": "陈大官",
+      "label": "陈大官",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 42,
+      "text_length": 1258,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 169,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 36,
+        "singing": 3
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 41,
+      "text_length": 335,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 166,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 39,
+        "other": 1
+      }
+    },
+    {
+      "id": "陈夫人",
+      "label": "陈夫人",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 40,
+      "text_length": 478,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 161,
+      "marker_category_counts": {
+        "singing": 9,
+        "spoken": 26,
+        "other": 3,
+        "stage_action": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "张公道",
+      "label": "张公道",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 33,
+      "text_length": 594,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 129,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 31
+      }
+    },
+    {
+      "id": "朱仓",
+      "label": "朱仓",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 20,
+      "text_length": 220,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 80,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "众小孩",
+      "label": "众小孩",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 68,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "recitation": 3,
+        "spoken": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "陈伯愚",
+      "target": "陈夫人",
+      "weight": 136,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 67,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "陈伯愚",
+      "weight": 63,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 31,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "陈伯愚",
+      "target": "陈大官",
+      "weight": 62,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈伯愚",
+      "target": "院子",
+      "weight": 61,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈大官",
+      "target": "院子",
+      "weight": 48,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "朱仓",
+      "target": "陈大官",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张公道",
+      "target": "院子",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱仓",
+      "target": "陈伯愚",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众小孩",
+      "target": "张公道",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "陈大官",
+      "target": "陈夫人",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "陈夫人",
+      "target": "院子",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众小孩",
+      "target": "陈伯愚",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众小孩",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱仓",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "朱仓",
+      "target": "陈夫人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

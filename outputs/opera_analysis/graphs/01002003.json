@@ -1,0 +1,89 @@
+{
+  "play": {
+    "play_id": "01002003",
+    "title": "祭长江",
+    "pdf_name": "01002003_祭长江.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 2,
+    "speech_count": 10,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01002003",
+    "source_date": "2013-08-23",
+    "synopsis_length": 165,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 6,
+      "singing": 3,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 7.0,
+    "max_edge_weight": 7,
+    "top_characters": [
+      {
+        "name": "孙尚香",
+        "hangdang": "旦",
+        "speech_count": 8,
+        "degree": 1,
+        "weighted_degree": 7
+      },
+      {
+        "name": "龙王",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙尚香",
+      "label": "孙尚香",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 8,
+      "text_length": 621,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 4,
+        "singing": 3,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "龙王",
+      "label": "龙王",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 48,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孙尚香",
+      "target": "龙王",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

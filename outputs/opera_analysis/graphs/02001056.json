@@ -1,0 +1,91 @@
+{
+  "play": {
+    "play_id": "02001056",
+    "title": "幻化",
+    "pdf_name": "02001056_幻化.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 34,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/02001056",
+    "source_date": "2018-08-23",
+    "synopsis_length": 64,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 4,
+      "recitation": 4,
+      "spoken": 26
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 65.0,
+    "max_edge_weight": 65,
+    "top_characters": [
+      {
+        "name": "庄周",
+        "hangdang": "老生",
+        "speech_count": 18,
+        "degree": 1,
+        "weighted_degree": 65
+      },
+      {
+        "name": "老人",
+        "hangdang": "未知",
+        "speech_count": 16,
+        "degree": 1,
+        "weighted_degree": 65
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "庄周",
+      "label": "庄周",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 18,
+      "text_length": 822,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "other": 3,
+        "recitation": 2,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "老人",
+      "label": "老人",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 16,
+      "text_length": 586,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 13,
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "庄周",
+      "target": "老人",
+      "weight": 65,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

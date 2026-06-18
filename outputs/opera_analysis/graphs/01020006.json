@@ -1,0 +1,287 @@
+{
+  "play": {
+    "play_id": "01020006",
+    "title": "穆柯寨",
+    "pdf_name": "01020006_穆柯寨.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 10,
+    "speech_count": 132,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01020006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 267,
+    "notes_length": 219,
+    "marker_category_counts": {
+      "singing": 19,
+      "spoken": 109,
+      "other": 3,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 11,
+    "density": 0.733333,
+    "avg_degree": 3.666667,
+    "avg_weighted_degree": 82.0,
+    "max_edge_weight": 158,
+    "top_characters": [
+      {
+        "name": "焦赞",
+        "hangdang": "净",
+        "speech_count": 49,
+        "degree": 4,
+        "weighted_degree": 182
+      },
+      {
+        "name": "孟良",
+        "hangdang": "净",
+        "speech_count": 48,
+        "degree": 4,
+        "weighted_degree": 178
+      },
+      {
+        "name": "穆桂英",
+        "hangdang": "武旦",
+        "speech_count": 17,
+        "degree": 5,
+        "weighted_degree": 58
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "旦",
+        "speech_count": 11,
+        "degree": 4,
+        "weighted_degree": 49
+      },
+      {
+        "name": "杨宗保",
+        "hangdang": "小生",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 19
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "焦赞",
+      "label": "焦赞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 49,
+      "text_length": 1017,
+      "scene_count": 7,
+      "degree": 4,
+      "weighted_degree": 182,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 41,
+        "other": 2
+      }
+    },
+    {
+      "id": "孟良",
+      "label": "孟良",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 48,
+      "text_length": 903,
+      "scene_count": 7,
+      "degree": 4,
+      "weighted_degree": 178,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 41
+      }
+    },
+    {
+      "id": "穆桂英",
+      "label": "穆桂英",
+      "raw_role": "武旦",
+      "hangdang": "武旦",
+      "speech_count": 17,
+      "text_length": 451,
+      "scene_count": 6,
+      "degree": 5,
+      "weighted_degree": 58,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "spoken": 11,
+        "singing": 4
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": "丑旦",
+      "hangdang": "旦",
+      "speech_count": 11,
+      "text_length": 188,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    },
+    {
+      "id": "杨宗保",
+      "label": "杨宗保",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 6,
+      "text_length": 176,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 19,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孟良",
+      "target": "焦赞",
+      "weight": 158,
+      "scene_cooccurrence": 6,
+      "dialogue_turns": 76,
+      "scenes": [
+        "scene_002",
+        "scene_004",
+        "scene_006",
+        "scene_007",
+        "scene_009",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "穆桂英",
+      "weight": 31,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003",
+        "scene_005",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "孟良",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "杨宗保",
+      "target": "焦赞",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "焦赞",
+      "target": "穆桂英",
+      "weight": 8,
+      "scene_cooccurrence": 4,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_005",
+        "scene_006",
+        "scene_007",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "焦赞",
+      "weight": 7,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_004",
+        "scene_005",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "穆桂英",
+      "weight": 7,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006",
+        "scene_007",
+        "scene_010"
+      ]
+    },
+    {
+      "source": "杨宗保",
+      "target": "穆桂英",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "穆桂英",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "杨宗保",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "众人",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "play": {
+    "play_id": "01022008",
+    "title": "喂药",
+    "pdf_name": "01022008_喂药.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 66,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01022008",
+    "source_date": "2018-08-23",
+    "synopsis_length": 137,
+    "notes_length": 81,
+    "marker_category_counts": {
+      "singing": 11,
+      "spoken": 55
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 50.0,
+    "max_edge_weight": 49,
+    "top_characters": [
+      {
+        "name": "刘金定",
+        "hangdang": "旦",
+        "speech_count": 22,
+        "degree": 2,
+        "weighted_degree": 74
+      },
+      {
+        "name": "药王",
+        "hangdang": "丑",
+        "speech_count": 35,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "高俊保",
+        "hangdang": "小生",
+        "speech_count": 9,
+        "degree": 2,
+        "weighted_degree": 26
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘金定",
+      "label": "刘金定",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 22,
+      "text_length": 648,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 74,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 16
+      }
+    },
+    {
+      "id": "药王",
+      "label": "药王",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 35,
+      "text_length": 608,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 34
+      }
+    },
+    {
+      "id": "高俊保",
+      "label": "高俊保",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 9,
+      "text_length": 275,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘金定",
+      "target": "药王",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘金定",
+      "target": "高俊保",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "药王",
+      "target": "高俊保",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

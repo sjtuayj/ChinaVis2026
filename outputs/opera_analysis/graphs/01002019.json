@@ -1,0 +1,322 @@
+{
+  "play": {
+    "play_id": "01002019",
+    "title": "红鸾禧",
+    "pdf_name": "01002019_红鸾禧.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 3,
+    "speech_count": 185,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01002019",
+    "source_date": "2018-08-23",
+    "synopsis_length": 102,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 168,
+      "singing": 12,
+      "recitation": 2,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 125.0,
+    "max_edge_weight": 130,
+    "top_characters": [
+      {
+        "name": "金松",
+        "hangdang": "丑",
+        "speech_count": 63,
+        "degree": 5,
+        "weighted_degree": 257
+      },
+      {
+        "name": "莫稽",
+        "hangdang": "小生",
+        "speech_count": 56,
+        "degree": 5,
+        "weighted_degree": 227
+      },
+      {
+        "name": "金玉奴",
+        "hangdang": "旦",
+        "speech_count": 51,
+        "degree": 5,
+        "weighted_degree": 193
+      },
+      {
+        "name": "二杆",
+        "hangdang": "丑",
+        "speech_count": 10,
+        "degree": 5,
+        "weighted_degree": 41
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 5,
+        "weighted_degree": 21
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "金松",
+      "label": "金松",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 63,
+      "text_length": 1412,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 257,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 60,
+        "other": 1
+      }
+    },
+    {
+      "id": "莫稽",
+      "label": "莫稽",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 56,
+      "text_length": 885,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 227,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 48,
+        "other": 2
+      }
+    },
+    {
+      "id": "金玉奴",
+      "label": "金玉奴",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 51,
+      "text_length": 1314,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 193,
+      "marker_category_counts": {
+        "spoken": 46,
+        "recitation": 1,
+        "singing": 4
+      }
+    },
+    {
+      "id": "二杆",
+      "label": "二杆",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 10,
+      "text_length": 239,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "spoken": 9,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 25,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 21,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "天喜星",
+      "label": "天喜星",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 80,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "莫稽",
+      "target": "金松",
+      "weight": 130,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 64,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "金松",
+      "target": "金玉奴",
+      "weight": 96,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 47,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "莫稽",
+      "target": "金玉奴",
+      "weight": 88,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二杆",
+      "target": "金松",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二杆",
+      "target": "众人",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "金松",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "天喜星",
+      "target": "莫稽",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二杆",
+      "target": "金玉奴",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "天喜星",
+      "target": "金玉奴",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二杆",
+      "target": "莫稽",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "莫稽",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "金玉奴",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二杆",
+      "target": "天喜星",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "天喜星",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天喜星",
+      "target": "金松",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

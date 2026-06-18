@@ -1,0 +1,3602 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02003013",
+    "title": "凤凰台",
+    "aliases": [],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02003013_凤凰台.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 6,
+    "file_size_bytes": 434506,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "孙策自父丧之后，退居江南。后被刘繇所逼，带领旧将程普，投奔袁术。袁术因与孙坚交谊素好，又见孙策少年英俊，为挫其傲气，并未重用。孙策乃用朱治计，将孙坚留下传国玉玺，送予袁术为质，借兵数千，渡江救母。路经凤凰台，系乔公之女大乔、小乔姊妹据守。时小乔与其父出外收粮，只大乔在山。孙策向山寨借粮，大乔大怒，亲自出马应战。彼此通名后，大战数十合，不相上下。最后大乔用绊马索将孙策擒上山寨。并告孙策部下，公子虽被擒住，决不加害。请暂且扎营，静候好音云。",
+    "notes": [
+      "按此剧本，似尚未完，容再搜觅考证。",
+      "根据《国剧大成》第三集整理"
+    ],
+    "story_period": {
+      "label": "秦汉",
+      "evidence": "秦、韩信",
+      "confidence": 0.59
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.88,
+      "evidence": [
+        "战",
+        "兵",
+        "将",
+        "马",
+        "擒"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_孙策",
+      "name": "孙策",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "柔情",
+        "孝亲",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 28,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "expression_count": 0,
+        "action_hint_count": 15,
+        "combat_hint_count": 4
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙策：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_大乔",
+      "name": "大乔",
+      "original_category": "旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 14,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 4
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：大乔：旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_袁术",
+      "name": "袁术",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 15,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "老夫"
+        ]
+      }
+    },
+    {
+      "role_id": "r_朱治",
+      "name": "朱治",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_吕范",
+      "name": "吕范",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_程普",
+      "name": "程普",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_黄盖",
+      "name": "黄盖",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_韩当",
+      "name": "韩当",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周泰",
+      "name": "周泰",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四文堂",
+      "name": "四文堂",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四上手",
+      "name": "四上手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四大铠",
+      "name": "四大铠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_八女兵",
+      "name": "八女兵",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "母",
+          "母"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "母"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "袁术",
+        "朱治",
+        "吕范",
+        "孙策"
+      ],
+      "event_ids": [
+        "02003013_e00001",
+        "02003013_e00002",
+        "02003013_e00003",
+        "02003013_e00004",
+        "02003013_e00005",
+        "02003013_e00006",
+        "02003013_e00007",
+        "02003013_e00008",
+        "02003013_e00009",
+        "02003013_e00010",
+        "02003013_e00011",
+        "02003013_e00012",
+        "02003013_e00013",
+        "02003013_e00014",
+        "02003013_e00015",
+        "02003013_e00016",
+        "02003013_e00017",
+        "02003013_e00018",
+        "02003013_e00019",
+        "02003013_e00020",
+        "02003013_e00021",
+        "02003013_e00022",
+        "02003013_e00023",
+        "02003013_e00024",
+        "02003013_e00025",
+        "02003013_e00026",
+        "02003013_e00027",
+        "02003013_e00028",
+        "02003013_e00029",
+        "02003013_e00030",
+        "02003013_e00031",
+        "02003013_e00032",
+        "02003013_e00033",
+        "02003013_e00034"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 34,
+        "spoken_count": 20,
+        "aria_count": 0,
+        "recitation_count": 8,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 590
+      }
+    },
+    {
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 3,
+      "characters": [
+        "孙策",
+        "朱治",
+        "吕范"
+      ],
+      "event_ids": [
+        "02003013_e00035",
+        "02003013_e00036",
+        "02003013_e00037",
+        "02003013_e00038",
+        "02003013_e00039",
+        "02003013_e00040",
+        "02003013_e00041",
+        "02003013_e00042",
+        "02003013_e00043",
+        "02003013_e00044",
+        "02003013_e00045",
+        "02003013_e00046",
+        "02003013_e00047",
+        "02003013_e00048",
+        "02003013_e00049",
+        "02003013_e00050",
+        "02003013_e00051",
+        "02003013_e00052",
+        "02003013_e00053",
+        "02003013_e00054",
+        "02003013_e00055",
+        "02003013_e00056",
+        "02003013_e00057",
+        "02003013_e00058",
+        "02003013_e00059",
+        "02003013_e00060",
+        "02003013_e00061",
+        "02003013_e00062",
+        "02003013_e00063",
+        "02003013_e00064",
+        "02003013_e00065",
+        "02003013_e00066",
+        "02003013_e00067",
+        "02003013_e00068",
+        "02003013_e00069",
+        "02003013_e00070",
+        "02003013_e00071",
+        "02003013_e00072",
+        "02003013_e00073",
+        "02003013_e00074",
+        "02003013_e00075"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 41,
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 9,
+        "expression_count": 0,
+        "text_length": 993
+      }
+    },
+    {
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "袁术",
+        "孙策",
+        "朱治",
+        "吕范"
+      ],
+      "event_ids": [
+        "02003013_e00076",
+        "02003013_e00077",
+        "02003013_e00078",
+        "02003013_e00079",
+        "02003013_e00080",
+        "02003013_e00081",
+        "02003013_e00082",
+        "02003013_e00083",
+        "02003013_e00084",
+        "02003013_e00085",
+        "02003013_e00086",
+        "02003013_e00087",
+        "02003013_e00088",
+        "02003013_e00089",
+        "02003013_e00090",
+        "02003013_e00091",
+        "02003013_e00092",
+        "02003013_e00093",
+        "02003013_e00094",
+        "02003013_e00095",
+        "02003013_e00096",
+        "02003013_e00097",
+        "02003013_e00098",
+        "02003013_e00099",
+        "02003013_e00100"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 25,
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 603
+      }
+    },
+    {
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 4,
+      "page_end": 5,
+      "characters": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰",
+        "孙策",
+        "四文堂",
+        "四上手",
+        "四大铠"
+      ],
+      "event_ids": [
+        "02003013_e00101",
+        "02003013_e00102",
+        "02003013_e00103",
+        "02003013_e00104",
+        "02003013_e00105",
+        "02003013_e00106",
+        "02003013_e00107",
+        "02003013_e00108",
+        "02003013_e00109",
+        "02003013_e00110",
+        "02003013_e00111",
+        "02003013_e00112",
+        "02003013_e00113",
+        "02003013_e00114",
+        "02003013_e00115",
+        "02003013_e00116",
+        "02003013_e00117",
+        "02003013_e00118",
+        "02003013_e00119",
+        "02003013_e00120",
+        "02003013_e00121"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 300
+      }
+    },
+    {
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "大乔",
+        "八女兵",
+        "报子",
+        "孙策",
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰",
+        "四文堂",
+        "四上手",
+        "四大铠"
+      ],
+      "event_ids": [
+        "02003013_e00122",
+        "02003013_e00123",
+        "02003013_e00124",
+        "02003013_e00125",
+        "02003013_e00126",
+        "02003013_e00127",
+        "02003013_e00128",
+        "02003013_e00129",
+        "02003013_e00130",
+        "02003013_e00131",
+        "02003013_e00132",
+        "02003013_e00133",
+        "02003013_e00134",
+        "02003013_e00135",
+        "02003013_e00136",
+        "02003013_e00137",
+        "02003013_e00138",
+        "02003013_e00139",
+        "02003013_e00140",
+        "02003013_e00141",
+        "02003013_e00142",
+        "02003013_e00143",
+        "02003013_e00144",
+        "02003013_e00145",
+        "02003013_e00146",
+        "02003013_e00147",
+        "02003013_e00148",
+        "02003013_e00149",
+        "02003013_e00150",
+        "02003013_e00151",
+        "02003013_e00152",
+        "02003013_e00153",
+        "02003013_e00154",
+        "02003013_e00155",
+        "02003013_e00156",
+        "02003013_e00157",
+        "02003013_e00158",
+        "02003013_e00159",
+        "02003013_e00160",
+        "02003013_e00161",
+        "02003013_e00162",
+        "02003013_e00163",
+        "02003013_e00164",
+        "02003013_e00165",
+        "02003013_e00166",
+        "02003013_e00167",
+        "02003013_e00168",
+        "02003013_e00169",
+        "02003013_e00170",
+        "02003013_e00171",
+        "02003013_e00172",
+        "02003013_e00173",
+        "02003013_e00174"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 53,
+        "spoken_count": 29,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 10,
+        "expression_count": 0,
+        "text_length": 1186
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02003013_e00001",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、四文堂、四大铠、袁术同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02003013_e00002",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "四世三公，镇东南，名高望重。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00003",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "一自虎牢定帝都，风云万里胜三吴。英雄事业英雄做，董卓原来不丈夫。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003013_e00004",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "某，寿春太守袁术是也。自虎牢关后，退兵此地，蓄精养锐，欲取霸业。正是：",
+      "text_length": 35
+    },
+    {
+      "event_id": "02003013_e00005",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "人事盖棺方论定，莫把英雄说败成。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003013_e00006",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "朱治、吕范同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00007",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "孙策今来干父蛊，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00008",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "终军不独请长缨。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00009",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "佐吏（朱治）（吕范）参见。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003013_e00010",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "请二位少礼。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003013_e00011",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "今有长沙太守孙坚之子，名曰孙策，带领旧将程普等前来相投，辕门候见。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00012",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "哦，孙坚之子孙策前来相投？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003013_e00013",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00014",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "那孙策有多大年纪了？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003013_e00015",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "不过十馀岁。却是豪气过人。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003013_e00016",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "如此传他进见。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00017",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "是。有请孙公子。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00018",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00019",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "气吐虹霓三万丈，胸怀忠孝五尺身。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003013_e00020",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "太守在上，小侄孙策参见。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003013_e00021",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "孙郎少礼。何处而来？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003013_e00022",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "小侄自父丧之后，退居江南，在丹阳太守母舅吴景处安住。为因兵微将寡，被扬州刺史刘繇所逼。小侄无所倚望，带领旧将程普等特投麾下，以效驱策。未知明公肯收留否。",
+      "text_length": 76
+    },
+    {
+      "event_id": "02003013_e00023",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "观尔形像魁武，英气泼泼，将来必有大用。既来投我，且拜尔为怀义校尉，帐下听候调遣。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02003013_e00024",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "谢明公。咳！https://scripts.xikao.com/play/020030132023-05-30",
+      "text_length": 55
+    },
+    {
+      "event_id": "02003013_e00025",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "早知贤豪皆虚誉，何必英雄奔矮檐。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003013_e00026",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00027",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "明公今看此子如何？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003013_e00028",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "此乃少年英雄。若老夫有子如孙策，死复何恨。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02003013_e00029",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "吓！明公既以英雄许之，如何不甚为礼？",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003013_e00030",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "我与孙坚乃是同辈，故踞傲待之，以灭其少年豪气。且待日后，自当重用。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00031",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "原来如此。请明公退帐。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00032",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "曾闻洗足骄英布，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00033",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "未可婴儿待项王。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00034",
+      "play_id": "02003013",
+      "scene_id": "02003013_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003013_e00035",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起初更鼓〗。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00036",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "内唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "听画角韵悠扬夜声静悄，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00037",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策箭衣带剑上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00038",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "又只见初生月斜挂树梢。可叹我怀宝剑失了计较，投袁术他却似泥塑木雕。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00039",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "欲卧怕多愁，夜看山衔斗。搔首问青天，心事可知否？",
+      "text_length": 24
+    },
+    {
+      "event_id": "02003013_e00040",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "咳，天哪天！我孙策好错也！因甚误投此地，以致袁术待我如同小儿。想我父亲在日，何等英雄？生我不才如此沦落。追思往事，好不伤心人也！",
+      "text_length": 64
+    },
+    {
+      "event_id": "02003013_e00041",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起二更鼓〗。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00042",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "天地间古今来令人难料，也不知埋没了多少英豪。周室衰五霸强七雄扰扰，风云起怎不教追思汉高？三尺剑过芒砀灭秦除暴，鸿门宴险中了范增笼牢。好一个张子房烧绝栈道，萧相国荐韩信平步青霄。九里山逼霸王一身荣耀，方显得男儿汉盖世功劳。到如今这三杰何处去了？空留下英雄恨泪湿征袍。",
+      "text_length": 132
+    },
+    {
+      "event_id": "02003013_e00043",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "且住！昔日董卓烧毁洛阳之时，我父曾于建章殿月下，为国挥泪。我今悮投袁术，亦在月下为家伤情。流泪虽一般，心惨各别。正是：",
+      "text_length": 59
+    },
+    {
+      "event_id": "02003013_e00044",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "我有一片心，诉与天边月。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003013_e00045",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "苍天吓吓吓！月之感人如此之甚也！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003013_e00046",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策哭。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00047",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "对明月忆往事神情飘渺，想亡亲创功业胆落魂消。扶不起大厦倾将星落早，遗留我无用才不能续貂。哭不尽功名事——",
+      "text_length": 52
+    },
+    {
+      "event_id": "02003013_e00048",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起三更鼓〗。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00049",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "羞愧年少，哭不尽诸侯们胡行乱扰，空悬着三尺剑两行泪掉，https://scripts.xikao.com/play/020030132023-05-30孙伯符做不得玉关班超。",
+      "text_length": 87
+    },
+    {
+      "event_id": "02003013_e00050",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "朱治上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00051",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "年少郎自痛哭真正可笑，莫不是在月下怀想风骚？",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00052",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "吓吓伯符，何故对月痛哭？尊翁在日也曾用我朱治之谋，你今有甚不快之事，何不向我决之。",
+      "text_length": 41
+    },
+    {
+      "event_id": "02003013_e00053",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "吓先生！请坐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00054",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "请问公子何故如此？请道其详。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00055",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "咳先生！策所哭者，恨不能继先父之志耳。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02003013_e00056",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "哭吾父破黄巾威名浩浩，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00057",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "先生！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00058",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "哭孙策失祖业水落花飘。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00059",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策哭。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00060",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "呀！孙郎真乃英雄，令人可敬。何不告求袁术借兵数千，前往江东假名保救吴景，就便暗图大业。何必在此困于人下？",
+      "text_length": 52
+    },
+    {
+      "event_id": "02003013_e00061",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "吓，感承先生指教，开我愚蒙也！",
+      "text_length": 15
+    },
+    {
+      "event_id": "02003013_e00062",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "深感谢金石言承蒙指教，借雄兵往江南起凤腾蛟。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00063",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "照此行方能够鳌鱼脱钓，到长江兴风云何等道遥。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00064",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起五更鼓〗。吕范上。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00065",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "他二人意欲往南山变豹，我何难驸骥尾同上云霄。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00066",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "哈哈哈！二公之言吾早已听见了！",
+      "text_length": 15
+    },
+    {
+      "event_id": "02003013_e00067",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 33,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "朱治",
+        "孙策"
+      ],
+      "text": "原来吕范先生。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00068",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 34,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "吾手下现有精壮百人，愿助伯符一臂之力。但恐袁术不肯借兵，如何是好？",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00069",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "吾先父留下传国玉玺，就此送与袁术为质，必然应允。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02003013_e00070",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "着吓！公子将无用之物，换有用之兵。袁术若得了此宝必能见允，有此相质必肯发兵。天已明了，可同往相求便了。",
+      "text_length": 51
+    },
+    {
+      "event_id": "02003013_e00071",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "有劳二公。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003013_e00072",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "得二公是天赐机缘合巧，谅必能成大事列土分茅。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00073",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "朱治"
+      ],
+      "text": "辅公子我二人义同管鲍，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00074",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "吕范"
+      ],
+      "text": "愿求个功业事凌烟阁标。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00075",
+      "play_id": "02003013",
+      "scene_id": "02003013_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策、朱治、吕范同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00076",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 76,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、袁术同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003013_e00077",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 77,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "自昨日退帐后仔细思想，在虎牢忌孙坚转瞬时光。不意他有此子十分异相，只怕是灭秦的西楚霸王。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02003013_e00078",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 78,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "我想孙坚当日何等英雄，不料被荆州刘表射死。今其子孙策虽然年幼，倒是气慨可爱。既来投我，必当拢络待之。",
+      "text_length": 50
+    },
+    {
+      "event_id": "02003013_e00079",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 79,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "千里驹当必要加意蓄养，谨防他化龙去霖雨沧桑。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00080",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 80,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策、朱治、吕范同上。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00081",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 81,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "求借兵占江东假意惆怅，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00082",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "附合他创功名龙入长江。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00083",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "孙策有求明公。https://scripts.xikao.com/play/020030132023-05-30",
+      "text_length": 56
+    },
+    {
+      "event_id": "02003013_e00084",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 84,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策拜哭。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003013_e00085",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 85,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "吓孙郎，为何如此？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003013_e00086",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "小侄父仇不能得报。今母舅吴景，又被扬州刺史刘繇所逼。策之老母幼弟，俱在曲阿地方，必然被害。敢借雄兵数千，渡江救难。特此拜求，俯乞见允。",
+      "text_length": 67
+    },
+    {
+      "event_id": "02003013_e00087",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "话虽如此。但你年幼，如何领得大兵？这却断断不可。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02003013_e00088",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 88,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "哎呀明公！自古有志者事竟成，明公不信，策有先父遗下玉玺一封，权为质当。恳乞收存。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02003013_e00089",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 89,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "吓哈哈哈！果然汉家传国玉玺。孙郎非吾要你玉玺，不过权留在此。请起讲话。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02003013_e00090",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 90,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00091",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 91,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "吾今借与你精兵三千，良马五百匹，渡江平定之后，可速回来。你职位卑微，难掌大权。我拜你为折冲校尉，殄寇将军。就同朱治、吕范一同前去勿误。",
+      "text_length": 67
+    },
+    {
+      "event_id": "02003013_e00092",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 92,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "谢明公！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00093",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 93,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "拜谢了明公恩提兵调将，权在手还得要男儿自强。有劳了二先生一路同往，",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00094",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 94,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "朱治",
+        "吕范"
+      ],
+      "text": "笑袁术他不及年少孙郎。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00095",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 95,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策、朱治、吕范同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00096",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 96,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00097",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 97,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "好容易传国玺归于吾掌，承汉家锦社稷事有可商。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00098",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 98,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "某久思此玉玺，不料今日到了吾手。称帝之兆，有几分稳妥了。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02003013_e00099",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 99,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "我且去暗自里整顿粮饷，趁机会学王莽这又何妨？",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00100",
+      "play_id": "02003013",
+      "scene_id": "02003013_s03",
+      "scene_no": 3,
+      "seq_global": 100,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "袁术笑下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003013_e00101",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 101,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "程普、黄盖、韩当、周泰同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00102",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 102,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "程普"
+      ],
+      "text": "一剑空横几度秋，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00103",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 103,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "黄盖"
+      ],
+      "text": "少年义气许相投。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00104",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 104,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "韩当"
+      ],
+      "text": "英雄漫说开疆土，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00105",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 105,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "周泰"
+      ],
+      "text": "智在江南八十州。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00106",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 106,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "某——",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00107",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 107,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "程普"
+      ],
+      "text": "程普。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00108",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 108,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄盖"
+      ],
+      "text": "黄盖。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00109",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 109,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩当"
+      ],
+      "text": "韩当。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00110",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 110,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周泰"
+      ],
+      "text": "周泰。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00111",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 111,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "程普"
+      ],
+      "text": "请了！我等前随孙坚太守为将，太守被荆州刘表射死。今公子孙策，借得袁术兵马，前往江南，暗图功业。你我须当同往。",
+      "text_length": 54
+    },
+    {
+      "event_id": "02003013_e00112",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 112,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "言之有理。远远望见公子来也。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00113",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 113,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四上手、四大铠引朱治、吕范、孙策同上。",
+      "text_length": 23
+    },
+    {
+      "event_id": "02003013_e00114",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 114,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "意气凌云，笑终军，空请长缨。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00115",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "参见公子。借兵如何？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003013_e00116",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "托列公之福，幸得袁术借兵。看来大事有成。https://scripts.xikao.com/play/020030132023-05-30",
+      "text_length": 69
+    },
+    {
+      "event_id": "02003013_e00117",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "公子年少英雄，所谋必遂。即请发兵令。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003013_e00118",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "全仗列位之力。吩咐起马。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003013_e00119",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "得令。呔！众将官，起马！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003013_e00120",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手",
+        "四大铠"
+      ],
+      "text": "哦。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00121",
+      "play_id": "02003013",
+      "scene_id": "02003013_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖泣颜回〗。众人同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00122",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 122,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、八女兵引大乔同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00123",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 123,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "金针懒就，向孙武，别致风流。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00124",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 124,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "无盐才智西施娇，输与东吴大、小乔。纷纷词客多搁笔，个个公侯欲梦刀。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00125",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 125,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "奴乃大乔是也。父亲乔公。汉室为臣。因被董卓之乱，告职归家。生我姐妹二人，名曰大乔小乔。只因刻下诸侯僭逆，任意征伐。是我与妹子小乔，布散家财，招集义兵，在这凤凰台畔各立一寨，保守村主，以防贼盗。暗实查访英雄，而图终身大事。妹子随爹爹往西收粮去了。众女侍防守寨栏，听我吩咐。",
+      "text_length": 135
+    },
+    {
+      "event_id": "02003013_e00126",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 126,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "八女兵"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00127",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 127,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "自古来论红颜多少脂粉，巾帼中数丈夫能有几人？我今日立寨栅并非任性，直等是为国家捕盗安民。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02003013_e00128",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 128,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00129",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 129,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报启姑娘：西北来了一支人马，现在寨门借粮，甚是凶勇。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02003013_e00130",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 130,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "知道了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00131",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 131,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00132",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 132,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "吓！何人敢来我寨借粮？众侍女一同出寨迎敌者。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003013_e00133",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 133,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "八女兵"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00134",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 134,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖风入松〗。四文堂、四上手、四大铠、程普、黄盖、韩当、周泰、孙策同上，同会阵，孙策看大乔。",
+      "text_length": 45
+    },
+    {
+      "event_id": "02003013_e00135",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 135,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "哎！何处人马，敢来扰乱我村庄么？",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003013_e00136",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 136,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "哎呀妙吓！原来是一绝色女子。因何也能枪马？",
+      "text_length": 21
+    },
+    {
+      "event_id": "02003013_e00137",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 137,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "唗！快通名姓，免作枪头之鬼。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003013_e00138",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 138,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "听者！吾乃长沙太守公子孙策是也。带兵前往丹阳公干，途中缺少粮草。乞求宝庄借粮一万斛。事定之后，必当送还。请留名姓。",
+      "text_length": 57
+    },
+    {
+      "event_id": "02003013_e00139",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 139,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "奴乃乔公之女大乔是也。在此设立营寨，护卫村民，防拿贼盗。你既朝庭官军，可即速退回。不然便当贼兵拿获。",
+      "text_length": 50
+    },
+    {
+      "event_id": "02003013_e00140",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 140,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "借粮不借，全在于你。何敢藐视少爷？看枪！",
+      "text_length": 20
+    },
+    {
+      "event_id": "02003013_e00141",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 141,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "住了！我和你夙无仇隙，一言之下，平白交锋，所为何来？",
+      "text_length": 26
+    },
+    {
+      "event_id": "02003013_e00142",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 142,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "要少爷饶你，须当呈送粮草。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003013_e00143",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 143,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "也罢。你若胜得姑娘这枝金枪，粮草即便奉送。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02003013_e00144",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 144,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "既然如此，你要仔细了！",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003013_e00145",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 145,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00146",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 146,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策、大乔同杀。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00147",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 147,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "比武可见丫头傻，https://scripts.xikao.com/play/020030132023-05-30须知孙策是将家。惜乎窈窕容如画，动人春色满头花。有心与你来作耍，恐你力小少枪法。相劝咱两解和罢，凤凰台上看彩霞。",
+      "text_length": 113
+    },
+    {
+      "event_id": "02003013_e00148",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 148,
+      "seq_in_scene": 27,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "唗！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00149",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 149,
+      "seq_in_scene": 28,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "姑娘不懂猖狂话，云龙风虎能擒拿。再看小儿多俊雅，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02003013_e00150",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 150,
+      "seq_in_scene": 29,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "哦！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00151",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 151,
+      "seq_in_scene": 30,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "做对鸳鸯哪等差？",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00152",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 152,
+      "seq_in_scene": 31,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "看枪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00153",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 153,
+      "seq_in_scene": 32,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "丝缰一抖催战马，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00154",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 154,
+      "seq_in_scene": 33,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "金枪挑动起黄沙。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00155",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 155,
+      "seq_in_scene": 34,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "狮吼雄威走兽怕，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00156",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 156,
+      "seq_in_scene": 35,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "何难捉你井底蛙。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00157",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 157,
+      "seq_in_scene": 36,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "勇力千斤称豪霸，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00158",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 158,
+      "seq_in_scene": 37,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策、大乔同架枪。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003013_e00159",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 159,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "几度冲风不忍杀。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00160",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 160,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "丫头！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003013_e00161",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 161,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "枪尖必能使汝嫁，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003013_e00162",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 162,
+      "seq_in_scene": 41,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "交战何须口头滑。（孙策、大乔同杀，同架住。四文堂、四上手、四大铠、程普、黄盖、韩当、周泰、四红文堂、八女兵同下。孙策、大乔同对枪。大乔下，孙策追下。大乔、孙策同上，同杀。四文堂、四上手、四大铠、程普、黄盖、韩当、周泰、四红文堂、八女兵同上，同攒下。大乔上，破程普、黄盖、韩当、周泰同下。八女兵引大乔同上。）",
+      "text_length": 153
+    },
+    {
+      "event_id": "02003013_e00163",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 163,
+      "seq_in_scene": 42,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "吓，孙郎杀法厉害。众女兵，绊马索伺候。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02003013_e00164",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 164,
+      "seq_in_scene": 43,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00165",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 165,
+      "seq_in_scene": 44,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙策"
+      ],
+      "text": "哪里走！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00166",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 166,
+      "seq_in_scene": 45,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙策杀，大乔败，引孙策擒下。程普、黄盖、韩当、周泰同追上，同抢，同架住。",
+      "text_length": 36
+    },
+    {
+      "event_id": "02003013_e00167",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 167,
+      "seq_in_scene": 46,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "众位将军听者。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003013_e00168",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 168,
+      "seq_in_scene": 47,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "程普",
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "讲。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00169",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 169,
+      "seq_in_scene": 48,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大乔"
+      ],
+      "text": "公子虽然被擒，决无相害之意。请暂且扎营，自有好音。请吓！",
+      "text_length": 28
+    },
+    {
+      "event_id": "02003013_e00170",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 170,
+      "seq_in_scene": 49,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大乔下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003013_e00171",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 171,
+      "seq_in_scene": 50,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "程普"
+      ],
+      "text": "吓，列位将军，这丫头将公子擒去，有如此言语，谅无差错。且扎下营盘。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003013_e00172",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 172,
+      "seq_in_scene": 51,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄盖",
+        "韩当",
+        "周泰"
+      ],
+      "text": "有理。众将官，扎下营盘。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003013_e00173",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 173,
+      "seq_in_scene": 52,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手",
+        "四大铠"
+      ],
+      "text": "吓！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003013_e00174",
+      "play_id": "02003013",
+      "scene_id": "02003013_s05",
+      "scene_no": 5,
+      "seq_global": 174,
+      "seq_in_scene": 53,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。https://scripts.xikao.com/play/020030132023-05-30",
+      "text_length": 54
+    }
+  ],
+  "roles_inferred": true
+}

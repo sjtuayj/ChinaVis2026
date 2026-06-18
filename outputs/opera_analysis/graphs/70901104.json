@@ -1,0 +1,180 @@
+{
+  "play": {
+    "play_id": "70901104",
+    "title": "昊天塔·会兄",
+    "pdf_name": "70901104_昊天塔·会兄.pdf",
+    "group_id": "70901000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 105,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70901104",
+    "source_date": "2018-08-23",
+    "synopsis_length": 126,
+    "notes_length": 14,
+    "marker_category_counts": {
+      "spoken": 89,
+      "other": 16
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 102.0,
+    "max_edge_weight": 139,
+    "top_characters": [
+      {
+        "name": "杨延德",
+        "hangdang": "净",
+        "speech_count": 49,
+        "degree": 3,
+        "weighted_degree": 181
+      },
+      {
+        "name": "杨延昭",
+        "hangdang": "武生",
+        "speech_count": 40,
+        "degree": 3,
+        "weighted_degree": 161
+      },
+      {
+        "name": "老僧",
+        "hangdang": "未知",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 55
+      },
+      {
+        "name": "萧天佐",
+        "hangdang": "丑",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "杨延德",
+      "label": "杨延德",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 49,
+      "text_length": 1312,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 181,
+      "marker_category_counts": {
+        "spoken": 35,
+        "other": 14
+      }
+    },
+    {
+      "id": "杨延昭",
+      "label": "杨延昭",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 40,
+      "text_length": 461,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 161,
+      "marker_category_counts": {
+        "spoken": 38,
+        "other": 2
+      }
+    },
+    {
+      "id": "老僧",
+      "label": "老僧",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 14,
+      "text_length": 251,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "spoken": 14
+      }
+    },
+    {
+      "id": "萧天佐",
+      "label": "萧天佐",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 2,
+      "text_length": 127,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "杨延德",
+      "target": "杨延昭",
+      "weight": 139,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 69,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨延德",
+      "target": "老僧",
+      "weight": 33,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨延昭",
+      "target": "老僧",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨延德",
+      "target": "萧天佐",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨延昭",
+      "target": "萧天佐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "老僧",
+      "target": "萧天佐",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

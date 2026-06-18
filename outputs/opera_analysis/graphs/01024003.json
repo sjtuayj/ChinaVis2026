@@ -1,0 +1,387 @@
+{
+  "play": {
+    "play_id": "01024003",
+    "title": "金马门",
+    "pdf_name": "01024003_金马门.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 68,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01024003",
+    "source_date": "2018-08-23",
+    "synopsis_length": 288,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 18,
+      "spoken": 45,
+      "other": 2,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "avg_weighted_degree": 42.285714,
+    "max_edge_weight": 81,
+    "top_characters": [
+      {
+        "name": "李白",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 6,
+        "weighted_degree": 115
+      },
+      {
+        "name": "贺知章",
+        "hangdang": "未知",
+        "speech_count": 23,
+        "degree": 6,
+        "weighted_degree": 98
+      },
+      {
+        "name": "安禄山",
+        "hangdang": "小生",
+        "speech_count": 11,
+        "degree": 6,
+        "weighted_degree": 38
+      },
+      {
+        "name": "二书童",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 6,
+        "weighted_degree": 15
+      },
+      {
+        "name": "书童乙",
+        "hangdang": "丑",
+        "speech_count": 1,
+        "degree": 6,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李白",
+      "label": "李白",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 1222,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 115,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 18,
+        "other": 1,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "贺知章",
+      "label": "贺知章",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 23,
+      "text_length": 354,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 98,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 15,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "安禄山",
+      "label": "安禄山",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 503,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 3,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "二书童",
+      "label": "二书童",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 12,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "书童乙",
+      "label": "书童乙",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 1,
+      "text_length": 85,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "书童甲",
+      "label": "书童甲",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 1,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四校尉",
+      "label": "四校尉",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 15,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李白",
+      "target": "贺知章",
+      "weight": 81,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 40,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "安禄山",
+      "target": "李白",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "安禄山",
+      "target": "贺知章",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二书童",
+      "target": "李白",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "李白",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "李白",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四校尉",
+      "target": "安禄山",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二书童",
+      "target": "安禄山",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二书童",
+      "target": "贺知章",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "书童甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "二书童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "四校尉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "安禄山",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童乙",
+      "target": "贺知章",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "二书童",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "四校尉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "安禄山",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "书童甲",
+      "target": "贺知章",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "二书童",
+      "target": "四校尉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四校尉",
+      "target": "李白",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四校尉",
+      "target": "贺知章",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "play": {
+    "play_id": "03006001",
+    "title": "武昭关",
+    "pdf_name": "03006001_武昭关.pdf",
+    "group_id": "03000000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 37,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/03006001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 75,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 17,
+      "recitation": 2,
+      "singing": 18
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 36.5,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "伍员",
+        "hangdang": "老生",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 65
+      },
+      {
+        "name": "国太",
+        "hangdang": "旦",
+        "speech_count": 16,
+        "degree": 3,
+        "weighted_degree": 63
+      },
+      {
+        "name": "四龙套",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 10
+      },
+      {
+        "name": "卞庄",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "伍员",
+      "label": "伍员",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 17,
+      "text_length": 736,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6,
+        "singing": 10
+      }
+    },
+    {
+      "id": "国太",
+      "label": "国太",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 16,
+      "text_length": 393,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 63,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7,
+        "singing": 8
+      }
+    },
+    {
+      "id": "四龙套",
+      "label": "四龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 7,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "卞庄",
+      "label": "卞庄",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 32,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "伍员",
+      "target": "国太",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "卞庄",
+      "target": "四龙套",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "四龙套",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "卞庄",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "卞庄",
+      "target": "国太",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "国太",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

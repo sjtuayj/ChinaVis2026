@@ -1,0 +1,188 @@
+{
+  "play": {
+    "play_id": "04010004",
+    "title": "母女会",
+    "pdf_name": "04010004_母女会.pdf",
+    "group_id": "04000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 79,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/04010004",
+    "source_date": "2013-06-30",
+    "synopsis_length": 190,
+    "notes_length": 5,
+    "marker_category_counts": {
+      "other": 7,
+      "spoken": 50,
+      "recitation": 1,
+      "singing": 16,
+      "stage_action": 5
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 73.0,
+    "max_edge_weight": 97,
+    "top_characters": [
+      {
+        "name": "陈氏",
+        "hangdang": "老旦",
+        "speech_count": 40,
+        "degree": 3,
+        "weighted_degree": 135
+      },
+      {
+        "name": "王宝钏",
+        "hangdang": "旦",
+        "speech_count": 28,
+        "degree": 3,
+        "weighted_degree": 107
+      },
+      {
+        "name": "家院",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 35
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "陈氏",
+      "label": "陈氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 40,
+      "text_length": 1245,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 135,
+      "marker_category_counts": {
+        "other": 4,
+        "spoken": 23,
+        "singing": 9,
+        "stage_action": 4
+      }
+    },
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 28,
+      "text_length": 860,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 107,
+      "marker_category_counts": {
+        "spoken": 17,
+        "singing": 7,
+        "stage_action": 1,
+        "other": 3
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 99,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王宝钏",
+      "target": "陈氏",
+      "weight": 97,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 48,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "陈氏",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "陈氏",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王宝钏",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王宝钏",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

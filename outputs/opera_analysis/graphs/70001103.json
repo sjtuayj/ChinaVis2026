@@ -1,0 +1,136 @@
+{
+  "play": {
+    "play_id": "70001103",
+    "title": "投军别窑",
+    "pdf_name": "70001103_投军别窑.pdf",
+    "group_id": "70001000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 80,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/70001103",
+    "source_date": "2013-09-06",
+    "synopsis_length": 192,
+    "notes_length": 68,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 27,
+      "recitation": 3,
+      "spoken": 47,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 94.0,
+    "max_edge_weight": 127,
+    "top_characters": [
+      {
+        "name": "薛平贵",
+        "hangdang": "未知",
+        "speech_count": 42,
+        "degree": 2,
+        "weighted_degree": 140
+      },
+      {
+        "name": "王宝钏",
+        "hangdang": "旦",
+        "speech_count": 35,
+        "degree": 2,
+        "weighted_degree": 128
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "薛平贵",
+      "label": "薛平贵",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 42,
+      "text_length": 960,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 140,
+      "marker_category_counts": {
+        "recitation": 2,
+        "singing": 12,
+        "spoken": 27,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 35,
+      "text_length": 846,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 128,
+      "marker_category_counts": {
+        "other": 2,
+        "singing": 15,
+        "spoken": 18
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 25,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 2,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王宝钏",
+      "target": "薛平贵",
+      "weight": 127,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 63,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "薛平贵",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "王宝钏",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

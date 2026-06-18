@@ -1,0 +1,162 @@
+{
+  "play": {
+    "play_id": "01009013",
+    "title": "长亭会",
+    "pdf_name": "01009013_长亭会.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 2,
+    "speech_count": 15,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01009013",
+    "source_date": "2018-08-23",
+    "synopsis_length": 238,
+    "notes_length": 46,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 9,
+      "singing": 5
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 14.0,
+    "max_edge_weight": 15,
+    "top_characters": [
+      {
+        "name": "申包胥",
+        "hangdang": "净",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "伍员",
+        "hangdang": "老生",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 16
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 1,
+        "weighted_degree": 7
+      },
+      {
+        "name": "八龙套",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "申包胥",
+      "label": "申包胥",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 8,
+      "text_length": 287,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 3
+      }
+    },
+    {
+      "id": "伍员",
+      "label": "伍员",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 4,
+      "text_length": 306,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 2,
+        "singing": 2
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "八龙套",
+      "label": "八龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "伍员",
+      "target": "申包胥",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "申包胥",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "八龙套",
+      "target": "申包胥",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "八龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "play": {
+    "play_id": "01018007",
+    "title": "龙凤呈祥",
+    "pdf_name": "01018007_龙凤呈祥.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 144,
+    "character_count": 5,
+    "source_url": "https://scripts.xikao.com/play/01018007",
+    "source_date": "2020-09-06",
+    "synopsis_length": 150,
+    "notes_length": 165,
+    "marker_category_counts": {
+      "singing": 5,
+      "spoken": 136,
+      "recitation": 2,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 112.0,
+    "max_edge_weight": 117,
+    "top_characters": [
+      {
+        "name": "普胡子",
+        "hangdang": "副净",
+        "speech_count": 69,
+        "degree": 3,
+        "weighted_degree": 273
+      },
+      {
+        "name": "鲍大嫂子",
+        "hangdang": "旦",
+        "speech_count": 32,
+        "degree": 3,
+        "weighted_degree": 123
+      },
+      {
+        "name": "苟阴阳",
+        "hangdang": "未知",
+        "speech_count": 31,
+        "degree": 3,
+        "weighted_degree": 115
+      },
+      {
+        "name": "朱洪武",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 49
+      },
+      {
+        "name": "妞儿",
+        "hangdang": "旦",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "普胡子",
+      "label": "普胡子",
+      "raw_role": "副净",
+      "hangdang": "副净",
+      "speech_count": 69,
+      "text_length": 1481,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 273,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 68
+      }
+    },
+    {
+      "id": "鲍大嫂子",
+      "label": "鲍大嫂子",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 32,
+      "text_length": 576,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 123,
+      "marker_category_counts": {
+        "spoken": 31,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "苟阴阳",
+      "label": "苟阴阳",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 31,
+      "text_length": 725,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 115,
+      "marker_category_counts": {
+        "spoken": 27,
+        "singing": 2,
+        "other": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "朱洪武",
+      "label": "朱洪武",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 245,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 10
+      }
+    },
+    {
+      "id": "妞儿",
+      "label": "妞儿",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "普胡子",
+      "target": "鲍大嫂子",
+      "weight": 117,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 58,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "普胡子",
+      "target": "苟阴阳",
+      "weight": 109,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 54,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "普胡子",
+      "target": "朱洪武",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "苟阴阳",
+      "target": "鲍大嫂子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱洪武",
+      "target": "苟阴阳",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朱洪武",
+      "target": "鲍大嫂子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

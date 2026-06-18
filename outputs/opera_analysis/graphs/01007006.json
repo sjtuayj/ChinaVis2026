@@ -1,0 +1,92 @@
+{
+  "play": {
+    "play_id": "01007006",
+    "title": "罗成叫关",
+    "pdf_name": "01007006_罗成叫关.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 20,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01007006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 245,
+    "notes_length": 95,
+    "marker_category_counts": {
+      "spoken": 7,
+      "singing": 11,
+      "other": 1,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 31.0,
+    "max_edge_weight": 31,
+    "top_characters": [
+      {
+        "name": "罗春",
+        "hangdang": "小生",
+        "speech_count": 11,
+        "degree": 1,
+        "weighted_degree": 31
+      },
+      {
+        "name": "罗成",
+        "hangdang": "小生",
+        "speech_count": 9,
+        "degree": 1,
+        "weighted_degree": 31
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "罗春",
+      "label": "罗春",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 11,
+      "text_length": 325,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "spoken": 4,
+        "singing": 6,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "罗成",
+      "label": "罗成",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 9,
+      "text_length": 635,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "singing": 5,
+        "other": 1,
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "罗成",
+      "target": "罗春",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

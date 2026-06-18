@@ -1,0 +1,153 @@
+{
+  "play": {
+    "play_id": "94000001",
+    "title": "别宫祭江",
+    "pdf_name": "94000001_别宫祭江.pdf",
+    "group_id": "94000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 50,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/94000001",
+    "source_date": "2018-08-24",
+    "synopsis_length": 62,
+    "notes_length": 46,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 32,
+      "singing": 14,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 3,
+    "density": 0.5,
+    "avg_degree": 1.5,
+    "avg_weighted_degree": 41.0,
+    "max_edge_weight": 59,
+    "top_characters": [
+      {
+        "name": "孙尚香",
+        "hangdang": "旦",
+        "speech_count": 28,
+        "degree": 2,
+        "weighted_degree": 81
+      },
+      {
+        "name": "吴国太",
+        "hangdang": "老旦",
+        "speech_count": 17,
+        "degree": 2,
+        "weighted_degree": 60
+      },
+      {
+        "name": "大太监",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 23
+      },
+      {
+        "name": "孙权",
+        "hangdang": "净",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙尚香",
+      "label": "孙尚香",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 28,
+      "text_length": 1530,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 81,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 17,
+        "singing": 7,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "吴国太",
+      "label": "吴国太",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 17,
+      "text_length": 490,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 60,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 10
+      }
+    },
+    {
+      "id": "大太监",
+      "label": "大太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 44,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "孙权",
+      "label": "孙权",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "吴国太",
+      "target": "孙尚香",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监",
+      "target": "孙尚香",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "吴国太",
+      "target": "大太监",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

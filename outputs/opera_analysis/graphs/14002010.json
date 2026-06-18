@@ -1,0 +1,249 @@
+{
+  "play": {
+    "play_id": "14002010",
+    "title": "宇宙锋",
+    "pdf_name": "14002010_宇宙锋.pdf",
+    "group_id": "14000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 100,
+    "character_count": 5,
+    "source_url": "https://scripts.xikao.com/play/14002010",
+    "source_date": "2024-03-01",
+    "synopsis_length": 329,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 89,
+      "recitation": 4,
+      "singing": 6
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 81.2,
+    "max_edge_weight": 92,
+    "top_characters": [
+      {
+        "name": "赵高",
+        "hangdang": "净",
+        "speech_count": 39,
+        "degree": 4,
+        "weighted_degree": 152
+      },
+      {
+        "name": "赵女",
+        "hangdang": "旦",
+        "speech_count": 32,
+        "degree": 4,
+        "weighted_degree": 126
+      },
+      {
+        "name": "秦王",
+        "hangdang": "小生",
+        "speech_count": 23,
+        "degree": 4,
+        "weighted_degree": 96
+      },
+      {
+        "name": "门官",
+        "hangdang": "丑",
+        "speech_count": 5,
+        "degree": 4,
+        "weighted_degree": 24
+      },
+      {
+        "name": "丫头",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵高",
+      "label": "赵高",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 39,
+      "text_length": 495,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 152,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 37,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "赵女",
+      "label": "赵女",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 32,
+      "text_length": 988,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 126,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 24,
+        "singing": 6
+      }
+    },
+    {
+      "id": "秦王",
+      "label": "秦王",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 23,
+      "text_length": 333,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "spoken": 22,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "门官",
+      "label": "门官",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 5,
+      "text_length": 30,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "丫头",
+      "label": "丫头",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "赵女",
+      "target": "赵高",
+      "weight": 92,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 45,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵高",
+      "weight": 52,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵女",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "门官",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵高",
+      "target": "门官",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "赵女",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "门官",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "秦王",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫头",
+      "target": "赵高",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "赵女",
+      "target": "门官",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

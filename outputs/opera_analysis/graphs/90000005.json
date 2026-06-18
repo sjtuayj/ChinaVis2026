@@ -1,0 +1,94 @@
+{
+  "play": {
+    "play_id": "90000005",
+    "title": "梅龙镇",
+    "pdf_name": "90000005_梅龙镇.pdf",
+    "group_id": "90000000",
+    "page_count": 9,
+    "scene_count": 2,
+    "speech_count": 333,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/90000005",
+    "source_date": "2013-06-30",
+    "synopsis_length": 45,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 299,
+      "other": 22,
+      "recitation": 1,
+      "singing": 11
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 644.0,
+    "max_edge_weight": 644,
+    "top_characters": [
+      {
+        "name": "李凤姐",
+        "hangdang": "旦",
+        "speech_count": 167,
+        "degree": 1,
+        "weighted_degree": 644
+      },
+      {
+        "name": "正德帝",
+        "hangdang": "老生",
+        "speech_count": 166,
+        "degree": 1,
+        "weighted_degree": 644
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李凤姐",
+      "label": "李凤姐",
+      "raw_role": "旦，头梳抓髻，穿粉红裤袄，系饭袋和四喜帚，彩鞋，白袜子，手绢",
+      "hangdang": "旦",
+      "speech_count": 167,
+      "text_length": 2057,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 644,
+      "marker_category_counts": {
+        "spoken": 151,
+        "other": 10,
+        "singing": 6
+      }
+    },
+    {
+      "id": "正德帝",
+      "label": "正德帝",
+      "raw_role": "老生，武生巾，风帽，内罩黄道袍，外穿蓝道袍，红彩裤，穿厚底，手执扇子",
+      "hangdang": "老生",
+      "speech_count": 166,
+      "text_length": 2590,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 644,
+      "marker_category_counts": {
+        "spoken": 148,
+        "other": 12,
+        "recitation": 1,
+        "singing": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李凤姐",
+      "target": "正德帝",
+      "weight": 644,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 321,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    }
+  ]
+}

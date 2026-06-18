@@ -1,0 +1,180 @@
+{
+  "play": {
+    "play_id": "01006006",
+    "title": "叹皇陵",
+    "pdf_name": "01006006_叹皇陵.pdf",
+    "group_id": "01000000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 24,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01006006",
+    "source_date": "2013-08-25",
+    "synopsis_length": 229,
+    "notes_length": 81,
+    "marker_category_counts": {
+      "spoken": 14,
+      "singing": 10
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 24.0,
+    "max_edge_weight": 35,
+    "top_characters": [
+      {
+        "name": "徐延昭",
+        "hangdang": "净",
+        "speech_count": 13,
+        "degree": 3,
+        "weighted_degree": 43
+      },
+      {
+        "name": "杨波",
+        "hangdang": "老生",
+        "speech_count": 9,
+        "degree": 3,
+        "weighted_degree": 39
+      },
+      {
+        "name": "四将",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      },
+      {
+        "name": "赵飞",
+        "hangdang": "丑",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "徐延昭",
+      "label": "徐延昭",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 13,
+      "text_length": 782,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 43,
+      "marker_category_counts": {
+        "spoken": 7,
+        "singing": 6
+      }
+    },
+    {
+      "id": "杨波",
+      "label": "杨波",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 9,
+      "text_length": 128,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "四将",
+      "label": "四将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "赵飞",
+      "label": "赵飞",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 1,
+      "text_length": 8,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "徐延昭",
+      "target": "杨波",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "徐延昭",
+      "target": "赵飞",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四将",
+      "target": "徐延昭",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四将",
+      "target": "杨波",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四将",
+      "target": "赵飞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "杨波",
+      "target": "赵飞",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

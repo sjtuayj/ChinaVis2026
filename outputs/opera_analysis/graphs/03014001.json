@@ -1,0 +1,311 @@
+{
+  "play": {
+    "play_id": "03014001",
+    "title": "芦花记",
+    "pdf_name": "03014001_芦花记.pdf",
+    "group_id": "03000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 111,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/03014001",
+    "source_date": "2013-09-09",
+    "synopsis_length": 165,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 5,
+      "spoken": 100,
+      "other": 4,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 74.333333,
+    "max_edge_weight": 73,
+    "top_characters": [
+      {
+        "name": "闵父",
+        "hangdang": "老生",
+        "speech_count": 47,
+        "degree": 5,
+        "weighted_degree": 177
+      },
+      {
+        "name": "闵母",
+        "hangdang": "旦",
+        "speech_count": 25,
+        "degree": 5,
+        "weighted_degree": 101
+      },
+      {
+        "name": "外婆",
+        "hangdang": "未知",
+        "speech_count": 20,
+        "degree": 5,
+        "weighted_degree": 77
+      },
+      {
+        "name": "外公",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 5,
+        "weighted_degree": 37
+      },
+      {
+        "name": "闵损",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 5,
+        "weighted_degree": 29
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "闵父",
+      "label": "闵父",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 47,
+      "text_length": 2055,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 177,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 40,
+        "other": 3
+      }
+    },
+    {
+      "id": "闵母",
+      "label": "闵母",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 25,
+      "text_length": 532,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 101,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "外婆",
+      "label": "外婆",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 20,
+      "text_length": 197,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "外公",
+      "label": "外公",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 92,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "闵损",
+      "label": "闵损",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 224,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "spoken": 5,
+        "other": 1
+      }
+    },
+    {
+      "id": "英哥",
+      "label": "英哥",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 38,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 25,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "闵母",
+      "target": "闵父",
+      "weight": 73,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 36,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外婆",
+      "target": "闵父",
+      "weight": 51,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "闵损",
+      "target": "闵父",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "英哥",
+      "target": "闵父",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外公",
+      "target": "外婆",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外公",
+      "target": "闵母",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外婆",
+      "target": "闵母",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外公",
+      "target": "闵父",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "闵损",
+      "target": "闵母",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外公",
+      "target": "英哥",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外公",
+      "target": "闵损",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外婆",
+      "target": "英哥",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "外婆",
+      "target": "闵损",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "英哥",
+      "target": "闵损",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "英哥",
+      "target": "闵母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

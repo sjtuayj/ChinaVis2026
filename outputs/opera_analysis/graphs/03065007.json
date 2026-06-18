@@ -1,0 +1,218 @@
+{
+  "play": {
+    "play_id": "03065007",
+    "title": "乔府求计",
+    "pdf_name": "03065007_乔府求计.pdf",
+    "group_id": "03000000",
+    "page_count": 7,
+    "scene_count": 2,
+    "speech_count": 119,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/03065007",
+    "source_date": "2020-03-05",
+    "synopsis_length": 54,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 103,
+      "singing": 12,
+      "stage_action": 1,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 7,
+    "density": 0.7,
+    "avg_degree": 2.8,
+    "avg_weighted_degree": 88.4,
+    "max_edge_weight": 193,
+    "top_characters": [
+      {
+        "name": "鲁肃",
+        "hangdang": "老生",
+        "speech_count": 54,
+        "degree": 4,
+        "weighted_degree": 206
+      },
+      {
+        "name": "乔玄",
+        "hangdang": "老生",
+        "speech_count": 57,
+        "degree": 3,
+        "weighted_degree": 201
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 15
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      },
+      {
+        "name": "四文堂",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 1,
+        "weighted_degree": 5
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "鲁肃",
+      "label": "鲁肃",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 54,
+      "text_length": 1255,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 206,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 7,
+        "spoken": 46
+      }
+    },
+    {
+      "id": "乔玄",
+      "label": "乔玄",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 57,
+      "text_length": 2132,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 201,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 49,
+        "stage_action": 1,
+        "other": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 22,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 18,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "四文堂",
+      "label": "四文堂",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "乔玄",
+      "target": "鲁肃",
+      "weight": 193,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 96,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "院子",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "鲁肃",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "乔玄",
+      "target": "院子",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四文堂",
+      "target": "鲁肃",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "乔玄",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "院子",
+      "target": "鲁肃",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

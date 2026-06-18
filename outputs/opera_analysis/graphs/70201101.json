@@ -1,0 +1,292 @@
+{
+  "play": {
+    "play_id": "70201101",
+    "title": "宇宙锋",
+    "pdf_name": "70201101_宇宙锋.pdf",
+    "group_id": "70201000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 132,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/70201101",
+    "source_date": "2018-08-23",
+    "synopsis_length": 197,
+    "notes_length": 77,
+    "marker_category_counts": {
+      "other": 8,
+      "spoken": 114,
+      "singing": 10
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 13,
+    "density": 0.866667,
+    "avg_degree": 4.333333,
+    "avg_weighted_degree": 86.666667,
+    "max_edge_weight": 116,
+    "top_characters": [
+      {
+        "name": "赵高",
+        "hangdang": "净",
+        "speech_count": 50,
+        "degree": 5,
+        "weighted_degree": 195
+      },
+      {
+        "name": "赵艳容",
+        "hangdang": "旦",
+        "speech_count": 41,
+        "degree": 5,
+        "weighted_degree": 155
+      },
+      {
+        "name": "秦王",
+        "hangdang": "小生",
+        "speech_count": 31,
+        "degree": 5,
+        "weighted_degree": 123
+      },
+      {
+        "name": "门官",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 3,
+        "weighted_degree": 23
+      },
+      {
+        "name": "四朝臣",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 4,
+        "weighted_degree": 16
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵高",
+      "label": "赵高",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 50,
+      "text_length": 747,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 195,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 49
+      }
+    },
+    {
+      "id": "赵艳容",
+      "label": "赵艳容",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 41,
+      "text_length": 1274,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 155,
+      "marker_category_counts": {
+        "other": 6,
+        "spoken": 26,
+        "singing": 9
+      }
+    },
+    {
+      "id": "秦王",
+      "label": "秦王",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 31,
+      "text_length": 416,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 123,
+      "marker_category_counts": {
+        "spoken": 29,
+        "singing": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "门官",
+      "label": "门官",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 37,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 23,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    },
+    {
+      "id": "四朝臣",
+      "label": "四朝臣",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 22,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "大太监甲",
+      "label": "大太监甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "赵艳容",
+      "target": "赵高",
+      "weight": 116,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 57,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵高",
+      "weight": 68,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 33,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "赵艳容",
+      "weight": 30,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秦王",
+      "target": "门官",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "秦王",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "赵高",
+      "target": "门官",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "赵艳容",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "赵高",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监甲",
+      "target": "秦王",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监甲",
+      "target": "赵艳容",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "赵艳容",
+      "target": "门官",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四朝臣",
+      "target": "大太监甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大太监甲",
+      "target": "赵高",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

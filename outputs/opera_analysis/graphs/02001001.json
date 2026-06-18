@@ -1,0 +1,386 @@
+{
+  "play": {
+    "play_id": "02001001",
+    "title": "天官赐福",
+    "pdf_name": "02001001_天官赐福.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 47,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/02001001",
+    "source_date": "2018-08-23",
+    "synopsis_length": 158,
+    "notes_length": 62,
+    "marker_category_counts": {
+      "other": 1,
+      "recitation": 5,
+      "spoken": 37,
+      "stage_action": 4
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "avg_weighted_degree": 30.571429,
+    "max_edge_weight": 27,
+    "top_characters": [
+      {
+        "name": "财神",
+        "hangdang": "净",
+        "speech_count": 13,
+        "degree": 6,
+        "weighted_degree": 54
+      },
+      {
+        "name": "天官",
+        "hangdang": "老生",
+        "speech_count": 13,
+        "degree": 6,
+        "weighted_degree": 52
+      },
+      {
+        "name": "众神",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 6,
+        "weighted_degree": 32
+      },
+      {
+        "name": "南极老人",
+        "hangdang": "老生",
+        "speech_count": 5,
+        "degree": 6,
+        "weighted_degree": 26
+      },
+      {
+        "name": "张仙",
+        "hangdang": "小生",
+        "speech_count": 3,
+        "degree": 6,
+        "weighted_degree": 18
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "财神",
+      "label": "财神",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 13,
+      "text_length": 118,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "天官",
+      "label": "天官",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 13,
+      "text_length": 448,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 52,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "众神",
+      "label": "众神",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 453,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 32,
+      "marker_category_counts": {
+        "spoken": 4,
+        "stage_action": 4
+      }
+    },
+    {
+      "id": "南极老人",
+      "label": "南极老人",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 5,
+      "text_length": 77,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "张仙",
+      "label": "张仙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 3,
+      "text_length": 37,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "织女",
+      "label": "织女",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 3,
+      "text_length": 39,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "牛郎",
+      "label": "牛郎",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 2,
+      "text_length": 34,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "天官",
+      "target": "财神",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "天官",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "南极老人",
+      "target": "财神",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "财神",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张仙",
+      "target": "织女",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张仙",
+      "target": "财神",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "南极老人",
+      "target": "牛郎",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "牛郎",
+      "target": "织女",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "南极老人",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "南极老人",
+      "target": "天官",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "南极老人",
+      "target": "织女",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "张仙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "牛郎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众神",
+      "target": "织女",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "南极老人",
+      "target": "张仙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天官",
+      "target": "张仙",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天官",
+      "target": "牛郎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "天官",
+      "target": "织女",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张仙",
+      "target": "牛郎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "牛郎",
+      "target": "财神",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "织女",
+      "target": "财神",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

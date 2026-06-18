@@ -1,0 +1,188 @@
+{
+  "play": {
+    "play_id": "01010012",
+    "title": "查头关",
+    "pdf_name": "01010012_查头关.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 3,
+    "speech_count": 280,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01010012",
+    "source_date": "2013-03-19",
+    "synopsis_length": 210,
+    "notes_length": 61,
+    "marker_category_counts": {
+      "singing": 20,
+      "recitation": 2,
+      "spoken": 257,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 278.5,
+    "max_edge_weight": 440,
+    "top_characters": [
+      {
+        "name": "苏里烟",
+        "hangdang": "丑",
+        "speech_count": 134,
+        "degree": 3,
+        "weighted_degree": 535
+      },
+      {
+        "name": "尤春风",
+        "hangdang": "旦",
+        "speech_count": 117,
+        "degree": 3,
+        "weighted_degree": 461
+      },
+      {
+        "name": "刘唐建",
+        "hangdang": "小生",
+        "speech_count": 27,
+        "degree": 3,
+        "weighted_degree": 105
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 13
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "苏里烟",
+      "label": "苏里烟",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 134,
+      "text_length": 1978,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 535,
+      "marker_category_counts": {
+        "spoken": 128,
+        "other": 1,
+        "singing": 5
+      }
+    },
+    {
+      "id": "尤春风",
+      "label": "尤春风",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 117,
+      "text_length": 1220,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 461,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 107,
+        "singing": 8
+      }
+    },
+    {
+      "id": "刘唐建",
+      "label": "刘唐建",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 27,
+      "text_length": 526,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 105,
+      "marker_category_counts": {
+        "singing": 7,
+        "spoken": 20
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 23,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "尤春风",
+      "target": "苏里烟",
+      "weight": 440,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 219,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐建",
+      "target": "苏里烟",
+      "weight": 89,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 44,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘唐建",
+      "target": "尤春风",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "尤春风",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "苏里烟",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "刘唐建",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

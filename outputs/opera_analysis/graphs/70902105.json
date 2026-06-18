@@ -1,0 +1,134 @@
+{
+  "play": {
+    "play_id": "70902105",
+    "title": "荆钗记·男祭",
+    "pdf_name": "70902105_荆钗记·男祭.pdf",
+    "group_id": "70902000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 40,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/70902105",
+    "source_date": "2018-08-23",
+    "synopsis_length": 57,
+    "notes_length": 100,
+    "marker_category_counts": {
+      "other": 10,
+      "stage_action": 3,
+      "spoken": 21,
+      "recitation": 6
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 47.333333,
+    "max_edge_weight": 53,
+    "top_characters": [
+      {
+        "name": "王十朋",
+        "hangdang": "未知",
+        "speech_count": 22,
+        "degree": 2,
+        "weighted_degree": 68
+      },
+      {
+        "name": "王母",
+        "hangdang": "老旦",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 56
+      },
+      {
+        "name": "李成",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 18
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王十朋",
+      "label": "王十朋",
+      "raw_role": "冠生",
+      "hangdang": "未知",
+      "speech_count": 22,
+      "text_length": 780,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 68,
+      "marker_category_counts": {
+        "other": 6,
+        "stage_action": 3,
+        "spoken": 9,
+        "recitation": 4
+      }
+    },
+    {
+      "id": "王母",
+      "label": "王母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 14,
+      "text_length": 371,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 56,
+      "marker_category_counts": {
+        "other": 4,
+        "spoken": 8,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "李成",
+      "label": "李成",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王十朋",
+      "target": "王母",
+      "weight": 53,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 26,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李成",
+      "target": "王十朋",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李成",
+      "target": "王母",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4538 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02003005",
+    "title": "斩华雄",
+    "aliases": [],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02003005_斩华雄.pdf",
+    "source_url": "http://scripts.xikao.com/play/02003005",
+    "source_date": "2020-08-08",
+    "page_count": 8,
+    "file_size_bytes": 406174,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "曹操会同十八路诸侯，声讨董卓，兵进汜水关。董卓令华雄应战。北海太守部将武安国、南阳太守部将俞徒涉、北平太守部将鲍忠、翼州刺史部将潘凤均被斩首。时关公为公孙瓒部下马弓手，在营外大笑，袁绍闻知大怒，令将关公赶出。曹操认为关公绝非常人，乃令甲胄出战华雄，临行并特为斟酒，以示鼓励。关公谓待斩华雄后再领。及斩华雄后，杯酒尚温，即俗谓“温酒斩华雄”也。",
+    "notes": [
+      "《三国演义》中的虚构人物俞涉，在剧本中作俞徒涉。",
+      "根据《国剧大成》第三集整理"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "曹操",
+      "confidence": 0.75
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.88,
+      "evidence": [
+        "战",
+        "关",
+        "兵",
+        "将",
+        "马"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": "红生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 24,
+        "aria_count": 2,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 12,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "红生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关羽：红生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_华雄",
+      "name": "华雄",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 9,
+        "combat_hint_count": 6
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：华雄：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_公孙瓒",
+      "name": "公孙瓒",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_袁术",
+      "name": "袁术",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_韩馥",
+      "name": "韩馥",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张超",
+      "name": "张超",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_孔融",
+      "name": "孔融",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_鲍信",
+      "name": "鲍信",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马腾",
+      "name": "马腾",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_陶谦",
+      "name": "陶谦",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_袁绍",
+      "name": "袁绍",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 26,
+        "aria_count": 0,
+        "recitation_count": 4,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹操",
+      "name": "曹操",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_武安国",
+      "name": "武安国",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_俞徒涉",
+      "name": "俞徒涉",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_鲍忠",
+      "name": "鲍忠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义",
+        "刚烈",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_潘凤",
+      "name": "潘凤",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "忠义",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "仆从/差役",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四红大铠",
+      "name": "四红大铠",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_中军",
+      "name": "中军",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马夫",
+      "name": "马夫",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "华雄"
+      ],
+      "event_ids": [
+        "02003005_e00001",
+        "02003005_e00002",
+        "02003005_e00003",
+        "02003005_e00004",
+        "02003005_e00005",
+        "02003005_e00006"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 284
+      }
+    },
+    {
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 7,
+      "characters": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦",
+        "袁绍",
+        "曹操",
+        "报子",
+        "武安国",
+        "俞徒涉",
+        "鲍忠",
+        "潘凤",
+        "华雄",
+        "关羽",
+        "张飞",
+        "四红大铠",
+        "中军"
+      ],
+      "event_ids": [
+        "02003005_e00007",
+        "02003005_e00008",
+        "02003005_e00009",
+        "02003005_e00010",
+        "02003005_e00011",
+        "02003005_e00012",
+        "02003005_e00013",
+        "02003005_e00014",
+        "02003005_e00015",
+        "02003005_e00016",
+        "02003005_e00017",
+        "02003005_e00018",
+        "02003005_e00019",
+        "02003005_e00020",
+        "02003005_e00021",
+        "02003005_e00022",
+        "02003005_e00023",
+        "02003005_e00024",
+        "02003005_e00025",
+        "02003005_e00026",
+        "02003005_e00027",
+        "02003005_e00028",
+        "02003005_e00029",
+        "02003005_e00030",
+        "02003005_e00031",
+        "02003005_e00032",
+        "02003005_e00033",
+        "02003005_e00034",
+        "02003005_e00035",
+        "02003005_e00036",
+        "02003005_e00037",
+        "02003005_e00038",
+        "02003005_e00039",
+        "02003005_e00040",
+        "02003005_e00041",
+        "02003005_e00042",
+        "02003005_e00043",
+        "02003005_e00044",
+        "02003005_e00045",
+        "02003005_e00046",
+        "02003005_e00047",
+        "02003005_e00048",
+        "02003005_e00049",
+        "02003005_e00050",
+        "02003005_e00051",
+        "02003005_e00052",
+        "02003005_e00053",
+        "02003005_e00054",
+        "02003005_e00055",
+        "02003005_e00056",
+        "02003005_e00057",
+        "02003005_e00058",
+        "02003005_e00059",
+        "02003005_e00060",
+        "02003005_e00061",
+        "02003005_e00062",
+        "02003005_e00063",
+        "02003005_e00064",
+        "02003005_e00065",
+        "02003005_e00066",
+        "02003005_e00067",
+        "02003005_e00068",
+        "02003005_e00069",
+        "02003005_e00070",
+        "02003005_e00071",
+        "02003005_e00072",
+        "02003005_e00073",
+        "02003005_e00074",
+        "02003005_e00075",
+        "02003005_e00076",
+        "02003005_e00077",
+        "02003005_e00078",
+        "02003005_e00079",
+        "02003005_e00080",
+        "02003005_e00081",
+        "02003005_e00082",
+        "02003005_e00083",
+        "02003005_e00084",
+        "02003005_e00085",
+        "02003005_e00086",
+        "02003005_e00087",
+        "02003005_e00088",
+        "02003005_e00089",
+        "02003005_e00090",
+        "02003005_e00091",
+        "02003005_e00092",
+        "02003005_e00093",
+        "02003005_e00094",
+        "02003005_e00095",
+        "02003005_e00096",
+        "02003005_e00097",
+        "02003005_e00098",
+        "02003005_e00099",
+        "02003005_e00100",
+        "02003005_e00101",
+        "02003005_e00102",
+        "02003005_e00103",
+        "02003005_e00104",
+        "02003005_e00105",
+        "02003005_e00106",
+        "02003005_e00107",
+        "02003005_e00108",
+        "02003005_e00109",
+        "02003005_e00110",
+        "02003005_e00111",
+        "02003005_e00112",
+        "02003005_e00113",
+        "02003005_e00114",
+        "02003005_e00115",
+        "02003005_e00116",
+        "02003005_e00117",
+        "02003005_e00118",
+        "02003005_e00119",
+        "02003005_e00120",
+        "02003005_e00121",
+        "02003005_e00122",
+        "02003005_e00123",
+        "02003005_e00124",
+        "02003005_e00125",
+        "02003005_e00126",
+        "02003005_e00127",
+        "02003005_e00128",
+        "02003005_e00129",
+        "02003005_e00130",
+        "02003005_e00131",
+        "02003005_e00132",
+        "02003005_e00133",
+        "02003005_e00134",
+        "02003005_e00135",
+        "02003005_e00136",
+        "02003005_e00137",
+        "02003005_e00138",
+        "02003005_e00139",
+        "02003005_e00140",
+        "02003005_e00141",
+        "02003005_e00142",
+        "02003005_e00143",
+        "02003005_e00144",
+        "02003005_e00145",
+        "02003005_e00146",
+        "02003005_e00147",
+        "02003005_e00148",
+        "02003005_e00149",
+        "02003005_e00150",
+        "02003005_e00151",
+        "02003005_e00152",
+        "02003005_e00153",
+        "02003005_e00154",
+        "02003005_e00155",
+        "02003005_e00156",
+        "02003005_e00157",
+        "02003005_e00158",
+        "02003005_e00159",
+        "02003005_e00160",
+        "02003005_e00161",
+        "02003005_e00162",
+        "02003005_e00163"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 157,
+        "spoken_count": 87,
+        "aria_count": 1,
+        "recitation_count": 13,
+        "stage_direction_count": 34,
+        "expression_count": 2,
+        "text_length": 2069
+      }
+    },
+    {
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 7,
+      "page_end": 8,
+      "characters": [
+        "关羽",
+        "马夫",
+        "华雄"
+      ],
+      "event_ids": [
+        "02003005_e00164",
+        "02003005_e00165",
+        "02003005_e00166",
+        "02003005_e00167",
+        "02003005_e00168",
+        "02003005_e00169",
+        "02003005_e00170",
+        "02003005_e00171",
+        "02003005_e00172",
+        "02003005_e00173",
+        "02003005_e00174",
+        "02003005_e00175",
+        "02003005_e00176",
+        "02003005_e00177",
+        "02003005_e00178",
+        "02003005_e00179",
+        "02003005_e00180",
+        "02003005_e00181",
+        "02003005_e00182",
+        "02003005_e00183",
+        "02003005_e00184",
+        "02003005_e00185",
+        "02003005_e00186",
+        "02003005_e00187",
+        "02003005_e00188",
+        "02003005_e00189",
+        "02003005_e00190",
+        "02003005_e00191",
+        "02003005_e00192"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 29,
+        "spoken_count": 18,
+        "aria_count": 1,
+        "recitation_count": 2,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 354
+      }
+    },
+    {
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "马夫",
+        "袁绍",
+        "关羽",
+        "曹操",
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "event_ids": [
+        "02003005_e00193",
+        "02003005_e00194",
+        "02003005_e00195",
+        "02003005_e00196",
+        "02003005_e00197",
+        "02003005_e00198",
+        "02003005_e00199",
+        "02003005_e00200",
+        "02003005_e00201",
+        "02003005_e00202",
+        "02003005_e00203",
+        "02003005_e00204",
+        "02003005_e00205",
+        "02003005_e00206",
+        "02003005_e00207",
+        "02003005_e00208",
+        "02003005_e00209",
+        "02003005_e00210",
+        "02003005_e00211",
+        "02003005_e00212",
+        "02003005_e00213"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 268
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02003005_e00001",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四大铠同上，同站门，华雄上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003005_e00002",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "惊人才量，拔山力谁敢挡。且看俺盔甲显昂，我精神抖擞，指日里烟尘扫荡。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02003005_e00003",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "壮志粗豪气吐虹，单刀匹马力无穷。烽烟四起乌合众，指挥谈笑一扫空。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00004",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "某，华雄。乃关西人也，身长九尺，腰大十围，扛刀能扛鼎拔山，气吐虹霓，马前无三合之将，旗到处即奏凯歌。昔日曾为黄巾羽党，今投董太师门下，为骁骑将军，闻得曹操协同十八路诸侯，前来攻打汜水关隘，今奉董太师将令，统领雄兵，前往讨贼。众将官，杀上前去。",
+      "text_length": 121
+    },
+    {
+      "event_id": "02003005_e00005",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "甘州歌",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "齐心奋勇，看烟尘四起，杀气朦朦。鞭稍指处，神鬼尽皆惊恐。三军旗动，千里镇，八面威风，谁能攻？剑戟兴，咆哮战骑尽无踪。人如虎，马似龙，据看一战便成功。",
+      "text_length": 74
+    },
+    {
+      "event_id": "02003005_e00006",
+      "play_id": "02003005",
+      "scene_id": "02003005_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00007",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 7,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "八旗纛同上，公孙瓒上。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00008",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 8,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "公孙瓒"
+      ],
+      "text": "俺本是镇北平侠燕交，",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00009",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 9,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "袁术上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00010",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "后将军南阳道，",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00011",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "韩馥上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00012",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "韩馥"
+      ],
+      "text": "俺本是镇翼州刺史超，",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00013",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张超上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00014",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "张超"
+      ],
+      "text": "广陵郡威名号，",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00015",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孔融上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00016",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "俺镇北海为郡守清野高。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00017",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲍信上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00018",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "鲍信"
+      ],
+      "text": "济北相名布标，",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00019",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马腾上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00020",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "俺镇西凉西夏运筹调。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00021",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "陶谦上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00022",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "红衲袄",
+      "speakers": [
+        "陶谦"
+      ],
+      "text": "让徐州自逊消。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00023",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "同红衲袄",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "今日个会诸侯把国贼来讨，也清朝纲显忠正凌烟标。",
+      "text_length": 23
+    },
+    {
+      "event_id": "02003005_e00024",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "汉助乾坤锦绣邦，调和数载清朝纲。而今国贼长奋乱，议师旌旗把叛降。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00025",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "公孙瓒"
+      ],
+      "text": "某，北平太守公孙瓒。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00026",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "南阳太守袁术。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00027",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩馥"
+      ],
+      "text": "翼州刺史韩馥。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00028",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张超"
+      ],
+      "text": "广陵太守张超。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00029",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孔融"
+      ],
+      "text": "北海太守孔融。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00030",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲍信"
+      ],
+      "text": "济州刺史鲍信。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00031",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "西凉太守马腾。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00032",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "陶谦"
+      ],
+      "text": "徐州刺史陶谦。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00033",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "公孙瓒"
+      ],
+      "text": "列位请了。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00034",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00035",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "公孙瓒"
+      ],
+      "text": "我等蒙曹孟德檄文相请，为因董卓弄权，目无天子，残暴生灵。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02003005_e00036",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "为此我等齐集前来，今立渤海太守袁绍为盟主，共讨董卓。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02003005_e00037",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "公孙瓒"
+      ],
+      "text": "且待盟主升帐，一同进见。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00038",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00039",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。〖大开门〗。四红文堂、四红大铠同上，同站门，曹操、袁绍同上。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02003005_e00040",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "点绛唇",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "忠义心同，报君恩重，旌旗义师讨攻，把国贼黄泉送。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02003005_e00041",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "公孙瓒、袁术、韩馥、张超、孔融、鲍信、马腾、陶谦同上，分两边坐。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00042",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "乱臣贼子真堪恨，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00043",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "有德人人扫奸臣。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00044",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "干戈早定诛奸佞，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00045",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "大家共享太平春。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00046",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "某，渤海太守袁绍。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00047",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "骁骑尉曹操。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00048",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "为因董卓弄权，目无天子，残害生灵，我等十八路诸侯，尽起义师，会同讨贼。蒙列公推我为盟主，掌握兵权。前者命孙文台前部前锋，不想败于华雄之手。今日会议兵机。列公！",
+      "text_length": 79
+    },
+    {
+      "event_id": "02003005_e00049",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "盟主。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00050",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "今日此举须念君恩国难，协力同心，奋勇杀贼，以表青史也。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02003005_e00051",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "盟主运筹帷幄，燮理阴阳，我等尽听指挥，管叫指日国安贼灭也。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02003005_e00052",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 46,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00053",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 47,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "报子"
+      ],
+      "text": "两脚犹如千里马，肩上横担令字旗。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00054",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 48,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "探子告进。探子叩头。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00055",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 49,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "所探何事？起来讲。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00056",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 50,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "众位爷容禀！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00057",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 51,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "战滴溜",
+      "speakers": [
+        "报子"
+      ],
+      "text": "兵戈到，兵戈到，华雄好勇暴。车骑云腾，统兵四哨，招展旗牌，截住要道。速点兵将，休要使他强暴。",
+      "text_length": 46
+    },
+    {
+      "event_id": "02003005_e00058",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 52,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "赏尔银牌一面，再去打探。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00059",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "多谢盟主。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00060",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 54,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00061",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 55,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "既是华雄领兵前来，我等一同出城。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00062",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 56,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "量此鼠辈，何劳列公出马。请坐。令官传令：各营部下将官，有人敢退华雄，上帐听令。",
+      "text_length": 39
+    },
+    {
+      "event_id": "02003005_e00063",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 57,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "武安国",
+        "俞徒涉",
+        "鲍忠",
+        "潘凤"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00064",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 58,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "武安国、俞徒涉、鲍忠、潘凤同上。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00065",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 59,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "武安国",
+        "俞徒涉",
+        "鲍忠",
+        "潘凤"
+      ],
+      "text": "忽听帐上宣，前来听令传。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00066",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 60,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "武安国",
+        "俞徒涉",
+        "鲍忠",
+        "潘凤"
+      ],
+      "text": "盟主在上，我等愿往，擒拿华雄前来献功。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02003005_e00067",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 61,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "哪名将官，报名上来。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00068",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 62,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "武安国"
+      ],
+      "text": "北海太守麾下部将武安国。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00069",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 63,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "俞徒涉"
+      ],
+      "text": "南阳太守麾下俞徒涉。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00070",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 64,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲍忠"
+      ],
+      "text": "北平太守麾下骁将鲍忠。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00071",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 65,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "潘凤"
+      ],
+      "text": "翼州刺史麾下大将潘凤。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00072",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 66,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "好。难得尔等奋勇当先。斩得华雄回来论功升赏。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02003005_e00073",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 67,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "武安国",
+        "俞徒涉",
+        "鲍忠",
+        "潘凤"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00074",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 68,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂领武安国、俞徒涉、鲍忠、潘凤同下。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02003005_e00075",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 69,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "我等各执器械，往阵前观看者。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003005_e00076",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 70,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00077",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 71,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "堪叹数年动刀兵，黄巾灭后出乱臣。董卓专权朝纲混，共起义师把贼平。人马撒在两军阵，来到军前看分明。耳听号炮天地震，",
+      "text_length": 56
+    },
+    {
+      "event_id": "02003005_e00078",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 72,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起鼓〗，〖内喊声〗。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00079",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 73,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "贼将华雄动刀兵。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00080",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 74,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四大铠引华雄同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003005_e00081",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 75,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "太师台前领将令，汜水关前扎大营。十八路诸侯把兵进，指日奏凯把功成。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003005_e00082",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 76,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "武安国、俞徒涉同上，同会阵。四文堂、华雄杀死武安国、俞徒涉。鲍忠、潘凤同上。",
+      "text_length": 38
+    },
+    {
+      "event_id": "02003005_e00083",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 77,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "马前来将通名受死。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00084",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 78,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲍忠"
+      ],
+      "text": "大将鲍忠。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00085",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 79,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "潘凤"
+      ],
+      "text": "勇将潘凤。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00086",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 86,
+      "seq_in_scene": 80,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "无名贼将，看刀！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00087",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 87,
+      "seq_in_scene": 81,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "华雄杀死鲍忠、潘凤，鲍忠、潘凤同下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003005_e00088",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 88,
+      "seq_in_scene": 82,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "哈哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00089",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 89,
+      "seq_in_scene": 83,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "堪笑诸侯动刀兵，无名小辈有何能！",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00090",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 90,
+      "seq_in_scene": 84,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "华雄下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00091",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 91,
+      "seq_in_scene": 85,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00092",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 92,
+      "seq_in_scene": 86,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00093",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 93,
+      "seq_in_scene": 87,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启元帅：四将被华雄斩首。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00094",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 94,
+      "seq_in_scene": 88,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00095",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 95,
+      "seq_in_scene": 89,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00096",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 96,
+      "seq_in_scene": 90,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00097",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 97,
+      "seq_in_scene": 91,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "胆大华雄，连伤四将，众诸侯一齐会战。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003005_e00098",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 98,
+      "seq_in_scene": 92,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00099",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 99,
+      "seq_in_scene": 93,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "华雄、四文堂同上，同会阵，华雄杀，公孙瓒、袁术、韩馥、张超、孔融、鲍信、马腾、陶谦同下。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02003005_e00100",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 100,
+      "seq_in_scene": 94,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "曹操",
+        "袁绍"
+      ],
+      "text": "耳听号炮响连天，诸侯交兵在阵前。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00101",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 101,
+      "seq_in_scene": 95,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "公孙瓒、袁术、韩馥、张超、孔融、鲍信、马腾、陶谦同上。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02003005_e00102",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 102,
+      "seq_in_scene": 96,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "胜负如何？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00103",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 103,
+      "seq_in_scene": 97,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "败下阵来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00104",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 104,
+      "seq_in_scene": 98,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "哎呀，诸侯不能取胜，此贼如此猖狂，可惜我颜良、文丑未曾随来，若得一人在此，擒华雄如探囊取物也。",
+      "text_length": 47
+    },
+    {
+      "event_id": "02003005_e00105",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 105,
+      "seq_in_scene": 99,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00106",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 106,
+      "seq_in_scene": 100,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00107",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 107,
+      "seq_in_scene": 101,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "华雄讨战。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00108",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 108,
+      "seq_in_scene": 102,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "袁绍、曹操、公孙瓒、袁术、韩馥、张超、孔融、鲍信、马腾、陶谦同惊。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003005_e00109",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 109,
+      "seq_in_scene": 103,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "吩咐免战高悬。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00110",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 110,
+      "seq_in_scene": 104,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00111",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 111,
+      "seq_in_scene": 105,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。关羽、张飞自两边分上。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02003005_e00112",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 112,
+      "seq_in_scene": 106,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "神威能奋武，",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00113",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 113,
+      "seq_in_scene": 107,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "儒雅更知文。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00114",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 114,
+      "seq_in_scene": 108,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "丹诚心如镜，",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00115",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 115,
+      "seq_in_scene": 109,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "春秋义薄云。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00116",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 116,
+      "seq_in_scene": 110,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三弟。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00117",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 117,
+      "seq_in_scene": 111,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "二哥。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00118",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 118,
+      "seq_in_scene": 112,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "俺弟兄三人随公孙将军讨贼，众诸侯被华雄战得他大败，不能进兵，真个好笑。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02003005_e00119",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 119,
+      "seq_in_scene": 113,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "二哥，这是主帅无能，累及三军。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02003005_e00120",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 120,
+      "seq_in_scene": 114,
+      "page_no": 5,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "哈哈哈哈。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00121",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 121,
+      "seq_in_scene": 115,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00122",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 122,
+      "seq_in_scene": 116,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "辕门以外，何人发笑？查出斩首。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02003005_e00123",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 123,
+      "seq_in_scene": 117,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四红大铠"
+      ],
+      "text": "啊。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00124",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 124,
+      "seq_in_scene": 118,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "且慢。此人大笑，必有大用。唤进帐来。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003005_e00125",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 125,
+      "seq_in_scene": 119,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "中军"
+      ],
+      "text": "传发笑人进帐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00126",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 126,
+      "seq_in_scene": 120,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "来也。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00127",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 127,
+      "seq_in_scene": 121,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00128",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 128,
+      "seq_in_scene": 122,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞"
+      ],
+      "text": "参见元帅。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00129",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 129,
+      "seq_in_scene": 123,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "哪部将官，报名上来。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00130",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 130,
+      "seq_in_scene": 124,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "公孙将军帐下马弓手关。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00131",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 131,
+      "seq_in_scene": 125,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "步弓手张。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00132",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 132,
+      "seq_in_scene": 126,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "唔，无名小卒，敢来发笑，藐视诸侯，念尔无知，赶出帐去。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02003005_e00133",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 133,
+      "seq_in_scene": 127,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、张飞同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00134",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 134,
+      "seq_in_scene": 128,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "盟主，我看马弓手气宇轩昂，品貌不俗，非寻常可比，何不令彼出战。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02003005_e00135",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 135,
+      "seq_in_scene": 129,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "骁骑令一弓马手出战，恐被华雄取笑。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02003005_e00136",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 136,
+      "seq_in_scene": 130,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "吾观此人，勇略非凡，况用人之际，何论出身。赐他甲胄前去，那华雄焉能知晓。",
+      "text_length": 36
+    },
+    {
+      "event_id": "02003005_e00137",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 137,
+      "seq_in_scene": 131,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "既然如此，传他进帐。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00138",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 138,
+      "seq_in_scene": 132,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四红大铠"
+      ],
+      "text": "传弓马手进帐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00139",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 139,
+      "seq_in_scene": 133,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00140",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 140,
+      "seq_in_scene": 134,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00141",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 141,
+      "seq_in_scene": 135,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "参见元帅。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00142",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 142,
+      "seq_in_scene": 136,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "命你接战华雄，可有此胆量？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02003005_e00143",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 143,
+      "seq_in_scene": 137,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某若不胜华雄，愿将首级献上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003005_e00144",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 144,
+      "seq_in_scene": 138,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "好。赐你半付掩心甲，请在将房披挂。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02003005_e00145",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 145,
+      "seq_in_scene": 139,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "多谢元帅。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00146",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 146,
+      "seq_in_scene": 140,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "令出山动非寻常，关某今日把名扬。未曾出阵某料想，华雄首级如探囊。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00147",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 147,
+      "seq_in_scene": 141,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00148",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 148,
+      "seq_in_scene": 142,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "丹凤眼来卧蚕眉，五柳胡须飘胸膛。观他容貌非凡相，气吐虹霓世无双。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00149",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 149,
+      "seq_in_scene": 143,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "曾破黄巾初起义，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00150",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 150,
+      "seq_in_scene": 144,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马夫、关羽同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00151",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 151,
+      "seq_in_scene": 145,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "河北袁绍把兵提。华雄战将勇无比，某与他未曾见高低。半付掩心遮身体，青龙大刀手内提。迈步且进营门里，奉请元帅把兵提。",
+      "text_length": 57
+    },
+    {
+      "event_id": "02003005_e00152",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 152,
+      "seq_in_scene": 146,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "披挂起来，倒也称得一员上将。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003005_e00153",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 153,
+      "seq_in_scene": 147,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "好一员虎将。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00154",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 154,
+      "seq_in_scene": 148,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "看酒来。吓将军，我有巨觥一樽，以壮军威。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02003005_e00155",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 155,
+      "seq_in_scene": 149,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "多谢骁骑。哎呀酒太热了，放在玉石栏杆，斩了华雄，回来再领。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02003005_e00156",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 156,
+      "seq_in_scene": 150,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁术"
+      ],
+      "text": "呔，好狂言！",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00157",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 157,
+      "seq_in_scene": 151,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "唔！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00158",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 158,
+      "seq_in_scene": 152,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "将军不必眉皱起，关某言来你听知：华雄虽然勇无比，未遇大将来对敌。小校带过追风骑，回来饮酒献首级。",
+      "text_length": 48
+    },
+    {
+      "event_id": "02003005_e00159",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 159,
+      "seq_in_scene": 153,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00160",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 160,
+      "seq_in_scene": 154,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "列公各自回营擂鼓助威，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02003005_e00161",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 161,
+      "seq_in_scene": 155,
+      "page_no": 7,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "眼观旌捷报，",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00162",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 162,
+      "seq_in_scene": 156,
+      "page_no": 7,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "耳听好消息。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00163",
+      "play_id": "02003005",
+      "scene_id": "02003005_s02",
+      "scene_no": 2,
+      "seq_global": 163,
+      "seq_in_scene": 157,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00164",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 164,
+      "seq_in_scene": 1,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "大鹏展翅恨天低，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00165",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 165,
+      "seq_in_scene": 2,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖擂鼓〗。马夫上，舞旗引关羽上。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02003005_e00166",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 166,
+      "seq_in_scene": 3,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "豪杰怒气贯须弥。董卓抚弄汉献帝，恶贯满盈有归期。吕布、华雄太山势，何用关某费心机。耳听战鼓连声起，",
+      "text_length": 49
+    },
+    {
+      "event_id": "02003005_e00167",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 167,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "小校！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00168",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 168,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "关某言来听端的。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00169",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 169,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "小校，战饭可吃得饱？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02003005_e00170",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 170,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "吃得饱。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00171",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 171,
+      "seq_in_scene": 8,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "还是胆大胆小？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00172",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 172,
+      "seq_in_scene": 9,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "胆大。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00173",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 173,
+      "seq_in_scene": 10,
+      "page_no": 7,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "胆大逞雄威，胆小失了机。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00174",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 174,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "华雄是好将，二爷哪在意。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00175",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 175,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "好！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02003005_e00176",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 176,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "紧拔弓鞋忙扎衣，青龙偃月手中提。一马闯进敌队里，华雄好比笼内鸡。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00177",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 177,
+      "seq_in_scene": 14,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "来在关前。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00178",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 178,
+      "seq_in_scene": 15,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "前去叫关。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00179",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 179,
+      "seq_in_scene": 16,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "呔！华雄出关受死。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00180",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 180,
+      "seq_in_scene": 17,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "开关！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00181",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 181,
+      "seq_in_scene": 18,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "华雄上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00182",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 182,
+      "seq_in_scene": 19,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "呔，何人关前叫骂？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00183",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 183,
+      "seq_in_scene": 20,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "来将可是华雄？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00184",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 184,
+      "seq_in_scene": 21,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "老爷正是。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00185",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 185,
+      "seq_in_scene": 22,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "汜水关有几个华雄？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02003005_e00186",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 186,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "就是老爷一人。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00187",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 187,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "身后何人？",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00188",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 188,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "华雄"
+      ],
+      "text": "在哪里？",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00189",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 189,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "看刀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00190",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 190,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "华雄死，下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00191",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 191,
+      "seq_in_scene": 28,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "汜水关前尔第一，遇着关某失了机。一言未罢头落地，斩华雄不费某的力。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003005_e00192",
+      "play_id": "02003005",
+      "scene_id": "02003005_s03",
+      "scene_no": 3,
+      "seq_global": 192,
+      "seq_in_scene": 29,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。四文堂抬华雄过场同下。（八下手、公孙瓒、袁术、韩馥、张超、孔融、鲍信、马腾、陶谦自两边分上，袁绍、曹操同上。〖出队子〗，〖吹打〗。马夫上。）",
+      "text_length": 74
+    },
+    {
+      "event_id": "02003005_e00193",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 193,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "马弓手得胜。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02003005_e00194",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 194,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "有请。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00195",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 195,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马夫"
+      ],
+      "text": "有请。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02003005_e00196",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 196,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽拿首级上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00197",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 197,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "华雄首级献上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00198",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 198,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "好，将军刀斩华雄，此功第一，灭了董卓，汉室安宁，自有封赠。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02003005_e00199",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 199,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "谢元帅。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00200",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 200,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "吓将军，樽酒尚温，请饮干了。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02003005_e00201",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 201,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "多谢骁骑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00202",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 202,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "待我口占一首，庆贺将军。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02003005_e00203",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 203,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖起鼓〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00204",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 204,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "威震乾坤第一功，辕门架鼓响咚咚。云长今日施英勇，酒尚温时斩华雄。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02003005_e00205",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 205,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "哈哈哈承赞了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02003005_e00206",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 206,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "敢蒙骁骑美言加，些小微功何足夸。丈夫志在安天下，乱臣贼子岂容他。辞别骁骑把帐下，燕雀敢笑鸿鹄家。",
+      "text_length": 48
+    },
+    {
+      "event_id": "02003005_e00207",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 207,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02003005_e00208",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 208,
+      "seq_in_scene": 16,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "关云长秀雅真潇洒，斩华雄好比井底蛙。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02003005_e00209",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 209,
+      "seq_in_scene": 17,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "列公，今日斩了华雄，董卓锐气已挫，吩咐大排筵宴，与刘、关、张贺功。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02003005_e00210",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 210,
+      "seq_in_scene": 18,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "言之有理。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02003005_e00211",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 211,
+      "seq_in_scene": 19,
+      "page_no": 8,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "袁绍"
+      ],
+      "text": "若要天下奇男子，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00212",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 212,
+      "seq_in_scene": 20,
+      "page_no": 8,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "公孙瓒",
+        "袁术",
+        "韩馥",
+        "张超",
+        "孔融",
+        "鲍信",
+        "马腾",
+        "陶谦"
+      ],
+      "text": "须立人间未有功。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02003005_e00213",
+      "play_id": "02003005",
+      "scene_id": "02003005_s04",
+      "scene_no": 4,
+      "seq_global": 213,
+      "seq_in_scene": 21,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。",
+      "text_length": 10
+    }
+  ],
+  "roles_inferred": true
+}

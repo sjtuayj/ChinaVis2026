@@ -1,0 +1,184 @@
+{
+  "play": {
+    "play_id": "03002002",
+    "title": "小上坟",
+    "pdf_name": "03002002_小上坟.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 108,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/03002002",
+    "source_date": "2013-06-30",
+    "synopsis_length": 94,
+    "notes_length": 16,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 77,
+      "singing": 29
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 105.5,
+    "max_edge_weight": 165,
+    "top_characters": [
+      {
+        "name": "刘禄景",
+        "hangdang": "丑",
+        "speech_count": 52,
+        "degree": 3,
+        "weighted_degree": 194
+      },
+      {
+        "name": "萧素贞",
+        "hangdang": "花旦",
+        "speech_count": 46,
+        "degree": 3,
+        "weighted_degree": 181
+      },
+      {
+        "name": "衙役甲",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "衙役",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 3,
+        "weighted_degree": 20
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘禄景",
+      "label": "刘禄景",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 52,
+      "text_length": 915,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 194,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 42,
+        "singing": 9
+      }
+    },
+    {
+      "id": "萧素贞",
+      "label": "萧素贞",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 46,
+      "text_length": 1067,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 181,
+      "marker_category_counts": {
+        "spoken": 25,
+        "singing": 20,
+        "other": 1
+      }
+    },
+    {
+      "id": "衙役甲",
+      "label": "衙役甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 83,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "衙役",
+      "label": "衙役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 8,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘禄景",
+      "target": "萧素贞",
+      "weight": 165,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 82,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘禄景",
+      "target": "衙役",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘禄景",
+      "target": "衙役甲",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "萧素贞",
+      "target": "衙役甲",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "萧素贞",
+      "target": "衙役",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "衙役",
+      "target": "衙役甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

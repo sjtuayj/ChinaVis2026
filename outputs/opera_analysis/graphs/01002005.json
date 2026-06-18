@@ -1,0 +1,184 @@
+{
+  "play": {
+    "play_id": "01002005",
+    "title": "落花园",
+    "pdf_name": "01002005_落花园.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 59,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01002005",
+    "source_date": "2013-08-23",
+    "synopsis_length": 232,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 44,
+      "singing": 13
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 58.0,
+    "max_edge_weight": 47,
+    "top_characters": [
+      {
+        "name": "陈杏元",
+        "hangdang": "旦",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 85
+      },
+      {
+        "name": "邹云英",
+        "hangdang": "旦",
+        "speech_count": 21,
+        "degree": 3,
+        "weighted_degree": 77
+      },
+      {
+        "name": "邹母",
+        "hangdang": "老旦",
+        "speech_count": 14,
+        "degree": 3,
+        "weighted_degree": 59
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "陈杏元",
+      "label": "陈杏元",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 22,
+      "text_length": 713,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 85,
+      "marker_category_counts": {
+        "spoken": 16,
+        "singing": 5,
+        "other": 1
+      }
+    },
+    {
+      "id": "邹云英",
+      "label": "邹云英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 21,
+      "text_length": 494,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 15,
+        "singing": 5
+      }
+    },
+    {
+      "id": "邹母",
+      "label": "邹母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 14,
+      "text_length": 228,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 59,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "邹云英",
+      "target": "陈杏元",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "邹母",
+      "target": "陈杏元",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "邹云英",
+      "target": "邹母",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "邹云英",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "邹母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "陈杏元",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "play": {
+    "play_id": "01016018",
+    "title": "妙善出家",
+    "pdf_name": "01016018_妙善出家.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 33,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01016018",
+    "source_date": "2015-04-23",
+    "synopsis_length": 322,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "singing": 15,
+      "spoken": 15
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 27.6,
+    "max_edge_weight": 24,
+    "top_characters": [
+      {
+        "name": "林彪",
+        "hangdang": "老生",
+        "speech_count": 10,
+        "degree": 4,
+        "weighted_degree": 39
+      },
+      {
+        "name": "妙庄王",
+        "hangdang": "老生",
+        "speech_count": 10,
+        "degree": 4,
+        "weighted_degree": 38
+      },
+      {
+        "name": "妙善",
+        "hangdang": "旦",
+        "speech_count": 8,
+        "degree": 4,
+        "weighted_degree": 33
+      },
+      {
+        "name": "王后",
+        "hangdang": "老旦",
+        "speech_count": 4,
+        "degree": 4,
+        "weighted_degree": 20
+      },
+      {
+        "name": "太监",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "林彪",
+      "label": "林彪",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 10,
+      "text_length": 396,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 39,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 2,
+        "spoken": 7
+      }
+    },
+    {
+      "id": "妙庄王",
+      "label": "妙庄王",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 10,
+      "text_length": 197,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 38,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 3,
+        "singing": 5
+      }
+    },
+    {
+      "id": "妙善",
+      "label": "妙善",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 8,
+      "text_length": 585,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 4
+      }
+    },
+    {
+      "id": "王后",
+      "label": "王后",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 4,
+      "text_length": 65,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 20,
+      "marker_category_counts": {
+        "singing": 4
+      }
+    },
+    {
+      "id": "太监",
+      "label": "太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "妙善",
+      "target": "林彪",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "妙庄王",
+      "target": "王后",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "妙庄王",
+      "target": "林彪",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "妙庄王",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "妙善",
+      "target": "妙庄王",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "妙善",
+      "target": "王后",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "妙善",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "林彪",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "王后",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "林彪",
+      "target": "王后",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "play": {
+    "play_id": "03029003",
+    "title": "送灯",
+    "pdf_name": "03029003_送灯.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 105,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/03029003",
+    "source_date": "2016-08-25",
+    "synopsis_length": 94,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "recitation": 1,
+      "spoken": 94,
+      "singing": 9
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 139.333333,
+    "max_edge_weight": 77,
+    "top_characters": [
+      {
+        "name": "张继贤",
+        "hangdang": "小生",
+        "speech_count": 39,
+        "degree": 2,
+        "weighted_degree": 152
+      },
+      {
+        "name": "贾桂娟",
+        "hangdang": "花旦",
+        "speech_count": 33,
+        "degree": 2,
+        "weighted_degree": 134
+      },
+      {
+        "name": "贾氏",
+        "hangdang": "老旦",
+        "speech_count": 33,
+        "degree": 2,
+        "weighted_degree": 132
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张继贤",
+      "label": "张继贤",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 39,
+      "text_length": 876,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 152,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 36,
+        "singing": 2
+      }
+    },
+    {
+      "id": "贾桂娟",
+      "label": "贾桂娟",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 33,
+      "text_length": 458,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 134,
+      "marker_category_counts": {
+        "singing": 6,
+        "spoken": 27
+      }
+    },
+    {
+      "id": "贾氏",
+      "label": "贾氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 33,
+      "text_length": 676,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 132,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 31,
+        "singing": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张继贤",
+      "target": "贾桂娟",
+      "weight": 77,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 38,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张继贤",
+      "target": "贾氏",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "贾桂娟",
+      "target": "贾氏",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

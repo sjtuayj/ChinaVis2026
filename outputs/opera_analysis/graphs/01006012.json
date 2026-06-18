@@ -1,0 +1,190 @@
+{
+  "play": {
+    "play_id": "01006012",
+    "title": "梵王宫",
+    "pdf_name": "01006012_梵王宫.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 3,
+    "speech_count": 51,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01006012",
+    "source_date": "2013-08-25",
+    "synopsis_length": 357,
+    "notes_length": 108,
+    "marker_category_counts": {
+      "spoken": 40,
+      "singing": 10,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 52.5,
+    "max_edge_weight": 33,
+    "top_characters": [
+      {
+        "name": "刘杭燕",
+        "hangdang": "花旦",
+        "speech_count": 20,
+        "degree": 3,
+        "weighted_degree": 75
+      },
+      {
+        "name": "嫂子",
+        "hangdang": "旦",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 53
+      },
+      {
+        "name": "华云",
+        "hangdang": "小生",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 48
+      },
+      {
+        "name": "花妈妈",
+        "hangdang": "彩旦",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 34
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘杭燕",
+      "label": "刘杭燕",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 20,
+      "text_length": 545,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 75,
+      "marker_category_counts": {
+        "spoken": 16,
+        "singing": 4
+      }
+    },
+    {
+      "id": "嫂子",
+      "label": "嫂子",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 12,
+      "text_length": 178,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 53,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "华云",
+      "label": "华云",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 12,
+      "text_length": 280,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "spoken": 8,
+        "singing": 3,
+        "other": 1
+      }
+    },
+    {
+      "id": "花妈妈",
+      "label": "花妈妈",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 7,
+      "text_length": 90,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 34,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘杭燕",
+      "target": "嫂子",
+      "weight": 33,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘杭燕",
+      "target": "华云",
+      "weight": 32,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "嫂子",
+      "target": "花妈妈",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘杭燕",
+      "target": "花妈妈",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "华云",
+      "target": "花妈妈",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "华云",
+      "target": "嫂子",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    }
+  ]
+}

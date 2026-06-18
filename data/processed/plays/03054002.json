@@ -1,0 +1,7711 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "03054002",
+    "title": "襄阳宴",
+    "aliases": [],
+    "collection_id": "03000000",
+    "collection_name": "《京剧汇编》",
+    "collection_remark": "《京剧汇编》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/03000000/03054002_襄阳宴.pdf",
+    "source_url": "http://scripts.xikao.com/play/03054002",
+    "source_date": "2018-08-23",
+    "page_count": 15,
+    "file_size_bytes": 450170,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "刘备大破张武、陈孙，旋归襄阳。刘表赐宴，并遣关羽、张飞、赵云往巡汉中、南越、夏口等处。蔡夫人患之，进谗刘表。刘表乃迁刘备于新野。根据《京剧汇编》第五十四集：马连良藏本整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "刘备、曹操、关羽、张飞、赵云",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.58,
+      "evidence": [
+        "关",
+        "马"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_刘表",
+      "name": "刘表",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 84,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 11,
+        "action_hint_count": 19,
+        "combat_hint_count": 8
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：刘表：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_刘备",
+      "name": "刘备",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 57,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 8,
+        "action_hint_count": 17,
+        "combat_hint_count": 6
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：刘备：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_蔡氏",
+      "name": "蔡氏",
+      "original_category": "旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：蔡氏：旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_大太监",
+      "name": "大太监",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众人",
+      "name": "众人",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 16,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 10,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_赵云",
+      "name": "赵云",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 10,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "滑稽",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 2,
+        "action_hint_count": 12,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_中军",
+      "name": "中军",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_蔡瑁",
+      "name": "蔡瑁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 21,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 8
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张允",
+      "name": "张允",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 8
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_文堂",
+      "name": "文堂",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 16,
+        "combat_hint_count": 11
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_将官甲",
+      "name": "将官甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_将官乙",
+      "name": "将官乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_将官丙",
+      "name": "将官丙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_将官丁",
+      "name": "将官丁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四将官",
+      "name": "四将官",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 14,
+        "combat_hint_count": 10
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_蒯越",
+      "name": "蒯越",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_伊籍",
+      "name": "伊籍",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_简雍",
+      "name": "简雍",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "柔情"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_探子",
+      "name": "探子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二家将",
+      "name": "二家将",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.62,
+        "evidence": [
+          "夫人"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "刘表",
+        "大太监",
+        "众人"
+      ],
+      "event_ids": [
+        "03054002_e00001",
+        "03054002_e00002",
+        "03054002_e00003",
+        "03054002_e00004",
+        "03054002_e00005",
+        "03054002_e00006",
+        "03054002_e00007",
+        "03054002_e00008",
+        "03054002_e00009"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 9,
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 137
+      }
+    },
+    {
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "刘备",
+        "报子",
+        "众人"
+      ],
+      "event_ids": [
+        "03054002_e00010",
+        "03054002_e00011",
+        "03054002_e00012",
+        "03054002_e00013",
+        "03054002_e00014",
+        "03054002_e00015",
+        "03054002_e00016",
+        "03054002_e00017",
+        "03054002_e00018"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 9,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 156
+      }
+    },
+    {
+      "scene_id": "03054002_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 2,
+      "page_end": 2,
+      "characters": [],
+      "event_ids": [
+        "03054002_e00019"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 1,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 1,
+        "expression_count": 0,
+        "text_length": 104
+      }
+    },
+    {
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 2,
+      "page_end": 3,
+      "characters": [
+        "刘表",
+        "刘备",
+        "关羽",
+        "赵云",
+        "张飞"
+      ],
+      "event_ids": [
+        "03054002_e00020",
+        "03054002_e00021",
+        "03054002_e00022",
+        "03054002_e00023",
+        "03054002_e00024",
+        "03054002_e00025",
+        "03054002_e00026",
+        "03054002_e00027",
+        "03054002_e00028",
+        "03054002_e00029",
+        "03054002_e00030",
+        "03054002_e00031",
+        "03054002_e00032",
+        "03054002_e00033",
+        "03054002_e00034",
+        "03054002_e00035",
+        "03054002_e00036",
+        "03054002_e00037",
+        "03054002_e00038",
+        "03054002_e00039",
+        "03054002_e00040",
+        "03054002_e00041",
+        "03054002_e00042",
+        "03054002_e00043",
+        "03054002_e00044",
+        "03054002_e00045",
+        "03054002_e00046",
+        "03054002_e00047"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 28,
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 3,
+        "text_length": 585
+      }
+    },
+    {
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "刘表",
+        "刘备",
+        "中军",
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "event_ids": [
+        "03054002_e00048",
+        "03054002_e00049",
+        "03054002_e00050",
+        "03054002_e00051",
+        "03054002_e00052",
+        "03054002_e00053",
+        "03054002_e00054",
+        "03054002_e00055",
+        "03054002_e00056",
+        "03054002_e00057",
+        "03054002_e00058",
+        "03054002_e00059",
+        "03054002_e00060",
+        "03054002_e00061",
+        "03054002_e00062",
+        "03054002_e00063",
+        "03054002_e00064",
+        "03054002_e00065",
+        "03054002_e00066",
+        "03054002_e00067",
+        "03054002_e00068",
+        "03054002_e00069",
+        "03054002_e00070",
+        "03054002_e00071",
+        "03054002_e00072",
+        "03054002_e00073",
+        "03054002_e00074",
+        "03054002_e00075",
+        "03054002_e00076",
+        "03054002_e00077",
+        "03054002_e00078",
+        "03054002_e00079",
+        "03054002_e00080",
+        "03054002_e00081",
+        "03054002_e00082",
+        "03054002_e00083",
+        "03054002_e00084",
+        "03054002_e00085",
+        "03054002_e00086",
+        "03054002_e00087",
+        "03054002_e00088",
+        "03054002_e00089",
+        "03054002_e00090"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 43,
+        "spoken_count": 24,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 7,
+        "expression_count": 5,
+        "text_length": 673
+      }
+    },
+    {
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 4,
+      "page_end": 6,
+      "characters": [
+        "蔡氏",
+        "蔡瑁",
+        "刘表"
+      ],
+      "event_ids": [
+        "03054002_e00091",
+        "03054002_e00092",
+        "03054002_e00093",
+        "03054002_e00094",
+        "03054002_e00095",
+        "03054002_e00096",
+        "03054002_e00097",
+        "03054002_e00098",
+        "03054002_e00099",
+        "03054002_e00100",
+        "03054002_e00101",
+        "03054002_e00102",
+        "03054002_e00103",
+        "03054002_e00104",
+        "03054002_e00105",
+        "03054002_e00106",
+        "03054002_e00107",
+        "03054002_e00108",
+        "03054002_e00109",
+        "03054002_e00110",
+        "03054002_e00111",
+        "03054002_e00112",
+        "03054002_e00113",
+        "03054002_e00114",
+        "03054002_e00115",
+        "03054002_e00116",
+        "03054002_e00117",
+        "03054002_e00118",
+        "03054002_e00119",
+        "03054002_e00120",
+        "03054002_e00121",
+        "03054002_e00122",
+        "03054002_e00123",
+        "03054002_e00124",
+        "03054002_e00125",
+        "03054002_e00126",
+        "03054002_e00127",
+        "03054002_e00128",
+        "03054002_e00129",
+        "03054002_e00130"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 40,
+        "spoken_count": 21,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 6,
+        "expression_count": 2,
+        "text_length": 840
+      }
+    },
+    {
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 6,
+      "page_end": 6,
+      "characters": [
+        "蔡瑁",
+        "张允",
+        "众人"
+      ],
+      "event_ids": [
+        "03054002_e00131",
+        "03054002_e00132",
+        "03054002_e00133",
+        "03054002_e00134",
+        "03054002_e00135",
+        "03054002_e00136"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 188
+      }
+    },
+    {
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "title": "第九场",
+      "page_start": 6,
+      "page_end": 10,
+      "characters": [
+        "众人",
+        "蔡瑁",
+        "大太监",
+        "刘表",
+        "张允",
+        "文堂",
+        "刘备",
+        "关羽",
+        "张飞",
+        "赵云",
+        "将官甲",
+        "将官乙",
+        "将官丙",
+        "将官丁",
+        "四将官",
+        "蒯越"
+      ],
+      "event_ids": [
+        "03054002_e00137",
+        "03054002_e00138",
+        "03054002_e00139",
+        "03054002_e00140",
+        "03054002_e00141",
+        "03054002_e00142",
+        "03054002_e00143",
+        "03054002_e00144",
+        "03054002_e00145",
+        "03054002_e00146",
+        "03054002_e00147",
+        "03054002_e00148",
+        "03054002_e00149",
+        "03054002_e00150",
+        "03054002_e00151",
+        "03054002_e00152",
+        "03054002_e00153",
+        "03054002_e00154",
+        "03054002_e00155",
+        "03054002_e00156",
+        "03054002_e00157",
+        "03054002_e00158",
+        "03054002_e00159",
+        "03054002_e00160",
+        "03054002_e00161",
+        "03054002_e00162",
+        "03054002_e00163",
+        "03054002_e00164",
+        "03054002_e00165",
+        "03054002_e00166",
+        "03054002_e00167",
+        "03054002_e00168",
+        "03054002_e00169",
+        "03054002_e00170",
+        "03054002_e00171",
+        "03054002_e00172",
+        "03054002_e00173",
+        "03054002_e00174",
+        "03054002_e00175",
+        "03054002_e00176",
+        "03054002_e00177",
+        "03054002_e00178",
+        "03054002_e00179",
+        "03054002_e00180",
+        "03054002_e00181",
+        "03054002_e00182",
+        "03054002_e00183",
+        "03054002_e00184",
+        "03054002_e00185",
+        "03054002_e00186",
+        "03054002_e00187",
+        "03054002_e00188",
+        "03054002_e00189",
+        "03054002_e00190",
+        "03054002_e00191",
+        "03054002_e00192",
+        "03054002_e00193",
+        "03054002_e00194",
+        "03054002_e00195",
+        "03054002_e00196",
+        "03054002_e00197",
+        "03054002_e00198",
+        "03054002_e00199",
+        "03054002_e00200",
+        "03054002_e00201",
+        "03054002_e00202",
+        "03054002_e00203",
+        "03054002_e00204",
+        "03054002_e00205",
+        "03054002_e00206",
+        "03054002_e00207",
+        "03054002_e00208",
+        "03054002_e00209",
+        "03054002_e00210",
+        "03054002_e00211",
+        "03054002_e00212",
+        "03054002_e00213",
+        "03054002_e00214",
+        "03054002_e00215",
+        "03054002_e00216",
+        "03054002_e00217",
+        "03054002_e00218",
+        "03054002_e00219",
+        "03054002_e00220",
+        "03054002_e00221",
+        "03054002_e00222",
+        "03054002_e00223",
+        "03054002_e00224",
+        "03054002_e00225",
+        "03054002_e00226",
+        "03054002_e00227",
+        "03054002_e00228",
+        "03054002_e00229",
+        "03054002_e00230",
+        "03054002_e00231",
+        "03054002_e00232",
+        "03054002_e00233",
+        "03054002_e00234",
+        "03054002_e00235",
+        "03054002_e00236",
+        "03054002_e00237",
+        "03054002_e00238",
+        "03054002_e00239",
+        "03054002_e00240",
+        "03054002_e00241",
+        "03054002_e00242",
+        "03054002_e00243",
+        "03054002_e00244",
+        "03054002_e00245",
+        "03054002_e00246",
+        "03054002_e00247",
+        "03054002_e00248",
+        "03054002_e00249",
+        "03054002_e00250",
+        "03054002_e00251",
+        "03054002_e00252",
+        "03054002_e00253",
+        "03054002_e00254",
+        "03054002_e00255",
+        "03054002_e00256",
+        "03054002_e00257",
+        "03054002_e00258",
+        "03054002_e00259",
+        "03054002_e00260",
+        "03054002_e00261",
+        "03054002_e00262",
+        "03054002_e00263",
+        "03054002_e00264",
+        "03054002_e00265",
+        "03054002_e00266",
+        "03054002_e00267",
+        "03054002_e00268",
+        "03054002_e00269",
+        "03054002_e00270",
+        "03054002_e00271",
+        "03054002_e00272",
+        "03054002_e00273"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 137,
+        "spoken_count": 97,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 26,
+        "expression_count": 3,
+        "text_length": 1628
+      }
+    },
+    {
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "title": "第十场",
+      "page_start": 10,
+      "page_end": 10,
+      "characters": [
+        "蔡瑁",
+        "张允",
+        "众人"
+      ],
+      "event_ids": [
+        "03054002_e00274",
+        "03054002_e00275",
+        "03054002_e00276",
+        "03054002_e00277",
+        "03054002_e00278",
+        "03054002_e00279",
+        "03054002_e00280",
+        "03054002_e00281"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 8,
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 62
+      }
+    },
+    {
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "title": "第十一场",
+      "page_start": 11,
+      "page_end": 12,
+      "characters": [
+        "刘备",
+        "刘表",
+        "伊籍"
+      ],
+      "event_ids": [
+        "03054002_e00282",
+        "03054002_e00283",
+        "03054002_e00284",
+        "03054002_e00285",
+        "03054002_e00286",
+        "03054002_e00287",
+        "03054002_e00288",
+        "03054002_e00289",
+        "03054002_e00290",
+        "03054002_e00291",
+        "03054002_e00292",
+        "03054002_e00293",
+        "03054002_e00294",
+        "03054002_e00295",
+        "03054002_e00296",
+        "03054002_e00297",
+        "03054002_e00298",
+        "03054002_e00299",
+        "03054002_e00300",
+        "03054002_e00301",
+        "03054002_e00302",
+        "03054002_e00303",
+        "03054002_e00304",
+        "03054002_e00305",
+        "03054002_e00306",
+        "03054002_e00307",
+        "03054002_e00308",
+        "03054002_e00309",
+        "03054002_e00310"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 29,
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 8,
+        "expression_count": 1,
+        "text_length": 626
+      }
+    },
+    {
+      "scene_id": "03054002_s11",
+      "scene_no": 11,
+      "title": "第十二场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "刘表"
+      ],
+      "event_ids": [
+        "03054002_e00311",
+        "03054002_e00312",
+        "03054002_e00313"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 3,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 104
+      }
+    },
+    {
+      "scene_id": "03054002_s12",
+      "scene_no": 12,
+      "title": "第十三场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "刘备"
+      ],
+      "event_ids": [
+        "03054002_e00314",
+        "03054002_e00315",
+        "03054002_e00316"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 3,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 96
+      }
+    },
+    {
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "title": "第十四场",
+      "page_start": 12,
+      "page_end": 12,
+      "characters": [
+        "报子"
+      ],
+      "event_ids": [
+        "03054002_e00317",
+        "03054002_e00318",
+        "03054002_e00319",
+        "03054002_e00320",
+        "03054002_e00321"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 64
+      }
+    },
+    {
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "title": "第十五场",
+      "page_start": 12,
+      "page_end": 13,
+      "characters": [
+        "刘备",
+        "简雍",
+        "探子",
+        "二家将"
+      ],
+      "event_ids": [
+        "03054002_e00322",
+        "03054002_e00323",
+        "03054002_e00324",
+        "03054002_e00325",
+        "03054002_e00326",
+        "03054002_e00327",
+        "03054002_e00328",
+        "03054002_e00329",
+        "03054002_e00330",
+        "03054002_e00331",
+        "03054002_e00332",
+        "03054002_e00333",
+        "03054002_e00334",
+        "03054002_e00335",
+        "03054002_e00336",
+        "03054002_e00337",
+        "03054002_e00338",
+        "03054002_e00339",
+        "03054002_e00340"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 19,
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 347
+      }
+    },
+    {
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "title": "第十六场",
+      "page_start": 13,
+      "page_end": 15,
+      "characters": [
+        "刘表",
+        "大太监",
+        "刘备"
+      ],
+      "event_ids": [
+        "03054002_e00341",
+        "03054002_e00342",
+        "03054002_e00343",
+        "03054002_e00344",
+        "03054002_e00345",
+        "03054002_e00346",
+        "03054002_e00347",
+        "03054002_e00348",
+        "03054002_e00349",
+        "03054002_e00350",
+        "03054002_e00351",
+        "03054002_e00352",
+        "03054002_e00353",
+        "03054002_e00354",
+        "03054002_e00355",
+        "03054002_e00356",
+        "03054002_e00357",
+        "03054002_e00358",
+        "03054002_e00359",
+        "03054002_e00360",
+        "03054002_e00361",
+        "03054002_e00362",
+        "03054002_e00363",
+        "03054002_e00364",
+        "03054002_e00365",
+        "03054002_e00366",
+        "03054002_e00367",
+        "03054002_e00368",
+        "03054002_e00369",
+        "03054002_e00370",
+        "03054002_e00371",
+        "03054002_e00372",
+        "03054002_e00373",
+        "03054002_e00374",
+        "03054002_e00375",
+        "03054002_e00376",
+        "03054002_e00377",
+        "03054002_e00378",
+        "03054002_e00379",
+        "03054002_e00380",
+        "03054002_e00381",
+        "03054002_e00382",
+        "03054002_e00383",
+        "03054002_e00384",
+        "03054002_e00385",
+        "03054002_e00386",
+        "03054002_e00387",
+        "03054002_e00388",
+        "03054002_e00389",
+        "03054002_e00390",
+        "03054002_e00391",
+        "03054002_e00392"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 52,
+        "spoken_count": 32,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 9,
+        "expression_count": 1,
+        "text_length": 722
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "03054002_e00001",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝文堂、四将官、蔡瑁、张允引刘表同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03054002_e00002",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "玄德贤弟领兵将，替孤扫灭贼强梁。军中探马来报讲，灭了二贼称心肠。孤也曾把那旨意降，预备酒宴与琼浆。探马二次来报讲，孤王迎接出襄阳。",
+      "text_length": 65
+    },
+    {
+      "event_id": "03054002_e00003",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00004",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大太监上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00005",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "启主公：刘、关、张得胜而回，离荆州十里安营！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03054002_e00006",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "吩咐摆队出城迎接！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00007",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "摆队出城迎接！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00008",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00009",
+      "play_id": "03054002",
+      "scene_id": "03054002_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00010",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "内唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "自从荆州领兵将，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00011",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、四红大铠、四上手、四将官、赵云、张飞、关羽、刘备同上。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00012",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "扫灭二贼姓名扬。一路之上威风荡，队伍齐整兵将强。诸军齐把凯歌唱，众将各个喜非常。得意鞭敲金镫响，马到成功回荆襄。十里长亭扎营帐，整理军务回朝堂。",
+      "text_length": 72
+    },
+    {
+      "event_id": "03054002_e00013",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00014",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00015",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启使君：荆州刘主公带领文武，出城迎接，已到十里长亭。",
+      "text_length": 26
+    },
+    {
+      "event_id": "03054002_e00016",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "摆队相迎！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00017",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00018",
+      "play_id": "03054002",
+      "scene_id": "03054002_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00019",
+      "play_id": "03054002",
+      "scene_id": "03054002_s03",
+      "scene_no": 3,
+      "seq_global": 19,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "场设荆州城门。〖吹打〗。四蓝文堂、四将官、蔡瑁、张允引刘表同出门，同下。（〖吹打〗。四红文堂、四红大铠、四上手、四将官、赵云、张飞、关羽、刘备同上，四蓝文堂、四将官、蔡瑁、张允引刘表同上，刘表下马，刘备看。）",
+      "text_length": 104
+    },
+    {
+      "event_id": "03054002_e00020",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 20,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "啊贤弟！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00021",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 21,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "啊宗兄！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00022",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 22,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘表",
+        "刘备"
+      ],
+      "text": "啊哈哈哈……",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00023",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 23,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "左右，看酒来，我与刘族弟接风，庆贺得胜酒！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00024",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 24,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "人来看过御酒浆，尊声贤弟听端详：全仗贤弟去扫荡，灭却二贼威名扬。非是愚兄美言讲，交锋还是刘、关、张。愚兄捧酒敬贤弟，敬酒略表兄心肠。",
+      "text_length": 66
+    },
+    {
+      "event_id": "03054002_e00025",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 25,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "谢过宗兄美言讲，交锋对垒古之常。仁兄洪福有天相，好比皓月照万方。也是贼子该命丧，多谢迎接出荆襄。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03054002_e00026",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 26,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "人来看过葡萄酿，回头再敬赵、关、张。三位可称英雄将，感谢交锋血战场。手捧御酒来奉上，多谢三位受风霜。",
+      "text_length": 50
+    },
+    {
+      "event_id": "03054002_e00027",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 27,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "刘主恩待我兄长，理应效劳到疆场。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00028",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 28,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "赵云"
+      ],
+      "text": "刘公待主恩德广，感谢赐饮御酒浆。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00029",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 29,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "刘主深恩山海样，老张最喜饮琼浆。来、来、来将酒满斟上，",
+      "text_length": 27
+    },
+    {
+      "event_id": "03054002_e00030",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 30,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "看大杯伺候！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00031",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 31,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大太监换大杯斟酒。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00032",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 32,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "多吃几杯有何妨！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00033",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 33,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞饮酒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00034",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 34,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "吃得老张精神爽，得胜酒吃得个喜心肠、理所应当！",
+      "text_length": 23
+    },
+    {
+      "event_id": "03054002_e00035",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 35,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "你就是好饮哪！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00036",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 36,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00037",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 37,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00038",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 38,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "好个猛勇翼德将，亚赛当年楚霸王。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00039",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 39,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00040",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 40,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "仁兄！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00041",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 41,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "此处焉能细谈讲，你我进城叙衷肠。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00042",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 42,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "好哇！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00043",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 43,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄一同雕鞍上，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00044",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 44,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "回头再叫众儿郎：钦赐御宴俱升赏，功劳簿上姓名扬。满营将士摆队往，",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00045",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 45,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同领下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00046",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 46,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "炮响三声进荆襄。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00047",
+      "play_id": "03054002",
+      "scene_id": "03054002_s04",
+      "scene_no": 4,
+      "seq_global": 47,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表下。（场设荆州城门。〖大吹打〗。刘备、刘表、四红文堂、四红大铠、四上手、四将官、赵云、张飞、关羽、四蓝文堂、四将官、蔡瑁、张允同上，同进城，同下。）（〖吹打〗。刘备、刘表、四红文堂、四红大铠、四上手、四将官、赵云、张飞、关羽、四蓝文堂、四将官、蔡瑁、张允同上，四上手同下，四将官同下。众人同挖门，分两边站，刘备、刘表同坐。）",
+      "text_length": 164
+    },
+    {
+      "event_id": "03054002_e00048",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 48,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟剿灭贼寇，受尽风霜，兄心不忍。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00049",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 49,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟为国勤劳，何言“风霜”二字？",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00050",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 50,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "中军上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00051",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 51,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "中军"
+      ],
+      "text": "启主公：宴齐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00052",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 52,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "伺候了！待我在诸公面前，每人敬酒三杯。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03054002_e00053",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 53,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同入座。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00054",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 54,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄，只行常饮。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00055",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 55,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "表乃一番敬意。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00056",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 56,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄奉敬一杯也就是了！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00057",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 57,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "兄遵弟之命，表落俗套了哇，哈哈哈……",
+      "text_length": 18
+    },
+    {
+      "event_id": "03054002_e00058",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 58,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表与关羽、张飞、赵云各敬一杯酒。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00059",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 59,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "我等不敢当了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00060",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 60,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟，诸位将军请！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00061",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 61,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "请哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00062",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 62,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同饮酒。〖牌子〗。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00063",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 63,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00064",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 64,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "仁兄！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00065",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 65,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "兄有许多心事，贤弟听了！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00066",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 66,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请讲！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00067",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 67,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各路诸侯起战争，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00068",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 68,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00069",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 69,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00070",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 70,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "民遭涂炭受苦情。愚兄虽居荆州郡，内有大事在心中。南越时常犯边境，汉中张鲁要取州城。江东有意来吞并，曹操久已要交兵。愚兄为此常忧闷，怎能挡住保安宁？",
+      "text_length": 73
+    },
+    {
+      "event_id": "03054002_e00071",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 71,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00072",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 72,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "刘备席前笑盈盈，解劝宗兄免愁容。些许之事何足论，扫灭烟尘谈笑中。二弟关羽威风凛，三弟翼德惯战征。子龙破过金锁阵，万马营中有威名。各去分守各州镇，暗中抵挡各路兵。三弟南越把兵领，二弟威镇汉中营。三江口险要须防紧，四弟赵云有奇能。各个要路安排定，哪怕贼人起战争！调拨当否请思忖，宗兄还须酌量行。",
+      "text_length": 145
+    },
+    {
+      "event_id": "03054002_e00073",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 73,
+      "seq_in_scene": 26,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "此计保守荆州郡，何愁军马不太平。贤弟安排我应允，果然胸中韬略精。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00074",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 74,
+      "seq_in_scene": 27,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘表",
+        "刘备"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00075",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 75,
+      "seq_in_scene": 28,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟这一调动，荆州九郡可以无忧矣！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00076",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 76,
+      "seq_in_scene": 29,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00077",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 77,
+      "seq_in_scene": 30,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟要告辞了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00078",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 78,
+      "seq_in_scene": 31,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟再饮几杯。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00079",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 79,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟酒已够了，改日再饮。告辞了！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00080",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 80,
+      "seq_in_scene": 33,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟一路鞍马劳乏，理应歇息，请哪！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00081",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 81,
+      "seq_in_scene": 34,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄从此休忧闷，纵有征战弟担承。何惧张鲁来叫阵，就是孙、曹哪在心！辞别宗兄出府门，",
+      "text_length": 41
+    },
+    {
+      "event_id": "03054002_e00082",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 82,
+      "seq_in_scene": 35,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、四红大铠、赵云、张飞、关羽同下。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00083",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 83,
+      "seq_in_scene": 36,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "闲暇你我再谈心！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00084",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 84,
+      "seq_in_scene": 37,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00085",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 85,
+      "seq_in_scene": 38,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "请哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00086",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 86,
+      "seq_in_scene": 39,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00087",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 87,
+      "seq_in_scene": 40,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00088",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 88,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00089",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 89,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "看来是我真侥幸，扫灭二贼赖同宗。孤王即忙传将令，犒赏众将与三军。此一番孤王心安静，孤有玄德永安宁。",
+      "text_length": 49
+    },
+    {
+      "event_id": "03054002_e00090",
+      "play_id": "03054002",
+      "scene_id": "03054002_s05",
+      "scene_no": 5,
+      "seq_global": 90,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00091",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 91,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四宫女引蔡氏同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00092",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 92,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "适才宫娥报一信，玄德班师回州城。从此刀兵俱安静，全仗桃园享太平。将身且把后宫进，候主回宫问分明。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03054002_e00093",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 93,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蔡瑁上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00094",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 94,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "走哇！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00095",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 95,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "急忙且把后宫进，见了贤妹说详情。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00096",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 96,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "啊贤妹！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00097",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 97,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "啊！兄长来了，请坐！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00098",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 98,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "告坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00099",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 99,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "兄长不在前厅，进内必有要紧之事？",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00100",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 100,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "贤妹，我妹丈听从刘备之言，将关、张、子龙三人分镇汉中、南越、三江夏口，我想日后恐有变乱。",
+      "text_length": 44
+    },
+    {
+      "event_id": "03054002_e00101",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 101,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "兄长，刘玄德遣将巡边，乃是好意。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00102",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 102,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "贤妹有所不知，他若久居荆州，各处串遍，将来必为大患。叫他三将巡边，又必得与他兵权。再者刘备为人心术不正，乃是一个见利忘义之徒，焉能同守荆州以心腹相待？怎奈妹丈不听良言，将来必遭其害也！",
+      "text_length": 92
+    },
+    {
+      "event_id": "03054002_e00103",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 103,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "口称贤妹听兄论，莫把刘备当好人。若不早早安排定，久后遗害与外甥。一旦玄德根基稳，定成大患起祸根。关、张犹如两只虎，刘备好似混江龙。常山赵云多骁勇，浑身是胆谁不闻？安能共保九州郡，有朝一日必变心。妹丈忠厚少学问，难防日后大祸生。",
+      "text_length": 113
+    },
+    {
+      "event_id": "03054002_e00104",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 104,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "呀！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00105",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 105,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "听兄讲的是实情，叫我此时心着惊。若依兄长你所论，有何妙计保安宁？",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00106",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 106,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "依兄之见，除非叫刘备离了荆州，方保无忧。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03054002_e00107",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 107,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "就依兄长之言。少时你妹丈来时，我与他商议，赶走刘备就是。",
+      "text_length": 28
+    },
+    {
+      "event_id": "03054002_e00108",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 108,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "兄告辞了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00109",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 109,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "兄妹二人把计定，料那刘备难知闻。赶走刘备消我恨，不该眼空藐视人！",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00110",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 110,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蔡瑁下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00111",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 111,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "兄长之言为州郡，焉能袖手不尽心！",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00112",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 112,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监引刘表同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00113",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 113,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "内侍引路后宫进，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00114",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 114,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蔡氏迎接。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00115",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 115,
+      "seq_in_scene": 25,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00116",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 116,
+      "seq_in_scene": 26,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "夫妻对坐说详情。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00117",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 117,
+      "seq_in_scene": 27,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请坐！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00118",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 118,
+      "seq_in_scene": 28,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "告坐。主公，妾身闻得一事，不敢不言。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03054002_e00119",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 119,
+      "seq_in_scene": 29,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "你有何事？快些讲来！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00120",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 120,
+      "seq_in_scene": 30,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "闻将刘备留在荆州居住，又将他的三将调出巡边，日后岂不生患？",
+      "text_length": 29
+    },
+    {
+      "event_id": "03054002_e00121",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 121,
+      "seq_in_scene": 31,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哎呀，贤妻呀！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00122",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 122,
+      "seq_in_scene": 32,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "刘备与我同宗姓，非比寻常外姓人。留他在此孤安稳，保守荆州得安宁。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00123",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 123,
+      "seq_in_scene": 33,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "主公且听妾身论，莫把刘备当好人。若不早早安排定，久后遗害与娇生。我说此话你不信，他日必然起祸根。见利忘义人难定，遣他别处把身存。",
+      "text_length": 64
+    },
+    {
+      "event_id": "03054002_e00124",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 124,
+      "seq_in_scene": 34,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "我看刘备乃仁德之人，恐不至若是。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00125",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 125,
+      "seq_in_scene": 35,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡氏"
+      ],
+      "text": "人心难测，须当防备。常言道：一潭难住二蛟龙。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03054002_e00126",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 126,
+      "seq_in_scene": 36,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "如此说来，待等明日下操之期，在演武厅上，我与他暗暗调停也就是了。宫娥，看酒伺候！",
+      "text_length": 40
+    },
+    {
+      "event_id": "03054002_e00127",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 127,
+      "seq_in_scene": 37,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "多蒙一言来提醒，提醒南柯梦中人。你我一同来痛饮，夫妻开怀闲谈心。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00128",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 128,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00129",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 129,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤妻来呀！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00130",
+      "play_id": "03054002",
+      "scene_id": "03054002_s06",
+      "scene_no": 6,
+      "seq_global": 130,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00131",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 131,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝文堂、四蓝大铠、四大刀手、四弓箭手、四藤牌手、四鸟枪手、四将官、蔡瑁、张允同上。",
+      "text_length": 42
+    },
+    {
+      "event_id": "03054002_e00132",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 132,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "统领貔貅数万兵，辖管荆州众水军。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00133",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 133,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "俺、水军都督（蔡瑁）（张允）。奉了主公之命，兼管步兵人马。今当三六九大操之期，主公亲到演武厅，相请刘备一同观看操演步兵。众将官，人马出城，往演武厅去者！",
+      "text_length": 76
+    },
+    {
+      "event_id": "03054002_e00134",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 134,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00135",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 135,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。【第八场",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00136",
+      "play_id": "03054002",
+      "scene_id": "03054002_s07",
+      "scene_no": 7,
+      "seq_global": 136,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四御林军、四太监、二大太监引刘表骑马同上，蒯越随上，同出城，同下。",
+      "text_length": 38
+    },
+    {
+      "event_id": "03054002_e00137",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 137,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝文堂、四蓝大铠、四大刀手、四弓箭手、四藤牌手、四鸟枪手、四将官、蔡瑁、张允同上。",
+      "text_length": 42
+    },
+    {
+      "event_id": "03054002_e00138",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 138,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "来此演武厅。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00139",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 139,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "排齐队伍，候主公来到，一同接驾！",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00140",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 140,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00141",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 141,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "主公驾到！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00142",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 142,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "主公驾到！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00143",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 143,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "一同接驾！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00144",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 144,
+      "seq_in_scene": 8,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00145",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 145,
+      "seq_in_scene": 9,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖大吹打〗。四御林军、蒯越、四太监、二大太监引刘表同上。",
+      "text_length": 28
+    },
+    {
+      "event_id": "03054002_e00146",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 146,
+      "seq_in_scene": 10,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "臣等接驾！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00147",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 147,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "众卿平身。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00148",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 148,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "谢主公！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00149",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 149,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表坐。四蓝文堂、四蓝大铠、四大刀手、四弓箭手、四藤牌手、四鸟枪手、四将官同下。",
+      "text_length": 40
+    },
+    {
+      "event_id": "03054002_e00150",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 150,
+      "seq_in_scene": 14,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "臣等参见，主公千岁！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00151",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 151,
+      "seq_in_scene": 15,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "二位都督免礼，站立两厢。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00152",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 152,
+      "seq_in_scene": 16,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "谢千岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00153",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 153,
+      "seq_in_scene": 17,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "二位都督，人马可曾齐备？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00154",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 154,
+      "seq_in_scene": 18,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "俱已齐备。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00155",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 155,
+      "seq_in_scene": 19,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "候刘使君驾到，一同操演观看。须要队伍整齐，听孤令下！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03054002_e00156",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 156,
+      "seq_in_scene": 20,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00157",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 157,
+      "seq_in_scene": 21,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00158",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 158,
+      "seq_in_scene": 22,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "文堂"
+      ],
+      "text": "刘使君驾到！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00159",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 159,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "刘使君驾到！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00160",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 160,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "待孤出门迎接！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00161",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 161,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。四红文堂、赵云、张飞、关羽、刘备同上。",
+      "text_length": 24
+    },
+    {
+      "event_id": "03054002_e00162",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 162,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "啊贤弟！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00163",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 163,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "啊宗兄！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00164",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 164,
+      "seq_in_scene": 28,
+      "page_no": 7,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘表",
+        "刘备"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00165",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 165,
+      "seq_in_scene": 29,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘表",
+        "刘备"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00166",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 166,
+      "seq_in_scene": 30,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "三位将军！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00167",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 167,
+      "seq_in_scene": 31,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "啊刘主！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00168",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 168,
+      "seq_in_scene": 32,
+      "page_no": 7,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘表",
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00169",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 169,
+      "seq_in_scene": 33,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请哪！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00170",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 170,
+      "seq_in_scene": 34,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00171",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 171,
+      "seq_in_scene": 35,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请来上坐！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00172",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 172,
+      "seq_in_scene": 36,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "此乃军务大事，备怎敢上坐！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03054002_e00173",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 173,
+      "seq_in_scene": 37,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟忒谦了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00174",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 174,
+      "seq_in_scene": 38,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "如此备有罪了！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00175",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 175,
+      "seq_in_scene": 39,
+      "page_no": 7,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘表",
+        "刘备"
+      ],
+      "text": "哈哈哈……",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00176",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 176,
+      "seq_in_scene": 40,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。刘备坐大边，刘表坐小边。",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00177",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 177,
+      "seq_in_scene": 41,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟，队伍不整，休得耻笑！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03054002_e00178",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 178,
+      "seq_in_scene": 42,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "岂敢！备要瞻仰瞻仰！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00179",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 179,
+      "seq_in_scene": 43,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "来，看宴伺候！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00180",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 180,
+      "seq_in_scene": 44,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "领旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00181",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 181,
+      "seq_in_scene": 45,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大太监备酒。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00182",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 182,
+      "seq_in_scene": 46,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00183",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 183,
+      "seq_in_scene": 47,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00184",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 184,
+      "seq_in_scene": 48,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。刘备、刘表同饮酒。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00185",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 185,
+      "seq_in_scene": 49,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "二位都督，吩咐操演上来！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00186",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 186,
+      "seq_in_scene": 50,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "操演上来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00187",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 187,
+      "seq_in_scene": 51,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官甲持大纛旗领四弓箭手同上，同操演，毕。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00188",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 188,
+      "seq_in_scene": 52,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各归队伍！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00189",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 189,
+      "seq_in_scene": 53,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "将官甲"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00190",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 190,
+      "seq_in_scene": 54,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官甲领四弓箭手同下。将官乙持大纛旗领四鸟枪手同上，同操演，毕。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00191",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 191,
+      "seq_in_scene": 55,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各归队伍！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00192",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 192,
+      "seq_in_scene": 56,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "将官乙"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00193",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 193,
+      "seq_in_scene": 57,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官乙领四鸟枪手同下。将官丙持大纛旗领四长枪手同上，同操演，毕。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00194",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 194,
+      "seq_in_scene": 58,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各归队伍！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00195",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 195,
+      "seq_in_scene": 59,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "将官丙"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00196",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 196,
+      "seq_in_scene": 60,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官丙领四长枪手同下。将官丁持大纛旗领四藤牌手同上，同操演，毕。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00197",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 197,
+      "seq_in_scene": 61,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各归队伍！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00198",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 198,
+      "seq_in_scene": 62,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "将官丁"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00199",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 199,
+      "seq_in_scene": 63,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将官丁领四藤牌手同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00200",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 200,
+      "seq_in_scene": 64,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "二位都督，吩咐众将，一起合操上来！",
+      "text_length": 17
+    },
+    {
+      "event_id": "03054002_e00201",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 201,
+      "seq_in_scene": 65,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "众将，一起合操上来！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00202",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 202,
+      "seq_in_scene": 66,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "四将官"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00203",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 203,
+      "seq_in_scene": 67,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四将官各领一队自两边分上，同归中间一排。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03054002_e00204",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 204,
+      "seq_in_scene": 68,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "合操上来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00205",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 205,
+      "seq_in_scene": 69,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四将官"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00206",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 206,
+      "seq_in_scene": 70,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "将军令。四将官同领四队合操，毕。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00207",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 207,
+      "seq_in_scene": 71,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四将官"
+      ],
+      "text": "合操已毕！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00208",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 208,
+      "seq_in_scene": 72,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "各归队伍!",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00209",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 209,
+      "seq_in_scene": 73,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四将官"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00210",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 210,
+      "seq_in_scene": 74,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四将官领四队同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00211",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 211,
+      "seq_in_scene": 75,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟，你看队伍如何？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00212",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 212,
+      "seq_in_scene": 76,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "真乃兵精将勇，队伍整齐！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00213",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 213,
+      "seq_in_scene": 77,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟夸奖了！请酒！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00214",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 214,
+      "seq_in_scene": 78,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00215",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 215,
+      "seq_in_scene": 79,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。刘备、刘表同饮酒。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00216",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 216,
+      "seq_in_scene": 80,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00217",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 217,
+      "seq_in_scene": 81,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00218",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 218,
+      "seq_in_scene": 82,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟今日所骑之马，并非往日所乘，但不知此马从何得来？",
+      "text_length": 26
+    },
+    {
+      "event_id": "03054002_e00219",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 219,
+      "seq_in_scene": 83,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄，这匹坐骑，乃是在江夏交锋，得那贼首张武之马。",
+      "text_length": 25
+    },
+    {
+      "event_id": "03054002_e00220",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 220,
+      "seq_in_scene": 84,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "倒是一匹好马。贤弟乘骑一趟，愚兄观看观看！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00221",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 221,
+      "seq_in_scene": 85,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "遵命。来，带马！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00222",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 222,
+      "seq_in_scene": 86,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00223",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 223,
+      "seq_in_scene": 87,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞带马。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00224",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 224,
+      "seq_in_scene": 88,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "备献丑了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00225",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 225,
+      "seq_in_scene": 89,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "岂敢！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00226",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 226,
+      "seq_in_scene": 90,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备上马，走过场，下，上，下马。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00227",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 227,
+      "seq_in_scene": 91,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄，你看此马脚程如何？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00228",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 228,
+      "seq_in_scene": 92,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "兄看此马跑起犹如蛟龙奔水，恶虎出林，真乃一匹骏马！",
+      "text_length": 25
+    },
+    {
+      "event_id": "03054002_e00229",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 229,
+      "seq_in_scene": 93,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄既爱此马，小弟自当奉送。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00230",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 230,
+      "seq_in_scene": 94,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "如此，愚兄多谢了！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00231",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 231,
+      "seq_in_scene": 95,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "自己弟兄，何出此言！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00232",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 232,
+      "seq_in_scene": 96,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "操演已毕，你我进城回府一叙。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00233",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 233,
+      "seq_in_scene": 97,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "小弟遵命。宗兄就此乘骑，看看脚下快慢如如何？",
+      "text_length": 22
+    },
+    {
+      "event_id": "03054002_e00234",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 234,
+      "seq_in_scene": 98,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "愧领了！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00235",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 235,
+      "seq_in_scene": 99,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "岂敢！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00236",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 236,
+      "seq_in_scene": 100,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "蔡都督，吩咐众兵将，回家歇息。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00237",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 237,
+      "seq_in_scene": 101,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "蔡瑁",
+        "张允"
+      ],
+      "text": "遵命。主公有令，众兵将回家歇息！",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00238",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 238,
+      "seq_in_scene": 102,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00239",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 239,
+      "seq_in_scene": 103,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蔡瑁、张允同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00240",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 240,
+      "seq_in_scene": 104,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "人马回府。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00241",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 241,
+      "seq_in_scene": 105,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00242",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 242,
+      "seq_in_scene": 106,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表、蒯越、刘备、关羽、张飞、赵云同上马，同走圆场，同挖门。",
+      "text_length": 30
+    },
+    {
+      "event_id": "03054002_e00243",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 243,
+      "seq_in_scene": 107,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟，三位将军，请坐！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00244",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 244,
+      "seq_in_scene": 108,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00245",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 245,
+      "seq_in_scene": 109,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "谢刘主！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00246",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 246,
+      "seq_in_scene": 110,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "来，看宴伺候！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00247",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 247,
+      "seq_in_scene": 111,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "领旨！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00248",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 248,
+      "seq_in_scene": 112,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大太监备酒。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00249",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 249,
+      "seq_in_scene": 113,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00250",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 250,
+      "seq_in_scene": 114,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00251",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 251,
+      "seq_in_scene": 115,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "兄有一言，贤弟请听了！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00252",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 252,
+      "seq_in_scene": 116,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请讲！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00253",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 253,
+      "seq_in_scene": 117,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "酒席宴上闲谈论，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00254",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 254,
+      "seq_in_scene": 118,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟，三位将军，请！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00255",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 255,
+      "seq_in_scene": 119,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "关羽",
+        "张飞",
+        "赵云"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00256",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 256,
+      "seq_in_scene": 120,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "尊声贤弟听分明：贤弟久居荆州郡，犹恐废武疏军情。兄有一事安排定，贤弟威镇新野城。离此八十里路径，镇守那里兄放心。钱粮颇多官署整，钱粮足够养弟身。如有欠缺兄支应，不知贤弟可愿行？",
+      "text_length": 88
+    },
+    {
+      "event_id": "03054002_e00257",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 257,
+      "seq_in_scene": 121,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "兄言此事甚为本，口称宗兄弟领情。若有要事急通信，小弟即至荆州城。兄弟今日把酒饮，小弟明朝早启程。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03054002_e00258",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 258,
+      "seq_in_scene": 122,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟再饮几杯。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00259",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 259,
+      "seq_in_scene": 123,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "小弟酒已够了。明日携眷奔往新野，弟告辞了！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00260",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 260,
+      "seq_in_scene": 124,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟兄分手实难忍，再与宗兄把话云：你我俱是同宗姓，纵有不到莫记心。辞别宗兄足踏镫，",
+      "text_length": 40
+    },
+    {
+      "event_id": "03054002_e00261",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 261,
+      "seq_in_scene": 125,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、赵云、张飞、关羽同下。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00262",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 262,
+      "seq_in_scene": 126,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "改日弟来问安宁。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00263",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 263,
+      "seq_in_scene": 127,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00264",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 264,
+      "seq_in_scene": 128,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00265",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 265,
+      "seq_in_scene": 129,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "玄德上马我泪淋，实实难舍骨肉情。进府厅前来坐定，再与谋士把话云。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00266",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 266,
+      "seq_in_scene": 130,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蒯越"
+      ],
+      "text": "眼望主公听臣禀，为臣有言奏分明：吾兄蒯良知马性，善识坐骑认能行。主公胯下好骑乘，四蹄如飞快脚程。日行千里非谎论，寅卯出门酉回程。",
+      "text_length": 64
+    },
+    {
+      "event_id": "03054002_e00267",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 267,
+      "seq_in_scene": 131,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蒯越"
+      ],
+      "text": "启主公：此马虽好，只是眼内有泪，尾角之上生有白点，名叫“的卢”，最妨主人！",
+      "text_length": 37
+    },
+    {
+      "event_id": "03054002_e00268",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 268,
+      "seq_in_scene": 132,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蒯越"
+      ],
+      "text": "前番张武来对阵，此马妨他一命倾。劝主休骑这坐骑，送还刘备免承情。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00269",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 269,
+      "seq_in_scene": 133,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "卿家之言孤深信，你弟兄识马本是真。命卿将马归原主，多多与我谢盛情。",
+      "text_length": 33
+    },
+    {
+      "event_id": "03054002_e00270",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 270,
+      "seq_in_scene": 134,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "蒯越"
+      ],
+      "text": "为臣领了主公命，公馆送马走一程。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00271",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 271,
+      "seq_in_scene": 135,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "蒯越上马，下。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00272",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 272,
+      "seq_in_scene": 136,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "蔡氏言语催得紧，犹恐玄德起变心。暗移刘备事已定，明日送他去登程。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00273",
+      "play_id": "03054002",
+      "scene_id": "03054002_s08",
+      "scene_no": 8,
+      "seq_global": 273,
+      "seq_in_scene": 137,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00274",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 274,
+      "seq_in_scene": 1,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四文堂、四将官、蔡瑁、张允同上。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03054002_e00275",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 275,
+      "seq_in_scene": 2,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "蔡瑁。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00276",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 276,
+      "seq_in_scene": 3,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张允"
+      ],
+      "text": "张允。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00277",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 277,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "贤弟请了！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00278",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 278,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张允"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00279",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 279,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "蔡瑁"
+      ],
+      "text": "主公亲送刘备长亭饯行。众将官，长亭去者！",
+      "text_length": 20
+    },
+    {
+      "event_id": "03054002_e00280",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 280,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众人"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00281",
+      "play_id": "03054002",
+      "scene_id": "03054002_s09",
+      "scene_no": 9,
+      "seq_global": 281,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00282",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 282,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "场设荆州城门。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00283",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 283,
+      "seq_in_scene": 2,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "内唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "人马纷纷出荆襄，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00284",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 284,
+      "seq_in_scene": 3,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、简雍、糜竺、糜芳、甘夫人、糜夫人、二车夫同上，同出城，过场，同下。",
+      "text_length": 38
+    },
+    {
+      "event_id": "03054002_e00285",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 285,
+      "seq_in_scene": 4,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四御林军、四太监同上，同出城，蒯越、伊籍、赵云、张飞、关羽、刘备、刘表同上，同出城。",
+      "text_length": 42
+    },
+    {
+      "event_id": "03054002_e00286",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 286,
+      "seq_in_scene": 5,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟兄并马叙衷肠。回头我对宗兄讲，小弟有言听端详：休怕张鲁兴兵将，鸿鹄何惧小螳螂！倘若三处兴兵往，自有桃园刘、关、张。",
+      "text_length": 58
+    },
+    {
+      "event_id": "03054002_e00287",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 287,
+      "seq_in_scene": 6,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟说话兄心爽，全仗贤弟你承当。自有桃园威风长，何人敢来犯边疆？催马来在长亭上，",
+      "text_length": 40
+    },
+    {
+      "event_id": "03054002_e00288",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 288,
+      "seq_in_scene": 7,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同挖门，同下马。四蓝文堂、四将官、蔡瑁、张允同上。",
+      "text_length": 27
+    },
+    {
+      "event_id": "03054002_e00289",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 289,
+      "seq_in_scene": 8,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "又见众将列两旁。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00290",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 290,
+      "seq_in_scene": 9,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "酒来！人来看过御宴酒浆，敬酒与弟表衷肠。到了新野民敬仰，贤弟必然有主张。但愿贤弟身无恙，三位将军永安康。",
+      "text_length": 52
+    },
+    {
+      "event_id": "03054002_e00291",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 291,
+      "seq_in_scene": 10,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "弟谢宗兄恩浩荡，亲送长亭赐琼浆。回头我对宗兄讲，小弟言来听端详：愿兄寿同山岳样，愿兄福共海天长。弟兄酒罢分别往，",
+      "text_length": 56
+    },
+    {
+      "event_id": "03054002_e00292",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 292,
+      "seq_in_scene": 11,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝文堂、四御林军、四太监、四将官、蒯越、蔡瑁、张允同下。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03054002_e00293",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 293,
+      "seq_in_scene": 12,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "又见玄德泪两行。含悲忍泪把马上，",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00294",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 294,
+      "seq_in_scene": 13,
+      "page_no": 11,
+      "type": "expression",
+      "mode_label": "哭",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄啊！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00295",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 295,
+      "seq_in_scene": 14,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00296",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 296,
+      "seq_in_scene": 15,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "倒叫我心中痛断肠。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00297",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 297,
+      "seq_in_scene": 16,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00298",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 298,
+      "seq_in_scene": 17,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "皇叔且慢抖丝缰，伊籍向前话商量。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00299",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 299,
+      "seq_in_scene": 18,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "启皇叔：此马不可骑也！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00300",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 300,
+      "seq_in_scene": 19,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "先生，何言此马不可骑也？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00301",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 301,
+      "seq_in_scene": 20,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "昨日蒯越见府君言讲，此马有不好之处。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03054002_e00302",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 302,
+      "seq_in_scene": 21,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "有什么不好之处？",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00303",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 303,
+      "seq_in_scene": 22,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "皇叔，昨日谋士蒯越言说：此马名曰“的卢”，最妨主人。言那张武乘骑，已遭不幸，因此将马又送回皇叔。皇叔须要三思！",
+      "text_length": 55
+    },
+    {
+      "event_id": "03054002_e00304",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 304,
+      "seq_in_scene": 23,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "多蒙先生指教！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00305",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 305,
+      "seq_in_scene": 24,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "生死只可由命闯，吉凶之事怎提防！",
+      "text_length": 16
+    },
+    {
+      "event_id": "03054002_e00306",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 306,
+      "seq_in_scene": 25,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "下官失言了。告辞！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00307",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 307,
+      "seq_in_scene": 26,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "伊籍"
+      ],
+      "text": "皇叔言语甚高强，令人听来快心肠！辞别皇叔雕鞍上，伊籍冒言回荆襄。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00308",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 308,
+      "seq_in_scene": 27,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "伊籍下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00309",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 309,
+      "seq_in_scene": 28,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "伊籍忠正好言讲，倒叫刘备自思量。大家随即赶车辆，扬鞭催动马蹄忙。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00310",
+      "play_id": "03054002",
+      "scene_id": "03054002_s10",
+      "scene_no": 10,
+      "seq_global": 310,
+      "seq_in_scene": 29,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00311",
+      "play_id": "03054002",
+      "scene_id": "03054002_s11",
+      "scene_no": 11,
+      "seq_global": 311,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝文堂、四御林军、四太监、四将官、蒯越、伊籍、蔡瑁、张允引刘表同上。",
+      "text_length": 35
+    },
+    {
+      "event_id": "03054002_e00312",
+      "play_id": "03054002",
+      "scene_id": "03054002_s11",
+      "scene_no": 11,
+      "seq_global": 312,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "弟兄分别珠泪降，二人难舍痛心肠。流泪眼观流泪眼，玄德一旁也悲伤。加鞭打马回府往，叫我一阵好凄凉。一路懒观好景况，旌旗飘荡回荆襄。",
+      "text_length": 64
+    },
+    {
+      "event_id": "03054002_e00313",
+      "play_id": "03054002",
+      "scene_id": "03054002_s11",
+      "scene_no": 11,
+      "seq_global": 313,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00314",
+      "play_id": "03054002",
+      "scene_id": "03054002_s12",
+      "scene_no": 12,
+      "seq_global": 314,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红文堂、糜竺、糜芳、简雍、孙乾、甘夫人、糜夫人、二车夫、赵云、张飞、关羽、刘备同上。",
+      "text_length": 43
+    },
+    {
+      "event_id": "03054002_e00315",
+      "play_id": "03054002",
+      "scene_id": "03054002_s12",
+      "scene_no": 12,
+      "seq_global": 315,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "离了荆襄奔新野，兄弟分手洒泪别。不能开疆创基业，难以扶保汉金阙。眼望天空升皓月，早到新野鞍马歇。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03054002_e00316",
+      "play_id": "03054002",
+      "scene_id": "03054002_s12",
+      "scene_no": 12,
+      "seq_global": 316,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00317",
+      "play_id": "03054002",
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "seq_global": 317,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "马来！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00318",
+      "play_id": "03054002",
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "seq_global": 318,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00319",
+      "play_id": "03054002",
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "seq_global": 319,
+      "seq_in_scene": 3,
+      "page_no": 12,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "报子"
+      ],
+      "text": "身背报子旗，探事马如飞。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00320",
+      "play_id": "03054002",
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "seq_global": 320,
+      "seq_in_scene": 4,
+      "page_no": 12,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "我乃刘使君帐前探子是也。今有曹操领兵去征袁绍。不免前去报与使君知道，就此快马加鞭！",
+      "text_length": 41
+    },
+    {
+      "event_id": "03054002_e00321",
+      "play_id": "03054002",
+      "scene_id": "03054002_s13",
+      "scene_no": 13,
+      "seq_global": 321,
+      "seq_in_scene": 5,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00322",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 322,
+      "seq_in_scene": 1,
+      "page_no": 12,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二家将、刘备同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00323",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 323,
+      "seq_in_scene": 2,
+      "page_no": 12,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "自到新野数日整，弟兄讲文细谈心。安抚军民行仁政，每逢朔望劝化民。合城之人俱钦敬，新野减税免重刑。只因夫人得一梦，口吞北斗产娇生。取名阿斗他名姓，有了坟前拜孝人。名扬新野纷纷论，各个称我颇圣明。将身二堂来坐定，思念重整汉乾坤。",
+      "text_length": 112
+    },
+    {
+      "event_id": "03054002_e00324",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 324,
+      "seq_in_scene": 3,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "简雍上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00325",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 325,
+      "seq_in_scene": 4,
+      "page_no": 13,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "简雍"
+      ],
+      "text": "探马报得紧，禀知智谋人。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00326",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 326,
+      "seq_in_scene": 5,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "简雍"
+      ],
+      "text": "启主公：今有远探来报军情。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03054002_e00327",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 327,
+      "seq_in_scene": 6,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "传他进来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00328",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 328,
+      "seq_in_scene": 7,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "简雍"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00329",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 329,
+      "seq_in_scene": 8,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子暗上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00330",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 330,
+      "seq_in_scene": 9,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "简雍"
+      ],
+      "text": "使君传你进见，小心了！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03054002_e00331",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 331,
+      "seq_in_scene": 10,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "是。报！探子告进！使君在上，探子叩头。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03054002_e00332",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 332,
+      "seq_in_scene": 11,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "探听哪路军情？一一报来！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00333",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 333,
+      "seq_in_scene": 12,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "是。启使君：今有曹操领兵去征袁绍。特来禀报。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03054002_e00334",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 334,
+      "seq_in_scene": 13,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00335",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 335,
+      "seq_in_scene": 14,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00336",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 336,
+      "seq_in_scene": 15,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00337",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 337,
+      "seq_in_scene": 16,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "且住！今有曹操领兵去征袁绍，许昌城中空虚，并无兵将。我不免去往荆州，与宗兄商议，发兵攻取，一定成功。来，将马备好，随我往荆州走走！",
+      "text_length": 65
+    },
+    {
+      "event_id": "03054002_e00338",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 338,
+      "seq_in_scene": 17,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二家将"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00339",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 339,
+      "seq_in_scene": 18,
+      "page_no": 13,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "二次再回荆州郡，我与那景升定计行。人来带过银鬃马，趁空虚发人马夺取许城。",
+      "text_length": 36
+    },
+    {
+      "event_id": "03054002_e00340",
+      "play_id": "03054002",
+      "scene_id": "03054002_s14",
+      "scene_no": 14,
+      "seq_global": 340,
+      "seq_in_scene": 19,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人自两边分下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00341",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 341,
+      "seq_in_scene": 1,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监引刘表同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03054002_e00342",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 342,
+      "seq_in_scene": 2,
+      "page_no": 13,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "自从那日离长亭，回转荆州闷在心。每日弟兄闲谈论，讲今比古评诗文。时常开怀多畅饮，不由我思念同宗人。",
+      "text_length": 49
+    },
+    {
+      "event_id": "03054002_e00343",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 343,
+      "seq_in_scene": 3,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "大太监上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00344",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 344,
+      "seq_in_scene": 4,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "大太监"
+      ],
+      "text": "启主公：新野刘使君已到府门。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03054002_e00345",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 345,
+      "seq_in_scene": 5,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "待我亲自出迎。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00346",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 346,
+      "seq_in_scene": 6,
+      "page_no": 13,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二家将引刘备同上，刘表迎，二家将同下。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03054002_e00347",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 347,
+      "seq_in_scene": 7,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "啊宗兄！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00348",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 348,
+      "seq_in_scene": 8,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "啊贤弟！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00349",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 349,
+      "seq_in_scene": 9,
+      "page_no": 13,
+      "type": "expression",
+      "mode_label": "同笑",
+      "speakers": [
+        "刘备",
+        "刘表"
+      ],
+      "text": "啊哈哈哈……",
+      "text_length": 6
+    },
+    {
+      "event_id": "03054002_e00350",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 350,
+      "seq_in_scene": 10,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00351",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 351,
+      "seq_in_scene": 11,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00352",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 352,
+      "seq_in_scene": 12,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00353",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 353,
+      "seq_in_scene": 13,
+      "page_no": 13,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00354",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 354,
+      "seq_in_scene": 14,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟驾到，未曾远迎，面前恕罪！",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00355",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 355,
+      "seq_in_scene": 15,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "岂敢！少来问安，宗兄海涵！",
+      "text_length": 13
+    },
+    {
+      "event_id": "03054002_e00356",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 356,
+      "seq_in_scene": 16,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "岂敢！贤弟自离荆州，一向安否？",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00357",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 357,
+      "seq_in_scene": 17,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "有劳宗兄动问。自与宗兄分别之后，弟时刻挂心。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03054002_e00358",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 358,
+      "seq_in_scene": 18,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "有劳贤弟挂念！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00359",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 359,
+      "seq_in_scene": 19,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "岂敢！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03054002_e00360",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 360,
+      "seq_in_scene": 20,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟今日至此，有何事议？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00361",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 361,
+      "seq_in_scene": 21,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "小弟蒙兄之恩，分手住居新野，感之不尽。今日一来看望宗兄、宗嫂；二来有要紧之事前来与宗兄商议。",
+      "text_length": 46
+    },
+    {
+      "event_id": "03054002_e00362",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 362,
+      "seq_in_scene": 22,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "有何要紧之事？贤弟请讲！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03054002_e00363",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 363,
+      "seq_in_scene": 23,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄啊！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00364",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 364,
+      "seq_in_scene": 24,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄有所不知情，小弟言来听分明：曹操不在许昌郡，去征袁绍动刀兵。趁此机会把兵领，发兵攻取许昌城。兄长若肯来应允，即发兵将莫消停。此番奇袭必得胜，乘虚而入把功成。",
+      "text_length": 80
+    },
+    {
+      "event_id": "03054002_e00365",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 365,
+      "seq_in_scene": 25,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "听弟之言笑盈盈，内有一件却难应——现今徐州方安稳，不敢妄自动刀兵。人不征我为侥幸，我不征人两太平。",
+      "text_length": 49
+    },
+    {
+      "event_id": "03054002_e00366",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 366,
+      "seq_in_scene": 26,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "仁兄说话欠思量，不图大事为何因？兄想荆州永安定，只恐孙、曹要来争。",
+      "text_length": 33
+    },
+    {
+      "event_id": "03054002_e00367",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 367,
+      "seq_in_scene": 27,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "刘表心中自沉吟，内侍忙摆酒盈樽。我与贤弟开怀饮，畅叙一番别离情。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03054002_e00368",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 368,
+      "seq_in_scene": 28,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "太监斟酒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00369",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 369,
+      "seq_in_scene": 29,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00370",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 370,
+      "seq_in_scene": 30,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00371",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 371,
+      "seq_in_scene": 31,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "饮酒之间眼发愣，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00372",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 372,
+      "seq_in_scene": 32,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "唉！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00373",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 373,
+      "seq_in_scene": 33,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "不由刘表烦在心！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00374",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 374,
+      "seq_in_scene": 34,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "咳！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00375",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 375,
+      "seq_in_scene": 35,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄为何咳声叹气？只管对小弟言来，倘有用我之处，弟万死不辞！",
+      "text_length": 30
+    },
+    {
+      "event_id": "03054002_e00376",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 376,
+      "seq_in_scene": 36,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "咳，贤弟，我有一件天大的心事，不能自决！",
+      "text_length": 20
+    },
+    {
+      "event_id": "03054002_e00377",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 377,
+      "seq_in_scene": 37,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄到底有什么心事，只管对弟言来，我与兄长分忧解愁。",
+      "text_length": 26
+    },
+    {
+      "event_id": "03054002_e00378",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 378,
+      "seq_in_scene": 38,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表摇头。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03054002_e00379",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 379,
+      "seq_in_scene": 39,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "咳！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00380",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 380,
+      "seq_in_scene": 40,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "如此，宗兄请！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03054002_e00381",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 381,
+      "seq_in_scene": 41,
+      "page_no": 14,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00382",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 382,
+      "seq_in_scene": 42,
+      "page_no": 14,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "宗兄只是心愁闷，好叫小弟难在心。弟要转回新野郡！",
+      "text_length": 24
+    },
+    {
+      "event_id": "03054002_e00383",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 383,
+      "seq_in_scene": 43,
+      "page_no": 14,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二家将同上，与刘备带马，同下。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03054002_e00384",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 384,
+      "seq_in_scene": 44,
+      "page_no": 15,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "贤弟请！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00385",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 385,
+      "seq_in_scene": 45,
+      "page_no": 15,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00386",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 386,
+      "seq_in_scene": 46,
+      "page_no": 15,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "改日再来叙寒温！",
+      "text_length": 8
+    },
+    {
+      "event_id": "03054002_e00387",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 387,
+      "seq_in_scene": 47,
+      "page_no": 15,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘备下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03054002_e00388",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 388,
+      "seq_in_scene": 48,
+      "page_no": 15,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "咳！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00389",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 389,
+      "seq_in_scene": 49,
+      "page_no": 15,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "饮酒忽然心不顺，大事难以对他云。思想蔡氏心暗恨，只为二子难在心。荆州重地无人整，谁是孤的心腹人！",
+      "text_length": 48
+    },
+    {
+      "event_id": "03054002_e00390",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 390,
+      "seq_in_scene": 50,
+      "page_no": 15,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监、大太监同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03054002_e00391",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 391,
+      "seq_in_scene": 51,
+      "page_no": 15,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘表"
+      ],
+      "text": "咳！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03054002_e00392",
+      "play_id": "03054002",
+      "scene_id": "03054002_s15",
+      "scene_no": 15,
+      "seq_global": 392,
+      "seq_in_scene": 52,
+      "page_no": 15,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刘表下。",
+      "text_length": 4
+    }
+  ],
+  "roles_inferred": true
+}

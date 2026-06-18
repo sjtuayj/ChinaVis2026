@@ -1,0 +1,131 @@
+{
+  "play": {
+    "play_id": "05004008",
+    "title": "月下赞貂婵",
+    "pdf_name": "05004008_月下赞貂婵.pdf",
+    "group_id": "05000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 29,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/05004008",
+    "source_date": "2013-06-30",
+    "synopsis_length": 81,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 24,
+      "singing": 4
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 35.333333,
+    "max_edge_weight": 39,
+    "top_characters": [
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 50
+      },
+      {
+        "name": "貂婵",
+        "hangdang": "旦",
+        "speech_count": 12,
+        "degree": 2,
+        "weighted_degree": 42
+      },
+      {
+        "name": "四军校",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 2,
+        "weighted_degree": 14
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 14,
+      "text_length": 874,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 11,
+        "singing": 2
+      }
+    },
+    {
+      "id": "貂婵",
+      "label": "貂婵",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 12,
+      "text_length": 623,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "spoken": 10,
+        "singing": 2
+      }
+    },
+    {
+      "id": "四军校",
+      "label": "四军校",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 12,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关羽",
+      "target": "貂婵",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "四军校",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四军校",
+      "target": "貂婵",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

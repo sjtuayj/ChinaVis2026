@@ -1,0 +1,135 @@
+{
+  "play": {
+    "play_id": "03031002",
+    "title": "凤阳花鼓",
+    "pdf_name": "03031002_凤阳花鼓.pdf",
+    "group_id": "03000000",
+    "page_count": 10,
+    "scene_count": 1,
+    "speech_count": 284,
+    "character_count": 3,
+    "source_url": "https://scripts.xikao.com/play/03031002",
+    "source_date": "2022-10-14",
+    "synopsis_length": 111,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 4,
+      "other": 7,
+      "spoken": 265,
+      "recitation": 8
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 352.666667,
+    "max_edge_weight": 327,
+    "top_characters": [
+      {
+        "name": "卖艺人",
+        "hangdang": "丑",
+        "speech_count": 127,
+        "degree": 2,
+        "weighted_degree": 474
+      },
+      {
+        "name": "丑公子",
+        "hangdang": "丑",
+        "speech_count": 102,
+        "degree": 2,
+        "weighted_degree": 382
+      },
+      {
+        "name": "花鼓娘",
+        "hangdang": "旦",
+        "speech_count": 55,
+        "degree": 2,
+        "weighted_degree": 202
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "卖艺人",
+      "label": "卖艺人",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 127,
+      "text_length": 1607,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 474,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 119,
+        "recitation": 4,
+        "singing": 1
+      }
+    },
+    {
+      "id": "丑公子",
+      "label": "丑公子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 102,
+      "text_length": 1465,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 382,
+      "marker_category_counts": {
+        "spoken": 102
+      }
+    },
+    {
+      "id": "花鼓娘",
+      "label": "花鼓娘",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 55,
+      "text_length": 1530,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 202,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 44,
+        "recitation": 4,
+        "other": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "丑公子",
+      "target": "卖艺人",
+      "weight": 327,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 163,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "卖艺人",
+      "target": "花鼓娘",
+      "weight": 147,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 73,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丑公子",
+      "target": "花鼓娘",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

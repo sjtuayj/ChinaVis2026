@@ -1,0 +1,131 @@
+{
+  "play": {
+    "play_id": "90000006",
+    "title": "花园赠金",
+    "pdf_name": "90000006_花园赠金.pdf",
+    "group_id": "90000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 64,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/90000006",
+    "source_date": "2013-06-30",
+    "synopsis_length": 57,
+    "notes_length": 13,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 57,
+      "singing": 5
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 84.666667,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "王宝钏",
+        "hangdang": "旦",
+        "speech_count": 28,
+        "degree": 2,
+        "weighted_degree": 106
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 82
+      },
+      {
+        "name": "薛平贵",
+        "hangdang": "小生",
+        "speech_count": 16,
+        "degree": 2,
+        "weighted_degree": 66
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 28,
+      "text_length": 909,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 106,
+      "marker_category_counts": {
+        "other": 2,
+        "singing": 2,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 20,
+      "text_length": 273,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 82,
+      "marker_category_counts": {
+        "spoken": 20
+      }
+    },
+    {
+      "id": "薛平贵",
+      "label": "薛平贵",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 16,
+      "text_length": 354,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 13
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "丫鬟",
+      "target": "王宝钏",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王宝钏",
+      "target": "薛平贵",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "薛平贵",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "play": {
+    "play_id": "70902131",
+    "title": "长生殿·闻铃",
+    "pdf_name": "70902131_长生殿·闻铃.pdf",
+    "group_id": "70902000",
+    "page_count": 2,
+    "scene_count": 1,
+    "speech_count": 23,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70902131",
+    "source_date": "2018-08-23",
+    "synopsis_length": 53,
+    "notes_length": 57,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 17,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 22.0,
+    "max_edge_weight": 27,
+    "top_characters": [
+      {
+        "name": "唐明皇",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 33
+      },
+      {
+        "name": "高力士",
+        "hangdang": "丑",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 31
+      },
+      {
+        "name": "陈元礼",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 13
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "唐明皇",
+      "label": "唐明皇",
+      "raw_role": "冠生",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 630,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 5,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "高力士",
+      "label": "高力士",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 8,
+      "text_length": 80,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "陈元礼",
+      "label": "陈元礼",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 108,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 2
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "唐明皇",
+      "target": "高力士",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "陈元礼",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "唐明皇",
+      "target": "陈元礼",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "高力士",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "唐明皇",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "陈元礼",
+      "target": "高力士",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

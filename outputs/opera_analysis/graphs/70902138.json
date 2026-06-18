@@ -1,0 +1,186 @@
+{
+  "play": {
+    "play_id": "70902138",
+    "title": "奇双会·写状",
+    "pdf_name": "70902138_奇双会·写状.pdf",
+    "group_id": "70902000",
+    "page_count": 7,
+    "scene_count": 1,
+    "speech_count": 243,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/70902138",
+    "source_date": "2020-09-27",
+    "synopsis_length": 68,
+    "notes_length": 136,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 214,
+      "singing": 24,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 231.0,
+    "max_edge_weight": 425,
+    "top_characters": [
+      {
+        "name": "赵宠",
+        "hangdang": "未知",
+        "speech_count": 127,
+        "degree": 3,
+        "weighted_degree": 455
+      },
+      {
+        "name": "李桂枝",
+        "hangdang": "旦",
+        "speech_count": 108,
+        "degree": 3,
+        "weighted_degree": 431
+      },
+      {
+        "name": "家院",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "四青袍",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵宠",
+      "label": "赵宠",
+      "raw_role": "冠生",
+      "hangdang": "未知",
+      "speech_count": 127,
+      "text_length": 2418,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 455,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 119,
+        "singing": 6,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "李桂枝",
+      "label": "李桂枝",
+      "raw_role": "五旦",
+      "hangdang": "旦",
+      "speech_count": 108,
+      "text_length": 1085,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 431,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 87,
+        "singing": 18,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 21,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "四青袍",
+      "label": "四青袍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 4,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李桂枝",
+      "target": "赵宠",
+      "weight": 425,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 212,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "赵宠",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "赵宠",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "李桂枝",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "李桂枝",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "play": {
+    "play_id": "03053003",
+    "title": "遇皇后",
+    "pdf_name": "03053003_遇皇后.pdf",
+    "group_id": "03000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 89,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/03053003",
+    "source_date": "2018-08-23",
+    "synopsis_length": 56,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 75,
+      "recitation": 1,
+      "singing": 12
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 58.333333,
+    "max_edge_weight": 73,
+    "top_characters": [
+      {
+        "name": "包拯",
+        "hangdang": "净",
+        "speech_count": 31,
+        "degree": 5,
+        "weighted_degree": 122
+      },
+      {
+        "name": "李后",
+        "hangdang": "老旦",
+        "speech_count": 31,
+        "degree": 5,
+        "weighted_degree": 110
+      },
+      {
+        "name": "地方",
+        "hangdang": "丑",
+        "speech_count": 17,
+        "degree": 5,
+        "weighted_degree": 65
+      },
+      {
+        "name": "众百姓",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 5,
+        "weighted_degree": 22
+      },
+      {
+        "name": "马汉",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 5,
+        "weighted_degree": 16
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "包拯",
+      "label": "包拯",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 31,
+      "text_length": 758,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 122,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 26,
+        "singing": 4
+      }
+    },
+    {
+      "id": "李后",
+      "label": "李后",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 31,
+      "text_length": 1247,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 110,
+      "marker_category_counts": {
+        "spoken": 23,
+        "singing": 8
+      }
+    },
+    {
+      "id": "地方",
+      "label": "地方",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 17,
+      "text_length": 432,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 65,
+      "marker_category_counts": {
+        "spoken": 16,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "众百姓",
+      "label": "众百姓",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 26,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 22,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    },
+    {
+      "id": "马汉",
+      "label": "马汉",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 6,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "王朝",
+      "label": "王朝",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 10,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "包拯",
+      "target": "李后",
+      "weight": 73,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 36,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "包拯",
+      "target": "地方",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "地方",
+      "target": "李后",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "包拯",
+      "target": "马汉",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "李后",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "地方",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "包拯",
+      "target": "王朝",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "地方",
+      "target": "王朝",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "包拯",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "王朝",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众百姓",
+      "target": "马汉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "地方",
+      "target": "马汉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "李后",
+      "target": "王朝",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "李后",
+      "target": "马汉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "王朝",
+      "target": "马汉",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

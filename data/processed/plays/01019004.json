@@ -1,0 +1,2771 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "01019004",
+    "title": "舌战群儒",
+    "aliases": [
+      "孔明过江"
+    ],
+    "collection_id": "01000000",
+    "collection_name": "《戏考》",
+    "collection_remark": "《戏考》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/01000000/01019004_舌战群儒.pdf",
+    "source_url": "http://scripts.xikao.com/play/01019004",
+    "source_date": "2018-08-24",
+    "page_count": 6,
+    "file_size_bytes": 439322,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "曹操既得荆、襄，追逐刘备于江夏。计点大兵八十三万，水陆并进，船骑双行，沿江而来，耽耽焉虎视东吴；且驰檄孙权，使之会猎于江夏，其意实欲孙权降服也。孙权不得主意，使鲁肃往江夏，以吊丧为名，探看刘备举动。诸葛亮正与刘备计议，欲联络东吴，藉作援助；而鲁肃亦有此意。邀诸葛亮同回，为孙刘通好之地。孙权闻卧龙先生至，喜不自胜，乃聚文武于帐下，使诸葛亮先见东吴英俊，以自夸人材之盛。于是，一班谋士如张昭、顾雍、虞翻、步骘、薛琮、陆绩、严畯、程德枢等，互相问难，诸葛亮一一对答，毫无阻滞；众人语塞，无敢与之抗辩，心中亦非常敬服。仍由鲁肃引见孙权，诸葛亮用反言激之，以绝其降服之心，坚其拒敌之态。孙权因留诸葛亮于东吴参赞军务，命周瑜为大都督，统率将士，出三江口下寨，与曹操决战。根据《戏考》第十九册整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "吴、诸葛、刘备、曹操、赵云",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.68,
+      "evidence": [
+        "战",
+        "兵",
+        "将"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 28,
+        "aria_count": 4,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：诸葛亮：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_孙权",
+      "name": "孙权",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 27,
+        "aria_count": 2,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 7,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙权：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_鲁肃",
+      "name": "鲁肃",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 15,
+        "aria_count": 1,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：鲁肃：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周瑜",
+      "name": "周瑜",
+      "original_category": "小生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "青年/少年",
+      "age_confidence": 0.68,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "小生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：周瑜：小生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张昭",
+      "name": "张昭",
+      "original_category": "生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "忠义",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 11,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：张昭：生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_虞翻",
+      "name": "虞翻",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "文人/书生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_步骘",
+      "name": "步骘",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "文人/书生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_薛琮",
+      "name": "薛琮",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "文人/书生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_陆绩",
+      "name": "陆绩",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "文人/书生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_严畯",
+      "name": "严畯",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 1,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "文人/书生"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "孙权",
+        "鲁肃"
+      ],
+      "event_ids": [
+        "01019004_e00001",
+        "01019004_e00002",
+        "01019004_e00003",
+        "01019004_e00004",
+        "01019004_e00005",
+        "01019004_e00006",
+        "01019004_e00007",
+        "01019004_e00008",
+        "01019004_e00009",
+        "01019004_e00010",
+        "01019004_e00011",
+        "01019004_e00012",
+        "01019004_e00013",
+        "01019004_e00014",
+        "01019004_e00015",
+        "01019004_e00016",
+        "01019004_e00017",
+        "01019004_e00018",
+        "01019004_e00019",
+        "01019004_e00020",
+        "01019004_e00021",
+        "01019004_e00022",
+        "01019004_e00023",
+        "01019004_e00024",
+        "01019004_e00025",
+        "01019004_e00026"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 26,
+        "spoken_count": 17,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 547
+      }
+    },
+    {
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 2,
+      "characters": [
+        "周瑜"
+      ],
+      "event_ids": [
+        "01019004_e00027",
+        "01019004_e00028",
+        "01019004_e00029",
+        "01019004_e00030",
+        "01019004_e00031"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 144
+      }
+    },
+    {
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 2,
+      "page_end": 5,
+      "characters": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯",
+        "鲁肃",
+        "诸葛亮"
+      ],
+      "event_ids": [
+        "01019004_e00032",
+        "01019004_e00033",
+        "01019004_e00034",
+        "01019004_e00035",
+        "01019004_e00036",
+        "01019004_e00037",
+        "01019004_e00038",
+        "01019004_e00039",
+        "01019004_e00040",
+        "01019004_e00041",
+        "01019004_e00042",
+        "01019004_e00043",
+        "01019004_e00044",
+        "01019004_e00045",
+        "01019004_e00046",
+        "01019004_e00047",
+        "01019004_e00048",
+        "01019004_e00049",
+        "01019004_e00050",
+        "01019004_e00051",
+        "01019004_e00052",
+        "01019004_e00053",
+        "01019004_e00054",
+        "01019004_e00055",
+        "01019004_e00056",
+        "01019004_e00057",
+        "01019004_e00058",
+        "01019004_e00059",
+        "01019004_e00060",
+        "01019004_e00061",
+        "01019004_e00062",
+        "01019004_e00063",
+        "01019004_e00064",
+        "01019004_e00065",
+        "01019004_e00066",
+        "01019004_e00067",
+        "01019004_e00068",
+        "01019004_e00069",
+        "01019004_e00070",
+        "01019004_e00071",
+        "01019004_e00072",
+        "01019004_e00073",
+        "01019004_e00074",
+        "01019004_e00075",
+        "01019004_e00076",
+        "01019004_e00077",
+        "01019004_e00078",
+        "01019004_e00079",
+        "01019004_e00080",
+        "01019004_e00081",
+        "01019004_e00082",
+        "01019004_e00083"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 52,
+        "spoken_count": 40,
+        "aria_count": 5,
+        "recitation_count": 1,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 2046
+      }
+    },
+    {
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "孙权",
+        "鲁肃",
+        "诸葛亮"
+      ],
+      "event_ids": [
+        "01019004_e00084",
+        "01019004_e00085",
+        "01019004_e00086",
+        "01019004_e00087",
+        "01019004_e00088",
+        "01019004_e00089",
+        "01019004_e00090",
+        "01019004_e00091",
+        "01019004_e00092",
+        "01019004_e00093",
+        "01019004_e00094",
+        "01019004_e00095",
+        "01019004_e00096",
+        "01019004_e00097",
+        "01019004_e00098",
+        "01019004_e00099",
+        "01019004_e00100",
+        "01019004_e00101",
+        "01019004_e00102",
+        "01019004_e00103",
+        "01019004_e00104",
+        "01019004_e00105",
+        "01019004_e00106",
+        "01019004_e00107",
+        "01019004_e00108",
+        "01019004_e00109",
+        "01019004_e00110",
+        "01019004_e00111",
+        "01019004_e00112",
+        "01019004_e00113",
+        "01019004_e00114",
+        "01019004_e00115",
+        "01019004_e00116",
+        "01019004_e00117",
+        "01019004_e00118",
+        "01019004_e00119",
+        "01019004_e00120",
+        "01019004_e00121",
+        "01019004_e00122",
+        "01019004_e00123",
+        "01019004_e00124",
+        "01019004_e00125",
+        "01019004_e00126",
+        "01019004_e00127",
+        "01019004_e00128",
+        "01019004_e00129",
+        "01019004_e00130",
+        "01019004_e00131",
+        "01019004_e00132",
+        "01019004_e00133",
+        "01019004_e00134"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 51,
+        "spoken_count": 38,
+        "aria_count": 3,
+        "recitation_count": 1,
+        "stage_direction_count": 8,
+        "expression_count": 1,
+        "text_length": 1149
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "01019004_e00001",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监引孙权同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01019004_e00002",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "南面称孤，镇江东，霸业鸿图。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01019004_e00003",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "父兄征战有数年，开基创业在江南。曹操统领兵百万，要与孤家启争端。",
+      "text_length": 32
+    },
+    {
+      "event_id": "01019004_e00004",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "孤，孙权。承父兄之基业，坐镇江南，领守九州八十一郡。今有曹操，得了荆、襄各郡，带兵百万，直下江南，有吞并东吴之意。昨日与群臣会议，文官个个主降，武将大半要主战。倒叫孤家游疑不决。也曾修书去到柴桑，宣召周瑜，等他到来再作商量便了。",
+      "text_length": 114
+    },
+    {
+      "event_id": "01019004_e00005",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00006",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "江北请卧龙，同来见主公。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01019004_e00007",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "参见主公。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00008",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "大夫少礼。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00009",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "谢主公。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00010",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "今有曹操，遣使送来檄文；孤与众卿会议，文官主降，武将主战。不知大夫意下如何？",
+      "text_length": 38
+    },
+    {
+      "event_id": "01019004_e00011",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "众人俱可降曹，惟主公则万万不可降曹。",
+      "text_length": 18
+    },
+    {
+      "event_id": "01019004_e00012",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "怎见得？",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00013",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "鲁肃降曹，自然是加官受爵，封妻荫子；若主公降曹，位不过封侯，马不过一骑，从者不过数人，再想南面称孤，只怕不能够了！",
+      "text_length": 57
+    },
+    {
+      "event_id": "01019004_e00014",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙权笑。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00015",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "众人之言，大失孤望；大夫所议，正合孤心。但是那曹操，灭了袁绍，冀州兵马皆为所得；近日又得荆、襄之众，其势甚大，恐难对敌。",
+      "text_length": 60
+    },
+    {
+      "event_id": "01019004_e00016",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "主公休要多虑。肃至江东，请得一人，乃诸葛瑾之弟，名诸葛亮。现到东吴，主公与他相见，定知曹操之虚实也。",
+      "text_length": 50
+    },
+    {
+      "event_id": "01019004_e00017",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "此人莫非就是那卧龙先生么？",
+      "text_length": 13
+    },
+    {
+      "event_id": "01019004_e00018",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "正是此人。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00019",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "他现在何处？",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00020",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "现在驿馆。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00021",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "今日天色已晚，明日聚众文武于帐下，教他先看我江东之英俊，然后孤与他相见便了。",
+      "text_length": 38
+    },
+    {
+      "event_id": "01019004_e00022",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "遵命。正是：",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00023",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "欲图定国事，须问智谋人。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01019004_e00024",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00025",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "待等明日，见了诸葛孔明，看他是怎样议论。退班！",
+      "text_length": 23
+    },
+    {
+      "event_id": "01019004_e00026",
+      "play_id": "01019004",
+      "scene_id": "01019004_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00027",
+      "play_id": "01019004",
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四大铠引周瑜同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "01019004_e00028",
+      "play_id": "01019004",
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "点绛唇",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "幼习兵机，智谋无敌，逞雄威，制胜出奇，名震东吴地。",
+      "text_length": 25
+    },
+    {
+      "event_id": "01019004_e00029",
+      "play_id": "01019004",
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "甘罗十二智谋高，少年拜相美名标。男儿须抱凌云志，治国安邦立功劳。",
+      "text_length": 32
+    },
+    {
+      "event_id": "01019004_e00030",
+      "play_id": "01019004",
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周瑜"
+      ],
+      "text": "吾，姓周名瑜字公瑾。吴侯驾前为臣，镇守柴桑一带等处。昨日有书信到来，唤吾到东吴议事。唗！众将官：兵发南徐去者！",
+      "text_length": 55
+    },
+    {
+      "event_id": "01019004_e00031",
+      "play_id": "01019004",
+      "scene_id": "01019004_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂同允。〖泣颜回〗。众人同转场下。",
+      "text_length": 19
+    },
+    {
+      "event_id": "01019004_e00032",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 32,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张昭、虞翻、步骘、薛琮、陆绩、严畯同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "01019004_e00033",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 33,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "衣冠楚楚珮玱玱，朝臣待漏五更忙。九天阊阖开宫殿，万里山河赛帝邦。",
+      "text_length": 32
+    },
+    {
+      "event_id": "01019004_e00034",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 34,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "下官——",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00035",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 35,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "张昭。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00036",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 36,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "虞翻"
+      ],
+      "text": "虞翻。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00037",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 37,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "步骘"
+      ],
+      "text": "步骘。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00038",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 38,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛琮"
+      ],
+      "text": "薛琮。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00039",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 39,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "陆绩"
+      ],
+      "text": "陆绩。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00040",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 40,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严畯"
+      ],
+      "text": "严畯。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00041",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 41,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00042",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 42,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00043",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 43,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "今有诸葛孔明过江来见主公，定是前来游说。今日曹操领兵，欲战刘备，那孔明欲借我东吴之兵以敌曹操，幸勿使吴侯中他的诡计。待他到来，我等须要与他辩论一番。",
+      "text_length": 74
+    },
+    {
+      "event_id": "01019004_e00044",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 44,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "01019004_e00045",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 45,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "诸葛先生到！",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00046",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 46,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00047",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 47,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃引诸葛亮同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01019004_e00048",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 48,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "吓，众位大夫请了！",
+      "text_length": 9
+    },
+    {
+      "event_id": "01019004_e00049",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 49,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "先生请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00050",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 50,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "告坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00051",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 51,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "先生驾到，吾等不曾远迎，当面恕罪！",
+      "text_length": 17
+    },
+    {
+      "event_id": "01019004_e00052",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 52,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "岂敢！小人来得仓猝，列位海涵。",
+      "text_length": 15
+    },
+    {
+      "event_id": "01019004_e00053",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 53,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "好说！",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00054",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 54,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "久闻先生隐居南阳、高卧隆中，自比管仲、乐毅，不胜钦仰之至。",
+      "text_length": 29
+    },
+    {
+      "event_id": "01019004_e00055",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 55,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "此亮平生小可之比也，何劳大夫挂齿。",
+      "text_length": 17
+    },
+    {
+      "event_id": "01019004_e00056",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 56,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "那刘豫州，曾三顾茅庐聘请先生，言听计从，就该席卷荆、襄；今日荆、襄诸郡尽属曹操，不知是何意见？",
+      "text_length": 47
+    },
+    {
+      "event_id": "01019004_e00057",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 57,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "想吾主刘豫州，自出世以来，以仁德为本，以信义为先。若取汉上之地，易如反掌。怎奈荆襄王刘表，亦是汉室之胄，吾主不忍取同宗之基业，故力辞不受。那刘琮小儿，妄听蔡瑁等之谗言，将荆、襄各郡尽献于曹操，使曹操得以猖獗。今吾主兵屯江夏，别有良图；非君等所知也。",
+      "text_length": 124
+    },
+    {
+      "event_id": "01019004_e00058",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 58,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张昭"
+      ],
+      "text": "先生自比管、乐。想当日，管仲相桓公，霸诸侯，一匡天下；乐毅扶保燕国，下齐邦七十二城，名震当时，皆天下之奇才。今刘豫州聘请先生下山，必能兴利除害、抑强扶弱。刘豫州未得先生之前，尚且占据城池、纵横宇内；既得先生之后，则曹兵一出，抛戈弃甲、望风而逃，乃弃新野、走樊城、败当阳、奔夏口，竟无容身之地！若有管仲、乐毅，必不至此。",
+      "text_length": 159
+    },
+    {
+      "event_id": "01019004_e00059",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 59,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮讪笑。",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00060",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 60,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "喝喝哈哈哈哈。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01019004_e00061",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "万里鹏飞，群鸟难及；鸿鹄之志，燕雀难知。譬如人，身染重病，必先用粥糜调养，复用药剂医治，待其脏腑充盈、形骸平服，然后再用肉食以补之、猛药以投之，则病根除矣。若不待气脉和缓，即投以猛药、厚味，则病人断无生理！吾主刘豫州，自汝南兵败之后，暂依刘表，兵不过千人，将则只有关、张、赵云等，这正如病势尪羸已极之时也。想那新野之地，乃是山僻小县，生民既少，粮草无多，城郭未修，军马未练，器械不足，辎重不备；而能博望烧屯、白河决水，使曹仁、夏侯惇辈，心胆俱裂、弃甲而逃。当日管、乐之用兵，未必能过此。夫军家胜败，乃古之常理，昔日汉高皇帝与项羽争雄，屡战屡败，到后来垓下一战成功，岂非韩信之良谋乎？",
+      "text_length": 291
+    },
+    {
+      "event_id": "01019004_e00062",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 62,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吾主行事多义信，打从新野赴江陵。难民倒有数万整，吾主不肯两离分。旷野荒郊哭声震，一日只行数里程。因此当阳败了阵，曹操得胜逞其能。自古兵家岂常胜？征战全在主谋人。",
+      "text_length": 80
+    },
+    {
+      "event_id": "01019004_e00063",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "虞翻"
+      ],
+      "text": "今曹公带领雄兵百万、勇将千员，蜂拥而来，夺取江夏，不知先生当以何计？",
+      "text_length": 34
+    },
+    {
+      "event_id": "01019004_e00064",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 33,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "曹操得冀州、幽州袁绍蝼蚁之兵，聚荆州刘表乌合之众，虽有数百万，何足惧哉！",
+      "text_length": 36
+    },
+    {
+      "event_id": "01019004_e00065",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 65,
+      "seq_in_scene": 34,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "虞翻"
+      ],
+      "text": "你主刘豫州，兵败当阳，逃奔夏口，几无容身之地；今将求救于人，尚言“不惧曹兵”，可谓大言欺人也。",
+      "text_length": 47
+    },
+    {
+      "event_id": "01019004_e00066",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 66,
+      "seq_in_scene": 35,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吾主当阳之败，乃因携带数十万赴义难民，扶老携幼、号泣相随，吾主不忍舍而去之，一日只行十数里；身旁只有数千仁义之兵，岂能敌曹操百万残暴之众？今日你东吴兵有数万，将有百员，且据长江之险，你等竟欲使其主屈膝降曹，贻笑天下！以此比之，吾主则真“不惧曹操”矣！",
+      "text_length": 125
+    },
+    {
+      "event_id": "01019004_e00067",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 67,
+      "seq_in_scene": 36,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "步骘"
+      ],
+      "text": "孔明！你今日过江，莫非要学那苏秦、张仪之辈，游说我东吴么？",
+      "text_length": 29
+    },
+    {
+      "event_id": "01019004_e00068",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 68,
+      "seq_in_scene": 37,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你道苏秦、张仪为舌辩游说之辈；岂知那苏、张亦是豪杰英雄。苏秦解散各国“合纵连横”之谋，六国封相；张仪相秦，匡扶人国，并非畏强凌弱、避刀怕剑之流。你等今日只信曹操诡诈之言，万分畏惧，贪生怕死，劝主投降，还敢笑苏秦、张仪，真真不知羞耻！",
+      "text_length": 116
+    },
+    {
+      "event_id": "01019004_e00069",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 69,
+      "seq_in_scene": 38,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛琮"
+      ],
+      "text": "吓，孔明！你道曹操是何等样人？",
+      "text_length": 15
+    },
+    {
+      "event_id": "01019004_e00070",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 70,
+      "seq_in_scene": 39,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "曹操名为汉相，实为汉贼。人人皆知，又何必问！",
+      "text_length": 22
+    },
+    {
+      "event_id": "01019004_e00071",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 71,
+      "seq_in_scene": 40,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛琮"
+      ],
+      "text": "你此言差矣！汉室衰微，气运已尽。曹公应天之运，天下归心；你主不知时务，强欲相争，如同以卵投石，抱薪救火！",
+      "text_length": 52
+    },
+    {
+      "event_id": "01019004_e00072",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 72,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "薛敬文！你怎么竟出此无父无君之言来了？那曹操宗祖，累食汉朝爵禄，理应忠心为国，报效朝廷。哪知他心怀叛逆，常怀篡汉之心，天下之人，无不痛恨！你今竟以“天命”归之，真无父无君之人也！幸勿多言！",
+      "text_length": 94
+    },
+    {
+      "event_id": "01019004_e00073",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 73,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "陆绩"
+      ],
+      "text": "想那曹操，虽然“挟天子以令诸侯”，他本是开国丞相曹参之后；刘豫州虽说是中山靖王之后，却不可考，他织席卖履，人人尽知，似难与曹操抗衡。",
+      "text_length": 66
+    },
+    {
+      "event_id": "01019004_e00074",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 74,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你莫非在袁绍座前怀橘遗亲之陆郎乎？请坐，听山人讲来：那曹操身为相国曹参之后，世为汉臣，为何霸持朝政，上欺天子，下压群臣，不但无君并且蔑祖！不但是汉室之乱臣，真乃是曹氏门中之贼子！吾主刘豫州，堂堂帝室之胄，当今天子也曾按谱稽查，当殿赐爵，怎道无可稽考？汉室高皇帝，以亭长出身，终有天下；则织席卖履，何足耻哉？",
+      "text_length": 153
+    },
+    {
+      "event_id": "01019004_e00075",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 75,
+      "seq_in_scene": 44,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严畯"
+      ],
+      "text": "听你之言，可谓强词夺理！但不知你所治，是何经典？",
+      "text_length": 24
+    },
+    {
+      "event_id": "01019004_e00076",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 76,
+      "seq_in_scene": 45,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "引经据典，乃腐儒耳。昔日伊尹耕于有莘之野，太公钓于渭水之滨；陈平、张良之流，耿弇、邓禹之辈，经文纬武，治国安邦，图画凌烟，名标青史，并不曾闻治何典。岂似尔等，下士书生，徒守笔砚，专尚虚文，并无实学，终日戏墨弄文而已哉呀！",
+      "text_length": 110
+    },
+    {
+      "event_id": "01019004_e00077",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 77,
+      "seq_in_scene": 46,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "自古功臣扶社稷，经纶抱负定出奇。功勋卓著立战绩，岂似你书生念文词。",
+      "text_length": 33
+    },
+    {
+      "event_id": "01019004_e00078",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 78,
+      "seq_in_scene": 47,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "诸君不必纷纷论，先生快见吾主君。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01019004_e00079",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 79,
+      "seq_in_scene": 48,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "01019004_e00080",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 80,
+      "seq_in_scene": 49,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "江东文臣将我问，一个个俱怀降曹心。舌战群儒他无有话论，管叫他认识我南阳孔明。",
+      "text_length": 38
+    },
+    {
+      "event_id": "01019004_e00081",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 81,
+      "seq_in_scene": 50,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃下，诸葛亮随下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00082",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 51,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "同西皮摇板",
+      "speakers": [
+        "张昭",
+        "虞翻",
+        "步骘",
+        "薛琮",
+        "陆绩",
+        "严畯"
+      ],
+      "text": "人言孔明才学广，今日见来果然强。自比管、乐无虚谎，倒叫我等脸无光。",
+      "text_length": 33
+    },
+    {
+      "event_id": "01019004_e00083",
+      "play_id": "01019004",
+      "scene_id": "01019004_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 52,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00084",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 84,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四太监引孙权同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01019004_e00085",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 85,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "曹操带兵下江东，倒叫孤家挂心中。将身且坐银安等，单等相会卧龙公。",
+      "text_length": 32
+    },
+    {
+      "event_id": "01019004_e00086",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 86,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00087",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 87,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "孔明先生到。",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00088",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 88,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00089",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 89,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "有请诸葛先生。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01019004_e00090",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 90,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。诸葛亮上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00091",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 91,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吴侯！",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00092",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 92,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "先生请坐。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00093",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 93,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "告坐！吾主刘玄德问候吴侯金安！",
+      "text_length": 15
+    },
+    {
+      "event_id": "01019004_e00094",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 94,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "岂敢！久闻鲁子敬言道；先生躬耕南阳、抱膝隆中，有安邦定国之才。今幸相见。特地请教！",
+      "text_length": 41
+    },
+    {
+      "event_id": "01019004_e00095",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 95,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "不才无学，有辱重问！",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00096",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 96,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "先生曾在新野辅佐刘豫州与曹兵交战，必知曹营军情虚实。",
+      "text_length": 26
+    },
+    {
+      "event_id": "01019004_e00097",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 97,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "想那新野城池狭小，粮草不足；吾主刘豫州，兵微将少，寡不敌众，岂能与曹操相峙？",
+      "text_length": 38
+    },
+    {
+      "event_id": "01019004_e00098",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 98,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "曹操此番前来，不知兵将共有多少？",
+      "text_length": 16
+    },
+    {
+      "event_id": "01019004_e00099",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 99,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "马步水军，约有百万。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00100",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 100,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "百万兵将，恐是诈词。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00101",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 101,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "非诈也。想那曹操，据青、兖、幽、冀之兵已有二三十万；平了袁绍，又有五六十万；中原新招募者，也有三四十万；今又得荆、襄之兵二三十万，如此计算已有一百五十万！亮方才言百万者，恐惊江东士民耳。",
+      "text_length": 93
+    },
+    {
+      "event_id": "01019004_e00102",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 102,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "但不知他帐下战将共有多少？",
+      "text_length": 13
+    },
+    {
+      "event_id": "01019004_e00103",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 103,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "他帐下足智多谋之士、能征惯战之将，至少也有一二千。",
+      "text_length": 25
+    },
+    {
+      "event_id": "01019004_e00104",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 104,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "今曹操平定荆、襄，但不知他尚有远图否？",
+      "text_length": 19
+    },
+    {
+      "event_id": "01019004_e00105",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 105,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "看他沿江下寨、准备战船、教练军士，不是取江东，他要取何处？",
+      "text_length": 29
+    },
+    {
+      "event_id": "01019004_e00106",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 106,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "他既有吞并我江东之意，战与不战，愿先生与孤决之。",
+      "text_length": 24
+    },
+    {
+      "event_id": "01019004_e00107",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 107,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "亮有一言，恐吴侯不肯听从。",
+      "text_length": 13
+    },
+    {
+      "event_id": "01019004_e00108",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 108,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "愿闻高论。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00109",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 109,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吴侯要自己裁处。若以吴越之众，可与中原抗衡，不如早与之决；如其不能，莫如从众谋士之言：投降可也。",
+      "text_length": 48
+    },
+    {
+      "event_id": "01019004_e00110",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 110,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "那刘豫州为何不降曹操？",
+      "text_length": 11
+    },
+    {
+      "event_id": "01019004_e00111",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 111,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "想昔日田横，乃齐之壮士，犹能守义不辱；况刘豫州乃帝室之胄，英才盖世，百姓仰慕，事之不成，乃天命也，岂能屈膝于人下哉？",
+      "text_length": 58
+    },
+    {
+      "event_id": "01019004_e00112",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 112,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙权愠怒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00113",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 113,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "孔明大言，欺吾太甚！",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00114",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 114,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙权下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00115",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "哎呀！先生哪，你为何出此言？幸喜主公宽宏大量，不肯下责。你未免藐视吾主太甚矣！",
+      "text_length": 39
+    },
+    {
+      "event_id": "01019004_e00116",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "你主也太不能容物了。但我视曹兵，如拾草芥；你主不问，我故不言。",
+      "text_length": 31
+    },
+    {
+      "event_id": "01019004_e00117",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "如此，待我去请主公。吓，主公有请！",
+      "text_length": 17
+    },
+    {
+      "event_id": "01019004_e00118",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 35,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙权上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00119",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 36,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "何事？",
+      "text_length": 3
+    },
+    {
+      "event_id": "01019004_e00120",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 37,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "那孔明他言道，他有破曹之计。适才肃曾责备他来，他倒说主公不能容物。",
+      "text_length": 33
+    },
+    {
+      "event_id": "01019004_e00121",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "既然如此，待吾再去相见。吓，先生，适才有犯钧颜，幸勿见怪！",
+      "text_length": 29
+    },
+    {
+      "event_id": "01019004_e00122",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 122,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "亮亦出言冒昧，尚祈恕罪！",
+      "text_length": 12
+    },
+    {
+      "event_id": "01019004_e00123",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 123,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "岂敢！想那曹操，生平所惧者：吕布、刘表、袁术、袁绍、玄德与孤。今日数雄皆灭，惟玄德与孤尚在，孤岂肯以江东之地受制于人？但恐刘玄德新败之后，不能同孤抗此难耳。",
+      "text_length": 78
+    },
+    {
+      "event_id": "01019004_e00124",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 124,
+      "seq_in_scene": 41,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吴侯吓！",
+      "text_length": 4
+    },
+    {
+      "event_id": "01019004_e00125",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 125,
+      "seq_in_scene": 42,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "说什么兵败新野城，细听山人说分明：吾主将官威名震，关云长、张翼德勇敌万人；还有那赵子龙无人敢近，哪怕那曹兵百万人。",
+      "text_length": 57
+    },
+    {
+      "event_id": "01019004_e00126",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 126,
+      "seq_in_scene": 43,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "吾主帐下，关、张、赵云皆能勇敌万人，现有精兵两万；刘琦坐领江东，亦有万人。曹操虽有百万之众，远道而来，疲乏已极；青州之兵，不习水战；荆州之兵，虽然归曹，亦非本心。今日若与我主同心破曹，曹败势必北还，则荆吴之势强，而鼎足之形成矣！",
+      "text_length": 114
+    },
+    {
+      "event_id": "01019004_e00127",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 127,
+      "seq_in_scene": 44,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "呵哈哈哈哈！",
+      "text_length": 6
+    },
+    {
+      "event_id": "01019004_e00128",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 128,
+      "seq_in_scene": 45,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "先生之言，顿开茅塞！孤意已定：择日兴兵，共灭曹操也！",
+      "text_length": 26
+    },
+    {
+      "event_id": "01019004_e00129",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 129,
+      "seq_in_scene": 46,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "听一言来喜在心，同心协力破曹军！",
+      "text_length": 16
+    },
+    {
+      "event_id": "01019004_e00130",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 130,
+      "seq_in_scene": 47,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "先生暂请回馆驿歇息。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01019004_e00131",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 131,
+      "seq_in_scene": 48,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "但凭三寸不烂舌，激动江东孙仲谋。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01019004_e00132",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 132,
+      "seq_in_scene": 49,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "诸葛亮下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01019004_e00133",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 133,
+      "seq_in_scene": 50,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙权"
+      ],
+      "text": "鲁大夫听者：待等公瑾到了南徐，命他与孔明相见，商议破曹之计。退班！",
+      "text_length": 33
+    },
+    {
+      "event_id": "01019004_e00134",
+      "play_id": "01019004",
+      "scene_id": "01019004_s04",
+      "scene_no": 4,
+      "seq_global": 134,
+      "seq_in_scene": 51,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙权、四太监同下，鲁肃随下。",
+      "text_length": 14
+    }
+  ],
+  "roles_inferred": true
+}

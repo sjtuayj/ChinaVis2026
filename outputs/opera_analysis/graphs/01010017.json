@@ -1,0 +1,111 @@
+{
+  "play": {
+    "play_id": "01010017",
+    "title": "烟鬼叹",
+    "pdf_name": "01010017_烟鬼叹.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 14,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01010017",
+    "source_date": "2016-07-15",
+    "synopsis_length": 24,
+    "notes_length": 483,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 4,
+      "singing": 8,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 1,
+    "density": 0.333333,
+    "avg_degree": 0.666667,
+    "avg_weighted_degree": 6.0,
+    "max_edge_weight": 9,
+    "top_characters": [
+      {
+        "name": "胡松亭",
+        "hangdang": "老生",
+        "speech_count": 9,
+        "degree": 1,
+        "weighted_degree": 9
+      },
+      {
+        "name": "魏不饱",
+        "hangdang": "丑",
+        "speech_count": 5,
+        "degree": 1,
+        "weighted_degree": 9
+      },
+      {
+        "name": "丑院子",
+        "hangdang": "丑",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "胡松亭",
+      "label": "胡松亭",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 9,
+      "text_length": 1051,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 3,
+        "singing": 6
+      }
+    },
+    {
+      "id": "魏不饱",
+      "label": "魏不饱",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 5,
+      "text_length": 699,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1,
+        "singing": 2,
+        "other": 1
+      }
+    },
+    {
+      "id": "丑院子",
+      "label": "丑院子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "胡松亭",
+      "target": "魏不饱",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

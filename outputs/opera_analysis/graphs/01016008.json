@@ -1,0 +1,126 @@
+{
+  "play": {
+    "play_id": "01016008",
+    "title": "拾玉镯",
+    "pdf_name": "01016008_拾玉镯.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 3,
+    "speech_count": 97,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01016008",
+    "source_date": "2015-04-27",
+    "synopsis_length": 358,
+    "notes_length": 85,
+    "marker_category_counts": {
+      "other": 3,
+      "singing": 11,
+      "spoken": 80,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 2,
+    "density": 0.666667,
+    "avg_degree": 1.333333,
+    "avg_weighted_degree": 112.0,
+    "max_edge_weight": 131,
+    "top_characters": [
+      {
+        "name": "孙玉姣",
+        "hangdang": "旦",
+        "speech_count": 45,
+        "degree": 2,
+        "weighted_degree": 168
+      },
+      {
+        "name": "刘媒婆",
+        "hangdang": "彩旦",
+        "speech_count": 38,
+        "degree": 1,
+        "weighted_degree": 131
+      },
+      {
+        "name": "傅朋",
+        "hangdang": "小生",
+        "speech_count": 14,
+        "degree": 1,
+        "weighted_degree": 37
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孙玉姣",
+      "label": "孙玉姣",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 45,
+      "text_length": 716,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 168,
+      "marker_category_counts": {
+        "other": 2,
+        "singing": 4,
+        "spoken": 38,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "刘媒婆",
+      "label": "刘媒婆",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 38,
+      "text_length": 1003,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 131,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 33,
+        "other": 1,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "傅朋",
+      "label": "傅朋",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 14,
+      "text_length": 250,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘媒婆",
+      "target": "孙玉姣",
+      "weight": 131,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 65,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "傅朋",
+      "target": "孙玉姣",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

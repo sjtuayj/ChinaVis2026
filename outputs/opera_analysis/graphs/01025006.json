@@ -1,0 +1,134 @@
+{
+  "play": {
+    "play_id": "01025006",
+    "title": "合凤裙",
+    "pdf_name": "01025006_合凤裙.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 71,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01025006",
+    "source_date": "2018-04-06",
+    "synopsis_length": 167,
+    "notes_length": 132,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 55,
+      "singing": 11,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 86.0,
+    "max_edge_weight": 111,
+    "top_characters": [
+      {
+        "name": "吴小姐",
+        "hangdang": "旦",
+        "speech_count": 38,
+        "degree": 2,
+        "weighted_degree": 128
+      },
+      {
+        "name": "刘公子",
+        "hangdang": "小生",
+        "speech_count": 29,
+        "degree": 2,
+        "weighted_degree": 112
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 18
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "吴小姐",
+      "label": "吴小姐",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 38,
+      "text_length": 972,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 128,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 28,
+        "singing": 6,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "刘公子",
+      "label": "刘公子",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 29,
+      "text_length": 611,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 112,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 23,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 19,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 18,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘公子",
+      "target": "吴小姐",
+      "weight": 111,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 55,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "吴小姐",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "刘公子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

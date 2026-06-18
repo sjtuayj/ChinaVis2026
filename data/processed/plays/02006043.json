@@ -1,0 +1,6217 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02006043",
+    "title": "九节山",
+    "aliases": [],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02006043_九节山.pdf",
+    "source_url": null,
+    "source_date": null,
+    "page_count": 11,
+    "file_size_bytes": 458550,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "太乙天尊座下九头狮子，乘太乙天尊朝斗之期，偷下尘凡。在九节山聚集子孙，自称九灵元圣仙翁，兴妖作怪。一日心神恍惚不定，乃命其部下黄云，往邻邦打听有无新奇之事。黄云行至玉华国，见下界祥云缭绕，系三件佛门之宝，乃偷去献与九灵元圣。惟三件宝物系孙悟空、猪八戒与沙僧之三件兵器。因玉华国国王三位世子，拜孙悟空等三人为师，特借取孙悟空等兵器，拟照模样造。不意被黄云偷去，极为焦灼。孙悟空乃告世子不必介意，由渠与猪八戒等自行寻找。乃至九节山长生洞，变作黄云部下刁钻、古怪，混入洞中，将兵器取出。行至途中，黄云赶来。孙悟空将黄云击退。当黄云将三件宝物呈献九灵元圣时，九灵元圣大喜，决定开钉耙大会庆祝。现在钉耙均被孙悟空等取回，黄云又被打败，九灵元圣大怒，乃亲往玉华国，将国王、唐三藏及三位世子均用妖术擒来。孙悟空见师父失踪，除令猪八戒等寻找师父等去向外，乃亲往妙岩宫谒太乙天尊，太乙天尊不得已，亲往下界，收回九头狮子，将唐三藏及国王救出。",
+    "notes": [
+      "按此即《西游记》第八十八回“禅到玉华施法会，心猿木土采门人”与第八十九回“黄狮精虚设钉耙会，金",
+      "木土计闹豹头山”等故事，惟稍微简化。",
+      "根据《国剧大成》第六集整理"
+    ],
+    "story_period": {
+      "label": "神话传说",
+      "evidence": "仙、妖、神",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.68,
+      "evidence": [
+        "兵",
+        "将",
+        "擒"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_九灵元圣",
+      "name": "九灵元圣",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：九灵元圣：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_孙悟空",
+      "name": "孙悟空",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 38,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 20,
+        "combat_hint_count": 4
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：孙悟空：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_黄云",
+      "name": "黄云",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 19,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 13,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_狻猊",
+      "name": "狻猊",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_搏象",
+      "name": "搏象",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_伏狸",
+      "name": "伏狸",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_白泽",
+      "name": "白泽",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_金猱",
+      "name": "金猱",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_银雪",
+      "name": "银雪",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_黑风",
+      "name": "黑风",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_玉华国王",
+      "name": "玉华国王",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 20,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_内侍甲",
+      "name": "内侍甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_唐僧",
+      "name": "唐僧",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_猪八戒",
+      "name": "猪八戒",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 18,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 15,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "娘",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_沙僧",
+      "name": "沙僧",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 14,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 15,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_三世子",
+      "name": "三世子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "孝亲",
+        "滑稽",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 24,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二内侍",
+      "name": "二内侍",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "孝亲",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 4,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_世子甲",
+      "name": "世子甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_刁钻",
+      "name": "刁钻",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_古怪",
+      "name": "古怪",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_猪贩",
+      "name": "猪贩",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_豺精",
+      "name": "豺精",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_狼精",
+      "name": "狼精",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_虎精",
+      "name": "虎精",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_豹精",
+      "name": "豹精",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_城官甲",
+      "name": "城官甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_城官乙",
+      "name": "城官乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_太乙天尊",
+      "name": "太乙天尊",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "孝亲",
+        "勇武"
+      ],
+      "performance_features": {
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四童儿",
+      "name": "四童儿",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四神将",
+      "name": "四神将",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_金童",
+      "name": "金童",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_玉女",
+      "name": "玉女",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "父"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风",
+        "九灵元圣"
+      ],
+      "event_ids": [
+        "02006043_e00001",
+        "02006043_e00002",
+        "02006043_e00003",
+        "02006043_e00004",
+        "02006043_e00005",
+        "02006043_e00006",
+        "02006043_e00007",
+        "02006043_e00008",
+        "02006043_e00009",
+        "02006043_e00010",
+        "02006043_e00011",
+        "02006043_e00012",
+        "02006043_e00013",
+        "02006043_e00014",
+        "02006043_e00015",
+        "02006043_e00016",
+        "02006043_e00017",
+        "02006043_e00018",
+        "02006043_e00019",
+        "02006043_e00020",
+        "02006043_e00021",
+        "02006043_e00022",
+        "02006043_e00023",
+        "02006043_e00024",
+        "02006043_e00025",
+        "02006043_e00026",
+        "02006043_e00027"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 27,
+        "spoken_count": 18,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 555
+      }
+    },
+    {
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 5,
+      "characters": [
+        "玉华国王",
+        "内侍甲",
+        "唐僧",
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子",
+        "二内侍",
+        "世子甲"
+      ],
+      "event_ids": [
+        "02006043_e00028",
+        "02006043_e00029",
+        "02006043_e00030",
+        "02006043_e00031",
+        "02006043_e00032",
+        "02006043_e00033",
+        "02006043_e00034",
+        "02006043_e00035",
+        "02006043_e00036",
+        "02006043_e00037",
+        "02006043_e00038",
+        "02006043_e00039",
+        "02006043_e00040",
+        "02006043_e00041",
+        "02006043_e00042",
+        "02006043_e00043",
+        "02006043_e00044",
+        "02006043_e00045",
+        "02006043_e00046",
+        "02006043_e00047",
+        "02006043_e00048",
+        "02006043_e00049",
+        "02006043_e00050",
+        "02006043_e00051",
+        "02006043_e00052",
+        "02006043_e00053",
+        "02006043_e00054",
+        "02006043_e00055",
+        "02006043_e00056",
+        "02006043_e00057",
+        "02006043_e00058",
+        "02006043_e00059",
+        "02006043_e00060",
+        "02006043_e00061",
+        "02006043_e00062",
+        "02006043_e00063",
+        "02006043_e00064",
+        "02006043_e00065",
+        "02006043_e00066",
+        "02006043_e00067",
+        "02006043_e00068",
+        "02006043_e00069",
+        "02006043_e00070",
+        "02006043_e00071",
+        "02006043_e00072",
+        "02006043_e00073",
+        "02006043_e00074",
+        "02006043_e00075",
+        "02006043_e00076",
+        "02006043_e00077",
+        "02006043_e00078",
+        "02006043_e00079",
+        "02006043_e00080",
+        "02006043_e00081",
+        "02006043_e00082",
+        "02006043_e00083",
+        "02006043_e00084",
+        "02006043_e00085",
+        "02006043_e00086",
+        "02006043_e00087",
+        "02006043_e00088",
+        "02006043_e00089",
+        "02006043_e00090",
+        "02006043_e00091",
+        "02006043_e00092",
+        "02006043_e00093",
+        "02006043_e00094",
+        "02006043_e00095",
+        "02006043_e00096",
+        "02006043_e00097",
+        "02006043_e00098",
+        "02006043_e00099",
+        "02006043_e00100",
+        "02006043_e00101",
+        "02006043_e00102",
+        "02006043_e00103"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 76,
+        "spoken_count": 53,
+        "aria_count": 0,
+        "recitation_count": 5,
+        "stage_direction_count": 13,
+        "expression_count": 0,
+        "text_length": 1607
+      }
+    },
+    {
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 5,
+      "page_end": 5,
+      "characters": [
+        "黄云"
+      ],
+      "event_ids": [
+        "02006043_e00104",
+        "02006043_e00105",
+        "02006043_e00106",
+        "02006043_e00107",
+        "02006043_e00108",
+        "02006043_e00109",
+        "02006043_e00110",
+        "02006043_e00111",
+        "02006043_e00112",
+        "02006043_e00113",
+        "02006043_e00114"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 11,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 195
+      }
+    },
+    {
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 5,
+      "page_end": 5,
+      "characters": [
+        "二内侍",
+        "三世子",
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "event_ids": [
+        "02006043_e00115",
+        "02006043_e00116",
+        "02006043_e00117",
+        "02006043_e00118",
+        "02006043_e00119",
+        "02006043_e00120",
+        "02006043_e00121",
+        "02006043_e00122",
+        "02006043_e00123",
+        "02006043_e00124",
+        "02006043_e00125",
+        "02006043_e00126",
+        "02006043_e00127",
+        "02006043_e00128",
+        "02006043_e00129"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 15,
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 192
+      }
+    },
+    {
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "刁钻",
+        "古怪"
+      ],
+      "event_ids": [
+        "02006043_e00130",
+        "02006043_e00131",
+        "02006043_e00132",
+        "02006043_e00133",
+        "02006043_e00134",
+        "02006043_e00135"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 6,
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 167
+      }
+    },
+    {
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 6,
+      "page_end": 6,
+      "characters": [
+        "孙悟空",
+        "猪八戒",
+        "刁钻",
+        "古怪",
+        "猪贩"
+      ],
+      "event_ids": [
+        "02006043_e00136",
+        "02006043_e00137",
+        "02006043_e00138",
+        "02006043_e00139",
+        "02006043_e00140",
+        "02006043_e00141",
+        "02006043_e00142",
+        "02006043_e00143",
+        "02006043_e00144",
+        "02006043_e00145",
+        "02006043_e00146",
+        "02006043_e00147",
+        "02006043_e00148",
+        "02006043_e00149",
+        "02006043_e00150",
+        "02006043_e00151",
+        "02006043_e00152",
+        "02006043_e00153",
+        "02006043_e00154",
+        "02006043_e00155",
+        "02006043_e00156",
+        "02006043_e00157",
+        "02006043_e00158",
+        "02006043_e00159",
+        "02006043_e00160",
+        "02006043_e00161"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 26,
+        "spoken_count": 17,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 476
+      }
+    },
+    {
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 6,
+      "page_end": 7,
+      "characters": [
+        "黄云",
+        "刁钻",
+        "古怪",
+        "猪贩",
+        "豺精",
+        "狼精",
+        "虎精",
+        "豹精",
+        "孙悟空",
+        "猪八戒",
+        "三世子"
+      ],
+      "event_ids": [
+        "02006043_e00162",
+        "02006043_e00163",
+        "02006043_e00164",
+        "02006043_e00165",
+        "02006043_e00166",
+        "02006043_e00167",
+        "02006043_e00168",
+        "02006043_e00169",
+        "02006043_e00170",
+        "02006043_e00171",
+        "02006043_e00172",
+        "02006043_e00173",
+        "02006043_e00174",
+        "02006043_e00175",
+        "02006043_e00176",
+        "02006043_e00177",
+        "02006043_e00178",
+        "02006043_e00179",
+        "02006043_e00180",
+        "02006043_e00181",
+        "02006043_e00182",
+        "02006043_e00183",
+        "02006043_e00184",
+        "02006043_e00185",
+        "02006043_e00186",
+        "02006043_e00187",
+        "02006043_e00188",
+        "02006043_e00189"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 28,
+        "spoken_count": 18,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 9,
+        "expression_count": 0,
+        "text_length": 661
+      }
+    },
+    {
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "title": "第八场",
+      "page_start": 7,
+      "page_end": 8,
+      "characters": [
+        "九灵元圣",
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "event_ids": [
+        "02006043_e00190",
+        "02006043_e00191",
+        "02006043_e00192",
+        "02006043_e00193",
+        "02006043_e00194",
+        "02006043_e00195",
+        "02006043_e00196",
+        "02006043_e00197",
+        "02006043_e00198"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 9,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 274
+      }
+    },
+    {
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "title": "第九场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子",
+        "玉华国王",
+        "唐僧"
+      ],
+      "event_ids": [
+        "02006043_e00199",
+        "02006043_e00200",
+        "02006043_e00201",
+        "02006043_e00202",
+        "02006043_e00203",
+        "02006043_e00204",
+        "02006043_e00205",
+        "02006043_e00206",
+        "02006043_e00207",
+        "02006043_e00208",
+        "02006043_e00209",
+        "02006043_e00210",
+        "02006043_e00211"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 13,
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 155
+      }
+    },
+    {
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "title": "第十场",
+      "page_start": 8,
+      "page_end": 9,
+      "characters": [
+        "城官甲",
+        "城官乙",
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风",
+        "九灵元圣",
+        "三世子",
+        "玉华国王",
+        "唐僧",
+        "报子",
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "event_ids": [
+        "02006043_e00212",
+        "02006043_e00213",
+        "02006043_e00214",
+        "02006043_e00215",
+        "02006043_e00216",
+        "02006043_e00217",
+        "02006043_e00218",
+        "02006043_e00219",
+        "02006043_e00220",
+        "02006043_e00221",
+        "02006043_e00222",
+        "02006043_e00223",
+        "02006043_e00224",
+        "02006043_e00225",
+        "02006043_e00226",
+        "02006043_e00227",
+        "02006043_e00228",
+        "02006043_e00229",
+        "02006043_e00230",
+        "02006043_e00231",
+        "02006043_e00232"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 14,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 619
+      }
+    },
+    {
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "title": "第十一场",
+      "page_start": 9,
+      "page_end": 10,
+      "characters": [
+        "太乙天尊",
+        "孙悟空",
+        "四童儿",
+        "猪八戒",
+        "沙僧"
+      ],
+      "event_ids": [
+        "02006043_e00233",
+        "02006043_e00234",
+        "02006043_e00235",
+        "02006043_e00236",
+        "02006043_e00237",
+        "02006043_e00238",
+        "02006043_e00239",
+        "02006043_e00240",
+        "02006043_e00241",
+        "02006043_e00242",
+        "02006043_e00243",
+        "02006043_e00244",
+        "02006043_e00245",
+        "02006043_e00246",
+        "02006043_e00247",
+        "02006043_e00248",
+        "02006043_e00249",
+        "02006043_e00250",
+        "02006043_e00251",
+        "02006043_e00252",
+        "02006043_e00253"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 552
+      }
+    },
+    {
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "title": "第十二场",
+      "page_start": 10,
+      "page_end": 10,
+      "characters": [
+        "四神将",
+        "四童儿",
+        "金童",
+        "玉女",
+        "太乙天尊",
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "event_ids": [
+        "02006043_e00254",
+        "02006043_e00255",
+        "02006043_e00256",
+        "02006043_e00257",
+        "02006043_e00258",
+        "02006043_e00259",
+        "02006043_e00260",
+        "02006043_e00261",
+        "02006043_e00262",
+        "02006043_e00263",
+        "02006043_e00264",
+        "02006043_e00265"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 12,
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 191
+      }
+    },
+    {
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "title": "第十三场",
+      "page_start": 11,
+      "page_end": 11,
+      "characters": [
+        "黄云",
+        "九灵元圣",
+        "太乙天尊",
+        "孙悟空",
+        "唐僧",
+        "玉华国王",
+        "三世子",
+        "四神将",
+        "四童儿",
+        "金童",
+        "玉女"
+      ],
+      "event_ids": [
+        "02006043_e00266",
+        "02006043_e00267",
+        "02006043_e00268",
+        "02006043_e00269",
+        "02006043_e00270",
+        "02006043_e00271",
+        "02006043_e00272",
+        "02006043_e00273",
+        "02006043_e00274",
+        "02006043_e00275",
+        "02006043_e00276",
+        "02006043_e00277",
+        "02006043_e00278",
+        "02006043_e00279",
+        "02006043_e00280"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 15,
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 498
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02006043_e00001",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小妖引黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风同上。",
+      "text_length": 30
+    },
+    {
+      "event_id": "02006043_e00002",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "同点绛唇",
+      "speakers": [
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "庆乐唐尧，神威拥耀，称祥瑞，万国来朝，同居九节岛。",
+      "text_length": 25
+    },
+    {
+      "event_id": "02006043_e00003",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "俺，黄云大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00004",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "白泽"
+      ],
+      "text": "俺，白泽大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00005",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "搏象"
+      ],
+      "text": "俺，搏象大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00006",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "狻猊"
+      ],
+      "text": "俺，狻猊大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00007",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "伏狸"
+      ],
+      "text": "俺，伏狸大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00008",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "金猱"
+      ],
+      "text": "俺，金猱大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00009",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "银雪"
+      ],
+      "text": "俺，银雪大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00010",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黑风"
+      ],
+      "text": "俺，黑风大王是也。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00011",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00012",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00013",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "众位贤弟，今日老仙翁升座，你我两厢伺候。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 69
+    },
+    {
+      "event_id": "02006043_e00014",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00015",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小童执片幡引九灵元圣同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006043_e00016",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "逍遥乐",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "绿毛分派，九节山中，居然化外。鱼肉狼豺，莽威风元圣官阶。曾侍仙翁岂俗胎，更喜得九灵封拜，潜修山界。邻国空虚，漫与分腮。",
+      "text_length": 59
+    },
+    {
+      "event_id": "02006043_e00017",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。九灵元圣上高台。莲花生。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00018",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "天成杰异秉全精，执掌毛群做主盟。好把俘囚生肉啖，触邪獬豸岂空名。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00019",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "吾乃九灵元圣仙翁是也。自从昄依太乙，潜行定性，悟道修身。忽然静中思动，正值天尊朝斗之期，是俺偷下凡尘，来在九节山长生洞，收聚许多子孙，占据此山，十分潇洒。只是这几日心神恍惚，五内俱焚，不知是何缘故？",
+      "text_length": 99
+    },
+    {
+      "event_id": "02006043_e00020",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "知是仙翁私下仙洞，惟恐天尊知觉，此乃仙翁私心惧罪之过，何必介意。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00021",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "话虽如此，怎奈我心乱如麻。也罢，就命你去到邻邦打探，若有奇异之事，速报我知。",
+      "text_length": 38
+    },
+    {
+      "event_id": "02006043_e00022",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "领法旨。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00023",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "全凭胸中多仙术，变化人间谁能知。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00024",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00025",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "你看黄云一去，我且到后洞打坐一回。尔等好生看守洞府。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00026",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "领法旨。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00027",
+      "play_id": "02006043",
+      "scene_id": "02006043_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同翻下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00028",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四内侍引玉华国王同上。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00029",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "天竺宗派玉华支，惟晓那纲常礼仪。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00030",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "我乃玉华国王是也。天竺分支，修斋奉佛。昨日闻报，有那大唐三藏，西天求经，由我国经过。已命人送至馆驿安歇。今日已吩咐光禄寺，特备素斋，请来少叙。改换关文，即早西行。内侍，素筵可曾齐备？",
+      "text_length": 91
+    },
+    {
+      "event_id": "02006043_e00031",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "素筵已齐。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00032",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "就请大唐圣僧上殿。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00033",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "领旨。国王有旨：请大唐圣僧上殿。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00034",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "来了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00035",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "唐僧上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00036",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "普同一切恒沙乐，尽归如来法慧门。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00037",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "东土大唐和尚参见国王千岁。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 62
+    },
+    {
+      "event_id": "02006043_e00038",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "圣僧少礼。请坐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00039",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "谢千岁。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00040",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "圣僧自从东土到此，不知行了多少路程？",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00041",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "约有千万余里。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00042",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "哎呀，既有千万余里，不知经过多少春秋了？",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00043",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "千岁听禀。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00044",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "画眉序好姐姐",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "回首路途长，十数年来说非谎。这花香鸟语，水色山光，何曾有一处相同。也不知人间天上，哎，增惆怅。幸喜贤王怜飘荡，不放瞿昙困异乡。",
+      "text_length": 63
+    },
+    {
+      "event_id": "02006043_e00045",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "原来经过十数余载，暑往寒来，可谓久矣。来，吩咐摆筵。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00046",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "且慢。启禀国王：贫僧还有三位徒弟，俱在朝外等候起行，不及领斋。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02006043_e00047",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "既然如此，何不请进，一同用斋。内侍，快请圣僧三位高徒上殿。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02006043_e00048",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "领旨。国王有旨：宣东土圣僧三位上殿。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00049",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00050",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00051",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "自离中华地，行路不记年。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00052",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "国王在上，我等参见。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00053",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "免礼。哎呀，吓杀我也。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00054",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "啄木鹂",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "真奇怪，须忖量兽面人心太古上。他恃着豹眼獠牙，不怕我剑戟刀枪。全然不像僧模样。斯文皆无，甚鲁莽，性强梁。知机当避，筵席慢铺张。",
+      "text_length": 63
+    },
+    {
+      "event_id": "02006043_e00055",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "哎呀，吓死我也。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00056",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "既是国王害怕，悟空你等退下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006043_e00057",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "遵命。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00058",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00059",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "圣僧，我见你一表人才，为何收下这样徒弟，使我吃惊，不能奉陪。内侍，引圣僧一同三位高徒去到暴纱亭用斋去吧。",
+      "text_length": 52
+    },
+    {
+      "event_id": "02006043_e00060",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 33,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "领旨。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00061",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 61,
+      "seq_in_scene": 34,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "多谢国王。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00062",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 62,
+      "seq_in_scene": 35,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "愚徒惊王驾，负罪本非轻。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00063",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 63,
+      "seq_in_scene": 36,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "内侍甲"
+      ],
+      "text": "啊，圣僧这里来。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00064",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 64,
+      "seq_in_scene": 37,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "内侍甲、唐僧同下。二内侍引三世子同上。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00065",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 65,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "宫闱何喧闹，急忙道殿前。不知因何事，须得问根源。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02006043_e00066",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 66,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "儿臣等参见父王千岁。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00067",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 67,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "吾儿平身。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 54
+    },
+    {
+      "event_id": "02006043_e00068",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 68,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "千千岁。请问父王，适才殿前喧哗，不知所为何事？",
+      "text_length": 23
+    },
+    {
+      "event_id": "02006043_e00069",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 69,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "只因东土圣僧求经到此，改换关文，不想他三个徒弟，相貌凶恶，使我心惊，为此喧哗。",
+      "text_length": 39
+    },
+    {
+      "event_id": "02006043_e00070",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 70,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "父王不必心惊，待儿臣三人去至暴纱亭看个分明。若是妖怪，将他擒来，与父王压惊。",
+      "text_length": 38
+    },
+    {
+      "event_id": "02006043_e00071",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 71,
+      "seq_in_scene": 44,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "尔等前去，须要小心便了。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00072",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 72,
+      "seq_in_scene": 45,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "玉华国王下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00073",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 73,
+      "seq_in_scene": 46,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "遵命。内侍们！",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00074",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 74,
+      "seq_in_scene": 47,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00075",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 75,
+      "seq_in_scene": 48,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "看我们的兵器过来。前往暴纱亭前去便了。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00076",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 76,
+      "seq_in_scene": 49,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "已到暴纱亭。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00077",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 77,
+      "seq_in_scene": 50,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三个丑鬼哪里？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00078",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 78,
+      "seq_in_scene": 51,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空执棒、猪八戒执钉耙、沙僧执铲同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00079",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 79,
+      "seq_in_scene": 52,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "人无害虎心，虎有伤人意。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00080",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 80,
+      "seq_in_scene": 53,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你这三个孩童，手执器械，为着何来？",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00081",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 81,
+      "seq_in_scene": 54,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "呔！丑鬼听着，适才父王言道，你等三人，面貌丑陋，定是妖怪。是你三位小殿下，特来捉拿你等。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02006043_e00082",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 82,
+      "seq_in_scene": 55,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "哈哈，你等三人，慢说捉拿我等，就是俺这小小棍儿，你们若拿得动，再来捉拿我等不迟。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02006043_e00083",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 83,
+      "seq_in_scene": 56,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "世子甲"
+      ],
+      "text": "且慢！慢说一条棍棒，就是泰山也要撼它一撼。二位贤弟后退，待我拿来。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02006043_e00084",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 84,
+      "seq_in_scene": 57,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "世子甲拿不动。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00085",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 85,
+      "seq_in_scene": 58,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "世子甲"
+      ],
+      "text": "二位贤弟一起拿来。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00086",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 86,
+      "seq_in_scene": 59,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "世子乙、世子丙同拿不动。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00087",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 87,
+      "seq_in_scene": 60,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "哈哈，本来是三个小孩子，如何混充勇。慢说是那棍子，就是老猪这钯子，也够你扛一伙儿的。",
+      "text_length": 42
+    },
+    {
+      "event_id": "02006043_e00088",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 88,
+      "seq_in_scene": 61,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "三个孩童，休要逞强，我弟兄这兵器啊！",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00089",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 89,
+      "seq_in_scene": 62,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "滴流神杖",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "冲霄汉，冲霄汉，罩来电光。惊人的，惊人的，十分明晃。有谁人敢阻挡。你负隅休逞强着无状。双臂挺是螳螂，双臂挺是螳螂。",
+      "text_length": 57
+    },
+    {
+      "event_id": "02006043_e00090",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 90,
+      "seq_in_scene": 63,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "妙啊。三位师父果然是武艺出奇，我等三人，情愿拜你等为师，望乞收留。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02006043_e00091",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 91,
+      "seq_in_scene": 64,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "三世子同拜。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00092",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 92,
+      "seq_in_scene": 65,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "同滴金楼",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "尊师重傅非虚诳，敢把英雄还自奖，逞奢豪误了年方壮。悔前时空孟浪。忖度思量，恕吾都魍魉，愿吃当头一棒。胜别人无数刚强。",
+      "text_length": 58
+    },
+    {
+      "event_id": "02006043_e00093",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 93,
+      "seq_in_scene": 66,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你三人既已悦服我等，自当传授。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006043_e00094",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 94,
+      "seq_in_scene": 67,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "多谢师父。请问师父们，这兵器可有多重？",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00095",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 95,
+      "seq_in_scene": 68,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "仙家至宝，何问轻重。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00096",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 96,
+      "seq_in_scene": 69,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "求师父借与我们，做个式样，连夜命人造成，再送还师父。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00097",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 97,
+      "seq_in_scene": 70,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "如今既是师徒，这有何妨。急速命人打造，不可耽误我师徒西行路程便了。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02006043_e00098",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 98,
+      "seq_in_scene": 71,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "请三位师父后面一叙。来，尔等好生看守。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 68
+    },
+    {
+      "event_id": "02006043_e00099",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 99,
+      "seq_in_scene": 72,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二内侍同应。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00100",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 100,
+      "seq_in_scene": 73,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三位师父请。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00101",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 101,
+      "seq_in_scene": 74,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧、三世子同下。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00102",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 102,
+      "seq_in_scene": 75,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "你看三位师父，同了世子前去叙谈，命你我在此看守兵器，且到亭上歇息便了。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02006043_e00103",
+      "play_id": "02006043",
+      "scene_id": "02006043_s02",
+      "scene_no": 2,
+      "seq_global": 103,
+      "seq_in_scene": 76,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二内侍同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00104",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 104,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小妖引黄云同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00105",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 105,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "风入松",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "天开山色碧幽溪，望云头烟雾迷离。全凭着空中云霭，平生枝信，随风不知何地。",
+      "text_length": 36
+    },
+    {
+      "event_id": "02006043_e00106",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 106,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "俺，黄云。奉了老仙翁之命，前往邻邦，打听新奇故事，来此玉华国界。只见祥光缭绕，我且按定云头一看。",
+      "text_length": 48
+    },
+    {
+      "event_id": "02006043_e00107",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 107,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云看。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00108",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 108,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "呵呀，妙呀。原来是三件佛门至宝，我不免摄回洞府，献与老仙翁，岂不是一件新奇故事。小妖们！",
+      "text_length": 44
+    },
+    {
+      "event_id": "02006043_e00109",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 109,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小妖同应。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00110",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 110,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "狂风大作。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00111",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 111,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖风声〗。四小妖各执兵器。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00112",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 112,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "回洞去者！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00113",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 113,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "合头",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "蓦忽里风飕飕满衣堆，落叶满空飞。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00114",
+      "play_id": "02006043",
+      "scene_id": "02006043_s03",
+      "scene_no": 3,
+      "seq_global": 114,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云、四小妖同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00115",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二内侍同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00116",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "忙将奇怪事，报与殿下知。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00117",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "有请殿下！",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00118",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧、三世子同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00119",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "为何这等惊慌？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00120",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二内侍"
+      ],
+      "text": "方才一阵狂风，三位师父兵器，俱已不见。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00121",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "这便如何是好？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00122",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 122,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你三人不必惊慌，我等自有寻访之处。你等三人，暂且回避。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02006043_e00123",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 123,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三位师父，须要小心。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00124",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 124,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "三世子同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00125",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 125,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "二位师弟，方才这风有些怪异。你我顺着风头，找寻便了。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00126",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 126,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "师兄言之有理。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00127",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 127,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00128",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 128,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "同尾声",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "无端添却心头障，任你施为，也没处藏。便走遍天涯，也不妨。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02006043_e00129",
+      "play_id": "02006043",
+      "scene_id": "02006043_s04",
+      "scene_no": 4,
+      "seq_global": 129,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00130",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 130,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刁钻、古怪同上。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 57
+    },
+    {
+      "event_id": "02006043_e00131",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 131,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "同风入松",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "钉耙嘉会宴亲知，要我行贴尔传递。笑狮王久别猪羊味，这款待今非昔比。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02006043_e00132",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 132,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刁钻"
+      ],
+      "text": "我、刁钻。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00133",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 133,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "古怪"
+      ],
+      "text": "我、古怪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00134",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 134,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "请了！只因黄云大王，在玉华国得了三宗宝物，献与老仙翁。老仙翁十分欢喜，要设一钉耙大会。命我二人下山买办猪羊，就此前往。",
+      "text_length": 59
+    },
+    {
+      "event_id": "02006043_e00135",
+      "play_id": "02006043",
+      "scene_id": "02006043_s05",
+      "scene_no": 5,
+      "seq_global": 135,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刁钻、古怪同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00136",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 136,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00137",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 137,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "啊，二位贤弟，来此已是豹头山，你看那边有两个小妖来了。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02006043_e00138",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 138,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "我们闪在一旁，听他说些什么便了。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00139",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 139,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刁钻、古怪同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00140",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 140,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "刁钻"
+      ],
+      "text": "奉命买办猪羊品，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00141",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 141,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "古怪"
+      ],
+      "text": "所为赚他几两银。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00142",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 142,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "呔！两个小妖，你们是哪里来的，一一说明，饶你不死。",
+      "text_length": 25
+    },
+    {
+      "event_id": "02006043_e00143",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 143,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "啊呀，饶命。我们是九节山长生洞来的。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00144",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 144,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "要往哪里去？",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00145",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 145,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "只因奉了老仙翁之命，下山买办猪羊祭品。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00146",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 146,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "啊，小妖，我问你，买这么些个东西，你们办什么勾当？",
+      "text_length": 25
+    },
+    {
+      "event_id": "02006043_e00147",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 147,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "不为别事，只因要庆钉耙大会。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006043_e00148",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 148,
+      "seq_in_scene": 13,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "什么叫做钉耙大会？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00149",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 149,
+      "seq_in_scene": 14,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "你们有所不知。只因黄云大王，前到玉华国，得了三件宝物，献与老仙翁。老仙翁十分欢喜，因此要设钉耙大会，与我们众位大王开怀畅饮，以为祥瑞之兆。",
+      "text_length": 69
+    },
+    {
+      "event_id": "02006043_e00150",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 150,
+      "seq_in_scene": 15,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你看那边黄云大王来了。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00151",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 151,
+      "seq_in_scene": 16,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "在哪里？",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00152",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 152,
+      "seq_in_scene": 17,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "看棒。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00153",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 153,
+      "seq_in_scene": 18,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空打死刁钻、古怪。刁钻、古怪同下。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00154",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 154,
+      "seq_in_scene": 19,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "二位师弟，变作二妖模样，取了腰牌，混进洞去。愚兄变作贩猪客人，一同混进洞中，盗取兵器，有何不可？你二人变来。",
+      "text_length": 54
+    },
+    {
+      "event_id": "02006043_e00155",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 155,
+      "seq_in_scene": 20,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪八戒、沙僧同下，刁钻、古怪同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00156",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 156,
+      "seq_in_scene": 21,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刁钻"
+      ],
+      "text": "师兄，你看我们变得可像？",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00157",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 157,
+      "seq_in_scene": 22,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "变得倒像。待俺变来。变！",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00158",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 158,
+      "seq_in_scene": 23,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空下。猪贩上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00159",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 159,
+      "seq_in_scene": 24,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪贩"
+      ],
+      "text": "我已变化。二位师弟一同前去。倘若混进洞去，看我眼色行事便了。妖怪啊，妖怪！",
+      "text_length": 37
+    },
+    {
+      "event_id": "02006043_e00160",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 160,
+      "seq_in_scene": 25,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "猪贩"
+      ],
+      "text": "纵让你今朝要设钉耙会，岂知俺变化神通人难知。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02006043_e00161",
+      "play_id": "02006043",
+      "scene_id": "02006043_s06",
+      "scene_no": 6,
+      "seq_global": 161,
+      "seq_in_scene": 26,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪贩、刁钻、古怪同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00162",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 162,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "豺精、狼精、虎精、豹精引黄云同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00163",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 163,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "凛凛威风世人惊，豺狼虎豹尽随行。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 65
+    },
+    {
+      "event_id": "02006043_e00164",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 164,
+      "seq_in_scene": 3,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刁钻、古怪带猪贩同上。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00165",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 165,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刁钻",
+        "古怪"
+      ],
+      "text": "参见大王。我等买办物件，俱已齐备。啊，过来。这是贩猪的客人，过来见过我家大王。",
+      "text_length": 39
+    },
+    {
+      "event_id": "02006043_e00166",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 166,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪贩"
+      ],
+      "text": "参见大王。听闻大王得了三件异宝，客人要见识见识。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02006043_e00167",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 167,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "刁钻、古怪，领他前去看来。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00168",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 168,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "豺精、狼精、虎精、豹精引黄云同下，刁钻、古怪、猪贩同绕场，同看。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00169",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 169,
+      "seq_in_scene": 8,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪贩"
+      ],
+      "text": "兵器俱已在此。个人现了本像出洞去者。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00170",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 170,
+      "seq_in_scene": 9,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "猪贩、刁钻、古怪各取兵器，同出洞下。豺精、狼精、虎精、豹精同上。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00171",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 171,
+      "seq_in_scene": 10,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "豺精",
+        "狼精",
+        "虎精",
+        "豹精"
+      ],
+      "text": "哎呀，三件宝物不见。啊，有请黄云大王！",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00172",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 172,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00173",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 173,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "何事？",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00174",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 174,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "豺精",
+        "狼精",
+        "虎精",
+        "豹精"
+      ],
+      "text": "启上大王：三件宝贝，俱已不见了。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00175",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 175,
+      "seq_in_scene": 14,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "且慢。想必是那贩猪客人盗去此宝，尔等各持器械，随我赶追与他便了。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00176",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 176,
+      "seq_in_scene": 15,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云、豺精、狼精、虎精、豹精同出洞。孙悟空、猪八戒、沙僧同上。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02006043_e00177",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 177,
+      "seq_in_scene": 16,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "你等是何人，竟敢入洞盗我宝贝。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006043_e00178",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 178,
+      "seq_in_scene": 17,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你这毛团，不认得我们。我等乃东土圣僧的徒弟。因到玉华国，有三位世子，拜我等为师，借俺兵器，照样打造。不想被你这毛团盗来。你且不要走，吃俺几棒。",
+      "text_length": 71
+    },
+    {
+      "event_id": "02006043_e00179",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 179,
+      "seq_in_scene": 18,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "一派胡言，着打！",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00180",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 180,
+      "seq_in_scene": 19,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云、孙悟空同起打，豺精、狼精、虎精、豹精同接打，孙悟空打死豺精、狼精、虎精、豹精。黄云败下。",
+      "text_length": 47
+    },
+    {
+      "event_id": "02006043_e00181",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 181,
+      "seq_in_scene": 20,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "你看这毛团，竟自想东南方逃去。你我大家追他娘的。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02006043_e00182",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 182,
+      "seq_in_scene": 21,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "且慢。自古道穷寇莫追，放他去罢。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00183",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 183,
+      "seq_in_scene": 22,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "三世子同上。〖水底鱼〗。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00184",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 184,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三位师父，兵器俱已到手，想是得胜而回。这是什么妖怪？",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00185",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 185,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "这是豺、狼、虎、豹四个妖怪，被我等打死，只有那毛团，向东南方逃去。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02006043_e00186",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 186,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三位师父，实为我国除害。请上受我们一拜。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00187",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 187,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "你三人且不要拜，一同回复国王，与我师父便了。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02006043_e00188",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 188,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "三世子"
+      ],
+      "text": "三位师父请。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00189",
+      "play_id": "02006043",
+      "scene_id": "02006043_s07",
+      "scene_no": 7,
+      "seq_global": 189,
+      "seq_in_scene": 28,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00190",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 190,
+      "seq_in_scene": 1,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小妖、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风引九灵元圣同上。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00191",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 191,
+      "seq_in_scene": 2,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "六么令",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "钩牙玉爪，眼悬星气若云霄，今朝特庆钉耙兆。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02006043_e00192",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 192,
+      "seq_in_scene": 3,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄云上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00193",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 193,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "参见老仙翁。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00194",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 194,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "黄云为何这等模样？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00195",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 195,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "只因孙悟空假变作刁钻、古怪，盗去三件兵器。是我带领豺、狼、虎、豹赶出洞去，与他争斗。豺、狼、虎、豹被他打死。将俺杀得大败，特来报于老仙翁得知。",
+      "text_length": 71
+    },
+    {
+      "event_id": "02006043_e00196",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 196,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "有这等事。想那孙悟空，有多大本领，竟敢如此猖狂。尔等随俺去到玉华国，将那国王与唐僧一并擒来，与你报仇便了。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 102
+    },
+    {
+      "event_id": "02006043_e00197",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 197,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "同合头",
+      "speakers": [
+        "九灵元圣",
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "逞法力，肆咆哮，这会要把冤仇报，这回要把冤仇报。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02006043_e00198",
+      "play_id": "02006043",
+      "scene_id": "02006043_s08",
+      "scene_no": 8,
+      "seq_global": 198,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00199",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 199,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧、三世子同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00200",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 200,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子"
+      ],
+      "text": "忙将降妖事，报与国王知。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00201",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 201,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子"
+      ],
+      "text": "国王、师父，有请！",
+      "text_length": 9
+    },
+    {
+      "event_id": "02006043_e00202",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 202,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四内侍引玉华国王、唐僧同上。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02006043_e00203",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 203,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "眼观旌节喜，耳听好消息。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00204",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 204,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子"
+      ],
+      "text": "参见国王，师父。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00205",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 205,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "你三人兵器，可曾得回？",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00206",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 206,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "弟子三人寻到洞中，将那些妖怪打坏，得回兵器，又恐师父挂念，因此急急赶回，禀知师父。",
+      "text_length": 41
+    },
+    {
+      "event_id": "02006043_e00207",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 207,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "吾儿后面摆齐素斋，与三位师傅酬劳。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00208",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 208,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子"
+      ],
+      "text": "多谢国王。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00209",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 209,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00210",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 210,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "唐僧",
+        "孙悟空",
+        "猪八戒",
+        "沙僧",
+        "三世子"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00211",
+      "play_id": "02006043",
+      "scene_id": "02006043_s09",
+      "scene_no": 9,
+      "seq_global": 211,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00212",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 212,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四龙套引二城官同上。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006043_e00213",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 213,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "城官甲"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00214",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 214,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "城官乙"
+      ],
+      "text": "请了。奉了国王之命，各门严加防守。来，尔等小心把守。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00215",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 215,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四小妖、黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风引九灵元圣同上。〖牌子〗。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 89
+    },
+    {
+      "event_id": "02006043_e00216",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 216,
+      "seq_in_scene": 5,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "来此玉华国。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00217",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 217,
+      "seq_in_scene": 6,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "一拥进城。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00218",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 218,
+      "seq_in_scene": 7,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄云",
+        "狻猊",
+        "搏象",
+        "伏狸",
+        "白泽",
+        "金猱",
+        "银雪",
+        "黑风"
+      ],
+      "text": "啊！（四小妖、黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风、九灵元圣同下。众百姓同上，过场，同下。四小妖、黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风、九灵元圣同追上，过场，同下。四内侍引三世子、玉华国王、唐僧同上。）",
+      "text_length": 111
+    },
+    {
+      "event_id": "02006043_e00219",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 219,
+      "seq_in_scene": 8,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "同扑灯蛾",
+      "speakers": [
+        "三世子",
+        "玉华国王",
+        "唐僧"
+      ],
+      "text": "无端灾眚临，无端灾眚临，城关人喧噪，沴气直冲霄，知是妖魔做耗也。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00220",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 220,
+      "seq_in_scene": 9,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00221",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 221,
+      "seq_in_scene": 10,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启上国王：忽然狂风大作，妖兵杀进城来。满城百姓，四散奔逃。特来报知。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02006043_e00222",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 222,
+      "seq_in_scene": 11,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "再探。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00223",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 223,
+      "seq_in_scene": 12,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00224",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 224,
+      "seq_in_scene": 13,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "啊，圣僧啊，我和你去到城楼，看个明白。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00225",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 225,
+      "seq_in_scene": 14,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "唐僧"
+      ],
+      "text": "愿随国王同往。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00226",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 226,
+      "seq_in_scene": 15,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "玉华国王"
+      ],
+      "text": "快快摆驾上城。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00227",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 227,
+      "seq_in_scene": 16,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "同唱",
+      "speakers": [
+        "玉华国王",
+        "唐僧",
+        "三世子"
+      ],
+      "text": "禳祛谁祷，惟愿取祸祟旋消。期无恙，金瓯永葆，急忙忙，臣民若个解擒妖。（四内侍、三世子、玉华国王、唐僧同下。场设城。四内侍、三世子、玉华国王、唐僧同上城。四小妖、黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风、九灵元圣同上，擒玉华国王、唐僧、三世子同下。孙悟空、猪八戒、沙僧同上。）",
+      "text_length": 140
+    },
+    {
+      "event_id": "02006043_e00228",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 228,
+      "seq_in_scene": 17,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "二位师弟，来此城楼，为何不见国王、师父？",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00229",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 229,
+      "seq_in_scene": 18,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "方才一阵狂风，想必国王、师父被妖人擒去。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00230",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 230,
+      "seq_in_scene": 19,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "这场祸事，因你我三人而起。你二人打听师父消息，待我到妙严宫求太乙天尊，收服妖怪便了。",
+      "text_length": 42
+    },
+    {
+      "event_id": "02006043_e00231",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 231,
+      "seq_in_scene": 20,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "如此师兄快去，我等打听消息便了。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00232",
+      "play_id": "02006043",
+      "scene_id": "02006043_s10",
+      "scene_no": 10,
+      "seq_global": 232,
+      "seq_in_scene": 21,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧自两边分下。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00233",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 233,
+      "seq_in_scene": 1,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四神将、四童儿、金童、玉女引太乙天尊同上。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02006043_e00234",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 234,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "other_vocal",
+      "mode_label": "夜行船",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "端拱层霄，慈愿普遍世界，惠风甘露。名列天曹，光分星度。https://scripts.xikao.com/play/020060432020-10-06念苍生永绥多祜。",
+      "text_length": 84
+    },
+    {
+      "event_id": "02006043_e00235",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 235,
+      "seq_in_scene": 3,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。太乙天尊上高台莲花，坐。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02006043_e00236",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 236,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "九色莲花座下擎，千年修炼得长生。重重宝树围金殿，日听云璈奏上清。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02006043_e00237",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 237,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "吾乃太乙救苦天尊是也。掌天上之化权，赐人间之繁祉。心存普济，念切慈航。前者座下九头狮子逃往下方，未曾收服。只为唐僧奉敕拜佛求经，但这路途迢遙，数该历尽八十一难，方能功成愿满。目下已到九节山，被俺九头狮子摄去。孙悟空定来求救。众仙童，伺候了。",
+      "text_length": 120
+    },
+    {
+      "event_id": "02006043_e00238",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 238,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00239",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 239,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "九曲遥闻狮子吼，一心忙谒主人公。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00240",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 240,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "弟子孙悟空拜见天尊。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00241",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 241,
+      "seq_in_scene": 9,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "悟空，不保你师父拜佛求经，到此何事？",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00242",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 242,
+      "seq_in_scene": 10,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "弟子保护师父西行，路过玉华国，不想被那九头狮子将国王父子，并俺师父，一起摄去。闻得那九头狮子，乃是天尊豢养的，因此拜求天尊，前去收服。",
+      "text_length": 67
+    },
+    {
+      "event_id": "02006043_e00243",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 243,
+      "seq_in_scene": 11,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "想此一难，也是数该前定。如今将次成功，待吾前去收服便了。",
+      "text_length": 28
+    },
+    {
+      "event_id": "02006043_e00244",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 244,
+      "seq_in_scene": 12,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "多谢天尊慈悲。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00245",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 245,
+      "seq_in_scene": 13,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "众童儿，同往九节山去者。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02006043_e00246",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 246,
+      "seq_in_scene": 14,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四童儿"
+      ],
+      "text": "领法旨。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00247",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 247,
+      "seq_in_scene": 15,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。众人同下。猪八戒、沙僧同上。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02006043_e00248",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 248,
+      "seq_in_scene": 16,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "猪八戒"
+      ],
+      "text": "师弟，你看师兄求太乙天尊，怎么这般时候还不见到来？",
+      "text_length": 25
+    },
+    {
+      "event_id": "02006043_e00249",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 249,
+      "seq_in_scene": 17,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "沙僧"
+      ],
+      "text": "想必来也。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00250",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 250,
+      "seq_in_scene": 18,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00251",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 251,
+      "seq_in_scene": 19,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "二位师弟，太乙天尊已到九节山。你我一同前去搭救师父与那国王父子便了。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02006043_e00252",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 252,
+      "seq_in_scene": 20,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "言之有理。一同前往。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02006043_e00253",
+      "play_id": "02006043",
+      "scene_id": "02006043_s11",
+      "scene_no": 11,
+      "seq_global": 253,
+      "seq_in_scene": 21,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00254",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 254,
+      "seq_in_scene": 1,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四神将、四童儿、金童、玉女引太乙天尊同上。",
+      "text_length": 26
+    },
+    {
+      "event_id": "02006043_e00255",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 255,
+      "seq_in_scene": 2,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四神将",
+        "四童儿",
+        "金童",
+        "玉女"
+      ],
+      "text": "来此九节山。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02006043_e00256",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 256,
+      "seq_in_scene": 3,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "悟空！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02006043_e00257",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 257,
+      "seq_in_scene": 4,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00258",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 258,
+      "seq_in_scene": 5,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02006043_e00259",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 259,
+      "seq_in_scene": 6,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "你三人引妖出洞。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02006043_e00260",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 260,
+      "seq_in_scene": 7,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "孙悟空",
+        "猪八戒",
+        "沙僧"
+      ],
+      "text": "领法旨！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00261",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 261,
+      "seq_in_scene": 8,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、猪八戒、沙僧同下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02006043_e00262",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 262,
+      "seq_in_scene": 9,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "众神将与悟空接战者，听我的吩咐。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00263",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 263,
+      "seq_in_scene": 10,
+      "page_no": 10,
+      "type": "other_vocal",
+      "mode_label": "浪来里",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "狮子吼，怎惧哉，可惜他绿毛玉爪负雄才。救真僧，急上天界，保无伤害，狻猊的余孽尽擒来。",
+      "text_length": 42
+    },
+    {
+      "event_id": "02006043_e00264",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 264,
+      "seq_in_scene": 11,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四神将",
+        "四童儿",
+        "金童",
+        "玉女"
+      ],
+      "text": "领法旨。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00265",
+      "play_id": "02006043",
+      "scene_id": "02006043_s12",
+      "scene_no": 12,
+      "seq_global": 265,
+      "seq_in_scene": 12,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 54
+    },
+    {
+      "event_id": "02006043_e00266",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 266,
+      "seq_in_scene": 1,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。四小妖、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风引九灵元圣同上。黄云上。",
+      "text_length": 41
+    },
+    {
+      "event_id": "02006043_e00267",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 267,
+      "seq_in_scene": 2,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄云"
+      ],
+      "text": "启上老仙翁：今有沙僧、八戒要打进洞来了。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00268",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 268,
+      "seq_in_scene": 3,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "九灵元圣"
+      ],
+      "text": "量他二人有何本领，竟敢在此卖弄。来，大家一起出洞。（黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风同应，同出洞，会阵。四神将、四童儿、金童、玉女、孙悟空、猪八戒、沙僧同上，会阵，同起打。黄云、狻猊、搏象、伏狸、白泽、金猱、银雪、黑风、九灵元圣同败。四神将、四童儿、金童、玉女、孙悟空、猪八戒、沙僧同进山。开山，现九头狮形。太乙天尊上。）",
+      "text_length": 168
+    },
+    {
+      "event_id": "02006043_e00269",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 269,
+      "seq_in_scene": 4,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "浪来里",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "隆恩广似天大，德深如海，妙严救苦感无涯。六根不生消障碍，心即佛，一言诠解，看高悬说法五时牌。",
+      "text_length": 46
+    },
+    {
+      "event_id": "02006043_e00270",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 270,
+      "seq_in_scene": 5,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "悟空，救你师父与国王父子出洞。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02006043_e00271",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 271,
+      "seq_in_scene": 6,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "孙悟空"
+      ],
+      "text": "多谢天尊慈悲。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02006043_e00272",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 272,
+      "seq_in_scene": 7,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空引唐僧、玉华国王、三世子同上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00273",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 273,
+      "seq_in_scene": 8,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "唐僧",
+        "玉华国王",
+        "三世子"
+      ],
+      "text": "天尊请上，受我等一拜。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02006043_e00274",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 274,
+      "seq_in_scene": 9,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "悟空保你师父西行，国王父子速回本国去吧。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02006043_e00275",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 275,
+      "seq_in_scene": 10,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "唐僧",
+        "玉华国王",
+        "三世子"
+      ],
+      "text": "多谢天尊。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02006043_e00276",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 276,
+      "seq_in_scene": 11,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "孙悟空、唐僧、玉华国王、三世子同下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02006043_e00277",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 277,
+      "seq_in_scene": 12,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "众神将带转坐骑，回归妙严宫去者。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02006043_e00278",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 278,
+      "seq_in_scene": 13,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四神将",
+        "四童儿",
+        "金童",
+        "玉女"
+      ],
+      "text": "领法旨。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02006043_e00279",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 279,
+      "seq_in_scene": 14,
+      "page_no": 11,
+      "type": "other_vocal",
+      "mode_label": "随调煞尾",
+      "speakers": [
+        "太乙天尊"
+      ],
+      "text": "下云端，九节山收服得快，法中能负荷，象外漫疑猜。瞻巍阶，馥郁兜罗散瑶彩。不久舍卫城参佛行，则见贝叶千花震且开。",
+      "text_length": 55
+    },
+    {
+      "event_id": "02006043_e00280",
+      "play_id": "02006043",
+      "scene_id": "02006043_s13",
+      "scene_no": 13,
+      "seq_global": 280,
+      "seq_in_scene": 15,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。https://scripts.xikao.com/play/020060432020-10-06",
+      "text_length": 54
+    }
+  ],
+  "roles_inferred": true
+}

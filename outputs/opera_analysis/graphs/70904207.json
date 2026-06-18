@@ -1,0 +1,91 @@
+{
+  "play": {
+    "play_id": "70904207",
+    "title": "西游记·认子",
+    "pdf_name": "70904207_西游记·认子.pdf",
+    "group_id": "70904000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 53,
+    "character_count": 2,
+    "source_url": "https://scripts.xikao.com/play/70904207",
+    "source_date": "2021-07-30",
+    "synopsis_length": 79,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 46,
+      "other": 5
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 101.0,
+    "max_edge_weight": 101,
+    "top_characters": [
+      {
+        "name": "玄奘",
+        "hangdang": "小生",
+        "speech_count": 27,
+        "degree": 1,
+        "weighted_degree": 101
+      },
+      {
+        "name": "殷氏",
+        "hangdang": "旦",
+        "speech_count": 26,
+        "degree": 1,
+        "weighted_degree": 101
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "玄奘",
+      "label": "玄奘",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 27,
+      "text_length": 607,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 101,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 25,
+        "other": 1
+      }
+    },
+    {
+      "id": "殷氏",
+      "label": "殷氏",
+      "raw_role": "正旦",
+      "hangdang": "旦",
+      "speech_count": 26,
+      "text_length": 1264,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 101,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 21,
+        "other": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "殷氏",
+      "target": "玄奘",
+      "weight": 101,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

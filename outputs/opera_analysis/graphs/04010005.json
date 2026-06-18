@@ -1,0 +1,294 @@
+{
+  "play": {
+    "play_id": "04010005",
+    "title": "三岔口",
+    "pdf_name": "04010005_三岔口.pdf",
+    "group_id": "04000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 125,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/04010005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 99,
+    "notes_length": 200,
+    "marker_category_counts": {
+      "spoken": 120,
+      "other": 3,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 13,
+    "density": 0.866667,
+    "avg_degree": 4.333333,
+    "avg_weighted_degree": 82.333333,
+    "max_edge_weight": 63,
+    "top_characters": [
+      {
+        "name": "解差甲",
+        "hangdang": "未知",
+        "speech_count": 26,
+        "degree": 4,
+        "weighted_degree": 102
+      },
+      {
+        "name": "焦赞",
+        "hangdang": "净",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 99
+      },
+      {
+        "name": "刘利华",
+        "hangdang": "武丑",
+        "speech_count": 21,
+        "degree": 5,
+        "weighted_degree": 89
+      },
+      {
+        "name": "任堂惠",
+        "hangdang": "武生",
+        "speech_count": 23,
+        "degree": 3,
+        "weighted_degree": 79
+      },
+      {
+        "name": "刘妻",
+        "hangdang": "旦",
+        "speech_count": 20,
+        "degree": 5,
+        "weighted_degree": 77
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "解差甲",
+      "label": "解差甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 26,
+      "text_length": 348,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 102,
+      "marker_category_counts": {
+        "spoken": 26
+      }
+    },
+    {
+      "id": "焦赞",
+      "label": "焦赞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 24,
+      "text_length": 280,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 23,
+        "other": 1
+      }
+    },
+    {
+      "id": "刘利华",
+      "label": "刘利华",
+      "raw_role": "武丑",
+      "hangdang": "武丑",
+      "speech_count": 21,
+      "text_length": 310,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 89,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "任堂惠",
+      "label": "任堂惠",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 23,
+      "text_length": 406,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 22
+      }
+    },
+    {
+      "id": "刘妻",
+      "label": "刘妻",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 20,
+      "text_length": 290,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "spoken": 19,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "解差乙",
+      "label": "解差乙",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 122,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "任堂惠",
+      "target": "刘利华",
+      "weight": 63,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 31,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "焦赞",
+      "target": "解差甲",
+      "weight": 58,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "解差乙",
+      "target": "解差甲",
+      "weight": 22,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘妻",
+      "target": "解差甲",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘利华",
+      "target": "刘妻",
+      "weight": 18,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘妻",
+      "target": "焦赞",
+      "weight": 18,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "焦赞",
+      "target": "解差乙",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘妻",
+      "target": "解差乙",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "任堂惠",
+      "target": "刘妻",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "任堂惠",
+      "target": "焦赞",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘利华",
+      "target": "焦赞",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "刘利华",
+      "target": "解差乙",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘利华",
+      "target": "解差甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

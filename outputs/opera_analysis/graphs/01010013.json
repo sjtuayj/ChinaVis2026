@@ -1,0 +1,130 @@
+{
+  "play": {
+    "play_id": "01010013",
+    "title": "双断桥",
+    "pdf_name": "01010013_双断桥.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 37,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01010013",
+    "source_date": "2013-06-30",
+    "synopsis_length": 210,
+    "notes_length": 97,
+    "marker_category_counts": {
+      "spoken": 29,
+      "singing": 8
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 47.333333,
+    "max_edge_weight": 49,
+    "top_characters": [
+      {
+        "name": "白素贞",
+        "hangdang": "旦",
+        "speech_count": 19,
+        "degree": 2,
+        "weighted_degree": 66
+      },
+      {
+        "name": "小青",
+        "hangdang": "旦",
+        "speech_count": 13,
+        "degree": 2,
+        "weighted_degree": 54
+      },
+      {
+        "name": "许仙",
+        "hangdang": "小生",
+        "speech_count": 5,
+        "degree": 2,
+        "weighted_degree": 22
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "白素贞",
+      "label": "白素贞",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 19,
+      "text_length": 1183,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "spoken": 14,
+        "singing": 5
+      }
+    },
+    {
+      "id": "小青",
+      "label": "小青",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 13,
+      "text_length": 200,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "许仙",
+      "label": "许仙",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 5,
+      "text_length": 207,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 22,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "小青",
+      "target": "白素贞",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "白素贞",
+      "target": "许仙",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "小青",
+      "target": "许仙",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

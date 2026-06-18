@@ -1,0 +1,242 @@
+{
+  "play": {
+    "play_id": "01016015",
+    "title": "背娃入府",
+    "pdf_name": "01016015_背娃入府.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 153,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01016015",
+    "source_date": "2018-08-23",
+    "synopsis_length": 512,
+    "notes_length": 303,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 150
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 120.8,
+    "max_edge_weight": 129,
+    "top_characters": [
+      {
+        "name": "李平儿",
+        "hangdang": "丑",
+        "speech_count": 57,
+        "degree": 4,
+        "weighted_degree": 214
+      },
+      {
+        "name": "李妻",
+        "hangdang": "旦",
+        "speech_count": 53,
+        "degree": 4,
+        "weighted_degree": 212
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 17,
+        "degree": 4,
+        "weighted_degree": 72
+      },
+      {
+        "name": "张元秀",
+        "hangdang": "小生",
+        "speech_count": 16,
+        "degree": 4,
+        "weighted_degree": 62
+      },
+      {
+        "name": "耿金文",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 4,
+        "weighted_degree": 44
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李平儿",
+      "label": "李平儿",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 57,
+      "text_length": 1861,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 214,
+      "marker_category_counts": {
+        "spoken": 56,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "李妻",
+      "label": "李妻",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 53,
+      "text_length": 764,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 212,
+      "marker_category_counts": {
+        "spoken": 53
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 17,
+      "text_length": 83,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 72,
+      "marker_category_counts": {
+        "spoken": 17
+      }
+    },
+    {
+      "id": "张元秀",
+      "label": "张元秀",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 16,
+      "text_length": 186,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 62,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 15
+      }
+    },
+    {
+      "id": "耿金文",
+      "label": "耿金文",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 118,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 44,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李妻",
+      "target": "李平儿",
+      "weight": 129,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 64,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "李平儿",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张元秀",
+      "target": "李妻",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "李妻",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李平儿",
+      "target": "耿金文",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "李妻",
+      "target": "耿金文",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张元秀",
+      "target": "李平儿",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张元秀",
+      "target": "耿金文",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "张元秀",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "耿金文",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "play": {
+    "play_id": "01028006",
+    "title": "蜈蚣岭",
+    "pdf_name": "01028006_蜈蚣岭.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 7,
+    "speech_count": 54,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01028006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 198,
+    "notes_length": 98,
+    "marker_category_counts": {
+      "singing": 6,
+      "recitation": 4,
+      "spoken": 43,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 29.142857,
+    "max_edge_weight": 26,
+    "top_characters": [
+      {
+        "name": "王飞天",
+        "hangdang": "净",
+        "speech_count": 13,
+        "degree": 5,
+        "weighted_degree": 50
+      },
+      {
+        "name": "武松",
+        "hangdang": "武生",
+        "speech_count": 12,
+        "degree": 5,
+        "weighted_degree": 37
+      },
+      {
+        "name": "院子",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 33
+      },
+      {
+        "name": "四小道",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 4,
+        "weighted_degree": 30
+      },
+      {
+        "name": "张女",
+        "hangdang": "未知",
+        "speech_count": 5,
+        "degree": 6,
+        "weighted_degree": 24
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王飞天",
+      "label": "王飞天",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 13,
+      "text_length": 395,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 11,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "武松",
+      "label": "武松",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 12,
+      "text_length": 631,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 222,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 33,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    },
+    {
+      "id": "四小道",
+      "label": "四小道",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 88,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "张女",
+      "label": "张女",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 114,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 24,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 3,
+        "singing": 1
+      }
+    },
+    {
+      "id": "张志善",
+      "label": "张志善",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 133,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 2
+      }
+    },
+    {
+      "id": "老道",
+      "label": "老道",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 4,
+      "text_length": 95,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "四小道",
+      "target": "王飞天",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "武松",
+      "target": "院子",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_005",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "张女",
+      "target": "张志善",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "王飞天",
+      "target": "老道",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "武松",
+      "target": "王飞天",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_006",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "张女",
+      "target": "王飞天",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "张女",
+      "target": "院子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "张志善",
+      "target": "院子",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四小道",
+      "target": "老道",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "四小道",
+      "target": "张女",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "四小道",
+      "target": "武松",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "张女",
+      "target": "武松",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "张女",
+      "target": "老道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "武松",
+      "target": "老道",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "王飞天",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_007"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1445 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "90000001",
+    "title": "红线盗盒",
+    "aliases": [],
+    "collection_id": "90000000",
+    "collection_name": "名家藏本、演出本",
+    "collection_remark": "单行本",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/90000000/90000001_红线盗盒.pdf",
+    "source_url": "http://scripts.xikao.com/play/90000001",
+    "source_date": "2013-06-30",
+    "page_count": 3,
+    "file_size_bytes": 369797,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "魏博节度使田承嗣欲吞并潞州节度使薛嵩之地，薛嵩甚为忧虑。薛嵩侍儿红线有剑术，自告奋勇往田承嗣处探听，给予警告。值田承嗣睡卧，红线欲行刺，后改盗田承嗣金盒而返。田承嗣遣兵追之，又为红线所败。红线献盒于薛嵩，薛嵩乃修函附盒还与田承嗣。田承嗣大惊，知薛嵩部有强将，非敌手，乃与薛嵩修好。",
+    "notes": [
+      "见唐杨巨源《红线传》，明梁伯龙《红线女》杂剧及《双红记》传奇。梅兰芳编演。",
+      "根据醉丽君藏本整理",
+      "【第三场：行路】"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "魏、吴",
+      "confidence": 0.83
+    },
+    "play_genre": {
+      "label": "历史戏",
+      "confidence": 0.58,
+      "evidence": [
+        "魏",
+        "兵"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_红线",
+      "name": "红线",
+      "original_category": "旦",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.86,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "女性家眷"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋",
+        "滑稽"
+      ],
+      "performance_features": {
+        "spoken_count": 11,
+        "aria_count": 6,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "旦",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：红线：旦"
+        ]
+      }
+    },
+    {
+      "role_id": "r_薛嵩",
+      "name": "薛嵩",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "忠义",
+        "滑稽",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 17,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 1,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "翁"
+        ]
+      }
+    },
+    {
+      "role_id": "r_旗牌",
+      "name": "旗牌",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_中军",
+      "name": "中军",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "仆从/差役"
+        ]
+      }
+    },
+    {
+      "role_id": "r_田承嗣",
+      "name": "田承嗣",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "女性家眷",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "丫鬟",
+          "翁"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "title": "全剧",
+      "page_start": 1,
+      "page_end": 3,
+      "characters": [
+        "红线",
+        "薛嵩",
+        "旗牌",
+        "中军",
+        "田承嗣"
+      ],
+      "event_ids": [
+        "90000001_e00001",
+        "90000001_e00002",
+        "90000001_e00003",
+        "90000001_e00004",
+        "90000001_e00005",
+        "90000001_e00006",
+        "90000001_e00007",
+        "90000001_e00008",
+        "90000001_e00009",
+        "90000001_e00010",
+        "90000001_e00011",
+        "90000001_e00012",
+        "90000001_e00013",
+        "90000001_e00014",
+        "90000001_e00015",
+        "90000001_e00016",
+        "90000001_e00017",
+        "90000001_e00018",
+        "90000001_e00019",
+        "90000001_e00020",
+        "90000001_e00021",
+        "90000001_e00022",
+        "90000001_e00023",
+        "90000001_e00024",
+        "90000001_e00025",
+        "90000001_e00026",
+        "90000001_e00027",
+        "90000001_e00028",
+        "90000001_e00029",
+        "90000001_e00030",
+        "90000001_e00031",
+        "90000001_e00032",
+        "90000001_e00033",
+        "90000001_e00034",
+        "90000001_e00035",
+        "90000001_e00036",
+        "90000001_e00037",
+        "90000001_e00038",
+        "90000001_e00039",
+        "90000001_e00040",
+        "90000001_e00041",
+        "90000001_e00042",
+        "90000001_e00043",
+        "90000001_e00044",
+        "90000001_e00045",
+        "90000001_e00046",
+        "90000001_e00047",
+        "90000001_e00048",
+        "90000001_e00049",
+        "90000001_e00050",
+        "90000001_e00051",
+        "90000001_e00052",
+        "90000001_e00053",
+        "90000001_e00054",
+        "90000001_e00055",
+        "90000001_e00056",
+        "90000001_e00057",
+        "90000001_e00058",
+        "90000001_e00059",
+        "90000001_e00060",
+        "90000001_e00061",
+        "90000001_e00062",
+        "90000001_e00063",
+        "90000001_e00064",
+        "90000001_e00065",
+        "90000001_e00066",
+        "90000001_e00067",
+        "90000001_e00068",
+        "90000001_e00069",
+        "90000001_e00070",
+        "90000001_e00071",
+        "90000001_e00072"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 72,
+        "spoken_count": 50,
+        "aria_count": 6,
+        "recitation_count": 3,
+        "stage_direction_count": 11,
+        "expression_count": 1,
+        "text_length": 1372
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "90000001_e00001",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "红线上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "90000001_e00002",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "红线"
+      ],
+      "text": "三尺青锋吐翠烟，等闲粉黛总无缘。一心自有匡时策，却笑须眉不敢前。",
+      "text_length": 32
+    },
+    {
+      "event_id": "90000001_e00003",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "俺，红线。奉谪天曹，投身薛府。适闻田承嗣居心叵测，欲吞并潞洲，为此今夜驾起祥云，观其动静。看月明风细，夜色清凉，须速走遭者！",
+      "text_length": 62
+    },
+    {
+      "event_id": "90000001_e00004",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "谯楼上打三更月明人静，",
+      "text_length": 11
+    },
+    {
+      "event_id": "90000001_e00005",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "按吴钩紧锦带独自思忖：想当日，想当日天曹中焚香击磬，谪红尘，谪红尘投薛府奴婢藏身。适才间，适才间闻承嗣兴兵临近，薛大人，薛大人终日里愁锁眉心。差红线，差红线魏营中前去探听，驾云来，驾云来转瞬间……",
+      "text_length": 98
+    },
+    {
+      "event_id": "90000001_e00006",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "来此已是漳河，待俺飞渡过去。",
+      "text_length": 14
+    },
+    {
+      "event_id": "90000001_e00007",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "飞渡了漳滨。风飘飘云淡淡银河泻影，野荒荒星皎皎万籁无声。心羡那波浪中鱼龙睡稳，娇身躯犯霜露哪顾劳辛。但愿得两相安免开争竞，通玉帛，息干戈，各守疆土，莫苦黎民。远望着魏营中灯光不定，",
+      "text_length": 90
+    },
+    {
+      "event_id": "90000001_e00008",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "催祥云向前去莫要消停。",
+      "text_length": 11
+    },
+    {
+      "event_id": "90000001_e00009",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "红线下。【第十一场：舞剑】",
+      "text_length": 13
+    },
+    {
+      "event_id": "90000001_e00010",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、薛嵩同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "90000001_e00011",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "驰书魏博，观看他，动静如何？",
+      "text_length": 14
+    },
+    {
+      "event_id": "90000001_e00012",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "薛嵩坐下，旗牌上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "90000001_e00013",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "敌营蒙恩赐，须报主人知。",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00014",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "叩见主公！",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00015",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "起来！送盒前去，田公有何言语？",
+      "text_length": 15
+    },
+    {
+      "event_id": "90000001_e00016",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "田节镇将盒留下，言道：回书专人送来。并赏小人黄金百两，彩缎百端。",
+      "text_length": 32
+    },
+    {
+      "event_id": "90000001_e00017",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "外面伺候。",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00018",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "旗牌"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "90000001_e00019",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "旗牌下。中军上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "90000001_e00020",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "中军"
+      ],
+      "text": "启禀主帅：魏博田大人来拜。",
+      "text_length": 13
+    },
+    {
+      "event_id": "90000001_e00021",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "啊？他是怎么到此？吩咐摆队相迎！",
+      "text_length": 16
+    },
+    {
+      "event_id": "90000001_e00022",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "中军"
+      ],
+      "text": "大人有令：摆队相迎！",
+      "text_length": 10
+    },
+    {
+      "event_id": "90000001_e00023",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、田承嗣同上，薛嵩出迎。",
+      "text_length": 15
+    },
+    {
+      "event_id": "90000001_e00024",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "啊，亲翁！",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00025",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "亲翁！",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00026",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "90000001_e00027",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "请！",
+      "text_length": 2
+    },
+    {
+      "event_id": "90000001_e00028",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同进门。",
+      "text_length": 6
+    },
+    {
+      "event_id": "90000001_e00029",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "亲翁请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00030",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "谢坐！",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00031",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "不知亲翁驾到，未曾远迎，面前恕罪！",
+      "text_length": 17
+    },
+    {
+      "event_id": "90000001_e00032",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "岂敢！小弟来的卤莽，亲翁海涵。",
+      "text_length": 15
+    },
+    {
+      "event_id": "90000001_e00033",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "亲翁到此，有何见教？",
+      "text_length": 10
+    },
+    {
+      "event_id": "90000001_e00034",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "唉！承嗣首级系在恩人。此番自当知过自新，不复再贻伊戚。所置外宅键儿，本防他盗，并非异图。今并脱其甲裳，放归田亩，是以小弟特来谢罪。",
+      "text_length": 65
+    },
+    {
+      "event_id": "90000001_e00035",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "区区小事，何足挂齿！",
+      "text_length": 10
+    },
+    {
+      "event_id": "90000001_e00036",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "取盒之人，当是天神下界，不知可允小弟一见否？",
+      "text_length": 22
+    },
+    {
+      "event_id": "90000001_e00037",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 37,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "此乃小婢所为，何劳奖宠？",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00038",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 38,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "哦！乃丫鬟所为！",
+      "text_length": 8
+    },
+    {
+      "event_id": "90000001_e00039",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 39,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00040",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 40,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "更要相见！",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00041",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 41,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "待我唤她前来。红线进帐！",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00042",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 42,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "中军"
+      ],
+      "text": "红线进帐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00043",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 43,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "来了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00044",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 44,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "红线上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "90000001_e00045",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 45,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "红线"
+      ],
+      "text": "一夜身经千里路，幸得骊龙项下珠。",
+      "text_length": 16
+    },
+    {
+      "event_id": "90000001_e00046",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 46,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "红线进门。",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00047",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 47,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "主公有何吩咐？",
+      "text_length": 7
+    },
+    {
+      "event_id": "90000001_e00048",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 48,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "见过田大人。",
+      "text_length": 6
+    },
+    {
+      "event_id": "90000001_e00049",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 49,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "与田大人叩头！",
+      "text_length": 7
+    },
+    {
+      "event_id": "90000001_e00050",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 50,
+      "seq_in_scene": 50,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "罢了，罢了！前者进帐取盒，就是你么？",
+      "text_length": 18
+    },
+    {
+      "event_id": "90000001_e00051",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 51,
+      "seq_in_scene": 51,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00052",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 52,
+      "seq_in_scene": 52,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "哎呀呀！真乃超凡出众！只是那夜床头取盒，路程千里之远，如此迢远，营门有数重之深，不知你是怎样前去？怎样进帐？可得闻之否？",
+      "text_length": 60
+    },
+    {
+      "event_id": "90000001_e00053",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 53,
+      "seq_in_scene": 53,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "你可讲与大人一听。",
+      "text_length": 9
+    },
+    {
+      "event_id": "90000001_e00054",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 54,
+      "seq_in_scene": 54,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "遵命！那夜子时三刻，既达魏城。凡历数门，遂及寝所。观外宅儿止于房廊，鼾声雷动；见军中士兵步于庭下，传叫风生。奴婢拨了左扉，直抵绣帐。见大人鼓腹酣眠，头枕文犀枕，枕露七星剑。剑前仰开一金盒，内藏生辰八字。时则蜡烛烟微，炉香烬萎，侍人四布，兵仗交罗。或头触屏风，垂头而睡；或手持巾拂，抵足而眠。奴乃拔其簪珥，牵其衣裳，如病如痴，皆不能悟，遂持金盒，御风而归。出魏城西门，将行二百里，见铜台高揭，漳水东流，晨鸡动夜，斜月在林，好一派宵景也！",
+      "text_length": 217
+    },
+    {
+      "event_id": "90000001_e00055",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 55,
+      "seq_in_scene": 55,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "如此说来，你辛苦了！",
+      "text_length": 10
+    },
+    {
+      "event_id": "90000001_e00056",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 56,
+      "seq_in_scene": 56,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "奴婢觉得来回只一刹那耳，又何辛苦之有？只是得罪大人，望乞原宥！",
+      "text_length": 31
+    },
+    {
+      "event_id": "90000001_e00057",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 57,
+      "seq_in_scene": 57,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "岂敢，岂敢！多谢不杀之恩！",
+      "text_length": 13
+    },
+    {
+      "event_id": "90000001_e00058",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 58,
+      "seq_in_scene": 58,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "岂敢！",
+      "text_length": 3
+    },
+    {
+      "event_id": "90000001_e00059",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 59,
+      "seq_in_scene": 59,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "亲翁此话，她哪里受的？",
+      "text_length": 11
+    },
+    {
+      "event_id": "90000001_e00060",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 60,
+      "seq_in_scene": 60,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "精妙剑法，可赐一观否？",
+      "text_length": 11
+    },
+    {
+      "event_id": "90000001_e00061",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 61,
+      "seq_in_scene": 61,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "有何不可。如此，献丑了！",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00062",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 62,
+      "seq_in_scene": 62,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "忆从天上谪红尘，游戏人间十六春。苍生涂炭难怜悯，略施小伎呈奇能。且取双剑来舞定，",
+      "text_length": 40
+    },
+    {
+      "event_id": "90000001_e00063",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 63,
+      "seq_in_scene": 63,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "红线舞剑。",
+      "text_length": 5
+    },
+    {
+      "event_id": "90000001_e00064",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 64,
+      "seq_in_scene": 64,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "红线"
+      ],
+      "text": "望求大人指示分明。",
+      "text_length": 9
+    },
+    {
+      "event_id": "90000001_e00065",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 65,
+      "seq_in_scene": 65,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "妙极，妙极！真乃神人也！",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00066",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 66,
+      "seq_in_scene": 66,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "红线"
+      ],
+      "text": "大人夸奖了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "90000001_e00067",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 67,
+      "seq_in_scene": 67,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "啊亲家，你帐下有这样的无意剑侠，乃国家之幸也！悔不该当初屡动干戈，承嗣悔之晚矣！今日你我不免两家和好，何怕外寇侵犯西河之岸？天下太平，免动刀枪，乃黎民百姓安宁之福也！",
+      "text_length": 83
+    },
+    {
+      "event_id": "90000001_e00068",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 68,
+      "seq_in_scene": 68,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "亲翁之言，正合我意，我早已吩咐下去宰猪杀羊，为两家和好与军民共欢！",
+      "text_length": 33
+    },
+    {
+      "event_id": "90000001_e00069",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 69,
+      "seq_in_scene": 69,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "田承嗣"
+      ],
+      "text": "如此，大人请！",
+      "text_length": 7
+    },
+    {
+      "event_id": "90000001_e00070",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 70,
+      "seq_in_scene": 70,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "请！军士们！痛饮几杯呀！",
+      "text_length": 12
+    },
+    {
+      "event_id": "90000001_e00071",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 71,
+      "seq_in_scene": 71,
+      "page_no": 3,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "薛嵩"
+      ],
+      "text": "哈哈哈哈……",
+      "text_length": 6
+    },
+    {
+      "event_id": "90000001_e00072",
+      "play_id": "90000001",
+      "scene_id": "90000001_s01",
+      "scene_no": 1,
+      "seq_global": 72,
+      "seq_in_scene": 72,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "同下。",
+      "text_length": 3
+    }
+  ],
+  "roles_inferred": true
+}

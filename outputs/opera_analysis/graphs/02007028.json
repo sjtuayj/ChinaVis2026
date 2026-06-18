@@ -1,0 +1,190 @@
+{
+  "play": {
+    "play_id": "02007028",
+    "title": "目莲记",
+    "pdf_name": "02007028_目莲记【头本】.pdf",
+    "group_id": "02000000",
+    "page_count": 6,
+    "scene_count": 2,
+    "speech_count": 60,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/02007028",
+    "source_date": "2018-08-23",
+    "synopsis_length": 152,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 13,
+      "spoken": 39,
+      "singing": 5,
+      "recitation": 2,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 57.5,
+    "max_edge_weight": 63,
+    "top_characters": [
+      {
+        "name": "刘青提",
+        "hangdang": "老旦",
+        "speech_count": 24,
+        "degree": 3,
+        "weighted_degree": 89
+      },
+      {
+        "name": "罗卜",
+        "hangdang": "未知",
+        "speech_count": 24,
+        "degree": 3,
+        "weighted_degree": 88
+      },
+      {
+        "name": "益利",
+        "hangdang": "未知",
+        "speech_count": 10,
+        "degree": 3,
+        "weighted_degree": 42
+      },
+      {
+        "name": "金奴",
+        "hangdang": "旦",
+        "speech_count": 2,
+        "degree": 3,
+        "weighted_degree": 11
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘青提",
+      "label": "刘青提",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 24,
+      "text_length": 1105,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 89,
+      "marker_category_counts": {
+        "other": 5,
+        "spoken": 18,
+        "singing": 1
+      }
+    },
+    {
+      "id": "罗卜",
+      "label": "罗卜",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 24,
+      "text_length": 1264,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 88,
+      "marker_category_counts": {
+        "other": 6,
+        "spoken": 16,
+        "singing": 2
+      }
+    },
+    {
+      "id": "益利",
+      "label": "益利",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 462,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 3,
+        "singing": 2,
+        "other": 2,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "金奴",
+      "label": "金奴",
+      "raw_role": "小旦",
+      "hangdang": "旦",
+      "speech_count": 2,
+      "text_length": 13,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘青提",
+      "target": "罗卜",
+      "weight": 63,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 31,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "益利",
+      "target": "罗卜",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "益利",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘青提",
+      "target": "金奴",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "益利",
+      "target": "金奴",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "罗卜",
+      "target": "金奴",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

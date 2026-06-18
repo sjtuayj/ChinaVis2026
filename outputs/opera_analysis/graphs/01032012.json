@@ -1,0 +1,165 @@
+{
+  "play": {
+    "play_id": "01032012",
+    "title": "浣纱溪",
+    "pdf_name": "01032012_浣纱溪.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 4,
+    "speech_count": 61,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01032012",
+    "source_date": "2013-06-30",
+    "synopsis_length": 456,
+    "notes_length": 143,
+    "marker_category_counts": {
+      "other": 2,
+      "recitation": 1,
+      "spoken": 53,
+      "singing": 5
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 50.0,
+    "max_edge_weight": 61,
+    "top_characters": [
+      {
+        "name": "范蠡",
+        "hangdang": "老生",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 99
+      },
+      {
+        "name": "东施",
+        "hangdang": "彩旦",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 62
+      },
+      {
+        "name": "西施",
+        "hangdang": "旦",
+        "speech_count": 9,
+        "degree": 1,
+        "weighted_degree": 29
+      },
+      {
+        "name": "众人",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "范蠡",
+      "label": "范蠡",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 30,
+      "text_length": 1128,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 27,
+        "singing": 2
+      }
+    },
+    {
+      "id": "东施",
+      "label": "东施",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 20,
+      "text_length": 912,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 62,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "西施",
+      "label": "西施",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 9,
+      "text_length": 596,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 3,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "众人",
+      "label": "众人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "东施",
+      "target": "范蠡",
+      "weight": 61,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 30,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "范蠡",
+      "target": "西施",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "众人",
+      "target": "范蠡",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "东施",
+      "target": "众人",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "play": {
+    "play_id": "01013017",
+    "title": "药茶计",
+    "pdf_name": "01013017_药茶计.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 3,
+    "speech_count": 59,
+    "character_count": 7,
+    "source_url": "http://scripts.xikao.com/play/01013017",
+    "source_date": "2018-08-23",
+    "synopsis_length": 247,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 1,
+      "spoken": 53,
+      "other": 4,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "avg_weighted_degree": 35.142857,
+    "max_edge_weight": 43,
+    "top_characters": [
+      {
+        "name": "王氏",
+        "hangdang": "老旦",
+        "speech_count": 20,
+        "degree": 6,
+        "weighted_degree": 72
+      },
+      {
+        "name": "张浪子",
+        "hangdang": "丑",
+        "speech_count": 12,
+        "degree": 6,
+        "weighted_degree": 48
+      },
+      {
+        "name": "王清天",
+        "hangdang": "老生",
+        "speech_count": 12,
+        "degree": 6,
+        "weighted_degree": 46
+      },
+      {
+        "name": "二刽子手",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 6,
+        "weighted_degree": 30
+      },
+      {
+        "name": "太监",
+        "hangdang": "未知",
+        "speech_count": 6,
+        "degree": 6,
+        "weighted_degree": 26
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王氏",
+      "label": "王氏",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 20,
+      "text_length": 1110,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 72,
+      "marker_category_counts": {
+        "spoken": 15,
+        "other": 4,
+        "singing": 1
+      }
+    },
+    {
+      "id": "张浪子",
+      "label": "张浪子",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 12,
+      "text_length": 503,
+      "scene_count": 3,
+      "degree": 6,
+      "weighted_degree": 48,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "王清天",
+      "label": "王清天",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 12,
+      "text_length": 159,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 46,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "二刽子手",
+      "label": "二刽子手",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 49,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "太监",
+      "label": "太监",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 6,
+      "text_length": 103,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 26,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "郎二虎",
+      "label": "郎二虎",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 13,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 14,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "朗二虎",
+      "label": "朗二虎",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 6,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张浪子",
+      "target": "王氏",
+      "weight": 43,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "王清天",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "王清天",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "王氏",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王氏",
+      "target": "郎二虎",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朗二虎",
+      "target": "王氏",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王氏",
+      "target": "王清天",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "太监",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "张浪子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "朗二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二刽子手",
+      "target": "郎二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "张浪子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "朗二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "王氏",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "太监",
+      "target": "郎二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张浪子",
+      "target": "朗二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张浪子",
+      "target": "王清天",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张浪子",
+      "target": "郎二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朗二虎",
+      "target": "王清天",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "朗二虎",
+      "target": "郎二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王清天",
+      "target": "郎二虎",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

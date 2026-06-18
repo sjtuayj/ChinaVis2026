@@ -1,0 +1,2601 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "01016003",
+    "title": "单刀赴会",
+    "aliases": [],
+    "collection_id": "01000000",
+    "collection_name": "《戏考》",
+    "collection_remark": "《戏考》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/01000000/01016003_单刀赴会.pdf",
+    "source_url": "http://scripts.xikao.com/play/01016003",
+    "source_date": "2018-08-23",
+    "page_count": 5,
+    "file_size_bytes": 406780,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "刘备既得益州，东吴又欲索讨荆州，刘备许以先割三郡，关公不与。鲁肃设宴于临江亭，预设埋伏，邀关公赴会，以为要挟之地步。关公坦然不疑，只身而往，只有周仓带刀相随，并不预备军马。饮宴间，关公神色自若。鲁肃提起荆州一事，关公力争为汉家土地，不肯让人。佯醉告辞，挟鲁肃以送行。至舟傍，方始释手。东吴诸将，惮关公之神威，且恐伤自己主帅，俱匿不敢出，关公遂安然回荆州云。",
+    "notes": [
+      "剧本事实，无甚差别。其中间带《训子》一段，系属吹腔。昆剧中《刀会·训子》，俱是连带串演，大约由",
+      "昆剧翻入京剧耳。按正史《吴志·鲁肃传》：肃住益阳，邀公相见，各驻兵马百步外，但诸将军单刀与会",
+      "（言两军之将与会时各配一刀，非谓关公只携一刀赴会也）。肃责数公曰：国家以土地借卿家者，卿家军败远",
+      "来，无以为资故也。今已得益州，既无奉还之意，且求三郡，又不奉命。语未竟。坐有一人（不言姓氏，罗",
+      "贯中《三国演义》谓即周仓）曰：夫土地者，唯德所在耳，何常之有。肃厉声呵之，辞色甚切。公操刀起谓",
+      "曰：此是国家事，是何人知。目使之去。今《单刀会》一出之所从出也。刘宜化《三国策》，载关公在会时，",
+      "答鲁肃之言曰：“昔高祖除暴秦而创洪基，光武驱新乱而复旧物；豫洲帝室胄，军侯所知也。因天下乱，",
+      "出死力，百战而有一州。此弹丸之地，即封土不为过。而讨虏坐拥江东之众，此岂有功德在世。俨然受南面",
+      "之赏。不过乘中州之乱，因而攘夺之而。天命未改，尺土汉有也。吾久不向足下取全吴，而足下更从吾取三",
+      "郡，此吾所不解也！”肃不能答。此数语，义正词严，足令闻者惊心动魄。当日东吴诸将，自不敢鲁莽从事。",
+      "后人读史至此，犹觉凛凛有生气也。",
+      "根据《戏考》第十六册整理"
+    ],
+    "story_period": {
+      "label": "三国",
+      "evidence": "魏、吴、刘备、关羽",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.78,
+      "evidence": [
+        "关",
+        "将",
+        "刀",
+        "马"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": "红生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 30,
+        "aria_count": 8,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "红生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关羽：红生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_鲁肃",
+      "name": "鲁肃",
+      "original_category": "末",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 21,
+        "aria_count": 2,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "末",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：鲁肃：末"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周仓",
+      "name": "周仓",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：周仓：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_关平",
+      "name": "关平",
+      "original_category": "小生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "小生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关平：小生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵卒",
+      "name": "兵卒",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_众水手",
+      "name": "众水手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四水手",
+      "name": "四水手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "智谋",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_探子",
+      "name": "探子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_甘宁",
+      "name": "甘宁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_陈武",
+      "name": "陈武",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_周泰",
+      "name": "周泰",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    },
+    {
+      "role_id": "r_吴将",
+      "name": "吴将",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "智谋",
+        "勇武",
+        "谨慎"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "关羽",
+        "周仓",
+        "兵卒",
+        "关平"
+      ],
+      "event_ids": [
+        "01016003_e00001",
+        "01016003_e00002",
+        "01016003_e00003",
+        "01016003_e00004",
+        "01016003_e00005",
+        "01016003_e00006",
+        "01016003_e00007",
+        "01016003_e00008",
+        "01016003_e00009",
+        "01016003_e00010",
+        "01016003_e00011",
+        "01016003_e00012",
+        "01016003_e00013",
+        "01016003_e00014",
+        "01016003_e00015",
+        "01016003_e00016",
+        "01016003_e00017",
+        "01016003_e00018",
+        "01016003_e00019",
+        "01016003_e00020",
+        "01016003_e00021",
+        "01016003_e00022",
+        "01016003_e00023",
+        "01016003_e00024",
+        "01016003_e00025",
+        "01016003_e00026",
+        "01016003_e00027",
+        "01016003_e00028",
+        "01016003_e00029",
+        "01016003_e00030",
+        "01016003_e00031",
+        "01016003_e00032",
+        "01016003_e00033",
+        "01016003_e00034",
+        "01016003_e00035",
+        "01016003_e00036"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 36,
+        "spoken_count": 25,
+        "aria_count": 1,
+        "recitation_count": 2,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 805
+      }
+    },
+    {
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 2,
+      "page_end": 3,
+      "characters": [
+        "周仓",
+        "关羽",
+        "众水手",
+        "四水手"
+      ],
+      "event_ids": [
+        "01016003_e00037",
+        "01016003_e00038",
+        "01016003_e00039",
+        "01016003_e00040",
+        "01016003_e00041",
+        "01016003_e00042",
+        "01016003_e00043",
+        "01016003_e00044",
+        "01016003_e00045",
+        "01016003_e00046",
+        "01016003_e00047",
+        "01016003_e00048",
+        "01016003_e00049",
+        "01016003_e00050",
+        "01016003_e00051",
+        "01016003_e00052",
+        "01016003_e00053"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 17,
+        "spoken_count": 10,
+        "aria_count": 3,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 222
+      }
+    },
+    {
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [
+        "鲁肃",
+        "探子"
+      ],
+      "event_ids": [
+        "01016003_e00054",
+        "01016003_e00055",
+        "01016003_e00056",
+        "01016003_e00057",
+        "01016003_e00058",
+        "01016003_e00059",
+        "01016003_e00060",
+        "01016003_e00061"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 8,
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 62
+      }
+    },
+    {
+      "scene_id": "01016003_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [],
+      "event_ids": [
+        "01016003_e00062"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 1,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 1,
+        "expression_count": 0,
+        "text_length": 36
+      }
+    },
+    {
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 3,
+      "page_end": 5,
+      "characters": [
+        "鲁肃",
+        "关羽",
+        "甘宁",
+        "周仓",
+        "陈武",
+        "周泰",
+        "吴将"
+      ],
+      "event_ids": [
+        "01016003_e00063",
+        "01016003_e00064",
+        "01016003_e00065",
+        "01016003_e00066",
+        "01016003_e00067",
+        "01016003_e00068",
+        "01016003_e00069",
+        "01016003_e00070",
+        "01016003_e00071",
+        "01016003_e00072",
+        "01016003_e00073",
+        "01016003_e00074",
+        "01016003_e00075",
+        "01016003_e00076",
+        "01016003_e00077",
+        "01016003_e00078",
+        "01016003_e00079",
+        "01016003_e00080",
+        "01016003_e00081",
+        "01016003_e00082",
+        "01016003_e00083",
+        "01016003_e00084",
+        "01016003_e00085",
+        "01016003_e00086",
+        "01016003_e00087",
+        "01016003_e00088",
+        "01016003_e00089",
+        "01016003_e00090",
+        "01016003_e00091",
+        "01016003_e00092",
+        "01016003_e00093",
+        "01016003_e00094",
+        "01016003_e00095",
+        "01016003_e00096",
+        "01016003_e00097",
+        "01016003_e00098",
+        "01016003_e00099",
+        "01016003_e00100",
+        "01016003_e00101",
+        "01016003_e00102",
+        "01016003_e00103",
+        "01016003_e00104",
+        "01016003_e00105",
+        "01016003_e00106",
+        "01016003_e00107",
+        "01016003_e00108",
+        "01016003_e00109",
+        "01016003_e00110",
+        "01016003_e00111",
+        "01016003_e00112",
+        "01016003_e00113",
+        "01016003_e00114",
+        "01016003_e00115",
+        "01016003_e00116",
+        "01016003_e00117",
+        "01016003_e00118",
+        "01016003_e00119",
+        "01016003_e00120",
+        "01016003_e00121"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 59,
+        "spoken_count": 42,
+        "aria_count": 6,
+        "recitation_count": 1,
+        "stage_direction_count": 10,
+        "expression_count": 0,
+        "text_length": 1124
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "01016003_e00001",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00002",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "凤眼蚕眉，须苍白，耀武扬威。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00003",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "周仓持刀、关平抱印同上，两边摆像。",
+      "text_length": 17
+    },
+    {
+      "event_id": "01016003_e00004",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "秉烛待旦天下仰。展经纶，声震吴魏。",
+      "text_length": 17
+    },
+    {
+      "event_id": "01016003_e00005",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "赤面长髯武艺强，兵机战策腹内藏。青龙、赤兔无人挡，统领雄兵镇荆襄。",
+      "text_length": 33
+    },
+    {
+      "event_id": "01016003_e00006",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某，汉寿亭侯。今奉军师之命，镇守荆州一带等处。可恨孙权，每每着人前来讨取荆州。是俺再三不与，那厮定必不能罢休。周仓，",
+      "text_length": 58
+    },
+    {
+      "event_id": "01016003_e00007",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "在此伺候。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00008",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00009",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "离了东吴地，来此是荆州。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01016003_e00010",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有人么？",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00011",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "什么人？",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00012",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "东吴下书人求见。",
+      "text_length": 8
+    },
+    {
+      "event_id": "01016003_e00013",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "启主公：东吴下书人求见。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01016003_e00014",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "传。",
+      "text_length": 2
+    },
+    {
+      "event_id": "01016003_e00015",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "传你进去，你要小心了。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00016",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "叩见关将军。",
+      "text_length": 6
+    },
+    {
+      "event_id": "01016003_e00017",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "你奉何人所差？",
+      "text_length": 7
+    },
+    {
+      "event_id": "01016003_e00018",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "奉鲁大夫所差，有书信呈上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "01016003_e00019",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "呈上来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00020",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒呈书信。〖牌子〗。关羽看。",
+      "text_length": 15
+    },
+    {
+      "event_id": "01016003_e00021",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "你对鲁大夫言道：修书不及，照书行事。",
+      "text_length": 18
+    },
+    {
+      "event_id": "01016003_e00022",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "遵命。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00023",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00024",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "原来鲁肃前来，邀请某过江饮宴。",
+      "text_length": 15
+    },
+    {
+      "event_id": "01016003_e00025",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "鲁肃约请父亲饮宴，断无好意，父亲不可前去。",
+      "text_length": 21
+    },
+    {
+      "event_id": "01016003_e00026",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某若不去，岂不被东吴耻笑？",
+      "text_length": 13
+    },
+    {
+      "event_id": "01016003_e00027",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "虽然如此，父亲岂可以万金之躯，轻入虎穴？倘有差池，怎能对得皇伯？",
+      "text_length": 32
+    },
+    {
+      "event_id": "01016003_e00028",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "想某家出兵多年，纵横天下，岂惧那东吴小辈！",
+      "text_length": 21
+    },
+    {
+      "event_id": "01016003_e00029",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 29,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "父亲一定前去，必须多带人马。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00030",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 30,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "只用大船一只，挑选关西大汉数名，在船中服役。周仓一人跟随。船上插红旗一面，再备白旗一面，暗藏船中。吾儿准备战船二十只，领精兵一千名，在江心伺候。倘若东吴有诈，那时将白旗摆动，吾儿带兵急速接应，料无妨碍也。",
+      "text_length": 102
+    },
+    {
+      "event_id": "01016003_e00031",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 31,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "遵命。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00032",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 32,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "关平儿随为父出兵多年，尚不深悉用兵之道。站立一旁，听为父教训。",
+      "text_length": 31
+    },
+    {
+      "event_id": "01016003_e00033",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 33,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关平"
+      ],
+      "text": "遵命。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00034",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 34,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "为将帅者，必须要通晓天文，深明地理，熟读兵书，通习战策。统兵出战，更须足智多谋。治兵以纪律为先，临阵以精细为上。统率将士，体恤人心，宽以济猛，猛以济宽；有功则赏，有过者罚。交锋之际，量自己之强弱，查敌人之虚实。有道是：“知彼知己，百战百胜。”乘其未至，攻其不备。运筹帷幄之中，决胜千里之外。诈败不可紧追，得胜不可妄进。安营扎寨，靠山近水。深林防埋伏，苇塘防火攻。战无不胜，攻无不取。此所谓行军之诀也。",
+      "text_length": 200
+    },
+    {
+      "event_id": "01016003_e00035",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 35,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "用兵之道须谨慎，临阵交锋要小心。随机应变莫妄进，得胜成功休逞能。因地制宜安了寨，靠山近水扎大营。偷营劫寨心拿稳，旗开得胜把功成。",
+      "text_length": 64
+    },
+    {
+      "event_id": "01016003_e00036",
+      "play_id": "01016003",
+      "scene_id": "01016003_s01",
+      "scene_no": 1,
+      "seq_global": 36,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、关平、周仓同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00037",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四水手同上船，依岸，同转场，同下。周仓上，摆式，亮驾，舞刀。",
+      "text_length": 30
+    },
+    {
+      "event_id": "01016003_e00038",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "请主公！",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00039",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽上。〖吹打〗。关羽上船。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00040",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "上得船来，好一派江景。周仓，",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00041",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "01016003_e00042",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "解缆开船。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00043",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "咋。众水手，",
+      "text_length": 6
+    },
+    {
+      "event_id": "01016003_e00044",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "众水手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "01016003_e00045",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "开船。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00046",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。关羽唱。场面用笛子。",
+      "text_length": 15
+    },
+    {
+      "event_id": "01016003_e00047",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "上船来只觉得神清气爽，",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00048",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "二黄原板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "推楼窗丹凤眼细看端详：大舟船千百只均靠岸上，小舟船密匝匝好似蜂房。微风起淡云收天晴日朗，绿澄澄波浪平水接天光。耳边厢又听得人声喧嚷，又只见东吴兵排列两厢。叫仓将，将舟船依靠岸上，",
+      "text_length": 89
+    },
+    {
+      "event_id": "01016003_e00049",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "二黄摇板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "你随某下船去细看端详。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00050",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "水手的！",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00051",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四水手"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "01016003_e00052",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "将船靠岸。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00053",
+      "play_id": "01016003",
+      "scene_id": "01016003_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00054",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 54,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套同上，鲁肃上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00055",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 55,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "准备酒宴请关公，只为要讨荆州城。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01016003_e00056",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 56,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00057",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 57,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "关公到。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00058",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 58,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "再探。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00059",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 59,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00060",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 60,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "来，摆队迎接。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01016003_e00061",
+      "play_id": "01016003",
+      "scene_id": "01016003_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。鲁肃、四龙套同下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00062",
+      "play_id": "01016003",
+      "scene_id": "01016003_s04",
+      "scene_no": 4,
+      "seq_global": 62,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "甘宁、周仓自两边分上，同比式子。四龙套、鲁肃、关羽自两边分上。众人同下。",
+      "text_length": 36
+    },
+    {
+      "event_id": "01016003_e00063",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 63,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、鲁肃、甘宁、关羽、周仓同上，鲁肃、关羽同坐。",
+      "text_length": 26
+    },
+    {
+      "event_id": "01016003_e00064",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 64,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯驾到，肃，未曾远迎，望祈恕罪。",
+      "text_length": 17
+    },
+    {
+      "event_id": "01016003_e00065",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 65,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某家久未致侯，大夫恕罪。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01016003_e00066",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 66,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "岂敢。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00067",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 67,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "大夫见召，足见多情。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00068",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 68,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "甘宁"
+      ],
+      "text": "宴齐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00069",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 69,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "摆宴。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00070",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 70,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "细吹打。四龙套同送酒。",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00071",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 71,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯请酒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00072",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 72,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "01016003_e00073",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 73,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。鲁肃、关羽同饮酒。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00074",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 74,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯海量，今日还须多饮数杯。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00075",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 75,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "叨扰了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00076",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 76,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "在吴江与大夫共饮琼浆，在筵前细听我诉说衷肠：想当年破黄巾东除西荡，战吕布，杀文丑，斩却颜良。数十载动干戈未离马上，奉主命统大兵坐镇荆襄。今日里饮酒在临江亭上，蒙厚意备酒宴甚实叨光。",
+      "text_length": 90
+    },
+    {
+      "event_id": "01016003_e00077",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 77,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯说话太谦让，鲁肃言来细听端详：盖世功劳人人钦仰，灭黄巾破吕布天下名扬。叫人来看大杯把酒献上，蒙大驾肯惠临东吴有光。",
+      "text_length": 59
+    },
+    {
+      "event_id": "01016003_e00078",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 78,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯辱临，定要畅饮一回。想当年君侯辞曹以后，过五关，斩六将，单骑千里之时，可能说与肃一听否？",
+      "text_length": 46
+    },
+    {
+      "event_id": "01016003_e00079",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 79,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "大夫若不嫌絮烦，待某手舞足蹈，细讲一番。",
+      "text_length": 20
+    },
+    {
+      "event_id": "01016003_e00080",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 80,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯请讲。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00081",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 81,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "听道：",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00082",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 82,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "吹腔慢板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "想当年曹营多安享，为寻兄长出许昌。挂印封金阳关上，沿途关口动刀枪。孔秀、孟坦刀下丧，韩福、王植马前亡。普净禅师机关泄漏，卞喜被某剑劈在庙廊。黄河渡口将俺阻挡，刀砍秦琪丧无常。古城之下摆战场，擂鼓三通斩蔡阳。",
+      "text_length": 103
+    },
+    {
+      "event_id": "01016003_e00083",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 83,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯武艺无敌，可谓是天神也！",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00084",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 84,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "吹腔慢板",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "似这等神勇无人敢挡，博得美名天下扬。",
+      "text_length": 18
+    },
+    {
+      "event_id": "01016003_e00085",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 85,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯，鲁肃有一言，不知当讲不当讲？",
+      "text_length": 17
+    },
+    {
+      "event_id": "01016003_e00086",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 86,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "有何金言，当面领教。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00087",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 87,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "只因当年皇叔，借去我国荆州，屯军养马。那时曾经言道：日后得了西川，即将荆州交还我主。前次我国先生诸葛瑾曾到西川，奉皇叔之命，领取荆州。君侯再三不与，不只是何道理？",
+      "text_length": 81
+    },
+    {
+      "event_id": "01016003_e00088",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 88,
+      "seq_in_scene": 26,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "今日饮宴，乃是朋友人情，军国大事，不须提起。",
+      "text_length": 22
+    },
+    {
+      "event_id": "01016003_e00089",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 89,
+      "seq_in_scene": 27,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "这……还要君侯裁夺。",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00090",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 90,
+      "seq_in_scene": 28,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鸣小锣。",
+      "text_length": 4
+    },
+    {
+      "event_id": "01016003_e00091",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 91,
+      "seq_in_scene": 29,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "吓！这是什么响亮？",
+      "text_length": 9
+    },
+    {
+      "event_id": "01016003_e00092",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 92,
+      "seq_in_scene": 30,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "乃是我的宝刀啸声。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01016003_e00093",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 93,
+      "seq_in_scene": 31,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "是君侯刀啸？",
+      "text_length": 6
+    },
+    {
+      "event_id": "01016003_e00094",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 94,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "正是。",
+      "text_length": 3
+    },
+    {
+      "event_id": "01016003_e00095",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 95,
+      "seq_in_scene": 33,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "但不知这刀，几年一啸？",
+      "text_length": 11
+    },
+    {
+      "event_id": "01016003_e00096",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 96,
+      "seq_in_scene": 34,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "此刀，自某在范阳桃园结拜以来，即有此刀。至今数十余年。连今日，只啸三次。",
+      "text_length": 36
+    },
+    {
+      "event_id": "01016003_e00097",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 97,
+      "seq_in_scene": 35,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "但不知刀啸主何吉凶？",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00098",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 98,
+      "seq_in_scene": 36,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "也不过是杀人而已。",
+      "text_length": 9
+    },
+    {
+      "event_id": "01016003_e00099",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 99,
+      "seq_in_scene": 37,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "何以见得？",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00100",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 100,
+      "seq_in_scene": 38,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "第一次刀啸，应在斩颜良诛文丑；第二次刀啸，应在过五关斩六将；今日刀啸，只恐怕要应在大夫的身上。",
+      "text_length": 47
+    },
+    {
+      "event_id": "01016003_e00101",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 101,
+      "seq_in_scene": 39,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "鲁肃吓倒，四龙套同扶鲁肃起。",
+      "text_length": 14
+    },
+    {
+      "event_id": "01016003_e00102",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 102,
+      "seq_in_scene": 40,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "周仓，看刀来。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01016003_e00103",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 103,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽持酒接刀。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01016003_e00104",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 104,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "刀吓，青龙刀！想你随某出兵多年，也不知斩了多少上将。今日鲁大夫设宴相邀，在临江亭上饮酒，你也要饮得一杯。",
+      "text_length": 52
+    },
+    {
+      "event_id": "01016003_e00105",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 105,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽泼酒。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00106",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 106,
+      "seq_in_scene": 44,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "吹腔慢板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "青龙偃月白光凝，能征惯战血染红。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01016003_e00107",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 107,
+      "seq_in_scene": 45,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "君侯再饮几杯。",
+      "text_length": 7
+    },
+    {
+      "event_id": "01016003_e00108",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 108,
+      "seq_in_scene": 46,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "酒已够了，某家要告辞了。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01016003_e00109",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 109,
+      "seq_in_scene": 47,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽接刀拉鲁肃。",
+      "text_length": 8
+    },
+    {
+      "event_id": "01016003_e00110",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 110,
+      "seq_in_scene": 48,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "吹腔慢板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "多蒙大夫情意厚，醉酒饱德意悠悠。常言三杯和万事，一醉便能解千愁。",
+      "text_length": 32
+    },
+    {
+      "event_id": "01016003_e00111",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 111,
+      "seq_in_scene": 49,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "周仓"
+      ],
+      "text": "搭了扶手。",
+      "text_length": 5
+    },
+    {
+      "event_id": "01016003_e00112",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 112,
+      "seq_in_scene": 50,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "大夫，某深感盛情，多谢了！",
+      "text_length": 13
+    },
+    {
+      "event_id": "01016003_e00113",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 113,
+      "seq_in_scene": 51,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "开船。关羽、周仓同下。陈武、周泰、甘宁、吴将同上。",
+      "text_length": 25
+    },
+    {
+      "event_id": "01016003_e00114",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 114,
+      "seq_in_scene": 52,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "陈武",
+        "周泰",
+        "甘宁",
+        "吴将"
+      ],
+      "text": "大夫为何将关公放走？",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00115",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 115,
+      "seq_in_scene": 53,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "列位将军吓，看那关公。虽然言语和悦，他面带杀气，他提刀在手。我鲁肃若一言动手，他必先杀我鲁肃。",
+      "text_length": 47
+    },
+    {
+      "event_id": "01016003_e00116",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 116,
+      "seq_in_scene": 54,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "陈武",
+        "周泰",
+        "甘宁",
+        "吴将"
+      ],
+      "text": "此计岂不是又不成了？",
+      "text_length": 10
+    },
+    {
+      "event_id": "01016003_e00117",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 117,
+      "seq_in_scene": 55,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "陈武",
+        "周泰"
+      ],
+      "text": "不若我等驾起船只，领兵赶上前去。",
+      "text_length": 16
+    },
+    {
+      "event_id": "01016003_e00118",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 118,
+      "seq_in_scene": 56,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "甘宁"
+      ],
+      "text": "你看那江心之内，有许多兵船，定是他国接应。我等万万不可前去。",
+      "text_length": 30
+    },
+    {
+      "event_id": "01016003_e00119",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 119,
+      "seq_in_scene": 57,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "此计既已成画饼，只好另作良图便了。正是：",
+      "text_length": 20
+    },
+    {
+      "event_id": "01016003_e00120",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 120,
+      "seq_in_scene": 58,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "鲁肃"
+      ],
+      "text": "用尽千般计，仍旧一场空。",
+      "text_length": 12
+    },
+    {
+      "event_id": "01016003_e00121",
+      "play_id": "01016003",
+      "scene_id": "01016003_s05",
+      "scene_no": 5,
+      "seq_global": 121,
+      "seq_in_scene": 59,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    }
+  ],
+  "roles_inferred": true
+}

@@ -1,0 +1,225 @@
+{
+  "play": {
+    "play_id": "01001004",
+    "title": "乌盆计",
+    "pdf_name": "01001004_乌盆计【后本】.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 2,
+    "speech_count": 232,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01001004",
+    "source_date": "2013-08-22",
+    "synopsis_length": 151,
+    "notes_length": 68,
+    "marker_category_counts": {
+      "spoken": 218,
+      "recitation": 1,
+      "singing": 11,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 8,
+    "density": 0.8,
+    "avg_degree": 3.2,
+    "avg_weighted_degree": 178.8,
+    "max_edge_weight": 153,
+    "top_characters": [
+      {
+        "name": "张别古",
+        "hangdang": "丑",
+        "speech_count": 103,
+        "degree": 4,
+        "weighted_degree": 397
+      },
+      {
+        "name": "刘世昌",
+        "hangdang": "老生",
+        "speech_count": 41,
+        "degree": 4,
+        "weighted_degree": 169
+      },
+      {
+        "name": "赵大",
+        "hangdang": "丑",
+        "speech_count": 42,
+        "degree": 2,
+        "weighted_degree": 154
+      },
+      {
+        "name": "包拯",
+        "hangdang": "净",
+        "speech_count": 34,
+        "degree": 3,
+        "weighted_degree": 123
+      },
+      {
+        "name": "二衙役",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 51
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张别古",
+      "label": "张别古",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 103,
+      "text_length": 2452,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 397,
+      "marker_category_counts": {
+        "spoken": 103
+      }
+    },
+    {
+      "id": "刘世昌",
+      "label": "刘世昌",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 41,
+      "text_length": 694,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 169,
+      "marker_category_counts": {
+        "spoken": 30,
+        "singing": 11
+      }
+    },
+    {
+      "id": "赵大",
+      "label": "赵大",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 42,
+      "text_length": 500,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 154,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 41
+      }
+    },
+    {
+      "id": "包拯",
+      "label": "包拯",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 34,
+      "text_length": 392,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 123,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 32
+      }
+    },
+    {
+      "id": "二衙役",
+      "label": "二衙役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 78,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张别古",
+      "target": "赵大",
+      "weight": 153,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 76,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘世昌",
+      "target": "张别古",
+      "weight": 146,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 72,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "包拯",
+      "target": "张别古",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "包拯",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "张别古",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘世昌",
+      "target": "包拯",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "刘世昌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘世昌",
+      "target": "赵大",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

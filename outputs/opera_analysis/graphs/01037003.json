@@ -1,0 +1,175 @@
+{
+  "play": {
+    "play_id": "01037003",
+    "title": "三字经",
+    "pdf_name": "01037003_三字经.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 128,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01037003",
+    "source_date": "2013-03-18",
+    "synopsis_length": 383,
+    "notes_length": 238,
+    "marker_category_counts": {
+      "recitation": 5,
+      "other": 1,
+      "spoken": 122
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 5,
+    "density": 0.833333,
+    "avg_degree": 2.5,
+    "avg_weighted_degree": 128.0,
+    "max_edge_weight": 86,
+    "top_characters": [
+      {
+        "name": "温韬",
+        "hangdang": "净",
+        "speech_count": 46,
+        "degree": 3,
+        "weighted_degree": 186
+      },
+      {
+        "name": "关卞",
+        "hangdang": "丑",
+        "speech_count": 39,
+        "degree": 3,
+        "weighted_degree": 156
+      },
+      {
+        "name": "罗英",
+        "hangdang": "老生",
+        "speech_count": 36,
+        "degree": 2,
+        "weighted_degree": 140
+      },
+      {
+        "name": "旗牌",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 2,
+        "weighted_degree": 30
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "温韬",
+      "label": "温韬",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 46,
+      "text_length": 1035,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 186,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 44,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "关卞",
+      "label": "关卞",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 39,
+      "text_length": 611,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 156,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 38
+      }
+    },
+    {
+      "id": "罗英",
+      "label": "罗英",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 36,
+      "text_length": 2324,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 140,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 34
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 84,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 30,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关卞",
+      "target": "温韬",
+      "weight": 86,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 42,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "温韬",
+      "target": "罗英",
+      "weight": 83,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 41,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "罗英",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "温韬",
+      "weight": 17,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "旗牌",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

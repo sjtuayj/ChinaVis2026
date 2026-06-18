@@ -1,0 +1,174 @@
+{
+  "play": {
+    "play_id": "01010014",
+    "title": "卖饽饽",
+    "pdf_name": "01010014_卖饽饽.pdf",
+    "group_id": "01000000",
+    "page_count": 8,
+    "scene_count": 2,
+    "speech_count": 287,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01010014",
+    "source_date": "2013-03-20",
+    "synopsis_length": 114,
+    "notes_length": 29,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 281,
+      "singing": 3
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 5,
+    "density": 0.833333,
+    "avg_degree": 2.5,
+    "avg_weighted_degree": 282.0,
+    "max_edge_weight": 272,
+    "top_characters": [
+      {
+        "name": "差役",
+        "hangdang": "丑",
+        "speech_count": 106,
+        "degree": 3,
+        "weighted_degree": 420
+      },
+      {
+        "name": "魏虎",
+        "hangdang": "丑",
+        "speech_count": 105,
+        "degree": 3,
+        "weighted_degree": 416
+      },
+      {
+        "name": "王氏",
+        "hangdang": "花旦",
+        "speech_count": 62,
+        "degree": 2,
+        "weighted_degree": 238
+      },
+      {
+        "name": "禁子",
+        "hangdang": "未知",
+        "speech_count": 14,
+        "degree": 2,
+        "weighted_degree": 54
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "差役",
+      "label": "差役",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 106,
+      "text_length": 1251,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 420,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 105
+      }
+    },
+    {
+      "id": "魏虎",
+      "label": "魏虎",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 105,
+      "text_length": 1403,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 416,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 101,
+        "singing": 3
+      }
+    },
+    {
+      "id": "王氏",
+      "label": "王氏",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 62,
+      "text_length": 930,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 238,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 61
+      }
+    },
+    {
+      "id": "禁子",
+      "label": "禁子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 14,
+      "text_length": 97,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "spoken": 14
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "差役",
+      "target": "魏虎",
+      "weight": 272,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 135,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "差役",
+      "target": "王氏",
+      "weight": 129,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 64,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "王氏",
+      "target": "魏虎",
+      "weight": 109,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 54,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "禁子",
+      "target": "魏虎",
+      "weight": 35,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 17,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "差役",
+      "target": "禁子",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

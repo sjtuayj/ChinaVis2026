@@ -1,0 +1,89 @@
+{
+  "play": {
+    "play_id": "02004053",
+    "title": "探营",
+    "pdf_name": "02004053_探营.pdf",
+    "group_id": "02000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 16,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/02004053",
+    "source_date": "2018-08-23",
+    "synopsis_length": 86,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 11,
+      "singing": 4
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 29.0,
+    "max_edge_weight": 29,
+    "top_characters": [
+      {
+        "name": "姜维",
+        "hangdang": "武生",
+        "speech_count": 9,
+        "degree": 1,
+        "weighted_degree": 29
+      },
+      {
+        "name": "马岱",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 1,
+        "weighted_degree": 29
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "姜维",
+      "label": "姜维",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 9,
+      "text_length": 1700,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 4,
+        "singing": 4
+      }
+    },
+    {
+      "id": "马岱",
+      "label": "马岱",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 29,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "姜维",
+      "target": "马岱",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "play": {
+    "play_id": "04021003",
+    "title": "小放牛",
+    "pdf_name": "04021003_小放牛.pdf",
+    "group_id": "04000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 114,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/04021003",
+    "source_date": "2013-06-30",
+    "synopsis_length": 51,
+    "notes_length": 89,
+    "marker_category_counts": {
+      "spoken": 57,
+      "other": 1,
+      "singing": 55,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 215.0,
+    "max_edge_weight": 215,
+    "top_characters": [
+      {
+        "name": "牧童",
+        "hangdang": "丑",
+        "speech_count": 59,
+        "degree": 1,
+        "weighted_degree": 215
+      },
+      {
+        "name": "村姑",
+        "hangdang": "花旦",
+        "speech_count": 55,
+        "degree": 1,
+        "weighted_degree": 215
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "牧童",
+      "label": "牧童",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 59,
+      "text_length": 1697,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 215,
+      "marker_category_counts": {
+        "spoken": 30,
+        "other": 1,
+        "singing": 28
+      }
+    },
+    {
+      "id": "村姑",
+      "label": "村姑",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 55,
+      "text_length": 1443,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 215,
+      "marker_category_counts": {
+        "spoken": 27,
+        "singing": 27,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "村姑",
+      "target": "牧童",
+      "weight": 215,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 107,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

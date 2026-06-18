@@ -1,0 +1,188 @@
+{
+  "play": {
+    "play_id": "80000002",
+    "title": "打渔杀家",
+    "pdf_name": "80000002_打渔杀家.pdf",
+    "group_id": "80000000",
+    "page_count": 6,
+    "scene_count": 3,
+    "speech_count": 181,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/80000002",
+    "source_date": "2013-06-30",
+    "synopsis_length": 166,
+    "notes_length": 20,
+    "marker_category_counts": {
+      "singing": 14,
+      "spoken": 162,
+      "recitation": 3,
+      "other": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 176.0,
+    "max_edge_weight": 153,
+    "top_characters": [
+      {
+        "name": "萧恩",
+        "hangdang": "老生",
+        "speech_count": 80,
+        "degree": 3,
+        "weighted_degree": 305
+      },
+      {
+        "name": "大教师",
+        "hangdang": "丑",
+        "speech_count": 50,
+        "degree": 3,
+        "weighted_degree": 195
+      },
+      {
+        "name": "萧桂英",
+        "hangdang": "旦",
+        "speech_count": 40,
+        "degree": 3,
+        "weighted_degree": 157
+      },
+      {
+        "name": "家丁",
+        "hangdang": "未知",
+        "speech_count": 11,
+        "degree": 3,
+        "weighted_degree": 47
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "萧恩",
+      "label": "萧恩",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 80,
+      "text_length": 1401,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 305,
+      "marker_category_counts": {
+        "spoken": 69,
+        "singing": 9,
+        "recitation": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "大教师",
+      "label": "大教师",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 50,
+      "text_length": 1079,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 195,
+      "marker_category_counts": {
+        "spoken": 50
+      }
+    },
+    {
+      "id": "萧桂英",
+      "label": "萧桂英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 40,
+      "text_length": 613,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 157,
+      "marker_category_counts": {
+        "singing": 5,
+        "spoken": 32,
+        "recitation": 2,
+        "other": 1
+      }
+    },
+    {
+      "id": "家丁",
+      "label": "家丁",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 11,
+      "text_length": 104,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 47,
+      "marker_category_counts": {
+        "spoken": 11
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "萧恩",
+      "target": "萧桂英",
+      "weight": 153,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 75,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "大教师",
+      "target": "萧恩",
+      "weight": 149,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 74,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大教师",
+      "target": "家丁",
+      "weight": 43,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 21,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "大教师",
+      "target": "萧桂英",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "家丁",
+      "target": "萧恩",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "家丁",
+      "target": "萧桂英",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

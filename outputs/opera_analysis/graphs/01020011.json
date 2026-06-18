@@ -1,0 +1,132 @@
+{
+  "play": {
+    "play_id": "01020011",
+    "title": "送花楼会",
+    "pdf_name": "01020011_送花楼会.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 2,
+    "speech_count": 110,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/01020011",
+    "source_date": "2013-03-19",
+    "synopsis_length": 563,
+    "notes_length": 44,
+    "marker_category_counts": {
+      "singing": 4,
+      "spoken": 105,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 140.666667,
+    "max_edge_weight": 131,
+    "top_characters": [
+      {
+        "name": "秋华",
+        "hangdang": "旦",
+        "speech_count": 49,
+        "degree": 2,
+        "weighted_degree": 188
+      },
+      {
+        "name": "文必正",
+        "hangdang": "小生",
+        "speech_count": 41,
+        "degree": 2,
+        "weighted_degree": 154
+      },
+      {
+        "name": "霍定金",
+        "hangdang": "旦",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 80
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "秋华",
+      "label": "秋华",
+      "raw_role": "贴旦",
+      "hangdang": "旦",
+      "speech_count": 49,
+      "text_length": 711,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 188,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 47,
+        "singing": 1
+      }
+    },
+    {
+      "id": "文必正",
+      "label": "文必正",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 41,
+      "text_length": 1573,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 154,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 39
+      }
+    },
+    {
+      "id": "霍定金",
+      "label": "霍定金",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 20,
+      "text_length": 231,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 80,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 19
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "文必正",
+      "target": "秋华",
+      "weight": 131,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 65,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "秋华",
+      "target": "霍定金",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "文必正",
+      "target": "霍定金",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "play": {
+    "play_id": "04023002",
+    "title": "武松打虎",
+    "pdf_name": "04023002_武松打虎.pdf",
+    "group_id": "04000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 76,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/04023002",
+    "source_date": "2018-08-23",
+    "synopsis_length": 37,
+    "notes_length": 21,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 69,
+      "recitation": 1,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 4,
+    "density": 0.666667,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 61.0,
+    "max_edge_weight": 87,
+    "top_characters": [
+      {
+        "name": "武松",
+        "hangdang": "武生",
+        "speech_count": 36,
+        "degree": 3,
+        "weighted_degree": 119
+      },
+      {
+        "name": "酒保",
+        "hangdang": "未知",
+        "speech_count": 30,
+        "degree": 1,
+        "weighted_degree": 87
+      },
+      {
+        "name": "众猎户",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 2,
+        "weighted_degree": 28
+      },
+      {
+        "name": "猎户甲",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "武松",
+      "label": "武松",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 36,
+      "text_length": 740,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "other": 4,
+        "spoken": 32
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 30,
+      "text_length": 377,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 87,
+      "marker_category_counts": {
+        "spoken": 29,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "众猎户",
+      "label": "众猎户",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 140,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "spoken": 6,
+        "stage_action": 2
+      }
+    },
+    {
+      "id": "猎户甲",
+      "label": "猎户甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 34,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "武松",
+      "target": "酒保",
+      "weight": 87,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 43,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众猎户",
+      "target": "武松",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "武松",
+      "target": "猎户甲",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "众猎户",
+      "target": "猎户甲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

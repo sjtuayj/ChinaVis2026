@@ -1,0 +1,91 @@
+{
+  "play": {
+    "play_id": "04022002",
+    "title": "描容上路",
+    "pdf_name": "04022002_描容上路.pdf",
+    "group_id": "04000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 48,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/04022002",
+    "source_date": "2013-09-04",
+    "synopsis_length": 243,
+    "notes_length": 3,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 40,
+      "singing": 5
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 79.0,
+    "max_edge_weight": 79,
+    "top_characters": [
+      {
+        "name": "赵五娘",
+        "hangdang": "旦",
+        "speech_count": 26,
+        "degree": 1,
+        "weighted_degree": 79
+      },
+      {
+        "name": "张广才",
+        "hangdang": "老生",
+        "speech_count": 22,
+        "degree": 1,
+        "weighted_degree": 79
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "赵五娘",
+      "label": "赵五娘",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 26,
+      "text_length": 874,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 22,
+        "singing": 2
+      }
+    },
+    {
+      "id": "张广才",
+      "label": "张广才",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 22,
+      "text_length": 996,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 18,
+        "other": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张广才",
+      "target": "赵五娘",
+      "weight": 79,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 39,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

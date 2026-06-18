@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "03108007",
+    "title": "疯僧扫秦",
+    "pdf_name": "03108007_疯僧扫秦.pdf",
+    "group_id": "03000000",
+    "page_count": 7,
+    "scene_count": 1,
+    "speech_count": 186,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/03108007",
+    "source_date": "2022-01-21",
+    "synopsis_length": 70,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 3,
+      "other": 12,
+      "spoken": 171
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 179.0,
+    "max_edge_weight": 223,
+    "top_characters": [
+      {
+        "name": "疯僧",
+        "hangdang": "丑",
+        "speech_count": 77,
+        "degree": 3,
+        "weighted_degree": 303
+      },
+      {
+        "name": "秦桧",
+        "hangdang": "净",
+        "speech_count": 73,
+        "degree": 3,
+        "weighted_degree": 277
+      },
+      {
+        "name": "僧人",
+        "hangdang": "未知",
+        "speech_count": 35,
+        "degree": 3,
+        "weighted_degree": 129
+      },
+      {
+        "name": "四小僧",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "疯僧",
+      "label": "疯僧",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 77,
+      "text_length": 1681,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 303,
+      "marker_category_counts": {
+        "spoken": 67,
+        "other": 10
+      }
+    },
+    {
+      "id": "秦桧",
+      "label": "秦桧",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 73,
+      "text_length": 948,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 277,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 69,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "僧人",
+      "label": "僧人",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 35,
+      "text_length": 288,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 129,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 34
+      }
+    },
+    {
+      "id": "四小僧",
+      "label": "四小僧",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "疯僧",
+      "target": "秦桧",
+      "weight": 223,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 111,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "僧人",
+      "target": "疯僧",
+      "weight": 79,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 39,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "僧人",
+      "target": "秦桧",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四小僧",
+      "target": "秦桧",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "僧人",
+      "target": "四小僧",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四小僧",
+      "target": "疯僧",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

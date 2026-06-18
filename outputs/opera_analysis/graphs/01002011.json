@@ -1,0 +1,93 @@
+{
+  "play": {
+    "play_id": "01002011",
+    "title": "梅龙镇",
+    "pdf_name": "01002011_梅龙镇.pdf",
+    "group_id": "01000000",
+    "page_count": 9,
+    "scene_count": 2,
+    "speech_count": 313,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01002011",
+    "source_date": "2013-08-23",
+    "synopsis_length": 205,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "spoken": 281,
+      "singing": 28,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 612.0,
+    "max_edge_weight": 612,
+    "top_characters": [
+      {
+        "name": "李凤姐",
+        "hangdang": "旦",
+        "speech_count": 157,
+        "degree": 1,
+        "weighted_degree": 612
+      },
+      {
+        "name": "正德帝",
+        "hangdang": "老生",
+        "speech_count": 156,
+        "degree": 1,
+        "weighted_degree": 612
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李凤姐",
+      "label": "李凤姐",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 157,
+      "text_length": 1838,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 612,
+      "marker_category_counts": {
+        "spoken": 141,
+        "singing": 16
+      }
+    },
+    {
+      "id": "正德帝",
+      "label": "正德帝",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 156,
+      "text_length": 2267,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 612,
+      "marker_category_counts": {
+        "other": 3,
+        "spoken": 140,
+        "singing": 12,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李凤姐",
+      "target": "正德帝",
+      "weight": 612,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 305,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    }
+  ]
+}

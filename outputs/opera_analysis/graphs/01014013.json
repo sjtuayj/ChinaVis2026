@@ -1,0 +1,310 @@
+{
+  "play": {
+    "play_id": "01014013",
+    "title": "度白俭",
+    "pdf_name": "01014013_度白俭.pdf",
+    "group_id": "01000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 72,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01014013",
+    "source_date": "2013-08-28",
+    "synopsis_length": 283,
+    "notes_length": 235,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 61,
+      "singing": 5,
+      "recitation": 5
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 50.666667,
+    "max_edge_weight": 98,
+    "top_characters": [
+      {
+        "name": "白俭",
+        "hangdang": "老生",
+        "speech_count": 33,
+        "degree": 5,
+        "weighted_degree": 126
+      },
+      {
+        "name": "庄子",
+        "hangdang": "未知",
+        "speech_count": 29,
+        "degree": 5,
+        "weighted_degree": 118
+      },
+      {
+        "name": "张聪",
+        "hangdang": "小生",
+        "speech_count": 6,
+        "degree": 5,
+        "weighted_degree": 29
+      },
+      {
+        "name": "二衙役",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 5,
+        "weighted_degree": 13
+      },
+      {
+        "name": "众衙役",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 5,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "白俭",
+      "label": "白俭",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 33,
+      "text_length": 1000,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 126,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 28,
+        "singing": 4
+      }
+    },
+    {
+      "id": "庄子",
+      "label": "庄子",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 29,
+      "text_length": 1308,
+      "scene_count": 2,
+      "degree": 5,
+      "weighted_degree": 118,
+      "marker_category_counts": {
+        "spoken": 23,
+        "recitation": 5,
+        "singing": 1
+      }
+    },
+    {
+      "id": "张聪",
+      "label": "张聪",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 6,
+      "text_length": 166,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 29,
+      "marker_category_counts": {
+        "spoken": 6
+      }
+    },
+    {
+      "id": "二衙役",
+      "label": "二衙役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 16,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    },
+    {
+      "id": "众衙役",
+      "label": "众衙役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 7,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "院子",
+      "label": "院子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "庄子",
+      "target": "白俭",
+      "weight": 98,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 48,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "庄子",
+      "target": "张聪",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张聪",
+      "target": "白俭",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "庄子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "白俭",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众衙役",
+      "target": "白俭",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "白俭",
+      "target": "院子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "众衙役",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "张聪",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "二衙役",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众衙役",
+      "target": "庄子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众衙役",
+      "target": "张聪",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "众衙役",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "庄子",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张聪",
+      "target": "院子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

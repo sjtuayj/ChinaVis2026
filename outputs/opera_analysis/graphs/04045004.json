@@ -1,0 +1,253 @@
+{
+  "play": {
+    "play_id": "04045004",
+    "title": "举鼎观画",
+    "pdf_name": "04045004_举鼎观画.pdf",
+    "group_id": "04000000",
+    "page_count": 8,
+    "scene_count": 2,
+    "speech_count": 220,
+    "character_count": 5,
+    "source_url": "https://scripts.xikao.com/play/04045004",
+    "source_date": "2023-03-23",
+    "synopsis_length": 137,
+    "notes_length": 52,
+    "marker_category_counts": {
+      "other": 11,
+      "spoken": 186,
+      "recitation": 5,
+      "singing": 17,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 166.0,
+    "max_edge_weight": 214,
+    "top_characters": [
+      {
+        "name": "薛蛟",
+        "hangdang": "小生",
+        "speech_count": 87,
+        "degree": 4,
+        "weighted_degree": 322
+      },
+      {
+        "name": "徐策",
+        "hangdang": "老生",
+        "speech_count": 81,
+        "degree": 4,
+        "weighted_degree": 300
+      },
+      {
+        "name": "书童",
+        "hangdang": "丑",
+        "speech_count": 44,
+        "degree": 4,
+        "weighted_degree": 168
+      },
+      {
+        "name": "家院",
+        "hangdang": "未知",
+        "speech_count": 7,
+        "degree": 4,
+        "weighted_degree": 32
+      },
+      {
+        "name": "四随役",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 4,
+        "weighted_degree": 8
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "薛蛟",
+      "label": "薛蛟",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 87,
+      "text_length": 1539,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 322,
+      "marker_category_counts": {
+        "other": 5,
+        "spoken": 74,
+        "singing": 6,
+        "recitation": 1,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "徐策",
+      "label": "徐策",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 81,
+      "text_length": 1756,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 300,
+      "marker_category_counts": {
+        "spoken": 63,
+        "singing": 11,
+        "other": 6,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "书童",
+      "label": "书童",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 44,
+      "text_length": 730,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 168,
+      "marker_category_counts": {
+        "spoken": 41,
+        "recitation": 3
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": "生",
+      "hangdang": "未知",
+      "speech_count": 7,
+      "text_length": 33,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 32,
+      "marker_category_counts": {
+        "spoken": 7
+      }
+    },
+    {
+      "id": "四随役",
+      "label": "四随役",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "徐策",
+      "target": "薛蛟",
+      "weight": 214,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 106,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "薛蛟",
+      "weight": 103,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 51,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "徐策",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "徐策",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "四随役",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "书童",
+      "target": "家院",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四随役",
+      "target": "薛蛟",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "薛蛟",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四随役",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四随役",
+      "target": "徐策",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "play": {
+    "play_id": "04012001",
+    "title": "二堂舍子",
+    "pdf_name": "04012001_二堂舍子.pdf",
+    "group_id": "04000000",
+    "page_count": 9,
+    "scene_count": 1,
+    "speech_count": 257,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/04012001",
+    "source_date": "2013-09-03",
+    "synopsis_length": 152,
+    "notes_length": 107,
+    "marker_category_counts": {
+      "spoken": 220,
+      "singing": 29,
+      "stage_action": 4,
+      "recitation": 1,
+      "other": 3
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 248.0,
+    "max_edge_weight": 343,
+    "top_characters": [
+      {
+        "name": "刘彦昌",
+        "hangdang": "老生",
+        "speech_count": 111,
+        "degree": 3,
+        "weighted_degree": 427
+      },
+      {
+        "name": "王桂英",
+        "hangdang": "旦",
+        "speech_count": 109,
+        "degree": 3,
+        "weighted_degree": 411
+      },
+      {
+        "name": "秋儿",
+        "hangdang": "未知",
+        "speech_count": 24,
+        "degree": 3,
+        "weighted_degree": 99
+      },
+      {
+        "name": "沉香",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 3,
+        "weighted_degree": 55
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘彦昌",
+      "label": "刘彦昌",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 111,
+      "text_length": 2532,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 427,
+      "marker_category_counts": {
+        "spoken": 94,
+        "singing": 16,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "王桂英",
+      "label": "王桂英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 109,
+      "text_length": 1683,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 411,
+      "marker_category_counts": {
+        "singing": 11,
+        "other": 3,
+        "spoken": 94,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "秋儿",
+      "label": "秋儿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 24,
+      "text_length": 218,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 99,
+      "marker_category_counts": {
+        "spoken": 21,
+        "stage_action": 3
+      }
+    },
+    {
+      "id": "沉香",
+      "label": "沉香",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 132,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "spoken": 11,
+        "singing": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘彦昌",
+      "target": "王桂英",
+      "weight": 343,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 171,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘彦昌",
+      "target": "秋儿",
+      "weight": 53,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 26,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "王桂英",
+      "target": "秋儿",
+      "weight": 45,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 22,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "刘彦昌",
+      "target": "沉香",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "沉香",
+      "target": "王桂英",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "沉香",
+      "target": "秋儿",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

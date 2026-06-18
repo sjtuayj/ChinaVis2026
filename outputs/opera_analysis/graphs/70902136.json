@@ -1,0 +1,134 @@
+{
+  "play": {
+    "play_id": "70902136",
+    "title": "凤凰山·百花赠剑",
+    "pdf_name": "70902136_凤凰山·百花赠剑.pdf",
+    "group_id": "70902000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 86,
+    "character_count": 3,
+    "source_url": "https://scripts.xikao.com/play/70902136",
+    "source_date": "2022-05-20",
+    "synopsis_length": 168,
+    "notes_length": 98,
+    "marker_category_counts": {
+      "singing": 2,
+      "spoken": 81,
+      "other": 1,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 111.333333,
+    "max_edge_weight": 75,
+    "top_characters": [
+      {
+        "name": "百花公主",
+        "hangdang": "旦",
+        "speech_count": 33,
+        "degree": 2,
+        "weighted_degree": 130
+      },
+      {
+        "name": "海俊",
+        "hangdang": "未知",
+        "speech_count": 29,
+        "degree": 2,
+        "weighted_degree": 112
+      },
+      {
+        "name": "江花右",
+        "hangdang": "旦",
+        "speech_count": 24,
+        "degree": 2,
+        "weighted_degree": 92
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "百花公主",
+      "label": "百花公主",
+      "raw_role": "五旦",
+      "hangdang": "旦",
+      "speech_count": 33,
+      "text_length": 550,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 130,
+      "marker_category_counts": {
+        "spoken": 30,
+        "singing": 1,
+        "other": 1,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "海俊",
+      "label": "海俊",
+      "raw_role": "雉尾生",
+      "hangdang": "未知",
+      "speech_count": 29,
+      "text_length": 683,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 112,
+      "marker_category_counts": {
+        "spoken": 28,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "江花右",
+      "label": "江花右",
+      "raw_role": "四旦",
+      "hangdang": "旦",
+      "speech_count": 24,
+      "text_length": 280,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 92,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 23
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "海俊",
+      "target": "百花公主",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "江花右",
+      "target": "百花公主",
+      "weight": 55,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "江花右",
+      "target": "海俊",
+      "weight": 37,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "play": {
+    "play_id": "01004014",
+    "title": "遗翠花",
+    "pdf_name": "01004014_遗翠花.pdf",
+    "group_id": "01000000",
+    "page_count": 10,
+    "scene_count": 3,
+    "speech_count": 293,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01004014",
+    "source_date": "2013-03-17",
+    "synopsis_length": 282,
+    "notes_length": 77,
+    "marker_category_counts": {
+      "other": 3,
+      "singing": 19,
+      "spoken": 271
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 289.0,
+    "max_edge_weight": 367,
+    "top_characters": [
+      {
+        "name": "翠香",
+        "hangdang": "花旦",
+        "speech_count": 137,
+        "degree": 3,
+        "weighted_degree": 530
+      },
+      {
+        "name": "相公",
+        "hangdang": "小生",
+        "speech_count": 103,
+        "degree": 3,
+        "weighted_degree": 408
+      },
+      {
+        "name": "老夫人",
+        "hangdang": "老旦",
+        "speech_count": 36,
+        "degree": 3,
+        "weighted_degree": 147
+      },
+      {
+        "name": "小姐",
+        "hangdang": "旦",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 71
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "翠香",
+      "label": "翠香",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 137,
+      "text_length": 1892,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 530,
+      "marker_category_counts": {
+        "spoken": 128,
+        "singing": 8,
+        "other": 1
+      }
+    },
+    {
+      "id": "相公",
+      "label": "相公",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 103,
+      "text_length": 2445,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 408,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 8,
+        "spoken": 94
+      }
+    },
+    {
+      "id": "老夫人",
+      "label": "老夫人",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 36,
+      "text_length": 346,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 147,
+      "marker_category_counts": {
+        "singing": 1,
+        "spoken": 34,
+        "other": 1
+      }
+    },
+    {
+      "id": "小姐",
+      "label": "小姐",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 17,
+      "text_length": 393,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 71,
+      "marker_category_counts": {
+        "singing": 2,
+        "spoken": 15
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "相公",
+      "target": "翠香",
+      "weight": 367,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 182,
+      "scenes": [
+        "scene_001",
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "翠香",
+      "target": "老夫人",
+      "weight": 111,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 55,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "小姐",
+      "target": "翠香",
+      "weight": 52,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "相公",
+      "target": "老夫人",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "小姐",
+      "target": "相公",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "小姐",
+      "target": "老夫人",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

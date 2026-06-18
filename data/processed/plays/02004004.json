@@ -1,0 +1,4685 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "02004004",
+    "title": "取西川",
+    "aliases": [],
+    "collection_id": "02000000",
+    "collection_name": "《国剧大成》",
+    "collection_remark": "《国剧大成》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/02000000/02004004_取西川.pdf",
+    "source_url": "http://scripts.xikao.com/play/02004004",
+    "source_date": "2018-08-24",
+    "page_count": 8,
+    "file_size_bytes": 396755,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "张飞攻打西川，守将严颜，骁勇善战，不能取胜。最后用诸葛亮之计，先令另一人假装张飞，与严颜交战，然后自己抄袭后路，始得将严颜生擒。张飞亲为严颜解绑，并跪在地下，求严颜归降。严颜激于义气，遂归降汉营。根据《国剧大成》第四集整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "蜀、诸葛、张飞",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.68,
+      "evidence": [
+        "战",
+        "将",
+        "擒"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_张飞",
+      "name": "张飞",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 63,
+        "aria_count": 3,
+        "recitation_count": 1,
+        "expression_count": 1,
+        "action_hint_count": 18,
+        "combat_hint_count": 9
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：张飞：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_严颜",
+      "name": "严颜",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 39,
+        "aria_count": 1,
+        "recitation_count": 3,
+        "expression_count": 1,
+        "action_hint_count": 20,
+        "combat_hint_count": 10
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：严颜：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_徐大汗",
+      "name": "徐大汗",
+      "original_category": "丑",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "谨慎",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 23,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "丑",
+        "fine": "丑",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：徐大汗：丑"
+        ]
+      }
+    },
+    {
+      "role_id": "r_八卒",
+      "name": "八卒",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_兵卒",
+      "name": "兵卒",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 29,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_二老军",
+      "name": "二老军",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "旦",
+        "fine": "老旦",
+        "confidence": 0.62,
+        "evidence": [
+          "妻",
+          "老军"
+        ]
+      }
+    },
+    {
+      "role_id": "r_老军甲",
+      "name": "老军甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "老军"
+        ]
+      }
+    },
+    {
+      "role_id": "r_老军乙",
+      "name": "老军乙",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 0,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "仆从/差役",
+          "老军"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "张飞",
+        "八卒"
+      ],
+      "event_ids": [
+        "02004004_e00001",
+        "02004004_e00002",
+        "02004004_e00003",
+        "02004004_e00004",
+        "02004004_e00005",
+        "02004004_e00006",
+        "02004004_e00007"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 7,
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 83
+      }
+    },
+    {
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 3,
+      "characters": [
+        "严颜",
+        "兵卒",
+        "张飞"
+      ],
+      "event_ids": [
+        "02004004_e00008",
+        "02004004_e00009",
+        "02004004_e00010",
+        "02004004_e00011",
+        "02004004_e00012",
+        "02004004_e00013",
+        "02004004_e00014",
+        "02004004_e00015",
+        "02004004_e00016",
+        "02004004_e00017",
+        "02004004_e00018",
+        "02004004_e00019",
+        "02004004_e00020",
+        "02004004_e00021",
+        "02004004_e00022",
+        "02004004_e00023",
+        "02004004_e00024",
+        "02004004_e00025",
+        "02004004_e00026",
+        "02004004_e00027",
+        "02004004_e00028",
+        "02004004_e00029",
+        "02004004_e00030",
+        "02004004_e00031",
+        "02004004_e00032",
+        "02004004_e00033",
+        "02004004_e00034",
+        "02004004_e00035",
+        "02004004_e00036",
+        "02004004_e00037",
+        "02004004_e00038",
+        "02004004_e00039",
+        "02004004_e00040",
+        "02004004_e00041",
+        "02004004_e00042",
+        "02004004_e00043",
+        "02004004_e00044",
+        "02004004_e00045",
+        "02004004_e00046",
+        "02004004_e00047",
+        "02004004_e00048",
+        "02004004_e00049",
+        "02004004_e00050",
+        "02004004_e00051",
+        "02004004_e00052",
+        "02004004_e00053",
+        "02004004_e00054",
+        "02004004_e00055",
+        "02004004_e00056",
+        "02004004_e00057",
+        "02004004_e00058",
+        "02004004_e00059",
+        "02004004_e00060"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 53,
+        "spoken_count": 27,
+        "aria_count": 3,
+        "recitation_count": 1,
+        "stage_direction_count": 13,
+        "expression_count": 1,
+        "text_length": 800
+      }
+    },
+    {
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [
+        "严颜",
+        "兵卒",
+        "二老军",
+        "老军甲",
+        "老军乙"
+      ],
+      "event_ids": [
+        "02004004_e00061",
+        "02004004_e00062",
+        "02004004_e00063",
+        "02004004_e00064",
+        "02004004_e00065",
+        "02004004_e00066",
+        "02004004_e00067",
+        "02004004_e00068",
+        "02004004_e00069",
+        "02004004_e00070",
+        "02004004_e00071",
+        "02004004_e00072",
+        "02004004_e00073",
+        "02004004_e00074",
+        "02004004_e00075",
+        "02004004_e00076",
+        "02004004_e00077",
+        "02004004_e00078",
+        "02004004_e00079",
+        "02004004_e00080",
+        "02004004_e00081",
+        "02004004_e00082",
+        "02004004_e00083",
+        "02004004_e00084",
+        "02004004_e00085",
+        "02004004_e00086",
+        "02004004_e00087",
+        "02004004_e00088",
+        "02004004_e00089",
+        "02004004_e00090",
+        "02004004_e00091",
+        "02004004_e00092"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 20,
+        "aria_count": 0,
+        "recitation_count": 6,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 392
+      }
+    },
+    {
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 3,
+      "page_end": 5,
+      "characters": [
+        "张飞",
+        "二老军",
+        "兵卒",
+        "徐大汗"
+      ],
+      "event_ids": [
+        "02004004_e00093",
+        "02004004_e00094",
+        "02004004_e00095",
+        "02004004_e00096",
+        "02004004_e00097",
+        "02004004_e00098",
+        "02004004_e00099",
+        "02004004_e00100",
+        "02004004_e00101",
+        "02004004_e00102",
+        "02004004_e00103",
+        "02004004_e00104",
+        "02004004_e00105",
+        "02004004_e00106",
+        "02004004_e00107",
+        "02004004_e00108",
+        "02004004_e00109",
+        "02004004_e00110",
+        "02004004_e00111",
+        "02004004_e00112",
+        "02004004_e00113",
+        "02004004_e00114",
+        "02004004_e00115",
+        "02004004_e00116",
+        "02004004_e00117",
+        "02004004_e00118",
+        "02004004_e00119",
+        "02004004_e00120",
+        "02004004_e00121",
+        "02004004_e00122",
+        "02004004_e00123",
+        "02004004_e00124",
+        "02004004_e00125",
+        "02004004_e00126",
+        "02004004_e00127",
+        "02004004_e00128",
+        "02004004_e00129",
+        "02004004_e00130",
+        "02004004_e00131",
+        "02004004_e00132",
+        "02004004_e00133",
+        "02004004_e00134",
+        "02004004_e00135",
+        "02004004_e00136",
+        "02004004_e00137",
+        "02004004_e00138",
+        "02004004_e00139",
+        "02004004_e00140",
+        "02004004_e00141",
+        "02004004_e00142",
+        "02004004_e00143",
+        "02004004_e00144",
+        "02004004_e00145",
+        "02004004_e00146",
+        "02004004_e00147",
+        "02004004_e00148",
+        "02004004_e00149",
+        "02004004_e00150",
+        "02004004_e00151",
+        "02004004_e00152",
+        "02004004_e00153",
+        "02004004_e00154",
+        "02004004_e00155",
+        "02004004_e00156",
+        "02004004_e00157",
+        "02004004_e00158",
+        "02004004_e00159",
+        "02004004_e00160",
+        "02004004_e00161",
+        "02004004_e00162",
+        "02004004_e00163",
+        "02004004_e00164",
+        "02004004_e00165",
+        "02004004_e00166",
+        "02004004_e00167",
+        "02004004_e00168",
+        "02004004_e00169",
+        "02004004_e00170",
+        "02004004_e00171",
+        "02004004_e00172",
+        "02004004_e00173",
+        "02004004_e00174",
+        "02004004_e00175"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 83,
+        "spoken_count": 68,
+        "aria_count": 1,
+        "recitation_count": 2,
+        "stage_direction_count": 10,
+        "expression_count": 0,
+        "text_length": 1127
+      }
+    },
+    {
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "严颜",
+        "二老军"
+      ],
+      "event_ids": [
+        "02004004_e00176",
+        "02004004_e00177",
+        "02004004_e00178",
+        "02004004_e00179",
+        "02004004_e00180",
+        "02004004_e00181",
+        "02004004_e00182",
+        "02004004_e00183",
+        "02004004_e00184",
+        "02004004_e00185",
+        "02004004_e00186",
+        "02004004_e00187"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 12,
+        "spoken_count": 6,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 199
+      }
+    },
+    {
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 6,
+      "page_end": 6,
+      "characters": [
+        "张飞",
+        "徐大汗",
+        "严颜"
+      ],
+      "event_ids": [
+        "02004004_e00188",
+        "02004004_e00189",
+        "02004004_e00190",
+        "02004004_e00191",
+        "02004004_e00192",
+        "02004004_e00193",
+        "02004004_e00194",
+        "02004004_e00195",
+        "02004004_e00196",
+        "02004004_e00197",
+        "02004004_e00198",
+        "02004004_e00199",
+        "02004004_e00200",
+        "02004004_e00201",
+        "02004004_e00202",
+        "02004004_e00203",
+        "02004004_e00204",
+        "02004004_e00205"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 18,
+        "spoken_count": 10,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 195
+      }
+    },
+    {
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 6,
+      "page_end": 7,
+      "characters": [
+        "张飞",
+        "兵卒",
+        "严颜"
+      ],
+      "event_ids": [
+        "02004004_e00206",
+        "02004004_e00207",
+        "02004004_e00208",
+        "02004004_e00209",
+        "02004004_e00210",
+        "02004004_e00211",
+        "02004004_e00212",
+        "02004004_e00213",
+        "02004004_e00214",
+        "02004004_e00215",
+        "02004004_e00216",
+        "02004004_e00217",
+        "02004004_e00218",
+        "02004004_e00219",
+        "02004004_e00220",
+        "02004004_e00221",
+        "02004004_e00222",
+        "02004004_e00223",
+        "02004004_e00224",
+        "02004004_e00225",
+        "02004004_e00226",
+        "02004004_e00227",
+        "02004004_e00228",
+        "02004004_e00229",
+        "02004004_e00230",
+        "02004004_e00231",
+        "02004004_e00232",
+        "02004004_e00233",
+        "02004004_e00234",
+        "02004004_e00235",
+        "02004004_e00236",
+        "02004004_e00237",
+        "02004004_e00238",
+        "02004004_e00239",
+        "02004004_e00240",
+        "02004004_e00241",
+        "02004004_e00242",
+        "02004004_e00243",
+        "02004004_e00244",
+        "02004004_e00245",
+        "02004004_e00246",
+        "02004004_e00247",
+        "02004004_e00248",
+        "02004004_e00249",
+        "02004004_e00250",
+        "02004004_e00251",
+        "02004004_e00252"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 47,
+        "spoken_count": 36,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 5,
+        "expression_count": 1,
+        "text_length": 939
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "02004004_e00001",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "八卒引张飞同上。〖风入松〗。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00002",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "铁甲玲珑背，青巾压豹头。胯下乌骓马，手提丈八矛。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004004_e00003",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "某，张飞。奉军师将令，带领人马，攻打西川。三军的，",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004004_e00004",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "八卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00005",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "催动人马。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00006",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "八卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00007",
+      "play_id": "02004004",
+      "scene_id": "02004004_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖水底鱼〗。众人同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00008",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 8,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上，起霸。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00009",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 9,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "白盔白甲素白旗，白旗招展似雪飞。胯下能行如白虎，要擒汉室猛张飞。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004004_e00010",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "老夫，严颜。西蜀刘王驾前为臣，官居五马太守，镇守通江巴州。适才探子报道，张飞兴兵前来，夺取西川。老夫镇守此处，岂肯容他闯去。众将官，",
+      "text_length": 66
+    },
+    {
+      "event_id": "02004004_e00011",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00012",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "就此起兵前往。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00013",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00014",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "八卒、张飞同冲上。〖牌子〗。会阵。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00015",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00016",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "呔！张飞。见了老爷，为何发笑？",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004004_e00017",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "也呔！严颜，我把你这老贼！看你上马，不过拳头大，下马，不过磕膝高。有何本领，霸占通江巴州？归顺桃园便罢，倘若不然，死在俺枪尖之下。那时悔之晚矣！",
+      "text_length": 72
+    },
+    {
+      "event_id": "02004004_e00018",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "若问老爷威风，尔稳坐雕鞍。听俺道来。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00019",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "烈烈轰轰摆战场，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00020",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "呵呵。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00021",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒同走圆场。严颜、张飞同战。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004004_e00022",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "二国不和动刀枪。人道张飞是好将，大喝一声透天堂。巴州城内访一访，老爷武艺比尔强。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02004004_e00023",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "住了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00024",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "听罢言来心焦躁，",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00025",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "呵呵。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00026",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒同走圆场。严颜、张飞同战。",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004004_e00027",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "二目圆睁似火烧。向前来把严颜叫，老爷言来你听着：将而比作笼中鸟，杀鸡焉用宰牛刀。",
+      "text_length": 40
+    },
+    {
+      "event_id": "02004004_e00028",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "两下交锋不肯让，一来一往动刀枪。三军儿郎齐呐喊，老爷与尔战一场。",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004004_e00029",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜杀。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00030",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "慢着慢着。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00031",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "呔，张飞，战未数合为何口吐白沫，想是尔怯战么？",
+      "text_length": 23
+    },
+    {
+      "event_id": "02004004_e00032",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "呔，严颜，非是老爷怯战。俺口吐白沫，越战越勇。",
+      "text_length": 23
+    },
+    {
+      "event_id": "02004004_e00033",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "看枪。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00034",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜杀，张飞败下，严颜追下。张飞上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00035",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊呀。你看严颜老贼，虽然年迈，枪法甚是厉害。这便怎处？吓，有了。想俺当年在虎牢关，曾用打将钢鞭。三军的！",
+      "text_length": 52
+    },
+    {
+      "event_id": "02004004_e00036",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00037",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "取鞭来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00038",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00039",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "钢鞭一举鬼神惊，管教严颜命归阴。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00040",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上，杀。张飞打严颜败下。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00041",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "一鞭打败严颜老将，不知老将奔何方。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00042",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞下。严颜上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00043",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "一鞭打下千斤重，振得老夫两膀疼。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00044",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "方才张飞一鞭打下，不是老夫躲闪得快，险遭不测。想俺幼年间，习就百步穿杨，不免转至敌楼，射他一箭。左右！",
+      "text_length": 51
+    },
+    {
+      "event_id": "02004004_e00045",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 38,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00046",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 39,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "看弓箭伺候。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00047",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 40,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00048",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 41,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "安排打虎牢笼计，谅他插翅也难飞。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00049",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 42,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00050",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 43,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "乌骓马不住连声吼，",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004004_e00051",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 44,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00052",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 45,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "打将钢鞭马后拖。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00053",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 46,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00054",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 47,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "看箭。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00055",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 48,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00056",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 49,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊呀且住，你看严颜老贼，埋伏敌楼，暗放冷箭。不是俺手急眼快，险些性命丧于他手。这个老贼果然厉害。三军的！",
+      "text_length": 52
+    },
+    {
+      "event_id": "02004004_e00057",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 50,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00058",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 51,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "快快地收兵罢。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00059",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 52,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00060",
+      "play_id": "02004004",
+      "scene_id": "02004004_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 53,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、兵卒同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00061",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00062",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 62,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "一箭射去叮当响，不知张飞生死存亡。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00063",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "方才一箭射去，不知张飞生死存亡，不免命老军前去，探听虚实。左右！",
+      "text_length": 32
+    },
+    {
+      "event_id": "02004004_e00064",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00065",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 65,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "传老军进帐。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00066",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 66,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。传老军进帐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00067",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 67,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同白。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00068",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 68,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "来了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00069",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 69,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "老是老了，",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00070",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 70,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "再也不能小了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00071",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 71,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "若要小了，",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00072",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 72,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "老军乙"
+      ],
+      "text": "除非死了。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00073",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 73,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "老军甲"
+      ],
+      "text": "嗐。那就好了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00074",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 74,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "元帅在上，小人们叩头。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00075",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 75,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "罢了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00076",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 76,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "唤小人们，哪方使用？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00077",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 77,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "命你们前去，探听张飞的虚实。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00078",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 78,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "哎呀，那张飞杀人不展眼，小人们不敢去。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02004004_e00079",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 79,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "唔！张飞会杀人，难道你爷，就不会杀人？待我教导与你们。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004004_e00080",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 80,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00081",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 81,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "你们前去，就说是通江巴州好百姓，去朝四川峨眉山。去时没有千岁营盘，回来时遇见千岁营盘挡路，望千岁开一线之恩，放小人们过去，到家见了妻儿老小，一家感恩非浅。",
+      "text_length": 77
+    },
+    {
+      "event_id": "02004004_e00082",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 82,
+      "seq_in_scene": 22,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "倘若问小人们路途呢？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00083",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 83,
+      "seq_in_scene": 23,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "倘若问你们路途，就说南是山，北是水，中间有羊肠小道，只消一人一骑，方能过去。",
+      "text_length": 38
+    },
+    {
+      "event_id": "02004004_e00084",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 84,
+      "seq_in_scene": 24,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "小人们领命。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00085",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 85,
+      "seq_in_scene": 25,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "我今吩咐你。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00086",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 86,
+      "seq_in_scene": 26,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "同念",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "怎敢慢迟延。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00087",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 87,
+      "seq_in_scene": 27,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00088",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 88,
+      "seq_in_scene": 28,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00089",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 89,
+      "seq_in_scene": 29,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00090",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 90,
+      "seq_in_scene": 30,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "听俺号令。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00091",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 91,
+      "seq_in_scene": 31,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "今番不消去打仗，准备刀枪入营房。若能擒得张飞将，凌烟阁把名扬。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004004_e00092",
+      "play_id": "02004004",
+      "scene_id": "02004004_s03",
+      "scene_no": 3,
+      "seq_global": 92,
+      "seq_in_scene": 32,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜、兵卒同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00093",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 93,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "张翼德在营盘自解自叹，",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00094",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 94,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00095",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 95,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "思想大哥泪不干。想前番带人马来交战，不能够取胜甚是羞惭。在营中想兄王难得相见，眼睁睁怕的是拆散桃园。",
+      "text_length": 50
+    },
+    {
+      "event_id": "02004004_e00096",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 96,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00097",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 97,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "阿弥陀佛。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00098",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 98,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "启千岁：有奸细。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00099",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 99,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "抓过来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00100",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 100,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00101",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 101,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你们是严颜差来的奸细，探听你千岁的军情。来，拿去砍了！",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004004_e00102",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 102,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "哎呀，千岁爷饶命！小人们不是奸细。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00103",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 103,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊，你们是什么人？",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004004_e00104",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 104,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "小人们是通江巴州好百姓，去朝四川峨眉山。去时没有千岁营盘，回来遇见千岁营盘挡路，望千岁开一线之恩，放小人们过去。到家见了妻儿老小，一家感恩非浅。",
+      "text_length": 72
+    },
+    {
+      "event_id": "02004004_e00105",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 105,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "我且问你们，此去西川，哪条路近？",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00106",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 106,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "此去西川，南是山，北是水，中间有条羊肠小道，必须一人一骑，方能过去。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02004004_e00107",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 107,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "果然是好百姓。来，每人赏他们两串铜钱，放他们过去。",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004004_e00108",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 108,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "谢千岁。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00109",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 109,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同暗下。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00110",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 110,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三军的，听俺号令：今夜一更上草，二更上料，三更时分，悄悄偷过通江巴州。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02004004_e00111",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 111,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同暗上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00112",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 112,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "听见啦。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00113",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 113,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00114",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 114,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "启千岁：果然是奸细。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00115",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 115,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "抓回来。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00116",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 116,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "去远了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00117",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 117,
+      "seq_in_scene": 25,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "嗳，老张方才定下此计，又被严颜的细作听去，这便咱处？哦、哦，有了！想我起兵的时节，军师与我锦囊一封，说事到危急，方可开看。如今事在两难之际，何不将锦囊拆开一看，便知明白。来。",
+      "text_length": 87
+    },
+    {
+      "event_id": "02004004_e00118",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 118,
+      "seq_in_scene": 26,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00119",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 119,
+      "seq_in_scene": 27,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "取锦囊来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00120",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 120,
+      "seq_in_scene": 28,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。锦囊呈上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00121",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 121,
+      "seq_in_scene": 29,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "“书上有封皮，将军看仔细。若要擒严颜，除非两张飞。”",
+      "text_length": 26
+    },
+    {
+      "event_id": "02004004_e00122",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 122,
+      "seq_in_scene": 30,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "咳，想汉营中，只有老张一个，哪里还有一个？唔，唔，三军的，",
+      "text_length": 29
+    },
+    {
+      "event_id": "02004004_e00123",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 123,
+      "seq_in_scene": 31,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00124",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 124,
+      "seq_in_scene": 32,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "看营中，可有像你千岁这样的？",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00125",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 125,
+      "seq_in_scene": 33,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "有个炮手徐大汗，仿佛千岁的模样。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00126",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 126,
+      "seq_in_scene": 34,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "好，传徐大汗。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00127",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 127,
+      "seq_in_scene": 35,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "传徐大汗进帐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00128",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 128,
+      "seq_in_scene": 36,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "徐大汗上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00129",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 129,
+      "seq_in_scene": 37,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "来了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00130",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 130,
+      "seq_in_scene": 38,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "生来堂堂相貌，好似千岁一样。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00131",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 131,
+      "seq_in_scene": 39,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "千岁在上，小人叩头。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00132",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 132,
+      "seq_in_scene": 40,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你就是徐大汗？",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00133",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 133,
+      "seq_in_scene": 41,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "是。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00134",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 134,
+      "seq_in_scene": 42,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "抬起头来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00135",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 135,
+      "seq_in_scene": 43,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "小人不敢抬头。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00136",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 136,
+      "seq_in_scene": 44,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "恕你无罪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00137",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 137,
+      "seq_in_scene": 45,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "谢千岁。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00138",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 138,
+      "seq_in_scene": 46,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞笑。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00139",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 139,
+      "seq_in_scene": 47,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "嘿，你千岁就像他这个样儿吗？",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00140",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 140,
+      "seq_in_scene": 48,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "也差不多。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00141",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 141,
+      "seq_in_scene": 49,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "徐大汗，你千岁今晚，要派你一个差使。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00142",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 142,
+      "seq_in_scene": 50,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "千岁有差，小人当的效劳。",
+      "text_length": 12
+    },
+    {
+      "event_id": "02004004_e00143",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 143,
+      "seq_in_scene": 51,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "来，带他到后营，取副盔甲，与他装扮起来。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004004_e00144",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 144,
+      "seq_in_scene": 52,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "谢千岁。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00145",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 145,
+      "seq_in_scene": 53,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "徐大汗下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00146",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 146,
+      "seq_in_scene": 54,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三军的，听俺的吩咐：那严颜乃西川名将，足智多谋，倘今晚分兵劫塞，俺这里当做准备。可于前营，多埋荆棘，第一层长枪手；第二层攒箭手；第三层滚排手；第四层火炮手；第五层弩弓手，尔等快去埋伏，不得有误。",
+      "text_length": 97
+    },
+    {
+      "event_id": "02004004_e00147",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 147,
+      "seq_in_scene": 55,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00148",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 148,
+      "seq_in_scene": 56,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "传徐大汗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00149",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 149,
+      "seq_in_scene": 57,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "徐大汗上。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00150",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 150,
+      "seq_in_scene": 58,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "来了。千岁爷，我装扮起来了，看可像不像？",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004004_e00151",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 151,
+      "seq_in_scene": 59,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "像倒像，不知你的胆量如何？",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004004_e00152",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 152,
+      "seq_in_scene": 60,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "我的胆量极大。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00153",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 153,
+      "seq_in_scene": 61,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "呔！",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00154",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 154,
+      "seq_in_scene": 62,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "哎呀，唬死我啦，这是哪里打霹雷？",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00155",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 155,
+      "seq_in_scene": 63,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "是千岁爷声音洪亮。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004004_e00156",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 156,
+      "seq_in_scene": 64,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "徐大汗，随你千岁爷到两军阵前。倘若有人问你，来将通名，你就说汉将张飞。",
+      "text_length": 35
+    },
+    {
+      "event_id": "02004004_e00157",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 157,
+      "seq_in_scene": 65,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "小人不敢。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00158",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 158,
+      "seq_in_scene": 66,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "恕你无罪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00159",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 159,
+      "seq_in_scene": 67,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "谢千岁。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00160",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 160,
+      "seq_in_scene": 68,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "来来来，我们来演习演习。呔，来将通名。",
+      "text_length": 19
+    },
+    {
+      "event_id": "02004004_e00161",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 161,
+      "seq_in_scene": 69,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "炮手徐大汗。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00162",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 162,
+      "seq_in_scene": 70,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "放屁！叫你说汉将张飞。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00163",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 163,
+      "seq_in_scene": 71,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "重来，重来。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00164",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 164,
+      "seq_in_scene": 72,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "呔，来将通名。",
+      "text_length": 7
+    },
+    {
+      "event_id": "02004004_e00165",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 165,
+      "seq_in_scene": 73,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "汉将张飞。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00166",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 166,
+      "seq_in_scene": 74,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "声高些。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00167",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 167,
+      "seq_in_scene": 75,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "汉将张飞。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00168",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 168,
+      "seq_in_scene": 76,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "取爷的丈八蛇矛与他。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00169",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 169,
+      "seq_in_scene": 77,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "啊呀呀，我可拿不动他。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00170",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 170,
+      "seq_in_scene": 78,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "无用的东西，换个旂枪儿与他。",
+      "text_length": 14
+    },
+    {
+      "event_id": "02004004_e00171",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 171,
+      "seq_in_scene": 79,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "着吓，这才是我的兵器。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00172",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 172,
+      "seq_in_scene": 80,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "千岁与你就此前去。三军的，小心看守营盘。徐大汗向前带来，马来。",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004004_e00173",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 173,
+      "seq_in_scene": 81,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "军师锦囊费猜疑，徐大汗扮作假张飞。没奈何拨草把路觅，夺取西川见先机。",
+      "text_length": 34
+    },
+    {
+      "event_id": "02004004_e00174",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 174,
+      "seq_in_scene": 82,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "千岁随我来。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00175",
+      "play_id": "02004004",
+      "scene_id": "02004004_s04",
+      "scene_no": 4,
+      "seq_global": 175,
+      "seq_in_scene": 83,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00176",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 176,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00177",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 177,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "老军探信未回营，不由老夫心内惊。闷忧忧坐在莲花帐，待等探马报军情。",
+      "text_length": 33
+    },
+    {
+      "event_id": "02004004_e00178",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 178,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00179",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 179,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "小人们叩头。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00180",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 180,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "你们回来啦。打听张飞消息如何？",
+      "text_length": 15
+    },
+    {
+      "event_id": "02004004_e00181",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 181,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "打听的张飞，一更上草，二更上料，三更时分，悄悄偷过通江巴州。",
+      "text_length": 30
+    },
+    {
+      "event_id": "02004004_e00182",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 182,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "好。赏他们银牌一面，免差一月，后帐歇息去吧。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004004_e00183",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 183,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "二老军"
+      ],
+      "text": "谢元帅。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00184",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 184,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "二老军同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00185",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 185,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "张飞吓，张飞，你今中了此计，要想活命，万万不能也！",
+      "text_length": 25
+    },
+    {
+      "event_id": "02004004_e00186",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 186,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "这壁厢安排下地雷火炮，那壁厢准备着硫磺烟硝。待张飞来至在羊肠小道，只一阵管教他命赴阴曹。",
+      "text_length": 44
+    },
+    {
+      "event_id": "02004004_e00187",
+      "play_id": "02004004",
+      "scene_id": "02004004_s05",
+      "scene_no": 5,
+      "seq_global": 187,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00188",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 188,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、徐大汗同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004004_e00189",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 189,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "月影儿照不出路高低，西川道路果崎岖。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00190",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 190,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "徐大汗！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00191",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 191,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00192",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 192,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "就是千岁替死的鬼。",
+      "text_length": 9
+    },
+    {
+      "event_id": "02004004_e00193",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 193,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "千岁。你不要乱说。我还要做大官呢。",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00194",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 194,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "咳。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00195",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 195,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你死在阴司里埋怨着谁。",
+      "text_length": 11
+    },
+    {
+      "event_id": "02004004_e00196",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 196,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00197",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 197,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "来将通名。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00198",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 198,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "汉将张飞。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00199",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 199,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、严颜同杀，严颜败下，张飞追下。严颜上。",
+      "text_length": 22
+    },
+    {
+      "event_id": "02004004_e00200",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 200,
+      "seq_in_scene": 13,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "哎呀且住，想汉营中，只有一个张飞，怎么又有一个张飞？不要管他，等他来一个，老夫杀一个。",
+      "text_length": 43
+    },
+    {
+      "event_id": "02004004_e00201",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 201,
+      "seq_in_scene": 14,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞、徐大汗同追上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00202",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 202,
+      "seq_in_scene": 15,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "来将通名。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00203",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 203,
+      "seq_in_scene": 16,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐大汗"
+      ],
+      "text": "汉将张飞。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00204",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 204,
+      "seq_in_scene": 17,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "看枪。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00205",
+      "play_id": "02004004",
+      "scene_id": "02004004_s06",
+      "scene_no": 6,
+      "seq_global": 205,
+      "seq_in_scene": 18,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜杀徐大汗，徐大汗下。张飞擒严颜，同下。",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004004_e00206",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 206,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张飞上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00207",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 207,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "三军的，严颜拿住了？",
+      "text_length": 10
+    },
+    {
+      "event_id": "02004004_e00208",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 208,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "拿住了。",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00209",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 209,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "好，绑上来。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00210",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 210,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00211",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 211,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒绑严颜同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00212",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 212,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "呔，张飞匹夫！使用诡计，算不得英雄好汉。",
+      "text_length": 20
+    },
+    {
+      "event_id": "02004004_e00213",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 213,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "也呔，严颜！我把你这老贼，昨日在两军阵前，耀武扬威。今日被擒，不知屈膝求生，还是这等倔强。来，推出砍了！",
+      "text_length": 52
+    },
+    {
+      "event_id": "02004004_e00214",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 214,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "想老夫忠心为国，就是死九泉之下，也落得青史名标，好不快乐人也！",
+      "text_length": 31
+    },
+    {
+      "event_id": "02004004_e00215",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 215,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "哈哈哈！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00216",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 216,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "咦，他在那里发笑，敢是笑老张用兵不到？来，把他抓回来。",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004004_e00217",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 217,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "呔，张飞匹夫！要斩就斩，为何三番两次，叫老爷好不耐烦！",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004004_e00218",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 218,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊？将你斩首，你为何发笑？想是贪生怕死吗？",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004004_e00219",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 219,
+      "seq_in_scene": 14,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "谁贪生？",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00220",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 220,
+      "seq_in_scene": 15,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你贪生！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00221",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 221,
+      "seq_in_scene": 16,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "你贪生！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00222",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 222,
+      "seq_in_scene": 17,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "你怕死！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00223",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 223,
+      "seq_in_scene": 18,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "你怕死！",
+      "text_length": 4
+    },
+    {
+      "event_id": "02004004_e00224",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 224,
+      "seq_in_scene": 19,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "这便怎么样呢？唔，唔，三军的，附耳上来。三军的，严老将军，是哪个擒的，哪个绑的？",
+      "text_length": 40
+    },
+    {
+      "event_id": "02004004_e00225",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 225,
+      "seq_in_scene": 20,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "是小人们擒的，小人们绑的。",
+      "text_length": 13
+    },
+    {
+      "event_id": "02004004_e00226",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 226,
+      "seq_in_scene": 21,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "呔，我把你们这些该打的东西！严老将军，年纪高大，不过马失前蹄，跌倒下来，尔等就该抬了八人轿，把老将军抬进城来才是，岂是绑得的！该打！记责！下去！",
+      "text_length": 72
+    },
+    {
+      "event_id": "02004004_e00227",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 227,
+      "seq_in_scene": 22,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "兵卒"
+      ],
+      "text": "吓。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00228",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 228,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "兵卒同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "02004004_e00229",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 229,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊，老将军，军士们无知，冒犯虎威，待张飞亲自与老将军松绑。",
+      "text_length": 29
+    },
+    {
+      "event_id": "02004004_e00230",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 230,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "严颜、张飞对打。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00231",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 231,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "呔，张飞匹夫！若要老爷归降，除非日从西起！",
+      "text_length": 21
+    },
+    {
+      "event_id": "02004004_e00232",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 232,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "咳，想我起兵的时节，军师吩咐：此去西川，不可鞭打大将，枪挑小卒，莫非应在此人？如今弄得打又打不得，骂又骂不得，诸葛亮吓，你坑杀了老张也！",
+      "text_length": 68
+    },
+    {
+      "event_id": "02004004_e00233",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 233,
+      "seq_in_scene": 28,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "我心中恼恨诸葛亮，这样的苦差差老张。张翼德低头暗思想，",
+      "text_length": 27
+    },
+    {
+      "event_id": "02004004_e00234",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 234,
+      "seq_in_scene": 29,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "也罢。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00235",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 235,
+      "seq_in_scene": 30,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "不免屈膝求他降。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00236",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 236,
+      "seq_in_scene": 31,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "老将军，俺老张有言在先：上则跪天，下则跪地，中则屈膝人王帝主。今日为了大哥的江山，也说不得了，跪你一膝；如若不然哪，这一膝也跪下。老将军降了罢，俺大哥乃仁德之君。",
+      "text_length": 81
+    },
+    {
+      "event_id": "02004004_e00237",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 237,
+      "seq_in_scene": 32,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "哎呀，你看老张，上则跪天，下则跪地，中则屈膝跪人王帝主。今日为了他大哥江山，跪在老夫面前。想刘皇叔真乃仁德之君。罢！",
+      "text_length": 58
+    },
+    {
+      "event_id": "02004004_e00238",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 238,
+      "seq_in_scene": 33,
+      "page_no": 7,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "巴州严老将，威名扬四方。不作刀头鬼，愿为屈膝降。",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004004_e00239",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 239,
+      "seq_in_scene": 34,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "人说桃园多仁义，话不虚传果然真。屈膝跪在尘埃地，",
+      "text_length": 24
+    },
+    {
+      "event_id": "02004004_e00240",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 240,
+      "seq_in_scene": 35,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "三千岁请起。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00241",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 241,
+      "seq_in_scene": 36,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "我今归降在汉营。",
+      "text_length": 8
+    },
+    {
+      "event_id": "02004004_e00242",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 242,
+      "seq_in_scene": 37,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "老将军请坐。",
+      "text_length": 6
+    },
+    {
+      "event_id": "02004004_e00243",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 243,
+      "seq_in_scene": 38,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "有座。",
+      "text_length": 3
+    },
+    {
+      "event_id": "02004004_e00244",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 244,
+      "seq_in_scene": 39,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "昨日两军阵前，多有冒犯，老将军恕罪。",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00245",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 245,
+      "seq_in_scene": 40,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "此乃各为其主，理之当然，何罪之有？",
+      "text_length": 17
+    },
+    {
+      "event_id": "02004004_e00246",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 246,
+      "seq_in_scene": 41,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "请问老将军，此去西川，还有几座关隘？",
+      "text_length": 18
+    },
+    {
+      "event_id": "02004004_e00247",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 247,
+      "seq_in_scene": 42,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "此去西川，还有四十九座连营大寨。",
+      "text_length": 16
+    },
+    {
+      "event_id": "02004004_e00248",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 248,
+      "seq_in_scene": 43,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "啊呀，想我与老将军，杀了三日三夜，水米不曾沾牙，不料还有许多营寨。就杀一辈子，也杀不过去。",
+      "text_length": 45
+    },
+    {
+      "event_id": "02004004_e00249",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 249,
+      "seq_in_scene": 44,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "严颜"
+      ],
+      "text": "千岁请放宽心，此四十九座营寨，俱是老夫属下。但凭老夫令箭，到一营。降一营，到一寨，降一寨。",
+      "text_length": 45
+    },
+    {
+      "event_id": "02004004_e00250",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 250,
+      "seq_in_scene": 45,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张飞"
+      ],
+      "text": "如此全仗老将军。后营准备有酒宴，与老将军贺功。",
+      "text_length": 23
+    },
+    {
+      "event_id": "02004004_e00251",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 251,
+      "seq_in_scene": 46,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "严颜",
+        "张飞"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "02004004_e00252",
+      "play_id": "02004004",
+      "scene_id": "02004004_s07",
+      "scene_no": 7,
+      "seq_global": 252,
+      "seq_in_scene": 47,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖尾声〗。严颜、张飞同下。",
+      "text_length": 13
+    }
+  ],
+  "roles_inferred": true
+}

@@ -1,0 +1,253 @@
+{
+  "play": {
+    "play_id": "01006016",
+    "title": "探亲相骂",
+    "pdf_name": "01006016_探亲相骂.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 3,
+    "speech_count": 175,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01006016",
+    "source_date": "2013-06-30",
+    "synopsis_length": 142,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 37,
+      "spoken": 135,
+      "recitation": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 9,
+    "density": 0.6,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 113.0,
+    "max_edge_weight": 197,
+    "top_characters": [
+      {
+        "name": "胡妈妈",
+        "hangdang": "彩旦",
+        "speech_count": 77,
+        "degree": 5,
+        "weighted_degree": 297
+      },
+      {
+        "name": "李奶奶",
+        "hangdang": "旦",
+        "speech_count": 63,
+        "degree": 3,
+        "weighted_degree": 237
+      },
+      {
+        "name": "野花",
+        "hangdang": "旦",
+        "speech_count": 19,
+        "degree": 3,
+        "weighted_degree": 79
+      },
+      {
+        "name": "胡老头儿",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 2,
+        "weighted_degree": 28
+      },
+      {
+        "name": "李相公",
+        "hangdang": "小生",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 27
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "胡妈妈",
+      "label": "胡妈妈",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 77,
+      "text_length": 1654,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 297,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 18,
+        "spoken": 58
+      }
+    },
+    {
+      "id": "李奶奶",
+      "label": "李奶奶",
+      "raw_role": "小旦",
+      "hangdang": "旦",
+      "speech_count": 63,
+      "text_length": 1000,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 237,
+      "marker_category_counts": {
+        "spoken": 55,
+        "singing": 8
+      }
+    },
+    {
+      "id": "野花",
+      "label": "野花",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 19,
+      "text_length": 295,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "spoken": 11,
+        "singing": 7,
+        "other": 1
+      }
+    },
+    {
+      "id": "胡老头儿",
+      "label": "胡老头儿",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 206,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "singing": 3,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "李相公",
+      "label": "李相公",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 6,
+      "text_length": 174,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 4,
+        "singing": 1
+      }
+    },
+    {
+      "id": "邻居",
+      "label": "邻居",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 31,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李奶奶",
+      "target": "胡妈妈",
+      "weight": 197,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 98,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "胡妈妈",
+      "target": "野花",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "胡妈妈",
+      "target": "胡老头儿",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李奶奶",
+      "target": "野花",
+      "weight": 21,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "李奶奶",
+      "target": "李相公",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "胡妈妈",
+      "target": "邻居",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "李相公",
+      "target": "胡妈妈",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "李相公",
+      "target": "野花",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "胡老头儿",
+      "target": "邻居",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

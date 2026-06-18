@@ -1,0 +1,179 @@
+{
+  "play": {
+    "play_id": "01012008",
+    "title": "春秋配",
+    "pdf_name": "01012008_春秋配.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 3,
+    "speech_count": 183,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01012008",
+    "source_date": "2013-08-27",
+    "synopsis_length": 332,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 146,
+      "recitation": 3,
+      "singing": 32
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 5,
+    "density": 0.833333,
+    "avg_degree": 2.5,
+    "avg_weighted_degree": 179.0,
+    "max_edge_weight": 132,
+    "top_characters": [
+      {
+        "name": "乳娘",
+        "hangdang": "老旦",
+        "speech_count": 73,
+        "degree": 3,
+        "weighted_degree": 278
+      },
+      {
+        "name": "姜秋莲",
+        "hangdang": "旦",
+        "speech_count": 53,
+        "degree": 3,
+        "weighted_degree": 212
+      },
+      {
+        "name": "李春发",
+        "hangdang": "小生",
+        "speech_count": 33,
+        "degree": 2,
+        "weighted_degree": 130
+      },
+      {
+        "name": "贾氏",
+        "hangdang": "旦",
+        "speech_count": 24,
+        "degree": 2,
+        "weighted_degree": 96
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "乳娘",
+      "label": "乳娘",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 73,
+      "text_length": 1150,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 278,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 63,
+        "singing": 8
+      }
+    },
+    {
+      "id": "姜秋莲",
+      "label": "姜秋莲",
+      "raw_role": "小旦",
+      "hangdang": "旦",
+      "speech_count": 53,
+      "text_length": 806,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 212,
+      "marker_category_counts": {
+        "spoken": 31,
+        "singing": 20,
+        "recitation": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "李春发",
+      "label": "李春发",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 33,
+      "text_length": 788,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 130,
+      "marker_category_counts": {
+        "spoken": 31,
+        "singing": 2
+      }
+    },
+    {
+      "id": "贾氏",
+      "label": "贾氏",
+      "raw_role": "丑旦",
+      "hangdang": "旦",
+      "speech_count": 24,
+      "text_length": 735,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 21,
+        "singing": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "乳娘",
+      "target": "姜秋莲",
+      "weight": 132,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 65,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "乳娘",
+      "target": "李春发",
+      "weight": 89,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 44,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "乳娘",
+      "target": "贾氏",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "姜秋莲",
+      "target": "李春发",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "姜秋莲",
+      "target": "贾氏",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

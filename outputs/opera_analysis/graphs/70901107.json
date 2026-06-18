@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "70901107",
+    "title": "千金记·别姬",
+    "pdf_name": "70901107_千金记·别姬.pdf",
+    "group_id": "70901000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 43,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/70901107",
+    "source_date": "2018-08-23",
+    "synopsis_length": 77,
+    "notes_length": 213,
+    "marker_category_counts": {
+      "other": 6,
+      "spoken": 36,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 43.0,
+    "max_edge_weight": 49,
+    "top_characters": [
+      {
+        "name": "项羽",
+        "hangdang": "净",
+        "speech_count": 22,
+        "degree": 3,
+        "weighted_degree": 81
+      },
+      {
+        "name": "虞姬",
+        "hangdang": "旦",
+        "speech_count": 13,
+        "degree": 3,
+        "weighted_degree": 53
+      },
+      {
+        "name": "钟离昧",
+        "hangdang": "武生",
+        "speech_count": 7,
+        "degree": 3,
+        "weighted_degree": 31
+      },
+      {
+        "name": "韩信",
+        "hangdang": "老生",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "项羽",
+      "label": "项羽",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 22,
+      "text_length": 772,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 81,
+      "marker_category_counts": {
+        "spoken": 18,
+        "other": 3,
+        "singing": 1
+      }
+    },
+    {
+      "id": "虞姬",
+      "label": "虞姬",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 13,
+      "text_length": 367,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 53,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 12
+      }
+    },
+    {
+      "id": "钟离昧",
+      "label": "钟离昧",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 7,
+      "text_length": 123,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 31,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 5
+      }
+    },
+    {
+      "id": "韩信",
+      "label": "韩信",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 1,
+      "text_length": 44,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "虞姬",
+      "target": "项羽",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "钟离昧",
+      "target": "项羽",
+      "weight": 27,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 13,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "韩信",
+      "target": "项羽",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "虞姬",
+      "target": "钟离昧",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "虞姬",
+      "target": "韩信",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "钟离昧",
+      "target": "韩信",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

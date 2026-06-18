@@ -1,0 +1,346 @@
+{
+  "play": {
+    "play_id": "03091005",
+    "title": "三字经",
+    "pdf_name": "03091005_三字经.pdf",
+    "group_id": "03000000",
+    "page_count": 6,
+    "scene_count": 2,
+    "speech_count": 154,
+    "character_count": 7,
+    "source_url": "https://scripts.xikao.com/play/03091005",
+    "source_date": "2021-08-09",
+    "synopsis_length": 50,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 143,
+      "recitation": 7
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 17,
+    "density": 0.809524,
+    "avg_degree": 4.857143,
+    "avg_weighted_degree": 84.571429,
+    "max_edge_weight": 106,
+    "top_characters": [
+      {
+        "name": "温韬",
+        "hangdang": "丑",
+        "speech_count": 54,
+        "degree": 6,
+        "weighted_degree": 205
+      },
+      {
+        "name": "关卞",
+        "hangdang": "丑",
+        "speech_count": 50,
+        "degree": 6,
+        "weighted_degree": 189
+      },
+      {
+        "name": "罗英",
+        "hangdang": "老生",
+        "speech_count": 38,
+        "degree": 2,
+        "weighted_degree": 134
+      },
+      {
+        "name": "旗牌",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 5,
+        "weighted_degree": 37
+      },
+      {
+        "name": "四绿龙套",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 5,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "温韬",
+      "label": "温韬",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 54,
+      "text_length": 1102,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 205,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 52,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "关卞",
+      "label": "关卞",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 50,
+      "text_length": 849,
+      "scene_count": 2,
+      "degree": 6,
+      "weighted_degree": 189,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 47,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "罗英",
+      "label": "罗英",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 38,
+      "text_length": 2468,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 134,
+      "marker_category_counts": {
+        "spoken": 33,
+        "other": 2,
+        "recitation": 3
+      }
+    },
+    {
+      "id": "旗牌",
+      "label": "旗牌",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 88,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 8
+      }
+    },
+    {
+      "id": "四绿龙套",
+      "label": "四绿龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四龙套",
+      "label": "四龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "龙套甲",
+      "label": "龙套甲",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 5,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "关卞",
+      "target": "温韬",
+      "weight": 106,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 52,
+      "scenes": [
+        "scene_001",
+        "scene_002"
+      ]
+    },
+    {
+      "source": "温韬",
+      "target": "罗英",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "罗英",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "温韬",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "旗牌",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "四龙套",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "龙套甲",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四绿龙套",
+      "target": "旗牌",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四绿龙套",
+      "target": "温韬",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关卞",
+      "target": "四绿龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四绿龙套",
+      "target": "四龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四绿龙套",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "旗牌",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "温韬",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "旗牌",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "温韬",
+      "target": "龙套甲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

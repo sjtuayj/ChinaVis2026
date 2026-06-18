@@ -1,0 +1,133 @@
+{
+  "play": {
+    "play_id": "05004001",
+    "title": "专母训子",
+    "pdf_name": "05004001_专母训子.pdf",
+    "group_id": "05000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 47,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/05004001",
+    "source_date": "2013-03-20",
+    "synopsis_length": 38,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 3,
+      "singing": 9,
+      "spoken": 35
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 60.666667,
+    "max_edge_weight": 75,
+    "top_characters": [
+      {
+        "name": "专诸",
+        "hangdang": "净",
+        "speech_count": 23,
+        "degree": 2,
+        "weighted_degree": 90
+      },
+      {
+        "name": "专母",
+        "hangdang": "老旦",
+        "speech_count": 20,
+        "degree": 2,
+        "weighted_degree": 76
+      },
+      {
+        "name": "专妻",
+        "hangdang": "旦",
+        "speech_count": 4,
+        "degree": 2,
+        "weighted_degree": 16
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "专诸",
+      "label": "专诸",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 23,
+      "text_length": 873,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 90,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "专母",
+      "label": "专母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 20,
+      "text_length": 997,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 76,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 15,
+        "singing": 3
+      }
+    },
+    {
+      "id": "专妻",
+      "label": "专妻",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 4,
+      "text_length": 209,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 16,
+      "marker_category_counts": {
+        "singing": 2,
+        "other": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "专母",
+      "target": "专诸",
+      "weight": 75,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 37,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "专妻",
+      "target": "专诸",
+      "weight": 15,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "专妻",
+      "target": "专母",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

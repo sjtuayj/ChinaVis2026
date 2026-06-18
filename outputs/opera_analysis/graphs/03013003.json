@@ -1,0 +1,260 @@
+{
+  "play": {
+    "play_id": "03013003",
+    "title": "百寿图",
+    "pdf_name": "03013003_百寿图.pdf",
+    "group_id": "03000000",
+    "page_count": 7,
+    "scene_count": 4,
+    "speech_count": 158,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/03013003",
+    "source_date": "2018-08-23",
+    "synopsis_length": 148,
+    "notes_length": 28,
+    "marker_category_counts": {
+      "other": 3,
+      "singing": 80,
+      "spoken": 73,
+      "stage_action": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 9,
+    "density": 0.6,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 101.666667,
+    "max_edge_weight": 127,
+    "top_characters": [
+      {
+        "name": "北斗星",
+        "hangdang": "净",
+        "speech_count": 42,
+        "degree": 2,
+        "weighted_degree": 152
+      },
+      {
+        "name": "南斗星",
+        "hangdang": "老生",
+        "speech_count": 34,
+        "degree": 2,
+        "weighted_degree": 138
+      },
+      {
+        "name": "赵颜",
+        "hangdang": "小生",
+        "speech_count": 30,
+        "degree": 5,
+        "weighted_degree": 114
+      },
+      {
+        "name": "管辂",
+        "hangdang": "老生",
+        "speech_count": 23,
+        "degree": 3,
+        "weighted_degree": 88
+      },
+      {
+        "name": "赵母",
+        "hangdang": "未知",
+        "speech_count": 19,
+        "degree": 3,
+        "weighted_degree": 77
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "北斗星",
+      "label": "北斗星",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 42,
+      "text_length": 666,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 152,
+      "marker_category_counts": {
+        "spoken": 18,
+        "singing": 23,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "南斗星",
+      "label": "南斗星",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 34,
+      "text_length": 515,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 138,
+      "marker_category_counts": {
+        "singing": 23,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "赵颜",
+      "label": "赵颜",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 30,
+      "text_length": 807,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 114,
+      "marker_category_counts": {
+        "singing": 11,
+        "spoken": 19
+      }
+    },
+    {
+      "id": "管辂",
+      "label": "管辂",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 23,
+      "text_length": 1054,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 88,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 9,
+        "spoken": 13
+      }
+    },
+    {
+      "id": "赵母",
+      "label": "赵母",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 19,
+      "text_length": 203,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "spoken": 11,
+        "singing": 6,
+        "other": 1,
+        "stage_action": 1
+      }
+    },
+    {
+      "id": "赵范",
+      "label": "赵范",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 10,
+      "text_length": 151,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 41,
+      "marker_category_counts": {
+        "singing": 8,
+        "other": 1,
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "北斗星",
+      "target": "南斗星",
+      "weight": 127,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 63,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "管辂",
+      "target": "赵颜",
+      "weight": 56,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 27,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "赵母",
+      "target": "赵范",
+      "weight": 32,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "管辂",
+      "target": "赵母",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "北斗星",
+      "target": "赵颜",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "赵母",
+      "target": "赵颜",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "南斗星",
+      "target": "赵颜",
+      "weight": 11,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "赵范",
+      "target": "赵颜",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "管辂",
+      "target": "赵范",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

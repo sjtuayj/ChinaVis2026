@@ -1,0 +1,143 @@
+{
+  "play": {
+    "play_id": "01029007",
+    "title": "吴汉杀妻",
+    "pdf_name": "01029007_吴汉杀妻.pdf",
+    "group_id": "01000000",
+    "page_count": 5,
+    "scene_count": 3,
+    "speech_count": 103,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01029007",
+    "source_date": "2018-08-24",
+    "synopsis_length": 479,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 2,
+      "spoken": 89,
+      "singing": 11,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 2,
+    "density": 0.333333,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 90.5,
+    "max_edge_weight": 102,
+    "top_characters": [
+      {
+        "name": "吴汉",
+        "hangdang": "老生",
+        "speech_count": 55,
+        "degree": 2,
+        "weighted_degree": 181
+      },
+      {
+        "name": "吴母",
+        "hangdang": "老旦",
+        "speech_count": 26,
+        "degree": 1,
+        "weighted_degree": 102
+      },
+      {
+        "name": "王兰英",
+        "hangdang": "旦",
+        "speech_count": 22,
+        "degree": 1,
+        "weighted_degree": 79
+      },
+      {
+        "name": "刘秀",
+        "hangdang": "小生",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "吴汉",
+      "label": "吴汉",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 55,
+      "text_length": 1261,
+      "scene_count": 3,
+      "degree": 2,
+      "weighted_degree": 181,
+      "marker_category_counts": {
+        "spoken": 48,
+        "singing": 7
+      }
+    },
+    {
+      "id": "吴母",
+      "label": "吴母",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 26,
+      "text_length": 846,
+      "scene_count": 2,
+      "degree": 1,
+      "weighted_degree": 102,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 24
+      }
+    },
+    {
+      "id": "王兰英",
+      "label": "王兰英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 22,
+      "text_length": 924,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 79,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 4,
+        "spoken": 17
+      }
+    },
+    {
+      "id": "刘秀",
+      "label": "刘秀",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "吴母",
+      "target": "吴汉",
+      "weight": 102,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_001",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "吴汉",
+      "target": "王兰英",
+      "weight": 79,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 39,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

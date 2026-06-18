@@ -1,0 +1,314 @@
+{
+  "play": {
+    "play_id": "05014003",
+    "title": "荆襄府",
+    "pdf_name": "05014003_荆襄府.pdf",
+    "group_id": "05000000",
+    "page_count": 6,
+    "scene_count": 1,
+    "speech_count": 118,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/05014003",
+    "source_date": "2013-03-19",
+    "synopsis_length": 103,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "recitation": 4,
+      "spoken": 99,
+      "stage_action": 1,
+      "singing": 13,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 15,
+    "density": 1.0,
+    "avg_degree": 5.0,
+    "avg_weighted_degree": 79.0,
+    "max_edge_weight": 109,
+    "top_characters": [
+      {
+        "name": "张飞",
+        "hangdang": "净",
+        "speech_count": 45,
+        "degree": 5,
+        "weighted_degree": 169
+      },
+      {
+        "name": "诸葛亮",
+        "hangdang": "老生",
+        "speech_count": 42,
+        "degree": 5,
+        "weighted_degree": 165
+      },
+      {
+        "name": "关羽",
+        "hangdang": "红生",
+        "speech_count": 19,
+        "degree": 5,
+        "weighted_degree": 77
+      },
+      {
+        "name": "赵云",
+        "hangdang": "武生",
+        "speech_count": 8,
+        "degree": 5,
+        "weighted_degree": 37
+      },
+      {
+        "name": "关平",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 5,
+        "weighted_degree": 17
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "张飞",
+      "label": "张飞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 45,
+      "text_length": 1331,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 169,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 37,
+        "stage_action": 1,
+        "other": 1,
+        "singing": 4
+      }
+    },
+    {
+      "id": "诸葛亮",
+      "label": "诸葛亮",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 42,
+      "text_length": 852,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 165,
+      "marker_category_counts": {
+        "spoken": 37,
+        "singing": 5
+      }
+    },
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 19,
+      "text_length": 573,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 77,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 15,
+        "singing": 2
+      }
+    },
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 8,
+      "text_length": 128,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 37,
+      "marker_category_counts": {
+        "spoken": 6,
+        "singing": 2
+      }
+    },
+    {
+      "id": "关平",
+      "label": "关平",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 25,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 17,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "报子",
+      "label": "报子",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 5,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "张飞",
+      "target": "诸葛亮",
+      "weight": 109,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 54,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "张飞",
+      "weight": 39,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "诸葛亮",
+      "weight": 29,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 14,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "诸葛亮",
+      "target": "赵云",
+      "weight": 25,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关平",
+      "target": "张飞",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "赵云",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "报子",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "赵云",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关平",
+      "target": "关羽",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关平",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关平",
+      "target": "诸葛亮",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关平",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "报子",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "诸葛亮",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "报子",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

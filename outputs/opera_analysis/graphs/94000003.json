@@ -1,0 +1,258 @@
+{
+  "play": {
+    "play_id": "94000003",
+    "title": "打孟良",
+    "pdf_name": "94000003_打孟良.pdf",
+    "group_id": "94000000",
+    "page_count": 6,
+    "scene_count": 5,
+    "speech_count": 149,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/94000003",
+    "source_date": "2018-08-24",
+    "synopsis_length": 134,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 136,
+      "recitation": 3,
+      "other": 3,
+      "singing": 7
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 10,
+    "density": 1.0,
+    "avg_degree": 4.0,
+    "avg_weighted_degree": 115.2,
+    "max_edge_weight": 90,
+    "top_characters": [
+      {
+        "name": "孟良",
+        "hangdang": "净",
+        "speech_count": 63,
+        "degree": 4,
+        "weighted_degree": 220
+      },
+      {
+        "name": "杨排风",
+        "hangdang": "武旦",
+        "speech_count": 33,
+        "degree": 4,
+        "weighted_degree": 129
+      },
+      {
+        "name": "杨洪",
+        "hangdang": "丑",
+        "speech_count": 25,
+        "degree": 4,
+        "weighted_degree": 110
+      },
+      {
+        "name": "佘太君",
+        "hangdang": "老旦",
+        "speech_count": 26,
+        "degree": 4,
+        "weighted_degree": 104
+      },
+      {
+        "name": "佘大君",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 4,
+        "weighted_degree": 13
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "孟良",
+      "label": "孟良",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 63,
+      "text_length": 961,
+      "scene_count": 4,
+      "degree": 4,
+      "weighted_degree": 220,
+      "marker_category_counts": {
+        "spoken": 55,
+        "recitation": 3,
+        "singing": 3,
+        "other": 2
+      }
+    },
+    {
+      "id": "杨排风",
+      "label": "杨排风",
+      "raw_role": "武旦",
+      "hangdang": "武旦",
+      "speech_count": 33,
+      "text_length": 600,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 129,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 29
+      }
+    },
+    {
+      "id": "杨洪",
+      "label": "杨洪",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 25,
+      "text_length": 408,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 110,
+      "marker_category_counts": {
+        "spoken": 25
+      }
+    },
+    {
+      "id": "佘太君",
+      "label": "佘太君",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 26,
+      "text_length": 594,
+      "scene_count": 3,
+      "degree": 4,
+      "weighted_degree": 104,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 25
+      }
+    },
+    {
+      "id": "佘大君",
+      "label": "佘大君",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 22,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 13,
+      "marker_category_counts": {
+        "spoken": 2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "孟良",
+      "target": "杨排风",
+      "weight": 90,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 44,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "孟良",
+      "target": "杨洪",
+      "weight": 71,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 34,
+      "scenes": [
+        "scene_002",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "佘太君",
+      "target": "孟良",
+      "weight": 53,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 25,
+      "scenes": [
+        "scene_002",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "佘太君",
+      "target": "杨排风",
+      "weight": 26,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 12,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "佘太君",
+      "target": "杨洪",
+      "weight": 23,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 10,
+      "scenes": [
+        "scene_002",
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "杨排风",
+      "target": "杨洪",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_004",
+        "scene_005"
+      ]
+    },
+    {
+      "source": "佘大君",
+      "target": "孟良",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "佘大君",
+      "target": "杨洪",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "佘大君",
+      "target": "佘太君",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "佘大君",
+      "target": "杨排风",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "play": {
+    "play_id": "70902127",
+    "title": "长生殿·酒楼",
+    "pdf_name": "70902127_长生殿·酒楼.pdf",
+    "group_id": "70902000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 57,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/70902127",
+    "source_date": "2021-07-30",
+    "synopsis_length": 119,
+    "notes_length": 184,
+    "marker_category_counts": {
+      "recitation": 3,
+      "spoken": 53,
+      "other": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 3,
+    "density": 0.5,
+    "avg_degree": 1.5,
+    "avg_weighted_degree": 53.5,
+    "max_edge_weight": 97,
+    "top_characters": [
+      {
+        "name": "郭子仪",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 2,
+        "weighted_degree": 106
+      },
+      {
+        "name": "酒保",
+        "hangdang": "丑",
+        "speech_count": 26,
+        "degree": 2,
+        "weighted_degree": 98
+      },
+      {
+        "name": "家将",
+        "hangdang": "未知",
+        "speech_count": 2,
+        "degree": 2,
+        "weighted_degree": 10
+      },
+      {
+        "name": "安禄山",
+        "hangdang": "净",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "郭子仪",
+      "label": "郭子仪",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 1162,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 106,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 27,
+        "other": 1
+      }
+    },
+    {
+      "id": "酒保",
+      "label": "酒保",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 26,
+      "text_length": 869,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 98,
+      "marker_category_counts": {
+        "spoken": 25,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "家将",
+      "label": "家将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 2,
+      "text_length": 39,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 10,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "安禄山",
+      "label": "安禄山",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "郭子仪",
+      "target": "酒保",
+      "weight": 97,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 48,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家将",
+      "target": "郭子仪",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家将",
+      "target": "酒保",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

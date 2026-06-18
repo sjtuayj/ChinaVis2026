@@ -1,0 +1,185 @@
+{
+  "play": {
+    "play_id": "05014005",
+    "title": "左慈骂曹",
+    "pdf_name": "05014005_左慈骂曹.pdf",
+    "group_id": "05000000",
+    "page_count": 5,
+    "scene_count": 1,
+    "speech_count": 92,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/05014005",
+    "source_date": "2018-08-23",
+    "synopsis_length": 288,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "recitation": 6,
+      "spoken": 84,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 90.0,
+    "max_edge_weight": 109,
+    "top_characters": [
+      {
+        "name": "曹操",
+        "hangdang": "净",
+        "speech_count": 45,
+        "degree": 3,
+        "weighted_degree": 169
+      },
+      {
+        "name": "左慈",
+        "hangdang": "老生",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 117
+      },
+      {
+        "name": "华歆",
+        "hangdang": "丑",
+        "speech_count": 16,
+        "degree": 3,
+        "weighted_degree": 67
+      },
+      {
+        "name": "四手下",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 3,
+        "weighted_degree": 7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "曹操",
+      "label": "曹操",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 45,
+      "text_length": 626,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 169,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 43,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "左慈",
+      "label": "左慈",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 30,
+      "text_length": 1286,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 117,
+      "marker_category_counts": {
+        "recitation": 4,
+        "spoken": 25,
+        "singing": 1
+      }
+    },
+    {
+      "id": "华歆",
+      "label": "华歆",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 16,
+      "text_length": 130,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 15
+      }
+    },
+    {
+      "id": "四手下",
+      "label": "四手下",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 7,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "左慈",
+      "target": "曹操",
+      "weight": 109,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 54,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华歆",
+      "target": "曹操",
+      "weight": 57,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 28,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华歆",
+      "target": "左慈",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "华歆",
+      "target": "四手下",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四手下",
+      "target": "曹操",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "四手下",
+      "target": "左慈",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

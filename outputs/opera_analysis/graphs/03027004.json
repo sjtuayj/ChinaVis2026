@@ -1,0 +1,131 @@
+{
+  "play": {
+    "play_id": "03027004",
+    "title": "徐庶劝友",
+    "pdf_name": "03027004_徐庶劝友.pdf",
+    "group_id": "03000000",
+    "page_count": 4,
+    "scene_count": 2,
+    "speech_count": 35,
+    "character_count": 3,
+    "source_url": "http://scripts.xikao.com/play/03027004",
+    "source_date": "2018-08-24",
+    "synopsis_length": 95,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "singing": 15,
+      "other": 1,
+      "spoken": 19
+    }
+  },
+  "metrics": {
+    "node_count": 3,
+    "edge_count": 3,
+    "density": 1.0,
+    "avg_degree": 2.0,
+    "avg_weighted_degree": 43.333333,
+    "max_edge_weight": 59,
+    "top_characters": [
+      {
+        "name": "诸葛亮",
+        "hangdang": "老生",
+        "speech_count": 17,
+        "degree": 2,
+        "weighted_degree": 64
+      },
+      {
+        "name": "徐庶",
+        "hangdang": "老生",
+        "speech_count": 17,
+        "degree": 2,
+        "weighted_degree": 60
+      },
+      {
+        "name": "童儿",
+        "hangdang": "未知",
+        "speech_count": 1,
+        "degree": 2,
+        "weighted_degree": 6
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "诸葛亮",
+      "label": "诸葛亮",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 17,
+      "text_length": 1026,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 64,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 9,
+        "singing": 7
+      }
+    },
+    {
+      "id": "徐庶",
+      "label": "徐庶",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 17,
+      "text_length": 1335,
+      "scene_count": 2,
+      "degree": 2,
+      "weighted_degree": 60,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 9
+      }
+    },
+    {
+      "id": "童儿",
+      "label": "童儿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 2,
+      "weighted_degree": 6,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "徐庶",
+      "target": "诸葛亮",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "童儿",
+      "target": "诸葛亮",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "童儿",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

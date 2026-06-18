@@ -1,0 +1,5922 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "70003122",
+    "title": "战长沙",
+    "aliases": [],
+    "collection_id": "70003000",
+    "collection_name": "李洪春剧本选",
+    "collection_remark": "《关羽戏集：李洪春演出本》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/70003000/70003122_战长沙.pdf",
+    "source_url": "http://scripts.xikao.com/play/70003122",
+    "source_date": "2018-08-23",
+    "page_count": 11,
+    "file_size_bytes": 420160,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "赤壁鏖兵，曹操惨败。刘备占据荆州，命关羽攻打长沙。守将韩玄命黄忠出战，马失前蹄，关羽释之。次日会战，黄忠箭射关羽盔缨，以报关羽不斩之恩。韩玄怒责黄忠通敌，将斩，魏延押粮归来，杀死韩玄，与黄忠同降刘备。根据《关羽戏集：李洪春演出本》整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "魏、诸葛、刘备、曹操、关羽",
+      "confidence": 0.95
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.92,
+      "evidence": [
+        "战",
+        "关",
+        "兵",
+        "将",
+        "马",
+        "杀"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_关羽",
+      "name": "关羽",
+      "original_category": "红生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "文人/书生"
+      ],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 30,
+        "aria_count": 9,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 13,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "红生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：关羽：红生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_黄忠",
+      "name": "黄忠",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 45,
+        "aria_count": 30,
+        "recitation_count": 6,
+        "expression_count": 2,
+        "action_hint_count": 25,
+        "combat_hint_count": 9
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：黄忠：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_魏延",
+      "name": "魏延",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "女",
+      "gender_confidence": 0.68,
+      "age_group": "青年/少年",
+      "age_confidence": 0.68,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 41,
+        "aria_count": 24,
+        "recitation_count": 2,
+        "expression_count": 1,
+        "action_hint_count": 18,
+        "combat_hint_count": 7
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：魏延：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_韩玄",
+      "name": "韩玄",
+      "original_category": "老生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 21,
+        "aria_count": 12,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：韩玄：老生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四龙套",
+      "name": "四龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_龙套",
+      "name": "龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵",
+        "仆从/差役"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 15,
+        "combat_hint_count": 1
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "忠义",
+        "勇武",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_探子",
+      "name": "探子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "未知",
+        "fine": "未知",
+        "confidence": 0.25,
+        "evidence": []
+      }
+    },
+    {
+      "role_id": "r_四红龙套",
+      "name": "四红龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_刘备",
+      "name": "刘备",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "仆从/差役",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "忠义",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_诸葛亮",
+      "name": "诸葛亮",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "成年",
+      "age_confidence": 0.42,
+      "identity": [
+        "官员/谋臣",
+        "统帅/军政核心"
+      ],
+      "personality_traits": [
+        "刚烈",
+        "勇武",
+        "忠义"
+      ],
+      "performance_features": {
+        "spoken_count": 11,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "统帅/军政核心"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "关羽",
+        "四龙套"
+      ],
+      "event_ids": [
+        "70003122_e00001",
+        "70003122_e00002",
+        "70003122_e00003",
+        "70003122_e00004",
+        "70003122_e00005",
+        "70003122_e00006",
+        "70003122_e00007",
+        "70003122_e00008",
+        "70003122_e00009"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 9,
+        "spoken_count": 3,
+        "aria_count": 2,
+        "recitation_count": 1,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 221
+      }
+    },
+    {
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 3,
+      "characters": [
+        "黄忠",
+        "魏延",
+        "韩玄",
+        "龙套",
+        "报子",
+        "探子"
+      ],
+      "event_ids": [
+        "70003122_e00010",
+        "70003122_e00011",
+        "70003122_e00012",
+        "70003122_e00013",
+        "70003122_e00014",
+        "70003122_e00015",
+        "70003122_e00016",
+        "70003122_e00017",
+        "70003122_e00018",
+        "70003122_e00019",
+        "70003122_e00020",
+        "70003122_e00021",
+        "70003122_e00022",
+        "70003122_e00023",
+        "70003122_e00024",
+        "70003122_e00025",
+        "70003122_e00026",
+        "70003122_e00027",
+        "70003122_e00028",
+        "70003122_e00029",
+        "70003122_e00030",
+        "70003122_e00031",
+        "70003122_e00032",
+        "70003122_e00033",
+        "70003122_e00034",
+        "70003122_e00035",
+        "70003122_e00036",
+        "70003122_e00037",
+        "70003122_e00038",
+        "70003122_e00039",
+        "70003122_e00040",
+        "70003122_e00041",
+        "70003122_e00042",
+        "70003122_e00043",
+        "70003122_e00044",
+        "70003122_e00045",
+        "70003122_e00046",
+        "70003122_e00047",
+        "70003122_e00048",
+        "70003122_e00049",
+        "70003122_e00050",
+        "70003122_e00051",
+        "70003122_e00052",
+        "70003122_e00053",
+        "70003122_e00054"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 45,
+        "spoken_count": 24,
+        "aria_count": 7,
+        "recitation_count": 5,
+        "stage_direction_count": 8,
+        "expression_count": 0,
+        "text_length": 719
+      }
+    },
+    {
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [
+        "四红龙套",
+        "关羽",
+        "黄忠"
+      ],
+      "event_ids": [
+        "70003122_e00055",
+        "70003122_e00056",
+        "70003122_e00057",
+        "70003122_e00058",
+        "70003122_e00059",
+        "70003122_e00060",
+        "70003122_e00061",
+        "70003122_e00062",
+        "70003122_e00063",
+        "70003122_e00064",
+        "70003122_e00065",
+        "70003122_e00066",
+        "70003122_e00067"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 13,
+        "spoken_count": 6,
+        "aria_count": 3,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 286
+      }
+    },
+    {
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "关羽",
+        "黄忠"
+      ],
+      "event_ids": [
+        "70003122_e00068",
+        "70003122_e00069",
+        "70003122_e00070",
+        "70003122_e00071",
+        "70003122_e00072",
+        "70003122_e00073",
+        "70003122_e00074",
+        "70003122_e00075"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 8,
+        "spoken_count": 4,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 107
+      }
+    },
+    {
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 4,
+      "page_end": 4,
+      "characters": [
+        "韩玄",
+        "黄忠"
+      ],
+      "event_ids": [
+        "70003122_e00076",
+        "70003122_e00077",
+        "70003122_e00078",
+        "70003122_e00079",
+        "70003122_e00080",
+        "70003122_e00081",
+        "70003122_e00082",
+        "70003122_e00083",
+        "70003122_e00084",
+        "70003122_e00085",
+        "70003122_e00086",
+        "70003122_e00087",
+        "70003122_e00088",
+        "70003122_e00089",
+        "70003122_e00090"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 15,
+        "spoken_count": 6,
+        "aria_count": 4,
+        "recitation_count": 1,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 250
+      }
+    },
+    {
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 4,
+      "page_end": 5,
+      "characters": [
+        "关羽",
+        "报子",
+        "黄忠"
+      ],
+      "event_ids": [
+        "70003122_e00091",
+        "70003122_e00092",
+        "70003122_e00093",
+        "70003122_e00094",
+        "70003122_e00095",
+        "70003122_e00096",
+        "70003122_e00097",
+        "70003122_e00098",
+        "70003122_e00099",
+        "70003122_e00100",
+        "70003122_e00101",
+        "70003122_e00102",
+        "70003122_e00103",
+        "70003122_e00104"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 14,
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 159
+      }
+    },
+    {
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 5,
+      "page_end": 6,
+      "characters": [
+        "韩玄",
+        "黄忠",
+        "关羽",
+        "四龙套"
+      ],
+      "event_ids": [
+        "70003122_e00105",
+        "70003122_e00106",
+        "70003122_e00107",
+        "70003122_e00108",
+        "70003122_e00109",
+        "70003122_e00110",
+        "70003122_e00111",
+        "70003122_e00112",
+        "70003122_e00113",
+        "70003122_e00114",
+        "70003122_e00115",
+        "70003122_e00116",
+        "70003122_e00117",
+        "70003122_e00118",
+        "70003122_e00119",
+        "70003122_e00120",
+        "70003122_e00121",
+        "70003122_e00122",
+        "70003122_e00123",
+        "70003122_e00124",
+        "70003122_e00125",
+        "70003122_e00126",
+        "70003122_e00127",
+        "70003122_e00128",
+        "70003122_e00129",
+        "70003122_e00130",
+        "70003122_e00131",
+        "70003122_e00132",
+        "70003122_e00133",
+        "70003122_e00134",
+        "70003122_e00135",
+        "70003122_e00136",
+        "70003122_e00137",
+        "70003122_e00138",
+        "70003122_e00139",
+        "70003122_e00140",
+        "70003122_e00141",
+        "70003122_e00142",
+        "70003122_e00143",
+        "70003122_e00144",
+        "70003122_e00145",
+        "70003122_e00146",
+        "70003122_e00147"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 43,
+        "spoken_count": 18,
+        "aria_count": 10,
+        "recitation_count": 2,
+        "stage_direction_count": 13,
+        "expression_count": 0,
+        "text_length": 683
+      }
+    },
+    {
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "title": "第八场",
+      "page_start": 6,
+      "page_end": 6,
+      "characters": [
+        "魏延"
+      ],
+      "event_ids": [
+        "70003122_e00148",
+        "70003122_e00149",
+        "70003122_e00150",
+        "70003122_e00151",
+        "70003122_e00152"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 1,
+        "aria_count": 2,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 108
+      }
+    },
+    {
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "title": "第九场",
+      "page_start": 6,
+      "page_end": 7,
+      "characters": [
+        "黄忠",
+        "魏延"
+      ],
+      "event_ids": [
+        "70003122_e00153",
+        "70003122_e00154",
+        "70003122_e00155",
+        "70003122_e00156",
+        "70003122_e00157",
+        "70003122_e00158",
+        "70003122_e00159",
+        "70003122_e00160",
+        "70003122_e00161",
+        "70003122_e00162",
+        "70003122_e00163",
+        "70003122_e00164",
+        "70003122_e00165"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 13,
+        "spoken_count": 0,
+        "aria_count": 9,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 411
+      }
+    },
+    {
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "title": "第十场",
+      "page_start": 7,
+      "page_end": 8,
+      "characters": [
+        "韩玄",
+        "魏延"
+      ],
+      "event_ids": [
+        "70003122_e00166",
+        "70003122_e00167",
+        "70003122_e00168",
+        "70003122_e00169",
+        "70003122_e00170",
+        "70003122_e00171",
+        "70003122_e00172",
+        "70003122_e00173",
+        "70003122_e00174",
+        "70003122_e00175",
+        "70003122_e00176",
+        "70003122_e00177",
+        "70003122_e00178",
+        "70003122_e00179",
+        "70003122_e00180",
+        "70003122_e00181",
+        "70003122_e00182",
+        "70003122_e00183",
+        "70003122_e00184",
+        "70003122_e00185",
+        "70003122_e00186",
+        "70003122_e00187",
+        "70003122_e00188",
+        "70003122_e00189",
+        "70003122_e00190",
+        "70003122_e00191",
+        "70003122_e00192",
+        "70003122_e00193",
+        "70003122_e00194",
+        "70003122_e00195",
+        "70003122_e00196",
+        "70003122_e00197",
+        "70003122_e00198",
+        "70003122_e00199"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 34,
+        "spoken_count": 18,
+        "aria_count": 9,
+        "recitation_count": 0,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 421
+      }
+    },
+    {
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "title": "第十一场",
+      "page_start": 8,
+      "page_end": 9,
+      "characters": [
+        "黄忠",
+        "魏延"
+      ],
+      "event_ids": [
+        "70003122_e00200",
+        "70003122_e00201",
+        "70003122_e00202",
+        "70003122_e00203",
+        "70003122_e00204",
+        "70003122_e00205",
+        "70003122_e00206",
+        "70003122_e00207",
+        "70003122_e00208",
+        "70003122_e00209",
+        "70003122_e00210",
+        "70003122_e00211",
+        "70003122_e00212",
+        "70003122_e00213",
+        "70003122_e00214",
+        "70003122_e00215",
+        "70003122_e00216",
+        "70003122_e00217",
+        "70003122_e00218",
+        "70003122_e00219",
+        "70003122_e00220",
+        "70003122_e00221",
+        "70003122_e00222",
+        "70003122_e00223",
+        "70003122_e00224",
+        "70003122_e00225",
+        "70003122_e00226",
+        "70003122_e00227",
+        "70003122_e00228",
+        "70003122_e00229",
+        "70003122_e00230",
+        "70003122_e00231",
+        "70003122_e00232",
+        "70003122_e00233",
+        "70003122_e00234",
+        "70003122_e00235",
+        "70003122_e00236",
+        "70003122_e00237",
+        "70003122_e00238",
+        "70003122_e00239",
+        "70003122_e00240",
+        "70003122_e00241"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 42,
+        "spoken_count": 22,
+        "aria_count": 12,
+        "recitation_count": 1,
+        "stage_direction_count": 4,
+        "expression_count": 3,
+        "text_length": 413
+      }
+    },
+    {
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "title": "第十二场",
+      "page_start": 9,
+      "page_end": 11,
+      "characters": [
+        "关羽",
+        "报子",
+        "黄忠",
+        "魏延",
+        "刘备",
+        "诸葛亮"
+      ],
+      "event_ids": [
+        "70003122_e00242",
+        "70003122_e00243",
+        "70003122_e00244",
+        "70003122_e00245",
+        "70003122_e00246",
+        "70003122_e00247",
+        "70003122_e00248",
+        "70003122_e00249",
+        "70003122_e00250",
+        "70003122_e00251",
+        "70003122_e00252",
+        "70003122_e00253",
+        "70003122_e00254",
+        "70003122_e00255",
+        "70003122_e00256",
+        "70003122_e00257",
+        "70003122_e00258",
+        "70003122_e00259",
+        "70003122_e00260",
+        "70003122_e00261",
+        "70003122_e00262",
+        "70003122_e00263",
+        "70003122_e00264",
+        "70003122_e00265",
+        "70003122_e00266",
+        "70003122_e00267",
+        "70003122_e00268",
+        "70003122_e00269",
+        "70003122_e00270",
+        "70003122_e00271",
+        "70003122_e00272",
+        "70003122_e00273",
+        "70003122_e00274",
+        "70003122_e00275",
+        "70003122_e00276",
+        "70003122_e00277",
+        "70003122_e00278",
+        "70003122_e00279",
+        "70003122_e00280",
+        "70003122_e00281",
+        "70003122_e00282",
+        "70003122_e00283",
+        "70003122_e00284",
+        "70003122_e00285",
+        "70003122_e00286",
+        "70003122_e00287",
+        "70003122_e00288",
+        "70003122_e00289",
+        "70003122_e00290",
+        "70003122_e00291",
+        "70003122_e00292",
+        "70003122_e00293",
+        "70003122_e00294",
+        "70003122_e00295",
+        "70003122_e00296",
+        "70003122_e00297",
+        "70003122_e00298",
+        "70003122_e00299",
+        "70003122_e00300",
+        "70003122_e00301",
+        "70003122_e00302",
+        "70003122_e00303",
+        "70003122_e00304",
+        "70003122_e00305",
+        "70003122_e00306",
+        "70003122_e00307",
+        "70003122_e00308",
+        "70003122_e00309",
+        "70003122_e00310",
+        "70003122_e00311",
+        "70003122_e00312",
+        "70003122_e00313",
+        "70003122_e00314"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 73,
+        "spoken_count": 45,
+        "aria_count": 16,
+        "recitation_count": 0,
+        "stage_direction_count": 12,
+        "expression_count": 0,
+        "text_length": 766
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "70003122_e00001",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套、关羽同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00002",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "壮志凌云冲霄汉，统领雄师扶汉鼎。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00003",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "赤人赤马秉赤心，青龙偃月建功勋。将令一出山摇震，某保大哥锦乾坤。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00004",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某，汉室关。桃园结义，誓同生死，三顾茅庐，聘请诸葛先生下山，攻无不取，战无不胜。某与军师打赌争印，夺取长沙。今乃黄道吉日，正好兴师。军士们！",
+      "text_length": 70
+    },
+    {
+      "event_id": "70003122_e00005",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "有。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00006",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "听某一令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00007",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某奉军师将令差，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00008",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "威风凛凛坐将台。旌旗不住空中摆，大小儿郎显英才。此一番夺取长沙界，个个奋勇不迟延。某家出世威名在，哪把长沙挂心怀。三军与爷把马带，施展虎威擒敌来。",
+      "text_length": 73
+    },
+    {
+      "event_id": "70003122_e00009",
+      "play_id": "70003122",
+      "scene_id": "70003122_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00010",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 10,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠、魏延同上，同起霸。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00011",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 11,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "英雄威名大，",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00012",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 12,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "疆场把敌杀。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00013",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 13,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "全凭刀和马，",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00014",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 14,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "保韩镇长沙。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00015",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 15,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "俺——",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00016",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 16,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "姓黄名忠字汉升。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00017",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 17,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "姓魏名延字文长。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00018",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 18,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "将军请了。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00019",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 19,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "请了。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00020",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 20,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "元帅升帐，你我两厢伺候。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00021",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 21,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "请。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00022",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 22,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00023",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 23,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "镇守长沙，掌兵权，保主家邦。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00024",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 24,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "堂堂男儿将，烈烈震疆场。全凭黄、魏将，与主定家邦。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70003122_e00025",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 25,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "本帅，韩玄。奉丞相将令，镇守长沙。近闻桃园弟兄，兴兵前来，不免与黄、魏二将，商议退敌之策。来！黄忠、魏延进帐。",
+      "text_length": 55
+    },
+    {
+      "event_id": "70003122_e00026",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 26,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "龙套"
+      ],
+      "text": "黄魏二将进帐！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00027",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 27,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "报，（黄忠）（魏延）告进，参见元帅。韩玄黄忠、",
+      "text_length": 23
+    },
+    {
+      "event_id": "70003122_e00028",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 28,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "谢座！传末将等进帐，有何军情议论？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00029",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "近闻桃园弟兄，兴兵前来。请二位将军进帐，商议退敌之策。",
+      "text_length": 27
+    },
+    {
+      "event_id": "70003122_e00030",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "且听探马一报。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00031",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00032",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "关羽挑战！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00033",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "韩玄",
+        "黄忠"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00034",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "探子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00035",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "探子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00036",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "元帅，关羽挑战，末将愿领人马生擒关羽进帐。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003122_e00037",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "慢、慢、慢着！老将军，想那关羽，文韬武略，战法精通，老将军出马，恐不是关羽对手，待俺魏延出马，一战成功。",
+      "text_length": 52
+    },
+    {
+      "event_id": "70003122_e00038",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏将军，末将老则老这头上发，额下须；胸中韬略却还不老。有道是：虎老雄心在，这年迈力刚强！",
+      "text_length": 44
+    },
+    {
+      "event_id": "70003122_e00039",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏文长把话错来讲，有几辈古人听端详：赵国廉颇年高长，力举千钧镇疆场。昔日有个姜吕望，八十二岁遇文王。你道那关羽是好将，强手之中还有强。",
+      "text_length": 67
+    },
+    {
+      "event_id": "70003122_e00040",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "老将军哪！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00041",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮快板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "老将军休要逞刚强，末将言来听端详：关羽威名某久仰，千里路上保皇娘。过五关曾斩六员将，擂鼓三通斩蔡阳。你今此去恐难挡，此任让与魏文长。",
+      "text_length": 66
+    },
+    {
+      "event_id": "70003122_e00042",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 33,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "你不能！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00043",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 34,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你不能！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00044",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 35,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "魏文长说话少志量，甘把自家威风丧。魏延暂且退宝帐，黄忠进前听端详：我今赐你一支令，命你大战关云长。",
+      "text_length": 49
+    },
+    {
+      "event_id": "70003122_e00045",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 36,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00046",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 37,
+      "page_no": 2,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "黄忠接令下宝帐，那旁气坏魏文长。抖擞精神把马上，舍死忘生战一场。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00047",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 38,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手同上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00048",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 39,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "带马！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00049",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 40,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手与黄忠带马，黄忠、四上手同下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00050",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 41,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "魏延听我把令降，命你四路去催粮。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00051",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 42,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "韩玄小视魏文长，压下不满且去催粮。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00052",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 43,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00053",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 44,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "黄忠、魏延下宝帐，且听探马报端详。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00054",
+      "play_id": "70003122",
+      "scene_id": "70003122_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 45,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00055",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 55,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套、关羽同上",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00056",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 56,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四红龙套"
+      ],
+      "text": "兵到长沙！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00057",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 57,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "夺取长沙！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00058",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 58,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、黄忠同上，会阵。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00059",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 59,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "呔，马前来的敢是关羽？",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00060",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 60,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "然。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00061",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "关羽！你有多大本领，敢来夺取长沙？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00062",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 62,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "若问某家本领，你且听道：",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00063",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "勒马停蹄站疆场，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00064",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "起鼓。二龙出水，转场。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00065",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 65,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "黄忠老儿听端详：某大哥堂堂帝王相，当今皇叔天下扬。某三弟翼德猛勇将，大吼一声断桥梁。某四弟子龙常山将，长坂坡前救过小王。三请军师诸葛亮，神机妙算世无双。某家出世斩熊虎，匹马单刀斩颜良。过五关曾斩六员将，擂鼓三通斩蔡阳。劝你早把长沙让，稍若迟延在某的刀下亡。",
+      "text_length": 128
+    },
+    {
+      "event_id": "70003122_e00066",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 66,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "aria",
+      "mode_label": "西皮二六板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "勒住丝缰把话讲，叫声蒲州关云长。某家今年六旬上，斩人犹如宰鸡羊。你取长沙心妄想，顷刻命你刀下亡。",
+      "text_length": 48
+    },
+    {
+      "event_id": "70003122_e00067",
+      "play_id": "70003122",
+      "scene_id": "70003122_s03",
+      "scene_no": 3,
+      "seq_global": 67,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、黄忠开打，关羽败下，黄忠追下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00068",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 68,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、四红龙套同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00069",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 69,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "且住！黄忠老儿，倒也骁勇。他若来时，拖刀计伤他！",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00070",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 70,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠上，开打，黄忠落马。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00071",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 71,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "呔，关羽！老夫跌下马来，你为何不杀？",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00072",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 72,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某家出师以来，不斩落马之将，回营换马再战。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003122_e00073",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 73,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00074",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 74,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "好一员老将！军士们，收兵。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003122_e00075",
+      "play_id": "70003122",
+      "scene_id": "70003122_s04",
+      "scene_no": 4,
+      "seq_global": 75,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00076",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 76,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00077",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 77,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "黄忠领令去打仗，胜负难测挂心上。坐卧不安进宝帐，汉升回来问端详。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00078",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 78,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、黄忠同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00079",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 79,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "参见元帅。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00080",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 80,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "老将军胜负如何？",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00081",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 81,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "两军交锋，不分胜败，明日末将出马，定要生擒关羽进帐。",
+      "text_length": 26
+    },
+    {
+      "event_id": "70003122_e00082",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 82,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "好，听本帅令下！",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00083",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 83,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "你若擒得关云长，凌烟阁上把名扬。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00084",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 84,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00085",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 85,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00086",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 86,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "黄忠接令出宝帐，倒叫老将无主张。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00087",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 87,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "叫头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "且住！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00088",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 88,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "今日阵前，某被关羽拖下马来，不忍伤我性命，反叫我回营换马，再决胜负。似这等恩情，焉能不报。也罢！明日两军阵前，施起百步穿杨之技，只射盔缨不射咽喉，以报他不杀之恩便了！",
+      "text_length": 83
+    },
+    {
+      "event_id": "70003122_e00089",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 89,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "明日黄忠到阵上，不把关羽咽喉伤。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00090",
+      "play_id": "70003122",
+      "scene_id": "70003122_s05",
+      "scene_no": 5,
+      "seq_global": 90,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00091",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 91,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四红龙套、关羽同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00092",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 92,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "黄忠老将好武艺，敢与关某来对敌。我把黄忠好一比，绵羊见虎把头低。将身来到宝帐里……",
+      "text_length": 41
+    },
+    {
+      "event_id": "70003122_e00093",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 93,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00094",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 94,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "黄忠讨战！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00095",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 95,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00096",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 96,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00097",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 97,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00098",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 98,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "三军带过追风骑，今日战场见高低。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00099",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 99,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、黄忠同上。会阵。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00100",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 100,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "黄忠，昨日饶你不死，今日又来送命不成？",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003122_e00101",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 101,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "今日与你决一死战。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00102",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 102,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "口出不利之言，定被我擒。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00103",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 103,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "看刀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00104",
+      "play_id": "70003122",
+      "scene_id": "70003122_s06",
+      "scene_no": 6,
+      "seq_global": 104,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、黄忠开打，黄忠败下，关羽追下。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00105",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 105,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00106",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 106,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "黄忠二次战场到，不由本帅挂心稍。下得马来上城道，观看两家比英豪。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00107",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 107,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00108",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 108,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "紧催战马用目瞧，关羽追我不欲饶。拉弓搭弦扭转腰，",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00109",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 109,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠射箭，下。关羽上，接箭。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00110",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 110,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "接过雕翎箭一条。明知深山有虎豹，大胆上山去砍樵。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00111",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 111,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。黄忠上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00112",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 112,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "关羽不解其中情，紧急加鞭随后跟。二次开弓放雕翎，",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00113",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 113,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠射箭，下。关羽上，接箭。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00114",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 114,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "连接雕翎箭二根。百步穿杨射虽准，放箭哪有某接箭能。",
+      "text_length": 25
+    },
+    {
+      "event_id": "70003122_e00115",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 115,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽下。黄忠上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00116",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 116,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "recitation",
+      "mode_label": "叫头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "且住！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00117",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 117,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "关羽不解其中之情，紧紧跟随。俺不免折去箭头，直射盔缨，不射咽喉，看他可解否？",
+      "text_length": 38
+    },
+    {
+      "event_id": "70003122_e00118",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 118,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠去箭头。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00119",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 119,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "呔，关羽看箭！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00120",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 120,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠射箭，下。关羽上，四红龙套自两边分上。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003122_e00121",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 121,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "呜呼呀！原来是无头雕翎。黄忠老将定有降顺桃园之意。众将官！",
+      "text_length": 29
+    },
+    {
+      "event_id": "70003122_e00122",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 122,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00123",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 123,
+      "seq_in_scene": 19,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "将长沙团团围住了！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00124",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 124,
+      "seq_in_scene": 20,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00125",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 125,
+      "seq_in_scene": 21,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "关羽、四龙套同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00126",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 126,
+      "seq_in_scene": 22,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "哎呀，不好了！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00127",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 127,
+      "seq_in_scene": 23,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "本帅敌楼来观定，黄忠起了降敌心。人来带马回大营，定斩老儿黄汉升。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00128",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 128,
+      "seq_in_scene": 24,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、黄忠同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00129",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 129,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "揽住丝缰到辕门，元帅发怒为何情？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00130",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 130,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "参见元帅。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00131",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 131,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "不消。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00132",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 132,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "元帅怒气不息，为着何来？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00133",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 133,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "就为你来。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00134",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 134,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "为末将何来？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00135",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 135,
+      "seq_in_scene": 31,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "黄忠，你百步穿杨，百发百中，今日连放三箭，直射盔缨，不射咽喉，是何道理？",
+      "text_length": 36
+    },
+    {
+      "event_id": "70003122_e00136",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 136,
+      "seq_in_scene": 32,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "叫头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "元帅！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00137",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 137,
+      "seq_in_scene": 33,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "事到如今，末将也不敢隐瞒。昨日在两军阵前，末将被关羽拖下马来，他不忍伤害，反放我回营，换马再战。为此今日在阵前连放三箭，直射盔缨，不射咽喉，以报他不杀之情。明日末将出马，定要生擒关羽进帐。",
+      "text_length": 94
+    },
+    {
+      "event_id": "70003122_e00138",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 138,
+      "seq_in_scene": 34,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "你待怎讲？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00139",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 139,
+      "seq_in_scene": 35,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "生擒关羽进帐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00140",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 140,
+      "seq_in_scene": 36,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "大胆！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00141",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 141,
+      "seq_in_scene": 37,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "分明你欲把敌投，暗把长沙送敌手。喝令两旁刀斧手，速速斩却黄忠头。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00142",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 142,
+      "seq_in_scene": 38,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四刀斧手同上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00143",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 143,
+      "seq_in_scene": 39,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "号令一声绳上肘，推出营门要斩人头。大丈夫一死何惧有？可叹长沙付水流。",
+      "text_length": 34
+    },
+    {
+      "event_id": "70003122_e00144",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 144,
+      "seq_in_scene": 40,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四刀斧手押黄忠同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00145",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 145,
+      "seq_in_scene": 41,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "刀下暂且停刑！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00146",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 146,
+      "seq_in_scene": 42,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "又恐关羽来争斗，谁人领兵到阵头？且候魏延催粮转，黄忠首级暂停留。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00147",
+      "play_id": "70003122",
+      "scene_id": "70003122_s07",
+      "scene_no": 7,
+      "seq_global": 147,
+      "seq_in_scene": 43,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00148",
+      "play_id": "70003122",
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "seq_global": 148,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫、魏延同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00149",
+      "play_id": "70003122",
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "seq_global": 149,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "元帅传令如雷吼，四路催粮转营头。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00150",
+      "play_id": "70003122",
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "seq_global": 150,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "俺，魏延。奉了元帅将令，四路催运粮草，军前听用。粮草催齐，回营交令。军士们，趱行者！",
+      "text_length": 42
+    },
+    {
+      "event_id": "70003122_e00151",
+      "play_id": "70003122",
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "seq_global": 151,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "韩玄老儿理不周，不允魏延统貔貅。鞭稍一指催前走，到阵前建功勋方趁某心头。",
+      "text_length": 36
+    },
+    {
+      "event_id": "70003122_e00152",
+      "play_id": "70003122",
+      "scene_id": "70003122_s08",
+      "scene_no": 8,
+      "seq_global": 152,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00153",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 153,
+      "seq_in_scene": 1,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "内西皮导板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "年迈为国反斩首，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00154",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 154,
+      "seq_in_scene": 2,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四刀斧手、黄忠同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00155",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 155,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "汗马功劳不到头。都只为奉命去争斗，某与关羽动貔貅。百步穿杨报恩厚，军法无情不容留。再不能领兵疆场走，再不能建功把名留。再不能把敌齐扫就，再不能确保长沙太平秋。含悲泪且进法场口，好一似祭祀猪羊等时候。",
+      "text_length": 99
+    },
+    {
+      "event_id": "70003122_e00156",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 156,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫、魏延同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00157",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 157,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮原板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "来在法场用目瞅，只见老将绑桩头。翻鞍离镫下走兽，老将军醒来问从头。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003122_e00158",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 158,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "眼望苍天无人求，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00159",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 159,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "抬头只见魏参谋。将军快来把我救，迟来一步我命休。",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00160",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 160,
+      "seq_in_scene": 8,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你与关羽来争斗，为何捆绑法场口？",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00161",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 161,
+      "seq_in_scene": 9,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "我被关羽拖下马，他不忍杀害把性命留。百步穿杨报恩厚，只射盔缨不射咽喉。元帅敌楼冲冲怒，他道我黄忠把敌投。进帐去不容某张口，因此上捆绑就要斩人头。",
+      "text_length": 72
+    },
+    {
+      "event_id": "70003122_e00162",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 162,
+      "seq_in_scene": 10,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮流水板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "老将军，免担忧，有俺魏延莫惊愁。他若是准了我请求，万事全了两罢休。他若是不准我请求，定叫韩玄露乖丑。回头来叫一声刽子手，你把老将留一留。老将若有好和歹，定要尔等项上头。人来与爷带走兽，魏延进帐把情求。",
+      "text_length": 100
+    },
+    {
+      "event_id": "70003122_e00163",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 163,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫、魏延同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00164",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 164,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏文长说话多粗鲁，怕的是元帅不能留。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00165",
+      "play_id": "70003122",
+      "scene_id": "70003122_s09",
+      "scene_no": 9,
+      "seq_global": 165,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00166",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 166,
+      "seq_in_scene": 1,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四蓝龙套、韩玄同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00167",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 167,
+      "seq_in_scene": 2,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "黄忠老儿真胆大，箭射盔缨犯军法。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00168",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 168,
+      "seq_in_scene": 3,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫、魏延同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00169",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 169,
+      "seq_in_scene": 4,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "来在辕门下战马，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00170",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 170,
+      "seq_in_scene": 5,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四车夫同下。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00171",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 171,
+      "seq_in_scene": 6,
+      "page_no": 7,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "假意不知故问他。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00172",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 172,
+      "seq_in_scene": 7,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "参见元帅，末将交令。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00173",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 173,
+      "seq_in_scene": 8,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "将军少礼，请坐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00174",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 174,
+      "seq_in_scene": 9,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "谢座。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00175",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 175,
+      "seq_in_scene": 10,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "粮草可曾催齐？",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00176",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 176,
+      "seq_in_scene": 11,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "具已催齐，请元帅查点。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00177",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 177,
+      "seq_in_scene": 12,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "不必查点，将军之功也！",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00178",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 178,
+      "seq_in_scene": 13,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延四下观看。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00179",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 179,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "将军看什么？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00180",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 180,
+      "seq_in_scene": 15,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "为何不见黄老将军？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00181",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 181,
+      "seq_in_scene": 16,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "老儿起了降敌之心，将他推出辕门斩首。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00182",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 182,
+      "seq_in_scene": 17,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "黄老将军南征北战，大有功劳，元帅宽容才是。",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003122_e00183",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 183,
+      "seq_in_scene": 18,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "定斩不赦！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00184",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 184,
+      "seq_in_scene": 19,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "斩了黄忠，桃园兴兵前来，何人抵挡？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00185",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 185,
+      "seq_in_scene": 20,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "自然是魏将军出马。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00186",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 186,
+      "seq_in_scene": 21,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你赦了黄老将军，俺便出马；若是不赦黄忠，俺便不管你的闲事。",
+      "text_length": 29
+    },
+    {
+      "event_id": "70003122_e00187",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 187,
+      "seq_in_scene": 22,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "嗯！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00188",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 188,
+      "seq_in_scene": 23,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "魏延说话理太差，军法无私怎容他？不看你素日功劳大，定要将你头来杀。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003122_e00189",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 189,
+      "seq_in_scene": 24,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "听一言来怒气发，你把魏延当小娃。你赦了黄忠还则罢，你不赦呀我要犯军法。",
+      "text_length": 35
+    },
+    {
+      "event_id": "70003122_e00190",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 190,
+      "seq_in_scene": 25,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "大胆！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00191",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 191,
+      "seq_in_scene": 26,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "韩玄"
+      ],
+      "text": "魏延说话真胆大，藐视军法把我压。吩咐两旁刀斧手，黄忠、魏延一齐杀。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003122_e00192",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 192,
+      "seq_in_scene": 27,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "喳喳喳！哇呀呀呀！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00193",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 193,
+      "seq_in_scene": 28,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "怒发冲冠火上发，不由魏延咬钢牙。钢刀一举头割下，",
+      "text_length": 24
+    },
+    {
+      "event_id": "70003122_e00194",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 194,
+      "seq_in_scene": 29,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延杀韩玄。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00195",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 195,
+      "seq_in_scene": 30,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "两边儿郎一起杀。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00196",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 196,
+      "seq_in_scene": 31,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延杀龙套。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00197",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 197,
+      "seq_in_scene": 32,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "用刀劈开长沙印，我看你赦他不赦他？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00198",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 198,
+      "seq_in_scene": 33,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "嗯嗯嗯！我杀他的满门家眷！",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003122_e00199",
+      "play_id": "70003122",
+      "scene_id": "70003122_s10",
+      "scene_no": 10,
+      "seq_global": 199,
+      "seq_in_scene": 34,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00200",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 200,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四刀斧手、黄忠同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00201",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 201,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏延进帐把情求，此时不来反加愁。",
+      "text_length": 16
+    },
+    {
+      "event_id": "70003122_e00202",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 202,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00203",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 203,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "开刀先杀刽子手，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00204",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 204,
+      "seq_in_scene": 5,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延杀刀斧手，刀斧手同下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "70003122_e00205",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 205,
+      "seq_in_scene": 6,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "老将军醒来说从头。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00206",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 206,
+      "seq_in_scene": 7,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮导板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "绑得骨疼冷汗透，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00207",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 207,
+      "seq_in_scene": 8,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "只见尸倒血水流。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00208",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 208,
+      "seq_in_scene": 9,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏将军讲情，元帅可曾应允否？",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00209",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 209,
+      "seq_in_scene": 10,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "那韩玄老儿不从，怒恼某家，我将他杀死了！",
+      "text_length": 20
+    },
+    {
+      "event_id": "70003122_e00210",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 210,
+      "seq_in_scene": 11,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "我呀，不信哪！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00211",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 211,
+      "seq_in_scene": 12,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "不信你去看来。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00212",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 212,
+      "seq_in_scene": 13,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "哎呀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00213",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 213,
+      "seq_in_scene": 14,
+      "page_no": 8,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "一见人头心颤抖，点点珠泪往下流。我哭哭一声韩元帅，我叫叫一声韩主公呀！啊啊啊——韩元帅呀！",
+      "text_length": 45
+    },
+    {
+      "event_id": "70003122_e00214",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 214,
+      "seq_in_scene": 15,
+      "page_no": 9,
+      "type": "expression",
+      "mode_label": "笑",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "哈哈哈哈！",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00215",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 215,
+      "seq_in_scene": 16,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "再与魏延说根由。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00216",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 216,
+      "seq_in_scene": 17,
+      "page_no": 9,
+      "type": "recitation",
+      "mode_label": "叫头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏将军！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00217",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 217,
+      "seq_in_scene": 18,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "你将元帅杀死，此祸非小，你我去到许昌，丞相台前请罪呀！",
+      "text_length": 27
+    },
+    {
+      "event_id": "70003122_e00218",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 218,
+      "seq_in_scene": 19,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你住了！事到如今，不去逃生，反去送死不成？",
+      "text_length": 21
+    },
+    {
+      "event_id": "70003122_e00219",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 219,
+      "seq_in_scene": 20,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "依你之见？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00220",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 220,
+      "seq_in_scene": 21,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "长沙印信，在我手中，我们前去归降桃园。",
+      "text_length": 19
+    },
+    {
+      "event_id": "70003122_e00221",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 221,
+      "seq_in_scene": 22,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "啊？归顺桃园，要去你去，我是不去的。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00222",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 222,
+      "seq_in_scene": 23,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "当真不去？",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00223",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 223,
+      "seq_in_scene": 24,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "当真不去。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00224",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 224,
+      "seq_in_scene": 25,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你果然不去？",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00225",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 225,
+      "seq_in_scene": 26,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "果然不去。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00226",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 226,
+      "seq_in_scene": 27,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你不去，我就杀了你！",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00227",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 227,
+      "seq_in_scene": 28,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "好好好！我们去，走啊！",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00228",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 228,
+      "seq_in_scene": 29,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "走啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00229",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 229,
+      "seq_in_scene": 30,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "走啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00230",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 230,
+      "seq_in_scene": 31,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "走啊！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00231",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 231,
+      "seq_in_scene": 32,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "走、走、走、走啊！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00232",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 232,
+      "seq_in_scene": 33,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "顷刻之间散了队，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00233",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 233,
+      "seq_in_scene": 34,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "长沙的儿郎各自归。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00234",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 234,
+      "seq_in_scene": 35,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "你做此事悔不悔？",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00235",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 235,
+      "seq_in_scene": 36,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "事到头来埋怨谁。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00236",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 236,
+      "seq_in_scene": 37,
+      "page_no": 9,
+      "type": "expression",
+      "mode_label": "哭头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "韩元帅！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00237",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 237,
+      "seq_in_scene": 38,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "我不许你哭！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00238",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 238,
+      "seq_in_scene": 39,
+      "page_no": 9,
+      "type": "expression",
+      "mode_label": "哭头",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "啊啊啊！",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00239",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 239,
+      "seq_in_scene": 40,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "我不许你嚎！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00240",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 240,
+      "seq_in_scene": 41,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "魏文长你是个冒失鬼。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00241",
+      "play_id": "70003122",
+      "scene_id": "70003122_s11",
+      "scene_no": 11,
+      "seq_global": 241,
+      "seq_in_scene": 42,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "冲头。黄忠、魏延同下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00242",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 242,
+      "seq_in_scene": 1,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、关羽同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00243",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 243,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮摇板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "奉令夺取长沙地，威风凛凛把兵提。义扶汉室三分鼎，且听探马报军机。",
+      "text_length": 32
+    },
+    {
+      "event_id": "70003122_e00244",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 244,
+      "seq_in_scene": 3,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00245",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 245,
+      "seq_in_scene": 4,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启禀君侯：黄忠、魏延辕门投降。",
+      "text_length": 15
+    },
+    {
+      "event_id": "70003122_e00246",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 246,
+      "seq_in_scene": 5,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "吩咐架起刀门！",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00247",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 247,
+      "seq_in_scene": 6,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖吹打〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "70003122_e00248",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 248,
+      "seq_in_scene": 7,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "传黄忠、魏延进帐！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00249",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 249,
+      "seq_in_scene": 8,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "下面听者！君侯有令：黄忠、魏延进帐！",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00250",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 250,
+      "seq_in_scene": 9,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。黄忠、魏延同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00251",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 251,
+      "seq_in_scene": 10,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "人言桃园多仁义，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00252",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 252,
+      "seq_in_scene": 11,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "话不虚传果第一。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00253",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 253,
+      "seq_in_scene": 12,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "来在辕门用目觑，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00254",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 254,
+      "seq_in_scene": 13,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "刀枪剑戟摆列齐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00255",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 255,
+      "seq_in_scene": 14,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "归顺桃园我不去，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00256",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 256,
+      "seq_in_scene": 15,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "呔！",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00257",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 257,
+      "seq_in_scene": 16,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "你若不去我不依。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00258",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 258,
+      "seq_in_scene": 17,
+      "page_no": 9,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "我这里报门跪帐里，恕黄忠——",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00259",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 259,
+      "seq_in_scene": 18,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "魏延",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00260",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 260,
+      "seq_in_scene": 19,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "同西皮散板",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "归降迟。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00261",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 261,
+      "seq_in_scene": 20,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "丹凤眼来观觑，只见二将跪丹墀，为什么停兵不交战？归降的事儿说端的。",
+      "text_length": 33
+    },
+    {
+      "event_id": "70003122_e00262",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 262,
+      "seq_in_scene": 21,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "都只为韩玄不仁义，",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00263",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 263,
+      "seq_in_scene": 22,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "末将讲情他不依。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00264",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 264,
+      "seq_in_scene": 23,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "怒恼魏延将他斩，",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00265",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 265,
+      "seq_in_scene": 24,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "韩玄的首级在手里。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00266",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 266,
+      "seq_in_scene": 25,
+      "page_no": 10,
+      "type": "aria",
+      "mode_label": "西皮散板",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "将首级高挂营门地，我兄王到此报功绩。",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00267",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 267,
+      "seq_in_scene": 26,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "请坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00268",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 268,
+      "seq_in_scene": 27,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "谢座。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00269",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 269,
+      "seq_in_scene": 28,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "老将军好刀法。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00270",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 270,
+      "seq_in_scene": 29,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "二君侯也不差。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00271",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 271,
+      "seq_in_scene": 30,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "昨日阵前为何不见魏将军？",
+      "text_length": 12
+    },
+    {
+      "event_id": "70003122_e00272",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 272,
+      "seq_in_scene": 31,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "末将奉令催粮，回来与黄将军求情，韩玄不准。恼怒杀死韩玄斩了他的家眷，长沙印信呈上。",
+      "text_length": 41
+    },
+    {
+      "event_id": "70003122_e00273",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 273,
+      "seq_in_scene": 32,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "某兄王驾到定有封赏。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00274",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 274,
+      "seq_in_scene": 33,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00275",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 275,
+      "seq_in_scene": 34,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "主公、军师到。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00276",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 276,
+      "seq_in_scene": 35,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "二位将军帐外候令。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00277",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 277,
+      "seq_in_scene": 36,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "遵命。",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00278",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 278,
+      "seq_in_scene": 37,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠、魏延同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00279",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 279,
+      "seq_in_scene": 38,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00280",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 280,
+      "seq_in_scene": 39,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00281",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 281,
+      "seq_in_scene": 40,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。四龙套、诸葛亮、刘备同上。",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00282",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 282,
+      "seq_in_scene": 41,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "诸葛亮"
+      ],
+      "text": "恭喜君侯，贺喜君侯！一战成功，可喜可贺！",
+      "text_length": 20
+    },
+    {
+      "event_id": "70003122_e00283",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 283,
+      "seq_in_scene": 42,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "主公洪福，军师妙算。末将何功之有？",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00284",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 284,
+      "seq_in_scene": 43,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "刘备",
+        "诸葛亮"
+      ],
+      "text": "君侯之功也！",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00285",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 285,
+      "seq_in_scene": 44,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "收来黄忠、魏延现在帐外听令。",
+      "text_length": 14
+    },
+    {
+      "event_id": "70003122_e00286",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 286,
+      "seq_in_scene": 45,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "传他二人进帐。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00287",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 287,
+      "seq_in_scene": 46,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "黄、魏将军进帐。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00288",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 288,
+      "seq_in_scene": 47,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠、魏延同上。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00289",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 289,
+      "seq_in_scene": 48,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "来也！",
+      "text_length": 3
+    },
+    {
+      "event_id": "70003122_e00290",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 290,
+      "seq_in_scene": 49,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "见过主公、军师。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00291",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 291,
+      "seq_in_scene": 50,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "黄忠",
+        "魏延"
+      ],
+      "text": "参见主公、军师。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00292",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 292,
+      "seq_in_scene": 51,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "黄老将军出帐歇息。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00293",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 293,
+      "seq_in_scene": 52,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "黄忠"
+      ],
+      "text": "谢军师。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00294",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 294,
+      "seq_in_scene": 53,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "黄忠下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00295",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 295,
+      "seq_in_scene": 54,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "众将，将魏延绑了！",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00296",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 296,
+      "seq_in_scene": 55,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "啊？为何将某绑了？",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00297",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 297,
+      "seq_in_scene": 56,
+      "page_no": 10,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "来！将魏延推出斩了！",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00298",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 298,
+      "seq_in_scene": 57,
+      "page_no": 10,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "刀斧手押魏延同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "70003122_e00299",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 299,
+      "seq_in_scene": 58,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "刀下留人！军师为何将魏延斩首？",
+      "text_length": 15
+    },
+    {
+      "event_id": "70003122_e00300",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 300,
+      "seq_in_scene": 59,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "魏延居其地，献其土，食君禄，弑其主，居心叵测，喜怒无常。似这等人今日若不将他斩首，日后恐有反汉之举。",
+      "text_length": 50
+    },
+    {
+      "event_id": "70003122_e00301",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 301,
+      "seq_in_scene": 60,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "若将魏延斩首，我桃园弟兄就不义气了！",
+      "text_length": 18
+    },
+    {
+      "event_id": "70003122_e00302",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 302,
+      "seq_in_scene": 61,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "刘备"
+      ],
+      "text": "是啊，外人谈论，我弟兄就不义气了！",
+      "text_length": 17
+    },
+    {
+      "event_id": "70003122_e00303",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 303,
+      "seq_in_scene": 62,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "望军师开恩。",
+      "text_length": 6
+    },
+    {
+      "event_id": "70003122_e00304",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 304,
+      "seq_in_scene": 63,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "好，将魏延赦回。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00305",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 305,
+      "seq_in_scene": 64,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "魏延上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00306",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 306,
+      "seq_in_scene": 65,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "谢军师不斩之恩。",
+      "text_length": 8
+    },
+    {
+      "event_id": "70003122_e00307",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 307,
+      "seq_in_scene": 66,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "谢过主公、君侯讲情。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00308",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 308,
+      "seq_in_scene": 67,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "多谢主公、君侯讲情。",
+      "text_length": 10
+    },
+    {
+      "event_id": "70003122_e00309",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 309,
+      "seq_in_scene": 68,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "魏延！从今以后，在山人帐中听用，山人军法无情，你要仔细了！你要打点了！",
+      "text_length": 35
+    },
+    {
+      "event_id": "70003122_e00310",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 310,
+      "seq_in_scene": 69,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "魏延"
+      ],
+      "text": "啊。",
+      "text_length": 2
+    },
+    {
+      "event_id": "70003122_e00311",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 311,
+      "seq_in_scene": 70,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "长沙印信呈上。",
+      "text_length": 7
+    },
+    {
+      "event_id": "70003122_e00312",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 312,
+      "seq_in_scene": 71,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "诸葛亮"
+      ],
+      "text": "后帐摆宴，与君侯贺功。",
+      "text_length": 11
+    },
+    {
+      "event_id": "70003122_e00313",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 313,
+      "seq_in_scene": 72,
+      "page_no": 11,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "关羽"
+      ],
+      "text": "谢军师。",
+      "text_length": 4
+    },
+    {
+      "event_id": "70003122_e00314",
+      "play_id": "70003122",
+      "scene_id": "70003122_s12",
+      "scene_no": 12,
+      "seq_global": 314,
+      "seq_in_scene": 73,
+      "page_no": 11,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    }
+  ],
+  "roles_inferred": true
+}

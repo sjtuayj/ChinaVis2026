@@ -1,0 +1,5522 @@
+{
+  "schema_version": "1.0.0",
+  "play": {
+    "play_id": "03065003",
+    "title": "战潼关",
+    "aliases": [],
+    "collection_id": "03000000",
+    "collection_name": "《京剧汇编》",
+    "collection_remark": "《京剧汇编》",
+    "pdf_path": "赛题1-I京剧数据集/京剧剧本/03000000/03065003_战潼关.pdf",
+    "source_url": "http://scripts.xikao.com/play/03065003",
+    "source_date": "2018-08-23",
+    "page_count": 9,
+    "file_size_bytes": 377144,
+    "parse_error": null
+  },
+  "metadata": {
+    "plot_summary": "曹操欲除马腾，矫诏调马腾为潼关太守，暗命董平截杀马腾于途中。马超得父凶耗，领西凉兵马伐曹报仇。曹操引兵拒超于潼关。马超英勇，大破曹兵，曹操割须弃袍而逃。根据《京剧汇编》第六十五集：王连平藏本整理",
+    "notes": [],
+    "story_period": {
+      "label": "三国",
+      "evidence": "曹操",
+      "confidence": 0.75
+    },
+    "play_genre": {
+      "label": "征战武戏",
+      "confidence": 0.88,
+      "evidence": [
+        "战",
+        "关",
+        "兵",
+        "马",
+        "杀"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role_id": "r_马超",
+      "name": "马超",
+      "original_category": "武生",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 23,
+        "aria_count": 0,
+        "recitation_count": 3,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：马超：武生"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹操",
+      "name": "曹操",
+      "original_category": "净",
+      "is_main_role": true,
+      "gender": "男",
+      "gender_confidence": 0.8,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 28,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "净",
+        "fine": "净",
+        "confidence": 0.97,
+        "evidence": [
+          "主要角色标注：曹操：净"
+        ]
+      }
+    },
+    {
+      "role_id": "r_报子",
+      "name": "报子",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "仆从/差役",
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_夏侯渊",
+      "name": "夏侯渊",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 22,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_董平",
+      "name": "董平",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "仆从/差役",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 7,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马腾",
+      "name": "马腾",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "老夫"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马岱",
+      "name": "马岱",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "孝亲",
+        "刚烈"
+      ],
+      "performance_features": {
+        "spoken_count": 17,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 10,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四文堂",
+      "name": "四文堂",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四下手",
+      "name": "四下手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_庞德",
+      "name": "庞德",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 8,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 9,
+        "combat_hint_count": 7
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_马童甲",
+      "name": "马童甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "老生",
+        "confidence": 0.58,
+        "evidence": [
+          "官员/谋臣",
+          "父"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四上手",
+      "name": "四上手",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 7,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 6,
+        "combat_hint_count": 5
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_徐晃",
+      "name": "徐晃",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "智谋"
+      ],
+      "performance_features": {
+        "spoken_count": 16,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 5,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_四龙套",
+      "name": "四龙套",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 12,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹洪",
+      "name": "曹洪",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "expression_count": 0,
+        "action_hint_count": 8,
+        "combat_hint_count": 2
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_龙套甲",
+      "name": "龙套甲",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "武将/士兵",
+        "官员/谋臣"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 1,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 1,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_张辽",
+      "name": "张辽",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_夏侯惇",
+      "name": "夏侯惇",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_曹仁",
+      "name": "曹仁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_李典",
+      "name": "李典",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_于禁",
+      "name": "于禁",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 9,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 3,
+        "combat_hint_count": 3
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    },
+    {
+      "role_id": "r_许褚",
+      "name": "许褚",
+      "original_category": null,
+      "is_main_role": false,
+      "gender": "男",
+      "gender_confidence": 0.62,
+      "age_group": "中老年",
+      "age_confidence": 0.75,
+      "identity": [
+        "官员/谋臣",
+        "武将/士兵"
+      ],
+      "personality_traits": [
+        "勇武",
+        "刚烈",
+        "孝亲"
+      ],
+      "performance_features": {
+        "spoken_count": 5,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "expression_count": 0,
+        "action_hint_count": 2,
+        "combat_hint_count": 0
+      },
+      "hangdang_prediction": {
+        "broad": "生",
+        "fine": "武生/老生候选",
+        "confidence": 0.55,
+        "evidence": [
+          "武将/士兵或武打提示"
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "title": "第一场",
+      "page_start": 1,
+      "page_end": 1,
+      "characters": [
+        "曹操",
+        "报子",
+        "夏侯渊",
+        "董平"
+      ],
+      "event_ids": [
+        "03065003_e00001",
+        "03065003_e00002",
+        "03065003_e00003",
+        "03065003_e00004",
+        "03065003_e00005",
+        "03065003_e00006",
+        "03065003_e00007",
+        "03065003_e00008",
+        "03065003_e00009",
+        "03065003_e00010",
+        "03065003_e00011",
+        "03065003_e00012",
+        "03065003_e00013",
+        "03065003_e00014",
+        "03065003_e00015",
+        "03065003_e00016",
+        "03065003_e00017",
+        "03065003_e00018",
+        "03065003_e00019",
+        "03065003_e00020",
+        "03065003_e00021",
+        "03065003_e00022",
+        "03065003_e00023",
+        "03065003_e00024",
+        "03065003_e00025",
+        "03065003_e00026",
+        "03065003_e00027",
+        "03065003_e00028"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 28,
+        "spoken_count": 21,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 5,
+        "expression_count": 0,
+        "text_length": 363
+      }
+    },
+    {
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "title": "第二场",
+      "page_start": 1,
+      "page_end": 2,
+      "characters": [
+        "马腾",
+        "马岱",
+        "夏侯渊",
+        "四文堂"
+      ],
+      "event_ids": [
+        "03065003_e00029",
+        "03065003_e00030",
+        "03065003_e00031",
+        "03065003_e00032",
+        "03065003_e00033",
+        "03065003_e00034",
+        "03065003_e00035",
+        "03065003_e00036",
+        "03065003_e00037",
+        "03065003_e00038",
+        "03065003_e00039",
+        "03065003_e00040",
+        "03065003_e00041",
+        "03065003_e00042",
+        "03065003_e00043",
+        "03065003_e00044",
+        "03065003_e00045",
+        "03065003_e00046",
+        "03065003_e00047",
+        "03065003_e00048",
+        "03065003_e00049",
+        "03065003_e00050",
+        "03065003_e00051",
+        "03065003_e00052",
+        "03065003_e00053",
+        "03065003_e00054",
+        "03065003_e00055",
+        "03065003_e00056",
+        "03065003_e00057",
+        "03065003_e00058",
+        "03065003_e00059",
+        "03065003_e00060"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 32,
+        "spoken_count": 22,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 334
+      }
+    },
+    {
+      "scene_id": "03065003_s03",
+      "scene_no": 3,
+      "title": "第三场",
+      "page_start": 2,
+      "page_end": 2,
+      "characters": [
+        "董平",
+        "四下手"
+      ],
+      "event_ids": [
+        "03065003_e00061",
+        "03065003_e00062",
+        "03065003_e00063",
+        "03065003_e00064"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 4,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 44
+      }
+    },
+    {
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "title": "第四场",
+      "page_start": 2,
+      "page_end": 3,
+      "characters": [
+        "马腾",
+        "四文堂",
+        "马岱",
+        "董平"
+      ],
+      "event_ids": [
+        "03065003_e00065",
+        "03065003_e00066",
+        "03065003_e00067",
+        "03065003_e00068",
+        "03065003_e00069",
+        "03065003_e00070",
+        "03065003_e00071",
+        "03065003_e00072",
+        "03065003_e00073",
+        "03065003_e00074",
+        "03065003_e00075",
+        "03065003_e00076",
+        "03065003_e00077",
+        "03065003_e00078",
+        "03065003_e00079",
+        "03065003_e00080",
+        "03065003_e00081",
+        "03065003_e00082",
+        "03065003_e00083",
+        "03065003_e00084",
+        "03065003_e00085"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 174
+      }
+    },
+    {
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "title": "第五场",
+      "page_start": 3,
+      "page_end": 3,
+      "characters": [
+        "马超",
+        "马岱"
+      ],
+      "event_ids": [
+        "03065003_e00086",
+        "03065003_e00087",
+        "03065003_e00088",
+        "03065003_e00089",
+        "03065003_e00090",
+        "03065003_e00091",
+        "03065003_e00092",
+        "03065003_e00093",
+        "03065003_e00094",
+        "03065003_e00095",
+        "03065003_e00096",
+        "03065003_e00097",
+        "03065003_e00098",
+        "03065003_e00099",
+        "03065003_e00100",
+        "03065003_e00101",
+        "03065003_e00102",
+        "03065003_e00103",
+        "03065003_e00104",
+        "03065003_e00105",
+        "03065003_e00106"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 21,
+        "spoken_count": 13,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 3,
+        "expression_count": 0,
+        "text_length": 228
+      }
+    },
+    {
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "title": "第六场",
+      "page_start": 3,
+      "page_end": 4,
+      "characters": [
+        "庞德",
+        "马超",
+        "马岱",
+        "马童甲",
+        "四文堂",
+        "四上手"
+      ],
+      "event_ids": [
+        "03065003_e00107",
+        "03065003_e00108",
+        "03065003_e00109",
+        "03065003_e00110",
+        "03065003_e00111",
+        "03065003_e00112",
+        "03065003_e00113",
+        "03065003_e00114",
+        "03065003_e00115",
+        "03065003_e00116",
+        "03065003_e00117",
+        "03065003_e00118",
+        "03065003_e00119",
+        "03065003_e00120",
+        "03065003_e00121",
+        "03065003_e00122",
+        "03065003_e00123",
+        "03065003_e00124",
+        "03065003_e00125",
+        "03065003_e00126",
+        "03065003_e00127",
+        "03065003_e00128"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 22,
+        "spoken_count": 14,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 6,
+        "expression_count": 0,
+        "text_length": 302
+      }
+    },
+    {
+      "scene_id": "03065003_s07",
+      "scene_no": 7,
+      "title": "第七场",
+      "page_start": 4,
+      "page_end": 4,
+      "characters": [],
+      "event_ids": [],
+      "summary": "",
+      "metrics": {
+        "event_count": 0,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 0,
+        "expression_count": 0,
+        "text_length": 0
+      }
+    },
+    {
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "title": "第八场",
+      "page_start": 4,
+      "page_end": 5,
+      "characters": [
+        "徐晃",
+        "报子",
+        "四龙套",
+        "曹洪",
+        "龙套甲"
+      ],
+      "event_ids": [
+        "03065003_e00129",
+        "03065003_e00130",
+        "03065003_e00131",
+        "03065003_e00132",
+        "03065003_e00133",
+        "03065003_e00134",
+        "03065003_e00135",
+        "03065003_e00136",
+        "03065003_e00137",
+        "03065003_e00138",
+        "03065003_e00139",
+        "03065003_e00140",
+        "03065003_e00141",
+        "03065003_e00142",
+        "03065003_e00143",
+        "03065003_e00144",
+        "03065003_e00145",
+        "03065003_e00146",
+        "03065003_e00147",
+        "03065003_e00148",
+        "03065003_e00149",
+        "03065003_e00150",
+        "03065003_e00151",
+        "03065003_e00152",
+        "03065003_e00153",
+        "03065003_e00154",
+        "03065003_e00155",
+        "03065003_e00156",
+        "03065003_e00157",
+        "03065003_e00158",
+        "03065003_e00159",
+        "03065003_e00160",
+        "03065003_e00161",
+        "03065003_e00162",
+        "03065003_e00163",
+        "03065003_e00164"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 36,
+        "spoken_count": 25,
+        "aria_count": 0,
+        "recitation_count": 2,
+        "stage_direction_count": 8,
+        "expression_count": 0,
+        "text_length": 432
+      }
+    },
+    {
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "title": "第九场",
+      "page_start": 5,
+      "page_end": 5,
+      "characters": [
+        "庞德",
+        "曹洪"
+      ],
+      "event_ids": [
+        "03065003_e00165",
+        "03065003_e00166",
+        "03065003_e00167",
+        "03065003_e00168",
+        "03065003_e00169"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 5,
+        "spoken_count": 3,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 54
+      }
+    },
+    {
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "title": "第十场",
+      "page_start": 5,
+      "page_end": 5,
+      "characters": [
+        "马超",
+        "庞德",
+        "四文堂",
+        "曹洪"
+      ],
+      "event_ids": [
+        "03065003_e00170",
+        "03065003_e00171",
+        "03065003_e00172",
+        "03065003_e00173",
+        "03065003_e00174",
+        "03065003_e00175",
+        "03065003_e00176",
+        "03065003_e00177",
+        "03065003_e00178",
+        "03065003_e00179",
+        "03065003_e00180",
+        "03065003_e00181",
+        "03065003_e00182",
+        "03065003_e00183",
+        "03065003_e00184",
+        "03065003_e00185",
+        "03065003_e00186",
+        "03065003_e00187"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 18,
+        "spoken_count": 12,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 4,
+        "expression_count": 0,
+        "text_length": 190
+      }
+    },
+    {
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "title": "第十一场",
+      "page_start": 5,
+      "page_end": 8,
+      "characters": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "李典",
+        "于禁",
+        "曹操",
+        "许褚",
+        "徐晃",
+        "曹洪",
+        "马超",
+        "四文堂",
+        "四上手"
+      ],
+      "event_ids": [
+        "03065003_e00188",
+        "03065003_e00189",
+        "03065003_e00190",
+        "03065003_e00191",
+        "03065003_e00192",
+        "03065003_e00193",
+        "03065003_e00194",
+        "03065003_e00195",
+        "03065003_e00196",
+        "03065003_e00197",
+        "03065003_e00198",
+        "03065003_e00199",
+        "03065003_e00200",
+        "03065003_e00201",
+        "03065003_e00202",
+        "03065003_e00203",
+        "03065003_e00204",
+        "03065003_e00205",
+        "03065003_e00206",
+        "03065003_e00207",
+        "03065003_e00208",
+        "03065003_e00209",
+        "03065003_e00210",
+        "03065003_e00211",
+        "03065003_e00212",
+        "03065003_e00213",
+        "03065003_e00214",
+        "03065003_e00215",
+        "03065003_e00216",
+        "03065003_e00217",
+        "03065003_e00218",
+        "03065003_e00219",
+        "03065003_e00220",
+        "03065003_e00221",
+        "03065003_e00222",
+        "03065003_e00223",
+        "03065003_e00224",
+        "03065003_e00225",
+        "03065003_e00226",
+        "03065003_e00227",
+        "03065003_e00228",
+        "03065003_e00229",
+        "03065003_e00230",
+        "03065003_e00231",
+        "03065003_e00232",
+        "03065003_e00233",
+        "03065003_e00234",
+        "03065003_e00235",
+        "03065003_e00236",
+        "03065003_e00237",
+        "03065003_e00238",
+        "03065003_e00239",
+        "03065003_e00240",
+        "03065003_e00241",
+        "03065003_e00242"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 55,
+        "spoken_count": 44,
+        "aria_count": 0,
+        "recitation_count": 1,
+        "stage_direction_count": 7,
+        "expression_count": 0,
+        "text_length": 688
+      }
+    },
+    {
+      "scene_id": "03065003_s12",
+      "scene_no": 12,
+      "title": "第十二场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "四文堂",
+        "四上手",
+        "曹操"
+      ],
+      "event_ids": [
+        "03065003_e00243",
+        "03065003_e00244",
+        "03065003_e00245",
+        "03065003_e00246"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 4,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 199
+      }
+    },
+    {
+      "scene_id": "03065003_s13",
+      "scene_no": 13,
+      "title": "第十三场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [],
+      "event_ids": [],
+      "summary": "",
+      "metrics": {
+        "event_count": 0,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 0,
+        "expression_count": 0,
+        "text_length": 0
+      }
+    },
+    {
+      "scene_id": "03065003_s14",
+      "scene_no": 14,
+      "title": "第十四场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "四文堂",
+        "四上手",
+        "曹操"
+      ],
+      "event_ids": [
+        "03065003_e00247",
+        "03065003_e00248",
+        "03065003_e00249",
+        "03065003_e00250"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 4,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 2,
+        "expression_count": 0,
+        "text_length": 203
+      }
+    },
+    {
+      "scene_id": "03065003_s15",
+      "scene_no": 15,
+      "title": "第十五场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [],
+      "event_ids": [],
+      "summary": "",
+      "metrics": {
+        "event_count": 0,
+        "spoken_count": 0,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 0,
+        "expression_count": 0,
+        "text_length": 0
+      }
+    },
+    {
+      "scene_id": "03065003_s16",
+      "scene_no": 16,
+      "title": "第十六场",
+      "page_start": 8,
+      "page_end": 8,
+      "characters": [
+        "四文堂",
+        "四上手",
+        "曹操"
+      ],
+      "event_ids": [
+        "03065003_e00251",
+        "03065003_e00252",
+        "03065003_e00253"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 3,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 1,
+        "expression_count": 0,
+        "text_length": 310
+      }
+    },
+    {
+      "scene_id": "03065003_s17",
+      "scene_no": 17,
+      "title": "第十七场",
+      "page_start": 8,
+      "page_end": 9,
+      "characters": [
+        "马超",
+        "四文堂",
+        "四上手"
+      ],
+      "event_ids": [
+        "03065003_e00254",
+        "03065003_e00255",
+        "03065003_e00256"
+      ],
+      "summary": "",
+      "metrics": {
+        "event_count": 3,
+        "spoken_count": 2,
+        "aria_count": 0,
+        "recitation_count": 0,
+        "stage_direction_count": 1,
+        "expression_count": 0,
+        "text_length": 30
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "03065003_e00001",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 1,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套引曹操同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00002",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 2,
+      "seq_in_scene": 2,
+      "page_no": 1,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "袖内藏刀，位压群僚。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00003",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 3,
+      "seq_in_scene": 3,
+      "page_no": 1,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "眼看乾坤已破，一心想占山河。斩杀不由献帝，孙、刘已在掌握。",
+      "text_length": 29
+    },
+    {
+      "event_id": "03065003_e00004",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 4,
+      "seq_in_scene": 4,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫、曹操。昨晚仰观天象，那西凉马腾，非但有不顺老夫之意，反有害老夫之心。我不免请来夏侯渊、董平二将到此，一同商议，斩了马腾方好。",
+      "text_length": 65
+    },
+    {
+      "event_id": "03065003_e00005",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 5,
+      "seq_in_scene": 5,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00006",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 6,
+      "seq_in_scene": 6,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启丞相：二位将军到。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00007",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 7,
+      "seq_in_scene": 7,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00008",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 8,
+      "seq_in_scene": 8,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "有请。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00009",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 9,
+      "seq_in_scene": 9,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。夏侯渊、董平同上。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00010",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 10,
+      "seq_in_scene": 10,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "夏侯渊",
+        "董平"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00011",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 11,
+      "seq_in_scene": 11,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "二位将军请坐！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00012",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 12,
+      "seq_in_scene": 12,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "夏侯渊",
+        "董平"
+      ],
+      "text": "谢坐。提调我等，有何事议？",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00013",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 13,
+      "seq_in_scene": 13,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "昨晚老夫仰观天象，那西凉马腾，非但有不顺老夫之意，反有害老夫之心。我意欲斩了马腾方好。",
+      "text_length": 43
+    },
+    {
+      "event_id": "03065003_e00014",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 14,
+      "seq_in_scene": 14,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "末将倒有一计。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00015",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 15,
+      "seq_in_scene": 15,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "有何妙计？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00016",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 16,
+      "seq_in_scene": 16,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "丞相假传圣旨一道，命马腾调升潼关。再发金牌一面，命董平将军劫杀马腾。",
+      "text_length": 34
+    },
+    {
+      "event_id": "03065003_e00017",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 17,
+      "seq_in_scene": 17,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "言之有理。夏侯将军听命！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00018",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 18,
+      "seq_in_scene": 18,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00019",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 19,
+      "seq_in_scene": 19,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "命你假传圣旨，调马腾为潼关太守。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00020",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 20,
+      "seq_in_scene": 20,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00021",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 21,
+      "seq_in_scene": 21,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "董将军！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00022",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 22,
+      "seq_in_scene": 22,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "在。",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00023",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 23,
+      "seq_in_scene": 23,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "可持金牌拦路劫杀，取他首级，不得违误！",
+      "text_length": 19
+    },
+    {
+      "event_id": "03065003_e00024",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 24,
+      "seq_in_scene": 24,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00025",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 25,
+      "seq_in_scene": 25,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "夏侯渊",
+        "董平"
+      ],
+      "text": "带马！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00026",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 26,
+      "seq_in_scene": 26,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "夏侯渊、董平同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00027",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 27,
+      "seq_in_scene": 27,
+      "page_no": 1,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "马腾哪马腾！管叫你明枪容易躲，暗箭最难防！",
+      "text_length": 21
+    },
+    {
+      "event_id": "03065003_e00028",
+      "play_id": "03065003",
+      "scene_id": "03065003_s01",
+      "scene_no": 1,
+      "seq_global": 28,
+      "seq_in_scene": 28,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操、四龙套同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00029",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 29,
+      "seq_in_scene": 1,
+      "page_no": 1,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂引马腾同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00030",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 30,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "父子英雄将，奉王命，镇守西凉。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03065003_e00031",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 31,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "一口黄金印，令箭调三军。马踏花世界，与主保乾坤。",
+      "text_length": 24
+    },
+    {
+      "event_id": "03065003_e00032",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 32,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "老夫马腾。镇守西凉一带等处。我也曾命马岱前去运粮，为何不见到来？",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00033",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 33,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "马来！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00034",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 34,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马岱上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00035",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 35,
+      "seq_in_scene": 7,
+      "page_no": 2,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "将相本无种，男儿当自强。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00036",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 36,
+      "seq_in_scene": 8,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "参见父帅！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00037",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 37,
+      "seq_in_scene": 9,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "运粮之事，怎么样了？",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00038",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 38,
+      "seq_in_scene": 10,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "粮草催齐，请父帅查点。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00039",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 39,
+      "seq_in_scene": 11,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "我儿之功也。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00040",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 40,
+      "seq_in_scene": 12,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "圣旨下！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00041",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 41,
+      "seq_in_scene": 13,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "圣旨下！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00042",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 42,
+      "seq_in_scene": 14,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "香案接旨！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00043",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 43,
+      "seq_in_scene": 15,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "香案接旨！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00044",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 44,
+      "seq_in_scene": 16,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套引夏侯渊同上。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00045",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 45,
+      "seq_in_scene": 17,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "圣旨下！马腾跪听宣读！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00046",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 46,
+      "seq_in_scene": 18,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "万岁！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00047",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 47,
+      "seq_in_scene": 19,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马腾跪。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00048",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 48,
+      "seq_in_scene": 20,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "你父子镇守西凉有功，圣上见喜，封你为潼关太守，即刻上任。旨意读罢，望诏谢恩！",
+      "text_length": 38
+    },
+    {
+      "event_id": "03065003_e00049",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 49,
+      "seq_in_scene": 21,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "万万岁！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00050",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 50,
+      "seq_in_scene": 22,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马腾起。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00051",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 51,
+      "seq_in_scene": 23,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "大人捧旨前来，多受风霜之苦。",
+      "text_length": 14
+    },
+    {
+      "event_id": "03065003_e00052",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 52,
+      "seq_in_scene": 24,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "为国勤劳，何言辛苦！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00053",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 53,
+      "seq_in_scene": 25,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "与大人摆宴。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00054",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 54,
+      "seq_in_scene": 26,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "还要回朝交旨。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00055",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 55,
+      "seq_in_scene": 27,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "不敢久留。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00056",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 56,
+      "seq_in_scene": 28,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "夏侯渊"
+      ],
+      "text": "告辞。带马！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00057",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 57,
+      "seq_in_scene": 29,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "夏侯渊上马。四龙套、夏侯渊同下。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00058",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 58,
+      "seq_in_scene": 30,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "儿啊，适才圣旨到来，命为父调升潼关，加官受爵，即刻起程。来，与爷带马！",
+      "text_length": 35
+    },
+    {
+      "event_id": "03065003_e00059",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 59,
+      "seq_in_scene": 31,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00060",
+      "play_id": "03065003",
+      "scene_id": "03065003_s02",
+      "scene_no": 2,
+      "seq_global": 60,
+      "seq_in_scene": 32,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马腾上马，众人同下。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00061",
+      "play_id": "03065003",
+      "scene_id": "03065003_s03",
+      "scene_no": 3,
+      "seq_global": 61,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四下手引董平同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00062",
+      "play_id": "03065003",
+      "scene_id": "03065003_s03",
+      "scene_no": 3,
+      "seq_global": 62,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "俺、董平。奉了丞相之命，劫杀马腾。众将官，催马！",
+      "text_length": 24
+    },
+    {
+      "event_id": "03065003_e00063",
+      "play_id": "03065003",
+      "scene_id": "03065003_s03",
+      "scene_no": 3,
+      "seq_global": 63,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四下手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00064",
+      "play_id": "03065003",
+      "scene_id": "03065003_s03",
+      "scene_no": 3,
+      "seq_global": 64,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "董平、四下手同下。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00065",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 65,
+      "seq_in_scene": 1,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "内唱",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "有老夫在马上暗暗思想，",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00066",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 66,
+      "seq_in_scene": 2,
+      "page_no": 2,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、马岱、马腾同上。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00067",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 67,
+      "seq_in_scene": 3,
+      "page_no": 2,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "汉天子他待我恩重非常。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00068",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 68,
+      "seq_in_scene": 4,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "俺、马腾。圣旨封我潼关太守。众将官！",
+      "text_length": 18
+    },
+    {
+      "event_id": "03065003_e00069",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 69,
+      "seq_in_scene": 5,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "马岱"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00070",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 70,
+      "seq_in_scene": 6,
+      "page_no": 2,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "趱行者！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00071",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 71,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "马岱"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00072",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 72,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "揭鞭打马往前闯，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00073",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 73,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "金牌下！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00074",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 74,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00075",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 75,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "金牌到此为哪桩？",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00076",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 76,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "这般时候，哪里来的金牌？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00077",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 77,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "我儿躲在松林。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00078",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 78,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "遵命！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00079",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 79,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马岱下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00080",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 80,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "有请！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00081",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 81,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四下手引董平同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00082",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 82,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "马腾跪！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00083",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 83,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马腾"
+      ],
+      "text": "万岁！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00084",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 84,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "董平"
+      ],
+      "text": "只因你克扣军饷，圣上恼怒，斩你首级进京，接牌，看剑！",
+      "text_length": 26
+    },
+    {
+      "event_id": "03065003_e00085",
+      "play_id": "03065003",
+      "scene_id": "03065003_s04",
+      "scene_no": 4,
+      "seq_global": 85,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "董平斩马腾。四文堂同下。四下手、董平同下。",
+      "text_length": 21
+    },
+    {
+      "event_id": "03065003_e00086",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 86,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马超上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00087",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 87,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "马超"
+      ],
+      "text": "父祖功勋，历代簪缨。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00088",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 88,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "马超"
+      ],
+      "text": "历代功勋汉阁间，一身世业祖家传。我父执掌兵权印，威镇西凉半壁天。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00089",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 89,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "俺、马超。我父马腾，奉命镇守西凉一带。只因前日圣旨到来，宣我父进京，加官受爵。我父去后，这几日心惊肉战，不知为了何事？且等马岱回来，便知分晓。",
+      "text_length": 71
+    },
+    {
+      "event_id": "03065003_e00090",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 90,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马岱上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00091",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 91,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "参见兄长！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00092",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 92,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "回来了？",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00093",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 93,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "大事不好了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00094",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 94,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "何事惊慌？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00095",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 95,
+      "seq_in_scene": 10,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "只因曹操暗下假金牌，将父帅斩首道旁！",
+      "text_length": 18
+    },
+    {
+      "event_id": "03065003_e00096",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 96,
+      "seq_in_scene": 11,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "怎么讲？",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00097",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 97,
+      "seq_in_scene": 12,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "斩首道旁！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00098",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 98,
+      "seq_in_scene": 13,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "三叫头",
+      "speakers": [
+        "马超"
+      ],
+      "text": "爹爹！我父！哎呀！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00099",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 99,
+      "seq_in_scene": 14,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马超"
+      ],
+      "text": "听说爹爹把命丧，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00100",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 100,
+      "seq_in_scene": 15,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "爹爹呀！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00101",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 101,
+      "seq_in_scene": 16,
+      "page_no": 3,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马超"
+      ],
+      "text": "杀死我父为哪桩？",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00102",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 102,
+      "seq_in_scene": 17,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "马岱听令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00103",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 103,
+      "seq_in_scene": 18,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00104",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 104,
+      "seq_in_scene": 19,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "吩咐庞德全身披挂，校场听点！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03065003_e00105",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 105,
+      "seq_in_scene": 20,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00106",
+      "play_id": "03065003",
+      "scene_id": "03065003_s05",
+      "scene_no": 5,
+      "seq_global": 106,
+      "seq_in_scene": 21,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马超、马岱同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00107",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 107,
+      "seq_in_scene": 1,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞德上，起霸。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00108",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 108,
+      "seq_in_scene": 2,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "头戴金盔映日辉，身披铠甲抖雄威。两军扎下貔貅队，要把曹操魂魄追。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00109",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 109,
+      "seq_in_scene": 3,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "俺、庞德。奉了公子将令，校场听点。人马点齐，公子来也！",
+      "text_length": 27
+    },
+    {
+      "event_id": "03065003_e00110",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 110,
+      "seq_in_scene": 4,
+      "page_no": 3,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四上手、四文堂、四马童、马岱、马超同上。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03065003_e00111",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 111,
+      "seq_in_scene": 5,
+      "page_no": 3,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "马超"
+      ],
+      "text": "恼恨曹贼心不良，残杀忠良霸朝纲。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00112",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 112,
+      "seq_in_scene": 6,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "今日点兵与父报仇。马岱听令！",
+      "text_length": 14
+    },
+    {
+      "event_id": "03065003_e00113",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 113,
+      "seq_in_scene": 7,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00114",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 114,
+      "seq_in_scene": 8,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "兵马未动，粮草先行！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00115",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 115,
+      "seq_in_scene": 9,
+      "page_no": 3,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马岱"
+      ],
+      "text": "得令！带马！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00116",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 116,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马童甲"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00117",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 117,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马童甲带马。马岱上马，下。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00118",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 118,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "庞德听令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00119",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 119,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00120",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 120,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "命你攻打头阵！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00121",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 121,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "得令！带马！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00122",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 122,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马童甲"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00123",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 123,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "马童带。庞德上马，下。",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00124",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 124,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "爹爹呀爹爹！孩儿兴兵，与父报仇，但愿我父灵魂，暗地保佑。拿住曹操，俺要千刀万剐！",
+      "text_length": 40
+    },
+    {
+      "event_id": "03065003_e00125",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 125,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "〖牌子〗。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00126",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 126,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "众将官，起兵前往！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00127",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 127,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00128",
+      "play_id": "03065003",
+      "scene_id": "03065003_s06",
+      "scene_no": 6,
+      "seq_global": 128,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。（四下手、董平，四上手、四文堂、庞德自两边分上，会阵，同起打。庞德杀死董平。四下手同下，庞德、四上手、四文堂同追下。）",
+      "text_length": 64
+    },
+    {
+      "event_id": "03065003_e00129",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 129,
+      "seq_in_scene": 1,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套引徐晃同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00130",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 130,
+      "seq_in_scene": 2,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "辕门以外月儿高，马被雕鞍将挂袍。男儿若挂封侯印，斩将回来血染刀。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00131",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 131,
+      "seq_in_scene": 3,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "某，徐晃。昨日曹丞相有文到来，言说马超倒反西凉，叫我谨守城池。且听探马一报！",
+      "text_length": 38
+    },
+    {
+      "event_id": "03065003_e00132",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 132,
+      "seq_in_scene": 4,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00133",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 133,
+      "seq_in_scene": 5,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00134",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 134,
+      "seq_in_scene": 6,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "启报都督：马超倒反西凉！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00135",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 135,
+      "seq_in_scene": 7,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "再探！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00136",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 136,
+      "seq_in_scene": 8,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00137",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 137,
+      "seq_in_scene": 9,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00138",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 138,
+      "seq_in_scene": 10,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "众将官，免战高悬！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00139",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 139,
+      "seq_in_scene": 11,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四龙套"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00140",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 140,
+      "seq_in_scene": 12,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "嗯哼！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00141",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 141,
+      "seq_in_scene": 13,
+      "page_no": 4,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹洪上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00142",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 142,
+      "seq_in_scene": 14,
+      "page_no": 4,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "自幼生来胆气高，虎臂熊腰握宝刀。站立阵前人皆怕，三国之中逞英豪。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00143",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 143,
+      "seq_in_scene": 15,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "俺、曹洪。都督免战高悬，不免进帐问个明白。曹洪告进，参见都督！",
+      "text_length": 31
+    },
+    {
+      "event_id": "03065003_e00144",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 144,
+      "seq_in_scene": 16,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "将军请坐！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00145",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 145,
+      "seq_in_scene": 17,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "谢坐。",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00146",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 146,
+      "seq_in_scene": 18,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "将军进帐何事？",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00147",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 147,
+      "seq_in_scene": 19,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "都督为何免战高悬？",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00148",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 148,
+      "seq_in_scene": 20,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "只因马超倒反西凉，因此免战高悬。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00149",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 149,
+      "seq_in_scene": 21,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "都督赐俺一支将令，待俺单刀匹马，生擒马超进帐！",
+      "text_length": 23
+    },
+    {
+      "event_id": "03065003_e00150",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 150,
+      "seq_in_scene": 22,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "你如何是他人对手？",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00151",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 151,
+      "seq_in_scene": 23,
+      "page_no": 4,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "都督，你好小量人也！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00152",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 152,
+      "seq_in_scene": 24,
+      "page_no": 4,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "都督把话错来讲，长他志气理不当。马超纵有千员将，难逃某家刀下亡。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00153",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 153,
+      "seq_in_scene": 25,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "报！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00154",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 154,
+      "seq_in_scene": 26,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "报子上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00155",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 155,
+      "seq_in_scene": 27,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "报子"
+      ],
+      "text": "马超讨战！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00156",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 156,
+      "seq_in_scene": 28,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "啊！哎呀都督，快快传令！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00157",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 157,
+      "seq_in_scene": 29,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "等丞相大兵到此，再行交战。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00158",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 158,
+      "seq_in_scene": 30,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "你拿过来吧！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00159",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 159,
+      "seq_in_scene": 31,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹洪夺令箭。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00160",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 160,
+      "seq_in_scene": 32,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "将军去不得！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00161",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 161,
+      "seq_in_scene": 33,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "乱锤。曹洪下，徐晃、四龙套同追下。曹洪上，徐晃、四龙套同追上，曹洪下。",
+      "text_length": 35
+    },
+    {
+      "event_id": "03065003_e00162",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 162,
+      "seq_in_scene": 34,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "曹洪此去，必然大败，不免报与丞相。带马！",
+      "text_length": 20
+    },
+    {
+      "event_id": "03065003_e00163",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 163,
+      "seq_in_scene": 35,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "龙套甲"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00164",
+      "play_id": "03065003",
+      "scene_id": "03065003_s08",
+      "scene_no": 8,
+      "seq_global": 164,
+      "seq_in_scene": 36,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "龙套甲带马，徐晃上马，徐晃、四龙套同下。",
+      "text_length": 20
+    },
+    {
+      "event_id": "03065003_e00165",
+      "play_id": "03065003",
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "seq_global": 165,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四上手、庞德同上。四龙套、曹洪同上。",
+      "text_length": 22
+    },
+    {
+      "event_id": "03065003_e00166",
+      "play_id": "03065003",
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "seq_global": 166,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "来将通名！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00167",
+      "play_id": "03065003",
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "seq_global": 167,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "大将曹洪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00168",
+      "play_id": "03065003",
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "seq_global": 168,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "看刀！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00169",
+      "play_id": "03065003",
+      "scene_id": "03065003_s09",
+      "scene_no": 9,
+      "seq_global": 169,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞德、曹洪同起打，庞德败下，曹洪追下。",
+      "text_length": 19
+    },
+    {
+      "event_id": "03065003_e00170",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 170,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "内唱",
+      "speakers": [
+        "马超"
+      ],
+      "text": "胸中恶气冲霄汉，",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00171",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 171,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四文堂、四马童、马岱、马超同上。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00172",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 172,
+      "seq_in_scene": 3,
+      "page_no": 5,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "马超"
+      ],
+      "text": "威风凛凛人胆寒。催马来在疆场站，不杀曹贼心不甘。",
+      "text_length": 24
+    },
+    {
+      "event_id": "03065003_e00173",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 173,
+      "seq_in_scene": 4,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞德、四上手同上。",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00174",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 174,
+      "seq_in_scene": 5,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "庞德交令！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00175",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 175,
+      "seq_in_scene": 6,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "胜负如何？",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00176",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 176,
+      "seq_in_scene": 7,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "大败而回。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00177",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 177,
+      "seq_in_scene": 8,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "唗！未曾出兵，先打败仗，挫我锐气。来，扠入后队！",
+      "text_length": 24
+    },
+    {
+      "event_id": "03065003_e00178",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 178,
+      "seq_in_scene": 9,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "庞德"
+      ],
+      "text": "嘿！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00179",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 179,
+      "seq_in_scene": 10,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "庞德下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00180",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 180,
+      "seq_in_scene": 11,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "众将官！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00181",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 181,
+      "seq_in_scene": 12,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂"
+      ],
+      "text": "有！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00182",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 182,
+      "seq_in_scene": 13,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "杀上前去！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00183",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 183,
+      "seq_in_scene": 14,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00184",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 184,
+      "seq_in_scene": 15,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套引曹洪同上，会阵。",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00185",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 185,
+      "seq_in_scene": 16,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "来将通名！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00186",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 186,
+      "seq_in_scene": 17,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "大将曹洪。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00187",
+      "play_id": "03065003",
+      "scene_id": "03065003_s10",
+      "scene_no": 10,
+      "seq_global": 187,
+      "seq_in_scene": 18,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "看枪！（马超、曹洪同架住，四上手、四文堂、四马童、马岱、四龙套同攒下。马超、曹洪同起打，曹洪下，马超下。）",
+      "text_length": 53
+    },
+    {
+      "event_id": "03065003_e00188",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 188,
+      "seq_in_scene": 1,
+      "page_no": 5,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "张辽、夏侯惇、夏侯渊、曹仁、李典、于禁同上，同起霸。",
+      "text_length": 26
+    },
+    {
+      "event_id": "03065003_e00189",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 189,
+      "seq_in_scene": 2,
+      "page_no": 5,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "众位将军请了！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00190",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 190,
+      "seq_in_scene": 3,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "李典",
+        "于禁"
+      ],
+      "text": "请了！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00191",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 191,
+      "seq_in_scene": 4,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "张辽"
+      ],
+      "text": "丞相升帐，两厢伺候！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00192",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 192,
+      "seq_in_scene": 5,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "李典",
+        "于禁"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00193",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 193,
+      "seq_in_scene": 6,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "四龙套、四下手引曹操同上，许褚随上。",
+      "text_length": 18
+    },
+    {
+      "event_id": "03065003_e00194",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 194,
+      "seq_in_scene": 7,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "引子",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "志量如天高，鼓咚咚，旌旗飘缈。",
+      "text_length": 15
+    },
+    {
+      "event_id": "03065003_e00195",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 195,
+      "seq_in_scene": 8,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "李典",
+        "于禁"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00196",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 196,
+      "seq_in_scene": 9,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "众位将军少礼！站立两厢！",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00197",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 197,
+      "seq_in_scene": 10,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00198",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 198,
+      "seq_in_scene": 11,
+      "page_no": 6,
+      "type": "recitation",
+      "mode_label": "念",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "单眉细眼韬略藏，雄心争比日月光。可怜汉室气数尽，一心要学周文王。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00199",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 199,
+      "seq_in_scene": 12,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫、曹操。只因斩了马腾，他子马超倒反西凉。因此统领大兵十万，前去对敌。许褚！",
+      "text_length": 39
+    },
+    {
+      "event_id": "03065003_e00200",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 200,
+      "seq_in_scene": 13,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "许褚"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00201",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 201,
+      "seq_in_scene": 14,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "催军！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00202",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 202,
+      "seq_in_scene": 15,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "许褚"
+      ],
+      "text": "人马前行！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00203",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 203,
+      "seq_in_scene": 16,
+      "page_no": 6,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫兴兵谁敢当！赫赫威名天下扬。只因斩了马腾将，他子马超反西凉。",
+      "text_length": 32
+    },
+    {
+      "event_id": "03065003_e00204",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 204,
+      "seq_in_scene": 17,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "徐晃求见！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00205",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 205,
+      "seq_in_scene": 18,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "徐晃求见。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00206",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 206,
+      "seq_in_scene": 19,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "传他进来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00207",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 207,
+      "seq_in_scene": 20,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "丞相有令，徐晃进见。",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00208",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 208,
+      "seq_in_scene": 21,
+      "page_no": 6,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "徐晃上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00209",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 209,
+      "seq_in_scene": 22,
+      "page_no": 6,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "参见丞相！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00210",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 210,
+      "seq_in_scene": 23,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "命你镇守潼关，怎么样了？",
+      "text_length": 12
+    },
+    {
+      "event_id": "03065003_e00211",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 211,
+      "seq_in_scene": 24,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "潼关失守了！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00212",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 212,
+      "seq_in_scene": 25,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "界牌呢？",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00213",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 213,
+      "seq_in_scene": 26,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "丢失了！",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00214",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 214,
+      "seq_in_scene": 27,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "曹洪哪里去了？",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00215",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 215,
+      "seq_in_scene": 28,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "大战马超去了。",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00216",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 216,
+      "seq_in_scene": 29,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "速速披挂前来！",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00217",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 217,
+      "seq_in_scene": 30,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "徐晃"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00218",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 218,
+      "seq_in_scene": 31,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "徐晃下。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00219",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 219,
+      "seq_in_scene": 32,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "许褚，催军！",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00220",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 220,
+      "seq_in_scene": 33,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "许褚"
+      ],
+      "text": "人马前行！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00221",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 221,
+      "seq_in_scene": 34,
+      "page_no": 7,
+      "type": "other_vocal",
+      "mode_label": "唱",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "失落潼关与界牌，不由老夫怒满怀。",
+      "text_length": 16
+    },
+    {
+      "event_id": "03065003_e00222",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 222,
+      "seq_in_scene": 35,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "内白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "曹洪求见！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00223",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 223,
+      "seq_in_scene": 36,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "曹洪求见。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00224",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 224,
+      "seq_in_scene": 37,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "传他前来！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00225",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 225,
+      "seq_in_scene": 38,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "丞相有令，曹洪进见！",
+      "text_length": 10
+    },
+    {
+      "event_id": "03065003_e00226",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 226,
+      "seq_in_scene": 39,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹洪上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00227",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 227,
+      "seq_in_scene": 40,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹洪"
+      ],
+      "text": "参见丞相！死罪呀死罪！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00228",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 228,
+      "seq_in_scene": 41,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "唗！胆大曹洪，无有老夫将令，私自出兵！许褚！",
+      "text_length": 22
+    },
+    {
+      "event_id": "03065003_e00229",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 229,
+      "seq_in_scene": 42,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "许褚"
+      ],
+      "text": "在！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00230",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 230,
+      "seq_in_scene": 43,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "扠入后队！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00231",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 231,
+      "seq_in_scene": 44,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "许褚"
+      ],
+      "text": "得令！",
+      "text_length": 3
+    },
+    {
+      "event_id": "03065003_e00232",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 232,
+      "seq_in_scene": 45,
+      "page_no": 7,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "许褚、曹洪同下。",
+      "text_length": 8
+    },
+    {
+      "event_id": "03065003_e00233",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 233,
+      "seq_in_scene": 46,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "众将官，催动人马上城！",
+      "text_length": 11
+    },
+    {
+      "event_id": "03065003_e00234",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 234,
+      "seq_in_scene": 47,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "张辽",
+        "夏侯惇",
+        "夏侯渊",
+        "曹仁",
+        "于禁",
+        "李典"
+      ],
+      "text": "啊！（众人同走圆场。下场门设城。曹操领张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同上城。四文堂、四上手、四马童、庞德、马岱、马超同上。）",
+      "text_length": 74
+    },
+    {
+      "event_id": "03065003_e00235",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 235,
+      "seq_in_scene": 48,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "呔！城上何人？",
+      "text_length": 7
+    },
+    {
+      "event_id": "03065003_e00236",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 236,
+      "seq_in_scene": 49,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "老夫曹操。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00237",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 237,
+      "seq_in_scene": 50,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "众将官，四门攻打！",
+      "text_length": 9
+    },
+    {
+      "event_id": "03065003_e00238",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 238,
+      "seq_in_scene": 51,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00239",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 239,
+      "seq_in_scene": 52,
+      "page_no": 7,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "马超小儿不会用兵。众将官，开城，杀！（曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同出城。三通鼓。四文堂、四上手、四马童、庞德、马岱、马超、曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同会阵，曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同下。许褚、马超同开打，许褚败下。）",
+      "text_length": 160
+    },
+    {
+      "event_id": "03065003_e00240",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 240,
+      "seq_in_scene": 53,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "追杀曹操！",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00241",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 241,
+      "seq_in_scene": 54,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00242",
+      "play_id": "03065003",
+      "scene_id": "03065003_s11",
+      "scene_no": 11,
+      "seq_global": 242,
+      "seq_in_scene": 55,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    },
+    {
+      "event_id": "03065003_e00243",
+      "play_id": "03065003",
+      "scene_id": "03065003_s12",
+      "scene_no": 12,
+      "seq_global": 243,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操惊怕上。",
+      "text_length": 6
+    },
+    {
+      "event_id": "03065003_e00244",
+      "play_id": "03065003",
+      "scene_id": "03065003_s12",
+      "scene_no": 12,
+      "seq_global": 244,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "拿曹操！穿红袍的就是曹操。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00245",
+      "play_id": "03065003",
+      "scene_id": "03065003_s12",
+      "scene_no": 12,
+      "seq_global": 245,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "哎呀且住！三军们言道，穿红袍的就是曹操。这便怎么处？哎呀这……哎呀，有了！我将它脱下，逃命要紧。",
+      "text_length": 48
+    },
+    {
+      "event_id": "03065003_e00246",
+      "play_id": "03065003",
+      "scene_id": "03065003_s12",
+      "scene_no": 12,
+      "seq_global": 246,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操下马、脱袍、上马，下。（四文堂、四上手、四马童、庞德、马岱、马超、曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同上，同起打，曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同下，四文堂、四上手、四马童、庞德、马岱同追下，马超耍下。）",
+      "text_length": 132
+    },
+    {
+      "event_id": "03065003_e00247",
+      "play_id": "03065003",
+      "scene_id": "03065003_s14",
+      "scene_no": 14,
+      "seq_global": 247,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00248",
+      "play_id": "03065003",
+      "scene_id": "03065003_s14",
+      "scene_no": 14,
+      "seq_global": 248,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "拿曹操！长胡须的就是曹操。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00249",
+      "play_id": "03065003",
+      "scene_id": "03065003_s14",
+      "scene_no": 14,
+      "seq_global": 249,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "哎呀且住！三军们言道，长胡须的就是曹操，这便怎么处？哎呀这……哎呀，有了！我将它割将下去，逃命要紧。",
+      "text_length": 50
+    },
+    {
+      "event_id": "03065003_e00250",
+      "play_id": "03065003",
+      "scene_id": "03065003_s14",
+      "scene_no": 14,
+      "seq_global": 250,
+      "seq_in_scene": 4,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操下马、割须、上马，下。（曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同败上，四文堂、四上手、四马童、庞德、马岱、马超同追上，同起打，曹操、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同下，四文堂、四上手、四马童、庞德、马岱同追下，马超耍下。）",
+      "text_length": 136
+    },
+    {
+      "event_id": "03065003_e00251",
+      "play_id": "03065003",
+      "scene_id": "03065003_s16",
+      "scene_no": 16,
+      "seq_global": 251,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "曹操上。",
+      "text_length": 4
+    },
+    {
+      "event_id": "03065003_e00252",
+      "play_id": "03065003",
+      "scene_id": "03065003_s16",
+      "scene_no": 16,
+      "seq_global": 252,
+      "seq_in_scene": 2,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "内同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "拿曹操！割了胡须的是曹操。",
+      "text_length": 13
+    },
+    {
+      "event_id": "03065003_e00253",
+      "play_id": "03065003",
+      "scene_id": "03065003_s16",
+      "scene_no": 16,
+      "seq_global": 253,
+      "seq_in_scene": 3,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "曹操"
+      ],
+      "text": "放你妈的屁！哎呀且住！三军们言道，割了胡须的是曹操，这便怎么处？哎呀这……啊哈有了！现有令旗在此，我将它兜将起来，逃走了吧！（曹操下马、兜须、上马。马超上，刺一枪，曹洪上救曹操，曹操下，曹洪、马超同起打。四文堂、四上手、四马童、庞德、马岱同追下追上，张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同下下，马超率四马童、庞德、马岱同追下。）（许褚引四水手自下场门同上，曹操、曹洪、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同上，同上船，四文堂、四上手、四马童、庞德、马岱、马超同上，曹洪射一箭，曹操率曹洪、张辽、夏侯惇、夏侯渊、曹仁、于禁、李典、四龙套、四下手同下。）",
+      "text_length": 293
+    },
+    {
+      "event_id": "03065003_e00254",
+      "play_id": "03065003",
+      "scene_id": "03065003_s17",
+      "scene_no": 17,
+      "seq_global": 254,
+      "seq_in_scene": 1,
+      "page_no": 8,
+      "type": "spoken",
+      "mode_label": "白",
+      "speakers": [
+        "马超"
+      ],
+      "text": "哎呀且住！真乃天不灭曹！众将官，人马扎住潼关！",
+      "text_length": 23
+    },
+    {
+      "event_id": "03065003_e00255",
+      "play_id": "03065003",
+      "scene_id": "03065003_s17",
+      "scene_no": 17,
+      "seq_global": 255,
+      "seq_in_scene": 2,
+      "page_no": 9,
+      "type": "spoken",
+      "mode_label": "同白",
+      "speakers": [
+        "四文堂",
+        "四上手"
+      ],
+      "text": "啊！",
+      "text_length": 2
+    },
+    {
+      "event_id": "03065003_e00256",
+      "play_id": "03065003",
+      "scene_id": "03065003_s17",
+      "scene_no": 17,
+      "seq_global": 256,
+      "seq_in_scene": 3,
+      "page_no": 9,
+      "type": "stage_direction",
+      "mode_label": "stage_direction",
+      "speakers": [],
+      "text": "众人同下。",
+      "text_length": 5
+    }
+  ],
+  "roles_inferred": true
+}

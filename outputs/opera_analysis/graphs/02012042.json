@@ -1,0 +1,335 @@
+{
+  "play": {
+    "play_id": "02012042",
+    "title": "弓砚缘",
+    "pdf_name": "02012042_弓砚缘【六本】.pdf",
+    "group_id": "02000000",
+    "page_count": 5,
+    "scene_count": 6,
+    "speech_count": 99,
+    "character_count": 7,
+    "source_url": "https://scripts.xikao.com/play/02012042",
+    "source_date": "2023-04-03",
+    "synopsis_length": 70,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 87,
+      "singing": 8,
+      "recitation": 2,
+      "stage_action": 1
+    }
+  },
+  "metrics": {
+    "node_count": 7,
+    "edge_count": 15,
+    "density": 0.714286,
+    "avg_degree": 4.285714,
+    "avg_weighted_degree": 52.857143,
+    "max_edge_weight": 41,
+    "top_characters": [
+      {
+        "name": "纪献唐",
+        "hangdang": "净",
+        "speech_count": 47,
+        "degree": 5,
+        "weighted_degree": 145
+      },
+      {
+        "name": "中军",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 5,
+        "weighted_degree": 55
+      },
+      {
+        "name": "纪多文",
+        "hangdang": "武生",
+        "speech_count": 13,
+        "degree": 6,
+        "weighted_degree": 54
+      },
+      {
+        "name": "李尉",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 5,
+        "weighted_degree": 53
+      },
+      {
+        "name": "赵惠",
+        "hangdang": "未知",
+        "speech_count": 13,
+        "degree": 4,
+        "weighted_degree": 50
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "纪献唐",
+      "label": "纪献唐",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 47,
+      "text_length": 835,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 145,
+      "marker_category_counts": {
+        "spoken": 39,
+        "singing": 8
+      }
+    },
+    {
+      "id": "中军",
+      "label": "中军",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 148,
+      "scene_count": 3,
+      "degree": 5,
+      "weighted_degree": 55,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "纪多文",
+      "label": "纪多文",
+      "raw_role": "武生",
+      "hangdang": "武生",
+      "speech_count": 13,
+      "text_length": 223,
+      "scene_count": 4,
+      "degree": 6,
+      "weighted_degree": 54,
+      "marker_category_counts": {
+        "spoken": 11,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "李尉",
+      "label": "李尉",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 649,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 53,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 11
+      }
+    },
+    {
+      "id": "赵惠",
+      "label": "赵惠",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 13,
+      "text_length": 409,
+      "scene_count": 2,
+      "degree": 4,
+      "weighted_degree": 50,
+      "marker_category_counts": {
+        "spoken": 13
+      }
+    },
+    {
+      "id": "梅高",
+      "label": "梅高",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 6,
+      "scene_count": 1,
+      "degree": 4,
+      "weighted_degree": 8,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    },
+    {
+      "id": "四将",
+      "label": "四将",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 5,
+      "marker_category_counts": {
+        "stage_action": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "纪献唐",
+      "target": "赵惠",
+      "weight": 41,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 20,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "纪多文",
+      "target": "纪献唐",
+      "weight": 35,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 16,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "纪献唐",
+      "weight": 33,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "李尉",
+      "target": "纪献唐",
+      "weight": 33,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "李尉",
+      "weight": 11,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "纪多文",
+      "weight": 7,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "四将",
+      "target": "纪多文",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "source": "李尉",
+      "target": "赵惠",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "梅高",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "李尉",
+      "target": "纪多文",
+      "weight": 3,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_003",
+        "scene_006"
+      ]
+    },
+    {
+      "source": "梅高",
+      "target": "纪献唐",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "纪多文",
+      "target": "赵惠",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "中军",
+      "target": "赵惠",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "source": "李尉",
+      "target": "梅高",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "source": "梅高",
+      "target": "纪多文",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_003"
+      ]
+    }
+  ]
+}

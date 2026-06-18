@@ -1,0 +1,283 @@
+{
+  "play": {
+    "play_id": "01001011",
+    "title": "文昭关",
+    "pdf_name": "01001011_文昭关.pdf",
+    "group_id": "01000000",
+    "page_count": 7,
+    "scene_count": 7,
+    "speech_count": 153,
+    "character_count": 6,
+    "source_url": "http://scripts.xikao.com/play/01001011",
+    "source_date": "2018-08-23",
+    "synopsis_length": 201,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 4,
+      "spoken": 134,
+      "singing": 13,
+      "recitation": 2
+    }
+  },
+  "metrics": {
+    "node_count": 6,
+    "edge_count": 11,
+    "density": 0.733333,
+    "avg_degree": 3.666667,
+    "avg_weighted_degree": 100.333333,
+    "max_edge_weight": 129,
+    "top_characters": [
+      {
+        "name": "东皋公",
+        "hangdang": "未知",
+        "speech_count": 57,
+        "degree": 5,
+        "weighted_degree": 226
+      },
+      {
+        "name": "伍员",
+        "hangdang": "老生",
+        "speech_count": 42,
+        "degree": 3,
+        "weighted_degree": 153
+      },
+      {
+        "name": "皇甫讷",
+        "hangdang": "未知",
+        "speech_count": 24,
+        "degree": 5,
+        "weighted_degree": 94
+      },
+      {
+        "name": "米南适",
+        "hangdang": "净",
+        "speech_count": 17,
+        "degree": 3,
+        "weighted_degree": 67
+      },
+      {
+        "name": "四青袍",
+        "hangdang": "未知",
+        "speech_count": 8,
+        "degree": 3,
+        "weighted_degree": 35
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "东皋公",
+      "label": "东皋公",
+      "raw_role": "外",
+      "hangdang": "未知",
+      "speech_count": 57,
+      "text_length": 1116,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 226,
+      "marker_category_counts": {
+        "other": 2,
+        "spoken": 50,
+        "singing": 5
+      }
+    },
+    {
+      "id": "伍员",
+      "label": "伍员",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 42,
+      "text_length": 1285,
+      "scene_count": 4,
+      "degree": 3,
+      "weighted_degree": 153,
+      "marker_category_counts": {
+        "spoken": 35,
+        "singing": 6,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "皇甫讷",
+      "label": "皇甫讷",
+      "raw_role": "末",
+      "hangdang": "未知",
+      "speech_count": 24,
+      "text_length": 416,
+      "scene_count": 4,
+      "degree": 5,
+      "weighted_degree": 94,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 1,
+        "singing": 2,
+        "spoken": 20
+      }
+    },
+    {
+      "id": "米南适",
+      "label": "米南适",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 17,
+      "text_length": 260,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 67,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 16
+      }
+    },
+    {
+      "id": "四青袍",
+      "label": "四青袍",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 8,
+      "text_length": 74,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 35,
+      "marker_category_counts": {
+        "spoken": 8
+      }
+    },
+    {
+      "id": "童儿",
+      "label": "童儿",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 5,
+      "text_length": 23,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "spoken": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "东皋公",
+      "target": "伍员",
+      "weight": 129,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 63,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "东皋公",
+      "target": "皇甫讷",
+      "weight": 40,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 19,
+      "scenes": [
+        "scene_004",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "东皋公",
+      "target": "米南适",
+      "weight": 31,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 15,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "皇甫讷",
+      "target": "米南适",
+      "weight": 20,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_005",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "东皋公",
+      "target": "童儿",
+      "weight": 19,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "皇甫讷",
+      "weight": 19,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 9,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "米南适",
+      "weight": 16,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 7,
+      "scenes": [
+        "scene_005",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "四青袍",
+      "target": "皇甫讷",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_005",
+        "scene_007"
+      ]
+    },
+    {
+      "source": "东皋公",
+      "target": "四青袍",
+      "weight": 7,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "source": "伍员",
+      "target": "童儿",
+      "weight": 5,
+      "scene_cooccurrence": 3,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001",
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    {
+      "source": "皇甫讷",
+      "target": "童儿",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    }
+  ]
+}

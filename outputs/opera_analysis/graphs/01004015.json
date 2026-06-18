@@ -1,0 +1,195 @@
+{
+  "play": {
+    "play_id": "01004015",
+    "title": "新安驿",
+    "pdf_name": "01004015_新安驿.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 3,
+    "speech_count": 173,
+    "character_count": 4,
+    "source_url": "http://scripts.xikao.com/play/01004015",
+    "source_date": "2018-08-23",
+    "synopsis_length": 400,
+    "notes_length": 55,
+    "marker_category_counts": {
+      "other": 2,
+      "singing": 14,
+      "spoken": 153,
+      "recitation": 4
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 169.0,
+    "max_edge_weight": 72,
+    "top_characters": [
+      {
+        "name": "李氏",
+        "hangdang": "丑",
+        "speech_count": 55,
+        "degree": 3,
+        "weighted_degree": 208
+      },
+      {
+        "name": "赵美容",
+        "hangdang": "旦",
+        "speech_count": 43,
+        "degree": 3,
+        "weighted_degree": 172
+      },
+      {
+        "name": "罗雁",
+        "hangdang": "旦",
+        "speech_count": 39,
+        "degree": 3,
+        "weighted_degree": 162
+      },
+      {
+        "name": "周凤英",
+        "hangdang": "旦",
+        "speech_count": 36,
+        "degree": 3,
+        "weighted_degree": 134
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "李氏",
+      "label": "李氏",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 55,
+      "text_length": 1165,
+      "scene_count": 3,
+      "degree": 3,
+      "weighted_degree": 208,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 2,
+        "spoken": 51,
+        "singing": 1
+      }
+    },
+    {
+      "id": "赵美容",
+      "label": "赵美容",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 43,
+      "text_length": 601,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 172,
+      "marker_category_counts": {
+        "singing": 4,
+        "spoken": 38,
+        "other": 1
+      }
+    },
+    {
+      "id": "罗雁",
+      "label": "罗雁",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 39,
+      "text_length": 550,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 162,
+      "marker_category_counts": {
+        "spoken": 37,
+        "singing": 1,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "周凤英",
+      "label": "周凤英",
+      "raw_role": "旦",
+      "hangdang": "旦",
+      "speech_count": 36,
+      "text_length": 768,
+      "scene_count": 2,
+      "degree": 3,
+      "weighted_degree": 134,
+      "marker_category_counts": {
+        "singing": 8,
+        "spoken": 27,
+        "recitation": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "周凤英",
+      "target": "李氏",
+      "weight": 72,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "李氏",
+      "target": "罗雁",
+      "weight": 70,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 34,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "罗雁",
+      "target": "赵美容",
+      "weight": 68,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 33,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "李氏",
+      "target": "赵美容",
+      "weight": 66,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周凤英",
+      "target": "赵美容",
+      "weight": 38,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 18,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "周凤英",
+      "target": "罗雁",
+      "weight": 24,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    }
+  ]
+}

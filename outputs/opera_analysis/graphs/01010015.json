@@ -1,0 +1,490 @@
+{
+  "play": {
+    "play_id": "01010015",
+    "title": "荐诸葛",
+    "pdf_name": "01010015_荐诸葛.pdf",
+    "group_id": "01000000",
+    "page_count": 6,
+    "scene_count": 3,
+    "speech_count": 87,
+    "character_count": 8,
+    "source_url": "http://scripts.xikao.com/play/01010015",
+    "source_date": "2013-08-26",
+    "synopsis_length": 231,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 1,
+      "spoken": 56,
+      "recitation": 11,
+      "singing": 19
+    }
+  },
+  "metrics": {
+    "node_count": 8,
+    "edge_count": 28,
+    "density": 1.0,
+    "avg_degree": 7.0,
+    "avg_weighted_degree": 52.25,
+    "max_edge_weight": 66,
+    "top_characters": [
+      {
+        "name": "刘备",
+        "hangdang": "老生",
+        "speech_count": 26,
+        "degree": 7,
+        "weighted_degree": 114
+      },
+      {
+        "name": "徐庶",
+        "hangdang": "老生",
+        "speech_count": 22,
+        "degree": 7,
+        "weighted_degree": 96
+      },
+      {
+        "name": "张飞",
+        "hangdang": "净",
+        "speech_count": 14,
+        "degree": 7,
+        "weighted_degree": 66
+      },
+      {
+        "name": "四龙套",
+        "hangdang": "未知",
+        "speech_count": 9,
+        "degree": 7,
+        "weighted_degree": 46
+      },
+      {
+        "name": "赵云",
+        "hangdang": "小生",
+        "speech_count": 9,
+        "degree": 7,
+        "weighted_degree": 42
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "刘备",
+      "label": "刘备",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 26,
+      "text_length": 640,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 114,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 16,
+        "singing": 8
+      }
+    },
+    {
+      "id": "徐庶",
+      "label": "徐庶",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 22,
+      "text_length": 1163,
+      "scene_count": 3,
+      "degree": 7,
+      "weighted_degree": 96,
+      "marker_category_counts": {
+        "other": 1,
+        "recitation": 2,
+        "spoken": 12,
+        "singing": 7
+      }
+    },
+    {
+      "id": "张飞",
+      "label": "张飞",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 14,
+      "text_length": 173,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 66,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 10,
+        "singing": 2
+      }
+    },
+    {
+      "id": "四龙套",
+      "label": "四龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 9,
+      "text_length": 45,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 46,
+      "marker_category_counts": {
+        "spoken": 9
+      }
+    },
+    {
+      "id": "赵云",
+      "label": "赵云",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 9,
+      "text_length": 205,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 42,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 6,
+        "singing": 1
+      }
+    },
+    {
+      "id": "关羽",
+      "label": "关羽",
+      "raw_role": "红生",
+      "hangdang": "红生",
+      "speech_count": 4,
+      "text_length": 86,
+      "scene_count": 2,
+      "degree": 7,
+      "weighted_degree": 28,
+      "marker_category_counts": {
+        "recitation": 2,
+        "spoken": 1,
+        "singing": 1
+      }
+    },
+    {
+      "id": "下书人",
+      "label": "下书人",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 2,
+      "text_length": 108,
+      "scene_count": 1,
+      "degree": 7,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "recitation": 1,
+        "spoken": 1
+      }
+    },
+    {
+      "id": "龙套",
+      "label": "龙套",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 1,
+      "text_length": 2,
+      "scene_count": 1,
+      "degree": 7,
+      "weighted_degree": 11,
+      "marker_category_counts": {
+        "spoken": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "刘备",
+      "target": "徐庶",
+      "weight": 66,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 32,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "张飞",
+      "weight": 18,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 8,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "张飞",
+      "weight": 14,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "四龙套",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "赵云",
+      "weight": 12,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 5,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "赵云",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "赵云",
+      "weight": 10,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "张飞",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "张飞",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "徐庶",
+      "weight": 8,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 3,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "刘备",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "徐庶",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "赵云",
+      "weight": 6,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "张飞",
+      "target": "龙套",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "徐庶",
+      "weight": 4,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "四龙套",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "赵云",
+      "weight": 2,
+      "scene_cooccurrence": 2,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002",
+        "scene_003"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "关羽",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "刘备",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "四龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "徐庶",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "赵云",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "下书人",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "四龙套",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "徐庶",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "source": "赵云",
+      "target": "龙套",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_002"
+      ]
+    }
+  ]
+}

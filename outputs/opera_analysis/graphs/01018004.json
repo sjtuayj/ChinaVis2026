@@ -1,0 +1,87 @@
+{
+  "play": {
+    "play_id": "01018004",
+    "title": "望儿楼",
+    "pdf_name": "01018004_望儿楼.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 11,
+    "character_count": 2,
+    "source_url": "http://scripts.xikao.com/play/01018004",
+    "source_date": "2018-08-23",
+    "synopsis_length": 204,
+    "notes_length": 18,
+    "marker_category_counts": {
+      "other": 1,
+      "singing": 10
+    }
+  },
+  "metrics": {
+    "node_count": 2,
+    "edge_count": 1,
+    "density": 1.0,
+    "avg_degree": 1.0,
+    "avg_weighted_degree": 9.0,
+    "max_edge_weight": 9,
+    "top_characters": [
+      {
+        "name": "窦太真",
+        "hangdang": "老旦",
+        "speech_count": 8,
+        "degree": 1,
+        "weighted_degree": 9
+      },
+      {
+        "name": "李渊",
+        "hangdang": "老生",
+        "speech_count": 3,
+        "degree": 1,
+        "weighted_degree": 9
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "窦太真",
+      "label": "窦太真",
+      "raw_role": "老旦",
+      "hangdang": "老旦",
+      "speech_count": 8,
+      "text_length": 894,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "other": 1,
+        "singing": 7
+      }
+    },
+    {
+      "id": "李渊",
+      "label": "李渊",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 3,
+      "text_length": 102,
+      "scene_count": 1,
+      "degree": 1,
+      "weighted_degree": 9,
+      "marker_category_counts": {
+        "singing": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "李渊",
+      "target": "窦太真",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

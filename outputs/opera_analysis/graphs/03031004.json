@@ -1,0 +1,184 @@
+{
+  "play": {
+    "play_id": "03031004",
+    "title": "顶花砖",
+    "pdf_name": "03031004_顶花砖.pdf",
+    "group_id": "03000000",
+    "page_count": 7,
+    "scene_count": 1,
+    "speech_count": 238,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/03031004",
+    "source_date": "2023-10-05",
+    "synopsis_length": 66,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "spoken": 234,
+      "recitation": 1,
+      "other": 2,
+      "singing": 1
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 221.0,
+    "max_edge_weight": 225,
+    "top_characters": [
+      {
+        "name": "常天保",
+        "hangdang": "丑",
+        "speech_count": 107,
+        "degree": 3,
+        "weighted_degree": 381
+      },
+      {
+        "name": "常妻",
+        "hangdang": "花旦",
+        "speech_count": 73,
+        "degree": 3,
+        "weighted_degree": 285
+      },
+      {
+        "name": "周子清",
+        "hangdang": "小生",
+        "speech_count": 46,
+        "degree": 3,
+        "weighted_degree": 167
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 51
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "常天保",
+      "label": "常天保",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 107,
+      "text_length": 1883,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 381,
+      "marker_category_counts": {
+        "spoken": 105,
+        "recitation": 1,
+        "other": 1
+      }
+    },
+    {
+      "id": "常妻",
+      "label": "常妻",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 73,
+      "text_length": 1001,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 285,
+      "marker_category_counts": {
+        "spoken": 72,
+        "other": 1
+      }
+    },
+    {
+      "id": "周子清",
+      "label": "周子清",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 46,
+      "text_length": 514,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 167,
+      "marker_category_counts": {
+        "spoken": 45,
+        "singing": 1
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 12,
+      "text_length": 72,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 51,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "常天保",
+      "target": "常妻",
+      "weight": 225,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 112,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周子清",
+      "target": "常天保",
+      "weight": 107,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 53,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "周子清",
+      "target": "常妻",
+      "weight": 59,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 29,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "常天保",
+      "weight": 49,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 24,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "周子清",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "常妻",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

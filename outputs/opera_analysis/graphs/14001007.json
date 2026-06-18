@@ -1,0 +1,183 @@
+{
+  "play": {
+    "play_id": "14001007",
+    "title": "三击掌",
+    "pdf_name": "14001007_三击掌.pdf",
+    "group_id": "14000000",
+    "page_count": 4,
+    "scene_count": 1,
+    "speech_count": 65,
+    "character_count": 4,
+    "source_url": "https://scripts.xikao.com/play/14001007",
+    "source_date": "2023-04-03",
+    "synopsis_length": 154,
+    "notes_length": 0,
+    "marker_category_counts": {
+      "other": 2,
+      "spoken": 43,
+      "singing": 20
+    }
+  },
+  "metrics": {
+    "node_count": 4,
+    "edge_count": 6,
+    "density": 1.0,
+    "avg_degree": 3.0,
+    "avg_weighted_degree": 65.0,
+    "max_edge_weight": 101,
+    "top_characters": [
+      {
+        "name": "王宝钏",
+        "hangdang": "青衣",
+        "speech_count": 30,
+        "degree": 3,
+        "weighted_degree": 119
+      },
+      {
+        "name": "王允",
+        "hangdang": "老生",
+        "speech_count": 29,
+        "degree": 3,
+        "weighted_degree": 111
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      },
+      {
+        "name": "家院",
+        "hangdang": "未知",
+        "speech_count": 3,
+        "degree": 3,
+        "weighted_degree": 15
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "王宝钏",
+      "label": "王宝钏",
+      "raw_role": "青衣",
+      "hangdang": "青衣",
+      "speech_count": 30,
+      "text_length": 988,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 119,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 16,
+        "singing": 13
+      }
+    },
+    {
+      "id": "王允",
+      "label": "王允",
+      "raw_role": "老生",
+      "hangdang": "老生",
+      "speech_count": 29,
+      "text_length": 816,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 111,
+      "marker_category_counts": {
+        "other": 1,
+        "spoken": 21,
+        "singing": 7
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 26,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    },
+    {
+      "id": "家院",
+      "label": "家院",
+      "raw_role": null,
+      "hangdang": "未知",
+      "speech_count": 3,
+      "text_length": 23,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 15,
+      "marker_category_counts": {
+        "spoken": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "王允",
+      "target": "王宝钏",
+      "weight": 101,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 50,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王宝钏",
+      "weight": 13,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 6,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王允",
+      "weight": 9,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 4,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "家院",
+      "target": "王宝钏",
+      "weight": 5,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 2,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "家院",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "丫鬟",
+      "target": "王允",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}

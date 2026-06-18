@@ -1,0 +1,202 @@
+{
+  "play": {
+    "play_id": "01012006",
+    "title": "少华山",
+    "pdf_name": "01012006_少华山.pdf",
+    "group_id": "01000000",
+    "page_count": 3,
+    "scene_count": 1,
+    "speech_count": 71,
+    "character_count": 5,
+    "source_url": "http://scripts.xikao.com/play/01012006",
+    "source_date": "2018-08-23",
+    "synopsis_length": 348,
+    "notes_length": 59,
+    "marker_category_counts": {
+      "spoken": 64,
+      "singing": 4,
+      "recitation": 3
+    }
+  },
+  "metrics": {
+    "node_count": 5,
+    "edge_count": 6,
+    "density": 0.6,
+    "avg_degree": 2.4,
+    "avg_weighted_degree": 58.4,
+    "max_edge_weight": 71,
+    "top_characters": [
+      {
+        "name": "倪厚",
+        "hangdang": "小生",
+        "speech_count": 35,
+        "degree": 3,
+        "weighted_degree": 141
+      },
+      {
+        "name": "殷碧莲",
+        "hangdang": "花旦",
+        "speech_count": 18,
+        "degree": 3,
+        "weighted_degree": 75
+      },
+      {
+        "name": "喽罗",
+        "hangdang": "丑",
+        "speech_count": 12,
+        "degree": 3,
+        "weighted_degree": 49
+      },
+      {
+        "name": "大王",
+        "hangdang": "净",
+        "speech_count": 6,
+        "degree": 3,
+        "weighted_degree": 27
+      },
+      {
+        "name": "丫鬟",
+        "hangdang": "彩旦",
+        "speech_count": 0,
+        "degree": 0,
+        "weighted_degree": 0
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "倪厚",
+      "label": "倪厚",
+      "raw_role": "小生",
+      "hangdang": "小生",
+      "speech_count": 35,
+      "text_length": 626,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 141,
+      "marker_category_counts": {
+        "spoken": 31,
+        "singing": 2,
+        "recitation": 2
+      }
+    },
+    {
+      "id": "殷碧莲",
+      "label": "殷碧莲",
+      "raw_role": "花旦",
+      "hangdang": "花旦",
+      "speech_count": 18,
+      "text_length": 531,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 75,
+      "marker_category_counts": {
+        "spoken": 16,
+        "singing": 2
+      }
+    },
+    {
+      "id": "喽罗",
+      "label": "喽罗",
+      "raw_role": "丑",
+      "hangdang": "丑",
+      "speech_count": 12,
+      "text_length": 157,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 49,
+      "marker_category_counts": {
+        "spoken": 12
+      }
+    },
+    {
+      "id": "大王",
+      "label": "大王",
+      "raw_role": "净",
+      "hangdang": "净",
+      "speech_count": 6,
+      "text_length": 85,
+      "scene_count": 1,
+      "degree": 3,
+      "weighted_degree": 27,
+      "marker_category_counts": {
+        "spoken": 5,
+        "recitation": 1
+      }
+    },
+    {
+      "id": "丫鬟",
+      "label": "丫鬟",
+      "raw_role": "彩旦",
+      "hangdang": "彩旦",
+      "speech_count": 0,
+      "text_length": 0,
+      "scene_count": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "marker_category_counts": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "倪厚",
+      "target": "殷碧莲",
+      "weight": 71,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 35,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "倪厚",
+      "target": "喽罗",
+      "weight": 47,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 23,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "倪厚",
+      "target": "大王",
+      "weight": 23,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 11,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "大王",
+      "target": "殷碧莲",
+      "weight": 3,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "喽罗",
+      "target": "大王",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "source": "喽罗",
+      "target": "殷碧莲",
+      "weight": 1,
+      "scene_cooccurrence": 1,
+      "dialogue_turns": 0,
+      "scenes": [
+        "scene_001"
+      ]
+    }
+  ]
+}
